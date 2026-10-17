@@ -1,0 +1,288 @@
+{
+"student": null,
+"doctor": {
+"t": "show",
+"e": "🩺"
+},
+"nurse": null,
+"dentist": null,
+"patient": null,
+"home": {
+"t": "show",
+"e": "🏠"
+},
+"apartment": {
+"t": "show",
+"e": "🏢"
+},
+"room": null,
+"bedroom": {
+"t": "show",
+"e": "🛏"
+},
+"bathroom": {
+"t": "show",
+"e": "🛁"
+},
+"kitchen": null,
+"hallway": null,
+"entrance": {
+"t": "show",
+"e": "🚪"
+},
+"wall": null,
+"floor": null,
+"ceiling": null,
+"roof": null,
+"stairs": null,
+"step": null,
+"elevator": {
+"t": "show",
+"e": "🛗"
+},
+"balcony": null,
+"garage": null,
+"garden": null,
+"yard": null,
+"fence": null,
+"gate": null,
+"handle": null,
+"carpet": null,
+"curtain": null,
+"blind": null,
+"furniture": null,
+"table": null,
+"desk": null,
+"chair": {
+"t": "show",
+"e": "🪑"
+},
+"bench": null,
+"mattress": null,
+"pillow": null,
+"blanket": null,
+"sheet": null,
+"closet": null,
+"drawer": null,
+"shelf": null,
+"cabinet": null,
+"lamp": {
+"t": "show",
+"e": "💡"
+},
+"light": {
+"t": "show",
+"e": "💡"
+},
+"switch": null,
+"wire": null,
+"cable": null,
+"fan": null,
+"heater": null,
+"refrigerator": null,
+"freezer": null,
+"oven": null,
+"microwave": null,
+"stove": null,
+"toaster": null,
+"kettle": null,
+"vacuum": null,
+"iron": null,
+"towel": null,
+"tissue": null,
+"detergent": null,
+"food": {
+"t": "show",
+"e": "🍱"
+},
+"meal": {
+"t": "show",
+"e": "🍽"
+},
+"breakfast": {
+"t": "show",
+"e": "🍳"
+},
+"lunch": {
+"t": "show",
+"e": "🍱"
+},
+"dinner": {
+"t": "show",
+"e": "🍽"
+},
+"snack": {
+"t": "show",
+"e": "🍪"
+},
+"flour": null,
+"cereal": {
+"t": "show",
+"e": "🥣"
+},
+"cabbage": {
+"t": "show",
+"e": "🥬"
+},
+"spinach": null,
+"fruit": {
+"t": "show",
+"e": "🍇"
+},
+"nut": {
+"t": "show",
+"e": "🥜"
+},
+"beef": {
+"t": "show",
+"e": "🥩"
+},
+"pork": null,
+"seafood": {
+"t": "show",
+"e": "🦐"
+},
+"salmon": null,
+"tuna": null,
+"yogurt": null,
+"cream": null,
+"sugar": null,
+"pepper": null,
+"spice": null,
+"oil": null,
+"sauce": null,
+"cold": {
+"t": "mood",
+"mood": "sick"
+},
+"good": null,
+"bad": null,
+"great": null,
+"fine": null,
+"nice": null,
+"beautiful": null,
+"big": {
+"t": "compare",
+"e": "🏠",
+"e2": "🏠",
+"rel": "bigger"
+},
+"large": null,
+"small": null,
+"tall": {
+"t": "compare",
+"e": "🧍",
+"e2": "🧍",
+"rel": "high"
+},
+"short": null,
+"long": null,
+"low": null,
+"heavy": null,
+"strong": null,
+"weak": null,
+"hard": null,
+"soft": null,
+"hot": null,
+"warm": null,
+"new": null,
+"old": null,
+"young": null,
+"early": null,
+"late": null,
+"slow": null,
+"quick": null,
+"excited": {
+"t": "mood",
+"mood": "happy"
+},
+"bored": null,
+"interested": null,
+"nervous": {
+"t": "mood",
+"mood": "worried"
+},
+"sleepy": {
+"t": "mood",
+"mood": "tired"
+},
+"awake": null,
+"hungry": null,
+"thirsty": null,
+"full": null,
+"healthy": null,
+"safe": null,
+"dangerous": null,
+"free": null,
+"ready": null,
+"available": null,
+"kind": null,
+"careful": null,
+"serious": null,
+"funny": null,
+"smart": null,
+"quiet": null,
+"loud": null,
+"noisy": null,
+"important": null,
+"necessary": null,
+"useful": null,
+"possible": null,
+"impossible": null,
+"sure": null,
+"clear": null,
+"simple": null,
+"easy": null,
+"difficult": null,
+"basic": null,
+"correct": null,
+"wrong": null,
+"similar": {
+"t": "compare",
+"e": "👜",
+"e2": "👜",
+"rel": "same"
+},
+"different": null,
+"common": null,
+"special": null,
+"local": null,
+"public": null,
+"private": null,
+"then": null,
+"today": null,
+"yesterday": {
+"t": "time",
+"e": "🤝",
+"rel": "ago"
+},
+"tomorrow": {
+"t": "time",
+"e": "📞",
+"rel": "later"
+},
+"tonight": null,
+"yet": null,
+"still": {
+"t": "time",
+"e": "🌧",
+"rel": "still"
+},
+"just": null,
+"usually": null,
+"sometimes": null,
+"here": null,
+"there": null,
+"away": null,
+"together": null,
+"alone": null,
+"almost": null,
+"very": null,
+"too": null,
+"enough": null,
+"only": null,
+"also": null,
+"probably": null,
+"maybe": null,
+"really": null
+}
