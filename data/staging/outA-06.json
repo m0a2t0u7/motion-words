@@ -1,0 +1,1788 @@
+[
+  {
+    "src": "M0992",
+    "id": "combine",
+    "cat": "word",
+    "en": "combine",
+    "ipa": "/kəmˈbaɪn/",
+    "sense": "（複数のものを）組み合わせる",
+    "ja": "組み合わせる",
+    "ex": {
+      "en": "Combine the flour and the eggs in a bowl.",
+      "ja": "小麦粉と卵をボウルで混ぜ合わせてください。",
+      "mark": [
+        "Combine"
+      ]
+    },
+    "core": "別々のものを一つにまとめる感覚。",
+    "other": [
+      "（会社などが）合併する：The two companies combined."
+    ]
+  },
+  {
+    "src": "M0993",
+    "id": "include",
+    "cat": "word",
+    "en": "include",
+    "ipa": "/ɪnˈkluːd/",
+    "sense": "（全体の一部として）含む",
+    "ja": "含む",
+    "ex": {
+      "en": "The price includes breakfast.",
+      "ja": "料金には朝食が含まれています。",
+      "mark": [
+        "includes"
+      ]
+    },
+    "core": "全体の中に一部として取り込んでいる。",
+    "diff": "contain は容器などの中身、include は全体を構成する一部として含む。"
+  },
+  {
+    "src": "M0994",
+    "id": "contain",
+    "cat": "word",
+    "en": "contain",
+    "ipa": "/kənˈteɪn/",
+    "sense": "（中身として）含む、入っている",
+    "ja": "中に含む",
+    "ex": {
+      "en": "This box contains five old books.",
+      "ja": "この箱には古い本が5冊入っている。",
+      "mark": [
+        "contains"
+      ]
+    },
+    "core": "入れ物の中に中身が収まっている。",
+    "diff": "include は全体の一部として含む。contain は中に入っている中身を表す。",
+    "other": [
+      "（感情などを）抑える：contain one's anger"
+    ]
+  },
+  {
+    "src": "M0995",
+    "id": "consist",
+    "cat": "word",
+    "en": "consist",
+    "ipa": "/kənˈsɪst/",
+    "sense": "（of を伴い）〜から成り立つ",
+    "ja": "構成される",
+    "ex": {
+      "en": "The team consists of ten players.",
+      "ja": "そのチームは10人の選手で構成されている。",
+      "mark": [
+        "consists"
+      ]
+    },
+    "core": "いくつかの要素から成り立っている状態を表す。通常 consist of の形で使う。"
+  },
+  {
+    "src": "M0996",
+    "id": "depend",
+    "cat": "word",
+    "en": "depend",
+    "ipa": "/dɪˈpend/",
+    "sense": "（on を伴い）〜に頼る、〜次第である",
+    "ja": "頼る",
+    "ex": {
+      "en": "Children depend on their parents.",
+      "ja": "子どもは親に頼っている。",
+      "mark": [
+        "depend"
+      ]
+    },
+    "core": "何かに寄りかかって成り立つ感覚。通常 depend on の形で使う。",
+    "other": [
+      "（結果が）〜次第だ：It depends on the weather."
+    ]
+  },
+  {
+    "src": "M0997",
+    "id": "belong",
+    "cat": "word",
+    "en": "belong",
+    "ipa": "/bɪˈlɔːŋ/",
+    "sense": "（to を伴い）〜に属する、〜のものである",
+    "ja": "属する",
+    "ex": {
+      "en": "I belong to the tennis club.",
+      "ja": "私はテニス部に所属している。",
+      "mark": [
+        "belong"
+      ]
+    },
+    "core": "ある場所や集団、持ち主に結びついている状態。",
+    "other": [
+      "（物が）〜のものである：This bag belongs to me."
+    ]
+  },
+  {
+    "src": "M0998",
+    "id": "exist",
+    "cat": "word",
+    "en": "exist",
+    "ipa": "/ɪɡˈzɪst/",
+    "sense": "存在する",
+    "ja": "存在する",
+    "ex": {
+      "en": "Ghosts do not exist.",
+      "ja": "幽霊は存在しない。",
+      "mark": [
+        "exist"
+      ]
+    },
+    "core": "実際にそこにある、ある状態で在ること。"
+  },
+  {
+    "src": "M0999",
+    "id": "appear",
+    "cat": "word",
+    "en": "appear",
+    "ipa": "/əˈpɪr/",
+    "sense": "（姿が）現れる",
+    "ja": "現れる",
+    "ex": {
+      "en": "A rainbow appeared in the sky.",
+      "ja": "空に虹が現れた。",
+      "mark": [
+        "appeared"
+      ]
+    },
+    "core": "見えなかったものが見える状態になる。",
+    "diff": "show up は人が集まりなどに顔を出すこと。",
+    "other": [
+      "〜のように見える：He appears tired."
+    ]
+  },
+  {
+    "src": "M1000",
+    "id": "disappear",
+    "cat": "word",
+    "en": "disappear",
+    "ipa": "/ˌdɪsəˈpɪr/",
+    "sense": "（見えなくなって）消える",
+    "ja": "消える",
+    "ex": {
+      "en": "The cat disappeared under the sofa.",
+      "ja": "猫はソファの下に消えた。",
+      "mark": [
+        "disappeared"
+      ]
+    },
+    "core": "appear（現れる）の反対で、見えていたものが見えなくなる。"
+  },
+  {
+    "src": "M1001",
+    "id": "remain",
+    "cat": "word",
+    "en": "remain",
+    "ipa": "/rɪˈmeɪn/",
+    "sense": "（他がなくなった後に）残る",
+    "ja": "残る",
+    "ex": {
+      "en": "Only a few seats remain.",
+      "ja": "席はわずかしか残っていない。",
+      "mark": [
+        "remain"
+      ]
+    },
+    "core": "他のものがなくなっても、そこにとどまっている。",
+    "other": [
+      "〜のままである：Please remain seated."
+    ]
+  },
+  {
+    "src": "M1002",
+    "id": "happen",
+    "cat": "word",
+    "en": "happen",
+    "ipa": "/ˈhæpən/",
+    "sense": "（出来事が）起こる",
+    "ja": "起こる",
+    "ex": {
+      "en": "What happened to your arm?",
+      "ja": "腕をどうしたの？",
+      "mark": [
+        "happened"
+      ]
+    },
+    "core": "予想外のことを含め、出来事がふと起こる。",
+    "diff": "occur はややかたく、happen は日常的。",
+    "other": [
+      "たまたま〜する：I happened to see him."
+    ]
+  },
+  {
+    "src": "M1003",
+    "id": "occur",
+    "cat": "word",
+    "en": "occur",
+    "ipa": "/əˈkɜːr/",
+    "sense": "（事故や出来事が）発生する",
+    "ja": "発生する",
+    "ex": {
+      "en": "Accidents often occur on this road.",
+      "ja": "この道ではよく事故が起こる。",
+      "mark": [
+        "occur"
+      ]
+    },
+    "core": "ある時・場所で出来事が生じる。happen よりかたい語。",
+    "other": [
+      "（考えが）心に浮かぶ：An idea occurred to me."
+    ]
+  },
+  {
+    "src": "M1004",
+    "id": "cause",
+    "cat": "word",
+    "en": "cause",
+    "ipa": "/kɔːz/",
+    "sense": "（悪い結果などを）引き起こす",
+    "ja": "引き起こす",
+    "ex": {
+      "en": "Heavy rain caused a flood in the town.",
+      "ja": "大雨が町に洪水を引き起こした。",
+      "mark": [
+        "caused"
+      ]
+    },
+    "core": "ある原因が結果を生み出す。",
+    "other": [
+      "原因：the cause of the fire"
+    ]
+  },
+  {
+    "src": "M1005",
+    "id": "affect",
+    "cat": "word",
+    "en": "affect",
+    "ipa": "/əˈfekt/",
+    "sense": "影響を与える",
+    "ja": "影響する",
+    "ex": {
+      "en": "Lack of sleep affects your health.",
+      "ja": "睡眠不足は健康に影響する。",
+      "mark": [
+        "affects"
+      ]
+    },
+    "core": "あるものが別のものに作用して変化をもたらす。",
+    "diff": "affect は動詞（影響する）、effect は名詞（影響・効果）。"
+  },
+  {
+    "src": "M1006",
+    "id": "prevent",
+    "cat": "word",
+    "en": "prevent",
+    "ipa": "/prɪˈvent/",
+    "sense": "（起こらないように）防ぐ",
+    "ja": "防ぐ",
+    "ex": {
+      "en": "Wearing a helmet can prevent injuries.",
+      "ja": "ヘルメットをかぶるとけがを防げる。",
+      "mark": [
+        "prevent"
+      ]
+    },
+    "core": "何かが起こる前に手を打って止める。",
+    "other": [
+      "〜が…するのを妨げる：prevent him from going"
+    ]
+  },
+  {
+    "src": "M1007",
+    "id": "avoid",
+    "cat": "word",
+    "en": "avoid",
+    "ipa": "/əˈvɔɪd/",
+    "sense": "（避けて）近づかない、〜しないようにする",
+    "ja": "避ける",
+    "ex": {
+      "en": "I try to avoid eating too much sugar.",
+      "ja": "私は砂糖を食べすぎないようにしている。",
+      "mark": [
+        "avoid"
+      ]
+    },
+    "core": "困ったことや嫌なことから距離を置く。後ろには -ing を置く。"
+  },
+  {
+    "src": "M1008",
+    "id": "escape",
+    "cat": "word",
+    "en": "escape",
+    "ipa": "/ɪˈskeɪp/",
+    "sense": "（危険や場所から）逃げる",
+    "ja": "逃げる",
+    "ex": {
+      "en": "The prisoner escaped from the jail.",
+      "ja": "囚人が刑務所から脱走した。",
+      "mark": [
+        "escaped"
+      ]
+    },
+    "core": "閉じ込められたり危険な場所から抜け出す。"
+  },
+  {
+    "src": "M1009",
+    "id": "survive",
+    "cat": "word",
+    "en": "survive",
+    "ipa": "/sərˈvaɪv/",
+    "sense": "（危機を乗り越えて）生き延びる",
+    "ja": "生き延びる",
+    "ex": {
+      "en": "Only two people survived the accident.",
+      "ja": "その事故で助かったのは2人だけだった。",
+      "mark": [
+        "survived"
+      ]
+    },
+    "core": "死や危機に遭っても生き残る。"
+  },
+  {
+    "src": "M1010",
+    "id": "recover",
+    "cat": "word",
+    "en": "recover",
+    "ipa": "/rɪˈkʌvər/",
+    "sense": "（病気などから）回復する",
+    "ja": "回復する",
+    "ex": {
+      "en": "She recovered quickly from the flu.",
+      "ja": "彼女はインフルエンザから早く回復した。",
+      "mark": [
+        "recovered"
+      ]
+    },
+    "core": "悪い状態から元の状態へ戻る。",
+    "other": [
+      "（失ったものを）取り戻す：recover the lost bag"
+    ]
+  },
+  {
+    "src": "M1011",
+    "id": "suffer",
+    "cat": "word",
+    "en": "suffer",
+    "ipa": "/ˈsʌfər/",
+    "sense": "（病気や痛みで）苦しむ",
+    "ja": "苦しむ",
+    "ex": {
+      "en": "He suffers from a bad headache.",
+      "ja": "彼はひどい頭痛に苦しんでいる。",
+      "mark": [
+        "suffers"
+      ]
+    },
+    "core": "痛みや苦痛を身に受ける。多くは suffer from の形。"
+  },
+  {
+    "src": "M1012",
+    "id": "hurt",
+    "cat": "word",
+    "en": "hurt",
+    "ipa": "/hɜːrt/",
+    "sense": "（体の部分が）痛む",
+    "ja": "痛む",
+    "ex": {
+      "en": "My back hurts when I sit too long.",
+      "ja": "長く座っていると腰が痛む。",
+      "mark": [
+        "hurts"
+      ]
+    },
+    "core": "体や心に痛みを感じる。活用は hurt-hurt-hurt。",
+    "other": [
+      "（人を）傷つける：Her words hurt me."
+    ]
+  },
+  {
+    "src": "M1013",
+    "id": "heal",
+    "cat": "word",
+    "en": "heal",
+    "ipa": "/hiːl/",
+    "sense": "（傷や病気が）治る",
+    "ja": "治る",
+    "ex": {
+      "en": "The cut healed in a week.",
+      "ja": "切り傷は1週間で治った。",
+      "mark": [
+        "healed"
+      ]
+    },
+    "core": "傷が自然にふさがって元に戻る。",
+    "diff": "cure は病気を治療して治すこと。heal は傷や心が癒えること。"
+  },
+  {
+    "src": "M1014",
+    "id": "relax",
+    "cat": "word",
+    "en": "relax",
+    "ipa": "/rɪˈlæks/",
+    "sense": "くつろぐ、リラックスする",
+    "ja": "くつろぐ",
+    "ex": {
+      "en": "I relax by listening to music.",
+      "ja": "私は音楽を聴いてくつろぐ。",
+      "mark": [
+        "relax"
+      ]
+    },
+    "core": "張りつめた力がゆるむ。"
+  },
+  {
+    "src": "M1015",
+    "id": "worry",
+    "cat": "word",
+    "en": "worry",
+    "ipa": "/ˈwɜːri/",
+    "sense": "心配する",
+    "ja": "心配する",
+    "ex": {
+      "en": "Don't worry about the test.",
+      "ja": "テストのことは心配しないで。",
+      "mark": [
+        "worry"
+      ]
+    },
+    "core": "悪いことが起きないかと気にかける。",
+    "other": [
+      "（人を）心配させる：It worries me."
+    ]
+  },
+  {
+    "src": "M1016",
+    "id": "fear",
+    "cat": "word",
+    "en": "fear",
+    "ipa": "/fɪr/",
+    "sense": "（怖いものを）恐れる",
+    "ja": "恐れる",
+    "ex": {
+      "en": "Many people fear snakes.",
+      "ja": "多くの人はヘビを怖がる。",
+      "mark": [
+        "fear"
+      ]
+    },
+    "core": "怖いと感じる気持ちを持つ。名詞「恐怖」でもよく使う。",
+    "other": [
+      "恐怖：fear of heights"
+    ]
+  },
+  {
+    "src": "M1017",
+    "id": "regret",
+    "cat": "word",
+    "en": "regret",
+    "ipa": "/rɪˈɡret/",
+    "sense": "後悔する",
+    "ja": "後悔する",
+    "ex": {
+      "en": "I regret saying those words.",
+      "ja": "あんなことを言ったのを後悔している。",
+      "mark": [
+        "regret"
+      ]
+    },
+    "core": "過去にしたことを悔やむ。",
+    "other": [
+      "（残念ながら）〜しなければならない：I regret to tell you…"
+    ]
+  },
+  {
+    "src": "M1018",
+    "id": "miss",
+    "cat": "word",
+    "en": "miss",
+    "ipa": "/mɪs/",
+    "sense": "（会えない人を）恋しく思う",
+    "ja": "会えずに寂しく思う",
+    "ex": {
+      "en": "I miss my friends in Osaka.",
+      "ja": "大阪の友達に会えなくて寂しい。",
+      "mark": [
+        "miss"
+      ]
+    },
+    "core": "そこにいない人や物の不在を感じる。",
+    "other": [
+      "（乗り物に）乗り遅れる：miss the bus",
+      "（的を）外す：miss the ball"
+    ]
+  },
+  {
+    "src": "M1019",
+    "id": "satisfy",
+    "cat": "word",
+    "en": "satisfy",
+    "ipa": "/ˈsætɪsfaɪ/",
+    "sense": "満足させる",
+    "ja": "満足させる",
+    "ex": {
+      "en": "The result did not satisfy him.",
+      "ja": "その結果に彼は満足しなかった。",
+      "mark": [
+        "satisfy"
+      ]
+    },
+    "core": "望みや必要を十分に満たす。",
+    "other": [
+      "（条件を）満たす：satisfy the rule"
+    ]
+  },
+  {
+    "src": "M1020",
+    "id": "person",
+    "cat": "word",
+    "en": "person",
+    "ipa": "/ˈpɜːrsn/",
+    "sense": "（一人の）人",
+    "ja": "人",
+    "ex": {
+      "en": "She is a very kind person.",
+      "ja": "彼女はとても親切な人だ。",
+      "mark": [
+        "person"
+      ]
+    },
+    "core": "一人の人間を指す基本語。複数は people が普通。"
+  },
+  {
+    "src": "M1021",
+    "id": "people",
+    "cat": "word",
+    "en": "people",
+    "ipa": "/ˈpiːpl/",
+    "sense": "（複数の）人々",
+    "ja": "人々",
+    "ex": {
+      "en": "Many people came to the festival.",
+      "ja": "たくさんの人がお祭りに来た。",
+      "mark": [
+        "people"
+      ]
+    },
+    "core": "複数の人をまとめて指す。複数扱い。",
+    "other": [
+      "国民、民族：the Japanese people"
+    ]
+  },
+  {
+    "src": "M1022",
+    "id": "man",
+    "cat": "word",
+    "en": "man",
+    "ipa": "/mæn/",
+    "sense": "成人男性",
+    "ja": "成人男性",
+    "ex": {
+      "en": "A man was waiting at the bus stop.",
+      "ja": "一人の男性がバス停で待っていた。",
+      "mark": [
+        "man"
+      ]
+    },
+    "core": "大人の男性を指す。複数形は men。"
+  },
+  {
+    "src": "M1023",
+    "id": "woman",
+    "cat": "word",
+    "en": "woman",
+    "ipa": "/ˈwʊmən/",
+    "sense": "成人女性",
+    "ja": "成人女性",
+    "ex": {
+      "en": "The woman next to me was reading a book.",
+      "ja": "隣の女性は本を読んでいた。",
+      "mark": [
+        "woman"
+      ]
+    },
+    "core": "大人の女性を指す。複数形 women は発音が /ˈwɪmɪn/ になる。"
+  },
+  {
+    "src": "M1024",
+    "id": "child",
+    "cat": "word",
+    "en": "child",
+    "ipa": "/tʃaɪld/",
+    "sense": "子ども",
+    "ja": "子ども",
+    "ex": {
+      "en": "The child is playing in the park.",
+      "ja": "子どもが公園で遊んでいる。",
+      "mark": [
+        "child"
+      ]
+    },
+    "core": "幼い人を指す。複数形は children。",
+    "other": [
+      "（親から見た）子：She has two children."
+    ]
+  },
+  {
+    "src": "M1025",
+    "id": "baby",
+    "cat": "word",
+    "en": "baby",
+    "ipa": "/ˈbeɪbi/",
+    "sense": "赤ちゃん",
+    "ja": "赤ちゃん",
+    "ex": {
+      "en": "The baby fell asleep in my arms.",
+      "ja": "赤ちゃんは私の腕の中で眠った。",
+      "mark": [
+        "baby"
+      ]
+    },
+    "core": "生まれて間もない小さな子。"
+  },
+  {
+    "src": "M1026",
+    "id": "adult",
+    "cat": "word",
+    "en": "adult",
+    "ipa": "/əˈdʌlt/",
+    "sense": "大人",
+    "ja": "大人",
+    "ex": {
+      "en": "Adults pay more than children.",
+      "ja": "大人は子どもより料金が高い。",
+      "mark": [
+        "Adults"
+      ]
+    },
+    "core": "成長した人。名詞でも形容詞でも使う。"
+  },
+  {
+    "src": "M1027",
+    "id": "teenager",
+    "cat": "word",
+    "en": "teenager",
+    "ipa": "/ˈtiːneɪdʒər/",
+    "sense": "十代の若者",
+    "ja": "十代の若者",
+    "ex": {
+      "en": "My brother is a teenager now.",
+      "ja": "兄はもう十代だ。",
+      "mark": [
+        "teenager"
+      ]
+    },
+    "core": "13歳から19歳（-teen の付く年齢）の人。"
+  },
+  {
+    "src": "M1028",
+    "id": "boy",
+    "cat": "word",
+    "en": "boy",
+    "ipa": "/bɔɪ/",
+    "sense": "男の子",
+    "ja": "男の子",
+    "ex": {
+      "en": "The boy kicked the ball over the fence.",
+      "ja": "男の子はボールを柵の向こうへ蹴った。",
+      "mark": [
+        "boy"
+      ]
+    },
+    "core": "年少の男性。"
+  },
+  {
+    "src": "M1029",
+    "id": "girl",
+    "cat": "word",
+    "en": "girl",
+    "ipa": "/ɡɜːrl/",
+    "sense": "女の子",
+    "ja": "女の子",
+    "ex": {
+      "en": "The girl is drawing a picture.",
+      "ja": "女の子が絵を描いている。",
+      "mark": [
+        "girl"
+      ]
+    },
+    "core": "年少の女性。"
+  },
+  {
+    "src": "M1030",
+    "id": "family",
+    "cat": "word",
+    "en": "family",
+    "ipa": "/ˈfæməli/",
+    "sense": "家族",
+    "ja": "家族",
+    "ex": {
+      "en": "My family lives in Osaka.",
+      "ja": "私の家族は大阪に住んでいる。",
+      "mark": [
+        "family"
+      ]
+    },
+    "core": "親子やきょうだいなど、血縁や結婚でつながる人たち。"
+  },
+  {
+    "src": "M1031",
+    "id": "parent",
+    "cat": "word",
+    "en": "parent",
+    "ipa": "/ˈperənt/",
+    "sense": "親（父または母）",
+    "ja": "親",
+    "ex": {
+      "en": "Her parents are both teachers.",
+      "ja": "彼女の両親は二人とも教師だ。",
+      "mark": [
+        "parents"
+      ]
+    },
+    "core": "父親か母親のどちらか一人。複数形 parents は両親。"
+  },
+  {
+    "src": "M1032",
+    "id": "father",
+    "cat": "word",
+    "en": "father",
+    "ipa": "/ˈfɑːðər/",
+    "sense": "父親",
+    "ja": "父親",
+    "ex": {
+      "en": "My father works at a bank.",
+      "ja": "父は銀行で働いている。",
+      "mark": [
+        "father"
+      ]
+    },
+    "core": "男親。呼びかけでは Dad も使う。"
+  },
+  {
+    "src": "M1033",
+    "id": "mother",
+    "cat": "word",
+    "en": "mother",
+    "ipa": "/ˈmʌðər/",
+    "sense": "母親",
+    "ja": "母親",
+    "ex": {
+      "en": "My mother cooks dinner every day.",
+      "ja": "母は毎日夕食を作る。",
+      "mark": [
+        "mother"
+      ]
+    },
+    "core": "女親。呼びかけでは Mom も使う。"
+  },
+  {
+    "src": "M1034",
+    "id": "son",
+    "cat": "word",
+    "en": "son",
+    "ipa": "/sʌn/",
+    "sense": "息子",
+    "ja": "息子",
+    "ex": {
+      "en": "Their son is five years old.",
+      "ja": "彼らの息子は5歳だ。",
+      "mark": [
+        "son"
+      ]
+    },
+    "core": "親から見た男の子ども。"
+  },
+  {
+    "src": "M1035",
+    "id": "daughter",
+    "cat": "word",
+    "en": "daughter",
+    "ipa": "/ˈdɔːtər/",
+    "sense": "娘",
+    "ja": "娘",
+    "ex": {
+      "en": "Their daughter plays the violin.",
+      "ja": "彼らの娘はバイオリンを弾く。",
+      "mark": [
+        "daughter"
+      ]
+    },
+    "core": "親から見た女の子ども。"
+  },
+  {
+    "src": "M1036",
+    "id": "brother",
+    "cat": "word",
+    "en": "brother",
+    "ipa": "/ˈbrʌðər/",
+    "sense": "兄または弟",
+    "ja": "兄弟",
+    "ex": {
+      "en": "I have an older brother.",
+      "ja": "私には兄がいる。",
+      "mark": [
+        "brother"
+      ]
+    },
+    "core": "男のきょうだい。英語では兄・弟を区別せず、older / younger を付けて表す。"
+  },
+  {
+    "src": "M1037",
+    "id": "sister",
+    "cat": "word",
+    "en": "sister",
+    "ipa": "/ˈsɪstər/",
+    "sense": "姉または妹",
+    "ja": "姉妹",
+    "ex": {
+      "en": "My younger sister likes dancing.",
+      "ja": "妹はダンスが好きだ。",
+      "mark": [
+        "sister"
+      ]
+    },
+    "core": "女のきょうだい。older / younger を付けて姉・妹を区別する。"
+  },
+  {
+    "src": "M1038",
+    "id": "husband",
+    "cat": "word",
+    "en": "husband",
+    "ipa": "/ˈhʌzbənd/",
+    "sense": "夫",
+    "ja": "夫",
+    "ex": {
+      "en": "Her husband is a firefighter.",
+      "ja": "彼女の夫は消防士だ。",
+      "mark": [
+        "husband"
+      ]
+    },
+    "core": "結婚している男性の相手を指す。"
+  },
+  {
+    "src": "M1039",
+    "id": "wife",
+    "cat": "word",
+    "en": "wife",
+    "ipa": "/waɪf/",
+    "sense": "妻",
+    "ja": "妻",
+    "ex": {
+      "en": "His wife teaches English.",
+      "ja": "彼の妻は英語を教えている。",
+      "mark": [
+        "wife"
+      ]
+    },
+    "core": "結婚している女性の相手を指す。複数形は wives。"
+  },
+  {
+    "src": "M1040",
+    "id": "couple",
+    "cat": "word",
+    "en": "couple",
+    "ipa": "/ˈkʌpl/",
+    "sense": "（夫婦や恋人の）二人組",
+    "ja": "二人組",
+    "ex": {
+      "en": "The couple walked along the beach.",
+      "ja": "その二人は浜辺を歩いた。",
+      "mark": [
+        "couple"
+      ]
+    },
+    "core": "夫婦や恋人など、つながりのある二人。",
+    "other": [
+      "いくつか：a couple of days"
+    ]
+  },
+  {
+    "src": "M1041",
+    "id": "partner",
+    "cat": "word",
+    "en": "partner",
+    "ipa": "/ˈpɑːrtnər/",
+    "sense": "（一緒に行う）相手、パートナー",
+    "ja": "相手",
+    "ex": {
+      "en": "Find a partner and practice the dialogue.",
+      "ja": "相手を見つけて会話を練習しなさい。",
+      "mark": [
+        "partner"
+      ]
+    },
+    "core": "何かを一緒に行う相手。恋人や配偶者、仕事の仲間にも使う。"
+  },
+  {
+    "src": "M1042",
+    "id": "relative",
+    "cat": "word",
+    "en": "relative",
+    "ipa": "/ˈrelətɪv/",
+    "sense": "親戚",
+    "ja": "親戚",
+    "ex": {
+      "en": "Many relatives came to the wedding.",
+      "ja": "結婚式には親戚がたくさん来た。",
+      "mark": [
+        "relatives"
+      ]
+    },
+    "core": "血縁や婚姻でつながっている人。",
+    "other": [
+      "相対的な（形容詞）：relative size"
+    ]
+  },
+  {
+    "src": "M1043",
+    "id": "grandfather",
+    "cat": "word",
+    "en": "grandfather",
+    "ipa": "/ˈɡrænfɑːðər/",
+    "sense": "祖父",
+    "ja": "祖父",
+    "ex": {
+      "en": "My grandfather grows vegetables.",
+      "ja": "祖父は野菜を育てている。",
+      "mark": [
+        "grandfather"
+      ]
+    },
+    "core": "父または母の父。親しくは grandpa。"
+  },
+  {
+    "src": "M1044",
+    "id": "grandmother",
+    "cat": "word",
+    "en": "grandmother",
+    "ipa": "/ˈɡrænmʌðər/",
+    "sense": "祖母",
+    "ja": "祖母",
+    "ex": {
+      "en": "My grandmother makes great pickles.",
+      "ja": "祖母はおいしい漬物を作る。",
+      "mark": [
+        "grandmother"
+      ]
+    },
+    "core": "父または母の母。親しくは grandma。"
+  },
+  {
+    "src": "M1045",
+    "id": "grandchild",
+    "cat": "word",
+    "en": "grandchild",
+    "ipa": "/ˈɡræntʃaɪld/",
+    "sense": "孫",
+    "ja": "孫",
+    "ex": {
+      "en": "She has five grandchildren.",
+      "ja": "彼女には5人の孫がいる。",
+      "mark": [
+        "grandchildren"
+      ]
+    },
+    "core": "子どもの子ども。複数形は grandchildren。"
+  },
+  {
+    "src": "M1046",
+    "id": "uncle",
+    "cat": "word",
+    "en": "uncle",
+    "ipa": "/ˈʌŋkl/",
+    "sense": "おじ",
+    "ja": "おじ",
+    "ex": {
+      "en": "My uncle lives in Kyoto.",
+      "ja": "おじは京都に住んでいる。",
+      "mark": [
+        "uncle"
+      ]
+    },
+    "core": "父母の兄弟、またはおばの夫。"
+  },
+  {
+    "src": "M1047",
+    "id": "aunt",
+    "cat": "word",
+    "en": "aunt",
+    "ipa": "/ænt/",
+    "sense": "おば",
+    "ja": "おば",
+    "ex": {
+      "en": "My aunt sent me a present.",
+      "ja": "おばが私にプレゼントを送ってくれた。",
+      "mark": [
+        "aunt"
+      ]
+    },
+    "core": "父母の姉妹、またはおじの妻。"
+  },
+  {
+    "src": "M1048",
+    "id": "cousin",
+    "cat": "word",
+    "en": "cousin",
+    "ipa": "/ˈkʌzn/",
+    "sense": "いとこ",
+    "ja": "いとこ",
+    "ex": {
+      "en": "I played games with my cousin.",
+      "ja": "私はいとことゲームをした。",
+      "mark": [
+        "cousin"
+      ]
+    },
+    "core": "おじ・おばの子ども。"
+  },
+  {
+    "src": "M1049",
+    "id": "friend",
+    "cat": "word",
+    "en": "friend",
+    "ipa": "/frend/",
+    "sense": "友達",
+    "ja": "友達",
+    "ex": {
+      "en": "She is my best friend.",
+      "ja": "彼女は私の親友だ。",
+      "mark": [
+        "friend"
+      ]
+    },
+    "core": "互いに親しみを持つ間柄の人。",
+    "other": [
+      "〜と友達になる：make friends with him"
+    ]
+  },
+  {
+    "src": "M1050",
+    "id": "neighbor",
+    "cat": "word",
+    "en": "neighbor",
+    "ipa": "/ˈneɪbər/",
+    "sense": "隣人",
+    "ja": "隣人",
+    "ex": {
+      "en": "Our neighbor has a big dog.",
+      "ja": "うちの隣人は大きな犬を飼っている。",
+      "mark": [
+        "neighbor"
+      ]
+    },
+    "core": "近くに住んでいる人。"
+  },
+  {
+    "src": "M1051",
+    "id": "stranger",
+    "cat": "word",
+    "en": "stranger",
+    "ipa": "/ˈstreɪndʒər/",
+    "sense": "見知らぬ人",
+    "ja": "見知らぬ人",
+    "ex": {
+      "en": "Don't talk to strangers.",
+      "ja": "知らない人と話してはいけません。",
+      "mark": [
+        "strangers"
+      ]
+    },
+    "core": "知り合いではない人。"
+  },
+  {
+    "src": "M1052",
+    "id": "guest",
+    "cat": "word",
+    "en": "guest",
+    "ipa": "/ɡest/",
+    "sense": "（招かれた）客",
+    "ja": "客",
+    "ex": {
+      "en": "We have guests tonight.",
+      "ja": "今夜は来客がある。",
+      "mark": [
+        "guests"
+      ]
+    },
+    "core": "招かれて訪れる人やホテルの宿泊客。",
+    "diff": "customer は店で買う客。guest は招かれた客や宿泊客。"
+  },
+  {
+    "src": "M1053",
+    "id": "host",
+    "cat": "word",
+    "en": "host",
+    "ipa": "/hoʊst/",
+    "sense": "（客を迎える）主人、もてなす人",
+    "ja": "もてなす人",
+    "ex": {
+      "en": "Our host welcomed us at the door.",
+      "ja": "主人が玄関で私たちを迎えてくれた。",
+      "mark": [
+        "host"
+      ]
+    },
+    "core": "客を招いて迎える側の人。",
+    "other": [
+      "（番組の）司会者：a TV host"
+    ]
+  },
+  {
+    "src": "M1054",
+    "id": "visitor",
+    "cat": "word",
+    "en": "visitor",
+    "ipa": "/ˈvɪzɪtər/",
+    "sense": "訪問者",
+    "ja": "訪問者",
+    "ex": {
+      "en": "The museum gets many visitors.",
+      "ja": "その博物館には多くの来館者が訪れる。",
+      "mark": [
+        "visitors"
+      ]
+    },
+    "core": "ある場所や人を訪ねてくる人。"
+  },
+  {
+    "src": "M1055",
+    "id": "customer",
+    "cat": "word",
+    "en": "customer",
+    "ipa": "/ˈkʌstəmər/",
+    "sense": "（店の）顧客",
+    "ja": "顧客",
+    "ex": {
+      "en": "The shop has many regular customers.",
+      "ja": "その店には常連客が多い。",
+      "mark": [
+        "customers"
+      ]
+    },
+    "core": "店で商品やサービスを買う人。",
+    "diff": "guest は招待客。customer は買う側の客。"
+  },
+  {
+    "src": "M1056",
+    "id": "client",
+    "cat": "word",
+    "en": "client",
+    "ipa": "/ˈklaɪənt/",
+    "sense": "（専門家に頼む）依頼人",
+    "ja": "依頼人",
+    "ex": {
+      "en": "The lawyer met her client today.",
+      "ja": "弁護士は今日、依頼人と会った。",
+      "mark": [
+        "client"
+      ]
+    },
+    "core": "弁護士や設計士などの専門サービスを受ける人。",
+    "diff": "customer は商品を買う客、client は専門的な仕事を依頼する人。"
+  },
+  {
+    "src": "M1057",
+    "id": "member",
+    "cat": "word",
+    "en": "member",
+    "ipa": "/ˈmembər/",
+    "sense": "（団体の）一員、会員",
+    "ja": "会員",
+    "ex": {
+      "en": "He is a member of the chess club.",
+      "ja": "彼はチェス部の部員だ。",
+      "mark": [
+        "member"
+      ]
+    },
+    "core": "団体に所属している人。"
+  },
+  {
+    "src": "M1058",
+    "id": "leader",
+    "cat": "word",
+    "en": "leader",
+    "ipa": "/ˈliːdər/",
+    "sense": "指導者、リーダー",
+    "ja": "指導者",
+    "ex": {
+      "en": "She is a good leader.",
+      "ja": "彼女は優れたリーダーだ。",
+      "mark": [
+        "leader"
+      ]
+    },
+    "core": "集団を導く人。"
+  },
+  {
+    "src": "M1059",
+    "id": "team",
+    "cat": "word",
+    "en": "team",
+    "ipa": "/tiːm/",
+    "sense": "チーム",
+    "ja": "チーム",
+    "ex": {
+      "en": "Our team won the final game.",
+      "ja": "私たちのチームは決勝戦に勝った。",
+      "mark": [
+        "team"
+      ]
+    },
+    "core": "同じ目的のために一緒に動く人たち。"
+  },
+  {
+    "src": "M1060",
+    "id": "group",
+    "cat": "word",
+    "en": "group",
+    "ipa": "/ɡruːp/",
+    "sense": "集団、グループ",
+    "ja": "集団",
+    "ex": {
+      "en": "A group of students visited the museum.",
+      "ja": "生徒の一団が博物館を訪れた。",
+      "mark": [
+        "group"
+      ]
+    },
+    "core": "一か所にまとまった複数の人や物。"
+  },
+  {
+    "src": "M1061",
+    "id": "crowd",
+    "cat": "word",
+    "en": "crowd",
+    "ipa": "/kraʊd/",
+    "sense": "群衆",
+    "ja": "群衆",
+    "ex": {
+      "en": "A big crowd gathered at the station.",
+      "ja": "駅に大勢の人が集まった。",
+      "mark": [
+        "crowd"
+      ]
+    },
+    "core": "一か所に集まった大勢の人。"
+  },
+  {
+    "src": "M1062",
+    "id": "community",
+    "cat": "word",
+    "en": "community",
+    "ipa": "/kəˈmjuːnəti/",
+    "sense": "地域社会",
+    "ja": "地域社会",
+    "ex": {
+      "en": "The community came together to clean the park.",
+      "ja": "地域の人々が集まって公園を掃除した。",
+      "mark": [
+        "community"
+      ]
+    },
+    "core": "同じ地域や関心でつながる人々の集まり。"
+  },
+  {
+    "src": "M1063",
+    "id": "citizen",
+    "cat": "word",
+    "en": "citizen",
+    "ipa": "/ˈsɪtɪzn/",
+    "sense": "市民、国民",
+    "ja": "市民",
+    "ex": {
+      "en": "He became a citizen of Canada.",
+      "ja": "彼はカナダの市民権を得た。",
+      "mark": [
+        "citizen"
+      ]
+    },
+    "core": "ある国や都市の正式な一員。"
+  },
+  {
+    "src": "M1064",
+    "id": "resident",
+    "cat": "word",
+    "en": "resident",
+    "ipa": "/ˈrezɪdənt/",
+    "sense": "住民",
+    "ja": "住民",
+    "ex": {
+      "en": "Residents must separate their trash.",
+      "ja": "住民はごみを分別しなければならない。",
+      "mark": [
+        "Residents"
+      ]
+    },
+    "core": "ある場所に住んでいる人。"
+  },
+  {
+    "src": "M1065",
+    "id": "tourist",
+    "cat": "word",
+    "en": "tourist",
+    "ipa": "/ˈtʊrɪst/",
+    "sense": "観光客",
+    "ja": "観光客",
+    "ex": {
+      "en": "Many tourists visit Kyoto in spring.",
+      "ja": "春には多くの観光客が京都を訪れる。",
+      "mark": [
+        "tourists"
+      ]
+    },
+    "core": "観光のために旅行する人。"
+  },
+  {
+    "src": "M1066",
+    "id": "passenger",
+    "cat": "word",
+    "en": "passenger",
+    "ipa": "/ˈpæsɪndʒər/",
+    "sense": "乗客",
+    "ja": "乗客",
+    "ex": {
+      "en": "The passengers waited for the train.",
+      "ja": "乗客たちは電車を待った。",
+      "mark": [
+        "passengers"
+      ]
+    },
+    "core": "乗り物に乗っている運転者以外の人。"
+  },
+  {
+    "src": "M1067",
+    "id": "driver",
+    "cat": "word",
+    "en": "driver",
+    "ipa": "/ˈdraɪvər/",
+    "sense": "運転手",
+    "ja": "運転手",
+    "ex": {
+      "en": "The bus driver stopped at the corner.",
+      "ja": "バスの運転手は角で止まった。",
+      "mark": [
+        "driver"
+      ]
+    },
+    "core": "車などを運転する人。"
+  },
+  {
+    "src": "M1068",
+    "id": "pilot",
+    "cat": "word",
+    "en": "pilot",
+    "ipa": "/ˈpaɪlət/",
+    "sense": "操縦士",
+    "ja": "操縦士",
+    "ex": {
+      "en": "The pilot greeted the passengers.",
+      "ja": "機長が乗客にあいさつした。",
+      "mark": [
+        "pilot"
+      ]
+    },
+    "core": "飛行機を操縦する人。"
+  },
+  {
+    "src": "M1069",
+    "id": "captain",
+    "cat": "word",
+    "en": "captain",
+    "ipa": "/ˈkæptɪn/",
+    "sense": "（船の）船長",
+    "ja": "船長",
+    "ex": {
+      "en": "The captain steered the ship into the port.",
+      "ja": "船長は船を港へ進めた。",
+      "mark": [
+        "captain"
+      ]
+    },
+    "core": "船や飛行機の責任者。",
+    "other": [
+      "（チームの）主将：the team captain"
+    ]
+  },
+  {
+    "src": "M1070",
+    "id": "worker",
+    "cat": "word",
+    "en": "worker",
+    "ipa": "/ˈwɜːrkər/",
+    "sense": "労働者",
+    "ja": "労働者",
+    "ex": {
+      "en": "The workers are building a new bridge.",
+      "ja": "作業員たちが新しい橋を造っている。",
+      "mark": [
+        "workers"
+      ]
+    },
+    "core": "仕事をして働く人。"
+  },
+  {
+    "src": "M1071",
+    "id": "employee",
+    "cat": "word",
+    "en": "employee",
+    "ipa": "/ɪmˈplɔɪiː/",
+    "sense": "従業員",
+    "ja": "従業員",
+    "ex": {
+      "en": "The company has fifty employees.",
+      "ja": "その会社には従業員が50人いる。",
+      "mark": [
+        "employees"
+      ]
+    },
+    "core": "会社に雇われて働く人。",
+    "diff": "employer は雇う側。employee は雇われる側。"
+  },
+  {
+    "src": "M1072",
+    "id": "employer",
+    "cat": "word",
+    "en": "employer",
+    "ipa": "/ɪmˈplɔɪər/",
+    "sense": "雇用主",
+    "ja": "雇用主",
+    "ex": {
+      "en": "My employer gave me a day off.",
+      "ja": "雇用主は私に休みをくれた。",
+      "mark": [
+        "employer"
+      ]
+    },
+    "core": "人を雇って働かせる人や会社。"
+  },
+  {
+    "src": "M1073",
+    "id": "colleague",
+    "cat": "word",
+    "en": "colleague",
+    "ipa": "/ˈkɑːliːɡ/",
+    "sense": "（職場の）同僚",
+    "ja": "同僚",
+    "ex": {
+      "en": "I had lunch with a colleague.",
+      "ja": "私は同僚と昼食をとった。",
+      "mark": [
+        "colleague"
+      ]
+    },
+    "core": "同じ職場で働く仲間。"
+  },
+  {
+    "src": "M1074",
+    "id": "boss",
+    "cat": "word",
+    "en": "boss",
+    "ipa": "/bɔːs/",
+    "sense": "上司",
+    "ja": "上司",
+    "ex": {
+      "en": "My boss asked me to stay late.",
+      "ja": "上司が私に残業を頼んだ。",
+      "mark": [
+        "boss"
+      ]
+    },
+    "core": "職場で指示を出す立場の人。くだけた語。"
+  },
+  {
+    "src": "M1075",
+    "id": "manager",
+    "cat": "word",
+    "en": "manager",
+    "ipa": "/ˈmænɪdʒər/",
+    "sense": "管理職、支配人",
+    "ja": "管理職",
+    "ex": {
+      "en": "The manager checked the schedule.",
+      "ja": "店長は予定表を確認した。",
+      "mark": [
+        "manager"
+      ]
+    },
+    "core": "店や部署などを運営・管理する人。"
+  },
+  {
+    "src": "M1076",
+    "id": "director",
+    "cat": "word",
+    "en": "director",
+    "ipa": "/dəˈrektər/",
+    "sense": "（組織の）責任者",
+    "ja": "責任者",
+    "ex": {
+      "en": "The director opened the meeting.",
+      "ja": "責任者が会議を開始した。",
+      "mark": [
+        "director"
+      ]
+    },
+    "core": "組織や事業を指揮する人。",
+    "other": [
+      "（映画の）監督：a film director"
+    ]
+  },
+  {
+    "src": "M1077",
+    "id": "assistant",
+    "cat": "word",
+    "en": "assistant",
+    "ipa": "/əˈsɪstənt/",
+    "sense": "補佐役、助手",
+    "ja": "補佐役",
+    "ex": {
+      "en": "She works as an assistant in the lab.",
+      "ja": "彼女は研究室で助手として働いている。",
+      "mark": [
+        "assistant"
+      ]
+    },
+    "core": "人を助けて仕事を手伝う人。"
+  },
+  {
+    "src": "M1078",
+    "id": "secretary",
+    "cat": "word",
+    "en": "secretary",
+    "ipa": "/ˈsekrəteri/",
+    "sense": "秘書",
+    "ja": "秘書",
+    "ex": {
+      "en": "The secretary answered the phone.",
+      "ja": "秘書が電話に出た。",
+      "mark": [
+        "secretary"
+      ]
+    },
+    "core": "予定管理や事務で上司を支える人。"
+  },
+  {
+    "src": "M1079",
+    "id": "engineer",
+    "cat": "word",
+    "en": "engineer",
+    "ipa": "/ˌendʒɪˈnɪr/",
+    "sense": "技術者、エンジニア",
+    "ja": "技術者",
+    "ex": {
+      "en": "My uncle is an engineer at a car company.",
+      "ja": "おじは自動車会社の技術者だ。",
+      "mark": [
+        "engineer"
+      ]
+    },
+    "core": "機械や電気、ソフトなどを設計し作る専門家。"
+  },
+  {
+    "src": "M1080",
+    "id": "mechanic",
+    "cat": "word",
+    "en": "mechanic",
+    "ipa": "/məˈkænɪk/",
+    "sense": "整備士",
+    "ja": "整備士",
+    "ex": {
+      "en": "The mechanic fixed our car.",
+      "ja": "整備士が私たちの車を直してくれた。",
+      "mark": [
+        "mechanic"
+      ]
+    },
+    "core": "機械、特に車を点検し修理する人。"
+  },
+  {
+    "src": "M1081",
+    "id": "architect",
+    "cat": "word",
+    "en": "architect",
+    "ipa": "/ˈɑːrkɪtekt/",
+    "sense": "建築家",
+    "ja": "建築家",
+    "ex": {
+      "en": "The architect designed the new library.",
+      "ja": "建築家が新しい図書館を設計した。",
+      "mark": [
+        "architect"
+      ]
+    },
+    "core": "建物を設計する専門家。"
+  },
+  {
+    "src": "M1082",
+    "id": "designer",
+    "cat": "word",
+    "en": "designer",
+    "ipa": "/dɪˈzaɪnər/",
+    "sense": "デザイナー",
+    "ja": "デザイナー",
+    "ex": {
+      "en": "She is a fashion designer.",
+      "ja": "彼女はファッションデザイナーだ。",
+      "mark": [
+        "designer"
+      ]
+    },
+    "core": "服や製品などの形や見た目を考え出す人。"
+  },
+  {
+    "src": "M1083",
+    "id": "artist",
+    "cat": "word",
+    "en": "artist",
+    "ipa": "/ˈɑːrtɪst/",
+    "sense": "芸術家",
+    "ja": "芸術家",
+    "ex": {
+      "en": "The artist painted a portrait of the king.",
+      "ja": "その芸術家は王の肖像画を描いた。",
+      "mark": [
+        "artist"
+      ]
+    },
+    "core": "絵や彫刻など芸術作品をつくる人。"
+  },
+  {
+    "src": "M1084",
+    "id": "musician",
+    "cat": "word",
+    "en": "musician",
+    "ipa": "/mjuˈzɪʃn/",
+    "sense": "音楽家",
+    "ja": "音楽家",
+    "ex": {
+      "en": "The musician played the piano beautifully.",
+      "ja": "その音楽家はピアノを美しく演奏した。",
+      "mark": [
+        "musician"
+      ]
+    },
+    "core": "楽器の演奏や作曲を仕事にする人。"
+  },
+  {
+    "src": "M1085",
+    "id": "actor",
+    "cat": "word",
+    "en": "actor",
+    "ipa": "/ˈæktər/",
+    "sense": "俳優",
+    "ja": "俳優",
+    "ex": {
+      "en": "The actor won a big prize.",
+      "ja": "その俳優は大きな賞を受賞した。",
+      "mark": [
+        "actor"
+      ]
+    },
+    "core": "劇や映画で役を演じる人。女優も actor と呼ぶことが増えている。"
+  },
+  {
+    "src": "M1086",
+    "id": "writer",
+    "cat": "word",
+    "en": "writer",
+    "ipa": "/ˈraɪtər/",
+    "sense": "作家",
+    "ja": "作家",
+    "ex": {
+      "en": "The writer finished her new novel.",
+      "ja": "その作家は新しい小説を書き上げた。",
+      "mark": [
+        "writer"
+      ]
+    },
+    "core": "文章を書くことを仕事にする人。"
+  },
+  {
+    "src": "M1087",
+    "id": "journalist",
+    "cat": "word",
+    "en": "journalist",
+    "ipa": "/ˈdʒɜːrnəlɪst/",
+    "sense": "記者",
+    "ja": "記者",
+    "ex": {
+      "en": "The journalist interviewed the mayor.",
+      "ja": "記者は市長にインタビューした。",
+      "mark": [
+        "journalist"
+      ]
+    },
+    "core": "新聞やニュースのために取材し記事を書く人。"
+  },
+  {
+    "src": "M1088",
+    "id": "photographer",
+    "cat": "word",
+    "en": "photographer",
+    "ipa": "/fəˈtɑːɡrəfər/",
+    "sense": "写真家",
+    "ja": "写真家",
+    "ex": {
+      "en": "The photographer took pictures of birds.",
+      "ja": "写真家は鳥の写真を撮った。",
+      "mark": [
+        "photographer"
+      ]
+    },
+    "core": "写真を撮ることを仕事にする人。アクセントは第2音節。"
+  },
+  {
+    "src": "M1089",
+    "id": "teacher",
+    "cat": "word",
+    "en": "teacher",
+    "ipa": "/ˈtiːtʃər/",
+    "sense": "教師",
+    "ja": "教師",
+    "ex": {
+      "en": "My teacher gave us homework.",
+      "ja": "先生は私たちに宿題を出した。",
+      "mark": [
+        "teacher"
+      ]
+    },
+    "core": "学校などで教える人。"
+  },
+  {
+    "src": "M1090",
+    "id": "student",
+    "cat": "word",
+    "en": "student",
+    "ipa": "/ˈstuːdnt/",
+    "sense": "学生、生徒",
+    "ja": "学生",
+    "ex": {
+      "en": "The students are studying for the exam.",
+      "ja": "生徒たちは試験の勉強をしている。",
+      "mark": [
+        "students"
+      ]
+    },
+    "core": "学校で学ぶ人。"
+  },
+  {
+    "src": "M1091",
+    "id": "doctor",
+    "cat": "word",
+    "en": "doctor",
+    "ipa": "/ˈdɑːktər/",
+    "sense": "医師",
+    "ja": "医師",
+    "ex": {
+      "en": "You should see a doctor.",
+      "ja": "医者にかかったほうがいいよ。",
+      "mark": [
+        "doctor"
+      ]
+    },
+    "core": "病気やけがを診て治療する人。"
+  }
+]

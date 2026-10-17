@@ -1,7 +1,7 @@
 // オフラインでも使えるようにするキャッシュ。
 // 初回に「画面・全データ・全モーション・3D部品」をまとめて保存するので、電波が切れても連続再生が止まらない。
 // 版（VERSION）を上げると古いキャッシュは消える。教材を追加したら必ず上げる。
-const VERSION = 'v6-2026-10-17';
+const VERSION = 'v7-2026-10-17';
 const SHELL = [
   './',
   'index.html',
@@ -14,6 +14,7 @@ const SHELL = [
   'js/store.js',
   'js/ease.js',
   'js/kit2d.js',
+  'js/tpl.js',
   'js/kit3d.js',
   'vendor/three.js',
   'data/index.json',
@@ -29,7 +30,7 @@ async function precache() {
   // 一覧から、カテゴリ別データと全シーンを割り出して保存
   try {
     const idx = await (await fetch('data/index.json', { cache: 'reload' })).json();
-    const files = idx.cats.map((x) => `data/items/${x.id}.json`).concat(idx.items.filter((i) => i.motion).map((i) => `js/scenes/${i.id}.js`));
+    const files = idx.cats.map((x) => `data/items/${x.id}.json`).concat(idx.items.filter((i) => i.motion && i.motion !== 'tpl').map((i) => `js/scenes/${i.id}.js`));
     // 1件の失敗で全体を止めない
     await Promise.all(files.map((f) => c.add(f).catch(() => {})));
   } catch (e) {

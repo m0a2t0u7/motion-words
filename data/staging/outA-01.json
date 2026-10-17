@@ -1,0 +1,1829 @@
+[
+ {
+  "src": "M0121",
+  "id": "key-in",
+  "cat": "phrasal",
+  "en": "key in",
+  "ipa": "/ˌkiː ˈɪn/",
+  "sense": "（キーで）入力する",
+  "ja": "キー操作で入力する",
+  "ex": {
+   "en": "Please key in your PIN.",
+   "ja": "暗証番号を入力してください。",
+   "mark": [
+    "key in"
+   ]
+  },
+  "core": "キーを押して、データを機械の中（in）に入れる。",
+  "other": []
+ },
+ {
+  "src": "M0122",
+  "id": "read-out",
+  "cat": "phrasal",
+  "en": "read out",
+  "ipa": "/ˌriːd ˈaʊt/",
+  "sense": "声に出して読む",
+  "ja": "読み上げる",
+  "ex": {
+   "en": "The teacher read out the names.",
+   "ja": "先生は名前を読み上げた。",
+   "mark": [
+    "read out"
+   ]
+  },
+  "core": "文字を声にして外（out）へ出す。",
+  "other": []
+ },
+ {
+  "src": "M0123",
+  "id": "read-through",
+  "cat": "phrasal",
+  "en": "read through",
+  "ipa": "/ˌriːd ˈθruː/",
+  "sense": "（最初から最後まで）通して読む",
+  "ja": "通して読む",
+  "ex": {
+   "en": "Please read through the document carefully.",
+   "ja": "書類を最初から最後まで注意して読んでください。",
+   "mark": [
+    "read through"
+   ]
+  },
+  "core": "始めから終わりまで、通り抜ける（through）ように読む。",
+  "other": []
+ },
+ {
+  "src": "M0124",
+  "id": "look-through",
+  "cat": "phrasal",
+  "en": "look through",
+  "ipa": "/ˌlʊk ˈθruː/",
+  "sense": "ざっと目を通す",
+  "ja": "ざっと目を通す",
+  "ex": {
+   "en": "She looked through the report quickly.",
+   "ja": "彼女は報告書にざっと目を通した。",
+   "mark": [
+    "looked through"
+   ]
+  },
+  "core": "内容の中を順に通り抜けるように見ていく。",
+  "diff": "read through は丁寧に最後まで読むこと。look through はざっと見ること。",
+  "other": []
+ },
+ {
+  "src": "M0125",
+  "id": "check-over",
+  "cat": "phrasal",
+  "en": "check over",
+  "ipa": "/ˌtʃɛk ˈoʊvər/",
+  "sense": "ひと通り点検する",
+  "ja": "ひと通り点検する",
+  "ex": {
+   "en": "He checked over the bike before the trip.",
+   "ja": "彼は旅行の前に自転車をひと通り点検した。",
+   "mark": [
+    "checked over"
+   ]
+  },
+  "core": "全体にわたって（over）異常がないか確かめる。",
+  "other": []
+ },
+ {
+  "src": "M0129",
+  "id": "turn-in",
+  "cat": "phrasal",
+  "en": "turn in",
+  "ipa": "/ˌtɝːn ˈɪn/",
+  "sense": "（宿題などを）提出する",
+  "ja": "提出する",
+  "ex": {
+   "en": "Please turn in your report by Friday.",
+   "ja": "金曜日までにレポートを提出してください。",
+   "mark": [
+    "turn in"
+   ]
+  },
+  "core": "自分の手から相手の側（in）へ渡す。",
+  "other": [
+   "（米）寝る：I turn in at ten."
+  ]
+ },
+ {
+  "src": "M0130",
+  "id": "send-in",
+  "cat": "phrasal",
+  "en": "send in",
+  "ipa": "/ˌsɛnd ˈɪn/",
+  "sense": "（書類などを）送って提出する",
+  "ja": "送って提出する",
+  "ex": {
+   "en": "I sent in my application yesterday.",
+   "ja": "私は昨日、応募書類を送った。",
+   "mark": [
+    "sent in"
+   ]
+  },
+  "core": "提出先の中（in）へ届くように送る。",
+  "other": []
+ },
+ {
+  "src": "M0131",
+  "id": "work-out",
+  "cat": "phrasal",
+  "en": "work out",
+  "ipa": "/ˌwɝːk ˈaʊt/",
+  "sense": "運動する",
+  "ja": "運動する",
+  "ex": {
+   "en": "I work out at the gym twice a week.",
+   "ja": "私は週に2回ジムで運動している。",
+   "mark": [
+    "work out"
+   ]
+  },
+  "core": "体を動かして鍛える。",
+  "other": [
+   "（問題を）解く、解決する：work out a plan",
+   "（物事が）うまくいく：Things worked out."
+  ]
+ },
+ {
+  "src": "M0132",
+  "id": "warm-up",
+  "cat": "phrasal",
+  "en": "warm up",
+  "ipa": "/ˌwɔːrm ˈʌp/",
+  "sense": "準備運動をする",
+  "ja": "準備運動をする",
+  "ex": {
+   "en": "Let's warm up before the game.",
+   "ja": "試合の前に準備運動をしよう。",
+   "mark": [
+    "warm up"
+   ]
+  },
+  "core": "体の温度を上（up）げて、動きやすい状態にする。",
+  "other": [
+   "温まる：The room warmed up."
+  ]
+ },
+ {
+  "src": "M0133",
+  "id": "cool-down",
+  "cat": "phrasal",
+  "en": "cool down",
+  "ipa": "/ˌkuːl ˈdaʊn/",
+  "sense": "（運動後に）体を落ち着かせる",
+  "ja": "運動後に体を落ち着かせる",
+  "ex": {
+   "en": "Walk slowly to cool down after running.",
+   "ja": "走ったあとはゆっくり歩いて体を落ち着かせなさい。",
+   "mark": [
+    "cool down"
+   ]
+  },
+  "core": "高まった体の熱や動きを、下（down）げて落ち着かせる。",
+  "other": [
+   "（怒りなどが）静まる：Please cool down."
+  ]
+ },
+ {
+  "src": "M0134",
+  "id": "heat-up",
+  "cat": "phrasal",
+  "en": "heat up",
+  "ipa": "/ˌhiːt ˈʌp/",
+  "sense": "（食べ物などを）温める",
+  "ja": "温める",
+  "ex": {
+   "en": "I heated up the soup in a pot.",
+   "ja": "私はスープを鍋で温めた。",
+   "mark": [
+    "heated up"
+   ]
+  },
+  "core": "熱を加えて、温度を上（up）げる。",
+  "diff": "warm up は軽く温めること。heat up は熱くなるまで温めること。",
+  "other": []
+ },
+ {
+  "src": "M0135",
+  "id": "cool-off",
+  "cat": "phrasal",
+  "en": "cool off",
+  "ipa": "/ˌkuːl ˈɔːf/",
+  "sense": "涼む",
+  "ja": "涼む",
+  "ex": {
+   "en": "We sat under a tree to cool off.",
+   "ja": "私たちは涼むために木の下に座った。",
+   "mark": [
+    "cool off"
+   ]
+  },
+  "core": "暑さを体から離して（off）、体を冷やす。",
+  "other": []
+ },
+ {
+  "src": "M0136",
+  "id": "boil-over",
+  "cat": "phrasal",
+  "en": "boil over",
+  "ipa": "/ˌbɔɪl ˈoʊvər/",
+  "sense": "吹きこぼれる",
+  "ja": "吹きこぼれる",
+  "ex": {
+   "en": "The milk boiled over on the stove.",
+   "ja": "ミルクがコンロで吹きこぼれた。",
+   "mark": [
+    "boiled over"
+   ]
+  },
+  "core": "沸いた液体が縁を越えて（over）あふれる。",
+  "other": []
+ },
+ {
+  "src": "M0137",
+  "id": "boil-down",
+  "cat": "phrasal",
+  "en": "boil down",
+  "ipa": "/ˌbɔɪl ˈdaʊn/",
+  "sense": "煮詰まる",
+  "ja": "煮詰まる",
+  "ex": {
+   "en": "Boil down the sauce until it thickens.",
+   "ja": "とろみが出るまでソースを煮詰めてください。",
+   "mark": [
+    "Boil down"
+   ]
+  },
+  "core": "煮て水分が減り（down）、量が少なく濃くなる。",
+  "other": [
+   "要約すると〜になる：It boils down to money."
+  ]
+ },
+ {
+  "src": "M0138",
+  "id": "cut-up",
+  "cat": "phrasal",
+  "en": "cut up",
+  "ipa": "/ˌkʌt ˈʌp/",
+  "sense": "細かく切る",
+  "ja": "細かく切る",
+  "ex": {
+   "en": "Cut up the vegetables for the soup.",
+   "ja": "スープ用に野菜を細かく切ってください。",
+   "mark": [
+    "Cut up"
+   ]
+  },
+  "core": "一つの物を小さな片に切り分ける（up）。",
+  "other": []
+ },
+ {
+  "src": "M0139",
+  "id": "chop-up",
+  "cat": "phrasal",
+  "en": "chop up",
+  "ipa": "/ˌtʃɑːp ˈʌp/",
+  "sense": "刻む",
+  "ja": "刻む",
+  "ex": {
+   "en": "She chopped up an onion.",
+   "ja": "彼女は玉ねぎを刻んだ。",
+   "mark": [
+    "chopped up"
+   ]
+  },
+  "core": "包丁で何度も切って、細かくする。",
+  "other": []
+ },
+ {
+  "src": "M0140",
+  "id": "slice-up",
+  "cat": "phrasal",
+  "en": "slice up",
+  "ipa": "/ˌslaɪs ˈʌp/",
+  "sense": "薄切りにする",
+  "ja": "薄切りにする",
+  "ex": {
+   "en": "He sliced up the bread for breakfast.",
+   "ja": "彼は朝食用にパンを薄く切り分けた。",
+   "mark": [
+    "sliced up"
+   ]
+  },
+  "core": "薄い一枚ずつに切り分ける（up）。",
+  "other": []
+ },
+ {
+  "src": "M0141",
+  "id": "mix-up",
+  "cat": "phrasal",
+  "en": "mix up",
+  "ipa": "/ˌmɪks ˈʌp/",
+  "sense": "混ぜ合わせる",
+  "ja": "混ぜ合わせる",
+  "ex": {
+   "en": "Mix up the eggs and the milk in a bowl.",
+   "ja": "ボウルで卵と牛乳を混ぜ合わせてください。",
+   "mark": [
+    "Mix up"
+   ]
+  },
+  "core": "いくつかの材料を一つに混ぜる（up）。",
+  "other": [
+   "〜を取り違える：I mixed up the two names."
+  ]
+ },
+ {
+  "src": "M0142",
+  "id": "stir-in",
+  "cat": "phrasal",
+  "en": "stir in",
+  "ipa": "/ˌstɝː ˈɪn/",
+  "sense": "（かき混ぜながら）加える",
+  "ja": "混ぜ入れる",
+  "ex": {
+   "en": "Stir in the milk slowly.",
+   "ja": "牛乳をゆっくり混ぜ入れてください。",
+   "mark": [
+    "Stir in"
+   ]
+  },
+  "core": "加えた物をかき混ぜて、中（in）に溶け込ませる。",
+  "other": []
+ },
+ {
+  "src": "M0143",
+  "id": "pour-out",
+  "cat": "phrasal",
+  "en": "pour out",
+  "ipa": "/ˌpɔːr ˈaʊt/",
+  "sense": "（容器から）注ぐ",
+  "ja": "注ぎ出す",
+  "ex": {
+   "en": "She poured out water from the jug.",
+   "ja": "彼女は水差しから水を注いだ。",
+   "mark": [
+    "poured out"
+   ]
+  },
+  "core": "容器の中身を外（out）へ流し出す。",
+  "diff": "pour in は中へ注ぎ入れること。pour out は外へ注ぎ出すこと。",
+  "other": []
+ },
+ {
+  "src": "M0144",
+  "id": "pour-in",
+  "cat": "phrasal",
+  "en": "pour in",
+  "ipa": "/ˌpɔːr ˈɪn/",
+  "sense": "注ぎ入れる",
+  "ja": "注ぎ入れる",
+  "ex": {
+   "en": "Pour in the milk and stir.",
+   "ja": "牛乳を注ぎ入れてかき混ぜてください。",
+   "mark": [
+    "Pour in"
+   ]
+  },
+  "core": "液体を容器の中（in）へ流し込む。",
+  "diff": "pour out は外へ注ぎ出すこと。pour in は中へ注ぎ入れること。",
+  "other": []
+ },
+ {
+  "src": "M0145",
+  "id": "fill-up",
+  "cat": "phrasal",
+  "en": "fill up",
+  "ipa": "/ˌfɪl ˈʌp/",
+  "sense": "いっぱいにする",
+  "ja": "いっぱいにする",
+  "ex": {
+   "en": "Fill up the bottle with water.",
+   "ja": "ボトルを水でいっぱいにしてください。",
+   "mark": [
+    "Fill up"
+   ]
+  },
+  "core": "空いた所を、上（up）まで満たす。",
+  "other": [
+   "（車に）満タンに給油する：fill up the car"
+  ]
+ },
+ {
+  "src": "M0146",
+  "id": "eat-up",
+  "cat": "phrasal",
+  "en": "eat up",
+  "ipa": "/ˌiːt ˈʌp/",
+  "sense": "残さず食べる",
+  "ja": "残さず食べる",
+  "ex": {
+   "en": "Eat up your vegetables, please.",
+   "ja": "野菜を残さず食べてね。",
+   "mark": [
+    "Eat up"
+   ]
+  },
+  "core": "皿の上の物を、すっかり（up）食べきる。",
+  "other": []
+ },
+ {
+  "src": "M0147",
+  "id": "drink-up",
+  "cat": "phrasal",
+  "en": "drink up",
+  "ipa": "/ˌdrɪŋk ˈʌp/",
+  "sense": "飲み干す",
+  "ja": "飲み干す",
+  "ex": {
+   "en": "Drink up your milk before it gets warm.",
+   "ja": "ぬるくなる前に牛乳を飲み干しなさい。",
+   "mark": [
+    "Drink up"
+   ]
+  },
+  "core": "グラスの中身を、すっかり（up）飲みきる。",
+  "other": []
+ },
+ {
+  "src": "M0148",
+  "id": "eat-out",
+  "cat": "phrasal",
+  "en": "eat out",
+  "ipa": "/ˌiːt ˈaʊt/",
+  "sense": "外食する",
+  "ja": "外食する",
+  "ex": {
+   "en": "We eat out on Fridays.",
+   "ja": "私たちは金曜日に外食する。",
+   "mark": [
+    "eat out"
+   ]
+  },
+  "core": "家の外（out）で食事をする。",
+  "other": []
+ },
+ {
+  "src": "M0149",
+  "id": "take-away",
+  "cat": "phrasal",
+  "en": "take away",
+  "ipa": "/ˌteɪk əˈweɪ/",
+  "sense": "（料理を）持ち帰る",
+  "ja": "持ち帰る",
+  "ex": {
+   "en": "I'll take away two burgers, please.",
+   "ja": "ハンバーガーを2つ持ち帰りでお願いします。",
+   "mark": [
+    "take away"
+   ]
+  },
+  "core": "店から離れた所（away）へ持っていく。",
+  "diff": "主にイギリス英語。アメリカ英語では to go や take out と言う。",
+  "other": [
+   "〜を取り上げる：take away the knife"
+  ]
+ },
+ {
+  "src": "M0150",
+  "id": "cut-down",
+  "cat": "phrasal",
+  "en": "cut down",
+  "ipa": "/ˌkʌt ˈdaʊn/",
+  "sense": "（木などを）切り倒す",
+  "ja": "切り倒す",
+  "ex": {
+   "en": "They cut down the old tree.",
+   "ja": "彼らは古い木を切り倒した。",
+   "mark": [
+    "cut down"
+   ]
+  },
+  "core": "立っている物を切って、下（down）へ倒す。",
+  "other": [
+   "〜を減らす：cut down on sugar"
+  ]
+ },
+ {
+  "src": "M0403",
+  "id": "hit-the-nail-on-the-head",
+  "cat": "idiom",
+  "en": "hit the nail on the head",
+  "ipa": "/ˌhɪt ðə ˈneɪl ɑːn ðə ˈhɛd/",
+  "sense": "（言動が）核心を突く",
+  "ja": "核心を突く",
+  "ex": {
+   "en": "You hit the nail on the head.",
+   "ja": "まさにその通りだ。",
+   "mark": [
+    "hit the nail on the head"
+   ]
+  },
+  "core": "釘の頭に正確に当てるように、的の中心を言い当てる。",
+  "other": []
+ },
+ {
+  "src": "M0405",
+  "id": "once-in-a-blue-moon",
+  "cat": "idiom",
+  "en": "once in a blue moon",
+  "ipa": "/ˌwʌns ɪn ə ˌbluː ˈmuːn/",
+  "sense": "めったにない、ごくまれに",
+  "ja": "めったにない",
+  "ex": {
+   "en": "We eat out once in a blue moon.",
+   "ja": "私たちはめったに外食しない。",
+   "mark": [
+    "once in a blue moon"
+   ]
+  },
+  "core": "青い月が見られるほどまれなこと、という感覚。",
+  "other": []
+ },
+ {
+  "src": "M0406",
+  "id": "cost-an-arm-and-a-leg",
+  "cat": "idiom",
+  "en": "cost an arm and a leg",
+  "ipa": "/ˌkɔːst ən ˌɑːrm ən ə ˈlɛɡ/",
+  "sense": "非常に高価である",
+  "ja": "非常に高価である",
+  "ex": {
+   "en": "That bag cost an arm and a leg.",
+   "ja": "そのかばんはとても高かった。",
+   "mark": [
+    "cost an arm and a leg"
+   ]
+  },
+  "core": "腕や脚を差し出すほどの大きな代価がかかる、という感覚。",
+  "other": []
+ },
+ {
+  "src": "M0407",
+  "id": "spill-the-beans",
+  "cat": "idiom",
+  "en": "spill the beans",
+  "ipa": "/ˌspɪl ðə ˈbiːnz/",
+  "sense": "秘密をうっかり話す",
+  "ja": "秘密をうっかり話す",
+  "ex": {
+   "en": "Don't spill the beans about the party.",
+   "ja": "パーティーのことをうっかり話さないでね。",
+   "mark": [
+    "spill the beans"
+   ]
+  },
+  "core": "豆をこぼすように、隠していたことが外にもれる。",
+  "diff": "let the cat out of the bag もほぼ同じ意味。",
+  "other": []
+ },
+ {
+  "src": "M0408",
+  "id": "let-the-cat-out-of-the-bag",
+  "cat": "idiom",
+  "en": "let the cat out of the bag",
+  "ipa": "/lɛt ðə ˌkæt ˌaʊt əv ðə ˈbæɡ/",
+  "sense": "秘密を漏らす",
+  "ja": "秘密を漏らす",
+  "ex": {
+   "en": "Tom let the cat out of the bag about the gift.",
+   "ja": "トムが贈り物のことを口をすべらせてしまった。",
+   "mark": [
+    "let the cat out of the bag"
+   ]
+  },
+  "core": "袋の中に隠していた猫を出してしまうように、秘密がばれる。",
+  "other": []
+ },
+ {
+  "src": "M0409",
+  "id": "bite-the-bullet",
+  "cat": "idiom",
+  "en": "bite the bullet",
+  "ipa": "/ˌbaɪt ðə ˈbʊlɪt/",
+  "sense": "覚悟を決めて困難に取り組む",
+  "ja": "覚悟を決めて取り組む",
+  "ex": {
+   "en": "I had to bite the bullet and call him.",
+   "ja": "私は覚悟を決めて彼に電話するしかなかった。",
+   "mark": [
+    "bite the bullet"
+   ]
+  },
+  "core": "つらいことを歯を食いしばって受け止める。",
+  "other": []
+ },
+ {
+  "src": "M0410",
+  "id": "burn-the-midnight-oil",
+  "cat": "idiom",
+  "en": "burn the midnight oil",
+  "ipa": "/ˌbɝːn ðə ˌmɪdnaɪt ˈɔɪl/",
+  "sense": "遅くまで勉強や仕事をする",
+  "ja": "遅くまで勉強や仕事をする",
+  "ex": {
+   "en": "She burned the midnight oil to finish the report.",
+   "ja": "彼女は報告書を仕上げるため遅くまで働いた。",
+   "mark": [
+    "burned the midnight oil"
+   ]
+  },
+  "core": "ランプの油を燃やして、遅くまで明かりをともして作業する。",
+  "other": []
+ },
+ {
+  "src": "M0412",
+  "id": "cut-corners",
+  "cat": "idiom",
+  "en": "cut corners",
+  "ipa": "/ˌkʌt ˈkɔːrnərz/",
+  "sense": "必要な手順を省く",
+  "ja": "必要な手順を省く",
+  "ex": {
+   "en": "Don't cut corners on safety checks.",
+   "ja": "安全確認の手を抜いてはいけない。",
+   "mark": [
+    "cut corners"
+   ]
+  },
+  "core": "角を切って近道するように、手間や手順を省く。",
+  "other": []
+ },
+ {
+  "src": "M0413",
+  "id": "get-cold-feet",
+  "cat": "idiom",
+  "en": "get cold feet",
+  "ipa": "/ˌɡɛt ˌkoʊld ˈfiːt/",
+  "sense": "直前に怖じ気づく",
+  "ja": "直前に怖じ気づく",
+  "ex": {
+   "en": "He got cold feet before the speech.",
+   "ja": "彼はスピーチの直前に怖じ気づいた。",
+   "mark": [
+    "got cold feet"
+   ]
+  },
+  "core": "やる直前になって、不安で気持ちが引ける。",
+  "other": []
+ },
+ {
+  "src": "M0416",
+  "id": "keep-an-eye-on",
+  "cat": "idiom",
+  "en": "keep an eye on",
+  "ipa": "/ˌkiːp ən ˈaɪ ɑːn/",
+  "sense": "〜に注意して目を配る",
+  "ja": "注意して見守る",
+  "ex": {
+   "en": "Please keep an eye on the kids.",
+   "ja": "子どもたちから目を離さないでください。",
+   "mark": [
+    "keep an eye on"
+   ]
+  },
+  "core": "目（eye）をそちらへ向け続ける（keep）。",
+  "other": []
+ },
+ {
+  "src": "M0417",
+  "id": "keep-ones-fingers-crossed",
+  "cat": "idiom",
+  "en": "keep one's fingers crossed",
+  "ipa": "/ˌkiːp wʌnz ˌfɪŋɡərz ˈkrɔːst/",
+  "sense": "幸運を祈る",
+  "ja": "幸運を祈る",
+  "ex": {
+   "en": "I'll keep my fingers crossed for you.",
+   "ja": "あなたの幸運を祈っています。",
+   "mark": [
+    "keep my fingers crossed"
+   ]
+  },
+  "core": "指を交差させて幸運を祈るしぐさから。",
+  "other": []
+ },
+ {
+  "src": "M0418",
+  "id": "miss-the-boat",
+  "cat": "idiom",
+  "en": "miss the boat",
+  "ipa": "/ˌmɪs ðə ˈboʊt/",
+  "sense": "機会を逃す",
+  "ja": "機会を逃す",
+  "ex": {
+   "en": "If you wait too long, you'll miss the boat.",
+   "ja": "待ちすぎると機会を逃すよ。",
+   "mark": [
+    "miss the boat"
+   ]
+  },
+  "core": "船に乗り遅れるように、好機を逃す。",
+  "other": []
+ },
+ {
+  "src": "M0420",
+  "id": "out-of-the-blue",
+  "cat": "idiom",
+  "en": "out of the blue",
+  "ipa": "/ˌaʊt əv ðə ˈbluː/",
+  "sense": "突然、思いがけなく",
+  "ja": "突然、思いがけなく",
+  "ex": {
+   "en": "He called me out of the blue.",
+   "ja": "彼から突然電話がかかってきた。",
+   "mark": [
+    "out of the blue"
+   ]
+  },
+  "core": "青空から急に何かが降ってくるような、予期せぬ出来事。",
+  "other": []
+ },
+ {
+  "src": "M0421",
+  "id": "pull-someones-leg",
+  "cat": "idiom",
+  "en": "pull someone's leg",
+  "ipa": "/ˌpʊl ˌsʌmwʌnz ˈlɛɡ/",
+  "sense": "冗談でからかう",
+  "ja": "冗談でからかう",
+  "ex": {
+   "en": "Are you pulling my leg?",
+   "ja": "冗談を言っているの？",
+   "mark": [
+    "pulling my leg"
+   ]
+  },
+  "core": "相手の脚を引っぱるように、軽くかついで楽しむ。",
+  "other": []
+ },
+ {
+  "src": "M0422",
+  "id": "see-eye-to-eye",
+  "cat": "idiom",
+  "en": "see eye to eye",
+  "ipa": "/ˌsiː ˌaɪ tə ˈaɪ/",
+  "sense": "意見が一致する",
+  "ja": "意見が一致する",
+  "ex": {
+   "en": "We don't always see eye to eye.",
+   "ja": "私たちはいつも意見が合うわけではない。",
+   "mark": [
+    "see eye to eye"
+   ]
+  },
+  "core": "互いに目と目を合わせるように、同じ見方をする。",
+  "other": []
+ },
+ {
+  "src": "M0423",
+  "id": "sit-on-the-fence",
+  "cat": "idiom",
+  "en": "sit on the fence",
+  "ipa": "/ˌsɪt ɑːn ðə ˈfɛns/",
+  "sense": "どちらにも決めかねる",
+  "ja": "どちらにも決めかねる",
+  "ex": {
+   "en": "Don't sit on the fence. Choose one.",
+   "ja": "迷っていないで、どちらか選びなさい。",
+   "mark": [
+    "sit on the fence"
+   ]
+  },
+  "core": "柵の上に座って、どちら側にも降りない。",
+  "other": []
+ },
+ {
+  "src": "M0424",
+  "id": "the-ball-is-in-your-court",
+  "cat": "idiom",
+  "en": "the ball is in your court",
+  "ipa": "/ðə ˌbɔːl ɪz ɪn jʊr ˈkɔːrt/",
+  "sense": "次はあなたが決める番だ",
+  "ja": "次はあなたの番だ",
+  "ex": {
+   "en": "I made my offer. The ball is in your court.",
+   "ja": "私は提案をしました。次はあなたが決める番です。",
+   "mark": [
+    "The ball is in your court"
+   ]
+  },
+  "core": "テニスでボールが相手のコートにある、つまり次は相手の番。",
+  "other": []
+ },
+ {
+  "src": "M0425",
+  "id": "the-best-of-both-worlds",
+  "cat": "idiom",
+  "en": "the best of both worlds",
+  "ipa": "/ðə ˌbɛst əv ˌboʊθ ˈwɝːldz/",
+  "sense": "両方の良いところを得られること",
+  "ja": "両方の良いところを得る",
+  "ex": {
+   "en": "Working from home gives me the best of both worlds.",
+   "ja": "在宅勤務は両方の良いところを私にくれる。",
+   "mark": [
+    "the best of both worlds"
+   ]
+  },
+  "core": "二つの別々の世界の長所を同時に手に入れる。",
+  "other": []
+ },
+ {
+  "src": "M0426",
+  "id": "through-thick-and-thin",
+  "cat": "idiom",
+  "en": "through thick and thin",
+  "ipa": "/θruː ˌθɪk ən ˈθɪn/",
+  "sense": "どんなときも",
+  "ja": "どんなときも",
+  "ex": {
+   "en": "They stayed friends through thick and thin.",
+   "ja": "彼らはどんなときも友だちだった。",
+   "mark": [
+    "through thick and thin"
+   ]
+  },
+  "core": "良いときも悪いときも、最後まで通り抜ける。",
+  "other": []
+ },
+ {
+  "src": "M0427",
+  "id": "when-pigs-fly",
+  "cat": "idiom",
+  "en": "when pigs fly",
+  "ipa": "/wɛn ˈpɪɡz ˌflaɪ/",
+  "sense": "まずありえない",
+  "ja": "まずありえない",
+  "ex": {
+   "en": "He'll clean his room when pigs fly.",
+   "ja": "彼が部屋を掃除するなんて、まずありえない。",
+   "mark": [
+    "when pigs fly"
+   ]
+  },
+  "core": "豚が空を飛ぶほどありえないこと。",
+  "other": []
+ },
+ {
+  "src": "M0428",
+  "id": "a-blessing-in-disguise",
+  "cat": "idiom",
+  "en": "a blessing in disguise",
+  "ipa": "/ə ˌblɛsɪŋ ɪn dɪsˈɡaɪz/",
+  "sense": "不運に見えて結果的によかったこと",
+  "ja": "不運に見えて実はよかったこと",
+  "ex": {
+   "en": "Missing the train was a blessing in disguise.",
+   "ja": "電車に乗り遅れたのが、結果的によかった。",
+   "mark": [
+    "a blessing in disguise"
+   ]
+  },
+  "core": "悪いことの姿に変装した、ありがたい出来事。",
+  "other": []
+ },
+ {
+  "src": "M0429",
+  "id": "a-change-of-heart",
+  "cat": "idiom",
+  "en": "a change of heart",
+  "ipa": "/ə ˌtʃeɪndʒ əv ˈhɑːrt/",
+  "sense": "気持ちや考えの変化",
+  "ja": "気が変わること",
+  "ex": {
+   "en": "She had a change of heart and joined us.",
+   "ja": "彼女は気が変わって、私たちに加わった。",
+   "mark": [
+    "a change of heart"
+   ]
+  },
+  "core": "心（heart）の向きが変わること。",
+  "other": []
+ },
+ {
+  "src": "M0430",
+  "id": "a-close-call",
+  "cat": "idiom",
+  "en": "a close call",
+  "ipa": "/ə ˌkloʊs ˈkɔːl/",
+  "sense": "危ういところで助かること",
+  "ja": "間一髪",
+  "ex": {
+   "en": "That was a close call.",
+   "ja": "あれは間一髪だった。",
+   "mark": [
+    "a close call"
+   ]
+  },
+  "core": "悪い結果に非常に近い（close）ところだった、という感覚。",
+  "other": []
+ },
+ {
+  "src": "M0431",
+  "id": "a-far-cry-from",
+  "cat": "idiom",
+  "en": "a far cry from",
+  "ipa": "/ə ˌfɑːr ˈkraɪ frəm/",
+  "sense": "〜とは大きくかけ離れている",
+  "ja": "〜とは大きくかけ離れている",
+  "ex": {
+   "en": "This room is a far cry from the photos.",
+   "ja": "この部屋は写真とはかけ離れている。",
+   "mark": [
+    "a far cry from"
+   ]
+  },
+  "core": "呼んでも声が届かないほど遠く離れている。",
+  "other": []
+ },
+ {
+  "src": "M0432",
+  "id": "a-long-shot",
+  "cat": "idiom",
+  "en": "a long shot",
+  "ipa": "/ə ˌlɔːŋ ˈʃɑːt/",
+  "sense": "成功の見込みが低い試み",
+  "ja": "見込みの低い試み",
+  "ex": {
+   "en": "It's a long shot, but I'll apply.",
+   "ja": "望みは薄いけれど、応募してみる。",
+   "mark": [
+    "a long shot"
+   ]
+  },
+  "core": "遠くから狙う一撃のように、当たる可能性が低い。",
+  "other": []
+ },
+ {
+  "src": "M0433",
+  "id": "a-pain-in-the-neck",
+  "cat": "idiom",
+  "en": "a pain in the neck",
+  "ipa": "/ə ˌpeɪn ɪn ðə ˈnɛk/",
+  "sense": "厄介なことや人",
+  "ja": "厄介なこと",
+  "ex": {
+   "en": "This printer is a pain in the neck.",
+   "ja": "このプリンターは本当に厄介だ。",
+   "mark": [
+    "a pain in the neck"
+   ]
+  },
+  "core": "首の痛みのように、いつも悩まされるもの。",
+  "other": []
+ },
+ {
+  "src": "M0434",
+  "id": "a-silver-lining",
+  "cat": "idiom",
+  "en": "a silver lining",
+  "ipa": "/ə ˌsɪlvər ˈlaɪnɪŋ/",
+  "sense": "悪い状況の中の明るい面",
+  "ja": "悪い状況の中の明るい面",
+  "ex": {
+   "en": "There's a silver lining to every problem.",
+   "ja": "どんな問題にも明るい面はある。",
+   "mark": [
+    "a silver lining"
+   ]
+  },
+  "core": "暗い雲の縁が銀色に光る様子から、良い面。",
+  "other": []
+ },
+ {
+  "src": "M0435",
+  "id": "a-slip-of-the-tongue",
+  "cat": "idiom",
+  "en": "a slip of the tongue",
+  "ipa": "/ə ˌslɪp əv ðə ˈtʌŋ/",
+  "sense": "言い間違い",
+  "ja": "言い間違い",
+  "ex": {
+   "en": "Sorry, that was a slip of the tongue.",
+   "ja": "ごめん、今のは言い間違いだった。",
+   "mark": [
+    "a slip of the tongue"
+   ]
+  },
+  "core": "舌がすべって、思っていたことと違う言葉が出ること。",
+  "other": []
+ },
+ {
+  "src": "M0436",
+  "id": "a-storm-in-a-teacup",
+  "cat": "idiom",
+  "en": "a storm in a teacup",
+  "ipa": "/ə ˌstɔːrm ɪn ə ˈtiːkʌp/",
+  "sense": "些細なことをめぐる大騒ぎ",
+  "ja": "些細なことの大騒ぎ",
+  "ex": {
+   "en": "The argument was a storm in a teacup.",
+   "ja": "その口論は些細なことでの大騒ぎだった。",
+   "mark": [
+    "a storm in a teacup"
+   ]
+  },
+  "core": "小さな茶碗の中に嵐が起きるような、大げさな騒ぎ。",
+  "diff": "主にイギリス英語。アメリカ英語では a tempest in a teapot とも言う。",
+  "other": []
+ },
+ {
+  "src": "M0437",
+  "id": "a-tough-nut-to-crack",
+  "cat": "idiom",
+  "en": "a tough nut to crack",
+  "ipa": "/ə ˌtʌf ˈnʌt tə ˈkræk/",
+  "sense": "解決や理解が難しいもの",
+  "ja": "解決が難しいもの",
+  "ex": {
+   "en": "This problem is a tough nut to crack.",
+   "ja": "この問題は解決するのが難しい。",
+   "mark": [
+    "a tough nut to crack"
+   ]
+  },
+  "core": "固い殻の実（nut）を割るのが難しいように、手ごわい。",
+  "other": []
+ },
+ {
+  "src": "M0438",
+  "id": "add-fuel-to-the-fire",
+  "cat": "idiom",
+  "en": "add fuel to the fire",
+  "ipa": "/ˌæd ˌfjuːəl tə ðə ˈfaɪər/",
+  "sense": "状況をさらに悪化させる",
+  "ja": "火に油を注ぐ",
+  "ex": {
+   "en": "Don't add fuel to the fire.",
+   "ja": "火に油を注ぐな。",
+   "mark": [
+    "add fuel to the fire"
+   ]
+  },
+  "core": "燃えている火に燃料を足すように、勢いを強める。",
+  "other": []
+ },
+ {
+  "src": "M0439",
+  "id": "all-ears",
+  "cat": "idiom",
+  "en": "all ears",
+  "ipa": "/ˌɔːl ˈɪrz/",
+  "sense": "熱心に聞いて",
+  "ja": "熱心に聞く",
+  "ex": {
+   "en": "Go on. I'm all ears.",
+   "ja": "続けて。ちゃんと聞いているよ。",
+   "mark": [
+    "all ears"
+   ]
+  },
+  "core": "体じゅうが耳になるほど、聞くことに集中している。",
+  "other": []
+ },
+ {
+  "src": "M0440",
+  "id": "at-a-crossroads",
+  "cat": "idiom",
+  "en": "at a crossroads",
+  "ipa": "/æt ə ˈkrɔːsroʊdz/",
+  "sense": "重大な選択の岐路に立って",
+  "ja": "岐路に立って",
+  "ex": {
+   "en": "I'm at a crossroads in my life.",
+   "ja": "私は人生の岐路に立っている。",
+   "mark": [
+    "at a crossroads"
+   ]
+  },
+  "core": "道が分かれる交差点で、どちらに進むか決める場面。",
+  "other": []
+ },
+ {
+  "src": "M0441",
+  "id": "at-the-drop-of-a-hat",
+  "cat": "idiom",
+  "en": "at the drop of a hat",
+  "ipa": "/æt ðə ˌdrɑːp əv ə ˈhæt/",
+  "sense": "すぐさま、ためらわずに",
+  "ja": "すぐさま",
+  "ex": {
+   "en": "She'd travel at the drop of a hat.",
+   "ja": "彼女はすぐにでも旅行に出かける人だ。",
+   "mark": [
+    "at the drop of a hat"
+   ]
+  },
+  "core": "帽子が落ちるほどのわずかな合図で、すぐ動く。",
+  "other": []
+ },
+ {
+  "src": "M0442",
+  "id": "back-to-square-one",
+  "cat": "idiom",
+  "en": "back to square one",
+  "ipa": "/ˌbæk tə ˌskwɛr ˈwʌn/",
+  "sense": "振り出しに戻って",
+  "ja": "振り出しに戻って",
+  "ex": {
+   "en": "The plan failed, so we're back to square one.",
+   "ja": "計画が失敗して、私たちは振り出しに戻った。",
+   "mark": [
+    "back to square one"
+   ]
+  },
+  "core": "ゲームの最初のマス目（square one）に戻る感覚。",
+  "other": []
+ },
+ {
+  "src": "M0443",
+  "id": "back-to-the-drawing-board",
+  "cat": "idiom",
+  "en": "back to the drawing board",
+  "ipa": "/ˌbæk tə ðə ˈdrɔːɪŋ ˌbɔːrd/",
+  "sense": "計画を練り直して",
+  "ja": "計画を練り直す",
+  "ex": {
+   "en": "It didn't work, so it's back to the drawing board.",
+   "ja": "うまくいかなかったので、計画を練り直しだ。",
+   "mark": [
+    "back to the drawing board"
+   ]
+  },
+  "core": "設計図を描く製図板に戻って、最初から考え直す。",
+  "diff": "back to square one は進み具合が元に戻ること。back to the drawing board は計画を考え直すこと。",
+  "other": []
+ },
+ {
+  "src": "M0444",
+  "id": "bark-up-the-wrong-tree",
+  "cat": "idiom",
+  "en": "bark up the wrong tree",
+  "ipa": "/ˌbɑːrk ˌʌp ðə ˌrɔːŋ ˈtriː/",
+  "sense": "見当違いをする",
+  "ja": "見当違いをする",
+  "ex": {
+   "en": "You're barking up the wrong tree.",
+   "ja": "あなたは見当違いをしているよ。",
+   "mark": [
+    "barking up the wrong tree"
+   ]
+  },
+  "core": "犬が獲物のいない木に向かって吠える様子から。",
+  "other": []
+ },
+ {
+  "src": "M0445",
+  "id": "beat-around-the-bush",
+  "cat": "idiom",
+  "en": "beat around the bush",
+  "ipa": "/ˌbiːt əˌraʊnd ðə ˈbʊʃ/",
+  "sense": "遠回しに話す",
+  "ja": "遠回しに話す",
+  "ex": {
+   "en": "Stop beating around the bush and tell me.",
+   "ja": "遠回しに言わないで教えて。",
+   "mark": [
+    "beating around the bush"
+   ]
+  },
+  "core": "茂みの周りをたたくだけで、中心に入らない。",
+  "other": []
+ },
+ {
+  "src": "M0446",
+  "id": "bite-off-more-than-one-can-chew",
+  "cat": "idiom",
+  "en": "bite off more than one can chew",
+  "ipa": "/ˌbaɪt ˌɔːf ˌmɔːr ðən wʌn kæn ˈtʃuː/",
+  "sense": "能力以上のことを引き受ける",
+  "ja": "背伸びして引き受ける",
+  "ex": {
+   "en": "I bit off more than I could chew.",
+   "ja": "私は自分の力以上のことを引き受けてしまった。",
+   "mark": [
+    "bit off more than I could chew"
+   ]
+  },
+  "core": "かみ切った量が多すぎて、噛みきれない。",
+  "other": []
+ },
+ {
+  "src": "M0447",
+  "id": "break-a-leg",
+  "cat": "idiom",
+  "en": "break a leg",
+  "ipa": "/ˌbreɪk ə ˈlɛɡ/",
+  "sense": "成功を祈る",
+  "ja": "がんばって",
+  "ex": {
+   "en": "Break a leg tonight!",
+   "ja": "今夜、がんばって！",
+   "mark": [
+    "Break a leg"
+   ]
+  },
+  "core": "舞台に出る人に向けて、幸運を祈る決まり文句。",
+  "other": []
+ },
+ {
+  "src": "M0448",
+  "id": "burn-bridges",
+  "cat": "idiom",
+  "en": "burn bridges",
+  "ipa": "/ˌbɝːn ˈbrɪdʒɪz/",
+  "sense": "関係を断ち後戻りできなくする",
+  "ja": "関係を断ち切る",
+  "ex": {
+   "en": "Don't burn bridges when you quit.",
+   "ja": "辞めるときに関係を断ち切るようなことはするな。",
+   "mark": [
+    "burn bridges"
+   ]
+  },
+  "core": "渡った橋を焼いて、もう戻れなくする。",
+  "other": []
+ },
+ {
+  "src": "M0449",
+  "id": "bury-the-hatchet",
+  "cat": "idiom",
+  "en": "bury the hatchet",
+  "ipa": "/ˌberi ðə ˈhætʃɪt/",
+  "sense": "仲直りする",
+  "ja": "仲直りする",
+  "ex": {
+   "en": "They finally buried the hatchet.",
+   "ja": "彼らはやっと仲直りした。",
+   "mark": [
+    "buried the hatchet"
+   ]
+  },
+  "core": "武器の斧（hatchet）を埋めて、争いをやめる。",
+  "other": []
+ },
+ {
+  "src": "M0450",
+  "id": "by-the-book",
+  "cat": "idiom",
+  "en": "by the book",
+  "ipa": "/baɪ ðə ˈbʊk/",
+  "sense": "規則通りに",
+  "ja": "規則通りに",
+  "ex": {
+   "en": "He does everything by the book.",
+   "ja": "彼は何でも規則通りにやる。",
+   "mark": [
+    "by the book"
+   ]
+  },
+  "core": "本（決まり）に書かれた通りに行う。",
+  "other": []
+ },
+ {
+  "src": "M0451",
+  "id": "by-the-skin-of-ones-teeth",
+  "cat": "idiom",
+  "en": "by the skin of one's teeth",
+  "ipa": "/baɪ ðə ˌskɪn əv wʌnz ˈtiːθ/",
+  "sense": "ぎりぎりで",
+  "ja": "ぎりぎりで",
+  "ex": {
+   "en": "He passed the test by the skin of his teeth.",
+   "ja": "彼はぎりぎりでテストに合格した。",
+   "mark": [
+    "by the skin of his teeth"
+   ]
+  },
+  "core": "歯の表面の薄い皮ほどの、わずかな差。",
+  "other": []
+ },
+ {
+  "src": "M0452",
+  "id": "cry-over-spilled-milk",
+  "cat": "idiom",
+  "en": "cry over spilled milk",
+  "ipa": "/ˌkraɪ ˌoʊvər ˌspɪld ˈmɪlk/",
+  "sense": "取り返せないことを悔やむ",
+  "ja": "済んだことを悔やむ",
+  "ex": {
+   "en": "It's no use crying over spilled milk.",
+   "ja": "済んだことを悔やんでも仕方がない。",
+   "mark": [
+    "crying over spilled milk"
+   ]
+  },
+  "core": "こぼれた牛乳を嘆いても、元には戻らない。",
+  "other": []
+ },
+ {
+  "src": "M0453",
+  "id": "cut-to-the-chase",
+  "cat": "idiom",
+  "en": "cut to the chase",
+  "ipa": "/ˌkʌt tə ðə ˈtʃeɪs/",
+  "sense": "本題に入る",
+  "ja": "本題に入る",
+  "ex": {
+   "en": "Let's cut to the chase.",
+   "ja": "本題に入ろう。",
+   "mark": [
+    "cut to the chase"
+   ]
+  },
+  "core": "前置きを切って、核心の場面へ進む。",
+  "other": []
+ },
+ {
+  "src": "M0454",
+  "id": "draw-the-line",
+  "cat": "idiom",
+  "en": "draw the line",
+  "ipa": "/ˌdrɔː ðə ˈlaɪn/",
+  "sense": "許容範囲の限界を決める",
+  "ja": "限度を決める",
+  "ex": {
+   "en": "I draw the line at lying.",
+   "ja": "うそをつくことだけは許せない。",
+   "mark": [
+    "draw the line"
+   ]
+  },
+  "core": "ここから先は受け入れない、という境の線を引く。",
+  "other": []
+ },
+ {
+  "src": "M0455",
+  "id": "every-cloud-has-a-silver-lining",
+  "cat": "idiom",
+  "en": "every cloud has a silver lining",
+  "ipa": "/ˌɛvri ˌklaʊd hæz ə ˌsɪlvər ˈlaɪnɪŋ/",
+  "sense": "悪いことにもよい面はある",
+  "ja": "どんな悪いことにもよい面はある",
+  "ex": {
+   "en": "Cheer up. Every cloud has a silver lining.",
+   "ja": "元気を出して。どんな悪いことにもよい面はあるよ。",
+   "mark": [
+    "Every cloud has a silver lining"
+   ]
+  },
+  "core": "どの雲にも、銀色に光る縁がある。",
+  "other": []
+ },
+ {
+  "src": "M0456",
+  "id": "face-the-music",
+  "cat": "idiom",
+  "en": "face the music",
+  "ipa": "/ˌfeɪs ðə ˈmjuːzɪk/",
+  "sense": "自分の行動の結果を受け入れる",
+  "ja": "結果を受け入れる",
+  "ex": {
+   "en": "He made a mistake and had to face the music.",
+   "ja": "彼は間違いを犯し、結果を受け入れるしかなかった。",
+   "mark": [
+    "face the music"
+   ]
+  },
+  "core": "逃げずに、批判や罰に正面から向き合う。",
+  "other": []
+ },
+ {
+  "src": "M0457",
+  "id": "find-ones-feet",
+  "cat": "idiom",
+  "en": "find one's feet",
+  "ipa": "/ˌfaɪnd wʌnz ˈfiːt/",
+  "sense": "新しい環境に慣れる",
+  "ja": "新しい環境に慣れる",
+  "ex": {
+   "en": "She is finding her feet at the new job.",
+   "ja": "彼女は新しい仕事に慣れてきている。",
+   "mark": [
+    "finding her feet"
+   ]
+  },
+  "core": "自分の足で立てるようになる、という感覚。",
+  "other": []
+ },
+ {
+  "src": "M0458",
+  "id": "food-for-thought",
+  "cat": "idiom",
+  "en": "food for thought",
+  "ipa": "/ˌfuːd fər ˈθɔːt/",
+  "sense": "考える材料",
+  "ja": "考える材料",
+  "ex": {
+   "en": "Your idea gave me food for thought.",
+   "ja": "あなたの意見は考えるきっかけになった。",
+   "mark": [
+    "food for thought"
+   ]
+  },
+  "core": "考え（thought）の栄養になるもの。",
+  "other": []
+ },
+ {
+  "src": "M0459",
+  "id": "get-a-taste-of-ones-own-medicine",
+  "cat": "idiom",
+  "en": "get a taste of one's own medicine",
+  "ipa": "/ˌɡɛt ə ˌteɪst əv wʌnz ˌoʊn ˈmɛdsn/",
+  "sense": "自分がした仕打ちを受ける",
+  "ja": "自分がした仕打ちを味わう",
+  "ex": {
+   "en": "He got a taste of his own medicine.",
+   "ja": "彼は自分がしたことを、今度は自分が味わった。",
+   "mark": [
+    "got a taste of his own medicine"
+   ]
+  },
+  "core": "自分が人に与えた苦い薬を、自分で飲まされる。",
+  "other": []
+ },
+ {
+  "src": "M0460",
+  "id": "get-out-of-hand",
+  "cat": "idiom",
+  "en": "get out of hand",
+  "ipa": "/ˌɡɛt ˌaʊt əv ˈhænd/",
+  "sense": "手に負えなくなる",
+  "ja": "手に負えなくなる",
+  "ex": {
+   "en": "The party got out of hand.",
+   "ja": "パーティーは手に負えなくなった。",
+   "mark": [
+    "got out of hand"
+   ]
+  },
+  "core": "手の中で管理できていた物が、手から離れていく。",
+  "other": []
+ },
+ {
+  "src": "M0461",
+  "id": "get-something-off-ones-chest",
+  "cat": "idiom",
+  "en": "get something off one's chest",
+  "ipa": "/ˌɡɛt ˌsʌmθɪŋ ˌɔːf wʌnz ˈtʃɛst/",
+  "sense": "胸のつかえを打ち明ける",
+  "ja": "胸のつかえを打ち明ける",
+  "ex": {
+   "en": "I need to get this off my chest.",
+   "ja": "これを打ち明けて、すっきりしたい。",
+   "mark": [
+    "get this off my chest"
+   ]
+  },
+  "core": "胸の上の重い物を取り除くように、悩みを話す。",
+  "other": []
+ },
+ {
+  "src": "M0462",
+  "id": "give-someone-the-benefit-of-the-doubt",
+  "cat": "idiom",
+  "en": "give someone the benefit of the doubt",
+  "ipa": "/ˌɡɪv ˌsʌmwʌn ðə ˌbɛnəfɪt əv ðə ˈdaʊt/",
+  "sense": "確証がないので相手を信じる",
+  "ja": "疑わしくても信じる",
+  "ex": {
+   "en": "I'll give him the benefit of the doubt.",
+   "ja": "彼のことは、とりあえず信じることにするよ。",
+   "mark": [
+    "give him the benefit of the doubt"
+   ]
+  },
+  "core": "疑いが残る場合でも、相手に有利に考える。",
+  "other": []
+ },
+ {
+  "src": "M0463",
+  "id": "go-the-extra-mile",
+  "cat": "idiom",
+  "en": "go the extra mile",
+  "ipa": "/ˌɡoʊ ði ˌɛkstrə ˈmaɪl/",
+  "sense": "期待以上の努力をする",
+  "ja": "期待以上の努力をする",
+  "ex": {
+   "en": "She always goes the extra mile for her customers.",
+   "ja": "彼女はいつもお客様のために期待以上の努力をする。",
+   "mark": [
+    "goes the extra mile"
+   ]
+  },
+  "core": "求められた距離より、さらに1マイル余計に進む。",
+  "other": []
+ },
+ {
+  "src": "M0464",
+  "id": "have-a-lot-on-ones-plate",
+  "cat": "idiom",
+  "en": "have a lot on one's plate",
+  "ipa": "/hæv ə ˌlɑːt ɑːn wʌnz ˈpleɪt/",
+  "sense": "やるべきことを多く抱える",
+  "ja": "やることが山積みである",
+  "ex": {
+   "en": "I have a lot on my plate this week.",
+   "ja": "今週はやることが山積みだ。",
+   "mark": [
+    "have a lot on my plate"
+   ]
+  },
+  "core": "皿の上に料理が山盛りに載っているように、仕事を抱える。",
+  "other": []
+ },
+ {
+  "src": "M0465",
+  "id": "have-butterflies-in-ones-stomach",
+  "cat": "idiom",
+  "en": "have butterflies in one's stomach",
+  "ipa": "/hæv ˌbʌtərflaɪz ɪn wʌnz ˈstʌmək/",
+  "sense": "緊張で落ち着かない",
+  "ja": "緊張でそわそわする",
+  "ex": {
+   "en": "I have butterflies in my stomach before the speech.",
+   "ja": "スピーチの前は緊張で落ち着かない。",
+   "mark": [
+    "have butterflies in my stomach"
+   ]
+  },
+  "core": "お腹の中で蝶がひらひら動くような、そわそわした感じ。",
+  "other": []
+ },
+ {
+  "src": "M0466",
+  "id": "in-a-nutshell",
+  "cat": "idiom",
+  "en": "in a nutshell",
+  "ipa": "/ɪn ə ˈnʌtʃɛl/",
+  "sense": "要するに、簡潔に言うと",
+  "ja": "要するに",
+  "ex": {
+   "en": "In a nutshell, we need more time.",
+   "ja": "要するに、時間がもっと必要だ。",
+   "mark": [
+    "In a nutshell"
+   ]
+  },
+  "core": "木の実の殻の中に収まるくらい、短くまとめる。",
+  "other": []
+ },
+ {
+  "src": "M0467",
+  "id": "in-hot-water",
+  "cat": "idiom",
+  "en": "in hot water",
+  "ipa": "/ɪn ˌhɑːt ˈwɔːtər/",
+  "sense": "困った立場にある",
+  "ja": "困った立場にある",
+  "ex": {
+   "en": "He is in hot water with his boss.",
+   "ja": "彼は上司とまずい立場にある。",
+   "mark": [
+    "in hot water"
+   ]
+  },
+  "core": "熱いお湯の中にいるように、苦しい状況にいる。",
+  "other": []
+ },
+ {
+  "src": "M0468",
+  "id": "in-the-same-boat",
+  "cat": "idiom",
+  "en": "in the same boat",
+  "ipa": "/ɪn ðə ˌseɪm ˈboʊt/",
+  "sense": "同じ困難な状況にある",
+  "ja": "同じ境遇にある",
+  "ex": {
+   "en": "We are all in the same boat.",
+   "ja": "私たちはみんな同じ境遇にある。",
+   "mark": [
+    "in the same boat"
+   ]
+  },
+  "core": "同じ舟に乗り合わせて、運命を共にする。",
+  "other": []
+ },
+ {
+  "src": "M0469",
+  "id": "jump-on-the-bandwagon",
+  "cat": "idiom",
+  "en": "jump on the bandwagon",
+  "ipa": "/ˌdʒʌmp ɑːn ðə ˈbændˌwæɡən/",
+  "sense": "流行や多数派に乗る",
+  "ja": "流行に乗る",
+  "ex": {
+   "en": "Many people jumped on the bandwagon.",
+   "ja": "多くの人が流行に乗った。",
+   "mark": [
+    "jumped on the bandwagon"
+   ]
+  },
+  "core": "行列の先頭の楽隊の車に、勢いに乗って飛び乗る。",
+  "other": []
+ },
+ {
+  "src": "M0470",
+  "id": "keep-ones-chin-up",
+  "cat": "idiom",
+  "en": "keep one's chin up",
+  "ipa": "/ˌkiːp wʌnz ˈtʃɪn ʌp/",
+  "sense": "落ち込まずにいる",
+  "ja": "くじけずにいる",
+  "ex": {
+   "en": "Keep your chin up. Things will get better.",
+   "ja": "くじけないで。きっとよくなるよ。",
+   "mark": [
+    "Keep your chin up"
+   ]
+  },
+  "core": "あごを上げて、前を向いている姿勢から。",
+  "other": []
+ },
+ {
+  "src": "M0471",
+  "id": "leave-no-stone-unturned",
+  "cat": "idiom",
+  "en": "leave no stone unturned",
+  "ipa": "/ˌliːv ˌnoʊ ˈstoʊn ˌʌnˈtɝːnd/",
+  "sense": "あらゆる手を尽くす",
+  "ja": "あらゆる手を尽くす",
+  "ex": {
+   "en": "They left no stone unturned in their search.",
+   "ja": "彼らはあらゆる手を尽くして捜した。",
+   "mark": [
+    "left no stone unturned"
+   ]
+  },
+  "core": "石を一つ残らず裏返して探すほど、徹底する。",
+  "other": []
+ },
+ {
+  "src": "M0472",
+  "id": "make-a-long-story-short",
+  "cat": "idiom",
+  "en": "make a long story short",
+  "ipa": "/ˌmeɪk ə ˌlɔːŋ ˌstɔːri ˈʃɔːrt/",
+  "sense": "手短に言うと",
+  "ja": "手短に言うと",
+  "ex": {
+   "en": "To make a long story short, we got lost.",
+   "ja": "手短に言うと、私たちは道に迷った。",
+   "mark": [
+    "To make a long story short"
+   ]
+  },
+  "core": "長い話を短くして、結論を伝える。",
+  "other": []
+ },
+ {
+  "src": "M0473",
+  "id": "make-ends-meet",
+  "cat": "idiom",
+  "en": "make ends meet",
+  "ipa": "/ˌmeɪk ˌɛndz ˈmiːt/",
+  "sense": "収入の範囲で生活する",
+  "ja": "やりくりして暮らす",
+  "ex": {
+   "en": "It's hard to make ends meet these days.",
+   "ja": "最近は収入内でやりくりするのが難しい。",
+   "mark": [
+    "make ends meet"
+   ]
+  },
+  "core": "収入と支出の両端をつなぎ合わせる。",
+  "other": []
+ },
+ {
+  "src": "M0474",
+  "id": "make-up-ones-mind",
+  "cat": "idiom",
+  "en": "make up one's mind",
+  "ipa": "/ˌmeɪk ʌp wʌnz ˈmaɪnd/",
+  "sense": "決心する",
+  "ja": "決心する",
+  "ex": {
+   "en": "I can't make up my mind.",
+   "ja": "どうしても決心がつかない。",
+   "mark": [
+    "make up my mind"
+   ]
+  },
+  "core": "迷っていた考えを一つにまとめる。",
+  "other": []
+ },
+ {
+  "src": "M0475",
+  "id": "not-ones-cup-of-tea",
+  "cat": "idiom",
+  "en": "not one's cup of tea",
+  "ipa": "/nɑːt wʌnz ˌkʌp əv ˈtiː/",
+  "sense": "自分の好みではない",
+  "ja": "好みではない",
+  "ex": {
+   "en": "Horror movies are not my cup of tea.",
+   "ja": "ホラー映画は私の好みではない。",
+   "mark": [
+    "not my cup of tea"
+   ]
+  },
+  "core": "自分が好んで飲むお茶ではない、つまり好みではない。",
+  "other": []
+ },
+ {
+  "src": "M0476",
+  "id": "on-cloud-nine",
+  "cat": "idiom",
+  "en": "on cloud nine",
+  "ipa": "/ɑːn ˌklaʊd ˈnaɪn/",
+  "sense": "大喜びで",
+  "ja": "大喜びで",
+  "ex": {
+   "en": "She was on cloud nine after the news.",
+   "ja": "その知らせを聞いて、彼女は大喜びだった。",
+   "mark": [
+    "on cloud nine"
+   ]
+  },
+  "core": "雲の上にいるように、気分が高まっている。",
+  "other": []
+ },
+ {
+  "src": "M0477",
+  "id": "on-thin-ice",
+  "cat": "idiom",
+  "en": "on thin ice",
+  "ipa": "/ɑːn ˌθɪn ˈaɪs/",
+  "sense": "危うい立場にある",
+  "ja": "危うい立場にある",
+  "ex": {
+   "en": "You're on thin ice after being late again.",
+   "ja": "また遅刻して、君は危うい立場にある。",
+   "mark": [
+    "on thin ice"
+   ]
+  },
+  "core": "薄い氷の上に立つように、いつ割れてもおかしくない。",
+  "other": []
+ },
+ {
+  "src": "M0478",
+  "id": "out-of-ones-depth",
+  "cat": "idiom",
+  "en": "out of one's depth",
+  "ipa": "/ˌaʊt əv wʌnz ˈdɛpθ/",
+  "sense": "能力や理解の範囲を超えて",
+  "ja": "手に負えない",
+  "ex": {
+   "en": "I felt out of my depth in the meeting.",
+   "ja": "会議では自分の手に負えないと感じた。",
+   "mark": [
+    "out of my depth"
+   ]
+  },
+  "core": "足が届かない深い水の中にいるような、不安な状態。",
+  "other": []
+ },
+ {
+  "src": "M0479",
+  "id": "play-it-by-ear",
+  "cat": "idiom",
+  "en": "play it by ear",
+  "ipa": "/ˌpleɪ ɪt baɪ ˈɪr/",
+  "sense": "状況に応じて決める",
+  "ja": "状況を見て決める",
+  "ex": {
+   "en": "Let's play it by ear tomorrow.",
+   "ja": "明日は状況を見て決めよう。",
+   "mark": [
+    "play it by ear"
+   ]
+  },
+  "core": "楽譜なしで、耳で聞きながら演奏する。",
+  "other": []
+ },
+ {
+  "src": "M0480",
+  "id": "put-all-ones-eggs-in-one-basket",
+  "cat": "idiom",
+  "en": "put all one's eggs in one basket",
+  "ipa": "/ˌpʊt ˌɔːl wʌnz ˌɛɡz ɪn ˌwʌn ˈbæskɪt/",
+  "sense": "一つのものにすべてを賭ける",
+  "ja": "一つにすべてを賭ける",
+  "ex": {
+   "en": "Don't put all your eggs in one basket.",
+   "ja": "一つにすべてを賭けてはいけない。",
+   "mark": [
+    "put all your eggs in one basket"
+   ]
+  },
+  "core": "卵を一つのかごに入れると、落としたら全部割れる。",
+  "other": []
+ }
+]

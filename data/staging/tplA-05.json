@@ -1,0 +1,190 @@
+{
+  "supply": null,
+  "receive": null,
+  "send": {
+    "t": "move",
+    "e": "📨",
+    "dir": "away"
+  },
+  "ship": {
+    "t": "move",
+    "e": "📦",
+    "dir": "away"
+  },
+  "order": null,
+  "buy": {
+    "t": "act",
+    "e": "🛒",
+    "act": "buy"
+  },
+  "purchase": {
+    "t": "act",
+    "e": "🛒",
+    "act": "buy"
+  },
+  "sell": null,
+  "pay": {
+    "t": "act",
+    "e": "💰",
+    "act": "pay"
+  },
+  "spend": null,
+  "cost": null,
+  "charge": null,
+  "owe": null,
+  "borrow": null,
+  "lend": null,
+  "rent": null,
+  "own": null,
+  "earn": null,
+  "invest": null,
+  "donate": {
+    "t": "act",
+    "e": "🎁",
+    "act": "give"
+  },
+  "collect": null,
+  "count": null,
+  "calculate": null,
+  "measure": null,
+  "weigh": null,
+  "estimate": null,
+  "increase": {
+    "t": "change",
+    "e": "📈",
+    "ch": "more"
+  },
+  "decrease": {
+    "t": "change",
+    "e": "📉",
+    "ch": "less"
+  },
+  "reduce": {
+    "t": "change",
+    "e": "📉",
+    "ch": "less"
+  },
+  "improve": null,
+  "develop": null,
+  "grow": {
+    "t": "change",
+    "e": "🌱",
+    "ch": "grow"
+  },
+  "expand": null,
+  "produce": null,
+  "design": null,
+  "create": null,
+  "print": null,
+  "copy": null,
+  "paste": null,
+  "delete": null,
+  "edit": null,
+  "update": null,
+  "install": null,
+  "download": null,
+  "upload": null,
+  "connect": null,
+  "disconnect": null,
+  "sign": null,
+  "register": null,
+  "subscribe": null,
+  "negotiate": null,
+  "cook": null,
+  "bake": {
+    "t": "change",
+    "e": "🔥",
+    "ch": "heat"
+  },
+  "boil": {
+    "t": "change",
+    "e": "🔥",
+    "ch": "heat"
+  },
+  "fry": {
+    "t": "change",
+    "e": "🔥",
+    "ch": "heat"
+  },
+  "grill": {
+    "t": "change",
+    "e": "🔥",
+    "ch": "heat"
+  },
+  "roast": {
+    "t": "change",
+    "e": "🔥",
+    "ch": "heat"
+  },
+  "steam": {
+    "t": "change",
+    "e": "🔥",
+    "ch": "heat"
+  },
+  "heat": {
+    "t": "change",
+    "e": "🔥",
+    "ch": "heat"
+  },
+  "cool": {
+    "t": "change",
+    "e": "🧊",
+    "ch": "cool"
+  },
+  "freeze": null,
+  "burn": null,
+  "cut": null,
+  "slice": null,
+  "chop": null,
+  "peel": null,
+  "grind": null,
+  "crush": null,
+  "squeeze": null,
+  "mix": null,
+  "stir": null,
+  "sprinkle": null,
+  "serve": null,
+  "eat": {
+    "t": "act",
+    "e": "🍽️",
+    "act": "eat"
+  },
+  "drink": {
+    "t": "act",
+    "e": "🥤",
+    "act": "drink"
+  },
+  "feed": null,
+  "plant": null,
+  "water": null,
+  "harvest": null,
+  "dig": null,
+  "bury": null,
+  "hang": null,
+  "sew": null,
+  "knit": null,
+  "wear": null,
+  "dress": null,
+  "fit": null,
+  "match": null,
+  "shine": null,
+  "glow": null,
+  "reflect": null,
+  "flow": {
+    "t": "move",
+    "e": "🌊",
+    "dir": "in"
+  },
+  "leak": null,
+  "burst": null,
+  "explode": null,
+  "crack": {
+    "t": "change",
+    "e": "💥",
+    "ch": "break"
+  },
+  "tear": null,
+  "split": null,
+  "separate": null,
+  "join": null
+}

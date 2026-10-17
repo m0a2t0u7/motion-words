@@ -1,0 +1,1862 @@
+[
+ {
+  "src": "M0685",
+  "id": "break",
+  "cat": "word",
+  "en": "break",
+  "ipa": "/breɪk/",
+  "sense": "壊す",
+  "ja": "壊す",
+  "ex": {
+   "en": "I broke a cup this morning.",
+   "ja": "今朝、カップを割ってしまった。",
+   "mark": [
+    "broke"
+   ]
+  },
+  "core": "一つのものを力でばらばらにする。",
+  "other": [
+   "（休憩）休み：Let's take a break."
+  ]
+ },
+ {
+  "src": "M0686",
+  "id": "fix",
+  "cat": "word",
+  "en": "fix",
+  "ipa": "/fɪks/",
+  "sense": "修理する",
+  "ja": "修理する",
+  "ex": {
+   "en": "My father fixed the bike.",
+   "ja": "父が自転車を直してくれた。",
+   "mark": [
+    "fixed"
+   ]
+  },
+  "core": "壊れたものを使える状態に直す。",
+  "other": [
+   "（決める）決める：Let's fix a date."
+  ]
+ },
+ {
+  "src": "M0687",
+  "id": "repair",
+  "cat": "word",
+  "en": "repair",
+  "ipa": "/rɪˈpɛr/",
+  "sense": "修繕する",
+  "ja": "修繕する",
+  "ex": {
+   "en": "They repaired the road after the storm.",
+   "ja": "嵐のあと、道路が補修された。",
+   "mark": [
+    "repaired"
+   ]
+  },
+  "core": "傷んだ部分に手を入れて直す。fix よりあらたまる。",
+  "other": []
+ },
+ {
+  "src": "M0688",
+  "id": "build",
+  "cat": "word",
+  "en": "build",
+  "ipa": "/bɪld/",
+  "sense": "建てる",
+  "ja": "建てる",
+  "ex": {
+   "en": "They are building a new school.",
+   "ja": "新しい学校が建てられている。",
+   "mark": [
+    "building"
+   ]
+  },
+  "core": "部材を組み合わせて、大きなものを作り上げる。",
+  "other": []
+ },
+ {
+  "src": "M0689",
+  "id": "destroy",
+  "cat": "word",
+  "en": "destroy",
+  "ipa": "/dɪˈstrɔɪ/",
+  "sense": "破壊する",
+  "ja": "破壊する",
+  "ex": {
+   "en": "The storm destroyed many houses.",
+   "ja": "嵐で多くの家が壊れた。",
+   "mark": [
+    "destroyed"
+   ]
+  },
+  "core": "元に戻らないほど徹底的に壊す。",
+  "diff": "break はこわす、destroy は完全にこわす。",
+  "other": []
+ },
+ {
+  "src": "M0690",
+  "id": "save",
+  "cat": "word",
+  "en": "save",
+  "ipa": "/seɪv/",
+  "sense": "救う",
+  "ja": "救う",
+  "ex": {
+   "en": "The lifeguard saved the boy.",
+   "ja": "救助員はその男の子を救った。",
+   "mark": [
+    "saved"
+   ]
+  },
+  "core": "危険や失う状態から助け出す。",
+  "other": [
+   "（貯める）貯める：I save money for travel."
+  ]
+ },
+ {
+  "src": "M0691",
+  "id": "protect",
+  "cat": "word",
+  "en": "protect",
+  "ipa": "/prəˈtɛkt/",
+  "sense": "守る",
+  "ja": "守る",
+  "ex": {
+   "en": "Wear a helmet to protect your head.",
+   "ja": "頭を守るためにヘルメットをかぶりなさい。",
+   "mark": [
+    "protect"
+   ]
+  },
+  "core": "害から遠ざけて、安全に守る。",
+  "other": []
+ },
+ {
+  "src": "M0692",
+  "id": "clean",
+  "cat": "word",
+  "en": "clean",
+  "ipa": "/klin/",
+  "sense": "掃除する",
+  "ja": "きれいにする",
+  "ex": {
+   "en": "I clean my room every Sunday.",
+   "ja": "私は毎週日曜日に部屋を掃除する。",
+   "mark": [
+    "clean"
+   ]
+  },
+  "core": "汚れを取り除いて、きれいにする。",
+  "other": [
+   "（形容詞）きれいな：a clean towel"
+  ]
+ },
+ {
+  "src": "M0693",
+  "id": "wash",
+  "cat": "word",
+  "en": "wash",
+  "ipa": "/wɑʃ/",
+  "sense": "洗う",
+  "ja": "洗う",
+  "ex": {
+   "en": "Wash your hands before dinner.",
+   "ja": "夕食の前に手を洗いなさい。",
+   "mark": [
+    "Wash"
+   ]
+  },
+  "core": "水などで汚れを洗い流す。",
+  "other": []
+ },
+ {
+  "src": "M0694",
+  "id": "dry",
+  "cat": "word",
+  "en": "dry",
+  "ipa": "/draɪ/",
+  "sense": "乾かす",
+  "ja": "乾かす",
+  "ex": {
+   "en": "She dried her hair with a towel.",
+   "ja": "彼女はタオルで髪を乾かした。",
+   "mark": [
+    "dried"
+   ]
+  },
+  "core": "水分を取り除いて乾いた状態にする。",
+  "other": [
+   "（形容詞）乾いた：dry clothes"
+  ]
+ },
+ {
+  "src": "M0695",
+  "id": "wipe",
+  "cat": "word",
+  "en": "wipe",
+  "ipa": "/waɪp/",
+  "sense": "拭く",
+  "ja": "拭く",
+  "ex": {
+   "en": "Wipe the table with a cloth.",
+   "ja": "布でテーブルを拭いて。",
+   "mark": [
+    "Wipe"
+   ]
+  },
+  "core": "表面をこすって汚れや水を取る。",
+  "other": []
+ },
+ {
+  "src": "M0696",
+  "id": "sweep",
+  "cat": "word",
+  "en": "sweep",
+  "ipa": "/swip/",
+  "sense": "掃く",
+  "ja": "掃く",
+  "ex": {
+   "en": "I sweep the floor every morning.",
+   "ja": "私は毎朝床を掃く。",
+   "mark": [
+    "sweep"
+   ]
+  },
+  "core": "ほうきでごみを一気に払い集める。",
+  "other": []
+ },
+ {
+  "src": "M0697",
+  "id": "brush",
+  "cat": "word",
+  "en": "brush",
+  "ipa": "/brʌʃ/",
+  "sense": "ブラシをかける",
+  "ja": "ブラシをかける",
+  "ex": {
+   "en": "I brush my teeth after every meal.",
+   "ja": "私は食事のたびに歯をみがく。",
+   "mark": [
+    "brush"
+   ]
+  },
+  "core": "ブラシで表面をこする。",
+  "other": [
+   "（名詞）ブラシ：a hair brush"
+  ]
+ },
+ {
+  "src": "M0698",
+  "id": "pack",
+  "cat": "word",
+  "en": "pack",
+  "ipa": "/pæk/",
+  "sense": "荷造りする",
+  "ja": "荷造りする",
+  "ex": {
+   "en": "I packed my bag for the trip.",
+   "ja": "旅行のためにかばんに荷物を詰めた。",
+   "mark": [
+    "packed"
+   ]
+  },
+  "core": "ものを入れ物にきちんと詰める。",
+  "other": []
+ },
+ {
+  "src": "M0699",
+  "id": "unpack",
+  "cat": "word",
+  "en": "unpack",
+  "ipa": "/ʌnˈpæk/",
+  "sense": "荷をほどく",
+  "ja": "荷をほどく",
+  "ex": {
+   "en": "I unpacked my bag at the hotel.",
+   "ja": "ホテルで荷物を取り出した。",
+   "mark": [
+    "unpacked"
+   ]
+  },
+  "core": "詰めたものを出して、整理する。",
+  "other": []
+ },
+ {
+  "src": "M0700",
+  "id": "sort",
+  "cat": "word",
+  "en": "sort",
+  "ipa": "/sɔrt/",
+  "sense": "分類する",
+  "ja": "分類する",
+  "ex": {
+   "en": "Please sort the papers by date.",
+   "ja": "書類を日付順に仕分けてください。",
+   "mark": [
+    "sort"
+   ]
+  },
+  "core": "種類や順番ごとに分ける。",
+  "other": []
+ },
+ {
+  "src": "M0701",
+  "id": "walk",
+  "cat": "word",
+  "en": "walk",
+  "ipa": "/wɔk/",
+  "sense": "歩く",
+  "ja": "歩く",
+  "ex": {
+   "en": "I walk to school every day.",
+   "ja": "私は毎日学校まで歩いて行く。",
+   "mark": [
+    "walk"
+   ]
+  },
+  "core": "足を交互に出して進む。",
+  "other": []
+ },
+ {
+  "src": "M0702",
+  "id": "run",
+  "cat": "word",
+  "en": "run",
+  "ipa": "/rʌn/",
+  "sense": "走る",
+  "ja": "走る",
+  "ex": {
+   "en": "I run in the park every morning.",
+   "ja": "私は毎朝公園で走る。",
+   "mark": [
+    "run"
+   ]
+  },
+  "core": "足を速く動かして進む。",
+  "other": [
+   "（経営する）経営する：She runs a small shop."
+  ]
+ },
+ {
+  "src": "M0703",
+  "id": "jog",
+  "cat": "word",
+  "en": "jog",
+  "ipa": "/dʒɑg/",
+  "sense": "軽く走る",
+  "ja": "軽く走る",
+  "ex": {
+   "en": "My father jogs along the river.",
+   "ja": "父は川沿いを軽く走る。",
+   "mark": [
+    "jogs"
+   ]
+  },
+  "core": "健康のために、ゆっくりしたペースで走る。",
+  "other": []
+ },
+ {
+  "src": "M0704",
+  "id": "sprint",
+  "cat": "word",
+  "en": "sprint",
+  "ipa": "/sprɪnt/",
+  "sense": "全力疾走する",
+  "ja": "全力疾走する",
+  "ex": {
+   "en": "He sprinted to catch the bus.",
+   "ja": "彼はバスに間に合うよう全力で走った。",
+   "mark": [
+    "sprinted"
+   ]
+  },
+  "core": "短い距離を全速力で走る。",
+  "other": []
+ },
+ {
+  "src": "M0705",
+  "id": "jump",
+  "cat": "word",
+  "en": "jump",
+  "ipa": "/dʒʌmp/",
+  "sense": "跳ぶ",
+  "ja": "跳ぶ",
+  "ex": {
+   "en": "The cat jumped onto the table.",
+   "ja": "猫がテーブルの上に跳び乗った。",
+   "mark": [
+    "jumped"
+   ]
+  },
+  "core": "足で地面を強く蹴って、体を宙に上げる。",
+  "other": []
+ },
+ {
+  "src": "M0706",
+  "id": "hop",
+  "cat": "word",
+  "en": "hop",
+  "ipa": "/hɑp/",
+  "sense": "片足で跳ぶ",
+  "ja": "片足で跳ぶ",
+  "ex": {
+   "en": "The little boy hopped on one foot.",
+   "ja": "小さな男の子が片足でぴょんぴょん跳んだ。",
+   "mark": [
+    "hopped"
+   ]
+  },
+  "core": "小さく軽く跳ねる。",
+  "other": []
+ },
+ {
+  "src": "M0707",
+  "id": "skip",
+  "cat": "word",
+  "en": "skip",
+  "ipa": "/skɪp/",
+  "sense": "スキップする",
+  "ja": "スキップする",
+  "ex": {
+   "en": "The girl skipped down the street.",
+   "ja": "女の子はスキップして道を進んだ。",
+   "mark": [
+    "skipped"
+   ]
+  },
+  "core": "軽く弾むように進む。",
+  "other": [
+   "（飛ばす）抜かす：I skipped breakfast today."
+  ]
+ },
+ {
+  "src": "M0708",
+  "id": "climb",
+  "cat": "word",
+  "en": "climb",
+  "ipa": "/klaɪm/",
+  "sense": "登る",
+  "ja": "登る",
+  "ex": {
+   "en": "We climbed the mountain last summer.",
+   "ja": "去年の夏、私たちはその山に登った。",
+   "mark": [
+    "climbed"
+   ]
+  },
+  "core": "手足を使って上へ登っていく。b は発音しない。",
+  "other": []
+ },
+ {
+  "src": "M0709",
+  "id": "crawl",
+  "cat": "word",
+  "en": "crawl",
+  "ipa": "/krɔl/",
+  "sense": "はう",
+  "ja": "はう",
+  "ex": {
+   "en": "The baby crawled across the floor.",
+   "ja": "赤ちゃんが床をはっていった。",
+   "mark": [
+    "crawled"
+   ]
+  },
+  "core": "手とひざを使い、体を低くして進む。",
+  "other": []
+ },
+ {
+  "src": "M0710",
+  "id": "swim",
+  "cat": "word",
+  "en": "swim",
+  "ipa": "/swɪm/",
+  "sense": "泳ぐ",
+  "ja": "泳ぐ",
+  "ex": {
+   "en": "I swim in the pool on Saturdays.",
+   "ja": "私は土曜日にプールで泳ぐ。",
+   "mark": [
+    "swim"
+   ]
+  },
+  "core": "手足を動かして水の中を進む。",
+  "other": []
+ },
+ {
+  "src": "M0711",
+  "id": "dive",
+  "cat": "word",
+  "en": "dive",
+  "ipa": "/daɪv/",
+  "sense": "飛び込む",
+  "ja": "飛び込む",
+  "ex": {
+   "en": "The boy dived into the pool.",
+   "ja": "男の子はプールに飛び込んだ。",
+   "mark": [
+    "dived"
+   ]
+  },
+  "core": "頭から水の中へ勢いよく入る。",
+  "other": []
+ },
+ {
+  "src": "M0712",
+  "id": "float",
+  "cat": "word",
+  "en": "float",
+  "ipa": "/floʊt/",
+  "sense": "浮かぶ",
+  "ja": "浮かぶ",
+  "ex": {
+   "en": "A leaf floated on the water.",
+   "ja": "葉が水面に浮かんでいた。",
+   "mark": [
+    "floated"
+   ]
+  },
+  "core": "水や空気の上で、沈まずにとどまる。",
+  "other": []
+ },
+ {
+  "src": "M0713",
+  "id": "sink",
+  "cat": "word",
+  "en": "sink",
+  "ipa": "/sɪŋk/",
+  "sense": "沈む",
+  "ja": "沈む",
+  "ex": {
+   "en": "The stone sank to the bottom.",
+   "ja": "石は底に沈んだ。",
+   "mark": [
+    "sank"
+   ]
+  },
+  "core": "水の中で下へ下へと入っていく。",
+  "diff": "float は浮かぶ、sink は沈む。",
+  "other": []
+ },
+ {
+  "src": "M0714",
+  "id": "fly",
+  "cat": "word",
+  "en": "fly",
+  "ipa": "/flaɪ/",
+  "sense": "飛ぶ",
+  "ja": "飛ぶ",
+  "ex": {
+   "en": "Birds fly south in winter.",
+   "ja": "鳥は冬に南へ飛んでいく。",
+   "mark": [
+    "fly"
+   ]
+  },
+  "core": "翼や機械の力で空中を進む。",
+  "other": []
+ },
+ {
+  "src": "M0715",
+  "id": "land",
+  "cat": "word",
+  "en": "land",
+  "ipa": "/lænd/",
+  "sense": "着地する",
+  "ja": "着地する",
+  "ex": {
+   "en": "The plane landed safely.",
+   "ja": "飛行機は無事に着陸した。",
+   "mark": [
+    "landed"
+   ]
+  },
+  "core": "空中から地面に降り立つ。",
+  "other": [
+   "（名詞）土地：a piece of land"
+  ]
+ },
+ {
+  "src": "M0716",
+  "id": "fall",
+  "cat": "word",
+  "en": "fall",
+  "ipa": "/fɔl/",
+  "sense": "落ちる",
+  "ja": "落ちる",
+  "ex": {
+   "en": "Leaves fall from the trees in autumn.",
+   "ja": "秋には木から葉が落ちる。",
+   "mark": [
+    "fall"
+   ]
+  },
+  "core": "支えを失って下へ落ちる。",
+  "diff": "drop は落とす、fall は落ちる。",
+  "other": []
+ },
+ {
+  "src": "M0717",
+  "id": "rise",
+  "cat": "word",
+  "en": "rise",
+  "ipa": "/raɪz/",
+  "sense": "上がる",
+  "ja": "上がる",
+  "ex": {
+   "en": "The sun rises in the east.",
+   "ja": "太陽は東から昇る。",
+   "mark": [
+    "rises"
+   ]
+  },
+  "core": "自然に上へ上がっていく。目的語を取らない。",
+  "diff": "raise は何かを上げる、rise は自然に上がる。",
+  "other": []
+ },
+ {
+  "src": "M0718",
+  "id": "sit",
+  "cat": "word",
+  "en": "sit",
+  "ipa": "/sɪt/",
+  "sense": "座る",
+  "ja": "座る",
+  "ex": {
+   "en": "Please sit on this chair.",
+   "ja": "この椅子に座ってください。",
+   "mark": [
+    "sit"
+   ]
+  },
+  "core": "腰を下ろして座る。",
+  "other": []
+ },
+ {
+  "src": "M0719",
+  "id": "stand",
+  "cat": "word",
+  "en": "stand",
+  "ipa": "/stænd/",
+  "sense": "立つ",
+  "ja": "立つ",
+  "ex": {
+   "en": "Please stand in line.",
+   "ja": "列に並んでください。",
+   "mark": [
+    "stand"
+   ]
+  },
+  "core": "足で体を支えて立つ。",
+  "other": []
+ },
+ {
+  "src": "M0720",
+  "id": "lie",
+  "cat": "word",
+  "en": "lie",
+  "ipa": "/laɪ/",
+  "sense": "横になる",
+  "ja": "横になる",
+  "ex": {
+   "en": "I lie on the sofa after lunch.",
+   "ja": "昼食のあと、私はソファで横になる。",
+   "mark": [
+    "lie"
+   ]
+  },
+  "core": "体を横にして、平らな所にのせる。",
+  "other": []
+ },
+ {
+  "src": "M0721",
+  "id": "kneel",
+  "cat": "word",
+  "en": "kneel",
+  "ipa": "/nil/",
+  "sense": "ひざまずく",
+  "ja": "ひざまずく",
+  "ex": {
+   "en": "He knelt down to tie his shoe.",
+   "ja": "彼は靴ひもを結ぶためにひざをついた。",
+   "mark": [
+    "knelt"
+   ]
+  },
+  "core": "ひざを床や地面につけて体を低くする。k は発音しない。",
+  "other": []
+ },
+ {
+  "src": "M0722",
+  "id": "lean",
+  "cat": "word",
+  "en": "lean",
+  "ipa": "/lin/",
+  "sense": "寄りかかる",
+  "ja": "寄りかかる",
+  "ex": {
+   "en": "He leaned against the wall.",
+   "ja": "彼は壁に寄りかかった。",
+   "mark": [
+    "leaned"
+   ]
+  },
+  "core": "体を傾けて、何かに預ける。",
+  "other": []
+ },
+ {
+  "src": "M0723",
+  "id": "balance",
+  "cat": "word",
+  "en": "balance",
+  "ipa": "/ˈbæləns/",
+  "sense": "バランスを保つ",
+  "ja": "バランスを保つ",
+  "ex": {
+   "en": "She balanced on one foot.",
+   "ja": "彼女は片足でバランスをとった。",
+   "mark": [
+    "balanced"
+   ]
+  },
+  "core": "傾かないよう、つり合いをとる。",
+  "other": [
+   "（名詞）均衡：a balance of work and rest"
+  ]
+ },
+ {
+  "src": "M0724",
+  "id": "rest",
+  "cat": "word",
+  "en": "rest",
+  "ipa": "/rɛst/",
+  "sense": "休む",
+  "ja": "休む",
+  "ex": {
+   "en": "You should rest after the long walk.",
+   "ja": "長く歩いたあとは休んだほうがいい。",
+   "mark": [
+    "rest"
+   ]
+  },
+  "core": "動くのをやめて、体を休める。",
+  "other": []
+ },
+ {
+  "src": "M0725",
+  "id": "sleep",
+  "cat": "word",
+  "en": "sleep",
+  "ipa": "/slip/",
+  "sense": "眠る",
+  "ja": "眠る",
+  "ex": {
+   "en": "I sleep for eight hours every night.",
+   "ja": "私は毎晩8時間眠る。",
+   "mark": [
+    "sleep"
+   ]
+  },
+  "core": "目を閉じて、眠った状態になる。",
+  "other": []
+ },
+ {
+  "src": "M0726",
+  "id": "wake",
+  "cat": "word",
+  "en": "wake",
+  "ipa": "/weɪk/",
+  "sense": "目覚める",
+  "ja": "目覚める",
+  "ex": {
+   "en": "I wake at six every morning.",
+   "ja": "私は毎朝6時に目が覚める。",
+   "mark": [
+    "wake"
+   ]
+  },
+  "core": "眠りから覚めて意識が戻る。",
+  "other": []
+ },
+ {
+  "src": "M0727",
+  "id": "breathe",
+  "cat": "word",
+  "en": "breathe",
+  "ipa": "/brið/",
+  "sense": "呼吸する",
+  "ja": "呼吸する",
+  "ex": {
+   "en": "Breathe in slowly through your nose.",
+   "ja": "鼻からゆっくり息を吸って。",
+   "mark": [
+    "Breathe"
+   ]
+  },
+  "core": "息を吸って吐く。名詞 breath と区別する。",
+  "other": []
+ },
+ {
+  "src": "M0728",
+  "id": "cough",
+  "cat": "word",
+  "en": "cough",
+  "ipa": "/kɔf/",
+  "sense": "せきをする",
+  "ja": "せきをする",
+  "ex": {
+   "en": "He coughed all night.",
+   "ja": "彼は一晩中せきをしていた。",
+   "mark": [
+    "coughed"
+   ]
+  },
+  "core": "のどから空気を強く出す。",
+  "other": []
+ },
+ {
+  "src": "M0729",
+  "id": "sneeze",
+  "cat": "word",
+  "en": "sneeze",
+  "ipa": "/sniz/",
+  "sense": "くしゃみをする",
+  "ja": "くしゃみをする",
+  "ex": {
+   "en": "I sneeze a lot in spring.",
+   "ja": "春にはくしゃみがよく出る。",
+   "mark": [
+    "sneeze"
+   ]
+  },
+  "core": "鼻から急に息が出る。",
+  "other": []
+ },
+ {
+  "src": "M0730",
+  "id": "yawn",
+  "cat": "word",
+  "en": "yawn",
+  "ipa": "/jɔn/",
+  "sense": "あくびをする",
+  "ja": "あくびをする",
+  "ex": {
+   "en": "The baby yawned and closed her eyes.",
+   "ja": "赤ちゃんはあくびをして目を閉じた。",
+   "mark": [
+    "yawned"
+   ]
+  },
+  "core": "眠いときなどに口を大きく開けて息をする。",
+  "other": []
+ },
+ {
+  "src": "M0731",
+  "id": "blink",
+  "cat": "word",
+  "en": "blink",
+  "ipa": "/blɪŋk/",
+  "sense": "まばたきする",
+  "ja": "まばたきする",
+  "ex": {
+   "en": "Don't blink during the photo.",
+   "ja": "写真を撮るときはまばたきしないで。",
+   "mark": [
+    "blink"
+   ]
+  },
+  "core": "まぶたを一瞬閉じてすぐ開ける。",
+  "other": []
+ },
+ {
+  "src": "M0732",
+  "id": "smile",
+  "cat": "word",
+  "en": "smile",
+  "ipa": "/smaɪl/",
+  "sense": "ほほ笑む",
+  "ja": "ほほ笑む",
+  "ex": {
+   "en": "She smiled and said hello.",
+   "ja": "彼女はほほ笑んであいさつした。",
+   "mark": [
+    "smiled"
+   ]
+  },
+  "core": "声を出さずに、口元で笑う。",
+  "diff": "laugh は声を出して笑う、smile はほほ笑む。",
+  "other": []
+ },
+ {
+  "src": "M0733",
+  "id": "laugh",
+  "cat": "word",
+  "en": "laugh",
+  "ipa": "/læf/",
+  "sense": "笑う",
+  "ja": "笑う",
+  "ex": {
+   "en": "We laughed at his joke.",
+   "ja": "私たちは彼の冗談に笑った。",
+   "mark": [
+    "laughed"
+   ]
+  },
+  "core": "声を出して笑う。",
+  "diff": "laugh は声を出して笑う、smile はほほ笑む。",
+  "other": []
+ },
+ {
+  "src": "M0734",
+  "id": "cry",
+  "cat": "word",
+  "en": "cry",
+  "ipa": "/kraɪ/",
+  "sense": "泣く",
+  "ja": "泣く",
+  "ex": {
+   "en": "The baby cried all night.",
+   "ja": "赤ちゃんは一晩中泣いていた。",
+   "mark": [
+    "cried"
+   ]
+  },
+  "core": "涙を流して、声を出して泣く。",
+  "other": [
+   "（叫ぶ）叫ぶ：He cried for help."
+  ]
+ },
+ {
+  "src": "M0735",
+  "id": "weep",
+  "cat": "word",
+  "en": "weep",
+  "ipa": "/wip/",
+  "sense": "涙を流す",
+  "ja": "涙を流す",
+  "ex": {
+   "en": "She wept when she heard the news.",
+   "ja": "彼女はその知らせを聞いて涙を流した。",
+   "mark": [
+    "wept"
+   ]
+  },
+  "core": "静かに涙を流す。やや文語的。",
+  "other": []
+ },
+ {
+  "src": "M0736",
+  "id": "shout",
+  "cat": "word",
+  "en": "shout",
+  "ipa": "/ʃaʊt/",
+  "sense": "叫ぶ",
+  "ja": "叫ぶ",
+  "ex": {
+   "en": "Don't shout in the library.",
+   "ja": "図書館で大声を出さないで。",
+   "mark": [
+    "shout"
+   ]
+  },
+  "core": "大きな声で呼んだり叫んだりする。",
+  "other": []
+ },
+ {
+  "src": "M0737",
+  "id": "whisper",
+  "cat": "word",
+  "en": "whisper",
+  "ipa": "/ˈwɪspər/",
+  "sense": "ささやく",
+  "ja": "ささやく",
+  "ex": {
+   "en": "She whispered in my ear.",
+   "ja": "彼女は私の耳元でささやいた。",
+   "mark": [
+    "whispered"
+   ]
+  },
+  "core": "声帯を震わせず、ごく小さな声で話す。",
+  "other": []
+ },
+ {
+  "src": "M0738",
+  "id": "scream",
+  "cat": "word",
+  "en": "scream",
+  "ipa": "/skrim/",
+  "sense": "悲鳴を上げる",
+  "ja": "悲鳴を上げる",
+  "ex": {
+   "en": "She screamed when she saw the spider.",
+   "ja": "彼女はクモを見て悲鳴を上げた。",
+   "mark": [
+    "screamed"
+   ]
+  },
+  "core": "恐怖や驚きで鋭く大きな声を出す。",
+  "other": []
+ },
+ {
+  "src": "M0739",
+  "id": "sing",
+  "cat": "word",
+  "en": "sing",
+  "ipa": "/sɪŋ/",
+  "sense": "歌う",
+  "ja": "歌う",
+  "ex": {
+   "en": "She sings in the school choir.",
+   "ja": "彼女は学校の合唱団で歌っている。",
+   "mark": [
+    "sings"
+   ]
+  },
+  "core": "声に節をつけて歌う。",
+  "other": []
+ },
+ {
+  "src": "M0740",
+  "id": "dance",
+  "cat": "word",
+  "en": "dance",
+  "ipa": "/dæns/",
+  "sense": "踊る",
+  "ja": "踊る",
+  "ex": {
+   "en": "They danced all night at the party.",
+   "ja": "彼らはパーティーで一晩中踊った。",
+   "mark": [
+    "danced"
+   ]
+  },
+  "core": "音楽に合わせて体を動かす。",
+  "other": []
+ },
+ {
+  "src": "M0741",
+  "id": "wave",
+  "cat": "word",
+  "en": "wave",
+  "ipa": "/weɪv/",
+  "sense": "手を振る",
+  "ja": "手を振る",
+  "ex": {
+   "en": "She waved goodbye to us.",
+   "ja": "彼女は私たちに手を振って別れを告げた。",
+   "mark": [
+    "waved"
+   ]
+  },
+  "core": "手を左右に振ってあいさつや合図をする。",
+  "other": [
+   "（名詞）波：a big wave"
+  ]
+ },
+ {
+  "src": "M0742",
+  "id": "nod",
+  "cat": "word",
+  "en": "nod",
+  "ipa": "/nɑd/",
+  "sense": "うなずく",
+  "ja": "うなずく",
+  "ex": {
+   "en": "He nodded and said yes.",
+   "ja": "彼はうなずいて「はい」と言った。",
+   "mark": [
+    "nodded"
+   ]
+  },
+  "core": "頭を縦に動かして同意や合図を示す。",
+  "other": []
+ },
+ {
+  "src": "M0743",
+  "id": "bow",
+  "cat": "word",
+  "en": "bow",
+  "ipa": "/baʊ/",
+  "sense": "おじぎする",
+  "ja": "おじぎする",
+  "ex": {
+   "en": "They bowed to each other.",
+   "ja": "彼らはお互いにおじぎをした。",
+   "mark": [
+    "bowed"
+   ]
+  },
+  "core": "体や頭を前に傾けてあいさつする。",
+  "other": []
+ },
+ {
+  "src": "M0744",
+  "id": "point",
+  "cat": "word",
+  "en": "point",
+  "ipa": "/pɔɪnt/",
+  "sense": "指さす",
+  "ja": "指さす",
+  "ex": {
+   "en": "He pointed at the map.",
+   "ja": "彼は地図を指さした。",
+   "mark": [
+    "pointed"
+   ]
+  },
+  "core": "指などで方向やものを示す。",
+  "other": [
+   "（名詞）点：a good point"
+  ]
+ },
+ {
+  "src": "M0745",
+  "id": "touch",
+  "cat": "word",
+  "en": "touch",
+  "ipa": "/tʌtʃ/",
+  "sense": "触れる",
+  "ja": "触れる",
+  "ex": {
+   "en": "Don't touch the hot pan.",
+   "ja": "熱いフライパンに触らないで。",
+   "mark": [
+    "touch"
+   ]
+  },
+  "core": "手などで軽くさわる。",
+  "other": []
+ },
+ {
+  "src": "M0746",
+  "id": "feel",
+  "cat": "word",
+  "en": "feel",
+  "ipa": "/fil/",
+  "sense": "感じる",
+  "ja": "感じる",
+  "ex": {
+   "en": "I feel cold today.",
+   "ja": "今日は寒く感じる。",
+   "mark": [
+    "feel"
+   ]
+  },
+  "core": "体や心で何かを感じ取る。",
+  "other": []
+ },
+ {
+  "src": "M0747",
+  "id": "smell",
+  "cat": "word",
+  "en": "smell",
+  "ipa": "/smɛl/",
+  "sense": "においをかぐ",
+  "ja": "においをかぐ",
+  "ex": {
+   "en": "I can smell fresh bread.",
+   "ja": "焼きたてのパンのにおいがする。",
+   "mark": [
+    "smell"
+   ]
+  },
+  "core": "鼻でにおいを感じ取る。",
+  "other": [
+   "（においがする）〜のにおいがする：The soup smells good."
+  ]
+ },
+ {
+  "src": "M0748",
+  "id": "taste",
+  "cat": "word",
+  "en": "taste",
+  "ipa": "/teɪst/",
+  "sense": "味わう",
+  "ja": "味わう",
+  "ex": {
+   "en": "Taste the soup and tell me.",
+   "ja": "スープを味見して教えて。",
+   "mark": [
+    "Taste"
+   ]
+  },
+  "core": "口に入れて味を確かめる。",
+  "other": [
+   "（味がする）〜の味がする：This tastes sweet."
+  ]
+ },
+ {
+  "src": "M0749",
+  "id": "hear",
+  "cat": "word",
+  "en": "hear",
+  "ipa": "/hɪr/",
+  "sense": "聞こえる",
+  "ja": "聞こえる",
+  "ex": {
+   "en": "I can hear birds outside.",
+   "ja": "外で鳥の声が聞こえる。",
+   "mark": [
+    "hear"
+   ]
+  },
+  "core": "音が自然に耳に入ってくる。",
+  "diff": "hear は自然に聞こえる、listen は意識して聞く。",
+  "other": []
+ },
+ {
+  "src": "M0750",
+  "id": "listen",
+  "cat": "word",
+  "en": "listen",
+  "ipa": "/ˈlɪsən/",
+  "sense": "耳を傾ける",
+  "ja": "耳を傾ける",
+  "ex": {
+   "en": "Listen to your teacher carefully.",
+   "ja": "先生の話をしっかり聞きなさい。",
+   "mark": [
+    "Listen"
+   ]
+  },
+  "core": "音や話に意識を向けて、よく聞く。",
+  "diff": "hear は自然に聞こえる、listen は意識して聞く。",
+  "other": []
+ },
+ {
+  "src": "M0751",
+  "id": "see",
+  "cat": "word",
+  "en": "see",
+  "ipa": "/si/",
+  "sense": "見える",
+  "ja": "見える",
+  "ex": {
+   "en": "I can see the mountain from here.",
+   "ja": "ここから山が見える。",
+   "mark": [
+    "see"
+   ]
+  },
+  "core": "目に自然に入ってくる。",
+  "diff": "see は見える、look は目を向ける、watch は動くものを見守る。",
+  "other": [
+   "（会う）会う：I'll see you tomorrow."
+  ]
+ },
+ {
+  "src": "M0752",
+  "id": "look",
+  "cat": "word",
+  "en": "look",
+  "ipa": "/lʊk/",
+  "sense": "見る",
+  "ja": "見る",
+  "ex": {
+   "en": "Look at that bird!",
+   "ja": "あの鳥を見て!",
+   "mark": [
+    "Look"
+   ]
+  },
+  "core": "意識して視線を向ける。",
+  "diff": "see は見える、look は目を向ける、watch は動くものを見守る。",
+  "other": []
+ },
+ {
+  "src": "M0753",
+  "id": "watch",
+  "cat": "word",
+  "en": "watch",
+  "ipa": "/wɑtʃ/",
+  "sense": "注意して見る",
+  "ja": "じっと見る",
+  "ex": {
+   "en": "We watched a movie last night.",
+   "ja": "私たちは昨夜映画を見た。",
+   "mark": [
+    "watched"
+   ]
+  },
+  "core": "動いているものを注意して見守る。",
+  "diff": "see は見える、look は目を向ける、watch は動くものを見守る。",
+  "other": []
+ },
+ {
+  "src": "M0754",
+  "id": "stare",
+  "cat": "word",
+  "en": "stare",
+  "ipa": "/stɛr/",
+  "sense": "じっと見つめる",
+  "ja": "じっと見つめる",
+  "ex": {
+   "en": "Don't stare at people.",
+   "ja": "人をじろじろ見てはいけない。",
+   "mark": [
+    "stare"
+   ]
+  },
+  "core": "目をそらさず、長く見つめる。",
+  "other": []
+ },
+ {
+  "src": "M0755",
+  "id": "glance",
+  "cat": "word",
+  "en": "glance",
+  "ipa": "/glæns/",
+  "sense": "ちらりと見る",
+  "ja": "ちらりと見る",
+  "ex": {
+   "en": "She glanced at the clock.",
+   "ja": "彼女はちらりと時計を見た。",
+   "mark": [
+    "glanced"
+   ]
+  },
+  "core": "ほんの一瞬だけ目を向ける。",
+  "other": []
+ },
+ {
+  "src": "M0756",
+  "id": "observe",
+  "cat": "word",
+  "en": "observe",
+  "ipa": "/əbˈzɝv/",
+  "sense": "観察する",
+  "ja": "観察する",
+  "ex": {
+   "en": "The students observed the plants.",
+   "ja": "生徒たちは植物を観察した。",
+   "mark": [
+    "observed"
+   ]
+  },
+  "core": "注意深く見て、様子を調べる。",
+  "other": []
+ },
+ {
+  "src": "M0757",
+  "id": "notice",
+  "cat": "word",
+  "en": "notice",
+  "ipa": "/ˈnoʊtɪs/",
+  "sense": "気づく",
+  "ja": "気づく",
+  "ex": {
+   "en": "I noticed a small mistake.",
+   "ja": "私は小さなまちがいに気づいた。",
+   "mark": [
+    "noticed"
+   ]
+  },
+  "core": "目や耳で気づく。",
+  "other": []
+ },
+ {
+  "src": "M0758",
+  "id": "recognize",
+  "cat": "word",
+  "en": "recognize",
+  "ipa": "/ˈrɛkəgˌnaɪz/",
+  "sense": "見覚えがあると分かる",
+  "ja": "見て誰か分かる",
+  "ex": {
+   "en": "I didn't recognize him with his new hair.",
+   "ja": "髪型が変わっていて、彼だと分からなかった。",
+   "mark": [
+    "recognize"
+   ]
+  },
+  "core": "前に知っていたものを見て、それと分かる。",
+  "other": []
+ },
+ {
+  "src": "M0759",
+  "id": "hug",
+  "cat": "word",
+  "en": "hug",
+  "ipa": "/hʌg/",
+  "sense": "抱きしめる",
+  "ja": "抱きしめる",
+  "ex": {
+   "en": "She hugged her little brother.",
+   "ja": "彼女は弟を抱きしめた。",
+   "mark": [
+    "hugged"
+   ]
+  },
+  "core": "愛情を込めて両腕で抱く。",
+  "other": []
+ },
+ {
+  "src": "M0760",
+  "id": "kiss",
+  "cat": "word",
+  "en": "kiss",
+  "ipa": "/kɪs/",
+  "sense": "キスする",
+  "ja": "キスする",
+  "ex": {
+   "en": "She kissed her baby on the cheek.",
+   "ja": "彼女は赤ちゃんのほおにキスした。",
+   "mark": [
+    "kissed"
+   ]
+  },
+  "core": "唇を軽く当てて愛情を示す。",
+  "other": []
+ },
+ {
+  "src": "M0761",
+  "id": "bite",
+  "cat": "word",
+  "en": "bite",
+  "ipa": "/baɪt/",
+  "sense": "かむ",
+  "ja": "かむ",
+  "ex": {
+   "en": "The dog bit the stick.",
+   "ja": "犬は棒にかみついた。",
+   "mark": [
+    "bit"
+   ]
+  },
+  "core": "歯でしっかりかむ。",
+  "other": []
+ },
+ {
+  "src": "M0762",
+  "id": "chew",
+  "cat": "word",
+  "en": "chew",
+  "ipa": "/tʃu/",
+  "sense": "かみ砕く",
+  "ja": "かみ砕く",
+  "ex": {
+   "en": "Chew your food well.",
+   "ja": "食べ物をよくかんで。",
+   "mark": [
+    "Chew"
+   ]
+  },
+  "core": "口の中で食べ物を何度もかむ。",
+  "other": []
+ },
+ {
+  "src": "M0763",
+  "id": "swallow",
+  "cat": "word",
+  "en": "swallow",
+  "ipa": "/ˈswɑloʊ/",
+  "sense": "飲み込む",
+  "ja": "飲み込む",
+  "ex": {
+   "en": "Swallow the medicine with water.",
+   "ja": "薬は水で飲み込んでください。",
+   "mark": [
+    "Swallow"
+   ]
+  },
+  "core": "口の中のものをのどから送り込む。",
+  "other": [
+   "（名詞）ツバメ：a swallow in the sky"
+  ]
+ },
+ {
+  "src": "M0764",
+  "id": "lick",
+  "cat": "word",
+  "en": "lick",
+  "ipa": "/lɪk/",
+  "sense": "なめる",
+  "ja": "なめる",
+  "ex": {
+   "en": "The cat licked its paw.",
+   "ja": "猫は前足をなめた。",
+   "mark": [
+    "licked"
+   ]
+  },
+  "core": "舌でなめる。",
+  "other": []
+ },
+ {
+  "src": "M0765",
+  "id": "kick",
+  "cat": "word",
+  "en": "kick",
+  "ipa": "/kɪk/",
+  "sense": "蹴る",
+  "ja": "蹴る",
+  "ex": {
+   "en": "He kicked the ball into the goal.",
+   "ja": "彼はボールをゴールに蹴り込んだ。",
+   "mark": [
+    "kicked"
+   ]
+  },
+  "core": "足で勢いよく蹴る。",
+  "other": []
+ },
+ {
+  "src": "M0766",
+  "id": "hit",
+  "cat": "word",
+  "en": "hit",
+  "ipa": "/hɪt/",
+  "sense": "打つ",
+  "ja": "打つ",
+  "ex": {
+   "en": "He hit the ball with a bat.",
+   "ja": "彼はバットでボールを打った。",
+   "mark": [
+    "hit"
+   ]
+  },
+  "core": "手や道具で、ものに当てて打つ。",
+  "other": []
+ },
+ {
+  "src": "M0767",
+  "id": "punch",
+  "cat": "word",
+  "en": "punch",
+  "ipa": "/pʌntʃ/",
+  "sense": "こぶしで打つ",
+  "ja": "こぶしで打つ",
+  "ex": {
+   "en": "The boxer punched the bag.",
+   "ja": "ボクサーはサンドバッグを殴った。",
+   "mark": [
+    "punched"
+   ]
+  },
+  "core": "にぎったこぶしで打つ。",
+  "other": []
+ },
+ {
+  "src": "M0768",
+  "id": "beat",
+  "cat": "word",
+  "en": "beat",
+  "ipa": "/bit/",
+  "sense": "打ち負かす",
+  "ja": "打ち負かす",
+  "ex": {
+   "en": "Our team beat theirs 3 to 1.",
+   "ja": "私たちのチームは3対1で相手に勝った。",
+   "mark": [
+    "beat"
+   ]
+  },
+  "core": "競争や試合で相手を負かす。",
+  "other": [
+   "（打つ）たたく：Beat the eggs."
+  ]
+ },
+ {
+  "src": "M0769",
+  "id": "strike",
+  "cat": "word",
+  "en": "strike",
+  "ipa": "/straɪk/",
+  "sense": "強く打つ",
+  "ja": "強く打つ",
+  "ex": {
+   "en": "The ball struck the window.",
+   "ja": "ボールが窓に強く当たった。",
+   "mark": [
+    "struck"
+   ]
+  },
+  "core": "力を込めて強く当たる、または打つ。",
+  "other": [
+   "（ストライキをする）ストをする：Workers went on strike."
+  ]
+ },
+ {
+  "src": "M0770",
+  "id": "shoot",
+  "cat": "word",
+  "en": "shoot",
+  "ipa": "/ʃut/",
+  "sense": "撃つ",
+  "ja": "撃つ",
+  "ex": {
+   "en": "He shot the ball into the net.",
+   "ja": "彼はボールをネットに向けてシュートした。",
+   "mark": [
+    "shot"
+   ]
+  },
+  "core": "狙った的に向けて勢いよく放つ。",
+  "other": [
+   "（撮影する）撮影する：They are shooting a movie."
+  ]
+ },
+ {
+  "src": "M0771",
+  "id": "ride",
+  "cat": "word",
+  "en": "ride",
+  "ipa": "/raɪd/",
+  "sense": "乗る",
+  "ja": "乗る",
+  "ex": {
+   "en": "I ride my bike to school.",
+   "ja": "私は自転車で学校へ行く。",
+   "mark": [
+    "ride"
+   ]
+  },
+  "core": "自転車や馬など、またがる乗り物に乗って進む。",
+  "other": []
+ },
+ {
+  "src": "M0772",
+  "id": "drive",
+  "cat": "word",
+  "en": "drive",
+  "ipa": "/draɪv/",
+  "sense": "運転する",
+  "ja": "運転する",
+  "ex": {
+   "en": "My mother drives to work.",
+   "ja": "母は車で通勤している。",
+   "mark": [
+    "drives"
+   ]
+  },
+  "core": "車などを運転して進む。",
+  "other": []
+ },
+ {
+  "src": "M0773",
+  "id": "steer",
+  "cat": "word",
+  "en": "steer",
+  "ipa": "/stɪr/",
+  "sense": "操縦する",
+  "ja": "操縦する",
+  "ex": {
+   "en": "He steered the boat to the shore.",
+   "ja": "彼は船を岸のほうへ操縦した。",
+   "mark": [
+    "steered"
+   ]
+  },
+  "core": "ハンドルなどで進む向きを操る。",
+  "other": []
+ },
+ {
+  "src": "M0774",
+  "id": "brake",
+  "cat": "word",
+  "en": "brake",
+  "ipa": "/breɪk/",
+  "sense": "ブレーキをかける",
+  "ja": "ブレーキをかける",
+  "ex": {
+   "en": "The driver braked suddenly.",
+   "ja": "運転手は急ブレーキをかけた。",
+   "mark": [
+    "braked"
+   ]
+  },
+  "core": "ブレーキを踏んで速度を落とす。break と同じ発音。",
+  "other": [
+   "（名詞）ブレーキ：Check the brakes."
+  ]
+ },
+ {
+  "src": "M0775",
+  "id": "accelerate",
+  "cat": "word",
+  "en": "accelerate",
+  "ipa": "/ækˈsɛləˌreɪt/",
+  "sense": "加速する",
+  "ja": "加速する",
+  "ex": {
+   "en": "The car accelerated on the highway.",
+   "ja": "車は高速道路で加速した。",
+   "mark": [
+    "accelerated"
+   ]
+  },
+  "core": "速度をだんだん上げる。",
+  "other": []
+ },
+ {
+  "src": "M0776",
+  "id": "exercise",
+  "cat": "word",
+  "en": "exercise",
+  "ipa": "/ˈɛksɚˌsaɪz/",
+  "sense": "運動する",
+  "ja": "運動する",
+  "ex": {
+   "en": "I exercise for thirty minutes every day.",
+   "ja": "私は毎日30分運動する。",
+   "mark": [
+    "exercise"
+   ]
+  },
+  "core": "健康のために体を動かす。",
+  "other": [
+   "（名詞）練習問題：a grammar exercise"
+  ]
+ },
+ {
+  "src": "M0777",
+  "id": "train",
+  "cat": "word",
+  "en": "train",
+  "ipa": "/treɪn/",
+  "sense": "訓練する",
+  "ja": "訓練する",
+  "ex": {
+   "en": "They train hard for the race.",
+   "ja": "彼らはレースに向けて懸命に練習している。",
+   "mark": [
+    "train"
+   ]
+  },
+  "core": "練習を重ねて力をつける。",
+  "other": [
+   "（名詞）電車：a night train"
+  ]
+ },
+ {
+  "src": "M0778",
+  "id": "compete",
+  "cat": "word",
+  "en": "compete",
+  "ipa": "/kəmˈpit/",
+  "sense": "競う",
+  "ja": "競う",
+  "ex": {
+   "en": "Many students compete in the contest.",
+   "ja": "多くの生徒がそのコンテストで競う。",
+   "mark": [
+    "compete"
+   ]
+  },
+  "core": "勝敗や順位を目指して、ほかの人と争う。",
+  "other": []
+ },
+ {
+  "src": "M0779",
+  "id": "win",
+  "cat": "word",
+  "en": "win",
+  "ipa": "/wɪn/",
+  "sense": "勝つ",
+  "ja": "勝つ",
+  "ex": {
+   "en": "Our team won the game.",
+   "ja": "私たちのチームは試合に勝った。",
+   "mark": [
+    "won"
+   ]
+  },
+  "core": "競争や試合で勝利を得る。",
+  "diff": "beat は相手を負かす、win は試合に勝つ。",
+  "other": []
+ },
+ {
+  "src": "M0780",
+  "id": "score",
+  "cat": "word",
+  "en": "score",
+  "ipa": "/skɔr/",
+  "sense": "得点する",
+  "ja": "得点する",
+  "ex": {
+   "en": "He scored two goals.",
+   "ja": "彼は2得点を挙げた。",
+   "mark": [
+    "scored"
+   ]
+  },
+  "core": "ゴールなどで点を取る。",
+  "other": [
+   "（名詞）得点：the final score"
+  ]
+ },
+ {
+  "src": "M0781",
+  "id": "think",
+  "cat": "word",
+  "en": "think",
+  "ipa": "/θɪŋk/",
+  "sense": "考える",
+  "ja": "考える",
+  "ex": {
+   "en": "I think it will rain today.",
+   "ja": "今日は雨が降ると思う。",
+   "mark": [
+    "think"
+   ]
+  },
+  "core": "頭の中で考えたり、そう思ったりする。",
+  "other": []
+ },
+ {
+  "src": "M0782",
+  "id": "know",
+  "cat": "word",
+  "en": "know",
+  "ipa": "/noʊ/",
+  "sense": "知っている",
+  "ja": "知っている",
+  "ex": {
+   "en": "I know her name.",
+   "ja": "私は彼女の名前を知っている。",
+   "mark": [
+    "know"
+   ]
+  },
+  "core": "知識や情報として知っている。k は発音しない。",
+  "other": []
+ },
+ {
+  "src": "M0783",
+  "id": "understand",
+  "cat": "word",
+  "en": "understand",
+  "ipa": "/ˌʌndɚˈstænd/",
+  "sense": "理解する",
+  "ja": "理解する",
+  "ex": {
+   "en": "I don't understand this question.",
+   "ja": "この問題が分かりません。",
+   "mark": [
+    "understand"
+   ]
+  },
+  "core": "意味や内容を理解している。",
+  "other": []
+ },
+ {
+  "src": "M0784",
+  "id": "learn",
+  "cat": "word",
+  "en": "learn",
+  "ipa": "/lɝn/",
+  "sense": "学ぶ",
+  "ja": "学ぶ",
+  "ex": {
+   "en": "I learn English every day.",
+   "ja": "私は毎日英語を学んでいる。",
+   "mark": [
+    "learn"
+   ]
+  },
+  "core": "勉強や経験で、知識や技能を身につける。",
+  "other": []
+ }
+]

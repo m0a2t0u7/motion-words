@@ -1,0 +1,1116 @@
+[
+  {
+    "src": "M1847",
+    "id": "serious",
+    "cat": "word",
+    "en": "serious",
+    "ipa": "/ˈsɪriəs/",
+    "sense": "真剣な",
+    "ja": "真剣な",
+    "ex": {
+      "en": "He is serious about his studies.",
+      "ja": "彼は勉強に真剣に取り組んでいる。",
+      "mark": [
+        "serious"
+      ]
+    },
+    "core": "ふざけずに、本気で向き合っている。",
+    "other": [
+      "（深刻な）a serious problem：深刻な問題"
+    ]
+  },
+  {
+    "src": "M1848",
+    "id": "funny",
+    "cat": "word",
+    "en": "funny",
+    "ipa": "/ˈfʌni/",
+    "sense": "おかしい、おもしろい",
+    "ja": "おかしい",
+    "ex": {
+      "en": "That joke was really funny.",
+      "ja": "そのジョークは本当におかしかった。",
+      "mark": [
+        "funny"
+      ]
+    },
+    "core": "思わず笑ってしまうようなおかしさがある。",
+    "other": [
+      "（変な）Something smells funny."
+    ]
+  },
+  {
+    "src": "M1850",
+    "id": "smart",
+    "cat": "word",
+    "en": "smart",
+    "ipa": "/smɑːrt/",
+    "sense": "頭の良い",
+    "ja": "頭の良い",
+    "ex": {
+      "en": "She is a smart student.",
+      "ja": "彼女は頭の良い生徒だ。",
+      "mark": [
+        "smart"
+      ]
+    },
+    "core": "考える力があり、物ごとを素早く理解できる。",
+    "other": [
+      "（おしゃれな）a smart jacket"
+    ]
+  },
+  {
+    "src": "M1859",
+    "id": "quiet",
+    "cat": "word",
+    "en": "quiet",
+    "ipa": "/ˈkwaɪət/",
+    "sense": "静かな",
+    "ja": "静かな",
+    "ex": {
+      "en": "Please be quiet in the library.",
+      "ja": "図書館では静かにしてください。",
+      "mark": [
+        "quiet"
+      ]
+    },
+    "core": "音や物音が少ない。",
+    "other": []
+  },
+  {
+    "src": "M1860",
+    "id": "loud",
+    "cat": "word",
+    "en": "loud",
+    "ipa": "/laʊd/",
+    "sense": "音の大きい",
+    "ja": "音の大きい",
+    "ex": {
+      "en": "The music is too loud.",
+      "ja": "音楽の音が大きすぎる。",
+      "mark": [
+        "loud"
+      ]
+    },
+    "core": "音量が大きく、よく聞こえる。",
+    "diff": "noisy は騒がしい場所や状態。",
+    "other": []
+  },
+  {
+    "src": "M1861",
+    "id": "noisy",
+    "cat": "word",
+    "en": "noisy",
+    "ipa": "/ˈnɔɪzi/",
+    "sense": "騒がしい",
+    "ja": "騒がしい",
+    "ex": {
+      "en": "The classroom was very noisy.",
+      "ja": "教室はとても騒がしかった。",
+      "mark": [
+        "noisy"
+      ]
+    },
+    "core": "いろいろな音でやかましい状態。",
+    "diff": "loud は音量が大きいこと。",
+    "other": []
+  },
+  {
+    "src": "M1863",
+    "id": "important",
+    "cat": "word",
+    "en": "important",
+    "ipa": "/ɪmˈpɔːrtənt/",
+    "sense": "重要な",
+    "ja": "重要な",
+    "ex": {
+      "en": "This is an important meeting.",
+      "ja": "これは重要な会議だ。",
+      "mark": [
+        "important"
+      ]
+    },
+    "core": "大きな意味や価値があり、無視できない。",
+    "other": []
+  },
+  {
+    "src": "M1864",
+    "id": "necessary",
+    "cat": "word",
+    "en": "necessary",
+    "ipa": "/ˈnɛsəˌsɛri/",
+    "sense": "必要な",
+    "ja": "必要な",
+    "ex": {
+      "en": "Water is necessary for life.",
+      "ja": "水は生きるために必要だ。",
+      "mark": [
+        "necessary"
+      ]
+    },
+    "core": "それがなければ成り立たない。",
+    "other": []
+  },
+  {
+    "src": "M1866",
+    "id": "useful",
+    "cat": "word",
+    "en": "useful",
+    "ipa": "/ˈjuːsfəl/",
+    "sense": "役に立つ",
+    "ja": "役に立つ",
+    "ex": {
+      "en": "This app is very useful.",
+      "ja": "このアプリはとても役に立つ。",
+      "mark": [
+        "useful"
+      ]
+    },
+    "core": "使うと助けになる。",
+    "other": []
+  },
+  {
+    "src": "M1869",
+    "id": "possible",
+    "cat": "word",
+    "en": "possible",
+    "ipa": "/ˈpɑːsəbəl/",
+    "sense": "可能な",
+    "ja": "可能な",
+    "ex": {
+      "en": "Is it possible to finish today?",
+      "ja": "今日中に終えることは可能ですか？",
+      "mark": [
+        "possible"
+      ]
+    },
+    "core": "実際にできる、起こりうる。",
+    "other": []
+  },
+  {
+    "src": "M1870",
+    "id": "impossible",
+    "cat": "word",
+    "en": "impossible",
+    "ipa": "/ɪmˈpɑːsəbəl/",
+    "sense": "不可能な",
+    "ja": "不可能な",
+    "ex": {
+      "en": "It's impossible to finish by noon.",
+      "ja": "正午までに終えるのは不可能だ。",
+      "mark": [
+        "impossible"
+      ]
+    },
+    "core": "どうしてもできない、起こりえない。",
+    "diff": "im- は「ない」を表す。",
+    "other": []
+  },
+  {
+    "src": "M1874",
+    "id": "sure",
+    "cat": "word",
+    "en": "sure",
+    "ipa": "/ʃʊr/",
+    "sense": "確信している",
+    "ja": "確信している",
+    "ex": {
+      "en": "I'm sure he will come.",
+      "ja": "彼は来ると確信している。",
+      "mark": [
+        "sure"
+      ]
+    },
+    "core": "間違いないと思っている。",
+    "other": [
+      "（返事）もちろん：Sure!"
+    ]
+  },
+  {
+    "src": "M1875",
+    "id": "clear",
+    "cat": "word",
+    "en": "clear",
+    "ipa": "/klɪr/",
+    "sense": "明確な、はっきりした",
+    "ja": "明確な",
+    "ex": {
+      "en": "The instructions are clear.",
+      "ja": "その説明ははっきりしている。",
+      "mark": [
+        "clear"
+      ]
+    },
+    "core": "ぼやけず、すぐに分かる。",
+    "other": [
+      "（透明な）clear water：澄んだ水"
+    ]
+  },
+  {
+    "src": "M1877",
+    "id": "simple",
+    "cat": "word",
+    "en": "simple",
+    "ipa": "/ˈsɪmpəl/",
+    "sense": "単純な",
+    "ja": "単純な",
+    "ex": {
+      "en": "The rule is simple.",
+      "ja": "そのルールは単純だ。",
+      "mark": [
+        "simple"
+      ]
+    },
+    "core": "複雑でなく、分かりやすい。",
+    "other": []
+  },
+  {
+    "src": "M1879",
+    "id": "easy",
+    "cat": "word",
+    "en": "easy",
+    "ipa": "/ˈiːzi/",
+    "sense": "簡単な",
+    "ja": "簡単な",
+    "ex": {
+      "en": "The test was easy.",
+      "ja": "そのテストは簡単だった。",
+      "mark": [
+        "easy"
+      ]
+    },
+    "core": "あまり力や頭を使わずにできる。",
+    "other": []
+  },
+  {
+    "src": "M1880",
+    "id": "difficult",
+    "cat": "word",
+    "en": "difficult",
+    "ipa": "/ˈdɪfɪkəlt/",
+    "sense": "難しい",
+    "ja": "難しい",
+    "ex": {
+      "en": "This question is difficult.",
+      "ja": "この問題は難しい。",
+      "mark": [
+        "difficult"
+      ]
+    },
+    "core": "やり遂げるのに、力や工夫がいる。",
+    "other": []
+  },
+  {
+    "src": "M1881",
+    "id": "basic",
+    "cat": "word",
+    "en": "basic",
+    "ipa": "/ˈbeɪsɪk/",
+    "sense": "基本的な",
+    "ja": "基本的な",
+    "ex": {
+      "en": "Learn the basic rules first.",
+      "ja": "まず基本的なルールを覚えて。",
+      "mark": [
+        "basic"
+      ]
+    },
+    "core": "土台となる、いちばん大事な部分の。",
+    "other": []
+  },
+  {
+    "src": "M1883",
+    "id": "correct",
+    "cat": "word",
+    "en": "correct",
+    "ipa": "/kəˈrɛkt/",
+    "sense": "正しい",
+    "ja": "正しい",
+    "ex": {
+      "en": "Your answer is correct.",
+      "ja": "あなたの答えは正しい。",
+      "mark": [
+        "correct"
+      ]
+    },
+    "core": "間違いがなく、事実や規則に合っている。",
+    "other": []
+  },
+  {
+    "src": "M1884",
+    "id": "wrong",
+    "cat": "word",
+    "en": "wrong",
+    "ipa": "/rɔːŋ/",
+    "sense": "間違った",
+    "ja": "間違った",
+    "ex": {
+      "en": "I took the wrong bus.",
+      "ja": "間違ったバスに乗ってしまった。",
+      "mark": [
+        "wrong"
+      ]
+    },
+    "core": "正しくない、合っていない。",
+    "other": [
+      "（不具合）Something is wrong with my phone."
+    ]
+  },
+  {
+    "src": "M1887",
+    "id": "similar",
+    "cat": "word",
+    "en": "similar",
+    "ipa": "/ˈsɪmɪlɚ/",
+    "sense": "似ている",
+    "ja": "似ている",
+    "ex": {
+      "en": "Our bags are similar.",
+      "ja": "私たちのカバンは似ている。",
+      "mark": [
+        "similar"
+      ]
+    },
+    "core": "全く同じではないが、よく似ている。",
+    "diff": "same は全く同じ。",
+    "other": []
+  },
+  {
+    "src": "M1888",
+    "id": "different",
+    "cat": "word",
+    "en": "different",
+    "ipa": "/ˈdɪfrənt/",
+    "sense": "異なる",
+    "ja": "異なる",
+    "ex": {
+      "en": "My opinion is different from yours.",
+      "ja": "私の意見はあなたのとは違う。",
+      "mark": [
+        "different"
+      ]
+    },
+    "core": "ほかのものと同じではない。",
+    "other": []
+  },
+  {
+    "src": "M1889",
+    "id": "same",
+    "cat": "word",
+    "en": "same",
+    "ipa": "/seɪm/",
+    "sense": "同じ",
+    "ja": "同じ",
+    "ex": {
+      "en": "We have the same bag.",
+      "ja": "私たちは同じカバンを持っている。",
+      "mark": [
+        "same"
+      ]
+    },
+    "core": "違いがなく、まったく一緒。",
+    "other": []
+  },
+  {
+    "src": "M1890",
+    "id": "common",
+    "cat": "word",
+    "en": "common",
+    "ipa": "/ˈkɑːmən/",
+    "sense": "よくある",
+    "ja": "よくある",
+    "ex": {
+      "en": "Colds are common in winter.",
+      "ja": "冬は風邪がよくある。",
+      "mark": [
+        "common"
+      ]
+    },
+    "core": "多くの場所や人にあり、珍しくない。",
+    "other": [
+      "（共通の）a common goal：共通の目標"
+    ]
+  },
+  {
+    "src": "M1895",
+    "id": "special",
+    "cat": "word",
+    "en": "special",
+    "ipa": "/ˈspɛʃəl/",
+    "sense": "特別な",
+    "ja": "特別な",
+    "ex": {
+      "en": "Today is a special day for us.",
+      "ja": "今日は私たちにとって特別な日だ。",
+      "mark": [
+        "special"
+      ]
+    },
+    "core": "ふつうとは違う、大切なもの。",
+    "other": []
+  },
+  {
+    "src": "M1903",
+    "id": "local",
+    "cat": "word",
+    "en": "local",
+    "ipa": "/ˈloʊkəl/",
+    "sense": "地元の",
+    "ja": "地元の",
+    "ex": {
+      "en": "I like to eat local food.",
+      "ja": "私は地元の食べ物を食べるのが好きだ。",
+      "mark": [
+        "local"
+      ]
+    },
+    "core": "その土地や地域に属している。",
+    "other": []
+  },
+  {
+    "src": "M1906",
+    "id": "public",
+    "cat": "word",
+    "en": "public",
+    "ipa": "/ˈpʌblɪk/",
+    "sense": "公共の",
+    "ja": "公共の",
+    "ex": {
+      "en": "You can use the public library.",
+      "ja": "公共の図書館を利用できます。",
+      "mark": [
+        "public"
+      ]
+    },
+    "core": "特定の人だけでなく、みんなのためのもの。",
+    "other": []
+  },
+  {
+    "src": "M1907",
+    "id": "private",
+    "cat": "word",
+    "en": "private",
+    "ipa": "/ˈpraɪvɪt/",
+    "sense": "私的な",
+    "ja": "私的な",
+    "ex": {
+      "en": "This is a private matter.",
+      "ja": "これは私的な問題だ。",
+      "mark": [
+        "private"
+      ]
+    },
+    "core": "ほかの人に関係せず、個人だけのもの。",
+    "other": []
+  },
+  {
+    "src": "M1933",
+    "id": "now",
+    "cat": "word",
+    "en": "now",
+    "ipa": "/naʊ/",
+    "sense": "今",
+    "ja": "今",
+    "ex": {
+      "en": "I'm busy now.",
+      "ja": "今、忙しい。",
+      "mark": [
+        "now"
+      ]
+    },
+    "core": "話している、まさにこの時。",
+    "other": []
+  },
+  {
+    "src": "M1934",
+    "id": "then",
+    "cat": "word",
+    "en": "then",
+    "ipa": "/ðɛn/",
+    "sense": "その時",
+    "ja": "その時",
+    "ex": {
+      "en": "I was in Tokyo then.",
+      "ja": "その時、私は東京にいた。",
+      "mark": [
+        "then"
+      ]
+    },
+    "core": "話題にしている過去や未来の、その時点。",
+    "other": [
+      "（それなら）Then let's go."
+    ]
+  },
+  {
+    "src": "M1935",
+    "id": "today",
+    "cat": "word",
+    "en": "today",
+    "ipa": "/təˈdeɪ/",
+    "sense": "今日",
+    "ja": "今日",
+    "ex": {
+      "en": "It's sunny today.",
+      "ja": "今日は晴れている。",
+      "mark": [
+        "today"
+      ]
+    },
+    "core": "話している、この日。",
+    "other": []
+  },
+  {
+    "src": "M1936",
+    "id": "yesterday",
+    "cat": "word",
+    "en": "yesterday",
+    "ipa": "/ˈjɛstɚdeɪ/",
+    "sense": "昨日",
+    "ja": "昨日",
+    "ex": {
+      "en": "I met her yesterday.",
+      "ja": "昨日、彼女に会った。",
+      "mark": [
+        "yesterday"
+      ]
+    },
+    "core": "今日の一つ前の日。",
+    "other": []
+  },
+  {
+    "src": "M1937",
+    "id": "tomorrow",
+    "cat": "word",
+    "en": "tomorrow",
+    "ipa": "/təˈmɑːroʊ/",
+    "sense": "明日",
+    "ja": "明日",
+    "ex": {
+      "en": "I'll call you tomorrow.",
+      "ja": "明日、電話します。",
+      "mark": [
+        "tomorrow"
+      ]
+    },
+    "core": "今日の次の日。",
+    "other": []
+  },
+  {
+    "src": "M1938",
+    "id": "tonight",
+    "cat": "word",
+    "en": "tonight",
+    "ipa": "/təˈnaɪt/",
+    "sense": "今夜",
+    "ja": "今夜",
+    "ex": {
+      "en": "We're having pizza tonight.",
+      "ja": "今夜はピザを食べる。",
+      "mark": [
+        "tonight"
+      ]
+    },
+    "core": "今日の夕方から夜にかけて。",
+    "other": []
+  },
+  {
+    "src": "M1939",
+    "id": "soon",
+    "cat": "word",
+    "en": "soon",
+    "ipa": "/suːn/",
+    "sense": "まもなく",
+    "ja": "まもなく",
+    "ex": {
+      "en": "The train will arrive soon.",
+      "ja": "電車はまもなく到着する。",
+      "mark": [
+        "soon"
+      ]
+    },
+    "core": "少し待てば、すぐ後に。",
+    "other": []
+  },
+  {
+    "src": "M1940",
+    "id": "later",
+    "cat": "word",
+    "en": "later",
+    "ipa": "/ˈleɪtɚ/",
+    "sense": "後で",
+    "ja": "後で",
+    "ex": {
+      "en": "I'll call you later.",
+      "ja": "後で電話するね。",
+      "mark": [
+        "later"
+      ]
+    },
+    "core": "今よりあとの時に。",
+    "other": []
+  },
+  {
+    "src": "M1941",
+    "id": "already",
+    "cat": "word",
+    "en": "already",
+    "ipa": "/ɔːlˈrɛdi/",
+    "sense": "すでに",
+    "ja": "すでに",
+    "ex": {
+      "en": "I've already finished my homework.",
+      "ja": "宿題はもう終わらせた。",
+      "mark": [
+        "already"
+      ]
+    },
+    "core": "思ったより早く、もう済んでいる。",
+    "diff": "yet は否定文・疑問文で使う。",
+    "other": []
+  },
+  {
+    "src": "M1942",
+    "id": "yet",
+    "cat": "word",
+    "en": "yet",
+    "ipa": "/jɛt/",
+    "sense": "まだ（〜ない）",
+    "ja": "まだ",
+    "ex": {
+      "en": "I haven't finished lunch yet.",
+      "ja": "まだ昼食を食べ終えていない。",
+      "mark": [
+        "yet"
+      ]
+    },
+    "core": "予想していたことが、今の時点でまだ起きていない。",
+    "diff": "already は肯定文で「もう」。",
+    "other": [
+      "（疑問文）もう：Have you eaten yet?"
+    ]
+  },
+  {
+    "src": "M1943",
+    "id": "still",
+    "cat": "word",
+    "en": "still",
+    "ipa": "/stɪl/",
+    "sense": "まだ（続いて）",
+    "ja": "まだ",
+    "ex": {
+      "en": "It's still raining.",
+      "ja": "まだ雨が降っている。",
+      "mark": [
+        "still"
+      ]
+    },
+    "core": "前から続いている状態が、今も変わらない。",
+    "other": []
+  },
+  {
+    "src": "M1944",
+    "id": "just",
+    "cat": "word",
+    "en": "just",
+    "ipa": "/dʒʌst/",
+    "sense": "たった今",
+    "ja": "たった今",
+    "ex": {
+      "en": "I just got home.",
+      "ja": "たった今、家に着いた。",
+      "mark": [
+        "just"
+      ]
+    },
+    "core": "少し前に起きたばかりである。",
+    "other": [
+      "（ちょうど）just right：ちょうどよい"
+    ]
+  },
+  {
+    "src": "M1953",
+    "id": "always",
+    "cat": "word",
+    "en": "always",
+    "ipa": "/ˈɔːlweɪz/",
+    "sense": "いつも",
+    "ja": "いつも",
+    "ex": {
+      "en": "She always smiles.",
+      "ja": "彼女はいつも笑顔だ。",
+      "mark": [
+        "always"
+      ]
+    },
+    "core": "どんな時でも、変わらずそうである。",
+    "other": []
+  },
+  {
+    "src": "M1954",
+    "id": "usually",
+    "cat": "word",
+    "en": "usually",
+    "ipa": "/ˈjuːʒuəli/",
+    "sense": "たいてい",
+    "ja": "たいてい",
+    "ex": {
+      "en": "I usually walk to school.",
+      "ja": "たいてい歩いて学校へ行く。",
+      "mark": [
+        "usually"
+      ]
+    },
+    "core": "ほとんどの場合、そうである。",
+    "other": []
+  },
+  {
+    "src": "M1955",
+    "id": "often",
+    "cat": "word",
+    "en": "often",
+    "ipa": "/ˈɔːfən/",
+    "sense": "よく、しばしば",
+    "ja": "よく",
+    "ex": {
+      "en": "I often read before bed.",
+      "ja": "寝る前によく本を読む。",
+      "mark": [
+        "often"
+      ]
+    },
+    "core": "何度も繰り返し起こる。",
+    "other": []
+  },
+  {
+    "src": "M1956",
+    "id": "sometimes",
+    "cat": "word",
+    "en": "sometimes",
+    "ipa": "/ˈsʌmtaɪmz/",
+    "sense": "時々",
+    "ja": "時々",
+    "ex": {
+      "en": "Sometimes I go to the park.",
+      "ja": "時々、公園に行く。",
+      "mark": [
+        "Sometimes"
+      ]
+    },
+    "core": "いつもではないが、ときどき起こる。",
+    "other": []
+  },
+  {
+    "src": "M1958",
+    "id": "never",
+    "cat": "word",
+    "en": "never",
+    "ipa": "/ˈnɛvɚ/",
+    "sense": "決して〜ない",
+    "ja": "決して〜ない",
+    "ex": {
+      "en": "I never eat breakfast.",
+      "ja": "私は朝食を絶対に食べない。",
+      "mark": [
+        "never"
+      ]
+    },
+    "core": "どんな時も、一度もそうならない。",
+    "other": []
+  },
+  {
+    "src": "M1959",
+    "id": "again",
+    "cat": "word",
+    "en": "again",
+    "ipa": "/əˈɡɛn/",
+    "sense": "もう一度",
+    "ja": "もう一度",
+    "ex": {
+      "en": "Please say that again.",
+      "ja": "もう一度言ってください。",
+      "mark": [
+        "again"
+      ]
+    },
+    "core": "もう一回、同じことをする。",
+    "other": []
+  },
+  {
+    "src": "M1966",
+    "id": "here",
+    "cat": "word",
+    "en": "here",
+    "ipa": "/hɪr/",
+    "sense": "ここに",
+    "ja": "ここに",
+    "ex": {
+      "en": "Come here, please.",
+      "ja": "ここに来てください。",
+      "mark": [
+        "here"
+      ]
+    },
+    "core": "話している人のいる場所。",
+    "other": []
+  },
+  {
+    "src": "M1967",
+    "id": "there",
+    "cat": "word",
+    "en": "there",
+    "ipa": "/ðɛr/",
+    "sense": "そこに",
+    "ja": "そこに",
+    "ex": {
+      "en": "My bag is over there.",
+      "ja": "私のカバンはあそこにある。",
+      "mark": [
+        "there"
+      ]
+    },
+    "core": "話している人から離れた場所。",
+    "other": [
+      "（存在）There is a book on the desk."
+    ]
+  },
+  {
+    "src": "M1968",
+    "id": "nearby",
+    "cat": "word",
+    "en": "nearby",
+    "ipa": "/ˈnɪrˌbaɪ/",
+    "sense": "近くに",
+    "ja": "近くに",
+    "ex": {
+      "en": "Is there a store nearby?",
+      "ja": "近くに店はありますか？",
+      "mark": [
+        "nearby"
+      ]
+    },
+    "core": "すぐ近くの場所に。",
+    "other": []
+  },
+  {
+    "src": "M1969",
+    "id": "away",
+    "cat": "word",
+    "en": "away",
+    "ipa": "/əˈweɪ/",
+    "sense": "離れて",
+    "ja": "離れて",
+    "ex": {
+      "en": "He lives far away from here.",
+      "ja": "彼はここから遠く離れて住んでいる。",
+      "mark": [
+        "away"
+      ]
+    },
+    "core": "今いる場所や、ある地点から離れて。",
+    "other": []
+  },
+  {
+    "src": "M1977",
+    "id": "together",
+    "cat": "word",
+    "en": "together",
+    "ipa": "/təˈɡɛðɚ/",
+    "sense": "一緒に",
+    "ja": "一緒に",
+    "ex": {
+      "en": "Let's study together.",
+      "ja": "一緒に勉強しよう。",
+      "mark": [
+        "together"
+      ]
+    },
+    "core": "ほかの人やものと、ひとまとまりで。",
+    "other": []
+  },
+  {
+    "src": "M1979",
+    "id": "alone",
+    "cat": "word",
+    "en": "alone",
+    "ipa": "/əˈloʊn/",
+    "sense": "一人で",
+    "ja": "一人で",
+    "ex": {
+      "en": "I like to walk alone.",
+      "ja": "私は一人で歩くのが好きだ。",
+      "mark": [
+        "alone"
+      ]
+    },
+    "core": "ほかに誰もいない状態で。",
+    "other": []
+  },
+  {
+    "src": "M1980",
+    "id": "almost",
+    "cat": "word",
+    "en": "almost",
+    "ipa": "/ˈɔːlmoʊst/",
+    "sense": "ほとんど",
+    "ja": "ほとんど",
+    "ex": {
+      "en": "I'm almost ready.",
+      "ja": "もうほとんど準備ができた。",
+      "mark": [
+        "almost"
+      ]
+    },
+    "core": "全部には届かないが、あと少しのところまで。",
+    "other": []
+  },
+  {
+    "src": "M1984",
+    "id": "very",
+    "cat": "word",
+    "en": "very",
+    "ipa": "/ˈvɛri/",
+    "sense": "とても",
+    "ja": "とても",
+    "ex": {
+      "en": "The soup is very hot.",
+      "ja": "そのスープはとても熱い。",
+      "mark": [
+        "very"
+      ]
+    },
+    "core": "程度が大きいことを強める。",
+    "other": []
+  },
+  {
+    "src": "M1985",
+    "id": "too",
+    "cat": "word",
+    "en": "too",
+    "ipa": "/tuː/",
+    "sense": "〜すぎる",
+    "ja": "〜すぎる",
+    "ex": {
+      "en": "This bag is too heavy.",
+      "ja": "このカバンは重すぎる。",
+      "mark": [
+        "too"
+      ]
+    },
+    "core": "ちょうどよい程度を超えている。",
+    "diff": "very は「とても」、too は「多すぎて困る」。",
+    "other": [
+      "（〜もまた）me too：私も"
+    ]
+  },
+  {
+    "src": "M1986",
+    "id": "enough",
+    "cat": "word",
+    "en": "enough",
+    "ipa": "/ɪˈnʌf/",
+    "sense": "十分に",
+    "ja": "十分に",
+    "ex": {
+      "en": "Is this big enough?",
+      "ja": "これで十分な大きさですか？",
+      "mark": [
+        "enough"
+      ]
+    },
+    "core": "必要な量や程度に足りている。",
+    "other": []
+  },
+  {
+    "src": "M1987",
+    "id": "only",
+    "cat": "word",
+    "en": "only",
+    "ipa": "/ˈoʊnli/",
+    "sense": "〜だけ",
+    "ja": "〜だけ",
+    "ex": {
+      "en": "I only have one ticket.",
+      "ja": "チケットは1枚しか持っていない。",
+      "mark": [
+        "only"
+      ]
+    },
+    "core": "それ以外はなく、そのことだけ。",
+    "other": []
+  },
+  {
+    "src": "M1988",
+    "id": "also",
+    "cat": "word",
+    "en": "also",
+    "ipa": "/ˈɔːlsoʊ/",
+    "sense": "〜もまた",
+    "ja": "〜もまた",
+    "ex": {
+      "en": "She also speaks French.",
+      "ja": "彼女はフランス語も話す。",
+      "mark": [
+        "also"
+      ]
+    },
+    "core": "それに加えて、ほかにもある。",
+    "diff": "too は文末、also は動詞の前に置くことが多い。",
+    "other": []
+  },
+  {
+    "src": "M1992",
+    "id": "probably",
+    "cat": "word",
+    "en": "probably",
+    "ipa": "/ˈprɑːbəbli/",
+    "sense": "おそらく",
+    "ja": "おそらく",
+    "ex": {
+      "en": "It will probably rain tomorrow.",
+      "ja": "明日はおそらく雨が降る。",
+      "mark": [
+        "probably"
+      ]
+    },
+    "core": "起こる可能性が高いと考えている。",
+    "diff": "maybe より確信が強い。",
+    "other": []
+  },
+  {
+    "src": "M1994",
+    "id": "maybe",
+    "cat": "word",
+    "en": "maybe",
+    "ipa": "/ˈmeɪbi/",
+    "sense": "多分",
+    "ja": "多分",
+    "ex": {
+      "en": "Maybe he is at home.",
+      "ja": "多分、彼は家にいる。",
+      "mark": [
+        "Maybe"
+      ]
+    },
+    "core": "起こるかもしれないし、起こらないかもしれない。",
+    "diff": "probably より確信が弱い。",
+    "other": []
+  },
+  {
+    "src": "M1997",
+    "id": "really",
+    "cat": "word",
+    "en": "really",
+    "ipa": "/ˈriːəli/",
+    "sense": "本当に",
+    "ja": "本当に",
+    "ex": {
+      "en": "I really like this song.",
+      "ja": "この歌が本当に好きだ。",
+      "mark": [
+        "really"
+      ]
+    },
+    "core": "うそではなく、心から。程度を強める。",
+    "other": []
+  }
+]

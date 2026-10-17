@@ -1,0 +1,363 @@
+{
+ "wake-up": null,
+ "get-up": {
+  "t": "move",
+  "e": "🧍",
+  "dir": "up"
+ },
+ "lie-down": {
+  "t": "move",
+  "e": "🛏️",
+  "dir": "down"
+ },
+ "bend-down": {
+  "t": "move",
+  "e": "🙇",
+  "dir": "down"
+ },
+ "kneel-down": {
+  "t": "move",
+  "e": "🧎",
+  "dir": "down"
+ },
+ "stretch-out": null,
+ "roll-over": null,
+ "turn-around": null,
+ "look-down": {
+  "t": "act",
+  "e": "👀",
+  "act": "look"
+ },
+ "look-around": {
+  "t": "act",
+  "e": "👀",
+  "act": "look"
+ },
+ "look-back": {
+  "t": "act",
+  "e": "👀",
+  "act": "look"
+ },
+ "come-in": {
+  "t": "move",
+  "e": "🚪",
+  "dir": "in"
+ },
+ "come-out": {
+  "t": "move",
+  "e": "🚪",
+  "dir": "out"
+ },
+ "go-in": {
+  "t": "move",
+  "e": "🚪",
+  "dir": "in"
+ },
+ "go-back": {
+  "t": "move",
+  "e": "🔙",
+  "dir": "back"
+ },
+ "come-over": {
+  "t": "move",
+  "e": "🏠",
+  "dir": "toward"
+ },
+ "go-away": {
+  "t": "move",
+  "e": "🏃",
+  "dir": "away"
+ },
+ "walk-away": {
+  "t": "move",
+  "e": "🚶",
+  "dir": "away"
+ },
+ "run-away": {
+  "t": "move",
+  "e": "🏃",
+  "dir": "away"
+ },
+ "move-away": {
+  "t": "move",
+  "e": "🚚",
+  "dir": "away"
+ },
+ "get-in": {
+  "t": "move",
+  "e": "🚗",
+  "dir": "in"
+ },
+ "get-out": {
+  "t": "move",
+  "e": "🚗",
+  "dir": "out"
+ },
+ "get-back": {
+  "t": "move",
+  "e": "🏠",
+  "dir": "back"
+ },
+ "set-off": {
+  "t": "move",
+  "e": "🧳",
+  "dir": "away"
+ },
+ "set-out": {
+  "t": "move",
+  "e": "🧭",
+  "dir": "away"
+ },
+ "head-out": {
+  "t": "move",
+  "e": "🚶",
+  "dir": "out"
+ },
+ "head-back": {
+  "t": "move",
+  "e": "🔙",
+  "dir": "back"
+ },
+ "move-on": null,
+ "carry-on": null,
+ "keep-going": null,
+ "hurry-up": {
+  "t": "move",
+  "e": "💨",
+  "dir": "toward"
+ },
+ "speed-up": {
+  "t": "compare",
+  "e": "🐢",
+  "e2": "🐇",
+  "rel": "faster"
+ },
+ "catch-up": {
+  "t": "move",
+  "e": "🏃",
+  "dir": "toward"
+ },
+ "keep-up": null,
+ "fall-behind": null,
+ "hold-on": {
+  "t": "act",
+  "e": "⏳",
+  "act": "wait"
+ },
+ "wait-up": {
+  "t": "act",
+  "e": "⏳",
+  "act": "wait"
+ },
+ "stay-up": null,
+ "sleep-in": {
+  "t": "act",
+  "e": "😴",
+  "act": "sleep"
+ },
+ "sleep-over": {
+  "t": "act",
+  "e": "😴",
+  "act": "sleep"
+ },
+ "stay-in": null,
+ "stay-out": null,
+ "try-on": null,
+ "dress-up": null,
+ "zip-up": {
+  "t": "change",
+  "e": "🧥",
+  "ch": "close"
+ },
+ "button-up": {
+  "t": "change",
+  "e": "🧥",
+  "ch": "close"
+ },
+ "wrap-up": null,
+ "cover-up": null,
+ "put-away": null,
+ "bring-out": null,
+ "set-down": {
+  "t": "move",
+  "e": "📦",
+  "dir": "down"
+ },
+ "lift-up": {
+  "t": "move",
+  "e": "📦",
+  "dir": "up"
+ },
+ "hold-up": null,
+ "hand-over": {
+  "t": "act",
+  "e": "🤝",
+  "act": "give"
+ },
+ "hand-out": {
+  "t": "act",
+  "e": "🤝",
+  "act": "give"
+ },
+ "pass-around": {
+  "t": "act",
+  "e": "🤝",
+  "act": "give"
+ },
+ "pass-on": null,
+ "pass-back": {
+  "t": "act",
+  "e": "🤝",
+  "act": "give"
+ },
+ "give-back": {
+  "t": "act",
+  "e": "🤝",
+  "act": "give"
+ },
+ "take-back": {
+  "t": "act",
+  "e": "🤲",
+  "act": "take"
+ },
+ "bring-back": {
+  "t": "act",
+  "e": "🎁",
+  "act": "carry"
+ },
+ "send-back": {
+  "t": "move",
+  "e": "📦",
+  "dir": "back"
+ },
+ "throw-out": {
+  "t": "act",
+  "e": "🗑️",
+  "act": "throw"
+ },
+ "clear-out": {
+  "t": "change",
+  "e": "🗄️",
+  "ch": "empty"
+ },
+ "clean-up": {
+  "t": "change",
+  "e": "🧹",
+  "ch": "clean"
+ },
+ "tidy-up": null,
+ "wash-up": {
+  "t": "change",
+  "e": "🍽️",
+  "ch": "clean"
+ },
+ "wipe-down": {
+  "t": "change",
+  "e": "🧽",
+  "ch": "clean"
+ },
+ "wipe-off": {
+  "t": "change",
+  "e": "🧽",
+  "ch": "clean"
+ },
+ "dry-off": null,
+ "dry-out": null,
+ "sweep-up": {
+  "t": "change",
+  "e": "🧹",
+  "ch": "clean"
+ },
+ "mop-up": {
+  "t": "change",
+  "e": "🧽",
+  "ch": "clean"
+ },
+ "scrub-off": {
+  "t": "change",
+  "e": "🧽",
+  "ch": "clean"
+ },
+ "rinse-off": {
+  "t": "change",
+  "e": "🚿",
+  "ch": "clean"
+ },
+ "switch-on": {
+  "t": "change",
+  "e": "💡",
+  "ch": "start"
+ },
+ "switch-off": {
+  "t": "change",
+  "e": "💡",
+  "ch": "stop"
+ },
+ "turn-up": {
+  "t": "change",
+  "e": "🔊",
+  "ch": "more"
+ },
+ "plug-in": {
+  "t": "move",
+  "e": "🔌",
+  "dir": "in"
+ },
+ "plug-into": {
+  "t": "move",
+  "e": "🔌",
+  "dir": "in"
+ },
+ "log-in": null,
+ "log-out": null,
+ "sign-in": null,
+ "sign-out": null,
+ "sign-up": null,
+ "shut-down": {
+  "t": "change",
+  "e": "⏹️",
+  "ch": "stop"
+ },
+ "start-up": {
+  "t": "change",
+  "e": "🚀",
+  "ch": "start"
+ },
+ "boot-up": {
+  "t": "change",
+  "e": "🖥️",
+  "ch": "start"
+ },
+ "back-up": null,
+ "scroll-down": {
+  "t": "move",
+  "e": "📜",
+  "dir": "down"
+ },
+ "scroll-up": {
+  "t": "move",
+  "e": "📜",
+  "dir": "up"
+ },
+ "zoom-in": {
+  "t": "move",
+  "e": "🔍",
+  "dir": "in"
+ },
+ "zoom-out": {
+  "t": "move",
+  "e": "🔍",
+  "dir": "out"
+ },
+ "print-out": null,
+ "fill-out": {
+  "t": "change",
+  "e": "📝",
+  "ch": "fill"
+ },
+ "write-down": null,
+ "note-down": null,
+ "cross-out": null,
+ "rub-out": null,
+ "type-in": null
+}

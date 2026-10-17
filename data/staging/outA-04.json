@@ -1,0 +1,1905 @@
+[
+  {
+    "src": "M0785",
+    "id": "study",
+    "cat": "word",
+    "en": "study",
+    "ipa": "/ˈstʌdi/",
+    "sense": "（学校や試験のために）勉強する",
+    "ja": "勉強する",
+    "ex": {
+      "en": "I study English for an hour every day.",
+      "ja": "私は毎日1時間英語を勉強する。",
+      "mark": [
+        "study"
+      ]
+    },
+    "core": "知識を身につけようと、本や資料に向かって時間をかける。",
+    "diff": "learn は身につけること。study は身につけようと取り組むこと。",
+    "other": [
+      "（調べる）研究する：study the problem"
+    ]
+  },
+  {
+    "src": "M0786",
+    "id": "teach",
+    "cat": "word",
+    "en": "teach",
+    "ipa": "/tiːtʃ/",
+    "sense": "（人に知識や技能を）教える",
+    "ja": "教える",
+    "ex": {
+      "en": "My aunt teaches math at a high school.",
+      "ja": "おばは高校で数学を教えている。",
+      "mark": [
+        "teaches"
+      ]
+    },
+    "core": "知識や技能を相手に渡して、身につけさせる。",
+    "other": []
+  },
+  {
+    "src": "M0787",
+    "id": "remember",
+    "cat": "word",
+    "en": "remember",
+    "ipa": "/rɪˈmembɚ/",
+    "sense": "覚えている、思い出す",
+    "ja": "覚えている",
+    "ex": {
+      "en": "I remember my first day at school.",
+      "ja": "学校の初日のことを覚えている。",
+      "mark": [
+        "remember"
+      ]
+    },
+    "core": "過去の出来事や情報を、頭の中に保っている。",
+    "diff": "remember は覚えていること。forget はその逆。",
+    "other": [
+      "（忘れずに）〜する：remember to lock the door"
+    ]
+  },
+  {
+    "src": "M0788",
+    "id": "forget",
+    "cat": "word",
+    "en": "forget",
+    "ipa": "/fɚˈɡet/",
+    "sense": "忘れる",
+    "ja": "忘れる",
+    "ex": {
+      "en": "I forgot my umbrella at the station.",
+      "ja": "駅に傘を忘れてきた。",
+      "mark": [
+        "forgot"
+      ]
+    },
+    "core": "覚えていたことが、頭から抜け落ちる。",
+    "other": [
+      "（〜し忘れる）：forget to call"
+    ]
+  },
+  {
+    "src": "M0789",
+    "id": "recall",
+    "cat": "word",
+    "en": "recall",
+    "ipa": "/rɪˈkɔːl/",
+    "sense": "（過去のことを）思い出す",
+    "ja": "思い出す",
+    "ex": {
+      "en": "I can't recall his name right now.",
+      "ja": "彼の名前がいま思い出せない。",
+      "mark": [
+        "recall"
+      ]
+    },
+    "core": "しまってある記憶を、呼び戻す。",
+    "diff": "remember より少し改まった言い方。",
+    "other": [
+      "（欠陥品を）回収する：recall a product"
+    ]
+  },
+  {
+    "src": "M0790",
+    "id": "imagine",
+    "cat": "word",
+    "en": "imagine",
+    "ipa": "/ɪˈmædʒɪn/",
+    "sense": "想像する",
+    "ja": "想像する",
+    "ex": {
+      "en": "Imagine a world without cars.",
+      "ja": "車のない世界を想像してみて。",
+      "mark": [
+        "Imagine"
+      ]
+    },
+    "core": "目の前にないものを、頭の中に像として描く。",
+    "other": []
+  },
+  {
+    "src": "M0791",
+    "id": "believe",
+    "cat": "word",
+    "en": "believe",
+    "ipa": "/bɪˈliːv/",
+    "sense": "（本当だと）信じる",
+    "ja": "信じる",
+    "ex": {
+      "en": "I believe you.",
+      "ja": "あなたの言うことを信じるよ。",
+      "mark": [
+        "believe"
+      ]
+    },
+    "core": "相手や話の内容を、本当だと受け止める。",
+    "other": [
+      "（〜の存在を信じる）：believe in ghosts"
+    ]
+  },
+  {
+    "src": "M0792",
+    "id": "doubt",
+    "cat": "word",
+    "en": "doubt",
+    "ipa": "/daʊt/",
+    "sense": "疑う、疑わしいと思う",
+    "ja": "疑う",
+    "ex": {
+      "en": "I doubt that he will come today.",
+      "ja": "彼が今日来るとは思えない。",
+      "mark": [
+        "doubt"
+      ]
+    },
+    "core": "本当かどうか確信が持てず、疑わしく思う。",
+    "diff": "doubt は「ないだろう」と思う側。suspect は「あるのでは」と思う側。",
+    "other": []
+  },
+  {
+    "src": "M0793",
+    "id": "wonder",
+    "cat": "word",
+    "en": "wonder",
+    "ipa": "/ˈwʌndɚ/",
+    "sense": "〜だろうかと思う",
+    "ja": "〜だろうかと思う",
+    "ex": {
+      "en": "I wonder who will win the game.",
+      "ja": "だれが試合に勝つのだろう。",
+      "mark": [
+        "wonder"
+      ]
+    },
+    "core": "答えを知りたくて、あれこれ考えをめぐらせる。",
+    "other": [
+      "（驚き）不思議：no wonder"
+    ]
+  },
+  {
+    "src": "M0794",
+    "id": "guess",
+    "cat": "word",
+    "en": "guess",
+    "ipa": "/ɡes/",
+    "sense": "（確かな根拠なしに）推測する",
+    "ja": "推測する",
+    "ex": {
+      "en": "Can you guess my age?",
+      "ja": "私の年齢を当てられる？",
+      "mark": [
+        "guess"
+      ]
+    },
+    "core": "はっきりした根拠がなくても、見当をつけて答える。",
+    "other": []
+  },
+  {
+    "src": "M0795",
+    "id": "expect",
+    "cat": "word",
+    "en": "expect",
+    "ipa": "/ɪkˈspekt/",
+    "sense": "（起こると）予想する、予期する",
+    "ja": "予想する",
+    "ex": {
+      "en": "I expect it will rain tomorrow.",
+      "ja": "明日は雨が降ると思う。",
+      "mark": [
+        "expect"
+      ]
+    },
+    "core": "これから起こるだろうと、前もって見込む。",
+    "diff": "expect は見込むこと。hope は望むこと。",
+    "other": [
+      "（人を）待つ：expect a guest"
+    ]
+  },
+  {
+    "src": "M0796",
+    "id": "predict",
+    "cat": "word",
+    "en": "predict",
+    "ipa": "/prɪˈdɪkt/",
+    "sense": "（根拠をもとに）予測する",
+    "ja": "予測する",
+    "ex": {
+      "en": "Nobody can predict the weather perfectly.",
+      "ja": "天気を完全に予測できる人はいない。",
+      "mark": [
+        "predict"
+      ]
+    },
+    "core": "データや経験をもとに、先のことを言い当てようとする。",
+    "other": []
+  },
+  {
+    "src": "M0797",
+    "id": "realize",
+    "cat": "word",
+    "en": "realize",
+    "ipa": "/ˈriːəlaɪz/",
+    "sense": "（事実に）気づく",
+    "ja": "気づく",
+    "ex": {
+      "en": "I realized I had left my keys at home.",
+      "ja": "家に鍵を忘れたことに気づいた。",
+      "mark": [
+        "realized"
+      ]
+    },
+    "core": "ぼんやりしていたことが、はっきり分かる。",
+    "other": [
+      "（実現する）：realize a dream"
+    ]
+  },
+  {
+    "src": "M0798",
+    "id": "consider",
+    "cat": "word",
+    "en": "consider",
+    "ipa": "/kənˈsɪdɚ/",
+    "sense": "（決める前に）よく考える",
+    "ja": "よく考える",
+    "ex": {
+      "en": "Please consider my offer carefully.",
+      "ja": "私の申し出をよく考えてください。",
+      "mark": [
+        "consider"
+      ]
+    },
+    "core": "結論を出す前に、いろいろな面から考える。",
+    "other": [
+      "（〜とみなす）：consider him a friend"
+    ]
+  },
+  {
+    "src": "M0799",
+    "id": "compare",
+    "cat": "word",
+    "en": "compare",
+    "ipa": "/kəmˈper/",
+    "sense": "比較する",
+    "ja": "比較する",
+    "ex": {
+      "en": "Let's compare the two prices.",
+      "ja": "2つの値段を比べてみよう。",
+      "mark": [
+        "compare"
+      ]
+    },
+    "core": "二つを並べて、違いや似ている点を見る。",
+    "other": []
+  },
+  {
+    "src": "M0800",
+    "id": "analyze",
+    "cat": "word",
+    "en": "analyze",
+    "ipa": "/ˈænəlaɪz/",
+    "sense": "分析する",
+    "ja": "分析する",
+    "ex": {
+      "en": "The team analyzed the sales data.",
+      "ja": "チームは販売データを分析した。",
+      "mark": [
+        "analyzed"
+      ]
+    },
+    "core": "全体を部分に分けて、中身や仕組みを調べる。",
+    "other": []
+  },
+  {
+    "src": "M0801",
+    "id": "solve",
+    "cat": "word",
+    "en": "solve",
+    "ipa": "/sɑːlv/",
+    "sense": "（問題を）解決する",
+    "ja": "解決する",
+    "ex": {
+      "en": "We solved the problem together.",
+      "ja": "私たちは力を合わせて問題を解決した。",
+      "mark": [
+        "solved"
+      ]
+    },
+    "core": "問題や謎に答えを出して、片をつける。",
+    "other": []
+  },
+  {
+    "src": "M0802",
+    "id": "explain",
+    "cat": "word",
+    "en": "explain",
+    "ipa": "/ɪkˈspleɪn/",
+    "sense": "説明する",
+    "ja": "説明する",
+    "ex": {
+      "en": "Can you explain how this machine works?",
+      "ja": "この機械の仕組みを説明してもらえますか。",
+      "mark": [
+        "explain"
+      ]
+    },
+    "core": "相手に分かるように、理由や仕組みを言葉で示す。",
+    "other": []
+  },
+  {
+    "src": "M0803",
+    "id": "describe",
+    "cat": "word",
+    "en": "describe",
+    "ipa": "/dɪˈskraɪb/",
+    "sense": "（様子を言葉で）描写する",
+    "ja": "描写する",
+    "ex": {
+      "en": "Can you describe the man you saw?",
+      "ja": "見た男の人の特徴を説明してもらえますか。",
+      "mark": [
+        "describe"
+      ]
+    },
+    "core": "見たものや感じたことを、言葉で絵のように伝える。",
+    "diff": "explain は理由や仕組み。describe は様子や特徴。",
+    "other": []
+  },
+  {
+    "src": "M0804",
+    "id": "define",
+    "cat": "word",
+    "en": "define",
+    "ipa": "/dɪˈfaɪn/",
+    "sense": "（言葉の意味を）定義する",
+    "ja": "定義する",
+    "ex": {
+      "en": "This dictionary defines each word clearly.",
+      "ja": "この辞書は各単語をはっきり定義している。",
+      "mark": [
+        "defines"
+      ]
+    },
+    "core": "意味や範囲に、はっきり線を引いて決める。",
+    "other": []
+  },
+  {
+    "src": "M0805",
+    "id": "mean",
+    "cat": "word",
+    "en": "mean",
+    "ipa": "/miːn/",
+    "sense": "（言葉が）意味する",
+    "ja": "意味する",
+    "ex": {
+      "en": "What does this word mean?",
+      "ja": "この単語はどういう意味ですか。",
+      "mark": [
+        "mean"
+      ]
+    },
+    "core": "言葉や行動が、何を表しているかを指す。",
+    "other": [
+      "（〜するつもりだ）：I meant to call you."
+    ]
+  },
+  {
+    "src": "M0806",
+    "id": "refer",
+    "cat": "word",
+    "en": "refer",
+    "ipa": "/rɪˈfɝː/",
+    "sense": "言及する、触れる",
+    "ja": "言及する",
+    "ex": {
+      "en": "He referred to the report in his speech.",
+      "ja": "彼はスピーチでその報告書に触れた。",
+      "mark": [
+        "referred"
+      ]
+    },
+    "core": "話の中で、あるものに向けて指し示す。",
+    "diff": "refer to の形で使う。",
+    "other": [
+      "（調べる）参照する：refer to a map"
+    ]
+  },
+  {
+    "src": "M0807",
+    "id": "mention",
+    "cat": "word",
+    "en": "mention",
+    "ipa": "/ˈmenʃən/",
+    "sense": "（ちょっと）話に出す",
+    "ja": "話に出す",
+    "ex": {
+      "en": "She mentioned your name at the meeting.",
+      "ja": "彼女は会議であなたの名前を出していた。",
+      "mark": [
+        "mentioned"
+      ]
+    },
+    "core": "詳しくは述べず、ひとこと触れる。",
+    "other": []
+  },
+  {
+    "src": "M0808",
+    "id": "say",
+    "cat": "word",
+    "en": "say",
+    "ipa": "/seɪ/",
+    "sense": "（言葉を）言う",
+    "ja": "言う",
+    "ex": {
+      "en": "She said she was tired.",
+      "ja": "彼女は疲れていると言った。",
+      "mark": [
+        "said"
+      ]
+    },
+    "core": "口から出した言葉の内容を述べる。",
+    "diff": "say は言葉の内容。tell は相手に伝えること。",
+    "other": []
+  },
+  {
+    "src": "M0809",
+    "id": "tell",
+    "cat": "word",
+    "en": "tell",
+    "ipa": "/tel/",
+    "sense": "（人に）伝える、教える",
+    "ja": "伝える",
+    "ex": {
+      "en": "Please tell me the truth.",
+      "ja": "本当のことを教えてください。",
+      "mark": [
+        "tell"
+      ]
+    },
+    "core": "相手に向けて、情報を言葉で渡す。",
+    "diff": "tell は「人」が必要。say は言葉の内容が中心。",
+    "other": [
+      "（見分ける）：tell A from B"
+    ]
+  },
+  {
+    "src": "M0810",
+    "id": "speak",
+    "cat": "word",
+    "en": "speak",
+    "ipa": "/spiːk/",
+    "sense": "（言語を）話す",
+    "ja": "話す",
+    "ex": {
+      "en": "My friend can speak three languages.",
+      "ja": "友だちは3か国語を話せる。",
+      "mark": [
+        "speak"
+      ]
+    },
+    "core": "声を出して言葉を発し、言語を使う。",
+    "diff": "speak は話す行為。talk は会話のやりとり。",
+    "other": [
+      "（演説する）：speak in public"
+    ]
+  },
+  {
+    "src": "M0811",
+    "id": "talk",
+    "cat": "word",
+    "en": "talk",
+    "ipa": "/tɔːk/",
+    "sense": "話す、おしゃべりする",
+    "ja": "話す",
+    "ex": {
+      "en": "We talked on the phone for an hour.",
+      "ja": "私たちは1時間電話で話した。",
+      "mark": [
+        "talked"
+      ]
+    },
+    "core": "相手と声でやりとりする。",
+    "other": [
+      "（〜について）話す：talk about the plan"
+    ]
+  },
+  {
+    "src": "M0812",
+    "id": "ask",
+    "cat": "word",
+    "en": "ask",
+    "ipa": "/æsk/",
+    "sense": "尋ねる",
+    "ja": "尋ねる",
+    "ex": {
+      "en": "May I ask you a question?",
+      "ja": "質問してもいいですか。",
+      "mark": [
+        "ask"
+      ]
+    },
+    "core": "知りたいことを、相手に向けて問いかける。",
+    "other": [
+      "（頼む）：ask for help"
+    ]
+  },
+  {
+    "src": "M0813",
+    "id": "answer",
+    "cat": "word",
+    "en": "answer",
+    "ipa": "/ˈænsɚ/",
+    "sense": "答える",
+    "ja": "答える",
+    "ex": {
+      "en": "Please answer the question.",
+      "ja": "その質問に答えてください。",
+      "mark": [
+        "answer"
+      ]
+    },
+    "core": "問いかけに対して、返すべきものを返す。",
+    "other": [
+      "（電話に）出る：answer the phone"
+    ]
+  },
+  {
+    "src": "M0814",
+    "id": "reply",
+    "cat": "word",
+    "en": "reply",
+    "ipa": "/rɪˈplaɪ/",
+    "sense": "返事をする",
+    "ja": "返事をする",
+    "ex": {
+      "en": "I replied to her email right away.",
+      "ja": "私はすぐに彼女のメールに返信した。",
+      "mark": [
+        "replied"
+      ]
+    },
+    "core": "受け取った言葉や手紙に、言葉で返す。",
+    "diff": "reply to の形で使う。",
+    "other": []
+  },
+  {
+    "src": "M0815",
+    "id": "respond",
+    "cat": "word",
+    "en": "respond",
+    "ipa": "/rɪˈspɑːnd/",
+    "sense": "応じる、反応する",
+    "ja": "応じる",
+    "ex": {
+      "en": "He didn't respond to my message.",
+      "ja": "彼は私のメッセージに反応しなかった。",
+      "mark": [
+        "respond"
+      ]
+    },
+    "core": "呼びかけや出来事に対して、行動や言葉で返す。",
+    "other": []
+  },
+  {
+    "src": "M0816",
+    "id": "question",
+    "cat": "word",
+    "en": "question",
+    "ipa": "/ˈkwestʃən/",
+    "sense": "（正しいかどうか）疑問を呈する",
+    "ja": "疑問を呈する",
+    "ex": {
+      "en": "Many people questioned the decision.",
+      "ja": "多くの人がその決定に疑問を呈した。",
+      "mark": [
+        "questioned"
+      ]
+    },
+    "core": "当たり前とされていることに、問いを投げかける。",
+    "other": [
+      "（名詞）質問：ask a question"
+    ]
+  },
+  {
+    "src": "M0817",
+    "id": "discuss",
+    "cat": "word",
+    "en": "discuss",
+    "ipa": "/dɪˈskʌs/",
+    "sense": "（意見を出し合って）話し合う",
+    "ja": "話し合う",
+    "ex": {
+      "en": "We discussed the plan for the trip.",
+      "ja": "私たちは旅行の計画について話し合った。",
+      "mark": [
+        "discussed"
+      ]
+    },
+    "core": "ひとつの話題を、互いに意見を出して検討する。",
+    "diff": "discuss は about を付けない。",
+    "other": []
+  },
+  {
+    "src": "M0818",
+    "id": "argue",
+    "cat": "word",
+    "en": "argue",
+    "ipa": "/ˈɑːrɡjuː/",
+    "sense": "口論する",
+    "ja": "口論する",
+    "ex": {
+      "en": "They argued about money all night.",
+      "ja": "二人はお金のことでずっと言い争った。",
+      "mark": [
+        "argued"
+      ]
+    },
+    "core": "互いに自分の意見を強く言い張る。",
+    "other": [
+      "（主張する）：argue that it is true"
+    ]
+  },
+  {
+    "src": "M0819",
+    "id": "debate",
+    "cat": "word",
+    "en": "debate",
+    "ipa": "/dɪˈbeɪt/",
+    "sense": "討論する",
+    "ja": "討論する",
+    "ex": {
+      "en": "Students debated the new school rule.",
+      "ja": "生徒たちは新しい校則について討論した。",
+      "mark": [
+        "debated"
+      ]
+    },
+    "core": "賛成と反対の立場から、意見を戦わせる。",
+    "other": []
+  },
+  {
+    "src": "M0820",
+    "id": "agree",
+    "cat": "word",
+    "en": "agree",
+    "ipa": "/əˈɡriː/",
+    "sense": "賛成する、同意する",
+    "ja": "賛成する",
+    "ex": {
+      "en": "I agree with you.",
+      "ja": "あなたの意見に賛成です。",
+      "mark": [
+        "agree"
+      ]
+    },
+    "core": "相手の考えと、自分の考えが同じ向きになる。",
+    "other": []
+  },
+  {
+    "src": "M0821",
+    "id": "disagree",
+    "cat": "word",
+    "en": "disagree",
+    "ipa": "/ˌdɪsəˈɡriː/",
+    "sense": "反対する、意見が合わない",
+    "ja": "反対する",
+    "ex": {
+      "en": "I disagree with his idea.",
+      "ja": "私は彼の考えに反対だ。",
+      "mark": [
+        "disagree"
+      ]
+    },
+    "core": "相手の考えと、自分の考えが合わない。",
+    "other": []
+  },
+  {
+    "src": "M0822",
+    "id": "accept",
+    "cat": "word",
+    "en": "accept",
+    "ipa": "/əkˈsept/",
+    "sense": "受け入れる",
+    "ja": "受け入れる",
+    "ex": {
+      "en": "She accepted the invitation.",
+      "ja": "彼女は招待を受けた。",
+      "mark": [
+        "accepted"
+      ]
+    },
+    "core": "差し出されたものを、拒まずに受け取る。",
+    "diff": "accept は受け入れること。except は「〜を除いて」。",
+    "other": []
+  },
+  {
+    "src": "M0823",
+    "id": "refuse",
+    "cat": "word",
+    "en": "refuse",
+    "ipa": "/rɪˈfjuːz/",
+    "sense": "拒む、断る",
+    "ja": "拒む",
+    "ex": {
+      "en": "He refused to answer the question.",
+      "ja": "彼はその質問に答えるのを拒んだ。",
+      "mark": [
+        "refused"
+      ]
+    },
+    "core": "差し出されたものや求めを、受け付けない。",
+    "other": []
+  },
+  {
+    "src": "M0824",
+    "id": "reject",
+    "cat": "word",
+    "en": "reject",
+    "ipa": "/rɪˈdʒekt/",
+    "sense": "却下する、はねつける",
+    "ja": "却下する",
+    "ex": {
+      "en": "The committee rejected my plan.",
+      "ja": "委員会は私の計画を却下した。",
+      "mark": [
+        "rejected"
+      ]
+    },
+    "core": "提案や申し出を、受け入れずに退ける。",
+    "diff": "refuse は自分の意思で断ること。reject は案や応募などをはねること。",
+    "other": []
+  },
+  {
+    "src": "M0825",
+    "id": "admit",
+    "cat": "word",
+    "en": "admit",
+    "ipa": "/ədˈmɪt/",
+    "sense": "（事実や過ちを）認める",
+    "ja": "認める",
+    "ex": {
+      "en": "He admitted that he made a mistake.",
+      "ja": "彼は自分の間違いを認めた。",
+      "mark": [
+        "admitted"
+      ]
+    },
+    "core": "隠したくなる事実を、そうだと認める。",
+    "other": [
+      "（入ることを許す）：be admitted to a school"
+    ]
+  },
+  {
+    "src": "M0826",
+    "id": "deny",
+    "cat": "word",
+    "en": "deny",
+    "ipa": "/dɪˈnaɪ/",
+    "sense": "否定する",
+    "ja": "否定する",
+    "ex": {
+      "en": "She denied breaking the window.",
+      "ja": "彼女は窓を割ったことを否定した。",
+      "mark": [
+        "denied"
+      ]
+    },
+    "core": "言われたことを、事実ではないと言う。",
+    "other": []
+  },
+  {
+    "src": "M0827",
+    "id": "promise",
+    "cat": "word",
+    "en": "promise",
+    "ipa": "/ˈprɑːmɪs/",
+    "sense": "約束する",
+    "ja": "約束する",
+    "ex": {
+      "en": "I promise to call you tomorrow.",
+      "ja": "明日必ず電話すると約束するよ。",
+      "mark": [
+        "promise"
+      ]
+    },
+    "core": "これから行うことを、相手に固く言い切る。",
+    "other": [
+      "（名詞）約束：keep a promise"
+    ]
+  },
+  {
+    "src": "M0828",
+    "id": "suggest",
+    "cat": "word",
+    "en": "suggest",
+    "ipa": "/səɡˈdʒest/",
+    "sense": "提案する",
+    "ja": "提案する",
+    "ex": {
+      "en": "I suggest we take a short break.",
+      "ja": "少し休憩しませんか。",
+      "mark": [
+        "suggest"
+      ]
+    },
+    "core": "考えをそっと差し出して、相手に検討してもらう。",
+    "other": []
+  },
+  {
+    "src": "M0829",
+    "id": "recommend",
+    "cat": "word",
+    "en": "recommend",
+    "ipa": "/ˌrekəˈmend/",
+    "sense": "（よいものとして）勧める",
+    "ja": "勧める",
+    "ex": {
+      "en": "Can you recommend a good restaurant?",
+      "ja": "おいしいレストランを教えてもらえますか。",
+      "mark": [
+        "recommend"
+      ]
+    },
+    "core": "よいと思うものを、相手に選ぶよう勧める。",
+    "other": []
+  },
+  {
+    "src": "M0830",
+    "id": "advise",
+    "cat": "word",
+    "en": "advise",
+    "ipa": "/ədˈvaɪz/",
+    "sense": "助言する",
+    "ja": "助言する",
+    "ex": {
+      "en": "The doctor advised him to rest.",
+      "ja": "医者は彼に休むよう助言した。",
+      "mark": [
+        "advised"
+      ]
+    },
+    "core": "経験や知識をもとに、よい方向を示す。",
+    "diff": "advise は動詞、advice は名詞。",
+    "other": []
+  },
+  {
+    "src": "M0831",
+    "id": "warn",
+    "cat": "word",
+    "en": "warn",
+    "ipa": "/wɔːrn/",
+    "sense": "警告する",
+    "ja": "警告する",
+    "ex": {
+      "en": "I warned him about the danger.",
+      "ja": "私は彼に危険を警告した。",
+      "mark": [
+        "warned"
+      ]
+    },
+    "core": "悪いことが起こる前に、あらかじめ知らせる。",
+    "other": []
+  },
+  {
+    "src": "M0832",
+    "id": "remind",
+    "cat": "word",
+    "en": "remind",
+    "ipa": "/rɪˈmaɪnd/",
+    "sense": "（人に）思い出させる",
+    "ja": "思い出させる",
+    "ex": {
+      "en": "Please remind me to buy milk.",
+      "ja": "牛乳を買うことを思い出させてね。",
+      "mark": [
+        "remind"
+      ]
+    },
+    "core": "忘れかけていることを、もう一度心に戻す。",
+    "other": [
+      "（似ていて思い出させる）：remind A of B"
+    ]
+  },
+  {
+    "src": "M0833",
+    "id": "inform",
+    "cat": "word",
+    "en": "inform",
+    "ipa": "/ɪnˈfɔːrm/",
+    "sense": "知らせる",
+    "ja": "知らせる",
+    "ex": {
+      "en": "Please inform us of any changes.",
+      "ja": "変更があれば私たちに知らせてください。",
+      "mark": [
+        "inform"
+      ]
+    },
+    "core": "必要な情報を、相手に伝える。",
+    "other": []
+  },
+  {
+    "src": "M0834",
+    "id": "announce",
+    "cat": "word",
+    "en": "announce",
+    "ipa": "/əˈnaʊns/",
+    "sense": "（公式に）発表する",
+    "ja": "発表する",
+    "ex": {
+      "en": "The school announced a new schedule.",
+      "ja": "学校は新しい日程を発表した。",
+      "mark": [
+        "announced"
+      ]
+    },
+    "core": "多くの人に向けて、はっきり知らせる。",
+    "other": []
+  },
+  {
+    "src": "M0835",
+    "id": "report",
+    "cat": "word",
+    "en": "report",
+    "ipa": "/rɪˈpɔːrt/",
+    "sense": "報告する",
+    "ja": "報告する",
+    "ex": {
+      "en": "He reported the accident to the police.",
+      "ja": "彼はその事故を警察に届け出た。",
+      "mark": [
+        "reported"
+      ]
+    },
+    "core": "見聞きしたことを、しかるべき相手に知らせる。",
+    "other": [
+      "（名詞）報告書：write a report"
+    ]
+  },
+  {
+    "src": "M0836",
+    "id": "complain",
+    "cat": "word",
+    "en": "complain",
+    "ipa": "/kəmˈpleɪn/",
+    "sense": "不満を言う",
+    "ja": "不満を言う",
+    "ex": {
+      "en": "She complained about the noise.",
+      "ja": "彼女は騒音について苦情を言った。",
+      "mark": [
+        "complained"
+      ]
+    },
+    "core": "気に入らないことを、口に出して訴える。",
+    "other": []
+  },
+  {
+    "src": "M0837",
+    "id": "apologize",
+    "cat": "word",
+    "en": "apologize",
+    "ipa": "/əˈpɑːlədʒaɪz/",
+    "sense": "謝る",
+    "ja": "謝る",
+    "ex": {
+      "en": "I apologize for being late.",
+      "ja": "遅れてすみません。",
+      "mark": [
+        "apologize"
+      ]
+    },
+    "core": "自分の非を認めて、わびる。",
+    "other": []
+  },
+  {
+    "src": "M0838",
+    "id": "thank",
+    "cat": "word",
+    "en": "thank",
+    "ipa": "/θæŋk/",
+    "sense": "感謝する",
+    "ja": "感謝する",
+    "ex": {
+      "en": "I want to thank you for your help.",
+      "ja": "手伝ってくれてありがとう。",
+      "mark": [
+        "thank"
+      ]
+    },
+    "core": "してもらったことに、ありがたい気持ちを伝える。",
+    "other": []
+  },
+  {
+    "src": "M0839",
+    "id": "praise",
+    "cat": "word",
+    "en": "praise",
+    "ipa": "/preɪz/",
+    "sense": "褒める",
+    "ja": "褒める",
+    "ex": {
+      "en": "The teacher praised her for her effort.",
+      "ja": "先生は彼女の努力を褒めた。",
+      "mark": [
+        "praised"
+      ]
+    },
+    "core": "よい点を取り上げて、言葉で評価する。",
+    "other": []
+  },
+  {
+    "src": "M0840",
+    "id": "blame",
+    "cat": "word",
+    "en": "blame",
+    "ipa": "/bleɪm/",
+    "sense": "（人のせいにして）責める",
+    "ja": "責める",
+    "ex": {
+      "en": "Don't blame yourself for the mistake.",
+      "ja": "そのミスで自分を責めないで。",
+      "mark": [
+        "blame"
+      ]
+    },
+    "core": "悪いことの原因を、だれかのせいにする。",
+    "other": []
+  },
+  {
+    "src": "M0841",
+    "id": "forgive",
+    "cat": "word",
+    "en": "forgive",
+    "ipa": "/fɚˈɡɪv/",
+    "sense": "許す",
+    "ja": "許す",
+    "ex": {
+      "en": "Please forgive me for my mistake.",
+      "ja": "私の間違いを許してください。",
+      "mark": [
+        "forgive"
+      ]
+    },
+    "core": "相手の過ちを、とがめる気持ちを手放して許す。",
+    "diff": "forgive は気持ちの上で許すこと。allow は許可すること。",
+    "other": []
+  },
+  {
+    "src": "M0842",
+    "id": "invite",
+    "cat": "word",
+    "en": "invite",
+    "ipa": "/ɪnˈvaɪt/",
+    "sense": "招く、招待する",
+    "ja": "招く",
+    "ex": {
+      "en": "We invited our neighbors to dinner.",
+      "ja": "私たちは近所の人を夕食に招いた。",
+      "mark": [
+        "invited"
+      ]
+    },
+    "core": "来てほしい相手に、声をかけて呼ぶ。",
+    "other": []
+  },
+  {
+    "src": "M0843",
+    "id": "welcome",
+    "cat": "word",
+    "en": "welcome",
+    "ipa": "/ˈwelkəm/",
+    "sense": "歓迎する",
+    "ja": "歓迎する",
+    "ex": {
+      "en": "They welcomed us with a big smile.",
+      "ja": "彼らは満面の笑みで私たちを迎えてくれた。",
+      "mark": [
+        "welcomed"
+      ]
+    },
+    "core": "来た人を、よろこんで迎え入れる。",
+    "other": [
+      "（形容詞）歓迎される：You are welcome here."
+    ]
+  },
+  {
+    "src": "M0844",
+    "id": "introduce",
+    "cat": "word",
+    "en": "introduce",
+    "ipa": "/ˌɪntrəˈduːs/",
+    "sense": "紹介する",
+    "ja": "紹介する",
+    "ex": {
+      "en": "Let me introduce my friend to you.",
+      "ja": "友だちを紹介させてください。",
+      "mark": [
+        "introduce"
+      ]
+    },
+    "core": "知らない者どうしを引き合わせる。",
+    "other": [
+      "（初めて取り入れる）：introduce a new system"
+    ]
+  },
+  {
+    "src": "M0845",
+    "id": "greet",
+    "cat": "word",
+    "en": "greet",
+    "ipa": "/ɡriːt/",
+    "sense": "あいさつする",
+    "ja": "あいさつする",
+    "ex": {
+      "en": "He greeted me with a smile.",
+      "ja": "彼は笑顔で私にあいさつした。",
+      "mark": [
+        "greeted"
+      ]
+    },
+    "core": "出会った人に、言葉や身ぶりで声をかける。",
+    "other": []
+  },
+  {
+    "src": "M0846",
+    "id": "persuade",
+    "cat": "word",
+    "en": "persuade",
+    "ipa": "/pɚˈsweɪd/",
+    "sense": "説得する",
+    "ja": "説得する",
+    "ex": {
+      "en": "I persuaded him to join the team.",
+      "ja": "私は彼を説得してチームに加わらせた。",
+      "mark": [
+        "persuaded"
+      ]
+    },
+    "core": "話をして、相手にそうしようという気にさせる。",
+    "diff": "persuade は行動させること。convince は考えを納得させること。",
+    "other": []
+  },
+  {
+    "src": "M0847",
+    "id": "convince",
+    "cat": "word",
+    "en": "convince",
+    "ipa": "/kənˈvɪns/",
+    "sense": "納得させる",
+    "ja": "納得させる",
+    "ex": {
+      "en": "Her story convinced me that she was right.",
+      "ja": "彼女の話で、彼女が正しいと納得した。",
+      "mark": [
+        "convinced"
+      ]
+    },
+    "core": "根拠を示して、相手に本当だと思わせる。",
+    "other": []
+  },
+  {
+    "src": "M0848",
+    "id": "encourage",
+    "cat": "word",
+    "en": "encourage",
+    "ipa": "/ɪnˈkɝːɪdʒ/",
+    "sense": "励ます",
+    "ja": "励ます",
+    "ex": {
+      "en": "My parents encouraged me to try again.",
+      "ja": "両親は私がもう一度挑戦するよう励ましてくれた。",
+      "mark": [
+        "encouraged"
+      ]
+    },
+    "core": "相手の背中を押して、やる気を出させる。",
+    "other": []
+  },
+  {
+    "src": "M0849",
+    "id": "support",
+    "cat": "word",
+    "en": "support",
+    "ipa": "/səˈpɔːrt/",
+    "sense": "支える、支持する",
+    "ja": "支える",
+    "ex": {
+      "en": "My family supports my dream.",
+      "ja": "家族は私の夢を応援してくれる。",
+      "mark": [
+        "support"
+      ]
+    },
+    "core": "下から支えて、倒れないようにする。",
+    "other": [
+      "（物理的に）支える：support the roof"
+    ]
+  },
+  {
+    "src": "M0850",
+    "id": "trust",
+    "cat": "word",
+    "en": "trust",
+    "ipa": "/trʌst/",
+    "sense": "信頼する",
+    "ja": "信頼する",
+    "ex": {
+      "en": "I trust my best friend.",
+      "ja": "私は親友を信頼している。",
+      "mark": [
+        "trust"
+      ]
+    },
+    "core": "相手を疑わず、任せられると思う。",
+    "other": [
+      "（名詞）信頼：earn trust"
+    ]
+  },
+  {
+    "src": "M0851",
+    "id": "respect",
+    "cat": "word",
+    "en": "respect",
+    "ipa": "/rɪˈspekt/",
+    "sense": "尊重する、尊敬する",
+    "ja": "尊重する",
+    "ex": {
+      "en": "I respect your opinion.",
+      "ja": "あなたの意見を尊重します。",
+      "mark": [
+        "respect"
+      ]
+    },
+    "core": "相手の価値を認めて、大切に扱う。",
+    "other": []
+  },
+  {
+    "src": "M0852",
+    "id": "admire",
+    "cat": "word",
+    "en": "admire",
+    "ipa": "/ədˈmaɪɚ/",
+    "sense": "（すばらしいと）感心する",
+    "ja": "感心する",
+    "ex": {
+      "en": "I admire her courage.",
+      "ja": "彼女の勇気には感心する。",
+      "mark": [
+        "admire"
+      ]
+    },
+    "core": "すばらしいと思う人や物を、見上げる気持ちで見る。",
+    "other": []
+  },
+  {
+    "src": "M0853",
+    "id": "appreciate",
+    "cat": "word",
+    "en": "appreciate",
+    "ipa": "/əˈpriːʃieɪt/",
+    "sense": "ありがたく思う",
+    "ja": "ありがたく思う",
+    "ex": {
+      "en": "I really appreciate your help.",
+      "ja": "手伝ってくれて本当に感謝しています。",
+      "mark": [
+        "appreciate"
+      ]
+    },
+    "core": "価値を正しく受け止めて、感謝する。",
+    "other": [
+      "（値上がりする）：The house appreciated in value."
+    ]
+  },
+  {
+    "src": "M0854",
+    "id": "celebrate",
+    "cat": "word",
+    "en": "celebrate",
+    "ipa": "/ˈseləbreɪt/",
+    "sense": "祝う",
+    "ja": "祝う",
+    "ex": {
+      "en": "We celebrated her birthday at home.",
+      "ja": "私たちは家で彼女の誕生日を祝った。",
+      "mark": [
+        "celebrated"
+      ]
+    },
+    "core": "うれしい出来事を、みんなで楽しく祝う。",
+    "other": []
+  },
+  {
+    "src": "M0855",
+    "id": "congratulate",
+    "cat": "word",
+    "en": "congratulate",
+    "ipa": "/kənˈɡrætʃəleɪt/",
+    "sense": "祝福する",
+    "ja": "祝福する",
+    "ex": {
+      "en": "I congratulated him on his new job.",
+      "ja": "私は彼の就職を祝福した。",
+      "mark": [
+        "congratulated"
+      ]
+    },
+    "core": "うれしい成果を、相手に祝いの言葉で伝える。",
+    "diff": "celebrate は祝う行事。congratulate は相手に祝いを伝えること。",
+    "other": []
+  },
+  {
+    "src": "M0856",
+    "id": "communicate",
+    "cat": "word",
+    "en": "communicate",
+    "ipa": "/kəˈmjuːnɪkeɪt/",
+    "sense": "意思を伝え合う",
+    "ja": "意思を伝え合う",
+    "ex": {
+      "en": "We communicate by email every day.",
+      "ja": "私たちは毎日メールでやりとりしている。",
+      "mark": [
+        "communicate"
+      ]
+    },
+    "core": "考えや気持ちを、相手との間で行き来させる。",
+    "other": []
+  },
+  {
+    "src": "M0857",
+    "id": "translate",
+    "cat": "word",
+    "en": "translate",
+    "ipa": "/ˈtrænzleɪt/",
+    "sense": "翻訳する",
+    "ja": "翻訳する",
+    "ex": {
+      "en": "Can you translate this sentence into Japanese?",
+      "ja": "この文を日本語に訳してくれますか。",
+      "mark": [
+        "translate"
+      ]
+    },
+    "core": "ある言語の内容を、別の言語に移し替える。",
+    "other": []
+  },
+  {
+    "src": "M0858",
+    "id": "interpret",
+    "cat": "word",
+    "en": "interpret",
+    "ipa": "/ɪnˈtɝːprɪt/",
+    "sense": "通訳する",
+    "ja": "通訳する",
+    "ex": {
+      "en": "She interpreted for the guests at the event.",
+      "ja": "彼女はイベントで来客の通訳をした。",
+      "mark": [
+        "interpreted"
+      ]
+    },
+    "core": "話された言葉を、その場で別の言語に移す。",
+    "diff": "translate は書かれたもの。interpret は話された言葉の通訳。",
+    "other": [
+      "（解釈する）：interpret the result"
+    ]
+  },
+  {
+    "src": "M0859",
+    "id": "pronounce",
+    "cat": "word",
+    "en": "pronounce",
+    "ipa": "/prəˈnaʊns/",
+    "sense": "発音する",
+    "ja": "発音する",
+    "ex": {
+      "en": "How do you pronounce this word?",
+      "ja": "この単語はどう発音しますか。",
+      "mark": [
+        "pronounce"
+      ]
+    },
+    "core": "言葉を、決まった音で声に出す。",
+    "other": []
+  },
+  {
+    "src": "M0860",
+    "id": "spell",
+    "cat": "word",
+    "en": "spell",
+    "ipa": "/spel/",
+    "sense": "（単語を）つづる",
+    "ja": "つづる",
+    "ex": {
+      "en": "How do you spell your name?",
+      "ja": "お名前はどうつづりますか。",
+      "mark": [
+        "spell"
+      ]
+    },
+    "core": "単語を文字の順に並べて言う、または書く。",
+    "other": []
+  },
+  {
+    "src": "M0861",
+    "id": "work",
+    "cat": "word",
+    "en": "work",
+    "ipa": "/wɝːk/",
+    "sense": "働く",
+    "ja": "働く",
+    "ex": {
+      "en": "My father works at a bank.",
+      "ja": "父は銀行で働いている。",
+      "mark": [
+        "works"
+      ]
+    },
+    "core": "仕事として、体や頭を使って取り組む。",
+    "other": [
+      "（機能する）：This machine doesn't work."
+    ]
+  },
+  {
+    "src": "M0862",
+    "id": "hire",
+    "cat": "word",
+    "en": "hire",
+    "ipa": "/ˈhaɪɚ/",
+    "sense": "（人を）雇う",
+    "ja": "雇う",
+    "ex": {
+      "en": "The company hired ten new workers.",
+      "ja": "その会社は新しい従業員を10人雇った。",
+      "mark": [
+        "hired"
+      ]
+    },
+    "core": "給料を払う約束で、人に働いてもらう。",
+    "other": [
+      "（短期間借りる）：hire a car"
+    ]
+  },
+  {
+    "src": "M0863",
+    "id": "employ",
+    "cat": "word",
+    "en": "employ",
+    "ipa": "/ɪmˈplɔɪ/",
+    "sense": "雇用する",
+    "ja": "雇用する",
+    "ex": {
+      "en": "The factory employs about 200 people.",
+      "ja": "その工場は約200人を雇用している。",
+      "mark": [
+        "employs"
+      ]
+    },
+    "core": "人を仕事に使い、継続して働かせる。",
+    "diff": "hire は雇い入れる動作。employ は雇っている状態にも使う。",
+    "other": []
+  },
+  {
+    "src": "M0864",
+    "id": "recruit",
+    "cat": "word",
+    "en": "recruit",
+    "ipa": "/rɪˈkruːt/",
+    "sense": "（人を）採用する、募る",
+    "ja": "採用する",
+    "ex": {
+      "en": "The company is recruiting new staff.",
+      "ja": "その会社は新しい人材を募集している。",
+      "mark": [
+        "recruiting"
+      ]
+    },
+    "core": "組織に加わる人を探して、集める。",
+    "other": []
+  },
+  {
+    "src": "M0865",
+    "id": "apply",
+    "cat": "word",
+    "en": "apply",
+    "ipa": "/əˈplaɪ/",
+    "sense": "応募する、申し込む",
+    "ja": "応募する",
+    "ex": {
+      "en": "I applied for a part-time job.",
+      "ja": "私はアルバイトに応募した。",
+      "mark": [
+        "applied"
+      ]
+    },
+    "core": "空きや機会に向けて、自分から申し込む。",
+    "other": [
+      "（当てはめる）：apply the rule"
+    ]
+  },
+  {
+    "src": "M0866",
+    "id": "interview",
+    "cat": "word",
+    "en": "interview",
+    "ipa": "/ˈɪntɚvjuː/",
+    "sense": "面接する",
+    "ja": "面接する",
+    "ex": {
+      "en": "They interviewed five people for the job.",
+      "ja": "彼らはその仕事のために5人を面接した。",
+      "mark": [
+        "interviewed"
+      ]
+    },
+    "core": "向かい合って質問し、その人について知る。",
+    "other": [
+      "（取材する）：interview a player"
+    ]
+  },
+  {
+    "src": "M0867",
+    "id": "retire",
+    "cat": "word",
+    "en": "retire",
+    "ipa": "/rɪˈtaɪɚ/",
+    "sense": "退職する",
+    "ja": "退職する",
+    "ex": {
+      "en": "My grandfather retired at sixty-five.",
+      "ja": "祖父は65歳で退職した。",
+      "mark": [
+        "retired"
+      ]
+    },
+    "core": "長く続けた仕事から、身を引く。",
+    "other": []
+  },
+  {
+    "src": "M0868",
+    "id": "resign",
+    "cat": "word",
+    "en": "resign",
+    "ipa": "/rɪˈzaɪn/",
+    "sense": "辞職する",
+    "ja": "辞職する",
+    "ex": {
+      "en": "The manager resigned from his position.",
+      "ja": "その部長は職を辞した。",
+      "mark": [
+        "resigned"
+      ]
+    },
+    "core": "自分の意思で、役職や仕事をやめる。",
+    "diff": "retire は定年などで引退すること。resign は自分から辞めること。",
+    "other": []
+  },
+  {
+    "src": "M0869",
+    "id": "manage",
+    "cat": "word",
+    "en": "manage",
+    "ipa": "/ˈmænɪdʒ/",
+    "sense": "管理する、運営する",
+    "ja": "管理する",
+    "ex": {
+      "en": "She manages a small flower shop.",
+      "ja": "彼女は小さな花屋を切り盛りしている。",
+      "mark": [
+        "manages"
+      ]
+    },
+    "core": "人や物事を、うまく回るように扱う。",
+    "other": [
+      "（なんとか〜する）：manage to finish"
+    ]
+  },
+  {
+    "src": "M0870",
+    "id": "organize",
+    "cat": "word",
+    "en": "organize",
+    "ipa": "/ˈɔːrɡənaɪz/",
+    "sense": "整理する、まとめる",
+    "ja": "整理する",
+    "ex": {
+      "en": "Let's organize these papers by date.",
+      "ja": "これらの書類を日付順に整理しよう。",
+      "mark": [
+        "organize"
+      ]
+    },
+    "core": "ばらばらのものを、順序よく整える。",
+    "other": [
+      "（催しを）企画する：organize a party"
+    ]
+  },
+  {
+    "src": "M0871",
+    "id": "prepare",
+    "cat": "word",
+    "en": "prepare",
+    "ipa": "/prɪˈper/",
+    "sense": "準備する",
+    "ja": "準備する",
+    "ex": {
+      "en": "I prepared dinner for my family.",
+      "ja": "私は家族のために夕食を用意した。",
+      "mark": [
+        "prepared"
+      ]
+    },
+    "core": "前もって、使える状態に整えておく。",
+    "other": []
+  },
+  {
+    "src": "M0872",
+    "id": "arrange",
+    "cat": "word",
+    "en": "arrange",
+    "ipa": "/əˈreɪndʒ/",
+    "sense": "手配する、取り決める",
+    "ja": "手配する",
+    "ex": {
+      "en": "I arranged a meeting for Monday.",
+      "ja": "月曜日に会議を設定した。",
+      "mark": [
+        "arranged"
+      ]
+    },
+    "core": "物事がうまく運ぶよう、段取りをつける。",
+    "other": [
+      "（並べる）：arrange flowers"
+    ]
+  },
+  {
+    "src": "M0873",
+    "id": "schedule",
+    "cat": "word",
+    "en": "schedule",
+    "ipa": "/ˈskedʒuːl/",
+    "sense": "予定を組む",
+    "ja": "予定を組む",
+    "ex": {
+      "en": "We scheduled the meeting for three o'clock.",
+      "ja": "私たちは会議を3時に設定した。",
+      "mark": [
+        "scheduled"
+      ]
+    },
+    "core": "いつ何をするかを、予定表に決めて入れる。",
+    "other": [
+      "（名詞）予定：a busy schedule"
+    ]
+  },
+  {
+    "src": "M0874",
+    "id": "cancel",
+    "cat": "word",
+    "en": "cancel",
+    "ipa": "/ˈkænsəl/",
+    "sense": "取り消す、中止する",
+    "ja": "取り消す",
+    "ex": {
+      "en": "They canceled the game because of rain.",
+      "ja": "雨のため試合は中止になった。",
+      "mark": [
+        "canceled"
+      ]
+    },
+    "core": "決まっていた予定や予約を、なかったことにする。",
+    "other": []
+  },
+  {
+    "src": "M0876",
+    "id": "delay",
+    "cat": "word",
+    "en": "delay",
+    "ipa": "/dɪˈleɪ/",
+    "sense": "遅らせる",
+    "ja": "遅らせる",
+    "ex": {
+      "en": "Heavy snow delayed the train.",
+      "ja": "大雪で電車が遅れた。",
+      "mark": [
+        "delayed"
+      ]
+    },
+    "core": "予定していた時刻より、あとにずらす。",
+    "other": []
+  },
+  {
+    "src": "M0877",
+    "id": "confirm",
+    "cat": "word",
+    "en": "confirm",
+    "ipa": "/kənˈfɜːrm/",
+    "sense": "確認する",
+    "ja": "確認する",
+    "ex": {
+      "en": "Please confirm your reservation by phone.",
+      "ja": "予約を電話で確認してください。",
+      "mark": [
+        "confirm"
+      ]
+    },
+    "core": "確かだと確かめて、はっきりさせる。",
+    "diff": "confirm は確かさを示すこと。check は調べること。",
+    "other": []
+  },
+  {
+    "src": "M0878",
+    "id": "check",
+    "cat": "word",
+    "en": "check",
+    "ipa": "/tʃek/",
+    "sense": "点検する、調べる",
+    "ja": "点検する",
+    "ex": {
+      "en": "Please check your answers again.",
+      "ja": "答えをもう一度確認してください。",
+      "mark": [
+        "check"
+      ]
+    },
+    "core": "間違いがないか、目で確かめる。",
+    "other": [
+      "（預ける）：check a bag"
+    ]
+  },
+  {
+    "src": "M0879",
+    "id": "review",
+    "cat": "word",
+    "en": "review",
+    "ipa": "/rɪˈvjuː/",
+    "sense": "見直す、復習する",
+    "ja": "見直す",
+    "ex": {
+      "en": "I reviewed my notes before the test.",
+      "ja": "テストの前にノートを見直した。",
+      "mark": [
+        "reviewed"
+      ]
+    },
+    "core": "一度見たものを、もう一度見直す。",
+    "other": [
+      "（批評する）：review a book"
+    ]
+  },
+  {
+    "src": "M0880",
+    "id": "approve",
+    "cat": "word",
+    "en": "approve",
+    "ipa": "/əˈpruːv/",
+    "sense": "承認する",
+    "ja": "承認する",
+    "ex": {
+      "en": "The manager approved my plan.",
+      "ja": "部長は私の案を承認した。",
+      "mark": [
+        "approved"
+      ]
+    },
+    "core": "案や申請に、よいと認めて許可を出す。",
+    "other": []
+  },
+  {
+    "src": "M0881",
+    "id": "permit",
+    "cat": "word",
+    "en": "permit",
+    "ipa": "/pɚˈmɪt/",
+    "sense": "許可する",
+    "ja": "許可する",
+    "ex": {
+      "en": "The school does not permit phones in class.",
+      "ja": "学校は授業中の携帯電話を許可していない。",
+      "mark": [
+        "permit"
+      ]
+    },
+    "core": "してよいと、正式に認める。",
+    "diff": "permit は正式な許可。allow はもっと広く使う。",
+    "other": [
+      "（名詞）許可証：a work permit"
+    ]
+  },
+  {
+    "src": "M0882",
+    "id": "allow",
+    "cat": "word",
+    "en": "allow",
+    "ipa": "/əˈlaʊ/",
+    "sense": "許す、可能にする",
+    "ja": "許す",
+    "ex": {
+      "en": "My parents allow me to stay out until nine.",
+      "ja": "両親は私が9時まで外にいることを許してくれる。",
+      "mark": [
+        "allow"
+      ]
+    },
+    "core": "相手がするのを、止めずにそのままにする。",
+    "other": []
+  },
+  {
+    "src": "M0883",
+    "id": "require",
+    "cat": "word",
+    "en": "require",
+    "ipa": "/rɪˈkwaɪɚ/",
+    "sense": "必要とする、要求する",
+    "ja": "必要とする",
+    "ex": {
+      "en": "This job requires a driver's license.",
+      "ja": "この仕事には運転免許が必要だ。",
+      "mark": [
+        "require"
+      ]
+    },
+    "core": "なければ成り立たないものとして、求める。",
+    "other": []
+  },
+  {
+    "src": "M0884",
+    "id": "provide",
+    "cat": "word",
+    "en": "provide",
+    "ipa": "/prəˈvaɪd/",
+    "sense": "提供する",
+    "ja": "提供する",
+    "ex": {
+      "en": "The hotel provides free breakfast.",
+      "ja": "そのホテルは無料の朝食を提供している。",
+      "mark": [
+        "provides"
+      ]
+    },
+    "core": "必要なものを、相手に用意して渡す。",
+    "other": []
+  },
+  {
+    "src": "M0885",
+    "id": "offer",
+    "cat": "word",
+    "en": "offer",
+    "ipa": "/ˈɔːfɚ/",
+    "sense": "申し出る、提供する",
+    "ja": "申し出る",
+    "ex": {
+      "en": "He offered to help me with my homework.",
+      "ja": "彼は宿題を手伝うと申し出てくれた。",
+      "mark": [
+        "offered"
+      ]
+    },
+    "core": "相手が受け取れるように、差し出す。",
+    "other": [
+      "（名詞）申し出：accept an offer"
+    ]
+  }
+]

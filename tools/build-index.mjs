@@ -10,7 +10,8 @@ const CATS = [
   { id: 'phrasal', label: '句動詞' },
   { id: 'daily', label: '日常単語' },
   { id: 'idiom', label: 'イディオム' },
-  { id: 'toeic', label: 'TOEIC語彙' }
+  { id: 'toeic', label: 'TOEIC語彙' },
+  { id: 'word', label: '単語' }
 ];
 const REQUIRED = ['id', 'en', 'ipa', 'sense', 'ja', 'ex', 'core'];
 const errors = [];
@@ -30,9 +31,10 @@ for (const cat of CATS) {
     if (ids.has(it.id)) errors.push(`${it.id}: id が重複`);
     ids.add(it.id);
     if (!/^[a-z0-9-]+$/.test(it.id)) errors.push(`${it.id}: id は半角小文字・数字・ハイフンのみ`);
-    if (it.motion && !['2d', '3d'].includes(it.motion)) errors.push(`${it.id}: motion は "2d" か "3d"`);
-    if (it.motion && !existsSync(join(root, 'js/scenes', `${it.id}.js`))) errors.push(`${it.id}: js/scenes/${it.id}.js がない`);
-    items.push({ id: it.id, en: it.en, ja: it.ja, cat: cat.id, motion: it.motion || null, word: !/\s/.test(it.en.trim()) });
+    if (it.motion && !['2d', '3d', 'tpl'].includes(it.motion)) errors.push(`${it.id}: motion は "2d" / "3d" / "tpl"`);
+    if (it.motion === 'tpl' && !it.tpl?.t) errors.push(`${it.id}: tpl.t がない`);
+    if (it.motion && it.motion !== 'tpl' && !existsSync(join(root, 'js/scenes', `${it.id}.js`))) errors.push(`${it.id}: js/scenes/${it.id}.js がない`);
+    items.push({ id: it.id, en: it.en, ja: it.ja, cat: cat.id, motion: it.motion || null, ...(it.tpl ? { tpl: it.tpl } : {}), word: !/\s/.test(it.en.trim()) });
   }
 }
 
@@ -47,6 +49,8 @@ const stats = {
   words: count((i) => i.word),
   expressions: count((i) => !i.word),
   motion: count((i) => i.motion),
+  motionOwn: count((i) => i.motion && i.motion !== 'tpl'),
+  motionTpl: count((i) => i.motion === 'tpl'),
   motion3d: count((i) => i.motion === '3d'),
   byCat: Object.fromEntries(CATS.map((c) => [c.id, count((i) => i.cat === c.id)]))
 };

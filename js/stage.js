@@ -7,6 +7,8 @@ const loadScene = (id) => {
 };
 let kit3dMod = null;
 const loadKit3d = () => (kit3dMod ||= import('./kit3d.js'));
+let tplMod = null;
+const loadTpl = () => (tplMod ||= import('./tpl.js'));
 let kit2dMod = null;
 const loadKit2d = () => (kit2dMod ||= import('./kit2d.js'));
 
@@ -89,7 +91,8 @@ export class Stage {
     }
     this.onLoading(true);
     try {
-      const [mod, kitMod] = await Promise.all([loadScene(item.id), kind === '3d' ? loadKit3d() : loadKit2d()]);
+      const isTpl = kind === 'tpl';
+      const [mod, kitMod] = await Promise.all([isTpl ? loadTpl() : loadScene(item.id), kind === '3d' ? loadKit3d() : loadKit2d()]);
       if (seq !== this.loadSeq) return false; // 読み込み中に別の項目へ移った
       this._teardown();
       let k;
@@ -110,8 +113,9 @@ export class Stage {
         k = kitMod.createKit2D(this.svg);
         if (this.canvas) this.canvas.style.display = 'none';
       }
-      const inst = mod.create(k);
-      this.current = { id: item.id, kind, meta: mod.meta, inst, k };
+      const inst = isTpl ? mod.create(k, item.tpl || {}) : mod.create(k);
+      const meta = isTpl ? mod.metaFor(item.tpl || {}) : mod.meta;
+      this.current = { id: item.id, kind: isTpl ? '2d' : kind, meta, inst, k };
       if (kind === '3d') this._resize();
       this.restart(this.mode);
       return true;

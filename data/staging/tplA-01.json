@@ -1,0 +1,162 @@
+{
+ "key-in": null,
+ "read-out": {
+  "t": "act",
+  "e": "🗣️",
+  "act": "talk"
+ },
+ "read-through": null,
+ "look-through": {
+  "t": "act",
+  "e": "👀",
+  "act": "look"
+ },
+ "check-over": null,
+ "turn-in": {
+  "t": "act",
+  "e": "📄",
+  "act": "give"
+ },
+ "send-in": null,
+ "work-out": null,
+ "warm-up": {
+  "t": "change",
+  "e": "🌡️",
+  "ch": "heat"
+ },
+ "cool-down": {
+  "t": "change",
+  "e": "❄️",
+  "ch": "cool"
+ },
+ "heat-up": {
+  "t": "change",
+  "e": "🔥",
+  "ch": "heat"
+ },
+ "cool-off": {
+  "t": "change",
+  "e": "❄️",
+  "ch": "cool"
+ },
+ "boil-over": null,
+ "boil-down": null,
+ "cut-up": null,
+ "chop-up": null,
+ "slice-up": null,
+ "mix-up": null,
+ "stir-in": null,
+ "pour-out": {
+  "t": "move",
+  "e": "🫗",
+  "dir": "out"
+ },
+ "pour-in": {
+  "t": "move",
+  "e": "🫗",
+  "dir": "in"
+ },
+ "fill-up": {
+  "t": "change",
+  "e": "🥤",
+  "ch": "fill"
+ },
+ "eat-up": {
+  "t": "act",
+  "e": "🍽️",
+  "act": "eat"
+ },
+ "drink-up": {
+  "t": "act",
+  "e": "🥤",
+  "act": "drink"
+ },
+ "eat-out": {
+  "t": "act",
+  "e": "🍽️",
+  "act": "eat"
+ },
+ "take-away": {
+  "t": "act",
+  "e": "🥡",
+  "act": "carry"
+ },
+ "cut-down": {
+  "t": "move",
+  "e": "🪓",
+  "dir": "down"
+ },
+ "hit-the-nail-on-the-head": null,
+ "once-in-a-blue-moon": null,
+ "cost-an-arm-and-a-leg": null,
+ "spill-the-beans": null,
+ "let-the-cat-out-of-the-bag": null,
+ "bite-the-bullet": null,
+ "burn-the-midnight-oil": null,
+ "cut-corners": null,
+ "get-cold-feet": null,
+ "keep-an-eye-on": null,
+ "keep-ones-fingers-crossed": null,
+ "miss-the-boat": null,
+ "out-of-the-blue": null,
+ "pull-someones-leg": null,
+ "see-eye-to-eye": null,
+ "sit-on-the-fence": null,
+ "the-ball-is-in-your-court": null,
+ "the-best-of-both-worlds": null,
+ "through-thick-and-thin": null,
+ "when-pigs-fly": null,
+ "a-blessing-in-disguise": null,
+ "a-change-of-heart": null,
+ "a-close-call": null,
+ "a-far-cry-from": null,
+ "a-long-shot": null,
+ "a-pain-in-the-neck": null,
+ "a-silver-lining": null,
+ "a-slip-of-the-tongue": null,
+ "a-storm-in-a-teacup": null,
+ "a-tough-nut-to-crack": null,
+ "add-fuel-to-the-fire": null,
+ "all-ears": null,
+ "at-a-crossroads": null,
+ "at-the-drop-of-a-hat": null,
+ "back-to-square-one": null,
+ "back-to-the-drawing-board": null,
+ "bark-up-the-wrong-tree": null,
+ "beat-around-the-bush": null,
+ "bite-off-more-than-one-can-chew": null,
+ "break-a-leg": null,
+ "burn-bridges": null,
+ "bury-the-hatchet": null,
+ "by-the-book": null,
+ "by-the-skin-of-ones-teeth": null,
+ "cry-over-spilled-milk": null,
+ "cut-to-the-chase": null,
+ "draw-the-line": null,
+ "every-cloud-has-a-silver-lining": null,
+ "face-the-music": null,
+ "find-ones-feet": null,
+ "food-for-thought": null,
+ "get-a-taste-of-ones-own-medicine": null,
+ "get-out-of-hand": null,
+ "get-something-off-ones-chest": null,
+ "give-someone-the-benefit-of-the-doubt": null,
+ "go-the-extra-mile": null,
+ "have-a-lot-on-ones-plate": null,
+ "have-butterflies-in-ones-stomach": null,
+ "in-a-nutshell": null,
+ "in-hot-water": null,
+ "in-the-same-boat": null,
+ "jump-on-the-bandwagon": null,
+ "keep-ones-chin-up": null,
+ "leave-no-stone-unturned": null,
+ "make-a-long-story-short": null,
+ "make-ends-meet": null,
+ "make-up-ones-mind": null,
+ "not-ones-cup-of-tea": null,
+ "on-cloud-nine": null,
+ "on-thin-ice": null,
+ "out-of-ones-depth": null,
+ "play-it-by-ear": null,
+ "put-all-ones-eggs-in-one-basket": null
+}

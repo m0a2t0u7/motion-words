@@ -1,0 +1,1869 @@
+[
+ {
+  "src": "M0481",
+  "id": "put-oneself-in-someones-shoes",
+  "cat": "idiom",
+  "en": "put oneself in someone's shoes",
+  "ipa": "/pʊt wʌnˈsɛlf ɪn ˈsʌmwʌnz ʃuz/",
+  "sense": "相手の立場で考える",
+  "ja": "相手の立場で考える",
+  "ex": {
+   "en": "Try to put yourself in her shoes before you decide.",
+   "ja": "決める前に、彼女の立場になって考えてみて。",
+   "mark": [
+    "put yourself in her shoes"
+   ]
+  },
+  "core": "他人の靴を履いてみると、その人の状況が分かる。",
+  "other": []
+ },
+ {
+  "src": "M0482",
+  "id": "read-between-the-lines",
+  "cat": "idiom",
+  "en": "read between the lines",
+  "ipa": "/ˌrid bɪˈtwin ðə ˈlaɪnz/",
+  "sense": "言外の意味を読み取る",
+  "ja": "言外の意味を読み取る",
+  "ex": {
+   "en": "His polite email made me read between the lines.",
+   "ja": "彼の丁寧なメールから、私は言外の意図を読み取った。",
+   "mark": [
+    "read between the lines"
+   ]
+  },
+  "core": "書かれた行と行のあいだにある、書かれていない意味を読む。",
+  "other": []
+ },
+ {
+  "src": "M0483",
+  "id": "ring-a-bell",
+  "cat": "idiom",
+  "en": "ring a bell",
+  "ipa": "/rɪŋ ə ˈbɛl/",
+  "sense": "聞き覚えがある",
+  "ja": "聞き覚えがある",
+  "ex": {
+   "en": "That name rings a bell, but I can't remember why.",
+   "ja": "その名前には聞き覚えがあるが、なぜか思い出せない。",
+   "mark": [
+    "rings a bell"
+   ]
+  },
+  "core": "ベルが鳴るように、記憶がかすかに呼び起こされる。",
+  "other": []
+ },
+ {
+  "src": "M0484",
+  "id": "save-for-a-rainy-day",
+  "cat": "idiom",
+  "en": "save for a rainy day",
+  "ipa": "/seɪv fɔr ə ˈreɪni deɪ/",
+  "sense": "万一に備えて蓄える",
+  "ja": "万一に備えて蓄える",
+  "ex": {
+   "en": "I save a little money every month for a rainy day.",
+   "ja": "私は万一に備えて、毎月少しずつお金を貯めている。",
+   "mark": [
+    "save"
+   ]
+  },
+  "core": "雨の日(困ったとき)のために、今のうちに取っておく。",
+  "other": []
+ },
+ {
+  "src": "M0485",
+  "id": "speak-of-the-devil",
+  "cat": "idiom",
+  "en": "speak of the devil",
+  "ipa": "/spik əv ðə ˈdɛvəl/",
+  "sense": "うわさをすれば",
+  "ja": "うわさをすれば",
+  "ex": {
+   "en": "Speak of the devil! We were just talking about you.",
+   "ja": "うわさをすればだね。ちょうど君の話をしていたところだよ。",
+   "mark": [
+    "Speak of the devil"
+   ]
+  },
+  "core": "話題にした人がちょうど現れたときに言う決まり文句。",
+  "other": []
+ },
+ {
+  "src": "M0486",
+  "id": "steal-someones-thunder",
+  "cat": "idiom",
+  "en": "steal someone's thunder",
+  "ipa": "/stil ˈsʌmwʌnz ˈθʌndər/",
+  "sense": "人の見せ場を奪う",
+  "ja": "人の見せ場を奪う",
+  "ex": {
+   "en": "Please don't steal my thunder by telling everyone the news.",
+   "ja": "みんなに先に知らせて、私の見せ場を奪わないでね。",
+   "mark": [
+    "steal my thunder"
+   ]
+  },
+  "core": "他人が受けるはずだった注目や称賛を先に取ってしまう。",
+  "other": []
+ },
+ {
+  "src": "M0487",
+  "id": "take-something-with-a-grain-of-salt",
+  "cat": "idiom",
+  "en": "take something with a grain of salt",
+  "ipa": "/teɪk ˈsʌmθɪŋ wɪð ə greɪn əv sɔlt/",
+  "sense": "話をうのみにしない",
+  "ja": "話をうのみにしない",
+  "ex": {
+   "en": "Take his story with a grain of salt.",
+   "ja": "彼の話はうのみにしないほうがいい。",
+   "mark": [
+    "Take"
+   ]
+  },
+  "core": "ひとつまみの塩を加えるように、話を割り引いて受け取る。",
+  "other": []
+ },
+ {
+  "src": "M0488",
+  "id": "the-last-straw",
+  "cat": "idiom",
+  "en": "the last straw",
+  "ipa": "/ðə ˈlæst strɔ/",
+  "sense": "我慢の限界を超える最後の出来事",
+  "ja": "堪忍袋の緒が切れる最後の一件",
+  "ex": {
+   "en": "The noise at midnight was the last straw for me.",
+   "ja": "その夜中の騒音で、私はもう我慢の限界だった。",
+   "mark": [
+    "the last straw"
+   ]
+  },
+  "core": "ラクダの背に最後のわら1本がのると耐えきれなくなる、という比喩。",
+  "other": []
+ },
+ {
+  "src": "M0489",
+  "id": "the-tip-of-the-iceberg",
+  "cat": "idiom",
+  "en": "the tip of the iceberg",
+  "ipa": "/ðə tɪp əv ði ˈaɪsbɝg/",
+  "sense": "問題のほんの一部",
+  "ja": "氷山の一角",
+  "ex": {
+   "en": "This one mistake is only the tip of the iceberg.",
+   "ja": "このミスは氷山の一角にすぎない。",
+   "mark": [
+    "the tip of the iceberg"
+   ]
+  },
+  "core": "水面上に見えるのは氷山のごく一部で、大部分は見えない。",
+  "other": []
+ },
+ {
+  "src": "M0490",
+  "id": "think-outside-the-box",
+  "cat": "idiom",
+  "en": "think outside the box",
+  "ipa": "/θɪŋk ˌaʊtˈsaɪd ðə bɑks/",
+  "sense": "既存の枠にとらわれず考える",
+  "ja": "枠にとらわれず考える",
+  "ex": {
+   "en": "We need to think outside the box to solve this.",
+   "ja": "これを解決するには、枠にとらわれず考える必要がある。",
+   "mark": [
+    "think outside the box"
+   ]
+  },
+  "core": "いつもの枠(箱)の外に出て、別の見方で考える。",
+  "other": []
+ },
+ {
+  "src": "M0491",
+  "id": "throw-in-the-towel",
+  "cat": "idiom",
+  "en": "throw in the towel",
+  "ipa": "/θroʊ ɪn ðə ˈtaʊəl/",
+  "sense": "諦める、降参する",
+  "ja": "諦める、降参する",
+  "ex": {
+   "en": "After many tries, he threw in the towel.",
+   "ja": "何度も挑戦したあと、彼は諦めた。",
+   "mark": [
+    "threw in the towel"
+   ]
+  },
+  "core": "ボクシングでタオルを投げ入れて試合を放棄することから。",
+  "other": []
+ },
+ {
+  "src": "M0492",
+  "id": "time-flies",
+  "cat": "idiom",
+  "en": "time flies",
+  "ipa": "/taɪm flaɪz/",
+  "sense": "時がたつのは早い",
+  "ja": "時がたつのは早い",
+  "ex": {
+   "en": "Time flies when you are having fun.",
+   "ja": "楽しいときは時間がたつのが早い。",
+   "mark": [
+    "Time flies"
+   ]
+  },
+  "core": "時間が飛ぶように過ぎていく。",
+  "other": []
+ },
+ {
+  "src": "M0493",
+  "id": "turn-a-blind-eye",
+  "cat": "idiom",
+  "en": "turn a blind eye",
+  "ipa": "/tɝn ə blaɪnd aɪ/",
+  "sense": "見て見ぬふりをする",
+  "ja": "見て見ぬふりをする",
+  "ex": {
+   "en": "The manager turned a blind eye to the broken rule.",
+   "ja": "管理者は規則違反を見て見ぬふりをした。",
+   "mark": [
+    "turned a blind eye"
+   ]
+  },
+  "core": "見えているのに、見えない目を向けて気づかないふりをする。",
+  "other": []
+ },
+ {
+  "src": "M0494",
+  "id": "twist-someones-arm",
+  "cat": "idiom",
+  "en": "twist someone's arm",
+  "ipa": "/twɪst ˈsʌmwʌnz ɑrm/",
+  "sense": "説得して承諾させる",
+  "ja": "説得して承諾させる",
+  "ex": {
+   "en": "He didn't want to come, but I twisted his arm.",
+   "ja": "彼は来たがらなかったが、私が説得して連れてきた。",
+   "mark": [
+    "twisted his arm"
+   ]
+  },
+  "core": "腕をひねるように、少し強引に相手を動かす。",
+  "other": []
+ },
+ {
+  "src": "M0495",
+  "id": "up-in-the-air",
+  "cat": "idiom",
+  "en": "up in the air",
+  "ipa": "/ʌp ɪn ði ɛr/",
+  "sense": "まだ決まっていない",
+  "ja": "まだ決まっていない",
+  "ex": {
+   "en": "Our travel plans are still up in the air.",
+   "ja": "私たちの旅行の予定はまだ決まっていない。",
+   "mark": [
+    "up in the air"
+   ]
+  },
+  "core": "物事が宙に浮いていて、まだ着地(決定)していない。",
+  "other": []
+ },
+ {
+  "src": "M0496",
+  "id": "water-under-the-bridge",
+  "cat": "idiom",
+  "en": "water under the bridge",
+  "ipa": "/ˈwɔtər ˈʌndər ðə brɪdʒ/",
+  "sense": "もう済んだこと",
+  "ja": "もう済んだこと",
+  "ex": {
+   "en": "Don't worry about our fight. It's water under the bridge.",
+   "ja": "私たちのけんかは気にしないで。もう済んだことだよ。",
+   "mark": [
+    "water under the bridge"
+   ]
+  },
+  "core": "橋の下を流れ去った水のように、過ぎたことは戻らない。",
+  "other": []
+ },
+ {
+  "src": "M0497",
+  "id": "wear-ones-heart-on-ones-sleeve",
+  "cat": "idiom",
+  "en": "wear one's heart on one's sleeve",
+  "ipa": "/wɛr wʌnz hɑrt ɑn wʌnz slivz/",
+  "sense": "感情を隠さず表す",
+  "ja": "感情を隠さず表す",
+  "ex": {
+   "en": "She wears her heart on her sleeve.",
+   "ja": "彼女は感情をすぐ顔に出す。",
+   "mark": [
+    "wears her heart on her sleeve"
+   ]
+  },
+  "core": "心を袖につけて、みんなに見えるようにしている。",
+  "other": []
+ },
+ {
+  "src": "M0498",
+  "id": "wrap-ones-head-around",
+  "cat": "idiom",
+  "en": "wrap one's head around",
+  "ipa": "/ræp wʌnz hɛd əˈraʊnd/",
+  "sense": "難しいことを理解する",
+  "ja": "難しいことを理解する",
+  "ex": {
+   "en": "I can't wrap my head around this rule.",
+   "ja": "このルールがどうしても理解できない。",
+   "mark": [
+    "wrap my head around"
+   ]
+  },
+  "core": "難しい考えを頭で包み込んで、つかもうとする。",
+  "other": []
+ },
+ {
+  "src": "M0499",
+  "id": "you-can-say-that-again",
+  "cat": "idiom",
+  "en": "you can say that again",
+  "ipa": "/ju kæn seɪ ðæt əˈgɛn/",
+  "sense": "まったくその通り",
+  "ja": "まったくその通り",
+  "ex": {
+   "en": "\"It's so hot today.\" \"You can say that again!\"",
+   "ja": "「今日はすごく暑いね。」「まったくその通り!」",
+   "mark": [
+    "You can say that again"
+   ]
+  },
+  "core": "もう一度言ってもいいくらい、相手に強く同意する。",
+  "other": []
+ },
+ {
+  "src": "M0500",
+  "id": "better-late-than-never",
+  "cat": "idiom",
+  "en": "better late than never",
+  "ipa": "/ˈbɛtər leɪt ðæn ˈnɛvər/",
+  "sense": "遅くてもやらないよりよい",
+  "ja": "遅くてもやらないよりよい",
+  "ex": {
+   "en": "I started studying late, but better late than never.",
+   "ja": "勉強を始めるのは遅かったが、やらないよりはましだ。",
+   "mark": [
+    "better late than never"
+   ]
+  },
+  "core": "遅れても、結局やらないよりずっとよい。",
+  "other": []
+ },
+ {
+  "src": "M0601",
+  "id": "be",
+  "cat": "word",
+  "en": "be",
+  "ipa": "/bi/",
+  "sense": "〜である",
+  "ja": "〜である",
+  "ex": {
+   "en": "My sister is a nurse.",
+   "ja": "私の姉は看護師です。",
+   "mark": [
+    "is"
+   ]
+  },
+  "core": "主語の状態や正体を結びつける、もっとも基本の動詞。",
+  "other": [
+   "（存在する）いる、ある：There is a cat on the sofa."
+  ]
+ },
+ {
+  "src": "M0602",
+  "id": "have",
+  "cat": "word",
+  "en": "have",
+  "ipa": "/hæv/",
+  "sense": "持っている",
+  "ja": "持っている",
+  "ex": {
+   "en": "I have two brothers.",
+   "ja": "私には兄弟が2人いる。",
+   "mark": [
+    "have"
+   ]
+  },
+  "core": "自分のもとに何かがある、という所有の感覚。",
+  "other": [
+   "（食べる・飲む）食べる：I have breakfast at seven."
+  ]
+ },
+ {
+  "src": "M0603",
+  "id": "do",
+  "cat": "word",
+  "en": "do",
+  "ipa": "/du/",
+  "sense": "する",
+  "ja": "する",
+  "ex": {
+   "en": "I do my homework after dinner.",
+   "ja": "私は夕食のあとに宿題をする。",
+   "mark": [
+    "do"
+   ]
+  },
+  "core": "行為そのものを広く表す、基本の動詞。",
+  "diff": "do は行為をする、make は物を作り出す。",
+  "other": []
+ },
+ {
+  "src": "M0604",
+  "id": "make",
+  "cat": "word",
+  "en": "make",
+  "ipa": "/meɪk/",
+  "sense": "作る",
+  "ja": "作る",
+  "ex": {
+   "en": "My mother makes a cake every Sunday.",
+   "ja": "母は毎週日曜日にケーキを作る。",
+   "mark": [
+    "makes"
+   ]
+  },
+  "core": "材料から新しいものを生み出す感覚。",
+  "diff": "do は行為をする、make は物を作り出す。",
+  "other": [
+   "（〜させる）make + 人 + 動詞：He made me laugh."
+  ]
+ },
+ {
+  "src": "M0605",
+  "id": "go",
+  "cat": "word",
+  "en": "go",
+  "ipa": "/goʊ/",
+  "sense": "行く",
+  "ja": "行く",
+  "ex": {
+   "en": "We go to school by bus.",
+   "ja": "私たちはバスで学校へ行く。",
+   "mark": [
+    "go"
+   ]
+  },
+  "core": "今いる場所から離れていく動き。",
+  "diff": "come は話し手のほうへ来る、go は離れて行く。",
+  "other": []
+ },
+ {
+  "src": "M0606",
+  "id": "come",
+  "cat": "word",
+  "en": "come",
+  "ipa": "/kʌm/",
+  "sense": "来る",
+  "ja": "来る",
+  "ex": {
+   "en": "Please come to my house tomorrow.",
+   "ja": "明日、私の家に来てください。",
+   "mark": [
+    "come"
+   ]
+  },
+  "core": "話し手や相手のいる場所へ近づいてくる動き。",
+  "diff": "come は話し手のほうへ来る、go は離れて行く。",
+  "other": []
+ },
+ {
+  "src": "M0607",
+  "id": "get",
+  "cat": "word",
+  "en": "get",
+  "ipa": "/gɛt/",
+  "sense": "手に入れる",
+  "ja": "手に入れる",
+  "ex": {
+   "en": "I got a new bike for my birthday.",
+   "ja": "誕生日に新しい自転車をもらった。",
+   "mark": [
+    "got"
+   ]
+  },
+  "core": "何かが自分のところに来る、手元に入る感覚。",
+  "other": [
+   "（〜になる）なる：It gets dark early in winter."
+  ]
+ },
+ {
+  "src": "M0608",
+  "id": "give",
+  "cat": "word",
+  "en": "give",
+  "ipa": "/gɪv/",
+  "sense": "与える",
+  "ja": "与える",
+  "ex": {
+   "en": "I gave my friend a book.",
+   "ja": "私は友だちに本をあげた。",
+   "mark": [
+    "gave"
+   ]
+  },
+  "core": "自分から相手へ物を渡す。",
+  "other": []
+ },
+ {
+  "src": "M0609",
+  "id": "take",
+  "cat": "word",
+  "en": "take",
+  "ipa": "/teɪk/",
+  "sense": "取る",
+  "ja": "取る",
+  "ex": {
+   "en": "Take an umbrella with you.",
+   "ja": "傘を持って行きなさい。",
+   "mark": [
+    "Take"
+   ]
+  },
+  "core": "手に取って自分のほうへ、または一緒に持っていく。",
+  "diff": "bring は持ってくる、take は持っていく。",
+  "other": [
+   "（時間がかかる）かかる：It takes ten minutes to walk there."
+  ]
+ },
+ {
+  "src": "M0610",
+  "id": "put",
+  "cat": "word",
+  "en": "put",
+  "ipa": "/pʊt/",
+  "sense": "置く",
+  "ja": "置く",
+  "ex": {
+   "en": "Put the book on the desk.",
+   "ja": "本を机の上に置いて。",
+   "mark": [
+    "Put"
+   ]
+  },
+  "core": "物をある場所にそっと置く。",
+  "other": []
+ },
+ {
+  "src": "M0611",
+  "id": "keep",
+  "cat": "word",
+  "en": "keep",
+  "ipa": "/kip/",
+  "sense": "保つ",
+  "ja": "保つ",
+  "ex": {
+   "en": "Keep the door closed, please.",
+   "ja": "ドアを閉めたままにしておいてください。",
+   "mark": [
+    "Keep"
+   ]
+  },
+  "core": "ある状態や位置をそのまま続ける。",
+  "other": [
+   "（持ち続ける）取っておく：You can keep this pen."
+  ]
+ },
+ {
+  "src": "M0612",
+  "id": "let",
+  "cat": "word",
+  "en": "let",
+  "ipa": "/lɛt/",
+  "sense": "〜させる",
+  "ja": "〜させる",
+  "ex": {
+   "en": "My parents let me stay up late.",
+   "ja": "両親は私が夜更かしするのを許してくれた。",
+   "mark": [
+    "let"
+   ]
+  },
+  "core": "相手のしたいことをじゃましない、許す。",
+  "diff": "make は無理にさせる、let は許してさせる。",
+  "other": []
+ },
+ {
+  "src": "M0613",
+  "id": "leave",
+  "cat": "word",
+  "en": "leave",
+  "ipa": "/liv/",
+  "sense": "去る",
+  "ja": "去る",
+  "ex": {
+   "en": "We leave home at eight every morning.",
+   "ja": "私たちは毎朝8時に家を出る。",
+   "mark": [
+    "leave"
+   ]
+  },
+  "core": "今いる場所から離れる。",
+  "other": [
+   "（置いていく）置き忘れる：I left my bag on the train."
+  ]
+ },
+ {
+  "src": "M0614",
+  "id": "stay",
+  "cat": "word",
+  "en": "stay",
+  "ipa": "/steɪ/",
+  "sense": "とどまる",
+  "ja": "とどまる",
+  "ex": {
+   "en": "I will stay home today.",
+   "ja": "今日は家にいるつもりです。",
+   "mark": [
+    "stay"
+   ]
+  },
+  "core": "同じ場所や状態にそのままいる。",
+  "other": [
+   "（滞在する）泊まる：We stayed at a small hotel."
+  ]
+ },
+ {
+  "src": "M0615",
+  "id": "move",
+  "cat": "word",
+  "en": "move",
+  "ipa": "/muv/",
+  "sense": "動く",
+  "ja": "動く",
+  "ex": {
+   "en": "Please move your car.",
+   "ja": "車を動かしてください。",
+   "mark": [
+    "move"
+   ]
+  },
+  "core": "場所や位置が変わる。",
+  "other": [
+   "（引っ越す）引っ越す：They moved to Osaka last year."
+  ]
+ },
+ {
+  "src": "M0616",
+  "id": "stop",
+  "cat": "word",
+  "en": "stop",
+  "ipa": "/stɑp/",
+  "sense": "止まる",
+  "ja": "止まる",
+  "ex": {
+   "en": "The bus stopped in front of the station.",
+   "ja": "バスは駅の前で止まった。",
+   "mark": [
+    "stopped"
+   ]
+  },
+  "core": "動いていたものが動かなくなる。",
+  "other": [
+   "（やめる）stop + ~ing：Stop talking, please."
+  ]
+ },
+ {
+  "src": "M0617",
+  "id": "start",
+  "cat": "word",
+  "en": "start",
+  "ipa": "/stɑrt/",
+  "sense": "始める",
+  "ja": "始める",
+  "ex": {
+   "en": "Let's start the lesson.",
+   "ja": "授業を始めましょう。",
+   "mark": [
+    "start"
+   ]
+  },
+  "core": "物事を動かし始める。",
+  "other": [
+   "（動き出す）始動する：The engine won't start."
+  ]
+ },
+ {
+  "src": "M0618",
+  "id": "begin",
+  "cat": "word",
+  "en": "begin",
+  "ipa": "/bɪˈgɪn/",
+  "sense": "始まる",
+  "ja": "始まる",
+  "ex": {
+   "en": "The movie begins at seven.",
+   "ja": "映画は7時に始まる。",
+   "mark": [
+    "begins"
+   ]
+  },
+  "core": "ものごとの最初の段階に入る。ややあらたまった語。",
+  "other": []
+ },
+ {
+  "src": "M0619",
+  "id": "finish",
+  "cat": "word",
+  "en": "finish",
+  "ipa": "/ˈfɪnɪʃ/",
+  "sense": "終える",
+  "ja": "終える",
+  "ex": {
+   "en": "I finished my homework at nine.",
+   "ja": "私は9時に宿題を終えた。",
+   "mark": [
+    "finished"
+   ]
+  },
+  "core": "最後までやり終える。",
+  "other": []
+ },
+ {
+  "src": "M0620",
+  "id": "end",
+  "cat": "word",
+  "en": "end",
+  "ipa": "/ɛnd/",
+  "sense": "終わる",
+  "ja": "終わる",
+  "ex": {
+   "en": "The class ends at three.",
+   "ja": "授業は3時に終わる。",
+   "mark": [
+    "ends"
+   ]
+  },
+  "core": "続いていたものが終点に達する。",
+  "diff": "finish は人が終える、end はものごとが終わる。",
+  "other": [
+   "（名詞）終わり：the end of the story"
+  ]
+ },
+ {
+  "src": "M0621",
+  "id": "continue",
+  "cat": "word",
+  "en": "continue",
+  "ipa": "/kənˈtɪnju/",
+  "sense": "続ける",
+  "ja": "続ける",
+  "ex": {
+   "en": "Please continue your story.",
+   "ja": "話を続けてください。",
+   "mark": [
+    "continue"
+   ]
+  },
+  "core": "途中で止めずに、そのまま先へ進める。",
+  "other": []
+ },
+ {
+  "src": "M0622",
+  "id": "wait",
+  "cat": "word",
+  "en": "wait",
+  "ipa": "/weɪt/",
+  "sense": "待つ",
+  "ja": "待つ",
+  "ex": {
+   "en": "Please wait here for a moment.",
+   "ja": "ここでしばらくお待ちください。",
+   "mark": [
+    "wait"
+   ]
+  },
+  "core": "来るものを、その場にいて待つ。",
+  "other": []
+ },
+ {
+  "src": "M0623",
+  "id": "meet",
+  "cat": "word",
+  "en": "meet",
+  "ipa": "/mit/",
+  "sense": "会う",
+  "ja": "会う",
+  "ex": {
+   "en": "I will meet my friend at the station.",
+   "ja": "駅で友だちに会う予定です。",
+   "mark": [
+    "meet"
+   ]
+  },
+  "core": "人と顔を合わせる。",
+  "other": [
+   "（初対面で）知り合う：Nice to meet you."
+  ]
+ },
+ {
+  "src": "M0624",
+  "id": "visit",
+  "cat": "word",
+  "en": "visit",
+  "ipa": "/ˈvɪzɪt/",
+  "sense": "訪ねる",
+  "ja": "訪ねる",
+  "ex": {
+   "en": "We visit my grandmother every summer.",
+   "ja": "私たちは毎年夏に祖母を訪ねる。",
+   "mark": [
+    "visit"
+   ]
+  },
+  "core": "人や場所をしばらく訪れる。",
+  "other": []
+ },
+ {
+  "src": "M0625",
+  "id": "return",
+  "cat": "word",
+  "en": "return",
+  "ipa": "/rɪˈtɝn/",
+  "sense": "戻る",
+  "ja": "戻る",
+  "ex": {
+   "en": "He returned home late last night.",
+   "ja": "彼は昨夜遅く家に帰ってきた。",
+   "mark": [
+    "returned"
+   ]
+  },
+  "core": "もといた場所へ戻る。",
+  "other": [
+   "（返す）返却する：Please return the book by Friday."
+  ]
+ },
+ {
+  "src": "M0626",
+  "id": "arrive",
+  "cat": "word",
+  "en": "arrive",
+  "ipa": "/əˈraɪv/",
+  "sense": "到着する",
+  "ja": "到着する",
+  "ex": {
+   "en": "The train arrives at noon.",
+   "ja": "電車は正午に到着する。",
+   "mark": [
+    "arrives"
+   ]
+  },
+  "core": "目的地にたどり着く。",
+  "other": []
+ },
+ {
+  "src": "M0627",
+  "id": "reach",
+  "cat": "word",
+  "en": "reach",
+  "ipa": "/ritʃ/",
+  "sense": "届く",
+  "ja": "届く",
+  "ex": {
+   "en": "I can't reach the top shelf.",
+   "ja": "私は一番上の棚に手が届かない。",
+   "mark": [
+    "reach"
+   ]
+  },
+  "core": "手や足を伸ばして目標に届く。",
+  "diff": "arrive は到着する、reach は目標に達する。",
+  "other": [
+   "（到達する）着く：We reached the hotel at night."
+  ]
+ },
+ {
+  "src": "M0628",
+  "id": "enter",
+  "cat": "word",
+  "en": "enter",
+  "ipa": "/ˈɛntər/",
+  "sense": "入る",
+  "ja": "入る",
+  "ex": {
+   "en": "Please enter the room quietly.",
+   "ja": "静かに部屋に入ってください。",
+   "mark": [
+    "enter"
+   ]
+  },
+  "core": "外から中へ入る。直後に前置詞を付けない。",
+  "other": []
+ },
+ {
+  "src": "M0629",
+  "id": "exit",
+  "cat": "word",
+  "en": "exit",
+  "ipa": "/ˈɛgzɪt/",
+  "sense": "出る",
+  "ja": "出る",
+  "ex": {
+   "en": "Please exit through the back door.",
+   "ja": "後ろのドアから出てください。",
+   "mark": [
+    "exit"
+   ]
+  },
+  "core": "建物や場所から外へ出る。出口の意味でも使う。",
+  "other": [
+   "（名詞）出口：the emergency exit"
+  ]
+ },
+ {
+  "src": "M0630",
+  "id": "follow",
+  "cat": "word",
+  "en": "follow",
+  "ipa": "/ˈfɑloʊ/",
+  "sense": "ついていく",
+  "ja": "ついていく",
+  "ex": {
+   "en": "The dog follows me everywhere.",
+   "ja": "その犬はどこへでも私についてくる。",
+   "mark": [
+    "follows"
+   ]
+  },
+  "core": "相手の後ろについて進む。",
+  "other": [
+   "（従う）守る：Follow the rules."
+  ]
+ },
+ {
+  "src": "M0631",
+  "id": "lead",
+  "cat": "word",
+  "en": "lead",
+  "ipa": "/lid/",
+  "sense": "先導する",
+  "ja": "先導する",
+  "ex": {
+   "en": "He led us to the station.",
+   "ja": "彼は私たちを駅まで案内してくれた。",
+   "mark": [
+    "led"
+   ]
+  },
+  "core": "先頭に立って、人を目的の方向へ導く。",
+  "other": []
+ },
+ {
+  "src": "M0632",
+  "id": "bring",
+  "cat": "word",
+  "en": "bring",
+  "ipa": "/brɪŋ/",
+  "sense": "持ってくる",
+  "ja": "持ってくる",
+  "ex": {
+   "en": "Please bring your lunch tomorrow.",
+   "ja": "明日は昼食を持ってきてください。",
+   "mark": [
+    "bring"
+   ]
+  },
+  "core": "物を話し手のいる場所へ持ってくる。",
+  "diff": "bring は持ってくる、take は持っていく。",
+  "other": []
+ },
+ {
+  "src": "M0633",
+  "id": "carry",
+  "cat": "word",
+  "en": "carry",
+  "ipa": "/ˈkæri/",
+  "sense": "運ぶ",
+  "ja": "運ぶ",
+  "ex": {
+   "en": "She carried a heavy box upstairs.",
+   "ja": "彼女は重い箱を2階へ運んだ。",
+   "mark": [
+    "carried"
+   ]
+  },
+  "core": "物を持ったまま、別の場所へ移す。",
+  "other": []
+ },
+ {
+  "src": "M0634",
+  "id": "hold",
+  "cat": "word",
+  "en": "hold",
+  "ipa": "/hoʊld/",
+  "sense": "持つ",
+  "ja": "持つ",
+  "ex": {
+   "en": "Hold my hand when we cross the street.",
+   "ja": "道を渡るときは私の手をつないで。",
+   "mark": [
+    "Hold"
+   ]
+  },
+  "core": "手でしっかりつかんだ状態を保つ。",
+  "other": [
+   "（開催する）開く：They hold a festival every May."
+  ]
+ },
+ {
+  "src": "M0635",
+  "id": "lift",
+  "cat": "word",
+  "en": "lift",
+  "ipa": "/lɪft/",
+  "sense": "持ち上げる",
+  "ja": "持ち上げる",
+  "ex": {
+   "en": "I can't lift this heavy bag.",
+   "ja": "この重いかばんは持ち上げられない。",
+   "mark": [
+    "lift"
+   ]
+  },
+  "core": "下にあるものを力を入れて上へ上げる。",
+  "other": []
+ },
+ {
+  "src": "M0636",
+  "id": "raise",
+  "cat": "word",
+  "en": "raise",
+  "ipa": "/reɪz/",
+  "sense": "上げる",
+  "ja": "上げる",
+  "ex": {
+   "en": "Raise your hand if you have a question.",
+   "ja": "質問があれば手を挙げてください。",
+   "mark": [
+    "Raise"
+   ]
+  },
+  "core": "ものを上のほうへ上げる。",
+  "diff": "rise は自分で上がる、raise は何かを上げる。",
+  "other": []
+ },
+ {
+  "src": "M0637",
+  "id": "lower",
+  "cat": "word",
+  "en": "lower",
+  "ipa": "/ˈloʊər/",
+  "sense": "下げる",
+  "ja": "下げる",
+  "ex": {
+   "en": "Please lower your voice.",
+   "ja": "声を小さくしてください。",
+   "mark": [
+    "lower"
+   ]
+  },
+  "core": "高さや程度を下へ下げる。",
+  "other": []
+ },
+ {
+  "src": "M0638",
+  "id": "drop",
+  "cat": "word",
+  "en": "drop",
+  "ipa": "/drɑp/",
+  "sense": "落とす",
+  "ja": "落とす",
+  "ex": {
+   "en": "I dropped my phone on the floor.",
+   "ja": "私は携帯電話を床に落とした。",
+   "mark": [
+    "dropped"
+   ]
+  },
+  "core": "手から離れて、ものが下へ落ちる。",
+  "other": []
+ },
+ {
+  "src": "M0639",
+  "id": "throw",
+  "cat": "word",
+  "en": "throw",
+  "ipa": "/θroʊ/",
+  "sense": "投げる",
+  "ja": "投げる",
+  "ex": {
+   "en": "Throw the ball to me.",
+   "ja": "私にボールを投げて。",
+   "mark": [
+    "Throw"
+   ]
+  },
+  "core": "手で勢いをつけて遠くへ飛ばす。",
+  "other": []
+ },
+ {
+  "src": "M0640",
+  "id": "catch",
+  "cat": "word",
+  "en": "catch",
+  "ipa": "/kætʃ/",
+  "sense": "つかまえる",
+  "ja": "つかまえる",
+  "ex": {
+   "en": "I caught the ball with one hand.",
+   "ja": "私は片手でボールをつかんだ。",
+   "mark": [
+    "caught"
+   ]
+  },
+  "core": "動くものをとらえて手に収める。",
+  "other": [
+   "（乗り物に）間に合う：I caught the last train."
+  ]
+ },
+ {
+  "src": "M0643",
+  "id": "open",
+  "cat": "word",
+  "en": "open",
+  "ipa": "/ˈoʊpən/",
+  "sense": "開ける",
+  "ja": "開ける",
+  "ex": {
+   "en": "Please open the window.",
+   "ja": "窓を開けてください。",
+   "mark": [
+    "open"
+   ]
+  },
+  "core": "閉じていたものを開く。",
+  "other": []
+ },
+ {
+  "src": "M0644",
+  "id": "close",
+  "cat": "word",
+  "en": "close",
+  "ipa": "/kloʊz/",
+  "sense": "閉める",
+  "ja": "閉める",
+  "ex": {
+   "en": "Please close the door.",
+   "ja": "ドアを閉めてください。",
+   "mark": [
+    "close"
+   ]
+  },
+  "core": "開いていたものを閉じる。",
+  "diff": "shut より穏やかな言い方。",
+  "other": []
+ },
+ {
+  "src": "M0645",
+  "id": "shut",
+  "cat": "word",
+  "en": "shut",
+  "ipa": "/ʃʌt/",
+  "sense": "閉める",
+  "ja": "ぴしゃりと閉める",
+  "ex": {
+   "en": "He shut the door and left.",
+   "ja": "彼はドアを閉めて出ていった。",
+   "mark": [
+    "shut"
+   ]
+  },
+  "core": "開いている口をしっかり閉じる。close より勢いのある語感。",
+  "other": []
+ },
+ {
+  "src": "M0646",
+  "id": "lock",
+  "cat": "word",
+  "en": "lock",
+  "ipa": "/lɑk/",
+  "sense": "鍵をかける",
+  "ja": "鍵をかける",
+  "ex": {
+   "en": "Don't forget to lock the door.",
+   "ja": "ドアの鍵をかけるのを忘れないで。",
+   "mark": [
+    "lock"
+   ]
+  },
+  "core": "鍵で開かないように固定する。",
+  "other": []
+ },
+ {
+  "src": "M0647",
+  "id": "unlock",
+  "cat": "word",
+  "en": "unlock",
+  "ipa": "/ʌnˈlɑk/",
+  "sense": "解錠する",
+  "ja": "鍵を開ける",
+  "ex": {
+   "en": "I can't unlock the door.",
+   "ja": "ドアの鍵が開けられない。",
+   "mark": [
+    "unlock"
+   ]
+  },
+  "core": "un- は反対の動作。かかっていた鍵を外す。",
+  "other": []
+ },
+ {
+  "src": "M0648",
+  "id": "turn",
+  "cat": "word",
+  "en": "turn",
+  "ipa": "/tɝn/",
+  "sense": "回す",
+  "ja": "回す",
+  "ex": {
+   "en": "Turn the handle to the right.",
+   "ja": "ハンドルを右に回して。",
+   "mark": [
+    "Turn"
+   ]
+  },
+  "core": "円を描くように回す、または向きを変える。",
+  "other": [
+   "（曲がる）曲がる：Turn left at the corner."
+  ]
+ },
+ {
+  "src": "M0649",
+  "id": "roll",
+  "cat": "word",
+  "en": "roll",
+  "ipa": "/roʊl/",
+  "sense": "転がる",
+  "ja": "転がる",
+  "ex": {
+   "en": "The ball rolled under the car.",
+   "ja": "ボールは車の下に転がっていった。",
+   "mark": [
+    "rolled"
+   ]
+  },
+  "core": "丸いものが回りながら進む。",
+  "other": []
+ },
+ {
+  "src": "M0650",
+  "id": "slide",
+  "cat": "word",
+  "en": "slide",
+  "ipa": "/slaɪd/",
+  "sense": "滑る",
+  "ja": "滑る",
+  "ex": {
+   "en": "The children slide down the hill on a sled.",
+   "ja": "子どもたちはそりで丘を滑り降りる。",
+   "mark": [
+    "slide"
+   ]
+  },
+  "core": "表面にそってなめらかに動く。",
+  "other": []
+ },
+ {
+  "src": "M0652",
+  "id": "bend",
+  "cat": "word",
+  "en": "bend",
+  "ipa": "/bɛnd/",
+  "sense": "曲げる",
+  "ja": "曲げる",
+  "ex": {
+   "en": "Bend your knees and jump.",
+   "ja": "ひざを曲げてジャンプして。",
+   "mark": [
+    "Bend"
+   ]
+  },
+  "core": "まっすぐなものを曲げる、または体を曲げる。",
+  "other": []
+ },
+ {
+  "src": "M0653",
+  "id": "stretch",
+  "cat": "word",
+  "en": "stretch",
+  "ipa": "/strɛtʃ/",
+  "sense": "伸ばす",
+  "ja": "伸ばす",
+  "ex": {
+   "en": "I stretch my arms every morning.",
+   "ja": "私は毎朝腕を伸ばす。",
+   "mark": [
+    "stretch"
+   ]
+  },
+  "core": "体やものを引っ張って長く伸ばす。",
+  "other": []
+ },
+ {
+  "src": "M0655",
+  "id": "spread",
+  "cat": "word",
+  "en": "spread",
+  "ipa": "/sprɛd/",
+  "sense": "広げる",
+  "ja": "広げる",
+  "ex": {
+   "en": "She spread the map on the table.",
+   "ja": "彼女は地図をテーブルの上に広げた。",
+   "mark": [
+    "spread"
+   ]
+  },
+  "core": "たたまれたものを平らに広げる。",
+  "other": [
+   "（塗る）塗る：spread butter on bread"
+  ]
+ },
+ {
+  "src": "M0656",
+  "id": "wrap",
+  "cat": "word",
+  "en": "wrap",
+  "ipa": "/ræp/",
+  "sense": "包む",
+  "ja": "包む",
+  "ex": {
+   "en": "I wrapped the gift in blue paper.",
+   "ja": "私はプレゼントを青い紙で包んだ。",
+   "mark": [
+    "wrapped"
+   ]
+  },
+  "core": "紙や布で周りをぐるっと包む。",
+  "other": []
+ },
+ {
+  "src": "M0657",
+  "id": "cover",
+  "cat": "word",
+  "en": "cover",
+  "ipa": "/ˈkʌvər/",
+  "sense": "覆う",
+  "ja": "覆う",
+  "ex": {
+   "en": "Cover the pot with a lid.",
+   "ja": "鍋にふたをかぶせて。",
+   "mark": [
+    "Cover"
+   ]
+  },
+  "core": "上からかぶせて隠したり守ったりする。",
+  "other": []
+ },
+ {
+  "src": "M0658",
+  "id": "hide",
+  "cat": "word",
+  "en": "hide",
+  "ipa": "/haɪd/",
+  "sense": "隠す",
+  "ja": "隠す",
+  "ex": {
+   "en": "The child hid under the bed.",
+   "ja": "子どもはベッドの下に隠れた。",
+   "mark": [
+    "hid"
+   ]
+  },
+  "core": "見つからないよう、見えない所に置く。",
+  "other": []
+ },
+ {
+  "src": "M0659",
+  "id": "show",
+  "cat": "word",
+  "en": "show",
+  "ipa": "/ʃoʊ/",
+  "sense": "見せる",
+  "ja": "見せる",
+  "ex": {
+   "en": "Please show me your ticket.",
+   "ja": "切符を見せてください。",
+   "mark": [
+    "show"
+   ]
+  },
+  "core": "相手が見えるように示す。",
+  "other": []
+ },
+ {
+  "src": "M0660",
+  "id": "find",
+  "cat": "word",
+  "en": "find",
+  "ipa": "/faɪnd/",
+  "sense": "見つける",
+  "ja": "見つける",
+  "ex": {
+   "en": "I found my keys under the sofa.",
+   "ja": "ソファの下で鍵を見つけた。",
+   "mark": [
+    "found"
+   ]
+  },
+  "core": "探していたもの、または偶然のものを見つける。",
+  "other": []
+ },
+ {
+  "src": "M0661",
+  "id": "lose",
+  "cat": "word",
+  "en": "lose",
+  "ipa": "/luz/",
+  "sense": "なくす",
+  "ja": "なくす",
+  "ex": {
+   "en": "I lost my wallet on the train.",
+   "ja": "電車で財布をなくした。",
+   "mark": [
+    "lost"
+   ]
+  },
+  "core": "持っていたものを失う。",
+  "other": [
+   "（負ける）負ける：We lost the game."
+  ]
+ },
+ {
+  "src": "M0662",
+  "id": "search",
+  "cat": "word",
+  "en": "search",
+  "ipa": "/sɝtʃ/",
+  "sense": "探す",
+  "ja": "探す",
+  "ex": {
+   "en": "I searched for my glasses everywhere.",
+   "ja": "私はあちこちでめがねを探した。",
+   "mark": [
+    "searched"
+   ]
+  },
+  "core": "見つけようとして、くまなく調べる。",
+  "other": []
+ },
+ {
+  "src": "M0663",
+  "id": "choose",
+  "cat": "word",
+  "en": "choose",
+  "ipa": "/tʃuz/",
+  "sense": "選ぶ",
+  "ja": "選ぶ",
+  "ex": {
+   "en": "You can choose any color.",
+   "ja": "好きな色を選んでいいよ。",
+   "mark": [
+    "choose"
+   ]
+  },
+  "core": "いくつかの中から考えて決める。",
+  "other": []
+ },
+ {
+  "src": "M0664",
+  "id": "pick",
+  "cat": "word",
+  "en": "pick",
+  "ipa": "/pɪk/",
+  "sense": "選び取る",
+  "ja": "選び取る",
+  "ex": {
+   "en": "Pick a card from the pile.",
+   "ja": "山から1枚カードを引いて。",
+   "mark": [
+    "Pick"
+   ]
+  },
+  "core": "手で取り上げるように選ぶ。",
+  "other": [
+   "（摘む）摘む：pick apples"
+  ]
+ },
+ {
+  "src": "M0665",
+  "id": "use",
+  "cat": "word",
+  "en": "use",
+  "ipa": "/juz/",
+  "sense": "使う",
+  "ja": "使う",
+  "ex": {
+   "en": "May I use your pen?",
+   "ja": "ペンを使ってもいいですか。",
+   "mark": [
+    "use"
+   ]
+  },
+  "core": "目的のために道具などを使う。動詞の発音は /juz/。",
+  "other": []
+ },
+ {
+  "src": "M0666",
+  "id": "try",
+  "cat": "word",
+  "en": "try",
+  "ipa": "/traɪ/",
+  "sense": "試す",
+  "ja": "試す",
+  "ex": {
+   "en": "Try this cake. It's delicious.",
+   "ja": "このケーキを食べてみて。おいしいよ。",
+   "mark": [
+    "Try"
+   ]
+  },
+  "core": "うまくいくか確かめるために、やってみる。",
+  "other": [
+   "（努力する）〜しようとする：I tried to open the door."
+  ]
+ },
+ {
+  "src": "M0667",
+  "id": "help",
+  "cat": "word",
+  "en": "help",
+  "ipa": "/hɛlp/",
+  "sense": "助ける",
+  "ja": "助ける",
+  "ex": {
+   "en": "Can you help me with this box?",
+   "ja": "この箱を運ぶのを手伝ってくれますか。",
+   "mark": [
+    "help me"
+   ]
+  },
+  "core": "相手の負担を軽くして、力を貸す。",
+  "other": []
+ },
+ {
+  "src": "M0668",
+  "id": "need",
+  "cat": "word",
+  "en": "need",
+  "ipa": "/nid/",
+  "sense": "必要とする",
+  "ja": "必要とする",
+  "ex": {
+   "en": "I need more time.",
+   "ja": "私にはもっと時間が必要だ。",
+   "mark": [
+    "need"
+   ]
+  },
+  "core": "ないと困るものを必要とする。",
+  "other": []
+ },
+ {
+  "src": "M0669",
+  "id": "want",
+  "cat": "word",
+  "en": "want",
+  "ipa": "/wɑnt/",
+  "sense": "欲しい",
+  "ja": "欲しい",
+  "ex": {
+   "en": "I want a new bag.",
+   "ja": "新しいかばんが欲しい。",
+   "mark": [
+    "want"
+   ]
+  },
+  "core": "手に入れたい、したいという気持ち。",
+  "other": []
+ },
+ {
+  "src": "M0670",
+  "id": "like",
+  "cat": "word",
+  "en": "like",
+  "ipa": "/laɪk/",
+  "sense": "好む",
+  "ja": "好む",
+  "ex": {
+   "en": "I like spicy food.",
+   "ja": "私は辛い食べ物が好きだ。",
+   "mark": [
+    "like"
+   ]
+  },
+  "core": "好ましく感じる。",
+  "other": []
+ },
+ {
+  "src": "M0671",
+  "id": "love",
+  "cat": "word",
+  "en": "love",
+  "ipa": "/lʌv/",
+  "sense": "愛する",
+  "ja": "愛する",
+  "ex": {
+   "en": "I love my family.",
+   "ja": "私は家族を愛している。",
+   "mark": [
+    "love"
+   ]
+  },
+  "core": "とても強く大切に思う。",
+  "other": []
+ },
+ {
+  "src": "M0672",
+  "id": "hate",
+  "cat": "word",
+  "en": "hate",
+  "ipa": "/heɪt/",
+  "sense": "嫌う",
+  "ja": "嫌う",
+  "ex": {
+   "en": "I hate getting up early.",
+   "ja": "私は早起きが大嫌いだ。",
+   "mark": [
+    "hate"
+   ]
+  },
+  "core": "強くいやだと感じる。",
+  "other": []
+ },
+ {
+  "src": "M0673",
+  "id": "enjoy",
+  "cat": "word",
+  "en": "enjoy",
+  "ipa": "/ɪnˈdʒɔɪ/",
+  "sense": "楽しむ",
+  "ja": "楽しむ",
+  "ex": {
+   "en": "We enjoyed the party very much.",
+   "ja": "私たちはパーティーをとても楽しんだ。",
+   "mark": [
+    "enjoyed"
+   ]
+  },
+  "core": "物事を味わって、よい気分になる。",
+  "other": []
+ },
+ {
+  "src": "M0674",
+  "id": "prefer",
+  "cat": "word",
+  "en": "prefer",
+  "ipa": "/prɪˈfɝ/",
+  "sense": "より好む",
+  "ja": "より好む",
+  "ex": {
+   "en": "I prefer tea to coffee.",
+   "ja": "私はコーヒーより紅茶が好きだ。",
+   "mark": [
+    "prefer"
+   ]
+  },
+  "core": "二つのうち、こちらのほうを選びたい。",
+  "other": []
+ },
+ {
+  "src": "M0675",
+  "id": "wish",
+  "cat": "word",
+  "en": "wish",
+  "ipa": "/wɪʃ/",
+  "sense": "願う",
+  "ja": "願う",
+  "ex": {
+   "en": "I wish I could fly.",
+   "ja": "空を飛べたらいいのに。",
+   "mark": [
+    "wish"
+   ]
+  },
+  "core": "実現しにくいことを、そうなればと願う。",
+  "diff": "hope は実現しそうなことを望む。wish は難しいことを願う。",
+  "other": []
+ },
+ {
+  "src": "M0676",
+  "id": "hope",
+  "cat": "word",
+  "en": "hope",
+  "ipa": "/hoʊp/",
+  "sense": "望む",
+  "ja": "望む",
+  "ex": {
+   "en": "I hope you feel better soon.",
+   "ja": "早くよくなるといいですね。",
+   "mark": [
+    "hope"
+   ]
+  },
+  "core": "よいことが起こるように期待する。",
+  "diff": "hope は実現しそうなことを望む。wish は難しいことを願う。",
+  "other": []
+ },
+ {
+  "src": "M0677",
+  "id": "plan",
+  "cat": "word",
+  "en": "plan",
+  "ipa": "/plæn/",
+  "sense": "計画する",
+  "ja": "計画する",
+  "ex": {
+   "en": "We plan to visit Kyoto next month.",
+   "ja": "私たちは来月京都を訪れる予定だ。",
+   "mark": [
+    "plan"
+   ]
+  },
+  "core": "前もって、やることの段取りを考える。",
+  "other": [
+   "（名詞）計画：a travel plan"
+  ]
+ },
+ {
+  "src": "M0678",
+  "id": "decide",
+  "cat": "word",
+  "en": "decide",
+  "ipa": "/dɪˈsaɪd/",
+  "sense": "決める",
+  "ja": "決める",
+  "ex": {
+   "en": "I decided to learn the piano.",
+   "ja": "私はピアノを習うことに決めた。",
+   "mark": [
+    "decided"
+   ]
+  },
+  "core": "迷ったあとで、どうするかをはっきり決める。",
+  "other": []
+ },
+ {
+  "src": "M0679",
+  "id": "change",
+  "cat": "word",
+  "en": "change",
+  "ipa": "/tʃeɪndʒ/",
+  "sense": "変える",
+  "ja": "変える",
+  "ex": {
+   "en": "I changed my mind.",
+   "ja": "私は考えを変えた。",
+   "mark": [
+    "changed"
+   ]
+  },
+  "core": "ものごとを別のものやちがう状態にする。",
+  "other": [
+   "（着替える）着替える：Change your clothes."
+  ]
+ },
+ {
+  "src": "M0680",
+  "id": "replace",
+  "cat": "word",
+  "en": "replace",
+  "ipa": "/rɪˈpleɪs/",
+  "sense": "取り替える",
+  "ja": "取り替える",
+  "ex": {
+   "en": "I need to replace the old battery.",
+   "ja": "古い電池を取り替えなければ。",
+   "mark": [
+    "replace"
+   ]
+  },
+  "core": "古いものを外して、新しいものを入れる。",
+  "other": []
+ },
+ {
+  "src": "M0681",
+  "id": "remove",
+  "cat": "word",
+  "en": "remove",
+  "ipa": "/rɪˈmuv/",
+  "sense": "取り除く",
+  "ja": "取り除く",
+  "ex": {
+   "en": "Please remove your shoes here.",
+   "ja": "ここで靴を脱いでください。",
+   "mark": [
+    "remove"
+   ]
+  },
+  "core": "あるものを元の場所から取り去る。",
+  "other": []
+ },
+ {
+  "src": "M0682",
+  "id": "add",
+  "cat": "word",
+  "en": "add",
+  "ipa": "/æd/",
+  "sense": "加える",
+  "ja": "加える",
+  "ex": {
+   "en": "Add some salt to the soup.",
+   "ja": "スープに塩を少し加えて。",
+   "mark": [
+    "Add"
+   ]
+  },
+  "core": "すでにあるものに別のものを足す。",
+  "other": []
+ },
+ {
+  "src": "M0683",
+  "id": "fill",
+  "cat": "word",
+  "en": "fill",
+  "ipa": "/fɪl/",
+  "sense": "満たす",
+  "ja": "満たす",
+  "ex": {
+   "en": "Fill the glass with water.",
+   "ja": "コップに水を入れて満たして。",
+   "mark": [
+    "Fill"
+   ]
+  },
+  "core": "空いている所をいっぱいにする。",
+  "other": []
+ },
+ {
+  "src": "M0684",
+  "id": "empty",
+  "cat": "word",
+  "en": "empty",
+  "ipa": "/ˈɛmpti/",
+  "sense": "空にする",
+  "ja": "空にする",
+  "ex": {
+   "en": "Please empty the trash can.",
+   "ja": "ごみ箱を空にしてください。",
+   "mark": [
+    "empty"
+   ]
+  },
+  "core": "中のものをすべて出して空っぽにする。",
+  "other": [
+   "（形容詞）空の：an empty box"
+  ]
+ }
+]

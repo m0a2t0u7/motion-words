@@ -1,0 +1,1786 @@
+[
+  {
+    "src": "M1092",
+    "id": "nurse",
+    "cat": "word",
+    "en": "nurse",
+    "ipa": "/nɜːrs/",
+    "sense": "看護師",
+    "ja": "看護師",
+    "ex": {
+      "en": "The nurse took my temperature.",
+      "ja": "看護師が私の体温を測った。",
+      "mark": [
+        "nurse"
+      ]
+    },
+    "core": "病人やけが人の世話をする医療職の人。"
+  },
+  {
+    "src": "M1093",
+    "id": "dentist",
+    "cat": "word",
+    "en": "dentist",
+    "ipa": "/ˈdentɪst/",
+    "sense": "歯科医",
+    "ja": "歯科医",
+    "ex": {
+      "en": "I have to see the dentist tomorrow.",
+      "ja": "明日は歯医者に行かなければならない。",
+      "mark": [
+        "dentist"
+      ]
+    },
+    "core": "歯の治療をする医師。"
+  },
+  {
+    "src": "M1094",
+    "id": "patient",
+    "cat": "word",
+    "en": "patient",
+    "ipa": "/ˈpeɪʃnt/",
+    "sense": "（医者にかかる）患者",
+    "ja": "患者",
+    "ex": {
+      "en": "The doctor talked to the patient.",
+      "ja": "医師は患者に話しかけた。",
+      "mark": [
+        "patient"
+      ]
+    },
+    "core": "医療を受ける人。",
+    "other": [
+      "辛抱強い（形容詞）：Be patient."
+    ]
+  },
+  {
+    "src": "M1095",
+    "id": "home",
+    "cat": "word",
+    "en": "home",
+    "ipa": "/hoʊm/",
+    "sense": "自宅、家庭",
+    "ja": "自宅",
+    "ex": {
+      "en": "I stay home on Sundays.",
+      "ja": "日曜日は家にいる。",
+      "mark": [
+        "home"
+      ]
+    },
+    "core": "自分が暮らす場所で、くつろげる所。",
+    "diff": "house は建物そのもの、home は暮らす場所・家庭の意味合い。",
+    "other": [
+      "家に（副詞）：go home"
+    ]
+  },
+  {
+    "src": "M1096",
+    "id": "house",
+    "cat": "word",
+    "en": "house",
+    "ipa": "/haʊs/",
+    "sense": "（一軒の）家",
+    "ja": "家",
+    "ex": {
+      "en": "They live in a big house.",
+      "ja": "彼らは大きな家に住んでいる。",
+      "mark": [
+        "house"
+      ]
+    },
+    "core": "人が住む一軒の建物。"
+  },
+  {
+    "src": "M1097",
+    "id": "apartment",
+    "cat": "word",
+    "en": "apartment",
+    "ipa": "/əˈpɑːrtmənt/",
+    "sense": "アパートの一戸、マンションの部屋",
+    "ja": "集合住宅の一戸",
+    "ex": {
+      "en": "She lives in a small apartment.",
+      "ja": "彼女は小さなアパートに住んでいる。",
+      "mark": [
+        "apartment"
+      ]
+    },
+    "core": "一棟の建物の中の、一世帯分の住まい。"
+  },
+  {
+    "src": "M1098",
+    "id": "building",
+    "cat": "word",
+    "en": "building",
+    "ipa": "/ˈbɪldɪŋ/",
+    "sense": "建物",
+    "ja": "建物",
+    "ex": {
+      "en": "There is a tall building near the station.",
+      "ja": "駅の近くに高い建物がある。",
+      "mark": [
+        "building"
+      ]
+    },
+    "core": "屋根と壁を持つ建造物。"
+  },
+  {
+    "src": "M1099",
+    "id": "room",
+    "cat": "word",
+    "en": "room",
+    "ipa": "/ruːm/",
+    "sense": "（建物の中の）部屋",
+    "ja": "部屋",
+    "ex": {
+      "en": "My room is on the second floor.",
+      "ja": "私の部屋は2階にある。",
+      "mark": [
+        "room"
+      ]
+    },
+    "core": "壁で仕切られた建物内の空間。",
+    "other": [
+      "余地、空間：no room for a desk"
+    ]
+  },
+  {
+    "src": "M1100",
+    "id": "bedroom",
+    "cat": "word",
+    "en": "bedroom",
+    "ipa": "/ˈbedruːm/",
+    "sense": "寝室",
+    "ja": "寝室",
+    "ex": {
+      "en": "The bedroom has a large window.",
+      "ja": "寝室には大きな窓がある。",
+      "mark": [
+        "bedroom"
+      ]
+    },
+    "core": "bed（ベッド）のある room（部屋）。"
+  },
+  {
+    "src": "M1101",
+    "id": "bathroom",
+    "cat": "word",
+    "en": "bathroom",
+    "ipa": "/ˈbæθruːm/",
+    "sense": "浴室、トイレ",
+    "ja": "浴室・トイレ",
+    "ex": {
+      "en": "Where is the bathroom?",
+      "ja": "トイレはどこですか。",
+      "mark": [
+        "bathroom"
+      ]
+    },
+    "core": "浴槽やトイレのある部屋。米国では家庭のトイレの意味でもよく使う。"
+  },
+  {
+    "src": "M1102",
+    "id": "kitchen",
+    "cat": "word",
+    "en": "kitchen",
+    "ipa": "/ˈkɪtʃɪn/",
+    "sense": "台所",
+    "ja": "台所",
+    "ex": {
+      "en": "Mom is cooking in the kitchen.",
+      "ja": "母は台所で料理している。",
+      "mark": [
+        "kitchen"
+      ]
+    },
+    "core": "料理をするための部屋。"
+  },
+  {
+    "src": "M1103",
+    "id": "hallway",
+    "cat": "word",
+    "en": "hallway",
+    "ipa": "/ˈhɔːlweɪ/",
+    "sense": "廊下",
+    "ja": "廊下",
+    "ex": {
+      "en": "Please don't run in the hallway.",
+      "ja": "廊下を走らないでください。",
+      "mark": [
+        "hallway"
+      ]
+    },
+    "core": "部屋と部屋をつなぐ細長い通路。"
+  },
+  {
+    "src": "M1104",
+    "id": "entrance",
+    "cat": "word",
+    "en": "entrance",
+    "ipa": "/ˈentrəns/",
+    "sense": "入り口",
+    "ja": "入り口",
+    "ex": {
+      "en": "Let's meet at the main entrance.",
+      "ja": "正面入り口で会いましょう。",
+      "mark": [
+        "entrance"
+      ]
+    },
+    "core": "enter（入る）ための場所。反対は exit。"
+  },
+  {
+    "src": "M1105",
+    "id": "door",
+    "cat": "word",
+    "en": "door",
+    "ipa": "/dɔːr/",
+    "sense": "ドア",
+    "ja": "ドア",
+    "ex": {
+      "en": "Please close the door.",
+      "ja": "ドアを閉めてください。",
+      "mark": [
+        "door"
+      ]
+    },
+    "core": "出入り口を開け閉めする板。"
+  },
+  {
+    "src": "M1106",
+    "id": "window",
+    "cat": "word",
+    "en": "window",
+    "ipa": "/ˈwɪndoʊ/",
+    "sense": "窓",
+    "ja": "窓",
+    "ex": {
+      "en": "She opened the window to let in fresh air.",
+      "ja": "彼女は新鮮な空気を入れようと窓を開けた。",
+      "mark": [
+        "window"
+      ]
+    },
+    "core": "壁にあり、光や空気を通す開口部。"
+  },
+  {
+    "src": "M1107",
+    "id": "wall",
+    "cat": "word",
+    "en": "wall",
+    "ipa": "/wɔːl/",
+    "sense": "壁",
+    "ja": "壁",
+    "ex": {
+      "en": "There is a clock on the wall.",
+      "ja": "壁に時計が掛かっている。",
+      "mark": [
+        "wall"
+      ]
+    },
+    "core": "部屋や敷地を仕切る垂直の面。"
+  },
+  {
+    "src": "M1108",
+    "id": "floor",
+    "cat": "word",
+    "en": "floor",
+    "ipa": "/flɔːr/",
+    "sense": "床",
+    "ja": "床",
+    "ex": {
+      "en": "The cat is sleeping on the floor.",
+      "ja": "猫が床の上で寝ている。",
+      "mark": [
+        "floor"
+      ]
+    },
+    "core": "部屋の下の面。",
+    "other": [
+      "（建物の）階：the third floor"
+    ]
+  },
+  {
+    "src": "M1109",
+    "id": "ceiling",
+    "cat": "word",
+    "en": "ceiling",
+    "ipa": "/ˈsiːlɪŋ/",
+    "sense": "天井",
+    "ja": "天井",
+    "ex": {
+      "en": "The ceiling in this room is high.",
+      "ja": "この部屋は天井が高い。",
+      "mark": [
+        "ceiling"
+      ]
+    },
+    "core": "部屋の上の面。"
+  },
+  {
+    "src": "M1110",
+    "id": "roof",
+    "cat": "word",
+    "en": "roof",
+    "ipa": "/ruːf/",
+    "sense": "屋根",
+    "ja": "屋根",
+    "ex": {
+      "en": "Snow covered the roof.",
+      "ja": "雪が屋根を覆った。",
+      "mark": [
+        "roof"
+      ]
+    },
+    "core": "建物の一番上を覆う部分。"
+  },
+  {
+    "src": "M1111",
+    "id": "stairs",
+    "cat": "word",
+    "en": "stairs",
+    "ipa": "/sterz/",
+    "sense": "階段",
+    "ja": "階段",
+    "ex": {
+      "en": "He ran up the stairs.",
+      "ja": "彼は階段を駆け上がった。",
+      "mark": [
+        "stairs"
+      ]
+    },
+    "core": "上下の階を結ぶ段の連なり。通常は複数形。"
+  },
+  {
+    "src": "M1112",
+    "id": "step",
+    "cat": "word",
+    "en": "step",
+    "ipa": "/step/",
+    "sense": "（階段の）一段",
+    "ja": "階段の一段",
+    "ex": {
+      "en": "Be careful of the last step.",
+      "ja": "最後の一段に気をつけて。",
+      "mark": [
+        "step"
+      ]
+    },
+    "core": "階段の一つの段。",
+    "other": [
+      "一歩：take a step",
+      "手順：the first step"
+    ]
+  },
+  {
+    "src": "M1113",
+    "id": "elevator",
+    "cat": "word",
+    "en": "elevator",
+    "ipa": "/ˈelɪveɪtər/",
+    "sense": "エレベーター",
+    "ja": "エレベーター",
+    "ex": {
+      "en": "Let's take the elevator to the fifth floor.",
+      "ja": "エレベーターで5階まで行こう。",
+      "mark": [
+        "elevator"
+      ]
+    },
+    "core": "人や物を上下の階に運ぶ箱形の乗り物。英国では lift。"
+  },
+  {
+    "src": "M1114",
+    "id": "balcony",
+    "cat": "word",
+    "en": "balcony",
+    "ipa": "/ˈbælkəni/",
+    "sense": "バルコニー",
+    "ja": "バルコニー",
+    "ex": {
+      "en": "We had tea on the balcony.",
+      "ja": "私たちはバルコニーでお茶を飲んだ。",
+      "mark": [
+        "balcony"
+      ]
+    },
+    "core": "建物の外壁から張り出した、手すり付きの場所。"
+  },
+  {
+    "src": "M1115",
+    "id": "garage",
+    "cat": "word",
+    "en": "garage",
+    "ipa": "/ɡəˈrɑːʒ/",
+    "sense": "車庫",
+    "ja": "車庫",
+    "ex": {
+      "en": "He parked the car in the garage.",
+      "ja": "彼は車を車庫に入れた。",
+      "mark": [
+        "garage"
+      ]
+    },
+    "core": "車を入れておく建物や場所。",
+    "other": [
+      "修理工場：take the car to the garage"
+    ]
+  },
+  {
+    "src": "M1116",
+    "id": "garden",
+    "cat": "word",
+    "en": "garden",
+    "ipa": "/ˈɡɑːrdn/",
+    "sense": "庭",
+    "ja": "庭",
+    "ex": {
+      "en": "We grow tomatoes in the garden.",
+      "ja": "うちでは庭でトマトを育てている。",
+      "mark": [
+        "garden"
+      ]
+    },
+    "core": "家の周りの草花や野菜を育てる場所。"
+  },
+  {
+    "src": "M1117",
+    "id": "yard",
+    "cat": "word",
+    "en": "yard",
+    "ipa": "/jɑːrd/",
+    "sense": "（家の周りの）敷地、庭",
+    "ja": "家の周りの敷地",
+    "ex": {
+      "en": "The kids are playing in the yard.",
+      "ja": "子どもたちは庭で遊んでいる。",
+      "mark": [
+        "yard"
+      ]
+    },
+    "core": "家や学校の周りの囲まれた土地。",
+    "diff": "garden は草花や野菜を育てる庭。yard は家の周りの土地全体を指す。",
+    "other": [
+      "ヤード（長さの単位）：one yard"
+    ]
+  },
+  {
+    "src": "M1118",
+    "id": "fence",
+    "cat": "word",
+    "en": "fence",
+    "ipa": "/fens/",
+    "sense": "柵",
+    "ja": "柵",
+    "ex": {
+      "en": "A low fence surrounds the garden.",
+      "ja": "低い柵が庭を囲んでいる。",
+      "mark": [
+        "fence"
+      ]
+    },
+    "core": "土地を囲んで仕切る境界の物。"
+  },
+  {
+    "src": "M1119",
+    "id": "gate",
+    "cat": "word",
+    "en": "gate",
+    "ipa": "/ɡeɪt/",
+    "sense": "門",
+    "ja": "門",
+    "ex": {
+      "en": "Please close the gate behind you.",
+      "ja": "通ったあとは門を閉めてください。",
+      "mark": [
+        "gate"
+      ]
+    },
+    "core": "敷地の出入り口にある開閉する扉。",
+    "other": [
+      "（空港の）搭乗口：Gate 12"
+    ]
+  },
+  {
+    "src": "M1120",
+    "id": "key",
+    "cat": "word",
+    "en": "key",
+    "ipa": "/kiː/",
+    "sense": "鍵",
+    "ja": "鍵",
+    "ex": {
+      "en": "I lost my house key.",
+      "ja": "家の鍵をなくした。",
+      "mark": [
+        "key"
+      ]
+    },
+    "core": "錠を開け閉めする道具。",
+    "other": [
+      "（キーボードの）キー：press a key",
+      "重要な：the key point"
+    ]
+  },
+  {
+    "src": "M1121",
+    "id": "handle",
+    "cat": "word",
+    "en": "handle",
+    "ipa": "/ˈhændl/",
+    "sense": "取っ手",
+    "ja": "取っ手",
+    "ex": {
+      "en": "The handle of the cup is broken.",
+      "ja": "カップの取っ手が壊れている。",
+      "mark": [
+        "handle"
+      ]
+    },
+    "core": "手でつかむ部分。",
+    "other": [
+      "（問題などを）扱う：handle the problem"
+    ]
+  },
+  {
+    "src": "M1122",
+    "id": "bell",
+    "cat": "word",
+    "en": "bell",
+    "ipa": "/bel/",
+    "sense": "ベル、鈴",
+    "ja": "ベル",
+    "ex": {
+      "en": "He rang the bell at the door.",
+      "ja": "彼は玄関のベルを鳴らした。",
+      "mark": [
+        "bell"
+      ]
+    },
+    "core": "金属の音を出す道具。"
+  },
+  {
+    "src": "M1123",
+    "id": "carpet",
+    "cat": "word",
+    "en": "carpet",
+    "ipa": "/ˈkɑːrpɪt/",
+    "sense": "カーペット",
+    "ja": "カーペット",
+    "ex": {
+      "en": "The carpet in the living room is soft.",
+      "ja": "居間のカーペットはふかふかだ。",
+      "mark": [
+        "carpet"
+      ]
+    },
+    "core": "床全体に敷く厚い織物。"
+  },
+  {
+    "src": "M1124",
+    "id": "curtain",
+    "cat": "word",
+    "en": "curtain",
+    "ipa": "/ˈkɜːrtn/",
+    "sense": "カーテン",
+    "ja": "カーテン",
+    "ex": {
+      "en": "Please open the curtains.",
+      "ja": "カーテンを開けてください。",
+      "mark": [
+        "curtains"
+      ]
+    },
+    "core": "窓などを覆う布。"
+  },
+  {
+    "src": "M1125",
+    "id": "blind",
+    "cat": "word",
+    "en": "blind",
+    "ipa": "/blaɪnd/",
+    "sense": "（窓の）ブラインド",
+    "ja": "ブラインド",
+    "ex": {
+      "en": "She pulled down the blind.",
+      "ja": "彼女はブラインドを下ろした。",
+      "mark": [
+        "blind"
+      ]
+    },
+    "core": "窓の光を調節する、板や布の覆い。この意味では普通 blinds と複数形でも使う。",
+    "other": [
+      "目が見えない（形容詞）：a blind man"
+    ]
+  },
+  {
+    "src": "M1126",
+    "id": "furniture",
+    "cat": "word",
+    "en": "furniture",
+    "ipa": "/ˈfɜːrnɪtʃər/",
+    "sense": "家具",
+    "ja": "家具",
+    "ex": {
+      "en": "We bought new furniture for the room.",
+      "ja": "私たちは部屋用に新しい家具を買った。",
+      "mark": [
+        "furniture"
+      ]
+    },
+    "core": "机や椅子など、部屋に置く物の総称。数えられない名詞で、a furniture とは言わない。"
+  },
+  {
+    "src": "M1127",
+    "id": "table",
+    "cat": "word",
+    "en": "table",
+    "ipa": "/ˈteɪbl/",
+    "sense": "テーブル",
+    "ja": "テーブル",
+    "ex": {
+      "en": "Put the plates on the table.",
+      "ja": "皿をテーブルに置いて。",
+      "mark": [
+        "table"
+      ]
+    },
+    "core": "物を置く平らな天板と脚でできた家具。",
+    "other": [
+      "表：a table of numbers"
+    ]
+  },
+  {
+    "src": "M1128",
+    "id": "desk",
+    "cat": "word",
+    "en": "desk",
+    "ipa": "/desk/",
+    "sense": "机",
+    "ja": "机",
+    "ex": {
+      "en": "He is working at his desk.",
+      "ja": "彼は机に向かって仕事をしている。",
+      "mark": [
+        "desk"
+      ]
+    },
+    "core": "勉強や仕事のための机。",
+    "diff": "table は食卓など。desk は勉強・仕事用の机。"
+  },
+  {
+    "src": "M1129",
+    "id": "chair",
+    "cat": "word",
+    "en": "chair",
+    "ipa": "/tʃer/",
+    "sense": "椅子",
+    "ja": "椅子",
+    "ex": {
+      "en": "Please sit in this chair.",
+      "ja": "この椅子に座ってください。",
+      "mark": [
+        "chair"
+      ]
+    },
+    "core": "背もたれのある一人用の腰掛け。"
+  },
+  {
+    "src": "M1130",
+    "id": "sofa",
+    "cat": "word",
+    "en": "sofa",
+    "ipa": "/ˈsoʊfə/",
+    "sense": "ソファ",
+    "ja": "ソファ",
+    "ex": {
+      "en": "The cat is sleeping on the sofa.",
+      "ja": "猫がソファで眠っている。",
+      "mark": [
+        "sofa"
+      ]
+    },
+    "core": "数人が座れる、クッションのある長椅子。"
+  },
+  {
+    "src": "M1131",
+    "id": "bench",
+    "cat": "word",
+    "en": "bench",
+    "ipa": "/bentʃ/",
+    "sense": "ベンチ",
+    "ja": "ベンチ",
+    "ex": {
+      "en": "We sat on a bench in the park.",
+      "ja": "私たちは公園のベンチに座った。",
+      "mark": [
+        "bench"
+      ]
+    },
+    "core": "数人が座れる背もたれのない、または簡素な長い腰掛け。"
+  },
+  {
+    "src": "M1132",
+    "id": "bed",
+    "cat": "word",
+    "en": "bed",
+    "ipa": "/bed/",
+    "sense": "ベッド",
+    "ja": "ベッド",
+    "ex": {
+      "en": "I go to bed at ten.",
+      "ja": "私は10時に寝る。",
+      "mark": [
+        "bed"
+      ]
+    },
+    "core": "寝るための家具。",
+    "other": [
+      "go to bed：寝る"
+    ]
+  },
+  {
+    "src": "M1133",
+    "id": "mattress",
+    "cat": "word",
+    "en": "mattress",
+    "ipa": "/ˈmætrəs/",
+    "sense": "マットレス",
+    "ja": "マットレス",
+    "ex": {
+      "en": "This mattress is too hard.",
+      "ja": "このマットレスは硬すぎる。",
+      "mark": [
+        "mattress"
+      ]
+    },
+    "core": "ベッドの上に敷く厚いクッション状の寝具。"
+  },
+  {
+    "src": "M1134",
+    "id": "pillow",
+    "cat": "word",
+    "en": "pillow",
+    "ipa": "/ˈpɪloʊ/",
+    "sense": "枕",
+    "ja": "枕",
+    "ex": {
+      "en": "I need a softer pillow.",
+      "ja": "もっと柔らかい枕が必要だ。",
+      "mark": [
+        "pillow"
+      ]
+    },
+    "core": "寝るとき頭を支える寝具。"
+  },
+  {
+    "src": "M1135",
+    "id": "blanket",
+    "cat": "word",
+    "en": "blanket",
+    "ipa": "/ˈblæŋkɪt/",
+    "sense": "毛布",
+    "ja": "毛布",
+    "ex": {
+      "en": "She put a blanket over the child.",
+      "ja": "彼女は子どもに毛布をかけた。",
+      "mark": [
+        "blanket"
+      ]
+    },
+    "core": "体を覆って暖める大きな布。"
+  },
+  {
+    "src": "M1136",
+    "id": "sheet",
+    "cat": "word",
+    "en": "sheet",
+    "ipa": "/ʃiːt/",
+    "sense": "シーツ",
+    "ja": "シーツ",
+    "ex": {
+      "en": "I change the sheets every week.",
+      "ja": "私は毎週シーツを替える。",
+      "mark": [
+        "sheets"
+      ]
+    },
+    "core": "ベッドに敷く薄い布。",
+    "other": [
+      "（紙の）1枚：a sheet of paper"
+    ]
+  },
+  {
+    "src": "M1137",
+    "id": "closet",
+    "cat": "word",
+    "en": "closet",
+    "ipa": "/ˈklɑːzɪt/",
+    "sense": "収納戸棚、クローゼット",
+    "ja": "収納戸棚",
+    "ex": {
+      "en": "He hung his coat in the closet.",
+      "ja": "彼はコートをクローゼットに掛けた。",
+      "mark": [
+        "closet"
+      ]
+    },
+    "core": "服や物をしまう、壁に作りつけの収納スペース。"
+  },
+  {
+    "src": "M1138",
+    "id": "drawer",
+    "cat": "word",
+    "en": "drawer",
+    "ipa": "/drɔːr/",
+    "sense": "引き出し",
+    "ja": "引き出し",
+    "ex": {
+      "en": "The scissors are in the top drawer.",
+      "ja": "はさみは一番上の引き出しにある。",
+      "mark": [
+        "drawer"
+      ]
+    },
+    "core": "家具に付いた、引き出して使う箱状の収納。"
+  },
+  {
+    "src": "M1139",
+    "id": "shelf",
+    "cat": "word",
+    "en": "shelf",
+    "ipa": "/ʃelf/",
+    "sense": "棚",
+    "ja": "棚",
+    "ex": {
+      "en": "Put the books back on the shelf.",
+      "ja": "本を棚に戻して。",
+      "mark": [
+        "shelf"
+      ]
+    },
+    "core": "物を載せる板。複数形は shelves。"
+  },
+  {
+    "src": "M1140",
+    "id": "cabinet",
+    "cat": "word",
+    "en": "cabinet",
+    "ipa": "/ˈkæbɪnət/",
+    "sense": "戸棚",
+    "ja": "戸棚",
+    "ex": {
+      "en": "The cups are in the kitchen cabinet.",
+      "ja": "カップは台所の戸棚に入っている。",
+      "mark": [
+        "cabinet"
+      ]
+    },
+    "core": "扉や引き出しの付いた収納家具。",
+    "other": [
+      "内閣：the Cabinet"
+    ]
+  },
+  {
+    "src": "M1141",
+    "id": "mirror",
+    "cat": "word",
+    "en": "mirror",
+    "ipa": "/ˈmɪrər/",
+    "sense": "鏡",
+    "ja": "鏡",
+    "ex": {
+      "en": "She looked at herself in the mirror.",
+      "ja": "彼女は鏡で自分の姿を見た。",
+      "mark": [
+        "mirror"
+      ]
+    },
+    "core": "姿を映す、光を反射する板。"
+  },
+  {
+    "src": "M1142",
+    "id": "lamp",
+    "cat": "word",
+    "en": "lamp",
+    "ipa": "/læmp/",
+    "sense": "ランプ、照明器具",
+    "ja": "ランプ",
+    "ex": {
+      "en": "He turned on the lamp and started reading.",
+      "ja": "彼はランプをつけて読み始めた。",
+      "mark": [
+        "lamp"
+      ]
+    },
+    "core": "置いたり吊るしたりして使う照明器具。"
+  },
+  {
+    "src": "M1143",
+    "id": "light",
+    "cat": "word",
+    "en": "light",
+    "ipa": "/laɪt/",
+    "sense": "明かり",
+    "ja": "明かり",
+    "ex": {
+      "en": "Please turn off the light.",
+      "ja": "明かりを消してください。",
+      "mark": [
+        "light"
+      ]
+    },
+    "core": "明るさ、または照明そのもの。",
+    "other": [
+      "軽い（形容詞）：a light bag",
+      "光：sunlight"
+    ]
+  },
+  {
+    "src": "M1144",
+    "id": "bulb",
+    "cat": "word",
+    "en": "bulb",
+    "ipa": "/bʌlb/",
+    "sense": "電球",
+    "ja": "電球",
+    "ex": {
+      "en": "The bulb burned out.",
+      "ja": "電球が切れた。",
+      "mark": [
+        "bulb"
+      ]
+    },
+    "core": "電気で光る丸いガラスの部品。",
+    "other": [
+      "球根：a tulip bulb"
+    ]
+  },
+  {
+    "src": "M1145",
+    "id": "switch",
+    "cat": "word",
+    "en": "switch",
+    "ipa": "/swɪtʃ/",
+    "sense": "スイッチ",
+    "ja": "スイッチ",
+    "ex": {
+      "en": "Where is the light switch?",
+      "ja": "明かりのスイッチはどこ？",
+      "mark": [
+        "switch"
+      ]
+    },
+    "core": "電気などを入り切りする装置。",
+    "other": [
+      "切り替える（動詞）：switch seats"
+    ]
+  },
+  {
+    "src": "M1146",
+    "id": "plug",
+    "cat": "word",
+    "en": "plug",
+    "ipa": "/plʌɡ/",
+    "sense": "（電気の）プラグ",
+    "ja": "プラグ",
+    "ex": {
+      "en": "Pull the plug out of the wall.",
+      "ja": "壁からプラグを抜いてください。",
+      "mark": [
+        "plug"
+      ]
+    },
+    "core": "コンセントに差し込む電気器具の端子。",
+    "other": [
+      "（穴などの）栓：a bath plug"
+    ]
+  },
+  {
+    "src": "M1147",
+    "id": "wire",
+    "cat": "word",
+    "en": "wire",
+    "ipa": "/ˈwaɪər/",
+    "sense": "針金、電線",
+    "ja": "針金・電線",
+    "ex": {
+      "en": "The wire was cut by accident.",
+      "ja": "電線が誤って切れてしまった。",
+      "mark": [
+        "wire"
+      ]
+    },
+    "core": "細く長い金属の線。"
+  },
+  {
+    "src": "M1148",
+    "id": "cable",
+    "cat": "word",
+    "en": "cable",
+    "ipa": "/ˈkeɪbl/",
+    "sense": "ケーブル",
+    "ja": "ケーブル",
+    "ex": {
+      "en": "I need a longer cable for the TV.",
+      "ja": "テレビ用にもっと長いケーブルが必要だ。",
+      "mark": [
+        "cable"
+      ]
+    },
+    "core": "電気や信号を通す太めの線。"
+  },
+  {
+    "src": "M1149",
+    "id": "fan",
+    "cat": "word",
+    "en": "fan",
+    "ipa": "/fæn/",
+    "sense": "扇風機",
+    "ja": "扇風機",
+    "ex": {
+      "en": "Turn on the fan, please. It is hot.",
+      "ja": "扇風機をつけて。暑いよ。",
+      "mark": [
+        "fan"
+      ]
+    },
+    "core": "羽根を回して風を起こす機械。",
+    "other": [
+      "（スポーツなどの）ファン：a baseball fan"
+    ]
+  },
+  {
+    "src": "M1150",
+    "id": "heater",
+    "cat": "word",
+    "en": "heater",
+    "ipa": "/ˈhiːtər/",
+    "sense": "暖房器具",
+    "ja": "暖房器具",
+    "ex": {
+      "en": "We use a heater in winter.",
+      "ja": "冬は暖房器具を使う。",
+      "mark": [
+        "heater"
+      ]
+    },
+    "core": "部屋などを暖める機器。"
+  },
+  {
+    "src": "M1151",
+    "id": "refrigerator",
+    "cat": "word",
+    "en": "refrigerator",
+    "ipa": "/rɪˈfrɪdʒəreɪtər/",
+    "sense": "冷蔵庫",
+    "ja": "冷蔵庫",
+    "ex": {
+      "en": "Put the milk in the refrigerator.",
+      "ja": "牛乳を冷蔵庫に入れて。",
+      "mark": [
+        "refrigerator"
+      ]
+    },
+    "core": "食品を冷やして保存する機械。日常では fridge と略す。"
+  },
+  {
+    "src": "M1152",
+    "id": "freezer",
+    "cat": "word",
+    "en": "freezer",
+    "ipa": "/ˈfriːzər/",
+    "sense": "冷凍庫",
+    "ja": "冷凍庫",
+    "ex": {
+      "en": "The ice cream is in the freezer.",
+      "ja": "アイスクリームは冷凍庫に入っている。",
+      "mark": [
+        "freezer"
+      ]
+    },
+    "core": "食品を凍らせて保存する冷凍庫。"
+  },
+  {
+    "src": "M1153",
+    "id": "oven",
+    "cat": "word",
+    "en": "oven",
+    "ipa": "/ˈʌvn/",
+    "sense": "オーブン",
+    "ja": "オーブン",
+    "ex": {
+      "en": "Bake the cake in the oven for 30 minutes.",
+      "ja": "ケーキをオーブンで30分焼いてください。",
+      "mark": [
+        "oven"
+      ]
+    },
+    "core": "中に入れて焼く、加熱用の箱形の調理器具。"
+  },
+  {
+    "src": "M1154",
+    "id": "microwave",
+    "cat": "word",
+    "en": "microwave",
+    "ipa": "/ˈmaɪkrəweɪv/",
+    "sense": "電子レンジ",
+    "ja": "電子レンジ",
+    "ex": {
+      "en": "Heat the soup in the microwave.",
+      "ja": "スープを電子レンジで温めて。",
+      "mark": [
+        "microwave"
+      ]
+    },
+    "core": "電磁波で食べ物を温める調理器具。microwave oven の略。",
+    "other": [
+      "（電子レンジで）温める：microwave the rice"
+    ]
+  },
+  {
+    "src": "M1155",
+    "id": "stove",
+    "cat": "word",
+    "en": "stove",
+    "ipa": "/stoʊv/",
+    "sense": "調理用コンロ",
+    "ja": "調理用コンロ",
+    "ex": {
+      "en": "She put the pot on the stove.",
+      "ja": "彼女は鍋をコンロにかけた。",
+      "mark": [
+        "stove"
+      ]
+    },
+    "core": "鍋などを火にかけて加熱する調理器具。米国では上の火口部分を指す。"
+  },
+  {
+    "src": "M1156",
+    "id": "toaster",
+    "cat": "word",
+    "en": "toaster",
+    "ipa": "/ˈtoʊstər/",
+    "sense": "トースター",
+    "ja": "トースター",
+    "ex": {
+      "en": "The toaster popped up the bread.",
+      "ja": "トースターからパンが飛び出した。",
+      "mark": [
+        "toaster"
+      ]
+    },
+    "core": "パンを焼く小型の調理器具。toast（焼く）をする物。"
+  },
+  {
+    "src": "M1157",
+    "id": "kettle",
+    "cat": "word",
+    "en": "kettle",
+    "ipa": "/ˈketl/",
+    "sense": "湯沸かし器、やかん",
+    "ja": "湯沸かし器",
+    "ex": {
+      "en": "I put the kettle on for tea.",
+      "ja": "お茶のためにやかんを火にかけた。",
+      "mark": [
+        "kettle"
+      ]
+    },
+    "core": "お湯を沸かすための容器。"
+  },
+  {
+    "src": "M1158",
+    "id": "vacuum",
+    "cat": "word",
+    "en": "vacuum",
+    "ipa": "/ˈvækjuːm/",
+    "sense": "掃除機",
+    "ja": "掃除機",
+    "ex": {
+      "en": "He ran the vacuum in the living room.",
+      "ja": "彼は居間に掃除機をかけた。",
+      "mark": [
+        "vacuum"
+      ]
+    },
+    "core": "vacuum cleaner の略。空気を吸って掃除する機械。",
+    "other": [
+      "真空：a vacuum",
+      "掃除機をかける（動詞）：vacuum the floor"
+    ]
+  },
+  {
+    "src": "M1159",
+    "id": "iron",
+    "cat": "word",
+    "en": "iron",
+    "ipa": "/ˈaɪərn/",
+    "sense": "アイロン",
+    "ja": "アイロン",
+    "ex": {
+      "en": "I need to use the iron on this shirt.",
+      "ja": "このシャツにアイロンをかけなければ。",
+      "mark": [
+        "iron"
+      ]
+    },
+    "core": "熱で服のしわを伸ばす道具。発音は r を含む /ˈaɪərn/。",
+    "other": [
+      "鉄：made of iron"
+    ]
+  },
+  {
+    "src": "M1160",
+    "id": "broom",
+    "cat": "word",
+    "en": "broom",
+    "ipa": "/bruːm/",
+    "sense": "ほうき",
+    "ja": "ほうき",
+    "ex": {
+      "en": "He swept the floor with a broom.",
+      "ja": "彼はほうきで床を掃いた。",
+      "mark": [
+        "broom"
+      ]
+    },
+    "core": "柄の先に毛が付いた、床を掃く道具。"
+  },
+  {
+    "src": "M1161",
+    "id": "bucket",
+    "cat": "word",
+    "en": "bucket",
+    "ipa": "/ˈbʌkɪt/",
+    "sense": "バケツ",
+    "ja": "バケツ",
+    "ex": {
+      "en": "Fill the bucket with water.",
+      "ja": "バケツに水を入れて。",
+      "mark": [
+        "bucket"
+      ]
+    },
+    "core": "水などを入れて運ぶ、取っ手付きの容器。"
+  },
+  {
+    "src": "M1162",
+    "id": "basket",
+    "cat": "word",
+    "en": "basket",
+    "ipa": "/ˈbæskɪt/",
+    "sense": "かご",
+    "ja": "かご",
+    "ex": {
+      "en": "She carried a basket of apples.",
+      "ja": "彼女はリンゴの入ったかごを運んだ。",
+      "mark": [
+        "basket"
+      ]
+    },
+    "core": "物を入れて運ぶ、編んだ容器。"
+  },
+  {
+    "src": "M1163",
+    "id": "bin",
+    "cat": "word",
+    "en": "bin",
+    "ipa": "/bɪn/",
+    "sense": "ごみ箱",
+    "ja": "ごみ箱",
+    "ex": {
+      "en": "Throw it in the bin.",
+      "ja": "それはごみ箱に捨てて。",
+      "mark": [
+        "bin"
+      ]
+    },
+    "core": "物を入れておく容器。英国ではごみ箱を指す（米国では trash can）。"
+  },
+  {
+    "src": "M1164",
+    "id": "soap",
+    "cat": "word",
+    "en": "soap",
+    "ipa": "/soʊp/",
+    "sense": "せっけん",
+    "ja": "せっけん",
+    "ex": {
+      "en": "Wash your hands with soap.",
+      "ja": "せっけんで手を洗いなさい。",
+      "mark": [
+        "soap"
+      ]
+    },
+    "core": "水と合わせて汚れを落とす洗浄用品。"
+  },
+  {
+    "src": "M1165",
+    "id": "towel",
+    "cat": "word",
+    "en": "towel",
+    "ipa": "/ˈtaʊəl/",
+    "sense": "タオル",
+    "ja": "タオル",
+    "ex": {
+      "en": "Dry your hands with a towel.",
+      "ja": "タオルで手を拭いて。",
+      "mark": [
+        "towel"
+      ]
+    },
+    "core": "体や物の水気を拭き取る布。"
+  },
+  {
+    "src": "M1166",
+    "id": "tissue",
+    "cat": "word",
+    "en": "tissue",
+    "ipa": "/ˈtɪʃuː/",
+    "sense": "ティッシュ",
+    "ja": "ティッシュ",
+    "ex": {
+      "en": "Can I have a tissue?",
+      "ja": "ティッシュをもらえますか。",
+      "mark": [
+        "tissue"
+      ]
+    },
+    "core": "鼻をかむなどに使う薄い紙。",
+    "other": [
+      "（体の）組織：muscle tissue"
+    ]
+  },
+  {
+    "src": "M1167",
+    "id": "sponge",
+    "cat": "word",
+    "en": "sponge",
+    "ipa": "/spʌndʒ/",
+    "sense": "スポンジ",
+    "ja": "スポンジ",
+    "ex": {
+      "en": "Wash the dishes with a sponge.",
+      "ja": "スポンジで皿を洗って。",
+      "mark": [
+        "sponge"
+      ]
+    },
+    "core": "水を含んで洗うのに使う、穴の多い柔らかい素材。"
+  },
+  {
+    "src": "M1168",
+    "id": "detergent",
+    "cat": "word",
+    "en": "detergent",
+    "ipa": "/dɪˈtɜːrdʒənt/",
+    "sense": "洗剤",
+    "ja": "洗剤",
+    "ex": {
+      "en": "Add some detergent to the washing machine.",
+      "ja": "洗濯機に洗剤を入れて。",
+      "mark": [
+        "detergent"
+      ]
+    },
+    "core": "洗濯や食器洗いに使う、汚れを落とす薬剤。"
+  },
+  {
+    "src": "M1169",
+    "id": "food",
+    "cat": "word",
+    "en": "food",
+    "ipa": "/fuːd/",
+    "sense": "食べ物",
+    "ja": "食べ物",
+    "ex": {
+      "en": "I like Japanese food.",
+      "ja": "私は日本の食べ物が好きだ。",
+      "mark": [
+        "food"
+      ]
+    },
+    "core": "食べるもの全般。"
+  },
+  {
+    "src": "M1170",
+    "id": "meal",
+    "cat": "word",
+    "en": "meal",
+    "ipa": "/miːl/",
+    "sense": "食事",
+    "ja": "食事",
+    "ex": {
+      "en": "Dinner is my favorite meal of the day.",
+      "ja": "夕食は一日で一番好きな食事だ。",
+      "mark": [
+        "meal"
+      ]
+    },
+    "core": "朝食・昼食・夕食など、決まった時刻にとる食事。",
+    "diff": "food は食べ物そのもの、meal は食事の機会。"
+  },
+  {
+    "src": "M1171",
+    "id": "breakfast",
+    "cat": "word",
+    "en": "breakfast",
+    "ipa": "/ˈbrekfəst/",
+    "sense": "朝食",
+    "ja": "朝食",
+    "ex": {
+      "en": "I had toast for breakfast.",
+      "ja": "朝食にトーストを食べた。",
+      "mark": [
+        "breakfast"
+      ]
+    },
+    "core": "朝にとる食事。"
+  },
+  {
+    "src": "M1172",
+    "id": "lunch",
+    "cat": "word",
+    "en": "lunch",
+    "ipa": "/lʌntʃ/",
+    "sense": "昼食",
+    "ja": "昼食",
+    "ex": {
+      "en": "Let's have lunch together.",
+      "ja": "一緒にお昼を食べよう。",
+      "mark": [
+        "lunch"
+      ]
+    },
+    "core": "昼にとる食事。"
+  },
+  {
+    "src": "M1173",
+    "id": "dinner",
+    "cat": "word",
+    "en": "dinner",
+    "ipa": "/ˈdɪnər/",
+    "sense": "夕食",
+    "ja": "夕食",
+    "ex": {
+      "en": "Dinner is ready.",
+      "ja": "夕食ができたよ。",
+      "mark": [
+        "Dinner"
+      ]
+    },
+    "core": "一日の主な食事で、普通は夕方にとる食事。"
+  },
+  {
+    "src": "M1174",
+    "id": "snack",
+    "cat": "word",
+    "en": "snack",
+    "ipa": "/snæk/",
+    "sense": "軽食、おやつ",
+    "ja": "軽食",
+    "ex": {
+      "en": "I ate a snack after school.",
+      "ja": "放課後におやつを食べた。",
+      "mark": [
+        "snack"
+      ]
+    },
+    "core": "食事の間に食べる軽いもの。"
+  },
+  {
+    "src": "M1175",
+    "id": "dessert",
+    "cat": "word",
+    "en": "dessert",
+    "ipa": "/dɪˈzɜːrt/",
+    "sense": "デザート",
+    "ja": "デザート",
+    "ex": {
+      "en": "We had ice cream for dessert.",
+      "ja": "デザートにアイスクリームを食べた。",
+      "mark": [
+        "dessert"
+      ]
+    },
+    "core": "食事の最後に食べる甘いもの。",
+    "diff": "desert（砂漠）とつづりが近い。dessert は s が2つ。"
+  },
+  {
+    "src": "M1176",
+    "id": "bread",
+    "cat": "word",
+    "en": "bread",
+    "ipa": "/bred/",
+    "sense": "パン",
+    "ja": "パン",
+    "ex": {
+      "en": "She buys fresh bread every morning.",
+      "ja": "彼女は毎朝焼きたてのパンを買う。",
+      "mark": [
+        "bread"
+      ]
+    },
+    "core": "小麦粉などを焼いて作る主食。数えられない名詞で、数えるときは a loaf of bread。"
+  },
+  {
+    "src": "M1177",
+    "id": "rice",
+    "cat": "word",
+    "en": "rice",
+    "ipa": "/raɪs/",
+    "sense": "米、ご飯",
+    "ja": "米・ご飯",
+    "ex": {
+      "en": "We eat rice almost every day.",
+      "ja": "うちはほぼ毎日ご飯を食べる。",
+      "mark": [
+        "rice"
+      ]
+    },
+    "core": "稲の実。調理後のご飯も指す。"
+  },
+  {
+    "src": "M1178",
+    "id": "pasta",
+    "cat": "word",
+    "en": "pasta",
+    "ipa": "/ˈpɑːstə/",
+    "sense": "パスタ",
+    "ja": "パスタ",
+    "ex": {
+      "en": "We had pasta for dinner.",
+      "ja": "夕食にパスタを食べた。",
+      "mark": [
+        "pasta"
+      ]
+    },
+    "core": "小麦粉を練って作る、スパゲッティなどの総称。"
+  },
+  {
+    "src": "M1179",
+    "id": "noodle",
+    "cat": "word",
+    "en": "noodle",
+    "ipa": "/ˈnuːdl/",
+    "sense": "麺",
+    "ja": "麺",
+    "ex": {
+      "en": "I want a bowl of noodles.",
+      "ja": "麺類が食べたい。",
+      "mark": [
+        "noodles"
+      ]
+    },
+    "core": "小麦粉などで作る細長い食べ物。通常は複数形。"
+  },
+  {
+    "src": "M1180",
+    "id": "flour",
+    "cat": "word",
+    "en": "flour",
+    "ipa": "/ˈflaʊər/",
+    "sense": "小麦粉",
+    "ja": "小麦粉",
+    "ex": {
+      "en": "Mix the flour and sugar.",
+      "ja": "小麦粉と砂糖を混ぜて。",
+      "mark": [
+        "flour"
+      ]
+    },
+    "core": "小麦などを粉にしたもの。flower（花）と同じ発音。"
+  },
+  {
+    "src": "M1181",
+    "id": "cereal",
+    "cat": "word",
+    "en": "cereal",
+    "ipa": "/ˈsɪriəl/",
+    "sense": "シリアル",
+    "ja": "朝食用シリアル",
+    "ex": {
+      "en": "I eat cereal with milk for breakfast.",
+      "ja": "朝食に牛乳をかけてシリアルを食べる。",
+      "mark": [
+        "cereal"
+      ]
+    },
+    "core": "穀物を加工した朝食用の食品。",
+    "other": [
+      "穀物：rice and other cereals"
+    ]
+  },
+  {
+    "src": "M1182",
+    "id": "corn",
+    "cat": "word",
+    "en": "corn",
+    "ipa": "/kɔːrn/",
+    "sense": "トウモロコシ",
+    "ja": "トウモロコシ",
+    "ex": {
+      "en": "We grilled some corn.",
+      "ja": "私たちはトウモロコシを焼いた。",
+      "mark": [
+        "corn"
+      ]
+    },
+    "core": "黄色い粒がつく穀物・野菜。"
+  },
+  {
+    "src": "M1183",
+    "id": "potato",
+    "cat": "word",
+    "en": "potato",
+    "ipa": "/pəˈteɪtoʊ/",
+    "sense": "ジャガイモ",
+    "ja": "ジャガイモ",
+    "ex": {
+      "en": "Peel the potatoes, please.",
+      "ja": "ジャガイモの皮をむいてください。",
+      "mark": [
+        "potatoes"
+      ]
+    },
+    "core": "地下にできる丸い芋。複数形は potatoes。"
+  },
+  {
+    "src": "M1184",
+    "id": "tomato",
+    "cat": "word",
+    "en": "tomato",
+    "ipa": "/təˈmeɪtoʊ/",
+    "sense": "トマト",
+    "ja": "トマト",
+    "ex": {
+      "en": "I put a tomato in the salad.",
+      "ja": "サラダにトマトを入れた。",
+      "mark": [
+        "tomato"
+      ]
+    },
+    "core": "赤く丸い野菜。複数形は tomatoes。"
+  },
+  {
+    "src": "M1185",
+    "id": "carrot",
+    "cat": "word",
+    "en": "carrot",
+    "ipa": "/ˈkerət/",
+    "sense": "ニンジン",
+    "ja": "ニンジン",
+    "ex": {
+      "en": "Rabbits like carrots.",
+      "ja": "ウサギはニンジンが好きだ。",
+      "mark": [
+        "carrots"
+      ]
+    },
+    "core": "オレンジ色の細長い根菜。"
+  },
+  {
+    "src": "M1186",
+    "id": "onion",
+    "cat": "word",
+    "en": "onion",
+    "ipa": "/ˈʌnjən/",
+    "sense": "タマネギ",
+    "ja": "タマネギ",
+    "ex": {
+      "en": "Cutting an onion makes me cry.",
+      "ja": "タマネギを切ると涙が出る。",
+      "mark": [
+        "onion"
+      ]
+    },
+    "core": "皮をむくと層になった丸い野菜。"
+  },
+  {
+    "src": "M1187",
+    "id": "garlic",
+    "cat": "word",
+    "en": "garlic",
+    "ipa": "/ˈɡɑːrlɪk/",
+    "sense": "ニンニク",
+    "ja": "ニンニク",
+    "ex": {
+      "en": "Add some garlic to the sauce.",
+      "ja": "ソースにニンニクを加えて。",
+      "mark": [
+        "garlic"
+      ]
+    },
+    "core": "強い香りを持つ、料理の香味用の野菜。"
+  },
+  {
+    "src": "M1188",
+    "id": "cabbage",
+    "cat": "word",
+    "en": "cabbage",
+    "ipa": "/ˈkæbɪdʒ/",
+    "sense": "キャベツ",
+    "ja": "キャベツ",
+    "ex": {
+      "en": "I bought a cabbage and some carrots.",
+      "ja": "キャベツとニンジンを買った。",
+      "mark": [
+        "cabbage"
+      ]
+    },
+    "core": "葉が丸く重なった野菜。"
+  },
+  {
+    "src": "M1189",
+    "id": "lettuce",
+    "cat": "word",
+    "en": "lettuce",
+    "ipa": "/ˈletɪs/",
+    "sense": "レタス",
+    "ja": "レタス",
+    "ex": {
+      "en": "Put some lettuce on the sandwich.",
+      "ja": "サンドイッチにレタスをのせて。",
+      "mark": [
+        "lettuce"
+      ]
+    },
+    "core": "サラダなどに使う、柔らかい葉野菜。"
+  },
+  {
+    "src": "M1190",
+    "id": "spinach",
+    "cat": "word",
+    "en": "spinach",
+    "ipa": "/ˈspɪnɪtʃ/",
+    "sense": "ホウレンソウ",
+    "ja": "ホウレンソウ",
+    "ex": {
+      "en": "Spinach is good for your health.",
+      "ja": "ホウレンソウは体によい。",
+      "mark": [
+        "Spinach"
+      ]
+    },
+    "core": "濃い緑の葉野菜。"
+  },
+  {
+    "src": "M1191",
+    "id": "broccoli",
+    "cat": "word",
+    "en": "broccoli",
+    "ipa": "/ˈbrɑːkəli/",
+    "sense": "ブロッコリー",
+    "ja": "ブロッコリー",
+    "ex": {
+      "en": "My son doesn't like broccoli.",
+      "ja": "息子はブロッコリーが好きではない。",
+      "mark": [
+        "broccoli"
+      ]
+    },
+    "core": "緑色の小さな房が集まった野菜。"
+  }
+]

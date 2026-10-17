@@ -24,7 +24,7 @@
     onBeat: (i) => { beatEl.textContent = i >= 0 ? `${i + 1}: ${stage.beats[i][1]}` : ''; }
   });
   window.stage = stage;
-  stage.load({ id, motion: kind }).then((ok) => {
+  stage.load({ id, motion: kind, tpl: q.has('tpl') ? JSON.parse(q.get('tpl')) : undefined }).then((ok) => {
     window.ready = ok ? 'ok' : 'fail';
     if (q.has('t')) stage.seek(parseFloat(q.get('t')));
   });

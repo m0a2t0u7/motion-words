@@ -1,0 +1,1933 @@
+[
+  {
+    "src": "M0886",
+    "id": "supply",
+    "cat": "word",
+    "en": "supply",
+    "ipa": "/səˈplaɪ/",
+    "sense": "（必要なものを）供給する",
+    "ja": "供給する",
+    "ex": {
+      "en": "The farm supplies fresh milk to local stores.",
+      "ja": "その農場は地元の店に新鮮な牛乳を供給している。",
+      "mark": [
+        "supplies"
+      ]
+    },
+    "core": "足りないものを、必要な所へ届け続ける。",
+    "other": [
+      "（名詞）備品：office supplies"
+    ]
+  },
+  {
+    "src": "M0888",
+    "id": "receive",
+    "cat": "word",
+    "en": "receive",
+    "ipa": "/rɪˈsiːv/",
+    "sense": "受け取る",
+    "ja": "受け取る",
+    "ex": {
+      "en": "I received a letter from my friend.",
+      "ja": "友だちから手紙を受け取った。",
+      "mark": [
+        "received"
+      ]
+    },
+    "core": "届けられたものを、受け手として手に入れる。",
+    "other": []
+  },
+  {
+    "src": "M0889",
+    "id": "send",
+    "cat": "word",
+    "en": "send",
+    "ipa": "/send/",
+    "sense": "送る",
+    "ja": "送る",
+    "ex": {
+      "en": "I sent a message to my sister.",
+      "ja": "姉にメッセージを送った。",
+      "mark": [
+        "sent"
+      ]
+    },
+    "core": "ものや情報を、相手のいる所へ向かわせる。",
+    "other": [
+      "（行かせる）：send him to the store"
+    ]
+  },
+  {
+    "src": "M0890",
+    "id": "ship",
+    "cat": "word",
+    "en": "ship",
+    "ipa": "/ʃɪp/",
+    "sense": "発送する",
+    "ja": "発送する",
+    "ex": {
+      "en": "We ship orders within two days.",
+      "ja": "ご注文は2日以内に発送します。",
+      "mark": [
+        "ship"
+      ]
+    },
+    "core": "商品を、買い手のもとへ送り出す。",
+    "other": [
+      "（名詞）船：a large ship"
+    ]
+  },
+  {
+    "src": "M0891",
+    "id": "order",
+    "cat": "word",
+    "en": "order",
+    "ipa": "/ˈɔːrdɚ/",
+    "sense": "注文する",
+    "ja": "注文する",
+    "ex": {
+      "en": "I ordered a sandwich and coffee.",
+      "ja": "サンドイッチとコーヒーを注文した。",
+      "mark": [
+        "ordered"
+      ]
+    },
+    "core": "ほしいものを、店や相手に頼んで用意してもらう。",
+    "other": [
+      "（命令する）：order him to stop"
+    ]
+  },
+  {
+    "src": "M0892",
+    "id": "buy",
+    "cat": "word",
+    "en": "buy",
+    "ipa": "/baɪ/",
+    "sense": "買う",
+    "ja": "買う",
+    "ex": {
+      "en": "I bought a new bag yesterday.",
+      "ja": "昨日新しいかばんを買った。",
+      "mark": [
+        "bought"
+      ]
+    },
+    "core": "お金を払って、自分のものにする。",
+    "other": []
+  },
+  {
+    "src": "M0893",
+    "id": "purchase",
+    "cat": "word",
+    "en": "purchase",
+    "ipa": "/ˈpɝːtʃəs/",
+    "sense": "購入する",
+    "ja": "購入する",
+    "ex": {
+      "en": "She purchased a ticket online.",
+      "ja": "彼女はオンラインでチケットを購入した。",
+      "mark": [
+        "purchased"
+      ]
+    },
+    "core": "お金を払って手に入れる。buy より改まった言い方。",
+    "other": [
+      "（名詞）購入品：a recent purchase"
+    ]
+  },
+  {
+    "src": "M0894",
+    "id": "sell",
+    "cat": "word",
+    "en": "sell",
+    "ipa": "/sel/",
+    "sense": "売る",
+    "ja": "売る",
+    "ex": {
+      "en": "They sell fresh bread every morning.",
+      "ja": "その店は毎朝焼きたてのパンを売っている。",
+      "mark": [
+        "sell"
+      ]
+    },
+    "core": "品物を渡して、お金を受け取る。",
+    "other": [
+      "（売れる）：sell well"
+    ]
+  },
+  {
+    "src": "M0895",
+    "id": "pay",
+    "cat": "word",
+    "en": "pay",
+    "ipa": "/peɪ/",
+    "sense": "支払う",
+    "ja": "支払う",
+    "ex": {
+      "en": "I paid for lunch.",
+      "ja": "私が昼食代を払った。",
+      "mark": [
+        "paid"
+      ]
+    },
+    "core": "品物や仕事の代わりに、お金を渡す。",
+    "other": [
+      "（割に合う）：Hard work pays off."
+    ]
+  },
+  {
+    "src": "M0896",
+    "id": "spend",
+    "cat": "word",
+    "en": "spend",
+    "ipa": "/spend/",
+    "sense": "（お金や時間を）費やす",
+    "ja": "費やす",
+    "ex": {
+      "en": "I spent a lot of money on books.",
+      "ja": "私は本にたくさんのお金を使った。",
+      "mark": [
+        "spent"
+      ]
+    },
+    "core": "お金や時間を、何かのために使って減らす。",
+    "other": [
+      "（時間を過ごす）：spend a day at the beach"
+    ]
+  },
+  {
+    "src": "M0897",
+    "id": "cost",
+    "cat": "word",
+    "en": "cost",
+    "ipa": "/kɔːst/",
+    "sense": "（費用が）かかる",
+    "ja": "費用がかかる",
+    "ex": {
+      "en": "This bag costs fifty dollars.",
+      "ja": "このかばんは50ドルする。",
+      "mark": [
+        "costs"
+      ]
+    },
+    "core": "何かを得るために、それだけの額が必要になる。",
+    "other": [
+      "（名詞）費用：the cost of living"
+    ]
+  },
+  {
+    "src": "M0898",
+    "id": "charge",
+    "cat": "word",
+    "en": "charge",
+    "ipa": "/tʃɑːrdʒ/",
+    "sense": "（料金を）請求する",
+    "ja": "請求する",
+    "ex": {
+      "en": "The hotel charges forty dollars a night.",
+      "ja": "そのホテルは1泊40ドルかかる。",
+      "mark": [
+        "charges"
+      ]
+    },
+    "core": "サービスや品物の代金を、客に求める。",
+    "other": [
+      "（充電する）：charge a phone"
+    ]
+  },
+  {
+    "src": "M0899",
+    "id": "owe",
+    "cat": "word",
+    "en": "owe",
+    "ipa": "/oʊ/",
+    "sense": "（お金を）借りている",
+    "ja": "借りがある",
+    "ex": {
+      "en": "I owe my friend ten dollars.",
+      "ja": "友だちに10ドルの借りがある。",
+      "mark": [
+        "owe"
+      ]
+    },
+    "core": "返さなければならないものが、手元に残っている。",
+    "other": [
+      "（恩がある）：I owe you one."
+    ]
+  },
+  {
+    "src": "M0900",
+    "id": "borrow",
+    "cat": "word",
+    "en": "borrow",
+    "ipa": "/ˈbɑːroʊ/",
+    "sense": "借りる",
+    "ja": "借りる",
+    "ex": {
+      "en": "Can I borrow your pen?",
+      "ja": "ペンを借りてもいい？",
+      "mark": [
+        "borrow"
+      ]
+    },
+    "core": "あとで返す約束で、人のものを使う。",
+    "diff": "borrow は借りる側。lend は貸す側。",
+    "other": []
+  },
+  {
+    "src": "M0901",
+    "id": "lend",
+    "cat": "word",
+    "en": "lend",
+    "ipa": "/lend/",
+    "sense": "貸す",
+    "ja": "貸す",
+    "ex": {
+      "en": "Could you lend me your umbrella?",
+      "ja": "傘を貸してもらえますか。",
+      "mark": [
+        "lend"
+      ]
+    },
+    "core": "あとで返してもらう約束で、人に使わせる。",
+    "diff": "lend は貸す側。borrow は借りる側。",
+    "other": []
+  },
+  {
+    "src": "M0902",
+    "id": "rent",
+    "cat": "word",
+    "en": "rent",
+    "ipa": "/rent/",
+    "sense": "（お金を払って）賃借する",
+    "ja": "賃借する",
+    "ex": {
+      "en": "We rent a small apartment near the station.",
+      "ja": "私たちは駅の近くの小さなアパートを借りている。",
+      "mark": [
+        "rent"
+      ]
+    },
+    "core": "料金を払って、期間を決めて使わせてもらう。",
+    "other": [
+      "（貸す）：rent a room to students"
+    ]
+  },
+  {
+    "src": "M0903",
+    "id": "own",
+    "cat": "word",
+    "en": "own",
+    "ipa": "/oʊn/",
+    "sense": "所有する",
+    "ja": "所有する",
+    "ex": {
+      "en": "My uncle owns a small restaurant.",
+      "ja": "おじは小さなレストランを経営している。",
+      "mark": [
+        "owns"
+      ]
+    },
+    "core": "それが自分のものとして、持っている。",
+    "other": [
+      "（形容詞）自分自身の：my own room"
+    ]
+  },
+  {
+    "src": "M0904",
+    "id": "earn",
+    "cat": "word",
+    "en": "earn",
+    "ipa": "/ɝːn/",
+    "sense": "（働いて）稼ぐ",
+    "ja": "稼ぐ",
+    "ex": {
+      "en": "She earns a good salary.",
+      "ja": "彼女はよい給料を得ている。",
+      "mark": [
+        "earns"
+      ]
+    },
+    "core": "働いたり努力したりして、その見返りを得る。",
+    "other": [
+      "（得る）：earn respect"
+    ]
+  },
+  {
+    "src": "M0905",
+    "id": "invest",
+    "cat": "word",
+    "en": "invest",
+    "ipa": "/ɪnˈvest/",
+    "sense": "投資する",
+    "ja": "投資する",
+    "ex": {
+      "en": "He invested his money in a new company.",
+      "ja": "彼は新しい会社にお金を投資した。",
+      "mark": [
+        "invested"
+      ]
+    },
+    "core": "将来の見返りを期待して、お金や時間をつぎ込む。",
+    "other": []
+  },
+  {
+    "src": "M0906",
+    "id": "donate",
+    "cat": "word",
+    "en": "donate",
+    "ipa": "/ˈdoʊneɪt/",
+    "sense": "寄付する",
+    "ja": "寄付する",
+    "ex": {
+      "en": "She donated old clothes to the charity.",
+      "ja": "彼女は古着を慈善団体に寄付した。",
+      "mark": [
+        "donated"
+      ]
+    },
+    "core": "見返りを求めずに、人や団体に差し出す。",
+    "other": []
+  },
+  {
+    "src": "M0907",
+    "id": "collect",
+    "cat": "word",
+    "en": "collect",
+    "ipa": "/kəˈlekt/",
+    "sense": "集める",
+    "ja": "集める",
+    "ex": {
+      "en": "He collects old coins.",
+      "ja": "彼は古い硬貨を集めている。",
+      "mark": [
+        "collects"
+      ]
+    },
+    "core": "あちこちにあるものを、一か所に寄せる。",
+    "other": [
+      "（回収する）：collect the tickets"
+    ]
+  },
+  {
+    "src": "M0908",
+    "id": "count",
+    "cat": "word",
+    "en": "count",
+    "ipa": "/kaʊnt/",
+    "sense": "数える",
+    "ja": "数える",
+    "ex": {
+      "en": "Let's count the apples in the box.",
+      "ja": "箱の中のりんごを数えよう。",
+      "mark": [
+        "count"
+      ]
+    },
+    "core": "ひとつずつ数えて、全部でいくつか調べる。",
+    "other": [
+      "（重要である）：Every vote counts."
+    ]
+  },
+  {
+    "src": "M0909",
+    "id": "calculate",
+    "cat": "word",
+    "en": "calculate",
+    "ipa": "/ˈkælkjəleɪt/",
+    "sense": "計算する",
+    "ja": "計算する",
+    "ex": {
+      "en": "Can you calculate the total cost?",
+      "ja": "合計費用を計算してくれる？",
+      "mark": [
+        "calculate"
+      ]
+    },
+    "core": "数字を使って、答えを出す。",
+    "other": []
+  },
+  {
+    "src": "M0910",
+    "id": "measure",
+    "cat": "word",
+    "en": "measure",
+    "ipa": "/ˈmeʒɚ/",
+    "sense": "測る",
+    "ja": "測る",
+    "ex": {
+      "en": "I measured the length of the table.",
+      "ja": "テーブルの長さを測った。",
+      "mark": [
+        "measured"
+      ]
+    },
+    "core": "ものさしなどを当てて、大きさや量を調べる。",
+    "other": []
+  },
+  {
+    "src": "M0911",
+    "id": "weigh",
+    "cat": "word",
+    "en": "weigh",
+    "ipa": "/weɪ/",
+    "sense": "重さを量る",
+    "ja": "重さを量る",
+    "ex": {
+      "en": "She weighed the flour on a scale.",
+      "ja": "彼女ははかりで小麦粉の重さを量った。",
+      "mark": [
+        "weighed"
+      ]
+    },
+    "core": "はかりに乗せて、重さを調べる。",
+    "other": [
+      "（重さが〜ある）：It weighs two kilos."
+    ]
+  },
+  {
+    "src": "M0912",
+    "id": "estimate",
+    "cat": "word",
+    "en": "estimate",
+    "ipa": "/ˈestɪmeɪt/",
+    "sense": "見積もる",
+    "ja": "見積もる",
+    "ex": {
+      "en": "We estimated the cost at about a hundred dollars.",
+      "ja": "費用を約100ドルと見積もった。",
+      "mark": [
+        "estimated"
+      ]
+    },
+    "core": "はっきりした数が分からないので、おおよその数を出す。",
+    "other": [
+      "（名詞）見積もり：a rough estimate"
+    ]
+  },
+  {
+    "src": "M0913",
+    "id": "increase",
+    "cat": "word",
+    "en": "increase",
+    "ipa": "/ɪnˈkriːs/",
+    "sense": "増える",
+    "ja": "増える",
+    "ex": {
+      "en": "The number of visitors increased last year.",
+      "ja": "昨年、訪問者の数が増えた。",
+      "mark": [
+        "increased"
+      ]
+    },
+    "core": "数や量が、今までより大きくなる。",
+    "diff": "動詞は /ɪnˈkriːs/、名詞「増加」は /ˈɪnkriːs/ とアクセントが変わる。",
+    "other": [
+      "（増やす）：increase the speed"
+    ]
+  },
+  {
+    "src": "M0914",
+    "id": "decrease",
+    "cat": "word",
+    "en": "decrease",
+    "ipa": "/dɪˈkriːs/",
+    "sense": "減る",
+    "ja": "減る",
+    "ex": {
+      "en": "The number of students decreased this year.",
+      "ja": "今年は生徒の数が減った。",
+      "mark": [
+        "decreased"
+      ]
+    },
+    "core": "数や量が、今までより小さくなる。",
+    "other": []
+  },
+  {
+    "src": "M0915",
+    "id": "reduce",
+    "cat": "word",
+    "en": "reduce",
+    "ipa": "/rɪˈduːs/",
+    "sense": "減らす",
+    "ja": "減らす",
+    "ex": {
+      "en": "We should reduce waste at home.",
+      "ja": "家庭のごみを減らすべきだ。",
+      "mark": [
+        "reduce"
+      ]
+    },
+    "core": "量や大きさを、意図して小さくする。",
+    "diff": "decrease は減ること。reduce は減らすこと。",
+    "other": []
+  },
+  {
+    "src": "M0916",
+    "id": "improve",
+    "cat": "word",
+    "en": "improve",
+    "ipa": "/ɪmˈpruːv/",
+    "sense": "改善する、上達する",
+    "ja": "改善する",
+    "ex": {
+      "en": "I want to improve my English.",
+      "ja": "英語を上達させたい。",
+      "mark": [
+        "improve"
+      ]
+    },
+    "core": "今よりよい状態に近づける。",
+    "other": []
+  },
+  {
+    "src": "M0917",
+    "id": "develop",
+    "cat": "word",
+    "en": "develop",
+    "ipa": "/dɪˈveləp/",
+    "sense": "開発する",
+    "ja": "開発する",
+    "ex": {
+      "en": "The company developed a new phone.",
+      "ja": "その会社は新しい携帯電話を開発した。",
+      "mark": [
+        "developed"
+      ]
+    },
+    "core": "新しいものを、形になるまで作り上げていく。",
+    "other": [
+      "（発達する）：Children develop quickly."
+    ]
+  },
+  {
+    "src": "M0918",
+    "id": "grow",
+    "cat": "word",
+    "en": "grow",
+    "ipa": "/ɡroʊ/",
+    "sense": "成長する、育つ",
+    "ja": "成長する",
+    "ex": {
+      "en": "Children grow fast.",
+      "ja": "子どもは成長が早い。",
+      "mark": [
+        "grow"
+      ]
+    },
+    "core": "時間とともに、大きくなっていく。",
+    "other": [
+      "（育てる）：grow vegetables"
+    ]
+  },
+  {
+    "src": "M0919",
+    "id": "expand",
+    "cat": "word",
+    "en": "expand",
+    "ipa": "/ɪkˈspænd/",
+    "sense": "拡大する",
+    "ja": "拡大する",
+    "ex": {
+      "en": "The company plans to expand its business.",
+      "ja": "その会社は事業を拡大する計画だ。",
+      "mark": [
+        "expand"
+      ]
+    },
+    "core": "大きさや範囲が、外へ広がっていく。",
+    "other": []
+  },
+  {
+    "src": "M0920",
+    "id": "produce",
+    "cat": "word",
+    "en": "produce",
+    "ipa": "/prəˈduːs/",
+    "sense": "生産する",
+    "ja": "生産する",
+    "ex": {
+      "en": "The factory produces car parts.",
+      "ja": "その工場は自動車部品を生産している。",
+      "mark": [
+        "produces"
+      ]
+    },
+    "core": "材料から、製品を作り出す。",
+    "other": [
+      "（名詞）農作物：fresh produce"
+    ]
+  },
+  {
+    "src": "M0921",
+    "id": "design",
+    "cat": "word",
+    "en": "design",
+    "ipa": "/dɪˈzaɪn/",
+    "sense": "設計する、デザインする",
+    "ja": "設計する",
+    "ex": {
+      "en": "She designed a new logo for the shop.",
+      "ja": "彼女はその店の新しいロゴをデザインした。",
+      "mark": [
+        "designed"
+      ]
+    },
+    "core": "形や仕組みを、前もって考えて決める。",
+    "other": [
+      "（名詞）デザイン：a simple design"
+    ]
+  },
+  {
+    "src": "M0922",
+    "id": "create",
+    "cat": "word",
+    "en": "create",
+    "ipa": "/kriˈeɪt/",
+    "sense": "創り出す",
+    "ja": "創り出す",
+    "ex": {
+      "en": "The artist created a beautiful picture.",
+      "ja": "その画家は美しい絵を描き上げた。",
+      "mark": [
+        "created"
+      ]
+    },
+    "core": "今までなかったものを、新しく生み出す。",
+    "other": []
+  },
+  {
+    "src": "M0923",
+    "id": "print",
+    "cat": "word",
+    "en": "print",
+    "ipa": "/prɪnt/",
+    "sense": "印刷する",
+    "ja": "印刷する",
+    "ex": {
+      "en": "Can you print this file for me?",
+      "ja": "このファイルを印刷してもらえますか。",
+      "mark": [
+        "print"
+      ]
+    },
+    "core": "文字や絵を、紙に写し出す。",
+    "other": [
+      "（活字体で書く）：Please print your name."
+    ]
+  },
+  {
+    "src": "M0924",
+    "id": "copy",
+    "cat": "word",
+    "en": "copy",
+    "ipa": "/ˈkɑːpi/",
+    "sense": "複写する、コピーする",
+    "ja": "複写する",
+    "ex": {
+      "en": "I copied the notes into my notebook.",
+      "ja": "ノートの内容を自分の帳面に写した。",
+      "mark": [
+        "copied"
+      ]
+    },
+    "core": "あるものと同じものを、もうひとつ作る。",
+    "other": [
+      "（まねる）：copy his style"
+    ]
+  },
+  {
+    "src": "M0925",
+    "id": "paste",
+    "cat": "word",
+    "en": "paste",
+    "ipa": "/peɪst/",
+    "sense": "貼り付ける",
+    "ja": "貼り付ける",
+    "ex": {
+      "en": "Copy the text and paste it here.",
+      "ja": "文章をコピーして、ここに貼り付けてください。",
+      "mark": [
+        "paste"
+      ]
+    },
+    "core": "コピーしたものを、別の場所に置く。",
+    "other": [
+      "（のりで貼る）：paste a photo"
+    ]
+  },
+  {
+    "src": "M0926",
+    "id": "delete",
+    "cat": "word",
+    "en": "delete",
+    "ipa": "/dɪˈliːt/",
+    "sense": "削除する",
+    "ja": "削除する",
+    "ex": {
+      "en": "I deleted the old photos from my phone.",
+      "ja": "古い写真を携帯から削除した。",
+      "mark": [
+        "deleted"
+      ]
+    },
+    "core": "文字やデータを、消してなくす。",
+    "other": []
+  },
+  {
+    "src": "M0927",
+    "id": "edit",
+    "cat": "word",
+    "en": "edit",
+    "ipa": "/ˈedɪt/",
+    "sense": "編集する",
+    "ja": "編集する",
+    "ex": {
+      "en": "He edited the video before posting it.",
+      "ja": "彼は投稿する前に動画を編集した。",
+      "mark": [
+        "edited"
+      ]
+    },
+    "core": "文章や映像を手直しして、整える。",
+    "other": []
+  },
+  {
+    "src": "M0928",
+    "id": "update",
+    "cat": "word",
+    "en": "update",
+    "ipa": "/ʌpˈdeɪt/",
+    "sense": "更新する",
+    "ja": "更新する",
+    "ex": {
+      "en": "I need to update my phone.",
+      "ja": "携帯をアップデートしないといけない。",
+      "mark": [
+        "update"
+      ]
+    },
+    "core": "古くなったものを、新しい状態にする。",
+    "other": [
+      "（最新情報を伝える）：update me on the plan"
+    ]
+  },
+  {
+    "src": "M0929",
+    "id": "install",
+    "cat": "word",
+    "en": "install",
+    "ipa": "/ɪnˈstɔːl/",
+    "sense": "インストールする",
+    "ja": "インストールする",
+    "ex": {
+      "en": "I installed a new app on my phone.",
+      "ja": "携帯に新しいアプリを入れた。",
+      "mark": [
+        "installed"
+      ]
+    },
+    "core": "機器やソフトを、使える状態に据え付ける。",
+    "other": [
+      "（設置する）：install an air conditioner"
+    ]
+  },
+  {
+    "src": "M0930",
+    "id": "download",
+    "cat": "word",
+    "en": "download",
+    "ipa": "/ˈdaʊnloʊd/",
+    "sense": "ダウンロードする",
+    "ja": "ダウンロードする",
+    "ex": {
+      "en": "You can download the file for free.",
+      "ja": "そのファイルは無料でダウンロードできる。",
+      "mark": [
+        "download"
+      ]
+    },
+    "core": "ネット上のデータを、自分の機器に取り込む。",
+    "other": []
+  },
+  {
+    "src": "M0931",
+    "id": "upload",
+    "cat": "word",
+    "en": "upload",
+    "ipa": "/ˈʌploʊd/",
+    "sense": "アップロードする",
+    "ja": "アップロードする",
+    "ex": {
+      "en": "She uploaded the photos to the website.",
+      "ja": "彼女は写真をウェブサイトにアップロードした。",
+      "mark": [
+        "uploaded"
+      ]
+    },
+    "core": "自分の機器のデータを、ネット上に送り出す。",
+    "other": []
+  },
+  {
+    "src": "M0932",
+    "id": "connect",
+    "cat": "word",
+    "en": "connect",
+    "ipa": "/kəˈnekt/",
+    "sense": "接続する、つなぐ",
+    "ja": "接続する",
+    "ex": {
+      "en": "Connect the speaker to your phone.",
+      "ja": "スピーカーを携帯につないでください。",
+      "mark": [
+        "Connect"
+      ]
+    },
+    "core": "二つのものを、つなげて通じるようにする。",
+    "other": []
+  },
+  {
+    "src": "M0933",
+    "id": "disconnect",
+    "cat": "word",
+    "en": "disconnect",
+    "ipa": "/ˌdɪskəˈnekt/",
+    "sense": "接続を切る",
+    "ja": "接続を切る",
+    "ex": {
+      "en": "Please disconnect the cable first.",
+      "ja": "まずケーブルを外してください。",
+      "mark": [
+        "disconnect"
+      ]
+    },
+    "core": "つながっていたものを、切り離す。",
+    "other": []
+  },
+  {
+    "src": "M0936",
+    "id": "sign",
+    "cat": "word",
+    "en": "sign",
+    "ipa": "/saɪn/",
+    "sense": "署名する",
+    "ja": "署名する",
+    "ex": {
+      "en": "Please sign your name here.",
+      "ja": "ここに署名してください。",
+      "mark": [
+        "sign"
+      ]
+    },
+    "core": "自分の名前を書いて、確かに自分だと示す。",
+    "other": [
+      "（名詞）標識：a road sign"
+    ]
+  },
+  {
+    "src": "M0937",
+    "id": "register",
+    "cat": "word",
+    "en": "register",
+    "ipa": "/ˈredʒɪstɚ/",
+    "sense": "登録する",
+    "ja": "登録する",
+    "ex": {
+      "en": "I registered for the English class.",
+      "ja": "私は英語のクラスに登録した。",
+      "mark": [
+        "registered"
+      ]
+    },
+    "core": "名前や情報を、正式な記録に書き入れる。",
+    "other": []
+  },
+  {
+    "src": "M0938",
+    "id": "subscribe",
+    "cat": "word",
+    "en": "subscribe",
+    "ipa": "/səbˈskraɪb/",
+    "sense": "定期購読する",
+    "ja": "定期購読する",
+    "ex": {
+      "en": "I subscribe to a monthly magazine.",
+      "ja": "私は月刊誌を定期購読している。",
+      "mark": [
+        "subscribe"
+      ]
+    },
+    "core": "続けて受け取ることを申し込む。",
+    "other": []
+  },
+  {
+    "src": "M0939",
+    "id": "negotiate",
+    "cat": "word",
+    "en": "negotiate",
+    "ipa": "/nɪˈɡoʊʃieɪt/",
+    "sense": "交渉する",
+    "ja": "交渉する",
+    "ex": {
+      "en": "They negotiated the price for an hour.",
+      "ja": "彼らは1時間かけて値段を交渉した。",
+      "mark": [
+        "negotiated"
+      ]
+    },
+    "core": "話し合って、お互いが納得できる条件を探る。",
+    "other": []
+  },
+  {
+    "src": "M0940",
+    "id": "cook",
+    "cat": "word",
+    "en": "cook",
+    "ipa": "/kʊk/",
+    "sense": "料理する",
+    "ja": "料理する",
+    "ex": {
+      "en": "My father cooks dinner on Sundays.",
+      "ja": "父は日曜日に夕食を作る。",
+      "mark": [
+        "cooks"
+      ]
+    },
+    "core": "火を使って、食べ物を食べられる状態にする。",
+    "other": [
+      "（名詞）料理人：a good cook"
+    ]
+  },
+  {
+    "src": "M0941",
+    "id": "bake",
+    "cat": "word",
+    "en": "bake",
+    "ipa": "/beɪk/",
+    "sense": "（オーブンで）焼く",
+    "ja": "焼く",
+    "ex": {
+      "en": "She baked a cake for his birthday.",
+      "ja": "彼女は彼の誕生日にケーキを焼いた。",
+      "mark": [
+        "baked"
+      ]
+    },
+    "core": "オーブンの熱で、じっくり火を通す。",
+    "other": []
+  },
+  {
+    "src": "M0942",
+    "id": "boil",
+    "cat": "word",
+    "en": "boil",
+    "ipa": "/bɔɪl/",
+    "sense": "ゆでる、沸騰させる",
+    "ja": "ゆでる",
+    "ex": {
+      "en": "Boil the eggs for ten minutes.",
+      "ja": "卵を10分ゆでてください。",
+      "mark": [
+        "Boil"
+      ]
+    },
+    "core": "水を煮立てて、その中で火を通す。",
+    "other": [
+      "（沸く）：The water is boiling."
+    ]
+  },
+  {
+    "src": "M0943",
+    "id": "fry",
+    "cat": "word",
+    "en": "fry",
+    "ipa": "/fraɪ/",
+    "sense": "油でいためる、揚げる",
+    "ja": "油でいためる",
+    "ex": {
+      "en": "I fried two eggs for breakfast.",
+      "ja": "朝食に卵を2個焼いた。",
+      "mark": [
+        "fried"
+      ]
+    },
+    "core": "熱した油の中で、火を通す。",
+    "other": []
+  },
+  {
+    "src": "M0944",
+    "id": "grill",
+    "cat": "word",
+    "en": "grill",
+    "ipa": "/ɡrɪl/",
+    "sense": "直火で焼く",
+    "ja": "直火で焼く",
+    "ex": {
+      "en": "We grilled fish and vegetables outside.",
+      "ja": "私たちは外で魚と野菜を焼いた。",
+      "mark": [
+        "grilled"
+      ]
+    },
+    "core": "網の上で、直接火や熱を当てて焼く。",
+    "other": [
+      "（名詞）焼き網：a charcoal grill"
+    ]
+  },
+  {
+    "src": "M0945",
+    "id": "roast",
+    "cat": "word",
+    "en": "roast",
+    "ipa": "/roʊst/",
+    "sense": "（オーブンなどで）焼く",
+    "ja": "オーブンなどで焼く",
+    "ex": {
+      "en": "He roasted a chicken for dinner.",
+      "ja": "彼は夕食に鶏肉をオーブンで焼いた。",
+      "mark": [
+        "roasted"
+      ]
+    },
+    "core": "オーブンなどの中で、まわりから熱を当てて焼く。",
+    "diff": "bake は主にパンやお菓子。roast は主に肉や野菜。",
+    "other": []
+  },
+  {
+    "src": "M0946",
+    "id": "steam",
+    "cat": "word",
+    "en": "steam",
+    "ipa": "/stiːm/",
+    "sense": "蒸す",
+    "ja": "蒸す",
+    "ex": {
+      "en": "Steam the vegetables for five minutes.",
+      "ja": "野菜を5分蒸してください。",
+      "mark": [
+        "Steam"
+      ]
+    },
+    "core": "湯気の熱で、火を通す。",
+    "other": [
+      "（名詞）湯気：Steam rose from the pot."
+    ]
+  },
+  {
+    "src": "M0947",
+    "id": "heat",
+    "cat": "word",
+    "en": "heat",
+    "ipa": "/hiːt/",
+    "sense": "温める、熱する",
+    "ja": "温める",
+    "ex": {
+      "en": "Heat the soup on low heat.",
+      "ja": "スープを弱火で温めてください。",
+      "mark": [
+        "heat"
+      ]
+    },
+    "core": "ものに熱を加えて、温度を上げる。",
+    "other": [
+      "（名詞）熱：the heat of summer"
+    ]
+  },
+  {
+    "src": "M0948",
+    "id": "cool",
+    "cat": "word",
+    "en": "cool",
+    "ipa": "/kuːl/",
+    "sense": "冷やす、冷ます",
+    "ja": "冷やす",
+    "ex": {
+      "en": "Let the soup cool before you eat it.",
+      "ja": "食べる前にスープを冷ましましょう。",
+      "mark": [
+        "cool"
+      ]
+    },
+    "core": "熱を逃がして、温度を下げる。",
+    "other": [
+      "（形容詞）涼しい：a cool breeze"
+    ]
+  },
+  {
+    "src": "M0949",
+    "id": "freeze",
+    "cat": "word",
+    "en": "freeze",
+    "ipa": "/friːz/",
+    "sense": "凍る、凍らせる",
+    "ja": "凍る",
+    "ex": {
+      "en": "The lake freezes in winter.",
+      "ja": "その湖は冬に凍る。",
+      "mark": [
+        "freezes"
+      ]
+    },
+    "core": "温度が下がって、水が固まる。",
+    "other": [
+      "（動けなくなる）：Freeze!"
+    ]
+  },
+  {
+    "src": "M0951",
+    "id": "burn",
+    "cat": "word",
+    "en": "burn",
+    "ipa": "/bɝːn/",
+    "sense": "燃える",
+    "ja": "燃える",
+    "ex": {
+      "en": "The wood burned for hours.",
+      "ja": "木は何時間も燃え続けた。",
+      "mark": [
+        "burned"
+      ]
+    },
+    "core": "火がついて、炎を上げて燃える。",
+    "other": [
+      "（焦がす）：burn the toast"
+    ]
+  },
+  {
+    "src": "M0952",
+    "id": "cut",
+    "cat": "word",
+    "en": "cut",
+    "ipa": "/kʌt/",
+    "sense": "切る",
+    "ja": "切る",
+    "ex": {
+      "en": "I cut the paper with scissors.",
+      "ja": "はさみで紙を切った。",
+      "mark": [
+        "cut"
+      ]
+    },
+    "core": "刃物などで、ものを二つ以上に分ける。",
+    "diff": "cut の過去形・過去分詞も cut。",
+    "other": [
+      "（減らす）：cut costs"
+    ]
+  },
+  {
+    "src": "M0953",
+    "id": "slice",
+    "cat": "word",
+    "en": "slice",
+    "ipa": "/slaɪs/",
+    "sense": "薄切りにする",
+    "ja": "薄切りにする",
+    "ex": {
+      "en": "Slice the bread into thin pieces.",
+      "ja": "パンを薄く切ってください。",
+      "mark": [
+        "Slice"
+      ]
+    },
+    "core": "薄い一枚ずつに切り分ける。",
+    "other": [
+      "（名詞）一切れ：a slice of cake"
+    ]
+  },
+  {
+    "src": "M0954",
+    "id": "chop",
+    "cat": "word",
+    "en": "chop",
+    "ipa": "/tʃɑːp/",
+    "sense": "刻む",
+    "ja": "刻む",
+    "ex": {
+      "en": "She chopped the onions into small pieces.",
+      "ja": "彼女は玉ねぎを細かく刻んだ。",
+      "mark": [
+        "chopped"
+      ]
+    },
+    "core": "包丁などで、細かく切り刻む。",
+    "other": []
+  },
+  {
+    "src": "M0955",
+    "id": "peel",
+    "cat": "word",
+    "en": "peel",
+    "ipa": "/piːl/",
+    "sense": "皮をむく",
+    "ja": "皮をむく",
+    "ex": {
+      "en": "He peeled an apple with a knife.",
+      "ja": "彼はナイフでりんごの皮をむいた。",
+      "mark": [
+        "peeled"
+      ]
+    },
+    "core": "表面の皮を、はがし取る。",
+    "other": [
+      "（名詞）皮：an orange peel"
+    ]
+  },
+  {
+    "src": "M0956",
+    "id": "grind",
+    "cat": "word",
+    "en": "grind",
+    "ipa": "/ɡraɪnd/",
+    "sense": "ひく、すりつぶす",
+    "ja": "ひく",
+    "ex": {
+      "en": "I grind coffee beans every morning.",
+      "ja": "私は毎朝コーヒー豆をひく。",
+      "mark": [
+        "grind"
+      ]
+    },
+    "core": "硬いものを、こすり砕いて粉にする。",
+    "diff": "grind の過去形・過去分詞は ground。",
+    "other": []
+  },
+  {
+    "src": "M0957",
+    "id": "crush",
+    "cat": "word",
+    "en": "crush",
+    "ipa": "/krʌʃ/",
+    "sense": "押しつぶす",
+    "ja": "押しつぶす",
+    "ex": {
+      "en": "He crushed the can with his foot.",
+      "ja": "彼は足で缶を踏みつぶした。",
+      "mark": [
+        "crushed"
+      ]
+    },
+    "core": "強い力で押して、形をつぶす。",
+    "other": []
+  },
+  {
+    "src": "M0958",
+    "id": "squeeze",
+    "cat": "word",
+    "en": "squeeze",
+    "ipa": "/skwiːz/",
+    "sense": "絞る、ぎゅっと握る",
+    "ja": "絞る",
+    "ex": {
+      "en": "Squeeze a lemon over the fish.",
+      "ja": "魚にレモンを絞ってください。",
+      "mark": [
+        "Squeeze"
+      ]
+    },
+    "core": "両側から力を加えて、中身を押し出す。",
+    "other": [
+      "（すき間に入る）：squeeze into the car"
+    ]
+  },
+  {
+    "src": "M0959",
+    "id": "mix",
+    "cat": "word",
+    "en": "mix",
+    "ipa": "/mɪks/",
+    "sense": "混ぜる",
+    "ja": "混ぜる",
+    "ex": {
+      "en": "Mix the flour and sugar in a bowl.",
+      "ja": "ボウルで小麦粉と砂糖を混ぜてください。",
+      "mark": [
+        "Mix"
+      ]
+    },
+    "core": "別々のものを合わせて、ひとつにする。",
+    "other": []
+  },
+  {
+    "src": "M0960",
+    "id": "stir",
+    "cat": "word",
+    "en": "stir",
+    "ipa": "/stɝː/",
+    "sense": "かき混ぜる",
+    "ja": "かき混ぜる",
+    "ex": {
+      "en": "Stir the soup with a spoon.",
+      "ja": "スプーンでスープをかき混ぜてください。",
+      "mark": [
+        "Stir"
+      ]
+    },
+    "core": "スプーンなどで、円を描くように動かす。",
+    "diff": "mix は混ぜ合わせること。stir は動かしてかき回すこと。",
+    "other": []
+  },
+  {
+    "src": "M0963",
+    "id": "sprinkle",
+    "cat": "word",
+    "en": "sprinkle",
+    "ipa": "/ˈsprɪŋkəl/",
+    "sense": "振りかける",
+    "ja": "振りかける",
+    "ex": {
+      "en": "Sprinkle some salt on the eggs.",
+      "ja": "卵に塩を少し振りかけてください。",
+      "mark": [
+        "Sprinkle"
+      ]
+    },
+    "core": "小さな粒を、ぱらぱらと上からまく。",
+    "other": []
+  },
+  {
+    "src": "M0964",
+    "id": "serve",
+    "cat": "word",
+    "en": "serve",
+    "ipa": "/sɝːv/",
+    "sense": "（料理を）出す",
+    "ja": "料理を出す",
+    "ex": {
+      "en": "They serve fresh fish at that restaurant.",
+      "ja": "あのレストランは新鮮な魚料理を出している。",
+      "mark": [
+        "serve"
+      ]
+    },
+    "core": "食事を、客の前に出す。",
+    "other": [
+      "（仕える）：serve the country"
+    ]
+  },
+  {
+    "src": "M0965",
+    "id": "eat",
+    "cat": "word",
+    "en": "eat",
+    "ipa": "/iːt/",
+    "sense": "食べる",
+    "ja": "食べる",
+    "ex": {
+      "en": "I usually eat breakfast at seven.",
+      "ja": "私はたいてい7時に朝食をとる。",
+      "mark": [
+        "eat"
+      ]
+    },
+    "core": "食べ物を口に入れて、かんで飲み込む。",
+    "other": []
+  },
+  {
+    "src": "M0966",
+    "id": "drink",
+    "cat": "word",
+    "en": "drink",
+    "ipa": "/drɪŋk/",
+    "sense": "飲む",
+    "ja": "飲む",
+    "ex": {
+      "en": "I drink a glass of milk every morning.",
+      "ja": "私は毎朝牛乳を1杯飲む。",
+      "mark": [
+        "drink"
+      ]
+    },
+    "core": "液体を口に入れて、飲み込む。",
+    "other": [
+      "（名詞）飲み物：a cold drink"
+    ]
+  },
+  {
+    "src": "M0967",
+    "id": "feed",
+    "cat": "word",
+    "en": "feed",
+    "ipa": "/fiːd/",
+    "sense": "食べ物を与える",
+    "ja": "食べ物を与える",
+    "ex": {
+      "en": "I feed my dog twice a day.",
+      "ja": "私は犬に1日2回えさをやる。",
+      "mark": [
+        "feed"
+      ]
+    },
+    "core": "食べ物を、相手の口に届くように与える。",
+    "diff": "feed の過去形・過去分詞は fed。",
+    "other": []
+  },
+  {
+    "src": "M0968",
+    "id": "plant",
+    "cat": "word",
+    "en": "plant",
+    "ipa": "/plænt/",
+    "sense": "植える",
+    "ja": "植える",
+    "ex": {
+      "en": "We planted flowers in the garden.",
+      "ja": "私たちは庭に花を植えた。",
+      "mark": [
+        "planted"
+      ]
+    },
+    "core": "苗や種を、土に入れて根づかせる。",
+    "other": [
+      "（名詞）植物：a green plant"
+    ]
+  },
+  {
+    "src": "M0969",
+    "id": "water",
+    "cat": "word",
+    "en": "water",
+    "ipa": "/ˈwɔːtɚ/",
+    "sense": "水をやる",
+    "ja": "水をやる",
+    "ex": {
+      "en": "I water the plants every morning.",
+      "ja": "私は毎朝植物に水をやる。",
+      "mark": [
+        "water"
+      ]
+    },
+    "core": "植物などに、水をかける。",
+    "other": [
+      "（名詞）水：a glass of water"
+    ]
+  },
+  {
+    "src": "M0970",
+    "id": "harvest",
+    "cat": "word",
+    "en": "harvest",
+    "ipa": "/ˈhɑːrvɪst/",
+    "sense": "収穫する",
+    "ja": "収穫する",
+    "ex": {
+      "en": "Farmers harvest rice in autumn.",
+      "ja": "農家は秋に米を収穫する。",
+      "mark": [
+        "harvest"
+      ]
+    },
+    "core": "育てた作物を、取り入れる。",
+    "other": [
+      "（名詞）収穫：a good harvest"
+    ]
+  },
+  {
+    "src": "M0971",
+    "id": "dig",
+    "cat": "word",
+    "en": "dig",
+    "ipa": "/dɪɡ/",
+    "sense": "掘る",
+    "ja": "掘る",
+    "ex": {
+      "en": "The children dug a hole in the sand.",
+      "ja": "子どもたちは砂に穴を掘った。",
+      "mark": [
+        "dug"
+      ]
+    },
+    "core": "地面などを、削って穴を作る。",
+    "diff": "dig の過去形・過去分詞は dug。",
+    "other": []
+  },
+  {
+    "src": "M0972",
+    "id": "bury",
+    "cat": "word",
+    "en": "bury",
+    "ipa": "/ˈberi/",
+    "sense": "埋める",
+    "ja": "埋める",
+    "ex": {
+      "en": "The dog buried a bone in the garden.",
+      "ja": "犬は庭に骨を埋めた。",
+      "mark": [
+        "buried"
+      ]
+    },
+    "core": "ものを土の下に入れて、見えなくする。",
+    "other": []
+  },
+  {
+    "src": "M0973",
+    "id": "hang",
+    "cat": "word",
+    "en": "hang",
+    "ipa": "/hæŋ/",
+    "sense": "つるす、掛ける",
+    "ja": "つるす",
+    "ex": {
+      "en": "She hung her coat on the hook.",
+      "ja": "彼女はコートをフックに掛けた。",
+      "mark": [
+        "hung"
+      ]
+    },
+    "core": "上の一点から、下に垂らして留める。",
+    "diff": "hang の過去形・過去分詞は hung。",
+    "other": []
+  },
+  {
+    "src": "M0974",
+    "id": "sew",
+    "cat": "word",
+    "en": "sew",
+    "ipa": "/soʊ/",
+    "sense": "縫う",
+    "ja": "縫う",
+    "ex": {
+      "en": "My mother sewed a button on my shirt.",
+      "ja": "母は私のシャツにボタンを縫いつけた。",
+      "mark": [
+        "sewed"
+      ]
+    },
+    "core": "針と糸で、布をつなぎ合わせる。",
+    "diff": "sew は発音が「ソウ」。",
+    "other": []
+  },
+  {
+    "src": "M0975",
+    "id": "knit",
+    "cat": "word",
+    "en": "knit",
+    "ipa": "/nɪt/",
+    "sense": "編む",
+    "ja": "編む",
+    "ex": {
+      "en": "Grandma knitted a sweater for me.",
+      "ja": "祖母は私にセーターを編んでくれた。",
+      "mark": [
+        "knitted"
+      ]
+    },
+    "core": "毛糸を棒針で、輪をつなげて編む。",
+    "diff": "knit の k は発音しない。",
+    "other": []
+  },
+  {
+    "src": "M0976",
+    "id": "wear",
+    "cat": "word",
+    "en": "wear",
+    "ipa": "/wer/",
+    "sense": "身につける、着ている",
+    "ja": "身につける",
+    "ex": {
+      "en": "She wears glasses at school.",
+      "ja": "彼女は学校では眼鏡をかけている。",
+      "mark": [
+        "wears"
+      ]
+    },
+    "core": "服やアクセサリーを、身につけている状態にある。",
+    "diff": "wear は着ている状態。put on は着る動作。",
+    "other": []
+  },
+  {
+    "src": "M0977",
+    "id": "dress",
+    "cat": "word",
+    "en": "dress",
+    "ipa": "/dres/",
+    "sense": "服を着せる",
+    "ja": "服を着せる",
+    "ex": {
+      "en": "I dress my son before breakfast.",
+      "ja": "朝食の前に息子に服を着せる。",
+      "mark": [
+        "dress"
+      ]
+    },
+    "core": "人に服を着せる。自分が着る場合は dress oneself。",
+    "other": [
+      "（名詞）ワンピース：a red dress"
+    ]
+  },
+  {
+    "src": "M0978",
+    "id": "fit",
+    "cat": "word",
+    "en": "fit",
+    "ipa": "/fɪt/",
+    "sense": "（サイズが）合う",
+    "ja": "サイズが合う",
+    "ex": {
+      "en": "These shoes fit me well.",
+      "ja": "この靴は私にぴったり合う。",
+      "mark": [
+        "fit"
+      ]
+    },
+    "core": "大きさや形が、ちょうど合う。",
+    "other": [
+      "（入る）：fit in the box"
+    ]
+  },
+  {
+    "src": "M0979",
+    "id": "match",
+    "cat": "word",
+    "en": "match",
+    "ipa": "/mætʃ/",
+    "sense": "調和する、似合う",
+    "ja": "調和する",
+    "ex": {
+      "en": "This tie matches your shirt.",
+      "ja": "このネクタイはあなたのシャツに合っている。",
+      "mark": [
+        "match"
+      ]
+    },
+    "core": "二つのものが、うまくつり合う。",
+    "other": [
+      "（名詞）試合：a tennis match"
+    ]
+  },
+  {
+    "src": "M0980",
+    "id": "shine",
+    "cat": "word",
+    "en": "shine",
+    "ipa": "/ʃaɪn/",
+    "sense": "輝く",
+    "ja": "輝く",
+    "ex": {
+      "en": "The sun was shining brightly.",
+      "ja": "太陽がまぶしく輝いていた。",
+      "mark": [
+        "shining"
+      ]
+    },
+    "core": "光を出したり、光を受けて明るく見える。",
+    "diff": "shine の過去形・過去分詞は shone。",
+    "other": []
+  },
+  {
+    "src": "M0981",
+    "id": "glow",
+    "cat": "word",
+    "en": "glow",
+    "ipa": "/ɡloʊ/",
+    "sense": "（柔らかく）光る",
+    "ja": "柔らかく光る",
+    "ex": {
+      "en": "The candle glowed in the dark room.",
+      "ja": "暗い部屋でろうそくが柔らかく光っていた。",
+      "mark": [
+        "glowed"
+      ]
+    },
+    "core": "炎を出さずに、ぼんやりと明るく光る。",
+    "other": []
+  },
+  {
+    "src": "M0982",
+    "id": "reflect",
+    "cat": "word",
+    "en": "reflect",
+    "ipa": "/rɪˈflekt/",
+    "sense": "反射する、映す",
+    "ja": "反射する",
+    "ex": {
+      "en": "The lake reflected the mountains.",
+      "ja": "湖が山を映していた。",
+      "mark": [
+        "reflected"
+      ]
+    },
+    "core": "当たった光や像を、はね返す。",
+    "other": [
+      "（よく考える）：reflect on the day"
+    ]
+  },
+  {
+    "src": "M0983",
+    "id": "flow",
+    "cat": "word",
+    "en": "flow",
+    "ipa": "/floʊ/",
+    "sense": "流れる",
+    "ja": "流れる",
+    "ex": {
+      "en": "The river flows into the sea.",
+      "ja": "その川は海に流れ込んでいる。",
+      "mark": [
+        "flows"
+      ]
+    },
+    "core": "水などが、途切れずに動いていく。",
+    "other": [
+      "（名詞）流れ：the flow of traffic"
+    ]
+  },
+  {
+    "src": "M0984",
+    "id": "leak",
+    "cat": "word",
+    "en": "leak",
+    "ipa": "/liːk/",
+    "sense": "漏れる",
+    "ja": "漏れる",
+    "ex": {
+      "en": "The roof leaks when it rains.",
+      "ja": "雨が降ると屋根が雨漏りする。",
+      "mark": [
+        "leaks"
+      ]
+    },
+    "core": "すき間から、中身が外へこぼれ出る。",
+    "other": [
+      "（情報などを）漏らす：leak a secret"
+    ]
+  },
+  {
+    "src": "M0985",
+    "id": "burst",
+    "cat": "word",
+    "en": "burst",
+    "ipa": "/bɝːst/",
+    "sense": "破裂する",
+    "ja": "破裂する",
+    "ex": {
+      "en": "The balloon burst with a loud pop.",
+      "ja": "風船が大きな音を立てて割れた。",
+      "mark": [
+        "burst"
+      ]
+    },
+    "core": "中の力に耐えられず、突然破れる。",
+    "diff": "burst の過去形・過去分詞も burst。",
+    "other": []
+  },
+  {
+    "src": "M0986",
+    "id": "explode",
+    "cat": "word",
+    "en": "explode",
+    "ipa": "/ɪkˈsploʊd/",
+    "sense": "爆発する",
+    "ja": "爆発する",
+    "ex": {
+      "en": "The fireworks exploded in the sky.",
+      "ja": "花火が空で爆発した。",
+      "mark": [
+        "exploded"
+      ]
+    },
+    "core": "大きな力と音を出して、一気にはじける。",
+    "other": []
+  },
+  {
+    "src": "M0987",
+    "id": "crack",
+    "cat": "word",
+    "en": "crack",
+    "ipa": "/kræk/",
+    "sense": "ひびが入る",
+    "ja": "ひびが入る",
+    "ex": {
+      "en": "The glass cracked when I poured hot water.",
+      "ja": "熱湯を注いだらグラスにひびが入った。",
+      "mark": [
+        "cracked"
+      ]
+    },
+    "core": "表面に細い裂け目ができる。",
+    "other": [
+      "（名詞）ひび：a crack in the wall"
+    ]
+  },
+  {
+    "src": "M0988",
+    "id": "tear",
+    "cat": "word",
+    "en": "tear",
+    "ipa": "/ter/",
+    "sense": "引き裂く",
+    "ja": "引き裂く",
+    "ex": {
+      "en": "Don't tear the paper.",
+      "ja": "紙を破らないで。",
+      "mark": [
+        "tear"
+      ]
+    },
+    "core": "布や紙を、両手で引っ張って裂く。",
+    "diff": "tear の過去形は tore、過去分詞は torn。",
+    "other": [
+      "（名詞）涙：/tɪr/ a tear"
+    ]
+  },
+  {
+    "src": "M0989",
+    "id": "split",
+    "cat": "word",
+    "en": "split",
+    "ipa": "/splɪt/",
+    "sense": "分かれる、割れる",
+    "ja": "分かれる",
+    "ex": {
+      "en": "The road splits into two near the town.",
+      "ja": "その道は町の近くで二つに分かれる。",
+      "mark": [
+        "splits"
+      ]
+    },
+    "core": "ひとつのものが、縦に二つ以上に分かれる。",
+    "diff": "split の過去形・過去分詞も split。",
+    "other": [
+      "（分け合う）：split the bill"
+    ]
+  },
+  {
+    "src": "M0990",
+    "id": "separate",
+    "cat": "word",
+    "en": "separate",
+    "ipa": "/ˈsepəreɪt/",
+    "sense": "分離する、引き離す",
+    "ja": "分離する",
+    "ex": {
+      "en": "Separate the eggs into two bowls.",
+      "ja": "卵を二つのボウルに分けてください。",
+      "mark": [
+        "Separate"
+      ]
+    },
+    "core": "くっついていたものを、離して別々にする。",
+    "diff": "動詞は語尾が「エイト」、形容詞「別々の」は「ラット」に近い音。",
+    "other": []
+  },
+  {
+    "src": "M0991",
+    "id": "join",
+    "cat": "word",
+    "en": "join",
+    "ipa": "/dʒɔɪn/",
+    "sense": "つなぐ、加わる",
+    "ja": "つなぐ",
+    "ex": {
+      "en": "Join the two pieces with glue.",
+      "ja": "2つの部品を接着剤でつないでください。",
+      "mark": [
+        "Join"
+      ]
+    },
+    "core": "別々のものを、つなぎ合わせてひとつにする。",
+    "other": [
+      "（加わる）：join a club"
+    ]
+  }
+]

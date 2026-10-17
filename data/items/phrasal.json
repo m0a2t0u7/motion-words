@@ -786,5 +786,2769 @@
       "（問題を）解決する：sort out the problem"
     ],
     "motion": "2d"
+  },
+  {
+    "src": "M0001",
+    "id": "wake-up",
+    "en": "wake up",
+    "ipa": "/ˌweɪk ˈʌp/",
+    "sense": "（眠りから）目を覚ます",
+    "ja": "目を覚ます",
+    "ex": {
+      "en": "I woke up at six this morning.",
+      "ja": "今朝は6時に目が覚めた。",
+      "mark": [
+        "woke up"
+      ]
+    },
+    "core": "眠りの状態から意識が上（up）がってくる。",
+    "diff": "get up は起き上がること。wake up は目が覚めること。",
+    "other": [
+      "（人を）起こす：wake him up"
+    ]
+  },
+  {
+    "src": "M0002",
+    "id": "get-up",
+    "en": "get up",
+    "ipa": "/ˌɡɛt ˈʌp/",
+    "sense": "（寝床などから）起き上がる",
+    "ja": "起き上がる",
+    "ex": {
+      "en": "He gets up at seven every day.",
+      "ja": "彼は毎日7時に起きる。",
+      "mark": [
+        "gets up"
+      ]
+    },
+    "core": "体が下の位置から上（up）の位置へ移る。",
+    "diff": "wake up は目が覚めること。get up は体を起こして動き出すこと。",
+    "other": [
+      "（椅子から）立ち上がる：get up from the chair"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🧍",
+      "dir": "up"
+    }
+  },
+  {
+    "src": "M0005",
+    "id": "lie-down",
+    "en": "lie down",
+    "ipa": "/ˌlaɪ ˈdaʊn/",
+    "sense": "（体を）横にする、横になる",
+    "ja": "横になる",
+    "ex": {
+      "en": "I want to lie down for a while.",
+      "ja": "少し横になりたい。",
+      "mark": [
+        "lie down"
+      ]
+    },
+    "core": "体を下（down）の面に預けて、水平な姿勢になる。",
+    "diff": "lay は「〜を置く」で目的語が必要。lie は自分が横になる。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🛏️",
+      "dir": "down"
+    }
+  },
+  {
+    "src": "M0006",
+    "id": "bend-down",
+    "en": "bend down",
+    "ipa": "/ˌbɛnd ˈdaʊn/",
+    "sense": "（腰や体を）かがむ",
+    "ja": "かがむ",
+    "ex": {
+      "en": "She bent down to pick up the pen.",
+      "ja": "彼女はペンを拾うためにかがんだ。",
+      "mark": [
+        "bent down"
+      ]
+    },
+    "core": "体を曲げて、位置を下（down）へ近づける。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🙇",
+      "dir": "down"
+    }
+  },
+  {
+    "src": "M0007",
+    "id": "kneel-down",
+    "en": "kneel down",
+    "ipa": "/ˌniːl ˈdaʊn/",
+    "sense": "ひざまずく",
+    "ja": "ひざまずく",
+    "ex": {
+      "en": "He knelt down and tied his shoe.",
+      "ja": "彼はひざをついてくつひもを結んだ。",
+      "mark": [
+        "knelt down"
+      ]
+    },
+    "core": "ひざを地面につけて、体を低い位置へ下ろす。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🧎",
+      "dir": "down"
+    }
+  },
+  {
+    "src": "M0008",
+    "id": "stretch-out",
+    "en": "stretch out",
+    "ipa": "/ˌstrɛtʃ ˈaʊt/",
+    "sense": "（手足を）伸ばす",
+    "ja": "手足を伸ばす",
+    "ex": {
+      "en": "He stretched out on the sofa.",
+      "ja": "彼はソファで手足を伸ばした。",
+      "mark": [
+        "stretched out"
+      ]
+    },
+    "core": "体を引っぱるように外（out）へ広げる。",
+    "other": [
+      "（手を）差し出す：stretch out a hand"
+    ]
+  },
+  {
+    "src": "M0009",
+    "id": "roll-over",
+    "en": "roll over",
+    "ipa": "/ˌroʊl ˈoʊvər/",
+    "sense": "（体の向きを変えて）寝返りを打つ",
+    "ja": "寝返りを打つ",
+    "ex": {
+      "en": "The baby rolled over in bed.",
+      "ja": "赤ちゃんはベッドで寝返りを打った。",
+      "mark": [
+        "rolled over"
+      ]
+    },
+    "core": "体が転がって、上下の向きがひっくり返る（over）。",
+    "other": []
+  },
+  {
+    "src": "M0010",
+    "id": "turn-around",
+    "en": "turn around",
+    "ipa": "/ˌtɝːn əˈraʊnd/",
+    "sense": "（後ろを）振り向く",
+    "ja": "振り向く",
+    "ex": {
+      "en": "She turned around when I called her.",
+      "ja": "私が呼ぶと彼女は振り向いた。",
+      "mark": [
+        "turned around"
+      ]
+    },
+    "core": "体の向きをぐるりと回して（around）反対側へ向ける。",
+    "other": []
+  },
+  {
+    "src": "M0012",
+    "id": "look-down",
+    "en": "look down",
+    "ipa": "/ˌlʊk ˈdaʊn/",
+    "sense": "下の方を見る",
+    "ja": "下を見る",
+    "ex": {
+      "en": "Don't look down from the bridge.",
+      "ja": "橋の上から下を見てはいけない。",
+      "mark": [
+        "look down"
+      ]
+    },
+    "core": "視線を下（down）へ向ける。",
+    "other": [
+      "見下す：look down on him"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "👀",
+      "act": "look"
+    }
+  },
+  {
+    "src": "M0013",
+    "id": "look-around",
+    "en": "look around",
+    "ipa": "/ˌlʊk əˈraʊnd/",
+    "sense": "（周囲を）見回す",
+    "ja": "見回す",
+    "ex": {
+      "en": "He looked around the room.",
+      "ja": "彼は部屋の中を見回した。",
+      "mark": [
+        "looked around"
+      ]
+    },
+    "core": "視線をぐるりと周囲（around）に回す。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "👀",
+      "act": "look"
+    }
+  },
+  {
+    "src": "M0014",
+    "id": "look-back",
+    "en": "look back",
+    "ipa": "/ˌlʊk ˈbæk/",
+    "sense": "（後ろを）振り返って見る",
+    "ja": "振り返って見る",
+    "ex": {
+      "en": "She looked back at the road behind her.",
+      "ja": "彼女は来た道を振り返って見た。",
+      "mark": [
+        "looked back"
+      ]
+    },
+    "core": "視線を後ろ（back）へ戻す。",
+    "other": [
+      "（過去を）振り返る：look back on my school days"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "👀",
+      "act": "look"
+    }
+  },
+  {
+    "src": "M0015",
+    "id": "come-in",
+    "en": "come in",
+    "ipa": "/ˌkʌm ˈɪn/",
+    "sense": "（部屋や家に）入ってくる",
+    "ja": "中に入る",
+    "ex": {
+      "en": "Please come in and sit down.",
+      "ja": "どうぞ入って座ってください。",
+      "mark": [
+        "come in"
+      ]
+    },
+    "core": "話し手のいる場所の中（in）へ近づいてくる。",
+    "diff": "go in は話し手から離れて入ること。come in は話し手の方へ入ってくること。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🚪",
+      "dir": "in"
+    }
+  },
+  {
+    "src": "M0017",
+    "id": "come-out",
+    "en": "come out",
+    "ipa": "/ˌkʌm ˈaʊt/",
+    "sense": "（中から）出てくる",
+    "ja": "中から出てくる",
+    "ex": {
+      "en": "A kitten came out of the box.",
+      "ja": "子猫が箱から出てきた。",
+      "mark": [
+        "came out"
+      ]
+    },
+    "core": "中にいたものが外（out）へ現れる。",
+    "other": [
+      "（本などが）発売される：The book comes out in May."
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🚪",
+      "dir": "out"
+    }
+  },
+  {
+    "src": "M0018",
+    "id": "go-in",
+    "en": "go in",
+    "ipa": "/ˌɡoʊ ˈɪn/",
+    "sense": "（建物などの）中へ入る",
+    "ja": "中に入る",
+    "ex": {
+      "en": "Let's go in and look around the shop.",
+      "ja": "店に入って見て回ろう。",
+      "mark": [
+        "go in"
+      ]
+    },
+    "core": "話し手から離れて、中（in）へ移動する。",
+    "diff": "come in は話し手の方へ入ってくること。go in は中へ入っていくこと。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🚪",
+      "dir": "in"
+    }
+  },
+  {
+    "src": "M0020",
+    "id": "go-back",
+    "en": "go back",
+    "ipa": "/ˌɡoʊ ˈbæk/",
+    "sense": "（元の場所へ）戻る",
+    "ja": "戻る",
+    "ex": {
+      "en": "I forgot my bag, so I went back to school.",
+      "ja": "かばんを忘れたので、学校へ戻った。",
+      "mark": [
+        "went back"
+      ]
+    },
+    "core": "来た方向、元いた場所（back）へ向かう。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🔙",
+      "dir": "back"
+    }
+  },
+  {
+    "src": "M0021",
+    "id": "come-over",
+    "en": "come over",
+    "ipa": "/ˌkʌm ˈoʊvər/",
+    "sense": "（人の家などに）遊びに来る",
+    "ja": "家に遊びに来る",
+    "ex": {
+      "en": "Can you come over to my house tonight?",
+      "ja": "今夜うちに遊びに来られる？",
+      "mark": [
+        "come over"
+      ]
+    },
+    "core": "離れた場所からこちら側（over）へ訪ねてくる。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🏠",
+      "dir": "toward"
+    }
+  },
+  {
+    "src": "M0022",
+    "id": "go-away",
+    "en": "go away",
+    "ipa": "/ˌɡoʊ əˈweɪ/",
+    "sense": "（その場から）立ち去る",
+    "ja": "立ち去る",
+    "ex": {
+      "en": "The dog went away when I shouted.",
+      "ja": "私が叫ぶと犬は立ち去った。",
+      "mark": [
+        "went away"
+      ]
+    },
+    "core": "今いる場所から離れた（away）所へ行く。",
+    "other": [
+      "（旅行などで）出かける：go away for the weekend"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🏃",
+      "dir": "away"
+    }
+  },
+  {
+    "src": "M0023",
+    "id": "walk-away",
+    "en": "walk away",
+    "ipa": "/ˌwɔːk əˈweɪ/",
+    "sense": "歩いてその場を離れる",
+    "ja": "歩いて立ち去る",
+    "ex": {
+      "en": "He turned and walked away.",
+      "ja": "彼は背を向けて歩き去った。",
+      "mark": [
+        "walked away"
+      ]
+    },
+    "core": "歩いて、その場から遠ざかる（away）。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🚶",
+      "dir": "away"
+    }
+  },
+  {
+    "src": "M0024",
+    "id": "run-away",
+    "en": "run away",
+    "ipa": "/ˌrʌn əˈweɪ/",
+    "sense": "（危険などから）走って逃げる",
+    "ja": "逃げる",
+    "ex": {
+      "en": "The boy ran away from the dog.",
+      "ja": "男の子は犬から走って逃げた。",
+      "mark": [
+        "ran away"
+      ]
+    },
+    "core": "走って、危険な場所から離れた所（away）へ行く。",
+    "other": [
+      "家出する：run away from home"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🏃",
+      "dir": "away"
+    }
+  },
+  {
+    "src": "M0025",
+    "id": "move-away",
+    "en": "move away",
+    "ipa": "/ˌmuːv əˈweɪ/",
+    "sense": "（住む場所を）引っ越して離れる",
+    "ja": "引っ越して離れる",
+    "ex": {
+      "en": "My best friend moved away last year.",
+      "ja": "親友は去年、引っ越して行った。",
+      "mark": [
+        "moved away"
+      ]
+    },
+    "core": "住む場所を変えて、今の土地から離れる（away）。",
+    "other": [
+      "（物から）離れる：move away from the fire"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🚚",
+      "dir": "away"
+    }
+  },
+  {
+    "src": "M0026",
+    "id": "get-in",
+    "en": "get in",
+    "ipa": "/ˌɡɛt ˈɪn/",
+    "sense": "（車に）乗り込む",
+    "ja": "車に乗り込む",
+    "ex": {
+      "en": "Get in the car. We're late.",
+      "ja": "車に乗って。遅れているよ。",
+      "mark": [
+        "Get in"
+      ]
+    },
+    "core": "体を車の中（in）へ移す。",
+    "diff": "get out は降りること。get in は乗り込むこと。",
+    "other": [
+      "（電車などが）到着する：The train got in at nine."
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🚗",
+      "dir": "in"
+    }
+  },
+  {
+    "src": "M0027",
+    "id": "get-out",
+    "en": "get out",
+    "ipa": "/ˌɡɛt ˈaʊt/",
+    "sense": "（車から）降りる",
+    "ja": "車から降りる",
+    "ex": {
+      "en": "She got out of the car at the station.",
+      "ja": "彼女は駅で車から降りた。",
+      "mark": [
+        "got out of"
+      ]
+    },
+    "core": "体を車の外（out）へ移す。",
+    "diff": "get in は乗り込むこと。get out は降りること。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🚗",
+      "dir": "out"
+    }
+  },
+  {
+    "src": "M0030",
+    "id": "get-back",
+    "en": "get back",
+    "ipa": "/ˌɡɛt ˈbæk/",
+    "sense": "（元の場所へ）帰り着く、戻る",
+    "ja": "戻る",
+    "ex": {
+      "en": "We got back home at nine.",
+      "ja": "私たちは9時に家へ帰り着いた。",
+      "mark": [
+        "got back"
+      ]
+    },
+    "core": "元いた場所（back）に到達する。",
+    "other": [
+      "〜を取り戻す：get my money back"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🏠",
+      "dir": "back"
+    }
+  },
+  {
+    "src": "M0031",
+    "id": "set-off",
+    "en": "set off",
+    "ipa": "/ˌsɛt ˈɔːf/",
+    "sense": "（旅などに）出発する",
+    "ja": "出発する",
+    "ex": {
+      "en": "We set off early in the morning.",
+      "ja": "私たちは朝早く出発した。",
+      "mark": [
+        "set off"
+      ]
+    },
+    "core": "今いる場所から離れて（off）動き出す。",
+    "diff": "set out は目的を持って始める感じ。set off は出発する動作そのもの。",
+    "other": [
+      "（爆弾・警報などを）作動させる：set off an alarm"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🧳",
+      "dir": "away"
+    }
+  },
+  {
+    "src": "M0032",
+    "id": "set-out",
+    "en": "set out",
+    "ipa": "/ˌsɛt ˈaʊt/",
+    "sense": "（旅や行程に）出発する",
+    "ja": "出発する",
+    "ex": {
+      "en": "They set out for the mountain at dawn.",
+      "ja": "彼らは夜明けに山へ向けて出発した。",
+      "mark": [
+        "set out"
+      ]
+    },
+    "core": "外（out）の世界へ向けて行程を始める。",
+    "other": [
+      "〜を並べる：set out the plates"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🧭",
+      "dir": "away"
+    }
+  },
+  {
+    "src": "M0033",
+    "id": "head-out",
+    "en": "head out",
+    "ipa": "/ˌhɛd ˈaʊt/",
+    "sense": "（家などから）出かける",
+    "ja": "出かける",
+    "ex": {
+      "en": "I'm going to head out now.",
+      "ja": "もう出かけるね。",
+      "mark": [
+        "head out"
+      ]
+    },
+    "core": "頭（head）を外（out）へ向ける。くだけた言い方。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🚶",
+      "dir": "out"
+    }
+  },
+  {
+    "src": "M0034",
+    "id": "head-back",
+    "en": "head back",
+    "ipa": "/ˌhɛd ˈbæk/",
+    "sense": "（来た方へ）引き返す",
+    "ja": "引き返す",
+    "ex": {
+      "en": "It's getting dark, so let's head back.",
+      "ja": "暗くなってきたから引き返そう。",
+      "mark": [
+        "head back"
+      ]
+    },
+    "core": "進む向きを元の方向（back）へ向ける。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🔙",
+      "dir": "back"
+    }
+  },
+  {
+    "src": "M0035",
+    "id": "move-on",
+    "en": "move on",
+    "ipa": "/ˌmuːv ˈɑːn/",
+    "sense": "（次のことへ）進む",
+    "ja": "次へ進む",
+    "ex": {
+      "en": "Let's move on to the next question.",
+      "ja": "次の問題に進みましょう。",
+      "mark": [
+        "move on"
+      ]
+    },
+    "core": "今の場所や話題から離れ、続けて（on）次へ進む。",
+    "other": [
+      "（過去を）吹っ切る：move on from the past"
+    ]
+  },
+  {
+    "src": "M0036",
+    "id": "carry-on",
+    "en": "carry on",
+    "ipa": "/ˌkæri ˈɑːn/",
+    "sense": "（中断しても）続ける",
+    "ja": "続ける",
+    "ex": {
+      "en": "Please carry on with your work.",
+      "ja": "どうぞ作業を続けてください。",
+      "mark": [
+        "carry on"
+      ]
+    },
+    "core": "動きを止めずにそのまま続けて（on）運ぶ。",
+    "diff": "keep going は止まらずに進む感じ。carry on は中断後に続けることにも使う。",
+    "other": []
+  },
+  {
+    "src": "M0037",
+    "id": "keep-going",
+    "en": "keep going",
+    "ipa": "/ˌkiːp ˈɡoʊɪŋ/",
+    "sense": "（止まらずに）進み続ける",
+    "ja": "進み続ける",
+    "ex": {
+      "en": "Keep going. We're almost at the top.",
+      "ja": "止まらずに行こう。もうすぐ頂上だ。",
+      "mark": [
+        "Keep going"
+      ]
+    },
+    "core": "進む動作を保ち（keep）続ける。",
+    "other": [
+      "（励まして）頑張り続ける：Keep going!"
+    ]
+  },
+  {
+    "src": "M0038",
+    "id": "hurry-up",
+    "en": "hurry up",
+    "ipa": "/ˌhɝːi ˈʌp/",
+    "sense": "急ぐ",
+    "ja": "急ぐ",
+    "ex": {
+      "en": "Hurry up, or we'll miss the bus.",
+      "ja": "急いで、バスに乗り遅れるよ。",
+      "mark": [
+        "Hurry up"
+      ]
+    },
+    "core": "動作の勢い、速さを上（up）げる。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "💨",
+      "dir": "toward"
+    }
+  },
+  {
+    "src": "M0040",
+    "id": "speed-up",
+    "en": "speed up",
+    "ipa": "/ˌspiːd ˈʌp/",
+    "sense": "（速度を）上げる、速くなる",
+    "ja": "速度を上げる",
+    "ex": {
+      "en": "The bike speeded up on the hill.",
+      "ja": "自転車は坂で速度を上げた。",
+      "mark": [
+        "speeded up"
+      ]
+    },
+    "core": "速さ（speed）の度合いが上（up）がる。",
+    "other": [
+      "〜を早める：speed up the work"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "compare",
+      "e": "🐇",
+      "e2": "🐢",
+      "rel": "faster"
+    }
+  },
+  {
+    "src": "M0041",
+    "id": "catch-up",
+    "en": "catch up",
+    "ipa": "/ˌkætʃ ˈʌp/",
+    "sense": "（遅れを取り戻して）追いつく",
+    "ja": "追いつく",
+    "ex": {
+      "en": "I ran fast to catch up with the group.",
+      "ja": "私は集団に追いつくために速く走った。",
+      "mark": [
+        "catch up"
+      ]
+    },
+    "core": "先にいるものとの差を縮めて、同じ位置まで届く。",
+    "diff": "keep up は離されずについていくこと。catch up は離れた差を縮めること。",
+    "other": [
+      "近況を話し合う：catch up with an old friend"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🏃",
+      "dir": "toward"
+    }
+  },
+  {
+    "src": "M0042",
+    "id": "keep-up",
+    "en": "keep up",
+    "ipa": "/ˌkiːp ˈʌp/",
+    "sense": "（遅れずに）ついていく",
+    "ja": "遅れずについていく",
+    "ex": {
+      "en": "I can't keep up with you. You walk too fast.",
+      "ja": "君の速さにはついていけない。歩くのが速すぎる。",
+      "mark": [
+        "keep up with"
+      ]
+    },
+    "core": "相手と同じ水準を保ち（keep）続ける。",
+    "diff": "catch up は離れた差を縮めること。keep up は離されずに保つこと。",
+    "other": [
+      "〜を続ける：Keep up the good work."
+    ]
+  },
+  {
+    "src": "M0043",
+    "id": "fall-behind",
+    "en": "fall behind",
+    "ipa": "/ˌfɔːl bɪˈhaɪnd/",
+    "sense": "遅れをとる",
+    "ja": "遅れる",
+    "ex": {
+      "en": "He fell behind the other runners.",
+      "ja": "彼はほかの走者に遅れをとった。",
+      "mark": [
+        "fell behind"
+      ]
+    },
+    "core": "集団より後ろ（behind）の位置に落ちていく。",
+    "other": [
+      "（支払いなどが）滞る：fall behind on rent"
+    ]
+  },
+  {
+    "src": "M0044",
+    "id": "hold-on",
+    "en": "hold on",
+    "ipa": "/ˌhoʊld ˈɑːn/",
+    "sense": "（電話などで）少し待つ",
+    "ja": "少し待つ",
+    "ex": {
+      "en": "Hold on a moment. I'll be right back.",
+      "ja": "少し待って。すぐ戻るよ。",
+      "mark": [
+        "Hold on"
+      ]
+    },
+    "core": "今の状態を保ったまま（hold）続けて（on）待つ。",
+    "other": [
+      "しっかりつかまる：Hold on to the rail."
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "⏳",
+      "act": "wait"
+    }
+  },
+  {
+    "src": "M0045",
+    "id": "wait-up",
+    "en": "wait up",
+    "ipa": "/ˌweɪt ˈʌp/",
+    "sense": "（寝ないで）帰りを待つ",
+    "ja": "寝ずに待つ",
+    "ex": {
+      "en": "Don't wait up for me tonight.",
+      "ja": "今夜は寝ないで待たなくていいよ。",
+      "mark": [
+        "wait up"
+      ]
+    },
+    "core": "起きたまま（up）、人の帰りを待つ。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "⏳",
+      "act": "wait"
+    }
+  },
+  {
+    "src": "M0046",
+    "id": "stay-up",
+    "en": "stay up",
+    "ipa": "/ˌsteɪ ˈʌp/",
+    "sense": "（寝ないで）起きている",
+    "ja": "寝ずに起きている",
+    "ex": {
+      "en": "I stayed up late to finish my homework.",
+      "ja": "宿題を終えるために遅くまで起きていた。",
+      "mark": [
+        "stayed up"
+      ]
+    },
+    "core": "寝ずに起きた状態（up）にとどまる。",
+    "other": []
+  },
+  {
+    "src": "M0047",
+    "id": "sleep-in",
+    "en": "sleep in",
+    "ipa": "/ˌsliːp ˈɪn/",
+    "sense": "（朝）遅くまで寝ている",
+    "ja": "朝遅くまで寝る",
+    "ex": {
+      "en": "I like to sleep in on Sundays.",
+      "ja": "日曜日は朝遅くまで寝ているのが好きだ。",
+      "mark": [
+        "sleep in"
+      ]
+    },
+    "core": "いつもより長く、寝床の中（in）にとどまる。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "😴",
+      "act": "sleep"
+    }
+  },
+  {
+    "src": "M0048",
+    "id": "sleep-over",
+    "en": "sleep over",
+    "ipa": "/ˌsliːp ˈoʊvər/",
+    "sense": "（人の家に）泊まる",
+    "ja": "人の家に泊まる",
+    "ex": {
+      "en": "My friend slept over at my house.",
+      "ja": "友だちが私の家に泊まった。",
+      "mark": [
+        "slept over"
+      ]
+    },
+    "core": "夜を相手の家で過ごす。子どもや友人同士の泊まりに多い。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "😴",
+      "act": "sleep"
+    }
+  },
+  {
+    "src": "M0049",
+    "id": "stay-in",
+    "en": "stay in",
+    "ipa": "/ˌsteɪ ˈɪn/",
+    "sense": "外出せず家にいる",
+    "ja": "家にいる",
+    "ex": {
+      "en": "It's raining, so let's stay in today.",
+      "ja": "雨なので、今日は家にいよう。",
+      "mark": [
+        "stay in"
+      ]
+    },
+    "core": "家の中（in）にとどまる。",
+    "diff": "stay out は帰らずに外にいること。stay in は外出せず家にいること。",
+    "other": []
+  },
+  {
+    "src": "M0050",
+    "id": "stay-out",
+    "en": "stay out",
+    "ipa": "/ˌsteɪ ˈaʊt/",
+    "sense": "（家に帰らず）外にいる",
+    "ja": "帰宅せず外にいる",
+    "ex": {
+      "en": "He stayed out until midnight.",
+      "ja": "彼は夜中まで帰らず外にいた。",
+      "mark": [
+        "stayed out"
+      ]
+    },
+    "core": "家の外（out）にとどまる。",
+    "other": [
+      "〜に関わらない：stay out of trouble"
+    ]
+  },
+  {
+    "src": "M0053",
+    "id": "try-on",
+    "en": "try on",
+    "ipa": "/ˌtraɪ ˈɑːn/",
+    "sense": "（服などを）試着する",
+    "ja": "試着する",
+    "ex": {
+      "en": "Can I try on this jacket?",
+      "ja": "このジャケットを試着してもいいですか。",
+      "mark": [
+        "try on"
+      ]
+    },
+    "core": "身につけて（on）合うかどうか試す。",
+    "other": []
+  },
+  {
+    "src": "M0054",
+    "id": "dress-up",
+    "en": "dress up",
+    "ipa": "/ˌdrɛs ˈʌp/",
+    "sense": "着飾る",
+    "ja": "着飾る",
+    "ex": {
+      "en": "We dressed up for the party.",
+      "ja": "私たちはパーティーのために着飾った。",
+      "mark": [
+        "dressed up"
+      ]
+    },
+    "core": "ふだんより整った服装に身を整える。",
+    "other": [
+      "仮装する：dress up as a cat"
+    ]
+  },
+  {
+    "src": "M0055",
+    "id": "zip-up",
+    "en": "zip up",
+    "ipa": "/ˌzɪp ˈʌp/",
+    "sense": "ファスナーを閉める",
+    "ja": "ファスナーを閉める",
+    "ex": {
+      "en": "Zip up your jacket. It's cold.",
+      "ja": "上着のファスナーを閉めなさい。寒いよ。",
+      "mark": [
+        "Zip up"
+      ]
+    },
+    "core": "ファスナーを上（up）まで引き上げて閉じる。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🧥",
+      "ch": "close"
+    }
+  },
+  {
+    "src": "M0056",
+    "id": "button-up",
+    "en": "button up",
+    "ipa": "/ˌbʌtn ˈʌp/",
+    "sense": "ボタンを留める",
+    "ja": "ボタンを留める",
+    "ex": {
+      "en": "He buttoned up his coat.",
+      "ja": "彼はコートのボタンを留めた。",
+      "mark": [
+        "buttoned up"
+      ]
+    },
+    "core": "ボタンを上（up）まで全部留める。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🧥",
+      "ch": "close"
+    }
+  },
+  {
+    "src": "M0057",
+    "id": "wrap-up",
+    "en": "wrap up",
+    "ipa": "/ˌræp ˈʌp/",
+    "sense": "（紙などで）包む",
+    "ja": "包む",
+    "ex": {
+      "en": "I wrapped up the gift in blue paper.",
+      "ja": "私は贈り物を青い紙で包んだ。",
+      "mark": [
+        "wrapped up"
+      ]
+    },
+    "core": "紙などで全体をくるむ（up は完全に）。",
+    "other": [
+      "〜を終わらせる：wrap up the meeting"
+    ]
+  },
+  {
+    "src": "M0058",
+    "id": "cover-up",
+    "en": "cover up",
+    "ipa": "/ˌkʌvər ˈʌp/",
+    "sense": "覆い隠す",
+    "ja": "覆い隠す",
+    "ex": {
+      "en": "She covered up the stain with a cloth.",
+      "ja": "彼女は染みを布で覆い隠した。",
+      "mark": [
+        "covered up"
+      ]
+    },
+    "core": "上から全体をおおって（up は完全に）見えなくする。",
+    "other": [
+      "（悪事などを）隠す：cover up a mistake"
+    ]
+  },
+  {
+    "src": "M0060",
+    "id": "put-away",
+    "en": "put away",
+    "ipa": "/ˌpʊt əˈweɪ/",
+    "sense": "片づける",
+    "ja": "片づける",
+    "ex": {
+      "en": "Put away your toys, please.",
+      "ja": "おもちゃを片づけてね。",
+      "mark": [
+        "Put away"
+      ]
+    },
+    "core": "物を使う場所から離して（away）、しまう場所へ置く。",
+    "other": []
+  },
+  {
+    "src": "M0062",
+    "id": "bring-out",
+    "en": "bring out",
+    "ipa": "/ˌbrɪŋ ˈaʊt/",
+    "sense": "（物を）取り出して見せる",
+    "ja": "出して見せる",
+    "ex": {
+      "en": "He brought out an old photo album.",
+      "ja": "彼は古い写真アルバムを取り出して見せた。",
+      "mark": [
+        "brought out"
+      ]
+    },
+    "core": "しまってある所から外（out）へ持ってくる。",
+    "other": [
+      "（良さなどを）引き出す：bring out the flavor"
+    ]
+  },
+  {
+    "src": "M0065",
+    "id": "set-down",
+    "en": "set down",
+    "ipa": "/ˌsɛt ˈdaʊn/",
+    "sense": "（物を）そっと下に置く",
+    "ja": "そっと置く",
+    "ex": {
+      "en": "He set down the heavy bag on the floor.",
+      "ja": "彼は重いかばんを床にそっと置いた。",
+      "mark": [
+        "set down"
+      ]
+    },
+    "core": "持っていた物を下（down）の面へ静かに置く。",
+    "diff": "put down より丁寧に静かに置くイメージ。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "📦",
+      "dir": "down"
+    }
+  },
+  {
+    "src": "M0066",
+    "id": "lift-up",
+    "en": "lift up",
+    "ipa": "/ˌlɪft ˈʌp/",
+    "sense": "持ち上げる",
+    "ja": "持ち上げる",
+    "ex": {
+      "en": "She lifted up the box with both hands.",
+      "ja": "彼女は両手で箱を持ち上げた。",
+      "mark": [
+        "lifted up"
+      ]
+    },
+    "core": "物を下から上（up）へ持ち上げる。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "📦",
+      "dir": "up"
+    }
+  },
+  {
+    "src": "M0067",
+    "id": "hold-up",
+    "en": "hold up",
+    "ipa": "/ˌhoʊld ˈʌp/",
+    "sense": "（手などで）掲げる",
+    "ja": "掲げる",
+    "ex": {
+      "en": "She held up the card above her head.",
+      "ja": "彼女はカードを頭の上に掲げた。",
+      "mark": [
+        "held up"
+      ]
+    },
+    "core": "物を上（up）の位置で保つ（hold）。",
+    "other": [
+      "〜を遅らせる：The accident held up traffic."
+    ]
+  },
+  {
+    "src": "M0068",
+    "id": "hand-over",
+    "en": "hand over",
+    "ipa": "/ˌhænd ˈoʊvər/",
+    "sense": "（人に）手渡す",
+    "ja": "手渡す",
+    "ex": {
+      "en": "Please hand over the papers to him.",
+      "ja": "書類を彼に手渡してください。",
+      "mark": [
+        "hand over"
+      ]
+    },
+    "core": "手で持っている物を相手の側（over）へ移す。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🤝",
+      "act": "give"
+    }
+  },
+  {
+    "src": "M0069",
+    "id": "hand-out",
+    "en": "hand out",
+    "ipa": "/ˌhænd ˈaʊt/",
+    "sense": "（人々に）配る",
+    "ja": "配る",
+    "ex": {
+      "en": "The teacher handed out the tests.",
+      "ja": "先生はテストを配った。",
+      "mark": [
+        "handed out"
+      ]
+    },
+    "core": "手に持った物を、外（out）へ一人ずつに行き渡らせる。",
+    "diff": "hand over は一人の相手に渡すこと。hand out は多くの人に配ること。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🤝",
+      "act": "give"
+    }
+  },
+  {
+    "src": "M0070",
+    "id": "pass-around",
+    "en": "pass around",
+    "ipa": "/ˌpæs əˈraʊnd/",
+    "sense": "（順に）回して渡す",
+    "ja": "回して渡す",
+    "ex": {
+      "en": "Please pass the photos around.",
+      "ja": "写真を回してください。",
+      "mark": [
+        "pass the photos around"
+      ]
+    },
+    "core": "物を人から人へ、輪（around）を描くように渡す。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🤝",
+      "act": "give"
+    }
+  },
+  {
+    "src": "M0071",
+    "id": "pass-on",
+    "en": "pass on",
+    "ipa": "/ˌpæs ˈɑːn/",
+    "sense": "（情報などを）伝える",
+    "ja": "伝える",
+    "ex": {
+      "en": "Please pass on my thanks to your mother.",
+      "ja": "お母さんによろしくお礼を伝えてください。",
+      "mark": [
+        "pass on"
+      ]
+    },
+    "core": "受け取ったものを次の人へ（on）渡していく。",
+    "other": [
+      "（人が）亡くなる：He passed on last year."
+    ]
+  },
+  {
+    "src": "M0072",
+    "id": "pass-back",
+    "en": "pass back",
+    "ipa": "/ˌpæs ˈbæk/",
+    "sense": "（後ろへ・元へ）回して返す",
+    "ja": "返して渡す",
+    "ex": {
+      "en": "The teacher passed back our notebooks.",
+      "ja": "先生は私たちのノートを返してくれた。",
+      "mark": [
+        "passed back"
+      ]
+    },
+    "core": "受け取った物を元の方向（back）へ渡す。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🤝",
+      "act": "give"
+    }
+  },
+  {
+    "src": "M0073",
+    "id": "give-back",
+    "en": "give back",
+    "ipa": "/ˌɡɪv ˈbæk/",
+    "sense": "（借りた物を）返す",
+    "ja": "返す",
+    "ex": {
+      "en": "I'll give back your book tomorrow.",
+      "ja": "明日あなたの本を返すね。",
+      "mark": [
+        "give back"
+      ]
+    },
+    "core": "受け取った物を元の持ち主へ戻して（back）渡す。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🤝",
+      "act": "give"
+    }
+  },
+  {
+    "src": "M0074",
+    "id": "take-back",
+    "en": "take back",
+    "ipa": "/ˌteɪk ˈbæk/",
+    "sense": "（元の場所へ）持って帰る、返しに行く",
+    "ja": "持ち帰る",
+    "ex": {
+      "en": "I need to take this tool back to the store.",
+      "ja": "この道具を店に返しに行く必要がある。",
+      "mark": [
+        "take",
+        "back"
+      ]
+    },
+    "core": "物を元の場所（back）へ持っていく。",
+    "diff": "bring back は話し手のいる場所へ持って戻ること。take back は相手側へ持っていくこと。",
+    "other": [
+      "（言葉を）取り消す：I take it back."
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🤲",
+      "act": "take"
+    }
+  },
+  {
+    "src": "M0075",
+    "id": "bring-back",
+    "en": "bring back",
+    "ipa": "/ˌbrɪŋ ˈbæk/",
+    "sense": "（物を）持ち帰ってくる",
+    "ja": "持ち帰ってくる",
+    "ex": {
+      "en": "She brought back a gift from Kyoto.",
+      "ja": "彼女は京都からおみやげを持ち帰ってきた。",
+      "mark": [
+        "brought back"
+      ]
+    },
+    "core": "物を持って、元の場所（back）へ戻ってくる。",
+    "diff": "take back は元の場所へ持っていくこと。bring back は持って戻ってくること。",
+    "other": [
+      "（記憶を）よみがえらせる：bring back memories"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🎁",
+      "act": "carry"
+    }
+  },
+  {
+    "src": "M0076",
+    "id": "send-back",
+    "en": "send back",
+    "ipa": "/ˌsɛnd ˈbæk/",
+    "sense": "送り返す",
+    "ja": "送り返す",
+    "ex": {
+      "en": "I sent back the broken cup.",
+      "ja": "私は壊れたカップを送り返した。",
+      "mark": [
+        "sent back"
+      ]
+    },
+    "core": "送られてきた物を元の送り主へ（back）戻す。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "📦",
+      "dir": "back"
+    }
+  },
+  {
+    "src": "M0078",
+    "id": "throw-out",
+    "en": "throw out",
+    "ipa": "/ˌθroʊ ˈaʊt/",
+    "sense": "（不要な物を）捨てる",
+    "ja": "捨てる",
+    "ex": {
+      "en": "He threw out the old chair.",
+      "ja": "彼は古い椅子を捨てた。",
+      "mark": [
+        "threw out"
+      ]
+    },
+    "core": "不要な物を外（out）へ放り出す。",
+    "diff": "throw away とほぼ同じ意味で使える。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🗑️",
+      "act": "throw"
+    }
+  },
+  {
+    "src": "M0079",
+    "id": "clear-out",
+    "en": "clear out",
+    "ipa": "/ˌklɪr ˈaʊt/",
+    "sense": "（中の物を出して）空にする",
+    "ja": "中を空にする",
+    "ex": {
+      "en": "I cleared out the drawer.",
+      "ja": "私は引き出しの中身を全部出して空にした。",
+      "mark": [
+        "cleared out"
+      ]
+    },
+    "core": "中の物を全部外（out）へ出して、空にする。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🗄️",
+      "ch": "empty"
+    }
+  },
+  {
+    "src": "M0080",
+    "id": "clean-up",
+    "en": "clean up",
+    "ipa": "/ˌkliːn ˈʌp/",
+    "sense": "きれいに片づける",
+    "ja": "きれいに片づける",
+    "ex": {
+      "en": "Let's clean up the room before dinner.",
+      "ja": "夕食の前に部屋をきれいにしよう。",
+      "mark": [
+        "clean up"
+      ]
+    },
+    "core": "散らかった所を完全に（up）きれいな状態にする。",
+    "diff": "tidy up は物を整えること。clean up は汚れや散らかりを取り除くこと。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🧹",
+      "ch": "clean"
+    }
+  },
+  {
+    "src": "M0081",
+    "id": "tidy-up",
+    "en": "tidy up",
+    "ipa": "/ˌtaɪdi ˈʌp/",
+    "sense": "（物を）整頓する",
+    "ja": "整頓する",
+    "ex": {
+      "en": "Please tidy up your desk.",
+      "ja": "机の上を整頓してください。",
+      "mark": [
+        "tidy up"
+      ]
+    },
+    "core": "乱れた物を整った（tidy）状態にそろえる。",
+    "diff": "clean up は汚れや散らかりを取り除くこと。tidy up は物をきちんと並べ直すこと。",
+    "other": []
+  },
+  {
+    "src": "M0082",
+    "id": "wash-up",
+    "en": "wash up",
+    "ipa": "/ˌwɑːʃ ˈʌp/",
+    "sense": "（食後に）食器を洗う",
+    "ja": "食器を洗う",
+    "ex": {
+      "en": "I'll wash up after dinner.",
+      "ja": "夕食のあとは私が食器を洗うよ。",
+      "mark": [
+        "wash up"
+      ]
+    },
+    "core": "食事のあとの汚れた食器を洗いきる。",
+    "other": [
+      "（米）手や顔を洗う：wash up before dinner"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🍽️",
+      "ch": "clean"
+    }
+  },
+  {
+    "src": "M0083",
+    "id": "wipe-down",
+    "en": "wipe down",
+    "ipa": "/ˌwaɪp ˈdaʊn/",
+    "sense": "（表面全体を）拭く",
+    "ja": "表面を拭く",
+    "ex": {
+      "en": "He wiped down the table with a cloth.",
+      "ja": "彼は布でテーブル全体を拭いた。",
+      "mark": [
+        "wiped down"
+      ]
+    },
+    "core": "表面を上から下（down）まで布で拭く。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🧽",
+      "ch": "clean"
+    }
+  },
+  {
+    "src": "M0084",
+    "id": "wipe-off",
+    "en": "wipe off",
+    "ipa": "/ˌwaɪp ˈɔːf/",
+    "sense": "拭き取る",
+    "ja": "拭き取る",
+    "ex": {
+      "en": "She wiped off the water on the desk.",
+      "ja": "彼女は机の水を拭き取った。",
+      "mark": [
+        "wiped off"
+      ]
+    },
+    "core": "表面についた物を拭いて離す（off）。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🧽",
+      "ch": "clean"
+    }
+  },
+  {
+    "src": "M0085",
+    "id": "dry-off",
+    "en": "dry off",
+    "ipa": "/ˌdraɪ ˈɔːf/",
+    "sense": "（水気を）拭き取って乾かす",
+    "ja": "水気を拭く",
+    "ex": {
+      "en": "He dried off with a towel.",
+      "ja": "彼はタオルで体を拭いた。",
+      "mark": [
+        "dried off"
+      ]
+    },
+    "core": "表面の水を取り除いて（off）乾いた状態にする。",
+    "other": []
+  },
+  {
+    "src": "M0086",
+    "id": "dry-out",
+    "en": "dry out",
+    "ipa": "/ˌdraɪ ˈaʊt/",
+    "sense": "すっかり乾く",
+    "ja": "乾ききる",
+    "ex": {
+      "en": "The wet shoes dried out by morning.",
+      "ja": "ぬれた靴は朝までにすっかり乾いた。",
+      "mark": [
+        "dried out"
+      ]
+    },
+    "core": "内側まで水気がなくなる（out は最後まで）。",
+    "other": []
+  },
+  {
+    "src": "M0087",
+    "id": "sweep-up",
+    "en": "sweep up",
+    "ipa": "/ˌswiːp ˈʌp/",
+    "sense": "（ほうきで）掃き集める",
+    "ja": "掃き集める",
+    "ex": {
+      "en": "He swept up the leaves in the yard.",
+      "ja": "彼は庭の落ち葉を掃き集めた。",
+      "mark": [
+        "swept up"
+      ]
+    },
+    "core": "散らばったごみを掃いて一か所に集める（up）。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🧹",
+      "ch": "clean"
+    }
+  },
+  {
+    "src": "M0088",
+    "id": "mop-up",
+    "en": "mop up",
+    "ipa": "/ˌmɑːp ˈʌp/",
+    "sense": "（モップで）拭き取る",
+    "ja": "拭き取る",
+    "ex": {
+      "en": "I mopped up the spilled water.",
+      "ja": "私はこぼれた水をモップで拭き取った。",
+      "mark": [
+        "mopped up"
+      ]
+    },
+    "core": "こぼれた液体をモップで残さず（up）拭く。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🧽",
+      "ch": "clean"
+    }
+  },
+  {
+    "src": "M0089",
+    "id": "scrub-off",
+    "en": "scrub off",
+    "ipa": "/ˌskrʌb ˈɔːf/",
+    "sense": "（ごしごし）こすり落とす",
+    "ja": "こすり落とす",
+    "ex": {
+      "en": "He scrubbed off the dirt from the pan.",
+      "ja": "彼は鍋の汚れをこすり落とした。",
+      "mark": [
+        "scrubbed off"
+      ]
+    },
+    "core": "強くこすって、汚れを表面から離す（off）。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🧽",
+      "ch": "clean"
+    }
+  },
+  {
+    "src": "M0090",
+    "id": "rinse-off",
+    "en": "rinse off",
+    "ipa": "/ˌrɪns ˈɔːf/",
+    "sense": "洗い流す",
+    "ja": "洗い流す",
+    "ex": {
+      "en": "Rinse off your hands with water.",
+      "ja": "手を水で洗い流しなさい。",
+      "mark": [
+        "Rinse off"
+      ]
+    },
+    "core": "水ですすいで、泡や汚れを離す（off）。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🚿",
+      "ch": "clean"
+    }
+  },
+  {
+    "src": "M0093",
+    "id": "switch-on",
+    "en": "switch on",
+    "ipa": "/ˌswɪtʃ ˈɑːn/",
+    "sense": "スイッチを入れる",
+    "ja": "スイッチを入れる",
+    "ex": {
+      "en": "Please switch on the fan.",
+      "ja": "扇風機のスイッチを入れてください。",
+      "mark": [
+        "switch on"
+      ]
+    },
+    "core": "スイッチを動作している状態（on）にする。",
+    "diff": "switch off は切ること。switch on は入れること。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "💡",
+      "ch": "start"
+    }
+  },
+  {
+    "src": "M0094",
+    "id": "switch-off",
+    "en": "switch off",
+    "ipa": "/ˌswɪtʃ ˈɔːf/",
+    "sense": "スイッチを切る",
+    "ja": "スイッチを切る",
+    "ex": {
+      "en": "He switched off the fan before bed.",
+      "ja": "彼は寝る前に扇風機のスイッチを切った。",
+      "mark": [
+        "switched off"
+      ]
+    },
+    "core": "スイッチを止まった状態（off）にする。",
+    "diff": "switch on は入れること。switch off は切ること。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "💡",
+      "ch": "stop"
+    }
+  },
+  {
+    "src": "M0095",
+    "id": "turn-up",
+    "en": "turn up",
+    "ipa": "/ˌtɝːn ˈʌp/",
+    "sense": "（音量などを）上げる",
+    "ja": "音量などを上げる",
+    "ex": {
+      "en": "Can you turn up the volume?",
+      "ja": "音量を上げてもらえますか。",
+      "mark": [
+        "turn up"
+      ]
+    },
+    "core": "つまみを回して、数値を上（up）げる。",
+    "diff": "turn down は下げること。turn up は上げること。",
+    "other": [
+      "（人が）現れる：He turned up late."
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🔊",
+      "ch": "more"
+    }
+  },
+  {
+    "src": "M0097",
+    "id": "plug-in",
+    "en": "plug in",
+    "ipa": "/ˌplʌɡ ˈɪn/",
+    "sense": "（プラグを）差し込む",
+    "ja": "プラグを差し込む",
+    "ex": {
+      "en": "Plug in the lamp, please.",
+      "ja": "ランプのプラグを差し込んでください。",
+      "mark": [
+        "Plug in"
+      ]
+    },
+    "core": "プラグをコンセントの中（in）に差す。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🔌",
+      "dir": "in"
+    }
+  },
+  {
+    "src": "M0098",
+    "id": "plug-into",
+    "en": "plug into",
+    "ipa": "/ˈplʌɡ ˌɪntə/",
+    "sense": "（機器を）〜に接続する",
+    "ja": "機器に接続する",
+    "ex": {
+      "en": "She plugged the headphones into the phone.",
+      "ja": "彼女はヘッドホンをスマホにつないだ。",
+      "mark": [
+        "plugged the headphones into"
+      ]
+    },
+    "core": "プラグを相手の差込口の中（into）に入れてつなぐ。",
+    "diff": "plug in は単独で使う。plug into は接続先を into の後に置く。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🔌",
+      "dir": "in"
+    }
+  },
+  {
+    "src": "M0099",
+    "id": "log-in",
+    "en": "log in",
+    "ipa": "/ˌlɔːɡ ˈɪn/",
+    "sense": "ログインする",
+    "ja": "ログインする",
+    "ex": {
+      "en": "I can't log in to my account.",
+      "ja": "アカウントにログインできない。",
+      "mark": [
+        "log in"
+      ]
+    },
+    "core": "IDなどを入力して、システムの中（in）に入る。",
+    "diff": "log in と sign in はほぼ同じ意味。",
+    "other": []
+  },
+  {
+    "src": "M0100",
+    "id": "log-out",
+    "en": "log out",
+    "ipa": "/ˌlɔːɡ ˈaʊt/",
+    "sense": "ログアウトする",
+    "ja": "ログアウトする",
+    "ex": {
+      "en": "Don't forget to log out when you finish.",
+      "ja": "終わったらログアウトするのを忘れないで。",
+      "mark": [
+        "log out"
+      ]
+    },
+    "core": "システムから外（out）へ出る。",
+    "other": []
+  },
+  {
+    "src": "M0101",
+    "id": "sign-in",
+    "en": "sign in",
+    "ipa": "/ˌsaɪn ˈɪn/",
+    "sense": "サインインする",
+    "ja": "サインインする",
+    "ex": {
+      "en": "Please sign in with your email address.",
+      "ja": "メールアドレスでサインインしてください。",
+      "mark": [
+        "sign in"
+      ]
+    },
+    "core": "自分の名前や情報を示して、中（in）に入る。",
+    "diff": "log in とほぼ同じ意味。",
+    "other": [
+      "（受付で）名前を記入する：sign in at the desk"
+    ]
+  },
+  {
+    "src": "M0102",
+    "id": "sign-out",
+    "en": "sign out",
+    "ipa": "/ˌsaɪn ˈaʊt/",
+    "sense": "サインアウトする",
+    "ja": "サインアウトする",
+    "ex": {
+      "en": "I signed out of the app.",
+      "ja": "私はアプリからサインアウトした。",
+      "mark": [
+        "signed out"
+      ]
+    },
+    "core": "自分の情報を示した状態から外（out）へ出る。",
+    "other": []
+  },
+  {
+    "src": "M0103",
+    "id": "sign-up",
+    "en": "sign up",
+    "ipa": "/ˌsaɪn ˈʌp/",
+    "sense": "（サービスや講座に）申し込む",
+    "ja": "申し込む",
+    "ex": {
+      "en": "I signed up for a cooking class.",
+      "ja": "私は料理教室に申し込んだ。",
+      "mark": [
+        "signed up"
+      ]
+    },
+    "core": "名前を書いて、参加者の一覧に加わる。",
+    "other": [
+      "（サービスに）新規登録する：sign up for the app"
+    ]
+  },
+  {
+    "src": "M0105",
+    "id": "shut-down",
+    "en": "shut down",
+    "ipa": "/ˌʃʌt ˈdaʊn/",
+    "sense": "（機械が）停止する、終了する",
+    "ja": "停止する",
+    "ex": {
+      "en": "The computer shut down suddenly.",
+      "ja": "パソコンが突然終了した。",
+      "mark": [
+        "shut down"
+      ]
+    },
+    "core": "動いていたものが完全に止まる（down）。",
+    "other": [
+      "（店などを）閉鎖する：The shop shut down."
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "⏹️",
+      "ch": "stop"
+    }
+  },
+  {
+    "src": "M0106",
+    "id": "start-up",
+    "en": "start up",
+    "ipa": "/ˌstɑːrt ˈʌp/",
+    "sense": "（機械を）起動する",
+    "ja": "起動する",
+    "ex": {
+      "en": "The computer takes a minute to start up.",
+      "ja": "そのパソコンは起動するのに1分かかる。",
+      "mark": [
+        "start up"
+      ]
+    },
+    "core": "止まっていたものが動き出す（up）。",
+    "other": [
+      "（事業を）始める：start up a company"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🚀",
+      "ch": "start"
+    }
+  },
+  {
+    "src": "M0107",
+    "id": "boot-up",
+    "en": "boot up",
+    "ipa": "/ˌbuːt ˈʌp/",
+    "sense": "（コンピューターが）起動する",
+    "ja": "起動する",
+    "ex": {
+      "en": "It takes a long time for my laptop to boot up.",
+      "ja": "私のノートパソコンは起動に時間がかかる。",
+      "mark": [
+        "boot up"
+      ]
+    },
+    "core": "電源を入れ、動作できる状態まで立ち上げる。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🖥️",
+      "ch": "start"
+    }
+  },
+  {
+    "src": "M0108",
+    "id": "back-up",
+    "en": "back up",
+    "ipa": "/ˌbæk ˈʌp/",
+    "sense": "（データを）バックアップする",
+    "ja": "バックアップする",
+    "ex": {
+      "en": "I back up my files every week.",
+      "ja": "私は毎週ファイルをバックアップしている。",
+      "mark": [
+        "back up"
+      ]
+    },
+    "core": "元のデータの控えを別の場所に作っておく。",
+    "other": [
+      "（車を）後退させる：back up the car"
+    ]
+  },
+  {
+    "src": "M0109",
+    "id": "scroll-down",
+    "en": "scroll down",
+    "ipa": "/ˌskroʊl ˈdaʊn/",
+    "sense": "（画面を）下へスクロールする",
+    "ja": "画面を下へスクロールする",
+    "ex": {
+      "en": "Scroll down to see more photos.",
+      "ja": "下へスクロールすると写真がもっと見られます。",
+      "mark": [
+        "Scroll down"
+      ]
+    },
+    "core": "画面の表示を下（down）の方へ動かす。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "📜",
+      "dir": "down"
+    }
+  },
+  {
+    "src": "M0110",
+    "id": "scroll-up",
+    "en": "scroll up",
+    "ipa": "/ˌskroʊl ˈʌp/",
+    "sense": "（画面を）上へスクロールする",
+    "ja": "画面を上へスクロールする",
+    "ex": {
+      "en": "Scroll up to go back to the top.",
+      "ja": "上へスクロールすると先頭に戻ります。",
+      "mark": [
+        "Scroll up"
+      ]
+    },
+    "core": "画面の表示を上（up）の方へ動かす。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "📜",
+      "dir": "up"
+    }
+  },
+  {
+    "src": "M0111",
+    "id": "zoom-in",
+    "en": "zoom in",
+    "ipa": "/ˌzuːm ˈɪn/",
+    "sense": "拡大表示する",
+    "ja": "拡大表示する",
+    "ex": {
+      "en": "Zoom in to see the street names.",
+      "ja": "通りの名前を見るには拡大してください。",
+      "mark": [
+        "Zoom in"
+      ]
+    },
+    "core": "対象に近づく（in）ように大きく映す。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🔍",
+      "dir": "in"
+    }
+  },
+  {
+    "src": "M0112",
+    "id": "zoom-out",
+    "en": "zoom out",
+    "ipa": "/ˌzuːm ˈaʊt/",
+    "sense": "縮小表示する",
+    "ja": "縮小表示する",
+    "ex": {
+      "en": "Zoom out to see the whole city.",
+      "ja": "街全体を見るには縮小してください。",
+      "mark": [
+        "Zoom out"
+      ]
+    },
+    "core": "対象から離れる（out）ように広い範囲を映す。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🔍",
+      "dir": "out"
+    }
+  },
+  {
+    "src": "M0113",
+    "id": "print-out",
+    "en": "print out",
+    "ipa": "/ˌprɪnt ˈaʊt/",
+    "sense": "印刷する",
+    "ja": "印刷する",
+    "ex": {
+      "en": "Can you print out this file for me?",
+      "ja": "このファイルを印刷してもらえますか。",
+      "mark": [
+        "print out"
+      ]
+    },
+    "core": "データを紙として外（out）へ出す。",
+    "other": []
+  },
+  {
+    "src": "M0115",
+    "id": "fill-out",
+    "en": "fill out",
+    "ipa": "/ˌfɪl ˈaʊt/",
+    "sense": "（書類に）記入する",
+    "ja": "書類に記入する",
+    "ex": {
+      "en": "Please fill out this form.",
+      "ja": "この用紙に記入してください。",
+      "mark": [
+        "fill out"
+      ]
+    },
+    "core": "空いた欄を最後まで（out）埋める。",
+    "diff": "fill in も同じ意味で使える。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "📝",
+      "ch": "fill"
+    }
+  },
+  {
+    "src": "M0116",
+    "id": "write-down",
+    "en": "write down",
+    "ipa": "/ˌraɪt ˈdaʊn/",
+    "sense": "書き留める",
+    "ja": "書き留める",
+    "ex": {
+      "en": "Let me write down your phone number.",
+      "ja": "あなたの電話番号を書き留めさせてください。",
+      "mark": [
+        "write down"
+      ]
+    },
+    "core": "聞いたことを紙の上に（down）残す。",
+    "other": []
+  },
+  {
+    "src": "M0117",
+    "id": "note-down",
+    "en": "note down",
+    "ipa": "/ˌnoʊt ˈdaʊn/",
+    "sense": "メモする",
+    "ja": "メモする",
+    "ex": {
+      "en": "She noted down the main points.",
+      "ja": "彼女は要点をメモした。",
+      "mark": [
+        "noted down"
+      ]
+    },
+    "core": "要点を短く書き留める。",
+    "diff": "write down より、短く要点を残す感じ。",
+    "other": []
+  },
+  {
+    "src": "M0118",
+    "id": "cross-out",
+    "en": "cross out",
+    "ipa": "/ˌkrɔːs ˈaʊt/",
+    "sense": "（線を引いて）消す",
+    "ja": "線を引いて消す",
+    "ex": {
+      "en": "He crossed out the wrong word.",
+      "ja": "彼は間違った単語に線を引いて消した。",
+      "mark": [
+        "crossed out"
+      ]
+    },
+    "core": "文字の上に線を引いて、使えなくする（out）。",
+    "other": []
+  },
+  {
+    "src": "M0119",
+    "id": "rub-out",
+    "en": "rub out",
+    "ipa": "/ˌrʌb ˈaʊt/",
+    "sense": "（消しゴムで）消す",
+    "ja": "消しゴムで消す",
+    "ex": {
+      "en": "Rub out the mistake with an eraser.",
+      "ja": "間違いを消しゴムで消しなさい。",
+      "mark": [
+        "Rub out"
+      ]
+    },
+    "core": "こすって、文字を取り去る（out）。",
+    "other": []
+  },
+  {
+    "src": "M0120",
+    "id": "type-in",
+    "en": "type in",
+    "ipa": "/ˌtaɪp ˈɪn/",
+    "sense": "（文字などを）入力する",
+    "ja": "入力する",
+    "ex": {
+      "en": "Type in your name here.",
+      "ja": "ここに名前を入力してください。",
+      "mark": [
+        "Type in"
+      ]
+    },
+    "core": "キーボードで文字を欄の中（in）に打ち込む。",
+    "other": []
+  },
+  {
+    "src": "M0121",
+    "id": "key-in",
+    "en": "key in",
+    "ipa": "/ˌkiː ˈɪn/",
+    "sense": "（キーで）入力する",
+    "ja": "キー操作で入力する",
+    "ex": {
+      "en": "Please key in your PIN.",
+      "ja": "暗証番号を入力してください。",
+      "mark": [
+        "key in"
+      ]
+    },
+    "core": "キーを押して、データを機械の中（in）に入れる。",
+    "other": []
+  },
+  {
+    "src": "M0122",
+    "id": "read-out",
+    "en": "read out",
+    "ipa": "/ˌriːd ˈaʊt/",
+    "sense": "声に出して読む",
+    "ja": "読み上げる",
+    "ex": {
+      "en": "The teacher read out the names.",
+      "ja": "先生は名前を読み上げた。",
+      "mark": [
+        "read out"
+      ]
+    },
+    "core": "文字を声にして外（out）へ出す。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🗣️",
+      "act": "talk"
+    }
+  },
+  {
+    "src": "M0123",
+    "id": "read-through",
+    "en": "read through",
+    "ipa": "/ˌriːd ˈθruː/",
+    "sense": "（最初から最後まで）通して読む",
+    "ja": "通して読む",
+    "ex": {
+      "en": "Please read through the document carefully.",
+      "ja": "書類を最初から最後まで注意して読んでください。",
+      "mark": [
+        "read through"
+      ]
+    },
+    "core": "始めから終わりまで、通り抜ける（through）ように読む。",
+    "other": []
+  },
+  {
+    "src": "M0124",
+    "id": "look-through",
+    "en": "look through",
+    "ipa": "/ˌlʊk ˈθruː/",
+    "sense": "ざっと目を通す",
+    "ja": "ざっと目を通す",
+    "ex": {
+      "en": "She looked through the report quickly.",
+      "ja": "彼女は報告書にざっと目を通した。",
+      "mark": [
+        "looked through"
+      ]
+    },
+    "core": "内容の中を順に通り抜けるように見ていく。",
+    "diff": "read through は丁寧に最後まで読むこと。look through はざっと見ること。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "👀",
+      "act": "look"
+    }
+  },
+  {
+    "src": "M0125",
+    "id": "check-over",
+    "en": "check over",
+    "ipa": "/ˌtʃɛk ˈoʊvər/",
+    "sense": "ひと通り点検する",
+    "ja": "ひと通り点検する",
+    "ex": {
+      "en": "He checked over the bike before the trip.",
+      "ja": "彼は旅行の前に自転車をひと通り点検した。",
+      "mark": [
+        "checked over"
+      ]
+    },
+    "core": "全体にわたって（over）異常がないか確かめる。",
+    "other": []
+  },
+  {
+    "src": "M0129",
+    "id": "turn-in",
+    "en": "turn in",
+    "ipa": "/ˌtɝːn ˈɪn/",
+    "sense": "（宿題などを）提出する",
+    "ja": "提出する",
+    "ex": {
+      "en": "Please turn in your report by Friday.",
+      "ja": "金曜日までにレポートを提出してください。",
+      "mark": [
+        "turn in"
+      ]
+    },
+    "core": "自分の手から相手の側（in）へ渡す。",
+    "other": [
+      "（米）寝る：I turn in at ten."
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "📄",
+      "act": "give"
+    }
+  },
+  {
+    "src": "M0130",
+    "id": "send-in",
+    "en": "send in",
+    "ipa": "/ˌsɛnd ˈɪn/",
+    "sense": "（書類などを）送って提出する",
+    "ja": "送って提出する",
+    "ex": {
+      "en": "I sent in my application yesterday.",
+      "ja": "私は昨日、応募書類を送った。",
+      "mark": [
+        "sent in"
+      ]
+    },
+    "core": "提出先の中（in）へ届くように送る。",
+    "other": []
+  },
+  {
+    "src": "M0131",
+    "id": "work-out",
+    "en": "work out",
+    "ipa": "/ˌwɝːk ˈaʊt/",
+    "sense": "運動する",
+    "ja": "運動する",
+    "ex": {
+      "en": "I work out at the gym twice a week.",
+      "ja": "私は週に2回ジムで運動している。",
+      "mark": [
+        "work out"
+      ]
+    },
+    "core": "体を動かして鍛える。",
+    "other": [
+      "（問題を）解く、解決する：work out a plan",
+      "（物事が）うまくいく：Things worked out."
+    ]
+  },
+  {
+    "src": "M0132",
+    "id": "warm-up",
+    "en": "warm up",
+    "ipa": "/ˌwɔːrm ˈʌp/",
+    "sense": "準備運動をする",
+    "ja": "準備運動をする",
+    "ex": {
+      "en": "Let's warm up before the game.",
+      "ja": "試合の前に準備運動をしよう。",
+      "mark": [
+        "warm up"
+      ]
+    },
+    "core": "体の温度を上（up）げて、動きやすい状態にする。",
+    "other": [
+      "温まる：The room warmed up."
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🌡️",
+      "ch": "heat"
+    }
+  },
+  {
+    "src": "M0133",
+    "id": "cool-down",
+    "en": "cool down",
+    "ipa": "/ˌkuːl ˈdaʊn/",
+    "sense": "（運動後に）体を落ち着かせる",
+    "ja": "運動後に体を落ち着かせる",
+    "ex": {
+      "en": "Walk slowly to cool down after running.",
+      "ja": "走ったあとはゆっくり歩いて体を落ち着かせなさい。",
+      "mark": [
+        "cool down"
+      ]
+    },
+    "core": "高まった体の熱や動きを、下（down）げて落ち着かせる。",
+    "other": [
+      "（怒りなどが）静まる：Please cool down."
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "❄️",
+      "ch": "cool"
+    }
+  },
+  {
+    "src": "M0134",
+    "id": "heat-up",
+    "en": "heat up",
+    "ipa": "/ˌhiːt ˈʌp/",
+    "sense": "（食べ物などを）温める",
+    "ja": "温める",
+    "ex": {
+      "en": "I heated up the soup in a pot.",
+      "ja": "私はスープを鍋で温めた。",
+      "mark": [
+        "heated up"
+      ]
+    },
+    "core": "熱を加えて、温度を上（up）げる。",
+    "diff": "warm up は軽く温めること。heat up は熱くなるまで温めること。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🔥",
+      "ch": "heat"
+    }
+  },
+  {
+    "src": "M0135",
+    "id": "cool-off",
+    "en": "cool off",
+    "ipa": "/ˌkuːl ˈɔːf/",
+    "sense": "涼む",
+    "ja": "涼む",
+    "ex": {
+      "en": "We sat under a tree to cool off.",
+      "ja": "私たちは涼むために木の下に座った。",
+      "mark": [
+        "cool off"
+      ]
+    },
+    "core": "暑さを体から離して（off）、体を冷やす。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "❄️",
+      "ch": "cool"
+    }
+  },
+  {
+    "src": "M0136",
+    "id": "boil-over",
+    "en": "boil over",
+    "ipa": "/ˌbɔɪl ˈoʊvər/",
+    "sense": "吹きこぼれる",
+    "ja": "吹きこぼれる",
+    "ex": {
+      "en": "The milk boiled over on the stove.",
+      "ja": "ミルクがコンロで吹きこぼれた。",
+      "mark": [
+        "boiled over"
+      ]
+    },
+    "core": "沸いた液体が縁を越えて（over）あふれる。",
+    "other": []
+  },
+  {
+    "src": "M0137",
+    "id": "boil-down",
+    "en": "boil down",
+    "ipa": "/ˌbɔɪl ˈdaʊn/",
+    "sense": "煮詰まる",
+    "ja": "煮詰まる",
+    "ex": {
+      "en": "Boil down the sauce until it thickens.",
+      "ja": "とろみが出るまでソースを煮詰めてください。",
+      "mark": [
+        "Boil down"
+      ]
+    },
+    "core": "煮て水分が減り（down）、量が少なく濃くなる。",
+    "other": [
+      "要約すると〜になる：It boils down to money."
+    ]
+  },
+  {
+    "src": "M0138",
+    "id": "cut-up",
+    "en": "cut up",
+    "ipa": "/ˌkʌt ˈʌp/",
+    "sense": "細かく切る",
+    "ja": "細かく切る",
+    "ex": {
+      "en": "Cut up the vegetables for the soup.",
+      "ja": "スープ用に野菜を細かく切ってください。",
+      "mark": [
+        "Cut up"
+      ]
+    },
+    "core": "一つの物を小さな片に切り分ける（up）。",
+    "other": []
+  },
+  {
+    "src": "M0139",
+    "id": "chop-up",
+    "en": "chop up",
+    "ipa": "/ˌtʃɑːp ˈʌp/",
+    "sense": "刻む",
+    "ja": "刻む",
+    "ex": {
+      "en": "She chopped up an onion.",
+      "ja": "彼女は玉ねぎを刻んだ。",
+      "mark": [
+        "chopped up"
+      ]
+    },
+    "core": "包丁で何度も切って、細かくする。",
+    "other": []
+  },
+  {
+    "src": "M0140",
+    "id": "slice-up",
+    "en": "slice up",
+    "ipa": "/ˌslaɪs ˈʌp/",
+    "sense": "薄切りにする",
+    "ja": "薄切りにする",
+    "ex": {
+      "en": "He sliced up the bread for breakfast.",
+      "ja": "彼は朝食用にパンを薄く切り分けた。",
+      "mark": [
+        "sliced up"
+      ]
+    },
+    "core": "薄い一枚ずつに切り分ける（up）。",
+    "other": []
+  },
+  {
+    "src": "M0141",
+    "id": "mix-up",
+    "en": "mix up",
+    "ipa": "/ˌmɪks ˈʌp/",
+    "sense": "混ぜ合わせる",
+    "ja": "混ぜ合わせる",
+    "ex": {
+      "en": "Mix up the eggs and the milk in a bowl.",
+      "ja": "ボウルで卵と牛乳を混ぜ合わせてください。",
+      "mark": [
+        "Mix up"
+      ]
+    },
+    "core": "いくつかの材料を一つに混ぜる（up）。",
+    "other": [
+      "〜を取り違える：I mixed up the two names."
+    ]
+  },
+  {
+    "src": "M0142",
+    "id": "stir-in",
+    "en": "stir in",
+    "ipa": "/ˌstɝː ˈɪn/",
+    "sense": "（かき混ぜながら）加える",
+    "ja": "混ぜ入れる",
+    "ex": {
+      "en": "Stir in the milk slowly.",
+      "ja": "牛乳をゆっくり混ぜ入れてください。",
+      "mark": [
+        "Stir in"
+      ]
+    },
+    "core": "加えた物をかき混ぜて、中（in）に溶け込ませる。",
+    "other": []
+  },
+  {
+    "src": "M0143",
+    "id": "pour-out",
+    "en": "pour out",
+    "ipa": "/ˌpɔːr ˈaʊt/",
+    "sense": "（容器から）注ぐ",
+    "ja": "注ぎ出す",
+    "ex": {
+      "en": "She poured out water from the jug.",
+      "ja": "彼女は水差しから水を注いだ。",
+      "mark": [
+        "poured out"
+      ]
+    },
+    "core": "容器の中身を外（out）へ流し出す。",
+    "diff": "pour in は中へ注ぎ入れること。pour out は外へ注ぎ出すこと。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🫗",
+      "dir": "out"
+    }
+  },
+  {
+    "src": "M0144",
+    "id": "pour-in",
+    "en": "pour in",
+    "ipa": "/ˌpɔːr ˈɪn/",
+    "sense": "注ぎ入れる",
+    "ja": "注ぎ入れる",
+    "ex": {
+      "en": "Pour in the milk and stir.",
+      "ja": "牛乳を注ぎ入れてかき混ぜてください。",
+      "mark": [
+        "Pour in"
+      ]
+    },
+    "core": "液体を容器の中（in）へ流し込む。",
+    "diff": "pour out は外へ注ぎ出すこと。pour in は中へ注ぎ入れること。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🫗",
+      "dir": "in"
+    }
+  },
+  {
+    "src": "M0145",
+    "id": "fill-up",
+    "en": "fill up",
+    "ipa": "/ˌfɪl ˈʌp/",
+    "sense": "いっぱいにする",
+    "ja": "いっぱいにする",
+    "ex": {
+      "en": "Fill up the bottle with water.",
+      "ja": "ボトルを水でいっぱいにしてください。",
+      "mark": [
+        "Fill up"
+      ]
+    },
+    "core": "空いた所を、上（up）まで満たす。",
+    "other": [
+      "（車に）満タンに給油する：fill up the car"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🥤",
+      "ch": "fill"
+    }
+  },
+  {
+    "src": "M0146",
+    "id": "eat-up",
+    "en": "eat up",
+    "ipa": "/ˌiːt ˈʌp/",
+    "sense": "残さず食べる",
+    "ja": "残さず食べる",
+    "ex": {
+      "en": "Eat up your vegetables, please.",
+      "ja": "野菜を残さず食べてね。",
+      "mark": [
+        "Eat up"
+      ]
+    },
+    "core": "皿の上の物を、すっかり（up）食べきる。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🍽️",
+      "act": "eat"
+    }
+  },
+  {
+    "src": "M0147",
+    "id": "drink-up",
+    "en": "drink up",
+    "ipa": "/ˌdrɪŋk ˈʌp/",
+    "sense": "飲み干す",
+    "ja": "飲み干す",
+    "ex": {
+      "en": "Drink up your milk before it gets warm.",
+      "ja": "ぬるくなる前に牛乳を飲み干しなさい。",
+      "mark": [
+        "Drink up"
+      ]
+    },
+    "core": "グラスの中身を、すっかり（up）飲みきる。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🥤",
+      "act": "drink"
+    }
+  },
+  {
+    "src": "M0148",
+    "id": "eat-out",
+    "en": "eat out",
+    "ipa": "/ˌiːt ˈaʊt/",
+    "sense": "外食する",
+    "ja": "外食する",
+    "ex": {
+      "en": "We eat out on Fridays.",
+      "ja": "私たちは金曜日に外食する。",
+      "mark": [
+        "eat out"
+      ]
+    },
+    "core": "家の外（out）で食事をする。",
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🍽️",
+      "act": "eat"
+    }
+  },
+  {
+    "src": "M0149",
+    "id": "take-away",
+    "en": "take away",
+    "ipa": "/ˌteɪk əˈweɪ/",
+    "sense": "（料理を）持ち帰る",
+    "ja": "持ち帰る",
+    "ex": {
+      "en": "I'll take away two burgers, please.",
+      "ja": "ハンバーガーを2つ持ち帰りでお願いします。",
+      "mark": [
+        "take away"
+      ]
+    },
+    "core": "店から離れた所（away）へ持っていく。",
+    "diff": "主にイギリス英語。アメリカ英語では to go や take out と言う。",
+    "other": [
+      "〜を取り上げる：take away the knife"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🥡",
+      "act": "carry"
+    }
+  },
+  {
+    "src": "M0150",
+    "id": "cut-down",
+    "en": "cut down",
+    "ipa": "/ˌkʌt ˈdaʊn/",
+    "sense": "（木などを）切り倒す",
+    "ja": "切り倒す",
+    "ex": {
+      "en": "They cut down the old tree.",
+      "ja": "彼らは古い木を切り倒した。",
+      "mark": [
+        "cut down"
+      ]
+    },
+    "core": "立っている物を切って、下（down）へ倒す。",
+    "other": [
+      "〜を減らす：cut down on sugar"
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🪓",
+      "dir": "down"
+    }
   }
 ]
