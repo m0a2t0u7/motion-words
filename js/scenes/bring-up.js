@@ -58,10 +58,8 @@ export function create(k) {
       // カードがぽっと光る
       const gl = t > 2.3 ? 0.95 * (0.6 + 0.4 * Math.sin((t - 2.3) * 7)) * easeOut(seg(t, 2.3, 2.5)) : 0;
       glow.setAttribute('opacity', gl);
-      // 「!」の吹き出し
-      const bp = Math.max(0.001, backOut(seg(t, 2.5, 2.85), 1.8));
-      bub.setAttribute('opacity', t > 2.5 ? 1 : 0);
-      tf(bub, CX, 100, 0, bp, bp);
+      // 真ん中の人の頭上に出ると、その人が話題を出したように見えるため吹き出しは使わない
+      bub.setAttribute('opacity', 0);
     }
   };
 }
