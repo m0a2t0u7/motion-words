@@ -306,7 +306,7 @@ async function setView(v) {
   document.querySelectorAll('.view').forEach((s) => (s.hidden = s.id !== `view-${v}`));
   document.querySelectorAll('.tab').forEach((t) => (t.dataset.view === v ? t.setAttribute('aria-current', 'page') : t.removeAttribute('aria-current')));
   $('dock').hidden = v !== 'learn';
-  document.documentElement.style.setProperty('--dock-h', v === 'learn' ? '128px' : '0px');
+  document.documentElement.style.setProperty('--dock-h', v === 'learn' ? `${$('dock').offsetHeight || 128}px` : '0px');
   window.scrollTo(0, 0);
   if (v === 'learn') {
     $('learnStageSlot').appendChild(stageEl);
@@ -436,9 +436,21 @@ function importMylist() {
 
 /* ---------- 操作 ---------- */
 function bind() {
-  $('playBtn').addEventListener('click', () => player.toggle());
-  $('nextBtn').addEventListener('click', () => navigate(1));
+  $('playBtn').addEventListener('click', () => {
+    dismissHint();
+    player.toggle();
+  });
+  $('nextBtn').addEventListener('click', () => {
+    dismissHint();
+    navigate(1);
+  });
   $('prevBtn').addEventListener('click', () => navigate(-1));
+  // 下の操作パネルの高さ（「続きから再生」の案内が出ると高くなる）に合わせて、本文の下の余白を変える
+  if ('ResizeObserver' in window) {
+    new ResizeObserver(() => {
+      if (view === 'learn') document.documentElement.style.setProperty('--dock-h', `${$('dock').offsetHeight}px`);
+    }).observe($('dock'));
+  }
   $('resumeBtn').addEventListener('click', () => {
     $('resume').hidden = true;
     player.play();
@@ -511,6 +523,7 @@ function bind() {
     settings.reps = Math.min(10, Math.max(1, settings.reps + d));
     $('repsOut').textContent = `${settings.reps}回`;
     save();
+    if (player.state !== 'stopped') toast('くり返し回数は次の語から反映します');
   };
   $('repsMinus').addEventListener('click', () => reps(-1));
   $('repsPlus').addEventListener('click', () => reps(1));

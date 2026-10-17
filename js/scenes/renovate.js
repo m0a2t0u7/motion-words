@@ -91,7 +91,7 @@ export function create(k) {
 
   // 塗装ローラー（原点＝手）。ローラー部分は棒に沿って上下する
   const roller = g({});
-  el('line', { x1: 0, y1: 0, x2: 0, y2: -128, stroke: '#8795AB', 'stroke-width': 4, 'stroke-linecap': 'round' }, roller);
+  el('line', { x1: 0, y1: 16, x2: 0, y2: -128, stroke: '#8795AB', 'stroke-width': 4, 'stroke-linecap': 'round' }, roller);
   const rh = g({}, roller);
   el('path', { d: 'M 0 -78 L 0 -90 L 18 -90', fill: 'none', stroke: '#8795AB', 'stroke-width': 3.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, rh);
   el('rect', { x: -4, y: -108, width: 22, height: 36, rx: 6, fill: pal.coral, stroke: pal.coralDark, 'stroke-width': 2 }, rh);
@@ -133,16 +133,16 @@ export function create(k) {
         sc.brace.setAttribute('opacity', seg(t, 1.1 + d, 1.3 + d));
       };
       build1(scL, 0); build1(scR, 0.12);
-      const away = easeIn(seg(t, 3.0, 3.6));
-      tf(scL.u, -250 * away, 0);
-      tf(scR.u, 250 * away, 0);
+      // 片づけは地面側へ縮みながら消える（宙に浮かない）
+      const away = easeInOut(seg(t, 3.0, 3.6));
+      [scL, scR].forEach((sc) => { tf(sc.u, 0, FY * away, 0, 1, Math.max(0.001, 1 - away)); sc.u.setAttribute('opacity', 1 - away); });
 
       // ---- まめ：入ってきて塗り、終わったらローラーを下ろす ----
       const enter = easeOut(seg(t, 0.9, 1.5));
       const paint = seg(t, PS, PE);
       const edge = lerp(L - 12, R + 14, easeInOut(paint));
       const putDown = easeInOut(seg(t, 3.0, 3.4));
-      const a = lerp(150, 40, putDown) + (paint > 0 && paint < 1 ? 14 * Math.sin(paint * Math.PI * 7.5) : 0);
+      const a = lerp(150, 112, putDown) + (paint > 0 && paint < 1 ? 14 * Math.sin(paint * Math.PI * 7.5) : 0);
       const px = t < PS ? lerp(-40, 19, enter) : lerp(19, R + 4 - 57, easeInOut(paint));
       const walking = (t > 0.9 && t < PS) || (t > PS && t < PE);
       const w = walking ? t * 10 : 0;
@@ -154,7 +154,7 @@ export function create(k) {
       });
       const hp = b.handPos('R');
       const stroke = paint > 0 && paint < 1 ? Math.sin(paint * Math.PI * 7.5) : 0;
-      const rot = lerp(20, 0, putDown);
+      const rot = lerp(20, 28, putDown);
       tf(roller, hp.x, hp.y, rot, 1, 1);
       tf(rh, 0, -30 * stroke * (1 - putDown) + 10 * putDown, 0, 1, 1);
       roller.setAttribute('opacity', t < 0.9 ? 0 : 1);

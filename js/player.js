@@ -88,7 +88,7 @@ export class Player {
 
   stop(reason = 'user') {
     this._cancel();
-    this.stage.setMode('loop');
+    this.stage.restart('loop');
     this.onSegment(null);
     this._status('stopped', reason);
   }
@@ -135,6 +135,7 @@ export class Player {
 
   async _run(token) {
     let fails = 0;
+    let lastShown = this.pos;
     while (!token.cancelled) {
       const id = this.currentId;
       this._status('loading');
@@ -142,19 +143,21 @@ export class Player {
       try {
         item = await this.show(id);
       } catch (e) {
-        // 通信が切れた等で読めない語は飛ばして次へ。全部だめなら止める。
+        // 通信が切れた等で読めない語は飛ばして次へ。続けて読めないときは止める。
         if (token.cancelled) return;
         fails++;
         if (fails >= Math.min(this.order.length, 5)) {
+          this.pos = lastShown; // 画面に出ている語と内部の位置をそろえる
           this.stop('error');
           return;
         }
-        this.onSkip(id);
+        if (fails === 1) this.onSkip(id); // 通知は続けて失敗しても1回だけ
         this.pos = (this.pos + 1) % this.order.length;
         await wait(400, token);
         continue;
       }
       fails = 0;
+      lastShown = this.pos;
       if (token.cancelled) return;
       this._status('playing');
       const next = this.order[(this.pos + 1) % this.order.length];
@@ -163,11 +166,15 @@ export class Player {
       const reps = s.mode === 'one' ? Infinity : Math.max(1, s.reps);
       for (let r = 0; r < reps && !token.cancelled; r++) {
         this.onRep(r + 1, reps);
-        this.stage.restart('once');
-        await wait(350, token);
         const segs = segmentsFor(item, s.read);
+        // 例文を読むときは、例文の読み始めに合わせてモーションを動かす（それまでは動作の前の姿で待つ）
+        const syncToEx = segs.some((x) => x.key === 'ex') && segs[0].key !== 'ex';
+        if (syncToEx) this.stage.seek(0);
+        else this.stage.restart('once');
+        await wait(350, token);
         for (const seg of segs) {
           if (token.cancelled) return;
+          if (seg.key === 'ex' && syncToEx) this.stage.restart('once');
           this.onSegment(seg.key);
           const rate = seg.lang.startsWith('ja') ? Math.min(1.3, s.rate * 1.08) : s.rate;
           await this.speech.speak(seg.text, seg.lang, rate, token);

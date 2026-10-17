@@ -1,7 +1,7 @@
 // オフラインでも使えるようにするキャッシュ。
 // 初回に「画面・全データ・全モーション・3D部品」をまとめて保存するので、電波が切れても連続再生が止まらない。
 // 版（VERSION）を上げると古いキャッシュは消える。教材を追加したら必ず上げる。
-const VERSION = 'v3-2026-10-17';
+const VERSION = 'v4-2026-10-17';
 const SHELL = [
   './',
   'index.html',
@@ -50,16 +50,19 @@ self.addEventListener('activate', (e) => {
   );
 });
 
-const networkFirst = (req) =>
-  fetch(req)
-    .then((res) => {
-      if (res.ok) {
-        const copy = res.clone();
-        caches.open(VERSION).then((c) => c.put(req, copy));
-      }
-      return res;
-    })
-    .catch(() => caches.match(req, { ignoreSearch: true }));
+// 通信優先。ただし電波が弱くて3秒たっても返ってこないときは、保存分を先に返す（読み込み中で止まらないように）
+const networkFirst = (req) => {
+  const net = fetch(req).then((res) => {
+    if (res.ok) {
+      const copy = res.clone();
+      caches.open(VERSION).then((c) => c.put(req, copy));
+    }
+    return res;
+  });
+  const cached = () => caches.match(req, { ignoreSearch: true });
+  const timeout = new Promise((resolve) => setTimeout(() => cached().then((hit) => hit && resolve(hit)), 3000));
+  return Promise.race([net.catch(() => cached().then((hit) => hit || Promise.reject(new Error('offline')))), timeout]);
+};
 
 self.addEventListener('fetch', (e) => {
   const req = e.request;

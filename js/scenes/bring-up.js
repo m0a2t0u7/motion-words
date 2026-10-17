@@ -35,25 +35,29 @@ export function create(k) {
   k.text(0, 1.5, '!', { 'font-size': 24, fill: '#FFFFFF' }, bub);
   el('path', { d: 'M -5 14 L 0 22 L 5 14 Z', fill: pal.red }, bub);
 
-  const CX = 200, CY = TY + 11;
+  const CX = 200, CY = TY + 2;
+  const glow = el('ellipse', { cx: CX, cy: CY + 1, rx: 38, ry: 21, fill: 'none', stroke: '#FFC93C', 'stroke-width': 4, opacity: 0 });
+  // glow は card より後ろに描きたいので先頭側へ
+  card.parentNode.insertBefore(glow, card);
   return {
     update(t) {
-      // A：手を挙げる → カードを差し出して置く
-      const up = easeOut(seg(t, 0.8, 1.2)) * (1 - easeInOut(seg(t, 1.45, 1.7)));
-      const reach = easeInOut(seg(t, 1.5, 1.8)) * (1 - easeInOut(seg(t, 2.35, 2.75)));
-      const aArm = lerp(8, 172, up) * (1 - reach) + reach * 92 + (up === 0 && reach === 0 ? 0 : 0);
-      const talk = t < 0.8 ? Math.sin(t * 12) > 0 : false;
-      const watch = easeInOut(seg(t, 2.4, 2.8));
-      A.pose({ x: 72, y: BY, armR: lerp(8, aArm, 1), armL: 8, look: lerp(0.4, 1, watch), lean: 4 * reach, mood: t < 0.8 ? (talk ? 'open' : 'smile') : 'smile' });
-      B.pose({ x: 200, y: BY, armR: 8, armL: 8, look: lerp(0, 0.0, watch), lean: 5 * watch, squash: 1 - 0.03 * watch, mood: watch > 0.5 ? 'open' : (t < 0.8 && Math.sin(t * 9 + 2) > 0.2 ? 'open' : 'smile') });
-      C.pose({ x: 328, y: BY, armR: 8, armL: 8, look: lerp(-0.3, -1, watch), lean: 3 * watch, mood: watch > 0.5 ? 'open' : 'smile' });
-      // カード：Aの手 → テーブルの真ん中
-      const hp = A.handPos('R');
-      const q = easeInOut(seg(t, 1.8, 2.45));
-      const cx = lerp(hp.x + 14, CX, q), cy = lerp(hp.y + 4, CY, easeOut(seg(t, 1.8, 2.4))) - hump(q) * 22;
-      card.setAttribute('opacity', t > 1.5 ? 1 : 0);
-      const land = t > 2.45 ? 1 + 0.12 * wobble(seg(t, 2.45, 2.9), 2, 5) : 1;
-      tf(card, cx, cy, lerp(8, 0, q), land, land);
+      // A：手を挙げて発言（カードは誰にも渡さない）→ 中央にカードが現れて置かれる → 全員が注目
+      const up = easeOut(seg(t, 0.7, 1.1)) * (1 - easeInOut(seg(t, 2.2, 2.6)));
+      const talk = t > 0.9 && t < 2.2 ? Math.sin(t * 13) > 0 : false;
+      const watch = easeInOut(seg(t, 2.3, 2.75));
+      A.pose({ x: 72, y: BY, armR: lerp(8, 172, up), armL: 8, look: lerp(0.4, 1, watch), lean: 2 * watch, mood: talk ? 'open' : 'smile' });
+      B.pose({ x: 200, y: BY, armR: 8, armL: 8, look: 0, lean: 7 * watch, squash: 1 - 0.03 * watch, mood: watch > 0.5 ? 'open' : 'smile' });
+      C.pose({ x: 328, y: BY, armR: 8, armL: 8, look: lerp(-0.3, -1, watch), lean: 4 * watch, mood: watch > 0.5 ? 'open' : 'smile' });
+      // カード：上からテーブル中央にすとんと置かれる
+      const fall = seg(t, 1.9, 2.3);
+      const cy = lerp(CY - 70, CY, easeIn(fall));
+      const land = t > 2.3 ? 1 + 0.14 * wobble(seg(t, 2.3, 2.9), 2, 5) : 1;
+      const sc = Math.max(0.001, easeOut(seg(t, 1.9, 2.05))) * land;
+      card.setAttribute('opacity', t > 1.9 ? 1 : 0);
+      tf(card, CX, cy, lerp(-10, 0, easeOut(fall)), sc, sc);
+      // カードがぽっと光る
+      const gl = t > 2.3 ? 0.95 * (0.6 + 0.4 * Math.sin((t - 2.3) * 7)) * easeOut(seg(t, 2.3, 2.5)) : 0;
+      glow.setAttribute('opacity', gl);
       // 「!」の吹き出し
       const bp = Math.max(0.001, backOut(seg(t, 2.5, 2.85), 1.8));
       bub.setAttribute('opacity', t > 2.5 ? 1 : 0);

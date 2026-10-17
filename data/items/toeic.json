@@ -120,13 +120,13 @@
     "sense": "（まだ確定していない）仮の",
     "ja": "仮の",
     "ex": {
-      "en": "We have a tentative meeting on Tuesday.",
-      "ja": "火曜日に仮の打ち合わせが入っています。",
+      "en": "The meeting is tentatively scheduled for Tuesday.",
+      "ja": "会議は火曜日に仮で予定されています。",
       "mark": [
-        "tentative"
+        "tentatively"
       ]
     },
-    "core": "いったん置いてあるが、まだ確定していない状態。",
+    "core": "いったん置いてあるが、まだ確定していない状態。副詞 tentatively（仮に）の形もよく使う。",
     "other": [
       "（態度が）ためらいがちな"
     ],

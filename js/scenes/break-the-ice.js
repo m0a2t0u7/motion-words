@@ -49,18 +49,12 @@ export function create(k) {
   const B = k.buddy({ x: 288, y: FY, scale: 0.85, facing: -1, color: pal.coral, dark: pal.coralDark });
   // 気まずい「…」
   const dots = k.text(IX, 92, '...', { 'font-size': 26, fill: pal.sub });
-  // 吹き出し①：冗談を言う側（話している記号：音符と波線）
+  // 吹き出し①：冗談を言う側（"Knock knock!" と笑わせる顔）
   const talk = g({});
   const bubbleD = 'M -46 -26 Q -46 -34 -38 -34 L 38 -34 Q 46 -34 46 -26 L 46 6 Q 46 14 38 14 L 8 14 L 0 28 L -6 14 L -38 14 Q -46 14 -46 6 Z';
-  el('path', { d: bubbleD, fill: '#FFFFFF', stroke: '#CBD3DE', 'stroke-width': 2.5, 'stroke-linejoin': 'round' }, talk);
-  const note = (x, y) => {
-    const n = g({ transform: `translate(${x} ${y})` }, talk);
-    el('ellipse', { cx: 0, cy: 8, rx: 5.5, ry: 4.2, fill: pal.coralDark, transform: 'rotate(-20 0 8)' }, n);
-    el('path', { d: 'M 5 7 L 5 -12 Q 12 -9 12 -2', fill: 'none', stroke: pal.coralDark, 'stroke-width': 3, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, n);
-    return n;
-  };
-  const notes = [note(-26, -14), note(-2, -10)];
-  const squig = el('path', { d: 'M 14 -10 q 5 -9 10 0 t 10 0', fill: 'none', stroke: pal.sub, 'stroke-width': 3, 'stroke-linecap': 'round' }, talk);
+  const wideD = 'M -64 -26 Q -64 -34 -56 -34 L 56 -34 Q 64 -34 64 -26 L 64 6 Q 64 14 56 14 L 8 14 L 0 28 L -6 14 L -56 14 Q -64 14 -64 6 Z';
+  el('path', { d: wideD, fill: '#FFFFFF', stroke: '#CBD3DE', 'stroke-width': 2.5, 'stroke-linejoin': 'round' }, talk);
+  k.text(0, -10, 'Knock knock!', { 'font-size': 17, fill: pal.coralDark }, talk);
   // 吹き出し②：聞いた側の笑い
   const laugh = g({});
   el('path', { d: bubbleD, fill: '#FFFFFF', stroke: '#CBD3DE', 'stroke-width': 2.5, 'stroke-linejoin': 'round' }, laugh);
@@ -100,15 +94,10 @@ export function create(k) {
       dots.setAttribute('opacity', dp);
       dots.textContent = ['.', '..', '...'][Math.floor(t * 3) % 3];
 
-      // ---- 吹き出し①：冗談（話している記号） ----
+      // ---- 吹き出し①：冗談（Knock knock!） ----
       const bp = backOut(seg(t, 1.3, 1.55));
-      tf(talk, 112 + 22, FY - 128, 0, bp, bp);
+      tf(talk, 124, FY - 128, 0, bp, bp);
       talk.setAttribute('opacity', t < 1.3 ? 0 : 1 - seg(t, 2.1, 2.4));
-      notes.forEach((n, i) => {
-        const bob = 3 * Math.sin((t - 1.3) * 9 + i * 1.8);
-        n.setAttribute('transform', `translate(${i ? -2 : -26} ${(i ? -10 : -14) + bob})`);
-      });
-      k.set(squig, { opacity: 0.6 + 0.4 * Math.sin((t - 1.3) * 12) });
       // ---- 吹き出し②：聞いた側の「Haha」 ----
       const lp = backOut(seg(t, 2.05, 2.3));
       tf(laugh, 288 - 22, FY - 128, 0, lp, lp);

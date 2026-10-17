@@ -24,7 +24,7 @@
     "id": "pick-up",
     "en": "pick up",
     "ipa": "/ˌpɪk ˈʌp/",
-    "sense": "（手で）拾い上げる・持ち上げる",
+    "sense": "（床などから）拾い上げる・持ち上げる",
     "ja": "拾う・持ち上げる",
     "ex": {
       "en": "She picked up the box from the floor.",
@@ -552,7 +552,7 @@
       ]
     },
     "core": "差し出されたものを下（down）に向けて返し、受け取らない。",
-    "diff": "refuse より角の立たない言い方で、会話でよく使う。",
+    "diff": "refuse より柔らかい言い方。改まって丁寧に断るなら decline。",
     "other": [
       "（音量・温度を）下げる"
     ],
@@ -563,7 +563,7 @@
     "en": "figure out",
     "ipa": "/ˌfɪɡjɚ ˈaʊt/",
     "sense": "（考えて）分かる・やり方を見つける",
-    "ja": "理解する",
+    "ja": "分かる・解き明かす",
     "ex": {
       "en": "I finally figured out how to use this app.",
       "ja": "やっとこのアプリの使い方が分かった。",
@@ -630,7 +630,7 @@
       ]
     },
     "core": "手（hand）で相手の側へ渡し入れる（in）。",
-    "diff": "submit より日常的で、学校や職場で手渡しで出すときによく使う。",
+    "diff": "submit より日常的。学校の課題や職場の書類によく使う。",
     "other": [],
     "motion": "2d"
   },
@@ -661,7 +661,7 @@
     "ja": "チェックアウトする",
     "ex": {
       "en": "You need to check out by 11 a.m.",
-      "ja": "午前11時までにチェックアウトしてください。",
+      "ja": "午前11時までにチェックアウトする必要があります。",
       "mark": [
         "check out"
       ]
