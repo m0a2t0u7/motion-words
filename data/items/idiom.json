@@ -1,0 +1,46 @@
+[
+  {
+    "id": "break-the-ice",
+    "en": "break the ice",
+    "ipa": "/ˌbreɪk ði ˈaɪs/",
+    "sense": "（初対面などの）緊張をほぐす",
+    "ja": "場をなごませる",
+    "ex": { "en": "He told a joke to break the ice.", "ja": "彼は場をなごませるために冗談を言った。", "mark": ["break the ice"] },
+    "core": "張りつめた氷を割るように、ぎこちない沈黙を終わらせる。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "a-piece-of-cake",
+    "en": "a piece of cake",
+    "ipa": "/ə ˌpiːs əv ˈkeɪk/",
+    "sense": "とても簡単なこと",
+    "ja": "楽勝・朝飯前",
+    "ex": { "en": "The test was a piece of cake.", "ja": "テストは楽勝だった。", "mark": ["a piece of cake"] },
+    "core": "ケーキをひと切れ食べるくらい簡単、という感覚。くだけた会話で使う。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "on-the-same-page",
+    "en": "on the same page",
+    "ipa": "/ɑːn ðə ˌseɪm ˈpeɪdʒ/",
+    "sense": "（考えや認識が）一致している",
+    "ja": "認識がそろっている",
+    "ex": { "en": "Let's make sure we're all on the same page.", "ja": "全員の認識がそろっているか確認しよう。", "mark": ["on the same page"] },
+    "core": "全員が同じページを開いている、つまり同じ内容を見ている状態。仕事の打ち合わせでよく使う。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "call-it-a-day",
+    "en": "call it a day",
+    "ipa": "/ˌkɔːl ɪt ə ˈdeɪ/",
+    "sense": "（その日の仕事を）切り上げる",
+    "ja": "今日はここまでにする",
+    "ex": { "en": "It's getting late. Let's call it a day.", "ja": "遅くなってきた。今日はここまでにしよう。", "mark": ["call it a day"] },
+    "core": "やっていることに区切りをつけて「今日の分は終わり」とする。",
+    "other": [],
+    "motion": "2d"
+  }
+]

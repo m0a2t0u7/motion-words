@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MOTION 動きで覚える英単語</title>
+<meta name="description" content="英単語・句動詞・イディオムを、モーションと音声で意味ごとつかむ学習アプリ。">
+<meta name="theme-color" content="#F4F6F9">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MOTION">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preload" href="fonts/nunito-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="app" id="app">
+  <header class="top">
+    <div class="brand" aria-label="MOTION">MOTION</div>
+    <button class="range-btn" id="rangeBtn" type="button" aria-label="再生する範囲を選ぶ">
+      <span id="rangeLabel">すべて</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5" /></svg>
+    </button>
+    <button class="icon-btn" id="settingsBtn" type="button" aria-label="設定">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
+    </button>
+  </header>
+
+  <main>
+    <!-- 学ぶ -->
+    <section class="view" id="view-learn" aria-label="学ぶ">
+      <div class="stage-slot" id="learnStageSlot"></div>
+      <div class="beats" id="beats" aria-hidden="true"></div>
+
+      <article class="word" id="word" aria-live="polite">
+        <div class="word-meta">
+          <span class="cat-chip" id="catChip"></span>
+          <span class="kind-chip" id="kindChip"></span>
+          <span class="pos" id="posText"></span>
+          <button class="star" id="starBtn" type="button" aria-pressed="false" aria-label="マイリストに追加">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.6l-5.1 2.7 1-5.7-4.1-4 5.7-.8z"/></svg>
+          </button>
+        </div>
+        <div class="en-row">
+          <h1 class="en" id="enText" data-seg="en"></h1>
+          <button class="say" id="sayBtn" type="button" aria-label="発音を聞く">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z"/><path d="M15.5 9a4 4 0 010 6M18 6.5a7.5 7.5 0 010 11"/></svg>
+          </button>
+        </div>
+        <div class="ipa" id="ipaText"></div>
+        <div class="ja-block" data-seg="ja">
+          <p class="ja" id="jaText"></p>
+          <p class="sense" id="senseText"></p>
+        </div>
+        <div class="example">
+          <p class="ex-en" id="exEn" data-seg="ex"></p>
+          <p class="ex-ja" id="exJa" data-seg="exJa"></p>
+        </div>
+        <div class="core">
+          <h2>コアイメージ</h2>
+          <p id="coreText"></p>
+          <p class="diff" id="diffText"></p>
+          <details class="other" id="otherBox">
+            <summary>ほかの意味</summary>
+            <ul id="otherList"></ul>
+            <p class="other-note">この画面で扱っているのは上の意味だけです。</p>
+          </details>
+        </div>
+      </article>
+    </section>
+
+    <!-- 一覧 -->
+    <section class="view" id="view-list" aria-label="一覧" hidden>
+      <div class="stats" id="stats"></div>
+      <div class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg>
+        <input id="searchInput" type="search" placeholder="英語・日本語で検索" autocomplete="off" enterkeyhint="search">
+      </div>
+      <div class="chips" id="listChips" role="tablist"></div>
+      <div class="list-actions">
+        <span id="listCount"></span>
+        <button class="text-btn" id="playListBtn" type="button">この範囲を再生</button>
+      </div>
+      <ul class="list" id="list"></ul>
+    </section>
+
+    <!-- 確認 -->
+    <section class="view" id="view-quiz" aria-label="確認" hidden>
+      <p class="quiz-q">この動きに合う表現は？</p>
+      <div class="stage-slot" id="quizStageSlot"></div>
+      <div class="choices" id="choices"></div>
+      <div class="quiz-result" id="quizResult" hidden></div>
+      <div class="quiz-foot">
+        <span id="quizScore"></span>
+        <button class="primary-btn" id="quizNext" type="button">次の問題</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- 再生操作 -->
+  <div class="dock" id="dock">
+    <div class="status" id="status" role="status">
+      <span class="dot" id="statusDot"></span>
+      <span id="statusText">停止中</span>
+      <span class="status-sub" id="statusSub"></span>
+    </div>
+    <div class="controls">
+      <button class="ctl mode" id="modeBtn" type="button" aria-label="再生のしかた">
+        <svg viewBox="0 0 24 24" aria-hidden="true" id="modeIcon"></svg>
+        <span id="modeLabel">順に進む</span>
+      </button>
+      <button class="ctl" id="prevBtn" type="button" aria-label="前へ">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 6v12M18 6l-8 6 8 6z"/></svg>
+      </button>
+      <button class="ctl play" id="playBtn" type="button" aria-label="再生">
+        <svg viewBox="0 0 24 24" aria-hidden="true" id="playIcon"><path d="M8 5.5v13l11-6.5z"/></svg>
+      </button>
+      <button class="ctl" id="nextBtn" type="button" aria-label="次へ">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 6v12M6 6l8 6-8 6z"/></svg>
+      </button>
+      <button class="ctl order" id="orderBtn" type="button" aria-label="並び順">
+        <svg viewBox="0 0 24 24" aria-hidden="true" id="orderIcon"></svg>
+        <span id="orderLabel">順番</span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="tabs" aria-label="画面の切り替え">
+    <button class="tab" data-view="learn" aria-current="page" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="12" rx="3"/><path d="M10 8.8v4.4l3.8-2.2z"/></svg>学ぶ
+    </button>
+    <button class="tab" data-view="list" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h12M8 12h12M8 17h12"/><circle cx="4.5" cy="7" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="17" r="1"/></svg>一覧
+    </button>
+    <button class="tab" data-view="quiz" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M9.8 9.6a2.3 2.3 0 114 1.6c-.8.6-1.8 1.1-1.8 2.3M12 16.6v.2"/></svg>確認
+    </button>
+  </nav>
+</div>
+
+<!-- 設定シート -->
+<div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
+<section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+  <div class="sheet-grip"></div>
+  <div class="sheet-head">
+    <h2 id="sheetTitle">再生の設定</h2>
+    <button class="text-btn" id="sheetClose" type="button">閉じる</button>
+  </div>
+  <div class="sheet-body">
+    <div class="field" id="rangeField">
+      <div class="field-label">再生する範囲</div>
+      <div class="seg wrap" id="rangeSeg"></div>
+    </div>
+    <div class="field">
+      <div class="field-label">再生のしかた</div>
+      <div class="seg" id="modeSeg">
+        <button type="button" data-v="auto">順に進む</button>
+        <button type="button" data-v="one">1語をくり返す</button>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field-label">並び順</div>
+      <div class="seg" id="orderSeg">
+        <button type="button" data-v="seq">順番</button>
+        <button type="button" data-v="random">ランダム</button>
+      </div>
+    </div>
+    <div class="field" id="repsField">
+      <div class="field-label">1語あたりのくり返し</div>
+      <div class="stepper">
+        <button type="button" id="repsMinus" aria-label="減らす">−</button>
+        <output id="repsOut">2回</output>
+        <button type="button" id="repsPlus" aria-label="増やす">＋</button>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field-label">読み上げ速度</div>
+      <div class="seg" id="rateSeg">
+        <button type="button" data-v="0.7">ゆっくり</button>
+        <button type="button" data-v="0.9">ふつう</button>
+        <button type="button" data-v="1.05">少し速い</button>
+        <button type="button" data-v="1.2">速い</button>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field-label">読み上げの間隔</div>
+      <div class="seg" id="gapSeg">
+        <button type="button" data-v="0.5">0.5秒</button>
+        <button type="button" data-v="1">1秒</button>
+        <button type="button" data-v="2">2秒</button>
+        <button type="button" data-v="3">3秒</button>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field-label">読み上げる内容（この順に読みます）</div>
+      <div class="toggles" id="readToggles">
+        <label><input type="checkbox" data-k="en"><span>英語の表現</span></label>
+        <label><input type="checkbox" data-k="ex"><span>英語の例文</span></label>
+        <label><input type="checkbox" data-k="ja"><span>日本語の意味</span></label>
+        <label><input type="checkbox" data-k="exJa"><span>例文の日本語訳</span></label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field-label">英語の声</div>
+      <select id="voiceSelect" class="select"></select>
+    </div>
+    <div class="field">
+      <label class="switch-row"><input type="checkbox" id="wakeToggle"><span>再生中は画面を消さない</span></label>
+    </div>
+    <div class="note">
+      <strong>流しっぱなしについて</strong>
+      画面を開いたままなら、設定した条件で続けて再生します。
+      別のアプリに切り替えたときや画面がロックされたときは、再生を止めます（音声だけが途中で鳴り続けたり、ずれたりしないようにするため）。
+    </div>
+    <div class="note muted">設定とマイリストはこの端末のブラウザに保存されます。</div>
+  </div>
+</section>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<noscript><p class="noscript">このアプリを使うには JavaScript を有効にしてください。</p></noscript>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "postpone",
+    "en": "postpone",
+    "ipa": "/poʊstˈpoʊn/",
+    "sense": "（予定を）延期する",
+    "ja": "延期する",
+    "ex": { "en": "The meeting was postponed until Friday.", "ja": "会議は金曜日に延期された。", "mark": ["postponed"] },
+    "core": "予定を、後ろの日付へずらす。やめるわけではない。",
+    "diff": "cancel は取りやめること。postpone は後で行うこと。put off も同じ意味で、くだけた言い方。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "submit",
+    "en": "submit",
+    "ipa": "/səbˈmɪt/",
+    "sense": "（書類などを）提出する",
+    "ja": "提出する",
+    "ex": { "en": "Please submit the report by Monday.", "ja": "月曜日までに報告書を提出してください。", "mark": ["submit"] },
+    "core": "書類などを、決められた相手に差し出す。",
+    "diff": "hand in も「提出する」で、学校や日常会話でよく使う。",
+    "other": ["（〜に）従う：submit to ~"],
+    "motion": "2d"
+  },
+  {
+    "id": "reserve",
+    "en": "reserve",
+    "ipa": "/rɪˈzɝːv/",
+    "sense": "（席・部屋などを）予約する",
+    "ja": "予約する",
+    "ex": { "en": "I'd like to reserve a table for two.", "ja": "2人用のテーブルを予約したいのですが。", "mark": ["reserve"] },
+    "core": "あとで使うために、前もって確保しておく。",
+    "diff": "book もほぼ同じ意味で使える。",
+    "other": ["（判断などを）保留する：reserve judgment"],
+    "motion": "2d"
+  },
+  {
+    "id": "deliver",
+    "en": "deliver",
+    "ipa": "/dɪˈlɪvɚ/",
+    "sense": "（荷物などを）配達する",
+    "ja": "配達する",
+    "ex": { "en": "The package will be delivered tomorrow.", "ja": "荷物は明日配達されます。", "mark": ["delivered"] },
+    "core": "物を、届け先まで運んで渡す。",
+    "other": ["（演説を）する：deliver a speech", "（約束・成果を）果たす"],
+    "motion": "2d"
+  }
+]

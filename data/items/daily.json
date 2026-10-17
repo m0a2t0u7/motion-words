@@ -1,0 +1,95 @@
+[
+  {
+    "id": "push",
+    "en": "push",
+    "ipa": "/pʊʃ/",
+    "sense": "（自分から遠ざける方向へ）押す",
+    "ja": "押す",
+    "ex": { "en": "She pushed the box across the floor.", "ja": "彼女は箱を押して床の上を動かした。", "mark": ["pushed"] },
+    "core": "自分の体から遠ざける方向へ、力をかける。",
+    "diff": "pull の逆。",
+    "other": ["（ボタンを）押す", "（人に）強く勧める"],
+    "motion": "2d"
+  },
+  {
+    "id": "pull",
+    "en": "pull",
+    "ipa": "/pʊl/",
+    "sense": "（自分のほうへ）引く・引っぱる",
+    "ja": "引っぱる",
+    "ex": { "en": "She pulled the box toward her with a rope.", "ja": "彼女はロープで箱を手前に引き寄せた。", "mark": ["pulled"] },
+    "core": "自分のほうへ引き寄せる力。",
+    "diff": "push の逆。",
+    "other": ["（歯を）抜く", "（車を）寄せて止める：pull over"],
+    "motion": "2d"
+  },
+  {
+    "id": "pour",
+    "en": "pour",
+    "ipa": "/pɔːr/",
+    "sense": "（液体を）注ぐ",
+    "ja": "注ぐ",
+    "ex": { "en": "He poured hot water into the cup.", "ja": "彼はカップにお湯を注いだ。", "mark": ["poured"] },
+    "core": "容器を傾けて、液体を流れるように入れる。",
+    "diff": "spill はうっかりこぼすこと。pour はわざと注ぐこと。",
+    "other": ["（雨が）激しく降る：It's pouring."],
+    "motion": "2d"
+  },
+  {
+    "id": "spill",
+    "en": "spill",
+    "ipa": "/spɪl/",
+    "sense": "（うっかり）こぼす",
+    "ja": "こぼす",
+    "ex": { "en": "I spilled coffee on the table.", "ja": "テーブルにコーヒーをこぼしてしまった。", "mark": ["spilled"] },
+    "core": "入っている物が、意図せず容器の外へあふれ出る。",
+    "diff": "pour はわざと注ぐこと。spill はうっかりこぼすこと。",
+    "other": ["（秘密を）もらす：spill the beans"],
+    "motion": "2d"
+  },
+  {
+    "id": "bounce",
+    "en": "bounce",
+    "ipa": "/baʊns/",
+    "sense": "（ボールなどが）跳ねる",
+    "ja": "跳ねる",
+    "ex": { "en": "The ball bounced twice and stopped.", "ja": "ボールは2回跳ねて止まった。", "mark": ["bounced"] },
+    "core": "面に当たって、勢いよく跳ね返る。",
+    "other": ["（メールが）届かずに戻ってくる"],
+    "motion": "2d"
+  },
+  {
+    "id": "fold",
+    "en": "fold",
+    "ipa": "/foʊld/",
+    "sense": "（紙・布を）折りたたむ",
+    "ja": "折る",
+    "ex": { "en": "Fold the paper in half.", "ja": "紙を半分に折って。", "mark": ["Fold"] },
+    "core": "平らな物の一部を曲げて、重ねる。",
+    "other": ["（腕を）組む：fold your arms", "（事業が）つぶれる"],
+    "motion": "2d"
+  },
+  {
+    "id": "shake",
+    "en": "shake",
+    "ipa": "/ʃeɪk/",
+    "sense": "（容器などを）振る",
+    "ja": "振る",
+    "ex": { "en": "Shake the bottle before you open it.", "ja": "開ける前にボトルを振ってね。", "mark": ["Shake"] },
+    "core": "短く速く、何度も往復させて動かす。",
+    "other": ["（体が）震える", "握手する：shake hands"],
+    "motion": "2d"
+  },
+  {
+    "id": "melt",
+    "en": "melt",
+    "ipa": "/melt/",
+    "sense": "（熱で）溶ける",
+    "ja": "溶ける",
+    "ex": { "en": "The ice melted in the sun.", "ja": "氷が日なたで溶けた。", "mark": ["melted"] },
+    "core": "固い物が熱で柔らかくなり、液体になる。",
+    "diff": "砂糖が水に溶けるような「溶ける」は dissolve を使う。",
+    "other": ["（気持ちが）和らぐ"],
+    "motion": "2d"
+  }
+]

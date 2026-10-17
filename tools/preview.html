@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scene Preview</title>
+<style>
+  body { margin: 0; background: #fff; font-family: system-ui, sans-serif; }
+  #host { width: 400px; aspect-ratio: 4 / 3; position: relative; overflow: hidden; }
+  .stage-layer, .stage-svg, .stage-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+  #beat { font-size: 13px; padding: 4px 8px; }
+</style>
+</head>
+<body>
+<div id="host"></div>
+<div id="beat"></div>
+<script type="module">
+  import { Stage } from '../js/stage.js';
+  const q = new URLSearchParams(location.search);
+  const id = q.get('id');
+  const kind = q.get('kind') || '2d';
+  const beatEl = document.getElementById('beat');
+  const stage = new Stage(document.getElementById('host'), {
+    onBeat: (i) => { beatEl.textContent = i >= 0 ? `${i + 1}: ${stage.beats[i][1]}` : ''; }
+  });
+  window.stage = stage;
+  stage.load({ id, motion: kind }).then((ok) => {
+    window.ready = ok ? 'ok' : 'fail';
+    if (q.has('t')) stage.seek(parseFloat(q.get('t')));
+  });
+</script>
+</body>
+</html>

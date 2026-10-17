@@ -1,0 +1,584 @@
+import { loadIndex, getItem, prefetch, search } from './data.js';
+import { Stage } from './stage.js';
+import { Speech } from './speech.js';
+import { Player } from './player.js';
+import { loadSettings, saveSettings } from './store.js';
+
+const $ = (id) => document.getElementById(id);
+const settings = loadSettings();
+const save = () => saveSettings(settings);
+const speech = new Speech();
+speech.enURI = settings.enVoice;
+
+let index = null;
+let view = 'learn';
+let current = null; // 表示中の項目（詳細データ）
+
+/* ---------- ステージ ---------- */
+const stageEl = document.createElement('div');
+stageEl.className = 'stage';
+stageEl.innerHTML = '<div class="stage-loading"><div class="spinner"></div></div><span class="stage-badge" id="stageBadge" hidden>3D</span>';
+$('learnStageSlot').appendChild(stageEl);
+const stage = new Stage(stageEl, {
+  onBeat: (i) => renderBeats(i),
+  onLoading: (on) => stageEl.classList.toggle('is-loading', on)
+});
+
+/* ---------- 再生 ---------- */
+const player = new Player({
+  speech,
+  stage,
+  settings,
+  show: (id) => showItem(id),
+  prefetch,
+  onStatus: (s, reason) => renderStatus(s, reason),
+  onSegment: (key) => {
+    document.querySelectorAll('[data-seg].speaking').forEach((n) => n.classList.remove('speaking'));
+    if (key) document.querySelectorAll(`[data-seg="${key}"]`).forEach((n) => n.classList.add('speaking'));
+  },
+  onRep: (r, n) => {
+    $('statusSub').textContent = Number.isFinite(n) ? (n > 1 ? `${r} / ${n}回目` : '') : `${r}回目`;
+  }
+});
+
+/* ---------- 範囲 ---------- */
+function rangeIds() {
+  const r = settings.range;
+  if (r === 'mylist') return settings.mylist.filter((id) => index.byId.has(id));
+  if (r === 'all') return index.items.map((i) => i.id);
+  return index.items.filter((i) => i.cat === r).map((i) => i.id);
+}
+function rangeName(r = settings.range) {
+  if (r === 'all') return 'すべて';
+  if (r === 'mylist') return 'マイリスト';
+  return index.catLabel[r] || r;
+}
+function applyRange(startId) {
+  let ids = rangeIds();
+  if (!ids.length) {
+    toast(settings.range === 'mylist' ? 'マイリストが空です。一覧の☆で追加できます' : 'この範囲に項目がありません');
+    settings.range = 'all';
+    save();
+    ids = rangeIds();
+  }
+  const start = startId && ids.includes(startId) ? startId : ids.includes(current?.id) ? current.id : ids[0];
+  player.setList(ids, start);
+  $('rangeLabel').textContent = `${rangeName()} ${ids.length}`;
+  return start;
+}
+
+/* ---------- 表示 ---------- */
+let showSeq = 0;
+async function showItem(id) {
+  const seq = ++showSeq;
+  stageEl.classList.add('is-loading');
+  let item;
+  try {
+    item = await getItem(id);
+  } catch (e) {
+    stageEl.classList.remove('is-loading');
+    toast('データを読み込めませんでした。通信状態を確認してください');
+    throw e;
+  }
+  if (seq !== showSeq) return item;
+  current = item;
+  renderWord(item);
+  settings.lastId = id;
+  save();
+  if (view === 'learn') await stage.load(item);
+  updateMediaSession(item);
+  return item;
+}
+
+function esc(s) {
+  return s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+}
+function markExample(en, marks = []) {
+  let html = esc(en);
+  let from = 0;
+  for (const m of marks) {
+    const e = esc(m);
+    const i = html.indexOf(e, from);
+    if (i < 0) continue;
+    html = html.slice(0, i) + `<mark>${e}</mark>` + html.slice(i + e.length);
+    from = i + e.length + 13;
+  }
+  return html;
+}
+
+function renderWord(it) {
+  const chip = $('catChip');
+  chip.textContent = index.catLabel[it.cat];
+  chip.dataset.cat = it.cat;
+  $('kindChip').textContent = it.motion === '3d' ? '3D' : it.motion === '2d' ? '場面' : '';
+  $('stageBadge').hidden = it.motion !== '3d';
+  const pos = player.order.indexOf(it.id);
+  $('posText').textContent = pos >= 0 ? `${pos + 1} / ${player.order.length}` : '';
+  $('enText').textContent = it.en;
+  $('ipaText').textContent = it.ipa;
+  $('jaText').textContent = it.ja;
+  $('senseText').textContent = it.sense !== it.ja ? it.sense : '';
+  $('exEn').innerHTML = markExample(it.ex.en, it.ex.mark);
+  $('exJa').textContent = it.ex.ja;
+  $('coreText').textContent = it.core;
+  $('diffText').textContent = it.diff || '';
+  const ol = $('otherList');
+  ol.innerHTML = '';
+  (it.other || []).forEach((o) => {
+    const li = document.createElement('li');
+    li.textContent = o;
+    ol.appendChild(li);
+  });
+  $('otherBox').hidden = !(it.other && it.other.length);
+  $('otherBox').open = false;
+  renderStar();
+  document.querySelectorAll('[data-seg].speaking').forEach((n) => n.classList.remove('speaking'));
+}
+
+function renderBeats(active) {
+  const box = $('beats');
+  const beats = stage.beats;
+  if (box.childElementCount !== beats.length || box.dataset.id !== stage.current?.id) {
+    box.dataset.id = stage.current?.id || '';
+    box.innerHTML = beats.map((b) => `<div class="beat">${esc(b[1])}</div>`).join('');
+  }
+  [...box.children].forEach((el, i) => {
+    el.classList.toggle('on', i === active);
+    el.classList.toggle('done', i < active);
+  });
+}
+
+function renderStar() {
+  if (!current) return;
+  const on = settings.mylist.includes(current.id);
+  const b = $('starBtn');
+  b.setAttribute('aria-pressed', on);
+  b.setAttribute('aria-label', on ? 'マイリストから外す' : 'マイリストに追加');
+}
+
+const STATUS = { stopped: '停止中', loading: '読み込み中', playing: '再生中' };
+function renderStatus(s, reason) {
+  $('status').dataset.state = s;
+  $('statusText').textContent = STATUS[s];
+  if (s === 'stopped') $('statusSub').textContent = '';
+  const playing = s !== 'stopped';
+  $('playIcon').innerHTML = playing ? '<rect x="6.5" y="6.5" width="11" height="11" rx="2"/>' : '<path d="M8 5.5v13l11-6.5z"/>';
+  $('playBtn').setAttribute('aria-label', playing ? '停止' : '再生');
+  if ('mediaSession' in navigator) navigator.mediaSession.playbackState = playing ? 'playing' : 'paused';
+  updateWakeLock(playing);
+  if (reason === 'hidden') toast('画面を離れたので再生を止めました');
+  if (reason === 'error') toast('再生中に問題が起きたため止めました');
+}
+
+const ICONS = {
+  auto: '<path d="M4 12h13M13 7l5 5-5 5"/>',
+  one: '<path d="M17 7H8a4 4 0 00-4 4v.5M7 17h9a4 4 0 004-4v-.5"/><path d="M14.5 4.5L17 7l-2.5 2.5M9.5 19.5L7 17l2.5-2.5"/><path d="M11.5 10.5l1-.6v4.2"/>',
+  seq: '<path d="M5 7h14M5 12h10M5 17h6"/>',
+  random: '<path d="M4 7h3.5c4.5 0 4.5 10 9 10H20M4 17h3.5c1.8 0 2.8-1.6 3.6-3.5M14.5 9c.7-1.2 1.6-2 3-2H20"/><path d="M18 4.8L20.2 7 18 9.2M18 14.8l2.2 2.2-2.2 2.2"/>'
+};
+function renderModeButtons() {
+  $('modeIcon').innerHTML = ICONS[settings.mode];
+  $('modeLabel').textContent = settings.mode === 'one' ? '1語リピート' : '順に進む';
+  $('modeBtn').classList.toggle('on', settings.mode === 'one');
+  $('orderIcon').innerHTML = ICONS[settings.order];
+  $('orderLabel').textContent = settings.order === 'random' ? 'ランダム' : '順番';
+  $('orderBtn').classList.toggle('on', settings.order === 'random');
+}
+
+/* ---------- 一覧 ---------- */
+let listFilter = 'all';
+function renderStats() {
+  const s = index.stats;
+  $('stats').innerHTML = `
+    <div class="stat"><b>${s.total}</b><span>収録</span></div>
+    <div class="stat"><b>${s.words}</b><span>単語</span></div>
+    <div class="stat"><b>${s.expressions}</b><span>表現</span></div>
+    <div class="stat"><b>${s.motion3d}</b><span>3D</span></div>
+    <div class="stats-note">モーション付き ${s.motion} / ${s.total}（3D ${s.motion3d}・場面イラスト ${s.motion - s.motion3d}）。句動詞・イディオムは「表現」として数えています。</div>`;
+}
+function renderChips() {
+  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length]];
+  $('listChips').innerHTML = opts
+    .map(([v, l, n]) => `<button class="chip" role="tab" type="button" data-v="${v}" aria-selected="${v === listFilter}">${l}<small>${n}</small></button>`)
+    .join('');
+}
+function listItems() {
+  const q = $('searchInput').value;
+  let items = search(q);
+  if (listFilter === 'mylist') items = items.filter((i) => settings.mylist.includes(i.id));
+  else if (listFilter !== 'all') items = items.filter((i) => i.cat === listFilter);
+  return items;
+}
+function renderList() {
+  const items = listItems();
+  $('listCount').textContent = `${items.length}件`;
+  $('playListBtn').hidden = !items.length || !!$('searchInput').value.trim();
+  if (!items.length) {
+    $('list').innerHTML = `<li class="empty">${listFilter === 'mylist' ? 'マイリストはまだ空です。☆を押すと追加できます。' : '見つかりませんでした。'}</li>`;
+    return;
+  }
+  $('list').innerHTML = items
+    .map((i) => {
+      const on = settings.mylist.includes(i.id);
+      return `<li class="row${current && current.id === i.id ? ' current' : ''}">
+        <button class="row-main" type="button" data-open="${i.id}"><span class="row-en">${esc(i.en)}</span><span class="row-ja">${esc(i.ja)}</span></button>
+        <span class="row-kind">${i.motion === '3d' ? '3D' : '場面'}</span>
+        <button class="star" type="button" data-star="${i.id}" aria-pressed="${on}" aria-label="${on ? 'マイリストから外す' : 'マイリストに追加'}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.6l-5.1 2.7 1-5.7-4.1-4 5.7-.8z"/></svg></button>
+      </li>`;
+    })
+    .join('');
+}
+function toggleMylist(id) {
+  const i = settings.mylist.indexOf(id);
+  if (i >= 0) settings.mylist.splice(i, 1);
+  else settings.mylist.push(id);
+  save();
+  renderStar();
+  if (settings.range === 'mylist') {
+    const ids = rangeIds();
+    if (ids.length) {
+      player.setList(ids, ids.includes(current?.id) ? current.id : ids[0]);
+      $('rangeLabel').textContent = `${rangeName()} ${ids.length}`;
+    }
+  }
+}
+
+/* ---------- 確認 ---------- */
+let quiz = { item: null, n: 0, ok: 0 };
+const quizStage = { el: null };
+async function newQuestion() {
+  const pool = index.items.filter((i) => i.motion);
+  const ids = rangeIds().filter((id) => index.byId.get(id).motion);
+  const src = ids.length >= 3 ? ids.map((id) => index.byId.get(id)) : pool;
+  let pick;
+  do pick = src[Math.floor(Math.random() * src.length)];
+  while (src.length > 1 && quiz.item && pick.id === quiz.item.id);
+  const others = pool.filter((i) => i.id !== pick.id);
+  const same = others.filter((i) => i.cat === pick.cat);
+  const base = (same.length >= 2 ? same : others).sort(() => Math.random() - 0.5).slice(0, 2);
+  const choices = [pick, ...base].sort(() => Math.random() - 0.5);
+  quiz.item = pick;
+  $('quizResult').hidden = true;
+  $('quizNext').hidden = true;
+  $('choices').innerHTML = choices.map((c) => `<button class="choice" type="button" data-id="${c.id}">${esc(c.en)}</button>`).join('');
+  stage.setMode('loop');
+  await stage.load(pick);
+}
+async function answer(btn) {
+  const id = btn.dataset.id;
+  const ok = id === quiz.item.id;
+  quiz.n++;
+  if (ok) quiz.ok++;
+  document.querySelectorAll('.choice').forEach((b) => {
+    b.disabled = true;
+    if (b.dataset.id === quiz.item.id) b.classList.add('ok');
+    else if (b === btn) b.classList.add('ng');
+  });
+  const it = await getItem(quiz.item.id);
+  $('quizResult').hidden = false;
+  $('quizResult').innerHTML = `${ok ? '正解' : '正解は'} <b>${esc(it.en)}</b>：${esc(it.sense)}<br><span style="color:var(--sub)">${esc(it.ex.en)}<br>${esc(it.ex.ja)}</span>`;
+  $('quizScore').textContent = `${quiz.ok} / ${quiz.n} 正解`;
+  $('quizNext').hidden = false;
+  speech.unlock();
+  speech.speak(it.en, 'en-US', settings.rate, { cancelled: false });
+}
+
+/* ---------- 画面切り替え ---------- */
+async function setView(v) {
+  if (v === view) return;
+  if (v !== 'learn' && player.state !== 'stopped') player.stop();
+  view = v;
+  document.querySelectorAll('.view').forEach((s) => (s.hidden = s.id !== `view-${v}`));
+  document.querySelectorAll('.tab').forEach((t) => (t.dataset.view === v ? t.setAttribute('aria-current', 'page') : t.removeAttribute('aria-current')));
+  $('dock').hidden = v !== 'learn';
+  document.documentElement.style.setProperty('--dock-h', v === 'learn' ? '128px' : '0px');
+  window.scrollTo(0, 0);
+  if (v === 'learn') {
+    $('learnStageSlot').appendChild(stageEl);
+    if (current) {
+      stage.setMode('loop');
+      await stage.load(current);
+    }
+  } else if (v === 'quiz') {
+    $('quizStageSlot').appendChild(stageEl);
+    $('stageBadge').hidden = true;
+    await newQuestion();
+  } else if (v === 'list') {
+    renderStats();
+    renderChips();
+    renderList();
+  }
+}
+
+/* ---------- 設定シート ---------- */
+function openSheet(focusRange) {
+  renderSheet();
+  $('sheet').hidden = false;
+  $('sheetBackdrop').hidden = false;
+  if (focusRange) $('rangeField').scrollIntoView({ block: 'start' });
+  $('sheetClose').focus();
+}
+function closeSheet() {
+  $('sheet').hidden = true;
+  $('sheetBackdrop').hidden = true;
+}
+function pressSeg(seg, v) {
+  seg.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.v === String(v))));
+}
+function renderSheet() {
+  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length]];
+  $('rangeSeg').innerHTML = opts.map(([v, l, n]) => `<button type="button" data-v="${v}" ${n ? '' : 'disabled'}>${l}<small>${n}</small></button>`).join('');
+  pressSeg($('rangeSeg'), settings.range);
+  pressSeg($('modeSeg'), settings.mode);
+  pressSeg($('orderSeg'), settings.order);
+  pressSeg($('rateSeg'), settings.rate);
+  pressSeg($('gapSeg'), settings.gap);
+  $('repsOut').textContent = `${settings.reps}回`;
+  $('repsField').style.opacity = settings.mode === 'one' ? 0.45 : 1;
+  document.querySelectorAll('#readToggles input').forEach((i) => (i.checked = !!settings.read[i.dataset.k]));
+  $('wakeToggle').checked = settings.wake;
+  const vs = speech.englishVoices();
+  $('voiceSelect').innerHTML = `<option value="">自動で選ぶ</option>` + vs.map((v) => `<option value="${esc(v.voiceURI)}">${esc(v.name)}（${esc(v.lang)}）</option>`).join('');
+  $('voiceSelect').value = settings.enVoice;
+  $('voiceSelect').disabled = !speech.supported;
+}
+function changed(restart = true) {
+  save();
+  renderModeButtons();
+  if (restart) player.restartIfPlaying();
+}
+
+/* ---------- 画面を消さない ---------- */
+let wakeLock = null;
+async function updateWakeLock(playing) {
+  try {
+    if (playing && settings.wake && 'wakeLock' in navigator && !wakeLock && !document.hidden) {
+      wakeLock = await navigator.wakeLock.request('screen');
+      wakeLock.addEventListener('release', () => (wakeLock = null));
+    } else if ((!playing || !settings.wake) && wakeLock) {
+      await wakeLock.release();
+      wakeLock = null;
+    }
+  } catch (e) {
+    wakeLock = null;
+  }
+}
+
+/* ---------- ロック画面などの操作 ---------- */
+function updateMediaSession(it) {
+  if (!('mediaSession' in navigator)) return;
+  try {
+    navigator.mediaSession.metadata = new MediaMetadata({ title: it.en, artist: it.ja, album: 'MOTION' });
+  } catch (e) {
+    /* 非対応 */
+  }
+}
+if ('mediaSession' in navigator) {
+  const h = (a, f) => {
+    try {
+      navigator.mediaSession.setActionHandler(a, f);
+    } catch (e) {
+      /* 非対応 */
+    }
+  };
+  h('play', () => player.play());
+  h('pause', () => player.stop());
+  h('stop', () => player.stop());
+  h('nexttrack', () => player.go(1));
+  h('previoustrack', () => player.go(-1));
+}
+
+/* ---------- 通知 ---------- */
+let toastTimer;
+function toast(msg) {
+  const t = $('toast');
+  t.textContent = msg;
+  t.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => (t.hidden = true), 3200);
+}
+
+/* ---------- 操作 ---------- */
+function bind() {
+  $('playBtn').addEventListener('click', () => player.toggle());
+  $('nextBtn').addEventListener('click', () => player.go(1));
+  $('prevBtn').addEventListener('click', () => player.go(-1));
+  $('modeBtn').addEventListener('click', () => {
+    settings.mode = settings.mode === 'one' ? 'auto' : 'one';
+    toast(settings.mode === 'one' ? 'この語をくり返します' : '順に次の語へ進みます');
+    changed();
+  });
+  $('orderBtn').addEventListener('click', () => {
+    settings.order = settings.order === 'random' ? 'seq' : 'random';
+    player.reorder();
+    toast(settings.order === 'random' ? 'ランダムに進みます' : '順番に進みます');
+    changed();
+    if (current) renderWord(current);
+  });
+  $('sayBtn').addEventListener('click', () => {
+    if (!current) return;
+    if (player.state !== 'stopped') player.stop();
+    speech.unlock();
+    stage.restart('loop');
+    speech.speak(current.en, 'en-US', settings.rate, { cancelled: false });
+  });
+  $('starBtn').addEventListener('click', () => current && toggleMylist(current.id));
+  $('rangeBtn').addEventListener('click', () => openSheet(true));
+  $('settingsBtn').addEventListener('click', () => openSheet(false));
+  $('sheetClose').addEventListener('click', closeSheet);
+  $('sheetBackdrop').addEventListener('click', closeSheet);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !$('sheet').hidden) closeSheet();
+    if (view !== 'learn' || !$('sheet').hidden || /input|select|textarea/i.test(e.target.tagName)) return;
+    if (e.key === ' ') {
+      e.preventDefault();
+      player.toggle();
+    } else if (e.key === 'ArrowRight') player.go(1);
+    else if (e.key === 'ArrowLeft') player.go(-1);
+  });
+
+  $('rangeSeg').addEventListener('click', (e) => {
+    const b = e.target.closest('button');
+    if (!b || b.disabled) return;
+    settings.range = b.dataset.v;
+    pressSeg($('rangeSeg'), settings.range);
+    const start = applyRange();
+    save();
+    if (player.state !== 'stopped') player.play();
+    else if (current?.id !== start) showItem(start);
+    else renderWord(current);
+  });
+  const segHandler = (id, key, parse = (v) => v, after) =>
+    $(id).addEventListener('click', (e) => {
+      const b = e.target.closest('button');
+      if (!b) return;
+      settings[key] = parse(b.dataset.v);
+      pressSeg($(id), settings[key]);
+      if (after) after();
+      changed();
+      renderSheet();
+    });
+  segHandler('modeSeg', 'mode');
+  segHandler('orderSeg', 'order', (v) => v, () => {
+    player.reorder();
+    if (current) renderWord(current);
+  });
+  segHandler('rateSeg', 'rate', parseFloat);
+  segHandler('gapSeg', 'gap', parseFloat);
+  $('repsMinus').addEventListener('click', () => {
+    settings.reps = Math.max(1, settings.reps - 1);
+    $('repsOut').textContent = `${settings.reps}回`;
+    changed(false);
+  });
+  $('repsPlus').addEventListener('click', () => {
+    settings.reps = Math.min(10, settings.reps + 1);
+    $('repsOut').textContent = `${settings.reps}回`;
+    changed(false);
+  });
+  $('readToggles').addEventListener('change', (e) => {
+    const k = e.target.dataset.k;
+    settings.read[k] = e.target.checked;
+    if (!Object.values(settings.read).some(Boolean)) toast('読み上げなしで、モーションだけを再生します');
+    changed();
+  });
+  $('voiceSelect').addEventListener('change', (e) => {
+    settings.enVoice = e.target.value;
+    speech.enURI = settings.enVoice;
+    changed();
+  });
+  $('wakeToggle').addEventListener('change', (e) => {
+    settings.wake = e.target.checked;
+    save();
+    updateWakeLock(player.state !== 'stopped');
+  });
+
+  document.querySelectorAll('.tab').forEach((t) => t.addEventListener('click', () => setView(t.dataset.view)));
+
+  // 一覧
+  $('searchInput').addEventListener('input', renderList);
+  $('listChips').addEventListener('click', (e) => {
+    const b = e.target.closest('.chip');
+    if (!b) return;
+    listFilter = b.dataset.v;
+    renderChips();
+    renderList();
+  });
+  $('list').addEventListener('click', async (e) => {
+    const s = e.target.closest('[data-star]');
+    if (s) {
+      toggleMylist(s.dataset.star);
+      renderChips();
+      renderList();
+      return;
+    }
+    const o = e.target.closest('[data-open]');
+    if (!o) return;
+    const id = o.dataset.open;
+    settings.range = listFilter;
+    applyRange(id);
+    save();
+    await setView('learn');
+    await showItem(id);
+  });
+  $('playListBtn').addEventListener('click', async () => {
+    settings.range = listFilter;
+    const items = listItems();
+    applyRange(items[0]?.id);
+    save();
+    await setView('learn');
+    player.play();
+  });
+
+  // 確認
+  $('choices').addEventListener('click', (e) => {
+    const b = e.target.closest('.choice');
+    if (b && !b.disabled) answer(b);
+  });
+  $('quizNext').addEventListener('click', newQuestion);
+
+  // 左右スワイプで前後へ
+  let sx = null, sy = 0;
+  stageEl.addEventListener('touchstart', (e) => {
+    sx = e.touches[0].clientX;
+    sy = e.touches[0].clientY;
+  }, { passive: true });
+  stageEl.addEventListener('touchend', (e) => {
+    if (sx === null || view !== 'learn') return;
+    const dx = e.changedTouches[0].clientX - sx;
+    const dy = e.changedTouches[0].clientY - sy;
+    sx = null;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.4) player.go(dx < 0 ? 1 : -1);
+  });
+  // ステージをタップすると動きを最初から
+  stageEl.addEventListener('click', () => {
+    if (view === 'learn' && player.state === 'stopped') stage.restart('loop');
+    if (view === 'quiz') stage.restart('loop');
+  });
+
+  // 別アプリへ切り替え・画面ロック：再生を止める
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden && player.state !== 'stopped') player.stop('hidden');
+    if (!document.hidden) updateWakeLock(player.state !== 'stopped');
+  });
+}
+
+/* ---------- 起動 ---------- */
+async function boot() {
+  bind();
+  renderModeButtons();
+  try {
+    index = await loadIndex();
+  } catch (e) {
+    $('word').innerHTML = '<p class="empty">データを読み込めませんでした。通信状態を確認して、再読み込みしてください。</p>';
+    return;
+  }
+  const start = applyRange(index.byId.has(settings.lastId) ? settings.lastId : null);
+  renderStatus('stopped');
+  stage.setMode('loop');
+  await showItem(start);
+  if (!speech.supported) toast('このブラウザは読み上げに対応していません。モーションのみ再生します');
+  if ('serviceWorker' in navigator && location.protocol === 'https:') {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
+}
+boot();
