@@ -43,6 +43,7 @@ def main():
         b = p.chromium.launch(args=["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader"])
         ctx = b.new_context(viewport={'width': 390, 'height': 844}, device_scale_factor=2, is_mobile=True, has_touch=True)
         ctx.add_init_script(MOCK)
+        ctx.add_init_script("try{localStorage.setItem('motion-words:gate','ee5a23f31c7f67196a0e79d0674416044d7f7a3f537ca88f9cd984b077b2e764')}catch(e){}")
         pg = ctx.new_page()
         errs = []
         pg.on('pageerror', lambda e: errs.append('pageerror: ' + str(e)))

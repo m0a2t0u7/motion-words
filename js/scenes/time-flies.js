@@ -33,9 +33,9 @@ export function create(k) {
   return {
     update(t) {
       const n = Math.floor(t / L), p = (t - n * L) / L, right = n % 2 === 0;
-      const x = lerp(172, 262, right ? p : 1 - p), y = 150 - 66 * Math.sin(Math.PI * p);
+      const x = lerp(172, 262, right ? p : 1 - p), y = 152 - 46 * Math.sin(Math.PI * p);
       tf(ball, x, y, Math.sin(t * 6) * 8);
-      tf(sh, x, 238, 0, 1 - 0.3 * (1 - (y - 84) / 70) , 1);
+      tf(sh, x, 238, 0, 1 - 0.3 * (1 - (y - 106) / 50) , 1);
       sh.setAttribute('opacity', 1);
       const act = (mine) => (mine ? right : !right) ? 1 - easeOut(seg(p, 0, 0.3)) : easeIn(seg(p, 0.65, 1));
       const hit = (mine) => ((mine ? right : !right) ? hump(seg(p, 0, 0.2)) : 0);

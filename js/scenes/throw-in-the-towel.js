@@ -60,7 +60,7 @@ export function create(k) {
       tally.forEach((m, i) => { const p = backOut(seg(t, T[i] + 0.62, T[i] + 0.85), 2.5); tf(m, 311 + i * 30, 68, 0, p, p); });
       // タオル
       const th = handAt(armR);
-      if (t < 3.0) { tf(towel, 190, 172, 8); towel.setAttribute('opacity', 1); flat.setAttribute('opacity', 0); }
+      if (t < 3.0) { tf(towel, 201, 176, 8); towel.setAttribute('opacity', 1); flat.setAttribute('opacity', 0); }
       else if (t < 3.55) { tf(towel, th[0] + 4, th[1] - 4, lerp(8, 0, grab)); flat.setAttribute('opacity', 0); }
       else {
         const p = seg(t, 3.55, 4.15), r = th;
