@@ -5,7 +5,13 @@
     "ipa": "/poʊstˈpoʊn/",
     "sense": "（予定を）延期する",
     "ja": "延期する",
-    "ex": { "en": "The meeting was postponed until Friday.", "ja": "会議は金曜日に延期された。", "mark": ["postponed"] },
+    "ex": {
+      "en": "The meeting was postponed until Friday.",
+      "ja": "会議は金曜日に延期された。",
+      "mark": [
+        "postponed"
+      ]
+    },
     "core": "予定を、後ろの日付へずらす。やめるわけではない。",
     "diff": "cancel は取りやめること。postpone は後で行うこと。put off も同じ意味で、くだけた言い方。",
     "other": [],
@@ -17,10 +23,18 @@
     "ipa": "/səbˈmɪt/",
     "sense": "（書類などを）提出する",
     "ja": "提出する",
-    "ex": { "en": "Please submit the report by Monday.", "ja": "月曜日までに報告書を提出してください。", "mark": ["submit"] },
+    "ex": {
+      "en": "Please submit the report by Monday.",
+      "ja": "月曜日までに報告書を提出してください。",
+      "mark": [
+        "submit"
+      ]
+    },
     "core": "書類などを、決められた相手に差し出す。",
     "diff": "hand in も「提出する」で、学校や日常会話でよく使う。",
-    "other": ["（〜に）従う：submit to ~"],
+    "other": [
+      "（〜に）従う：submit to ~"
+    ],
     "motion": "2d"
   },
   {
@@ -29,10 +43,18 @@
     "ipa": "/rɪˈzɝːv/",
     "sense": "（席・部屋などを）予約する",
     "ja": "予約する",
-    "ex": { "en": "I'd like to reserve a table for two.", "ja": "2人用のテーブルを予約したいのですが。", "mark": ["reserve"] },
+    "ex": {
+      "en": "I'd like to reserve a table for two.",
+      "ja": "2人用のテーブルを予約したいのですが。",
+      "mark": [
+        "reserve"
+      ]
+    },
     "core": "あとで使うために、前もって確保しておく。",
     "diff": "book もほぼ同じ意味で使える。",
-    "other": ["（判断などを）保留する：reserve judgment"],
+    "other": [
+      "（判断などを）保留する：reserve judgment"
+    ],
     "motion": "2d"
   },
   {
@@ -41,9 +63,203 @@
     "ipa": "/dɪˈlɪvɚ/",
     "sense": "（荷物などを）配達する",
     "ja": "配達する",
-    "ex": { "en": "The package will be delivered tomorrow.", "ja": "荷物は明日配達されます。", "mark": ["delivered"] },
+    "ex": {
+      "en": "The package will be delivered tomorrow.",
+      "ja": "荷物は明日配達されます。",
+      "mark": [
+        "delivered"
+      ]
+    },
     "core": "物を、届け先まで運んで渡す。",
-    "other": ["（演説を）する：deliver a speech", "（約束・成果を）果たす"],
+    "other": [
+      "（演説を）する：deliver a speech",
+      "（約束・成果を）果たす"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "expedite",
+    "en": "expedite",
+    "ipa": "/ˈekspədaɪt/",
+    "sense": "（手続き・発送などを）早める",
+    "ja": "早める",
+    "ex": {
+      "en": "Could you expedite the shipment?",
+      "ja": "発送を急いでいただけますか？",
+      "mark": [
+        "expedite"
+      ]
+    },
+    "core": "進んでいる手続きを、もっと速く進むようにする。",
+    "diff": "speed up より改まった言い方で、ビジネスの依頼でよく使う。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "reimburse",
+    "en": "reimburse",
+    "ipa": "/ˌriːɪmˈbɝːs/",
+    "sense": "（立て替えた費用を）払い戻す",
+    "ja": "払い戻す",
+    "ex": {
+      "en": "The company will reimburse your travel expenses.",
+      "ja": "会社が出張費を払い戻します。",
+      "mark": [
+        "reimburse"
+      ]
+    },
+    "core": "立て替えたお金を、払った人へ返す。",
+    "diff": "refund は商品代金などの返金。reimburse は立て替えた経費の払い戻し。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "tentative",
+    "en": "tentative",
+    "ipa": "/ˈtentətɪv/",
+    "sense": "（まだ確定していない）仮の",
+    "ja": "仮の",
+    "ex": {
+      "en": "We have a tentative meeting on Tuesday.",
+      "ja": "火曜日に仮の打ち合わせが入っています。",
+      "mark": [
+        "tentative"
+      ]
+    },
+    "core": "いったん置いてあるが、まだ確定していない状態。",
+    "other": [
+      "（態度が）ためらいがちな"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "inventory",
+    "en": "inventory",
+    "ipa": "/ˈɪnvəntɔːri/",
+    "sense": "（店や倉庫の）在庫",
+    "ja": "在庫",
+    "ex": {
+      "en": "We need to check the inventory before the sale.",
+      "ja": "セールの前に在庫を確認する必要がある。",
+      "mark": [
+        "inventory"
+      ]
+    },
+    "core": "手元にある商品の種類と数をまとめたもの。",
+    "other": [
+      "棚卸し（在庫を数える作業）",
+      "一覧表・目録"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "allocate",
+    "en": "allocate",
+    "ipa": "/ˈæləkeɪt/",
+    "sense": "（予算・時間・人を）割り当てる",
+    "ja": "割り当てる",
+    "ex": {
+      "en": "We allocated more budget to marketing.",
+      "ja": "マーケティングに予算を多めに割り当てた。",
+      "mark": [
+        "allocated"
+      ]
+    },
+    "core": "全体を分けて、それぞれの用途に配る。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "renovate",
+    "en": "renovate",
+    "ipa": "/ˈrenəveɪt/",
+    "sense": "（建物を）改装する",
+    "ja": "改装する",
+    "ex": {
+      "en": "The hotel was renovated last year.",
+      "ja": "そのホテルは昨年改装された。",
+      "mark": [
+        "renovated"
+      ]
+    },
+    "core": "古くなった建物を手直しして、新しい状態にする（nov は「新しい」）。",
+    "diff": "repair は壊れた所を直すこと。renovate は全体を新しく作り直すこと。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "adjacent",
+    "en": "adjacent",
+    "ipa": "/əˈdʒeɪsənt/",
+    "sense": "（〜に）隣接した",
+    "ja": "隣接した",
+    "ex": {
+      "en": "The parking lot is adjacent to the building.",
+      "ja": "駐車場は建物に隣接している。",
+      "mark": [
+        "adjacent"
+      ]
+    },
+    "core": "すぐ隣にくっついている位置関係。adjacent to ~ の形でよく使う。",
+    "diff": "next to とほぼ同じ意味で、より改まった言い方。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "comply",
+    "en": "comply",
+    "ipa": "/kəmˈplaɪ/",
+    "sense": "（規則・要求に）従う",
+    "ja": "従う",
+    "ex": {
+      "en": "All staff must comply with the safety rules.",
+      "ja": "全従業員は安全規則に従わなければならない。",
+      "mark": [
+        "comply"
+      ]
+    },
+    "core": "決められたルールに合わせて行動する。comply with ~ の形で使う。",
+    "diff": "follow より改まった言い方で、規則・法律についてよく使う。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "merge",
+    "en": "merge",
+    "ipa": "/mɝːdʒ/",
+    "sense": "（会社などが）合併する",
+    "ja": "合併する",
+    "ex": {
+      "en": "The two companies merged last year.",
+      "ja": "その2社は昨年合併した。",
+      "mark": [
+        "merged"
+      ]
+    },
+    "core": "別々だったものが合わさって、一つになる。",
+    "other": [
+      "（車線が）合流する",
+      "（データを）統合する"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "attach",
+    "en": "attach",
+    "ipa": "/əˈtætʃ/",
+    "sense": "（メールにファイルを）添付する",
+    "ja": "添付する",
+    "ex": {
+      "en": "I've attached the file to this email.",
+      "ja": "このメールにファイルを添付しました。",
+      "mark": [
+        "attached"
+      ]
+    },
+    "core": "本体に、別の物をくっつける。",
+    "other": [
+      "（物を）取り付ける"
+    ],
     "motion": "2d"
   }
 ]

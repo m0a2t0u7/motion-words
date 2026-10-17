@@ -5,7 +5,13 @@
     "ipa": "/ˌbreɪk ði ˈaɪs/",
     "sense": "（初対面などの）緊張をほぐす",
     "ja": "場をなごませる",
-    "ex": { "en": "He told a joke to break the ice.", "ja": "彼は場をなごませるために冗談を言った。", "mark": ["break the ice"] },
+    "ex": {
+      "en": "He told a joke to break the ice.",
+      "ja": "彼は場をなごませるために冗談を言った。",
+      "mark": [
+        "break the ice"
+      ]
+    },
     "core": "張りつめた氷を割るように、ぎこちない沈黙を終わらせる。",
     "other": [],
     "motion": "2d"
@@ -16,7 +22,13 @@
     "ipa": "/ə ˌpiːs əv ˈkeɪk/",
     "sense": "とても簡単なこと",
     "ja": "楽勝・朝飯前",
-    "ex": { "en": "The test was a piece of cake.", "ja": "テストは楽勝だった。", "mark": ["a piece of cake"] },
+    "ex": {
+      "en": "The test was a piece of cake.",
+      "ja": "テストは楽勝だった。",
+      "mark": [
+        "a piece of cake"
+      ]
+    },
     "core": "ケーキをひと切れ食べるくらい簡単、という感覚。くだけた会話で使う。",
     "other": [],
     "motion": "2d"
@@ -27,7 +39,13 @@
     "ipa": "/ɑːn ðə ˌseɪm ˈpeɪdʒ/",
     "sense": "（考えや認識が）一致している",
     "ja": "認識がそろっている",
-    "ex": { "en": "Let's make sure we're all on the same page.", "ja": "全員の認識がそろっているか確認しよう。", "mark": ["on the same page"] },
+    "ex": {
+      "en": "Let's make sure we're all on the same page.",
+      "ja": "全員の認識がそろっているか確認しよう。",
+      "mark": [
+        "on the same page"
+      ]
+    },
     "core": "全員が同じページを開いている、つまり同じ内容を見ている状態。仕事の打ち合わせでよく使う。",
     "other": [],
     "motion": "2d"
@@ -38,8 +56,82 @@
     "ipa": "/ˌkɔːl ɪt ə ˈdeɪ/",
     "sense": "（その日の仕事を）切り上げる",
     "ja": "今日はここまでにする",
-    "ex": { "en": "It's getting late. Let's call it a day.", "ja": "遅くなってきた。今日はここまでにしよう。", "mark": ["call it a day"] },
+    "ex": {
+      "en": "It's getting late. Let's call it a day.",
+      "ja": "遅くなってきた。今日はここまでにしよう。",
+      "mark": [
+        "call it a day"
+      ]
+    },
     "core": "やっていることに区切りをつけて「今日の分は終わり」とする。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "hit-the-road",
+    "en": "hit the road",
+    "ipa": "/ˌhɪt ðə ˈroʊd/",
+    "sense": "（旅などに）出発する",
+    "ja": "出発する",
+    "ex": {
+      "en": "We should hit the road early tomorrow.",
+      "ja": "明日は早めに出発したほうがいいね。",
+      "mark": [
+        "hit the road"
+      ]
+    },
+    "core": "道路（road）へ出て走り出す、という感覚。くだけた言い方。",
+    "other": [],
+    "motion": "3d"
+  },
+  {
+    "id": "under-the-weather",
+    "en": "under the weather",
+    "ipa": "/ˌʌndɚ ðə ˈweðɚ/",
+    "sense": "（なんとなく）体調がすぐれない",
+    "ja": "体調がいまいち",
+    "ex": {
+      "en": "I'm feeling a bit under the weather today.",
+      "ja": "今日はちょっと体調がいまいちです。",
+      "mark": [
+        "under the weather"
+      ]
+    },
+    "core": "どんよりした天気の下でしょんぼりしている感覚。重い病気ではなく、軽い不調に使う。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "on-the-fence",
+    "en": "on the fence",
+    "ipa": "/ɑːn ðə ˈfens/",
+    "sense": "（どちらにするか）決めかねている",
+    "ja": "迷っている",
+    "ex": {
+      "en": "I'm still on the fence about buying a new phone.",
+      "ja": "新しいスマホを買うかどうか、まだ迷っている。",
+      "mark": [
+        "on the fence"
+      ]
+    },
+    "core": "柵（fence）の上に座って、どちら側にも降りられない状態。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "get-the-ball-rolling",
+    "en": "get the ball rolling",
+    "ipa": "/ˌɡet ðə ˈbɔːl ˈroʊlɪŋ/",
+    "sense": "（物事を）始動させる",
+    "ja": "口火を切る",
+    "ex": {
+      "en": "Let's get the ball rolling with a quick introduction.",
+      "ja": "まず簡単な自己紹介から始めましょう。",
+      "mark": [
+        "get the ball rolling"
+      ]
+    },
+    "core": "止まっているボールを押して転がし始める、つまり止まっている物事を動かし始める。",
     "other": [],
     "motion": "2d"
   }

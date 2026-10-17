@@ -478,5 +478,313 @@
       "（会議などを）手配する"
     ],
     "motion": "2d"
+  },
+  {
+    "id": "put-off",
+    "en": "put off",
+    "ipa": "/ˌpʊt ˈɔːf/",
+    "sense": "（やるべきことを）後回しにする",
+    "ja": "先延ばしにする",
+    "ex": {
+      "en": "Don't put off your homework until tomorrow.",
+      "ja": "宿題を明日まで先延ばしにしないで。",
+      "mark": [
+        "put off"
+      ]
+    },
+    "core": "やることを今の位置から離して（off）、後ろへ置いておく。",
+    "diff": "postpone とほぼ同じ意味で、より口語的。ぐずぐず後回しにする感じでもよく使う。",
+    "other": [
+      "（人を）いやな気持ちにさせる：be put off by ~"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "carry-out",
+    "en": "carry out",
+    "ipa": "/ˌkæri ˈaʊt/",
+    "sense": "（計画・調査などを）実行する",
+    "ja": "実施する",
+    "ex": {
+      "en": "We carried out a survey of our customers.",
+      "ja": "私たちは顧客アンケートを実施した。",
+      "mark": [
+        "carried out"
+      ]
+    },
+    "core": "計画を最後まで運んで（carry）、形にして外へ出す（out）。",
+    "other": [
+      "（命令・約束を）果たす"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "look-into",
+    "en": "look into",
+    "ipa": "/ˌlʊk ˈɪntu/",
+    "sense": "（問題・原因を）調べる",
+    "ja": "調査する",
+    "ex": {
+      "en": "We'll look into the problem right away.",
+      "ja": "その問題をすぐに調べます。",
+      "mark": [
+        "look into"
+      ]
+    },
+    "core": "物事の中（into）まで目を入れて、原因や事情を探る。",
+    "diff": "look up は辞書などで情報を調べる。look into は問題の原因や事情を詳しく調べる。",
+    "other": [
+      "（中を）のぞき込む"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "turn-down",
+    "en": "turn down",
+    "ipa": "/ˌtɝːn ˈdaʊn/",
+    "sense": "（申し出・依頼を）断る",
+    "ja": "断る",
+    "ex": {
+      "en": "She turned down the job offer.",
+      "ja": "彼女はその仕事の誘いを断った。",
+      "mark": [
+        "turned down"
+      ]
+    },
+    "core": "差し出されたものを下（down）に向けて返し、受け取らない。",
+    "diff": "refuse より角の立たない言い方で、会話でよく使う。",
+    "other": [
+      "（音量・温度を）下げる"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "figure-out",
+    "en": "figure out",
+    "ipa": "/ˌfɪɡjɚ ˈaʊt/",
+    "sense": "（考えて）分かる・やり方を見つける",
+    "ja": "理解する",
+    "ex": {
+      "en": "I finally figured out how to use this app.",
+      "ja": "やっとこのアプリの使い方が分かった。",
+      "mark": [
+        "figured out"
+      ]
+    },
+    "core": "頭の中で考えを組み立てて、答えを外（out）へ出す。",
+    "other": [
+      "（人の気持ちなどを）理解する：figure someone out"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "set-aside",
+    "en": "set aside",
+    "ipa": "/ˌset əˈsaɪd/",
+    "sense": "（ある目的のために）取っておく",
+    "ja": "取っておく",
+    "ex": {
+      "en": "She set aside two cookies for her brother.",
+      "ja": "彼女は弟のためにクッキーを2枚取っておいた。",
+      "mark": [
+        "set aside"
+      ]
+    },
+    "core": "全体の中から一部を脇（aside）に置いて、別の目的のために残す。",
+    "other": [
+      "（お金を）蓄えておく：set aside money",
+      "（意見の違いなどを）いったん脇に置く"
+    ],
+    "motion": "3d"
+  },
+  {
+    "id": "follow-up",
+    "en": "follow up",
+    "ipa": "/ˌfɑːloʊ ˈʌp/",
+    "sense": "（あとから）追って連絡する",
+    "ja": "追って連絡する",
+    "ex": {
+      "en": "I'll follow up with an email tomorrow.",
+      "ja": "明日メールで追ってご連絡します。",
+      "mark": [
+        "follow up"
+      ]
+    },
+    "core": "一度話したことのあとを追って（follow）、最後まで仕上げる。",
+    "other": [
+      "名詞 follow-up：追加の連絡・追跡調査"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "hand-in",
+    "en": "hand in",
+    "ipa": "/ˌhænd ˈɪn/",
+    "sense": "（課題・書類を）提出する",
+    "ja": "提出する",
+    "ex": {
+      "en": "Please hand in your homework by Friday.",
+      "ja": "金曜日までに宿題を提出してください。",
+      "mark": [
+        "hand in"
+      ]
+    },
+    "core": "手（hand）で相手の側へ渡し入れる（in）。",
+    "diff": "submit より日常的で、学校や職場で手渡しで出すときによく使う。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "check-in",
+    "en": "check in",
+    "ipa": "/ˌtʃek ˈɪn/",
+    "sense": "（ホテルで）宿泊の手続きをする",
+    "ja": "チェックインする",
+    "ex": {
+      "en": "We checked in at the hotel at three.",
+      "ja": "私たちは3時にホテルにチェックインした。",
+      "mark": [
+        "checked in"
+      ]
+    },
+    "core": "到着を確認して（check）、中に入る（in）手続き。",
+    "other": [
+      "（空港で）搭乗手続きをする"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "check-out",
+    "en": "check out",
+    "ipa": "/ˌtʃek ˈaʊt/",
+    "sense": "（ホテルを）精算して出る",
+    "ja": "チェックアウトする",
+    "ex": {
+      "en": "You need to check out by 11 a.m.",
+      "ja": "午前11時までにチェックアウトしてください。",
+      "mark": [
+        "check out"
+      ]
+    },
+    "core": "手続きをして（check）、外へ出る（out）。",
+    "other": [
+      "（本を）借り出す",
+      "（口語）見てみる：Check it out."
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "drop-by",
+    "en": "drop by",
+    "ipa": "/ˌdrɑːp ˈbaɪ/",
+    "sense": "（ついでに）ちょっと立ち寄る",
+    "ja": "立ち寄る",
+    "ex": {
+      "en": "I dropped by the café on my way home.",
+      "ja": "帰り道にカフェにちょっと立ち寄った。",
+      "mark": [
+        "dropped by"
+      ]
+    },
+    "core": "通り道のそば（by）に、ふらっと寄る。予定していない短い訪問。",
+    "diff": "drop in もほぼ同じ意味。visit より気軽で短い訪問。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "pick-out",
+    "en": "pick out",
+    "ipa": "/ˌpɪk ˈaʊt/",
+    "sense": "（たくさんの中から）選び出す",
+    "ja": "選ぶ",
+    "ex": {
+      "en": "He picked out the biggest apple.",
+      "ja": "彼はいちばん大きいリンゴを選んだ。",
+      "mark": [
+        "picked out"
+      ]
+    },
+    "core": "並んだ中から1つを取って（pick）、外へ（out）出す。",
+    "diff": "choose とほぼ同じ。pick out は並んだ中から選び出す感じが強い。",
+    "other": [
+      "（大勢の中から）見つけ出す"
+    ],
+    "motion": "3d"
+  },
+  {
+    "id": "bring-up",
+    "en": "bring up",
+    "ipa": "/ˌbrɪŋ ˈʌp/",
+    "sense": "（話題を）持ち出す",
+    "ja": "話題に出す",
+    "ex": {
+      "en": "She brought up the problem at the meeting.",
+      "ja": "彼女は会議でその問題を持ち出した。",
+      "mark": [
+        "brought up"
+      ]
+    },
+    "core": "話し合いの場の上（up）へ、話題を持ってくる（bring）。",
+    "other": [
+      "（子どもを）育てる：be brought up in ~"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "run-into",
+    "en": "run into",
+    "ipa": "/ˌrʌn ˈɪntu/",
+    "sense": "（人に）偶然出会う",
+    "ja": "偶然会う",
+    "ex": {
+      "en": "I ran into an old friend at the station.",
+      "ja": "駅で昔の友達に偶然会った。",
+      "mark": [
+        "ran into"
+      ]
+    },
+    "core": "進んでいる途中で、ぶつかるように思いがけず出会う。",
+    "other": [
+      "（問題に）ぶつかる：run into trouble",
+      "（物に）ぶつかる"
+    ],
+    "motion": "2d"
+  },
+  {
+    "id": "cut-down-on",
+    "en": "cut down on",
+    "ipa": "/ˌkʌt ˈdaʊn ɑːn/",
+    "sense": "（量を）減らす",
+    "ja": "〜を減らす",
+    "ex": {
+      "en": "I'm trying to cut down on sugar.",
+      "ja": "砂糖を控えようとしています。",
+      "mark": [
+        "cut down on"
+      ]
+    },
+    "core": "量を切り詰めて（cut）、下げていく（down）。減らす物は on のあとに置く。",
+    "diff": "cut down on は量を減らす。give up はやめる（ゼロにする）。",
+    "other": [],
+    "motion": "2d"
+  },
+  {
+    "id": "sort-out",
+    "en": "sort out",
+    "ipa": "/ˌsɔːrt ˈaʊt/",
+    "sense": "（散らかった物を）整理する",
+    "ja": "整理する",
+    "ex": {
+      "en": "I need to sort out my desk.",
+      "ja": "机の上を整理しないと。",
+      "mark": [
+        "sort out"
+      ]
+    },
+    "core": "混ざっている物を種類ごとに分けて（sort）、片づける。",
+    "other": [
+      "（問題を）解決する：sort out the problem"
+    ],
+    "motion": "2d"
   }
 ]
