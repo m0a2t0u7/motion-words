@@ -690,3 +690,16 @@ html.locked body > :not(.gate) { visibility: hidden; }
 .gate-msg { min-height: 18px; font-size: 13px; color: #d4493f; }
 .gate-btn { height: 48px; border: 0; border-radius: 14px; background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 700; }
 .gate-note { font-size: 12px; color: var(--faint); }
+
+/* ヒントは動きの枠の上に重ねる（例文を押し下げない） */
+.stage-wrap { position: relative; }
+.stage-wrap .hint { position: absolute; left: 8px; right: 8px; bottom: 8px; margin: 0; z-index: 2; padding: 4px 4px 4px 12px; font-size: 12px; background: color-mix(in srgb, var(--card) 92%, transparent); border-style: solid; }
+.stage-wrap .hint button { width: 30px; height: 30px; }
+/* 再生状態は細いタブにして、再生バーの高さを使わない */
+.status { position: absolute; top: -20px; right: 10px; width: auto; max-width: none; height: 20px; padding: 0 10px; border-radius: 10px 10px 0 0; background: color-mix(in srgb, var(--card) 94%, transparent); border: 1px solid var(--line); border-bottom: 0; font-size: 11px; }
+.status-sub { margin-left: 6px; }
+.dock { padding-top: 6px; }
+.app { padding-bottom: calc(var(--dock-h) + var(--tabs-h) + var(--safe-b) + 36px); }
+@media (max-height: 760px) and (max-width: 719px) {
+  .stage { width: min(100%, calc(36svh * 4 / 3)); }
+}

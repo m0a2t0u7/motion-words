@@ -32,12 +32,14 @@
   <main>
     <!-- 学ぶ -->
     <section class="view" id="view-learn" aria-label="学ぶ">
-      <div class="stage-slot" id="learnStageSlot"></div>
+      <div class="stage-wrap">
+        <div class="stage-slot" id="learnStageSlot"></div>
+        <p class="hint" id="hint" hidden>
+          <span>左右にスワイプで前後の語へ。タップで最初から。</span>
+          <button type="button" id="hintClose" aria-label="ヒントを閉じる">×</button>
+        </p>
+      </div>
       <div class="beats" id="beats" aria-hidden="true"></div>
-      <p class="hint" id="hint" hidden>
-        <span>動きの枠を左右にスワイプで前後の語へ。タップで動きを最初から。</span>
-        <button type="button" id="hintClose" aria-label="ヒントを閉じる">×</button>
-      </p>
       <span class="sr-only" id="liveText" aria-live="polite"></span>
 
       <article class="word" id="word">
