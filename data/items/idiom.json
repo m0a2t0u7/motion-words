@@ -208,12 +208,12 @@
     "src": "M0408",
     "id": "let-the-cat-out-of-the-bag",
     "en": "let the cat out of the bag",
-    "ipa": "/lɛt ðə ˌkæt ˌaʊt əv ðə ˈbæɡ/",
+    "ipa": "/ˌlɛt ðə ˌkæt ˌaʊt əv ðə ˈbæɡ/",
     "sense": "秘密を漏らす",
     "ja": "秘密を漏らす",
     "ex": {
       "en": "Tom let the cat out of the bag about the gift.",
-      "ja": "トムが贈り物のことを口をすべらせてしまった。",
+      "ja": "トムは贈り物のことをうっかりばらしてしまった。",
       "mark": [
         "let the cat out of the bag"
       ]
@@ -434,7 +434,7 @@
     "ja": "両方の良いところを得る",
     "ex": {
       "en": "Working from home gives me the best of both worlds.",
-      "ja": "在宅勤務は両方の良いところを私にくれる。",
+      "ja": "在宅勤務なら、仕事も家庭もいいとこ取りができる。",
       "mark": [
         "the best of both worlds"
       ]
@@ -1404,8 +1404,8 @@
     "sense": "言外の意味を読み取る",
     "ja": "言外の意味を読み取る",
     "ex": {
-      "en": "His polite email made me read between the lines.",
-      "ja": "彼の丁寧なメールから、私は言外の意図を読み取った。",
+      "en": "I read between the lines of his polite email.",
+      "ja": "彼の丁寧なメールから、言外の意図を読み取った。",
       "mark": [
         "read between the lines"
       ]
@@ -1441,10 +1441,11 @@
       "en": "I save a little money every month for a rainy day.",
       "ja": "私は万一に備えて、毎月少しずつお金を貯めている。",
       "mark": [
-        "save"
+        "save",
+        "for a rainy day"
       ]
     },
-    "core": "雨の日(困ったとき)のために、今のうちに取っておく。",
+    "core": "雨の日（困ったとき）に備えて、今のうちに取っておく。",
     "other": []
   },
   {
@@ -1492,7 +1493,8 @@
       "en": "Take his story with a grain of salt.",
       "ja": "彼の話はうのみにしないほうがいい。",
       "mark": [
-        "Take"
+        "Take",
+        "with a grain of salt"
       ]
     },
     "core": "ひとつまみの塩を加えるように、話を割り引いて受け取る。",

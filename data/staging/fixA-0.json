@@ -1,0 +1,197 @@
+{
+ "head-out": {
+  "core": "頭（head）の向きを外（out）へ向けて、そのまま出発する。くだけた言い方。"
+ },
+ "speed-up": {
+  "ex": {
+   "en": "The bike sped up on the hill.",
+   "ja": "自転車は坂で速度を上げた。",
+   "mark": [
+    "sped up"
+   ]
+  }
+ },
+ "wait-up": {
+  "ex": {
+   "en": "Don't wait up for me tonight.",
+   "ja": "今夜は先に寝ていていいよ。",
+   "mark": [
+    "wait up"
+   ]
+  },
+  "ja": "寝ずに帰りを待つ"
+ },
+ "sleep-over": {
+  "core": "相手の家で一晩過ごす。over は「（相手の家へ）訪ねて」の感覚で、子どもや友人同士の泊まりに多い。"
+ },
+ "pass-back": {
+  "ja": "回して返す",
+  "sense": "（元の持ち主へ）回して返す"
+ },
+ "take-back": {
+  "ja": "返しに持っていく"
+ },
+ "boil-down": {
+  "sense": "（煮て）煮詰める",
+  "ja": "煮詰める",
+  "core": "煮て水分を減らし（down）、量を少なく濃くする。"
+ },
+ "mix-up": {
+  "sense": "取り違える、ごっちゃにする",
+  "ja": "取り違える",
+  "ex": {
+   "en": "I mixed up the two names.",
+   "ja": "二つの名前を取り違えた。",
+   "mark": [
+    "mixed up"
+   ]
+  },
+  "core": "二つのものをごちゃ混ぜにして、区別がつかなくなる。",
+  "other": [
+   "（材料を）混ぜる：mix the eggs and the milk"
+  ]
+ },
+ "take-away": {
+  "sense": "（料理を）持ち帰りにする（英）",
+  "ex": {
+   "en": "Can I have two burgers to take away?",
+   "ja": "ハンバーガーを2つ持ち帰りでお願いできますか。",
+   "mark": [
+    "take away"
+   ]
+  },
+  "core": "店から離れた所（away）へ持っていく。イギリス英語。"
+ },
+ "let-the-cat-out-of-the-bag": {
+  "ipa": "/ˌlɛt ðə ˌkæt ˌaʊt əv ðə ˈbæɡ/",
+  "ex": {
+   "en": "Tom let the cat out of the bag about the gift.",
+   "ja": "トムは贈り物のことをうっかりばらしてしまった。",
+   "mark": [
+    "let the cat out of the bag"
+   ]
+  }
+ },
+ "the-best-of-both-worlds": {
+  "ex": {
+   "en": "Working from home gives me the best of both worlds.",
+   "ja": "在宅勤務なら、仕事も家庭もいいとこ取りができる。",
+   "mark": [
+    "the best of both worlds"
+   ]
+  }
+ },
+ "read-between-the-lines": {
+  "ex": {
+   "en": "I read between the lines of his polite email.",
+   "ja": "彼の丁寧なメールから、言外の意図を読み取った。",
+   "mark": [
+    "read between the lines"
+   ]
+  }
+ },
+ "save-for-a-rainy-day": {
+  "ex": {
+   "en": "I save a little money every month for a rainy day.",
+   "ja": "私は万一に備えて、毎月少しずつお金を貯めている。",
+   "mark": [
+    "save",
+    "for a rainy day"
+   ]
+  },
+  "core": "雨の日（困ったとき）に備えて、今のうちに取っておく。"
+ },
+ "take-something-with-a-grain-of-salt": {
+  "ex": {
+   "en": "Take his story with a grain of salt.",
+   "ja": "彼の話はうのみにしないほうがいい。",
+   "mark": [
+    "Take",
+    "with a grain of salt"
+   ]
+  }
+ },
+ "put": {
+  "core": "物をある場所や位置に置いて据える。"
+ },
+ "shut": {
+  "ja": "閉める",
+  "ex": {
+   "en": "He shut the door with a bang.",
+   "ja": "彼はドアをばたんと閉めた。",
+   "mark": [
+    "shut"
+   ]
+  }
+ },
+ "repair": {
+  "ex": {
+   "en": "They repaired the road after the storm.",
+   "ja": "嵐のあと、彼らは道路を補修した。",
+   "mark": [
+    "repaired"
+   ]
+  }
+ },
+ "build": {
+  "ex": {
+   "en": "They are building a new school.",
+   "ja": "新しい学校を建てているところだ。",
+   "mark": [
+    "building"
+   ]
+  }
+ },
+ "watch": {
+  "ja": "注意して見る"
+ },
+ "refer": {
+  "ipa": "/rɪˈfɝ/",
+  "ex": {
+   "en": "He referred to the report in his speech.",
+   "ja": "彼はスピーチでその報告書に触れた。",
+   "mark": [
+    "referred to"
+   ]
+  },
+  "core": "話の中で、あるものへ注意を向けさせる。refer to の形で使う。"
+ },
+ "question": {
+  "sense": "（正しいかどうか）疑問視する",
+  "ja": "疑問視する",
+  "ex": {
+   "en": "Many people questioned the decision.",
+   "ja": "多くの人がその決定を疑問視した。",
+   "mark": [
+    "questioned"
+   ]
+  }
+ },
+ "describe": {
+  "ex": {
+   "en": "Can you describe the man you saw?",
+   "ja": "見た男の人の様子を言葉で教えてもらえますか。",
+   "mark": [
+    "describe"
+   ]
+  }
+ },
+ "arrange": {
+  "ex": {
+   "en": "I arranged a meeting for Monday.",
+   "ja": "月曜日に会議の段取りをつけた。",
+   "mark": [
+    "arranged"
+   ]
+  }
+ },
+ "schedule": {
+  "ex": {
+   "en": "We scheduled the meeting for three o'clock.",
+   "ja": "会議の予定を3時に入れた。",
+   "mark": [
+    "scheduled"
+   ]
+  }
+ }
+}

@@ -205,7 +205,7 @@
         "Put"
       ]
     },
-    "core": "物をある場所にそっと置く。",
+    "core": "物をある場所や位置に置いて据える。",
     "other": [],
     "motion": "tpl",
     "tpl": {
@@ -918,10 +918,10 @@
     "en": "shut",
     "ipa": "/ʃʌt/",
     "sense": "閉める",
-    "ja": "ぴしゃりと閉める",
+    "ja": "閉める",
     "ex": {
-      "en": "He shut the door and left.",
-      "ja": "彼はドアを閉めて出ていった。",
+      "en": "He shut the door with a bang.",
+      "ja": "彼はドアをばたんと閉めた。",
       "mark": [
         "shut"
       ]
@@ -1671,7 +1671,7 @@
     "ja": "修繕する",
     "ex": {
       "en": "They repaired the road after the storm.",
-      "ja": "嵐のあと、道路が補修された。",
+      "ja": "嵐のあと、彼らは道路を補修した。",
       "mark": [
         "repaired"
       ]
@@ -1694,7 +1694,7 @@
     "ja": "建てる",
     "ex": {
       "en": "They are building a new school.",
-      "ja": "新しい学校が建てられている。",
+      "ja": "新しい学校を建てているところだ。",
       "mark": [
         "building"
       ]
@@ -2978,7 +2978,7 @@
     "en": "watch",
     "ipa": "/wɑtʃ/",
     "sense": "注意して見る",
-    "ja": "じっと見る",
+    "ja": "注意して見る",
     "ex": {
       "en": "We watched a movie last night.",
       "ja": "私たちは昨夜映画を見た。",
@@ -3932,7 +3932,7 @@
     "ja": "描写する",
     "ex": {
       "en": "Can you describe the man you saw?",
-      "ja": "見た男の人の特徴を説明してもらえますか。",
+      "ja": "見た男の人の様子を言葉で教えてもらえますか。",
       "mark": [
         "describe"
       ]
@@ -3981,17 +3981,17 @@
     "src": "M0806",
     "id": "refer",
     "en": "refer",
-    "ipa": "/rɪˈfɝː/",
+    "ipa": "/rɪˈfɝ/",
     "sense": "言及する、触れる",
     "ja": "言及する",
     "ex": {
       "en": "He referred to the report in his speech.",
       "ja": "彼はスピーチでその報告書に触れた。",
       "mark": [
-        "referred"
+        "referred to"
       ]
     },
-    "core": "話の中で、あるものに向けて指し示す。",
+    "core": "話の中で、あるものへ注意を向けさせる。refer to の形で使う。",
     "diff": "refer to の形で使う。",
     "other": [
       "（調べる）参照する：refer to a map"
@@ -4181,11 +4181,11 @@
     "id": "question",
     "en": "question",
     "ipa": "/ˈkwestʃən/",
-    "sense": "（正しいかどうか）疑問を呈する",
-    "ja": "疑問を呈する",
+    "sense": "（正しいかどうか）疑問視する",
+    "ja": "疑問視する",
     "ex": {
       "en": "Many people questioned the decision.",
-      "ja": "多くの人がその決定に疑問を呈した。",
+      "ja": "多くの人がその決定を疑問視した。",
       "mark": [
         "questioned"
       ]
@@ -5183,7 +5183,7 @@
     "ja": "手配する",
     "ex": {
       "en": "I arranged a meeting for Monday.",
-      "ja": "月曜日に会議を設定した。",
+      "ja": "月曜日に会議の段取りをつけた。",
       "mark": [
         "arranged"
       ]
@@ -5202,7 +5202,7 @@
     "ja": "予定を組む",
     "ex": {
       "en": "We scheduled the meeting for three o'clock.",
-      "ja": "私たちは会議を3時に設定した。",
+      "ja": "会議の予定を3時に入れた。",
       "mark": [
         "scheduled"
       ]
@@ -6155,16 +6155,16 @@
     "id": "copy",
     "en": "copy",
     "ipa": "/ˈkɑːpi/",
-    "sense": "複写する、コピーする",
-    "ja": "複写する",
+    "sense": "書き写す、コピーする",
+    "ja": "書き写す",
     "ex": {
       "en": "I copied the notes into my notebook.",
-      "ja": "ノートの内容を自分の帳面に写した。",
+      "ja": "黒板の内容をノートに書き写した。",
       "mark": [
         "copied"
       ]
     },
-    "core": "あるものと同じものを、もうひとつ作る。",
+    "core": "あるものをそっくりそのまま、別の場所にもうひとつ作る。",
     "other": [
       "（まねる）：copy his style"
     ]
@@ -6628,7 +6628,7 @@
     },
     "core": "温度が下がって、水が固まる。",
     "other": [
-      "（動けなくなる）：Freeze!"
+      "（動きを止める）：Freeze! 動くな！"
     ]
   },
   {
@@ -7312,7 +7312,7 @@
     "core": "布や紙を、両手で引っ張って裂く。",
     "diff": "tear の過去形は tore、過去分詞は torn。",
     "other": [
-      "（名詞）涙：/tɪr/ a tear"
+      "（名詞）涙：a tear /tɪr/"
     ]
   },
   {
@@ -7329,7 +7329,7 @@
         "splits"
       ]
     },
-    "core": "ひとつのものが、縦に二つ以上に分かれる。",
+    "core": "ひとつのものが、裂けるように二つ以上に分かれる。",
     "diff": "split の過去形・過去分詞も split。",
     "other": [
       "（分け合う）：split the bill"
@@ -7343,8 +7343,8 @@
     "sense": "分離する、引き離す",
     "ja": "分離する",
     "ex": {
-      "en": "Separate the eggs into two bowls.",
-      "ja": "卵を二つのボウルに分けてください。",
+      "en": "Separate the white clothes from the colored ones.",
+      "ja": "白い服と色物を分けてください。",
       "mark": [
         "Separate"
       ]
@@ -7358,7 +7358,7 @@
     "id": "join",
     "en": "join",
     "ipa": "/dʒɔɪn/",
-    "sense": "つなぐ、加わる",
+    "sense": "つなぎ合わせる",
     "ja": "つなぐ",
     "ex": {
       "en": "Join the two pieces with glue.",
@@ -7386,7 +7386,7 @@
         "Combine"
       ]
     },
-    "core": "別々のものを一つにまとめる感覚。",
+    "core": "別々のものを寄せ集めて、ひとつのまとまりにする。",
     "other": [
       "（会社などが）合併する：The two companies combined."
     ]
@@ -7498,7 +7498,7 @@
         "exist"
       ]
     },
-    "core": "実際にそこにある、ある状態で在ること。",
+    "core": "想像の中だけでなく、現実にそこにある。",
     "other": []
   },
   {
@@ -8363,7 +8363,7 @@
     },
     "core": "血縁や婚姻でつながっている人。",
     "other": [
-      "相対的な（形容詞）：relative size"
+      "（形容詞）相対的な：relative size"
     ]
   },
   {
@@ -8807,7 +8807,7 @@
     "ja": "操縦士",
     "ex": {
       "en": "The pilot greeted the passengers.",
-      "ja": "機長が乗客にあいさつした。",
+      "ja": "パイロットが乗客にあいさつした。",
       "mark": [
         "pilot"
       ]
@@ -9312,7 +9312,7 @@
     "en": "apartment",
     "ipa": "/əˈpɑːrtmənt/",
     "sense": "アパートの一戸、マンションの部屋",
-    "ja": "集合住宅の一戸",
+    "ja": "アパートの部屋",
     "ex": {
       "en": "She lives in a small apartment.",
       "ja": "彼女は小さなアパートに住んでいる。",
@@ -9962,7 +9962,7 @@
         "bench"
       ]
     },
-    "core": "数人が座れる背もたれのない、または簡素な長い腰掛け。",
+    "core": "数人が並んで座れる、細長い腰掛け。",
     "other": []
   },
   {
@@ -10409,7 +10409,7 @@
         "stove"
       ]
     },
-    "core": "鍋などを火にかけて加熱する調理器具。米国では上の火口部分を指す。",
+    "core": "鍋などを火にかけて加熱する調理器具。",
     "other": []
   },
   {
@@ -10435,7 +10435,7 @@
     "en": "kettle",
     "ipa": "/ˈketl/",
     "sense": "湯沸かし器、やかん",
-    "ja": "湯沸かし器",
+    "ja": "やかん",
     "ex": {
       "en": "I put the kettle on for tea.",
       "ja": "お茶のためにやかんを火にかけた。",
@@ -10470,7 +10470,7 @@
     "src": "M1159",
     "id": "iron",
     "en": "iron",
-    "ipa": "/ˈaɪərn/",
+    "ipa": "/ˈaɪɚn/",
     "sense": "アイロン",
     "ja": "アイロン",
     "ex": {
@@ -10480,7 +10480,7 @@
         "iron"
       ]
     },
-    "core": "熱で服のしわを伸ばす道具。発音は r を含む /ˈaɪərn/。",
+    "core": "熱を当てて、服のしわを伸ばす道具。発音は「アイロン」でなく「アイアン」に近い。",
     "other": [
       "鉄：made of iron"
     ]
@@ -10556,22 +10556,24 @@
     "id": "bin",
     "en": "bin",
     "ipa": "/bɪn/",
-    "sense": "ごみ箱",
+    "sense": "（英）ごみ箱",
     "ja": "ごみ箱",
     "ex": {
-      "en": "Throw it in the bin.",
-      "ja": "それはごみ箱に捨てて。",
+      "en": "Throw the paper in the bin.",
+      "ja": "その紙はごみ箱に捨てて。",
       "mark": [
         "bin"
       ]
     },
-    "core": "物を入れておく容器。英国ではごみ箱を指す（米国では trash can）。",
+    "core": "ごみを入れておく容器。米国では trash can や garbage can と言うのが普通。",
     "motion": "tpl",
     "tpl": {
       "t": "show",
       "e": "🗑️"
     },
-    "other": []
+    "other": [
+      "（米）収納箱：a storage bin"
+    ]
   },
   {
     "src": "M1164",
@@ -11452,7 +11454,7 @@
         "watermelon"
       ]
     },
-    "core": "水（water）のように果汁たっぷりのメロン（melon）の仲間。",
+    "core": "水分をたっぷり含んだ、大きな丸い果物。名前は water + melon。",
     "other": [],
     "motion": "tpl",
     "tpl": {
@@ -12057,7 +12059,7 @@
     },
     "core": "ふつうよりずっと上の、見事な状態。",
     "other": [
-      "（大きい）a great fire：large and strong"
+      "（偉大な）：a great artist"
     ]
   },
   {
@@ -12218,7 +12220,7 @@
     "id": "short",
     "en": "short",
     "ipa": "/ʃɔːrt/",
-    "sense": "短い、背が低い",
+    "sense": "短い",
     "ja": "短い",
     "ex": {
       "en": "She has short hair.",
@@ -12229,7 +12231,7 @@
     },
     "core": "長さや時間が、ふつうより下。",
     "other": [
-      "（背が低い）He is short."
+      "（背が低い）：He is short."
     ]
   },
   {
@@ -12254,7 +12256,7 @@
     "id": "high",
     "en": "high",
     "ipa": "/haɪ/",
-    "sense": "高い（位置・程度）",
+    "sense": "高い（位置）",
     "ja": "高い",
     "ex": {
       "en": "That is a high mountain.",
@@ -13064,7 +13066,7 @@
     "en": "free",
     "ipa": "/friː/",
     "sense": "（時間が）空いている",
-    "ja": "暇な",
+    "ja": "空いている",
     "ex": {
       "en": "Are you free this weekend?",
       "ja": "今週末は空いていますか？",
@@ -13447,7 +13449,7 @@
         "basic"
       ]
     },
-    "core": "土台となる、いちばん大事な部分の。",
+    "core": "ほかのものの土台になる、最も根本的な部分。",
     "other": []
   },
   {
@@ -13963,7 +13965,7 @@
     "ja": "決して〜ない",
     "ex": {
       "en": "I never eat breakfast.",
-      "ja": "私は朝食を絶対に食べない。",
+      "ja": "私は朝食を食べない。",
       "mark": [
         "never"
       ]

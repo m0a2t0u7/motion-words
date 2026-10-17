@@ -1386,7 +1386,7 @@
         "head out"
       ]
     },
-    "core": "頭（head）を外（out）へ向ける。くだけた言い方。",
+    "core": "頭（head）の向きを外（out）へ向けて、そのまま出発する。くだけた言い方。",
     "other": [],
     "motion": "tpl",
     "tpl": {
@@ -1505,10 +1505,10 @@
     "sense": "（速度を）上げる、速くなる",
     "ja": "速度を上げる",
     "ex": {
-      "en": "The bike speeded up on the hill.",
+      "en": "The bike sped up on the hill.",
       "ja": "自転車は坂で速度を上げた。",
       "mark": [
-        "speeded up"
+        "sped up"
       ]
     },
     "core": "速さ（speed）の度合いが上（up）がる。",
@@ -1619,10 +1619,10 @@
     "en": "wait up",
     "ipa": "/ˌweɪt ˈʌp/",
     "sense": "（寝ないで）帰りを待つ",
-    "ja": "寝ずに待つ",
+    "ja": "寝ずに帰りを待つ",
     "ex": {
       "en": "Don't wait up for me tonight.",
-      "ja": "今夜は寝ないで待たなくていいよ。",
+      "ja": "今夜は先に寝ていていいよ。",
       "mark": [
         "wait up"
       ]
@@ -1690,7 +1690,7 @@
         "slept over"
       ]
     },
-    "core": "夜を相手の家で過ごす。子どもや友人同士の泊まりに多い。",
+    "core": "相手の家で一晩過ごす。over は「（相手の家へ）訪ねて」の感覚で、子どもや友人同士の泊まりに多い。",
     "other": [],
     "motion": "tpl",
     "tpl": {
@@ -2052,8 +2052,8 @@
     "id": "pass-back",
     "en": "pass back",
     "ipa": "/ˌpæs ˈbæk/",
-    "sense": "（後ろへ・元へ）回して返す",
-    "ja": "返して渡す",
+    "sense": "（元の持ち主へ）回して返す",
+    "ja": "回して返す",
     "ex": {
       "en": "The teacher passed back our notebooks.",
       "ja": "先生は私たちのノートを返してくれた。",
@@ -2099,7 +2099,7 @@
     "en": "take back",
     "ipa": "/ˌteɪk ˈbæk/",
     "sense": "（元の場所へ）持って帰る、返しに行く",
-    "ja": "持ち帰る",
+    "ja": "返しに持っていく",
     "ex": {
       "en": "I need to take this tool back to the store.",
       "ja": "この道具を店に返しに行く必要がある。",
@@ -3257,8 +3257,8 @@
     "id": "boil-down",
     "en": "boil down",
     "ipa": "/ˌbɔɪl ˈdaʊn/",
-    "sense": "煮詰まる",
-    "ja": "煮詰まる",
+    "sense": "（煮て）煮詰める",
+    "ja": "煮詰める",
     "ex": {
       "en": "Boil down the sauce until it thickens.",
       "ja": "とろみが出るまでソースを煮詰めてください。",
@@ -3266,7 +3266,7 @@
         "Boil down"
       ]
     },
-    "core": "煮て水分が減り（down）、量が少なく濃くなる。",
+    "core": "煮て水分を減らし（down）、量を少なく濃くする。",
     "other": [
       "要約すると〜になる：It boils down to money."
     ]
@@ -3327,18 +3327,18 @@
     "id": "mix-up",
     "en": "mix up",
     "ipa": "/ˌmɪks ˈʌp/",
-    "sense": "混ぜ合わせる",
-    "ja": "混ぜ合わせる",
+    "sense": "取り違える、ごっちゃにする",
+    "ja": "取り違える",
     "ex": {
-      "en": "Mix up the eggs and the milk in a bowl.",
-      "ja": "ボウルで卵と牛乳を混ぜ合わせてください。",
+      "en": "I mixed up the two names.",
+      "ja": "二つの名前を取り違えた。",
       "mark": [
-        "Mix up"
+        "mixed up"
       ]
     },
-    "core": "いくつかの材料を一つに混ぜる（up）。",
+    "core": "二つのものをごちゃ混ぜにして、区別がつかなくなる。",
     "other": [
-      "〜を取り違える：I mixed up the two names."
+      "（材料を）混ぜる：mix the eggs and the milk"
     ]
   },
   {
@@ -3505,16 +3505,16 @@
     "id": "take-away",
     "en": "take away",
     "ipa": "/ˌteɪk əˈweɪ/",
-    "sense": "（料理を）持ち帰る",
+    "sense": "（料理を）持ち帰りにする（英）",
     "ja": "持ち帰る",
     "ex": {
-      "en": "I'll take away two burgers, please.",
-      "ja": "ハンバーガーを2つ持ち帰りでお願いします。",
+      "en": "Can I have two burgers to take away?",
+      "ja": "ハンバーガーを2つ持ち帰りでお願いできますか。",
       "mark": [
         "take away"
       ]
     },
-    "core": "店から離れた所（away）へ持っていく。",
+    "core": "店から離れた所（away）へ持っていく。イギリス英語。",
     "diff": "主にイギリス英語。アメリカ英語では to go や take out と言う。",
     "other": [
       "〜を取り上げる：take away the knife"

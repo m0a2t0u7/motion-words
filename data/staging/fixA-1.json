@@ -1,0 +1,124 @@
+{
+ "copy": {
+  "sense": "書き写す、コピーする",
+  "ja": "書き写す",
+  "ex": {
+   "en": "I copied the notes into my notebook.",
+   "ja": "黒板の内容をノートに書き写した。",
+   "mark": [
+    "copied"
+   ]
+  },
+  "core": "あるものをそっくりそのまま、別の場所にもうひとつ作る。"
+ },
+ "split": {
+  "core": "ひとつのものが、裂けるように二つ以上に分かれる。"
+ },
+ "separate": {
+  "ex": {
+   "en": "Separate the white clothes from the colored ones.",
+   "ja": "白い服と色物を分けてください。",
+   "mark": [
+    "Separate"
+   ]
+  }
+ },
+ "join": {
+  "sense": "つなぎ合わせる",
+  "other": [
+   "（加わる）：join a club"
+  ]
+ },
+ "combine": {
+  "core": "別々のものを寄せ集めて、ひとつのまとまりにする。"
+ },
+ "exist": {
+  "core": "想像の中だけでなく、現実にそこにある。"
+ },
+ "freeze": {
+  "other": [
+   "（動きを止める）：Freeze! 動くな！"
+  ]
+ },
+ "tear": {
+  "other": [
+   "（名詞）涙：a tear /tɪr/"
+  ]
+ },
+ "pilot": {
+  "ex": {
+   "en": "The pilot greeted the passengers.",
+   "ja": "パイロットが乗客にあいさつした。",
+   "mark": [
+    "pilot"
+   ]
+  }
+ },
+ "apartment": {
+  "ja": "アパートの部屋"
+ },
+ "bench": {
+  "core": "数人が並んで座れる、細長い腰掛け。"
+ },
+ "kettle": {
+  "ja": "やかん"
+ },
+ "iron": {
+  "ipa": "/ˈaɪɚn/",
+  "core": "熱を当てて、服のしわを伸ばす道具。発音は「アイロン」でなく「アイアン」に近い。"
+ },
+ "stove": {
+  "core": "鍋などを火にかけて加熱する調理器具。"
+ },
+ "bin": {
+  "sense": "（英）ごみ箱",
+  "ex": {
+   "en": "Throw the paper in the bin.",
+   "ja": "その紙はごみ箱に捨てて。",
+   "mark": [
+    "bin"
+   ]
+  },
+  "core": "ごみを入れておく容器。米国では trash can や garbage can と言うのが普通。",
+  "other": [
+   "（米）収納箱：a storage bin"
+  ]
+ },
+ "watermelon": {
+  "core": "水分をたっぷり含んだ、大きな丸い果物。名前は water + melon。"
+ },
+ "great": {
+  "other": [
+   "（偉大な）：a great artist"
+  ]
+ },
+ "short": {
+  "sense": "短い",
+  "other": [
+   "（背が低い）：He is short."
+  ]
+ },
+ "high": {
+  "sense": "高い（位置）"
+ },
+ "free": {
+  "ja": "空いている"
+ },
+ "basic": {
+  "core": "ほかのものの土台になる、最も根本的な部分。"
+ },
+ "never": {
+  "ex": {
+   "en": "I never eat breakfast.",
+   "ja": "私は朝食を食べない。",
+   "mark": [
+    "never"
+   ]
+  }
+ },
+ "relative": {
+  "other": [
+   "（形容詞）相対的な：relative size"
+  ]
+ }
+}
