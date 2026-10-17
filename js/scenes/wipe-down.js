@@ -25,8 +25,10 @@ export function create(k) {
     const e = el('ellipse', { cx: x, cy: y, rx, ry, fill: pal.coffee, opacity: 0.55 });
     return { e, x };
   });
-  const gloss = el('rect', { x: 0, y: 161, width: 0, height: 11, fill: '#fff', opacity: 0.55 });
-  const gloss2 = el('rect', { x: 0, y: 172, width: 0, height: 14, fill: '#fff', opacity: 0.55 });
+  const topClip = k.clip((cp) => el('path', { d: 'M 96 160 L 304 160 L 342 188 L 58 188 Z' }, cp));
+  const gl = g({ 'clip-path': topClip });
+  const gloss = el('rect', { x: 0, y: 161, width: 0, height: 11, fill: '#fff', opacity: 0.55 }, gl);
+  const gloss2 = el('rect', { x: 0, y: 172, width: 0, height: 16, fill: '#fff', opacity: 0.55 }, gl);
   const b = k.buddy({ x: 64, y: FY, scale: 0.85 });
   const cloth = g({});
   el('rect', { x: -10, y: -6, width: 22, height: 11, rx: 4, fill: pal.blue }, cloth);

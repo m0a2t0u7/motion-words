@@ -827,12 +827,7 @@
     "other": [
       "（椅子から）立ち上がる：get up from the chair"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🧍",
-      "dir": "up"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0005",
@@ -851,12 +846,7 @@
     "core": "体を下（down）の面に預けて、水平な姿勢になる。",
     "diff": "lay は「〜を置く」で目的語が必要。lie は自分が横になる。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🛏️",
-      "dir": "down"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0006",
@@ -874,12 +864,7 @@
     },
     "core": "体を曲げて、位置を下（down）へ近づける。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🙇",
-      "dir": "down"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0007",
@@ -897,12 +882,7 @@
     },
     "core": "ひざを地面につけて、体を低い位置へ下ろす。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🧎",
-      "dir": "down"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0008",
@@ -978,12 +958,7 @@
     "other": [
       "見下す：look down on him"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "👀",
-      "act": "look"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0013",
@@ -1001,12 +976,7 @@
     },
     "core": "視線をぐるりと周囲（around）に回す。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "👀",
-      "act": "look"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0014",
@@ -1026,12 +996,7 @@
     "other": [
       "（過去を）振り返る：look back on my school days"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "👀",
-      "act": "look"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0015",
@@ -1050,12 +1015,7 @@
     "core": "話し手のいる場所の中（in）へ近づいてくる。",
     "diff": "go in は話し手から離れて入ること。come in は話し手の方へ入ってくること。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🚪",
-      "dir": "in"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0017",
@@ -1075,12 +1035,7 @@
     "other": [
       "（本などが）発売される：The book comes out in May."
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🚪",
-      "dir": "out"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0018",
@@ -1099,12 +1054,7 @@
     "core": "話し手から離れて、中（in）へ移動する。",
     "diff": "come in は話し手の方へ入ってくること。go in は中へ入っていくこと。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🚪",
-      "dir": "in"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0020",
@@ -1122,12 +1072,7 @@
     },
     "core": "来た方向、元いた場所（back）へ向かう。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🔙",
-      "dir": "back"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0021",
@@ -1145,12 +1090,7 @@
     },
     "core": "離れた場所からこちら側（over）へ訪ねてくる。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🏠",
-      "dir": "toward"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0022",
@@ -1170,12 +1110,7 @@
     "other": [
       "（旅行などで）出かける：go away for the weekend"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🏃",
-      "dir": "away"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0023",
@@ -1193,12 +1128,7 @@
     },
     "core": "歩いて、その場から遠ざかる（away）。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🚶",
-      "dir": "away"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0024",
@@ -1218,12 +1148,7 @@
     "other": [
       "家出する：run away from home"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🏃",
-      "dir": "away"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0025",
@@ -1243,12 +1168,7 @@
     "other": [
       "（物から）離れる：move away from the fire"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🚚",
-      "dir": "away"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0026",
@@ -1269,12 +1189,7 @@
     "other": [
       "（電車などが）到着する：The train got in at nine."
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🚗",
-      "dir": "in"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0027",
@@ -1293,12 +1208,7 @@
     "core": "体を車の外（out）へ移す。",
     "diff": "get in は乗り込むこと。get out は降りること。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🚗",
-      "dir": "out"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0030",
@@ -1318,12 +1228,7 @@
     "other": [
       "〜を取り戻す：get my money back"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🏠",
-      "dir": "back"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0031",
@@ -1344,12 +1249,7 @@
     "other": [
       "（爆弾・警報などを）作動させる：set off an alarm"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🧳",
-      "dir": "away"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0032",
@@ -1369,12 +1269,7 @@
     "other": [
       "〜を並べる：set out the plates"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🧭",
-      "dir": "away"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0033",
@@ -1392,12 +1287,7 @@
     },
     "core": "頭（head）の向きを外（out）へ向けて、そのまま出発する。くだけた言い方。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🚶",
-      "dir": "out"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0034",
@@ -1415,12 +1305,7 @@
     },
     "core": "進む向きを元の方向（back）へ向ける。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🔙",
-      "dir": "back"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0035",
@@ -1497,12 +1382,7 @@
     },
     "core": "動作の勢い、速さを上（up）げる。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "💨",
-      "dir": "toward"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0040",
@@ -1522,13 +1402,7 @@
     "other": [
       "〜を早める：speed up the work"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "compare",
-      "e": "🐇",
-      "e2": "🐢",
-      "rel": "faster"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0041",
@@ -1549,12 +1423,7 @@
     "other": [
       "近況を話し合う：catch up with an old friend"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🏃",
-      "dir": "toward"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0042",
@@ -1615,12 +1484,7 @@
     "other": [
       "しっかりつかまる：Hold on to the rail."
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "⏳",
-      "act": "wait"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0045",
@@ -1638,12 +1502,7 @@
     },
     "core": "起きたまま（up）、人の帰りを待つ。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "⏳",
-      "act": "wait"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0046",
@@ -1679,12 +1538,7 @@
     },
     "core": "いつもより長く、寝床の中（in）にとどまる。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "😴",
-      "act": "sleep"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0048",
@@ -1702,12 +1556,7 @@
     },
     "core": "相手の家で一晩過ごす。over は「（相手の家へ）訪ねて」の感覚で、子どもや友人同士の泊まりに多い。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "😴",
-      "act": "sleep"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0049",
@@ -1802,12 +1651,7 @@
     },
     "core": "ファスナーを上（up）まで引き上げて閉じる。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🧥",
-      "ch": "close"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0056",
@@ -1825,12 +1669,7 @@
     },
     "core": "ボタンを上（up）まで全部留める。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🧥",
-      "ch": "close"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0057",
@@ -1927,12 +1766,7 @@
     "core": "持っていた物を下（down）の面へ静かに置く。",
     "diff": "put down より丁寧に静かに置くイメージ。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "📦",
-      "dir": "down"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0066",
@@ -1950,12 +1784,7 @@
     },
     "core": "物を下から上（up）へ持ち上げる。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "📦",
-      "dir": "up"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0067",
@@ -1993,12 +1822,7 @@
     },
     "core": "手で持っている物を相手の側（over）へ移す。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🤝",
-      "act": "give"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0069",
@@ -2017,12 +1841,7 @@
     "core": "手に持った物を、外（out）へ一人ずつに行き渡らせる。",
     "diff": "hand over は一人の相手に渡すこと。hand out は多くの人に配ること。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🤝",
-      "act": "give"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0070",
@@ -2040,12 +1859,7 @@
     },
     "core": "物を人から人へ、輪（around）を描くように渡す。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🤝",
-      "act": "give"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0071",
@@ -2083,12 +1897,7 @@
     },
     "core": "受け取った物を元の方向（back）へ渡す。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🤝",
-      "act": "give"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0073",
@@ -2106,12 +1915,7 @@
     },
     "core": "受け取った物を元の持ち主へ戻して（back）渡す。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🤝",
-      "act": "give"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0074",
@@ -2133,12 +1937,7 @@
     "other": [
       "（言葉を）取り消す：I take it back."
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🤲",
-      "act": "take"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0075",
@@ -2159,12 +1958,7 @@
     "other": [
       "（記憶を）よみがえらせる：bring back memories"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🎁",
-      "act": "carry"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0076",
@@ -2182,12 +1976,7 @@
     },
     "core": "送られてきた物を元の送り主へ（back）戻す。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "📦",
-      "dir": "back"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0078",
@@ -2206,12 +1995,7 @@
     "core": "不要な物を外（out）へ放り出す。",
     "diff": "throw away とほぼ同じ意味で使える。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🗑️",
-      "act": "throw"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0079",
@@ -2229,12 +2013,7 @@
     },
     "core": "中の物を全部外（out）へ出して、空にする。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🗄️",
-      "ch": "empty"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0080",
@@ -2253,12 +2032,7 @@
     "core": "散らかった所を完全に（up）きれいな状態にする。",
     "diff": "tidy up は物を整えること。clean up は汚れや散らかりを取り除くこと。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🧹",
-      "ch": "clean"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0081",
@@ -2297,12 +2071,7 @@
     "other": [
       "（米）手や顔を洗う：wash up before dinner"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🍽️",
-      "ch": "clean"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0083",
@@ -2320,12 +2089,7 @@
     },
     "core": "表面を上から下（down）まで布で拭く。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🧽",
-      "ch": "clean"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0084",
@@ -2343,12 +2107,7 @@
     },
     "core": "表面についた物を拭いて離す（off）。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🧽",
-      "ch": "clean"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0085",
@@ -2402,12 +2161,7 @@
     },
     "core": "散らばったごみを掃いて一か所に集める（up）。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🧹",
-      "ch": "clean"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0088",
@@ -2425,12 +2179,7 @@
     },
     "core": "こぼれた液体をモップで残さず（up）拭く。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🧽",
-      "ch": "clean"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0089",
@@ -2448,12 +2197,7 @@
     },
     "core": "強くこすって、汚れを表面から離す（off）。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🧽",
-      "ch": "clean"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0090",
@@ -2471,12 +2215,7 @@
     },
     "core": "水ですすいで、泡や汚れを離す（off）。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🚿",
-      "ch": "clean"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0093",
@@ -2495,12 +2234,7 @@
     "core": "スイッチを動作している状態（on）にする。",
     "diff": "switch off は切ること。switch on は入れること。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "💡",
-      "ch": "start"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0094",
@@ -2519,12 +2253,7 @@
     "core": "スイッチを止まった状態（off）にする。",
     "diff": "switch on は入れること。switch off は切ること。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "💡",
-      "ch": "stop"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0095",
@@ -2545,12 +2274,7 @@
     "other": [
       "（人が）現れる：He turned up late."
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🔊",
-      "ch": "more"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0097",
@@ -2568,12 +2292,7 @@
     },
     "core": "プラグをコンセントの中（in）に差す。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🔌",
-      "dir": "in"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0098",
@@ -2592,12 +2311,7 @@
     "core": "プラグを相手の差込口の中（into）に入れてつなぐ。",
     "diff": "plug in は単独で使う。plug into は接続先を into の後に置く。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🔌",
-      "dir": "in"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0099",
@@ -2713,12 +2427,7 @@
     "other": [
       "（店などを）閉鎖する：The shop shut down."
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "⏹️",
-      "ch": "stop"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0106",
@@ -2738,12 +2447,7 @@
     "other": [
       "（事業を）始める：start up a company"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🚀",
-      "ch": "start"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0107",
@@ -2761,12 +2465,7 @@
     },
     "core": "電源を入れ、動作できる状態まで立ち上げる。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🖥️",
-      "ch": "start"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0108",
@@ -2804,12 +2503,7 @@
     },
     "core": "画面の表示を下（down）の方へ動かす。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "📜",
-      "dir": "down"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0110",
@@ -2827,12 +2521,7 @@
     },
     "core": "画面の表示を上（up）の方へ動かす。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "📜",
-      "dir": "up"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0111",
@@ -2850,12 +2539,7 @@
     },
     "core": "対象に近づく（in）ように大きく映す。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🔍",
-      "dir": "in"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0112",
@@ -2873,12 +2557,7 @@
     },
     "core": "対象から離れる（out）ように広い範囲を映す。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🔍",
-      "dir": "out"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0113",
@@ -2915,12 +2594,7 @@
     "core": "空いた欄を最後まで（out）埋める。",
     "diff": "fill in も同じ意味で使える。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "📝",
-      "ch": "fill"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0116",
@@ -3047,12 +2721,7 @@
     },
     "core": "文字を声にして外（out）へ出す。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🗣️",
-      "act": "talk"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0123",
@@ -3089,12 +2758,7 @@
     "core": "内容の中を順に通り抜けるように見ていく。",
     "diff": "read through は丁寧に最後まで読むこと。look through はざっと見ること。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "👀",
-      "act": "look"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0125",
@@ -3132,12 +2796,7 @@
     "other": [
       "（米）寝る：I turn in at ten."
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "📄",
-      "act": "give"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0130",
@@ -3196,12 +2855,7 @@
     "other": [
       "温まる：The room warmed up."
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🌡️",
-      "ch": "heat"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0133",
@@ -3221,12 +2875,7 @@
     "other": [
       "（怒りなどが）静まる：Please cool down."
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "❄️",
-      "ch": "cool"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0134",
@@ -3245,12 +2894,7 @@
     "core": "熱を加えて、温度を上（up）げる。",
     "diff": "warm up は軽く温めること。heat up は熱くなるまで温めること。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🔥",
-      "ch": "heat"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0135",
@@ -3268,12 +2912,7 @@
     },
     "core": "暑さを体から離して（off）、体を冷やす。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "❄️",
-      "ch": "cool"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0136",
@@ -3422,12 +3061,7 @@
     "core": "容器の中身を外（out）へ流し出す。",
     "diff": "pour in は中へ注ぎ入れること。pour out は外へ注ぎ出すこと。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🫗",
-      "dir": "out"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0144",
@@ -3446,12 +3080,7 @@
     "core": "液体を容器の中（in）へ流し込む。",
     "diff": "pour out は外へ注ぎ出すこと。pour in は中へ注ぎ入れること。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🫗",
-      "dir": "in"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0145",
@@ -3471,12 +3100,7 @@
     "other": [
       "（車に）満タンに給油する：fill up the car"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🥤",
-      "ch": "fill"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0146",
@@ -3494,12 +3118,7 @@
     },
     "core": "皿の上の物を、すっかり（up）食べきる。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🍽️",
-      "act": "eat"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0147",
@@ -3517,12 +3136,7 @@
     },
     "core": "グラスの中身を、すっかり（up）飲みきる。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🥤",
-      "act": "drink"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0148",
@@ -3540,12 +3154,7 @@
     },
     "core": "家の外（out）で食事をする。",
     "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🍽️",
-      "act": "eat"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0149",
@@ -3566,12 +3175,7 @@
     "other": [
       "〜を取り上げる：take away the knife"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🥡",
-      "act": "carry"
-    }
+    "motion": "2d"
   },
   {
     "src": "M0150",
@@ -3591,11 +3195,6 @@
     "other": [
       "〜を減らす：cut down on sugar"
     ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "move",
-      "e": "🪓",
-      "dir": "down"
-    }
+    "motion": "2d"
   }
 ]
