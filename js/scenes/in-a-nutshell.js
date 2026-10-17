@@ -36,8 +36,6 @@ export function create(k) {
     for (let j = 0; j < 5; j++) el('line', { x1: -14, y1: -20 + j * 9, x2: 14 - (j % 2) * 6, y2: -20 + j * 9, stroke: '#CBD3DF', 'stroke-width': 2.4, 'stroke-linecap': 'round' }, s);
     return s;
   });
-  const pile = g({});
-  el('rect', { x: 150, y: TY - 24, width: 50, height: 24, rx: 3, fill: '#fff', stroke: '#CBD3DF', 'stroke-width': 2 }, pile);
   return {
     update(t) {
       // 資料：机の上に重なって置かれ、1枚ずつ殻へ吸い込まれる
@@ -47,7 +45,6 @@ export function create(k) {
         tf(s, sx, sy + (p > 0 ? 0 : 0) - (p === 0 ? 0 : 0), lerp(-6 + i * 3, 25, p), lerp(1, 0.18, easeIn(p)), lerp(1, 0.18, easeIn(p)));
         s.setAttribute('opacity', p >= 1 ? 0 : 1);
       });
-      pile.setAttribute('opacity', seg(t, 2.2, 2.3) > 0 ? 0 : 1);
       // 殻がぷるっと揺れ、カードが飛び出す
       const gulp = hump(seg(t, 1.4, 2.6));
       const wob = Math.sin(t * 40) * 2 * gulp;

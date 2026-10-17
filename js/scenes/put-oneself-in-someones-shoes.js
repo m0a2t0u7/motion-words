@@ -43,7 +43,7 @@ export function create(k) {
       me.pose({
         x: mx, walk: walking ? 8 + (mx - 70) * 0.11 : 8 + 88 * 0.11, facing: 1,
         armR: walking ? lerp(-65 * think, 8, seg(t, 1.1, 1.5)) : lerp(8, 98, take),
-        armL: walking ? 8 : lerp(8, 98, take),
+        armL: walking ? 8 : lerp(8, 20, take),
         squash: sq, lean: lerp(3, -5, heavy) * (t > 2.5 ? 1 : 0), look: 0.5,
         mood: t < 1.1 ? 'flat' : t < 2.5 ? 'flat' : t < 3.5 ? 'open' : 'smile', blink: hump(seg(t, 3.5, 3.65))
       });

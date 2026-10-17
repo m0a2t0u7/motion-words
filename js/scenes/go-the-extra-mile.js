@@ -30,7 +30,7 @@ export function create(k) {
   el('rect', { x: -15, y: -12, width: 30, height: 24, rx: 3, fill: '#D9B27C', stroke: '#B8915B', 'stroke-width': 2 }, box);
   el('rect', { x: -3, y: -12, width: 6, height: 24, fill: '#F2E7DA' }, box);
   const sp = [0, 1, 2].map((i) => spark(k, g({}), i === 1 ? pal.coral : pal.yellow));
-  const xf = (t) => (t < 0.35 ? 50 : t < 3.15 ? lerp(50, 288, easeInOut(seg(t, 0.35, 3.15)) * 0.4 + seg(t, 0.35, 3.15) * 0.6) : 288);
+  const xf = (t) => (t < 0.35 ? 50 : t < 3.15 ? lerp(50, 262, easeInOut(seg(t, 0.35, 3.15)) * 0.4 + seg(t, 0.35, 3.15) * 0.6) : 262);
   return {
     update(t) {
       const x = xf(t), v = Math.abs(xf(t + 0.02) - xf(t - 0.02)) / 0.04, m = Math.min(1, v / 25);
