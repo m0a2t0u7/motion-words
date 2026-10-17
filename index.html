@@ -213,16 +213,24 @@
       </div>
     </div>
     <div class="field">
-      <div class="field-label">英語の声</div>
-      <select id="voiceSelect" class="select"></select>
+      <div class="field-label">英語の声 <small id="enVoiceN"></small></div>
+      <div class="voice-row"><select id="voiceSelect" class="select"></select><button type="button" class="try-btn" id="tryEn">試聴</button></div>
+    </div>
+    <div class="field">
+      <div class="field-label">日本語の声 <small id="jaVoiceN"></small></div>
+      <div class="voice-row"><select id="jaVoiceSelect" class="select"></select><button type="button" class="try-btn" id="tryJa">試聴</button></div>
+      <div class="note muted">選べる声の数は端末とブラウザで決まります。Android は設定の「テキスト読み上げ」で音声データを追加すると増えます。iPhone は「設定 → アクセシビリティ → 読み上げコンテンツ → 声」で高品質な声をダウンロードすると選べます。</div>
+    </div>
+    <div class="field">
+      <label class="switch-row"><input type="checkbox" id="bgToggle"><span>別のアプリや画面ロック中も再生を続ける</span></label>
     </div>
     <div class="field">
       <label class="switch-row"><input type="checkbox" id="wakeToggle"><span>再生中は画面を消さない</span></label>
     </div>
     <div class="note">
       <strong>流しっぱなしについて</strong>
-      画面を開いたままなら、設定した条件で続けて再生します。
-      別のアプリに切り替えたときや画面がロックされたときは、再生を止めます（音声だけが途中で鳴り続けたり、ずれたりしないようにするため）。
+      「順に進む」なら最後の語まで進むと先頭に戻り、止めるまで次々に再生します。
+      「別のアプリや画面ロック中も続ける」をオフにすると、画面を離れたときに止まります。画面ロック中に続くかは端末とブラウザによります（未確認の端末あり）。
     </div>
     <div class="field">
       <div class="field-label">マイリストの控え</div>

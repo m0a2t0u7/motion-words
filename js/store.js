@@ -11,6 +11,8 @@ export const DEFAULTS = {
   read: { en: true, ex: true, ja: true, exJa: true },
   wake: true, // 再生中は画面を消さない
   enVoice: '',
+  jaVoice: '',
+  bg: true, // 別アプリ・画面ロック中も続ける
   lastId: null,
   mylist: [],
   learned: [] // 「覚えた」にした項目

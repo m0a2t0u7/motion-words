@@ -9,6 +9,7 @@ const settings = loadSettings();
 const save = () => saveSettings(settings);
 const speech = new Speech();
 speech.enURI = settings.enVoice;
+speech.jaURI = settings.jaVoice;
 
 let index = null;
 let view = 'learn';
@@ -180,11 +181,11 @@ function renderModeButtons() {
   const one = settings.mode === 'one';
   const rnd = settings.order === 'random';
   $('modeIcon').innerHTML = ICONS.one;
-  $('modeLabel').textContent = one ? '1語リピート中' : '1語リピート';
+  $('modeLabel').textContent = '1語リピート';
   $('modeBtn').classList.toggle('on', one);
   $('modeBtn').setAttribute('aria-pressed', one);
   $('orderIcon').innerHTML = ICONS.random;
-  $('orderLabel').textContent = rnd ? 'シャッフル中' : 'シャッフル';
+  $('orderLabel').textContent = 'シャッフル';
   $('orderBtn').classList.toggle('on', rnd);
   $('orderBtn').setAttribute('aria-pressed', rnd);
 }
@@ -392,10 +393,15 @@ function renderSheet() {
   $('repsField').style.opacity = settings.mode === 'one' ? 0.45 : 1;
   document.querySelectorAll('#readToggles input').forEach((i) => (i.checked = !!settings.read[i.dataset.k]));
   $('wakeToggle').checked = settings.wake;
-  const vs = speech.englishVoices();
-  $('voiceSelect').innerHTML = `<option value="">自動で選ぶ</option>` + vs.map((v) => `<option value="${esc(v.voiceURI)}">${esc(v.name)}（${esc(v.lang)}）</option>`).join('');
-  $('voiceSelect').value = settings.enVoice;
-  $('voiceSelect').disabled = !speech.supported;
+  const fill = (sel, n, vs, cur) => {
+    $(sel).innerHTML = `<option value="">自動で選ぶ</option>` + vs.map((v) => `<option value="${esc(v.voiceURI)}">${esc(v.name)}（${esc(v.lang)}）</option>`).join('');
+    $(sel).value = vs.some((v) => v.voiceURI === cur) ? cur : '';
+    $(sel).disabled = !speech.supported;
+    $(n).textContent = `${vs.length}種類`;
+  };
+  fill('voiceSelect', 'enVoiceN', speech.voicesFor('en'), settings.enVoice);
+  fill('jaVoiceSelect', 'jaVoiceN', speech.voicesFor('ja'), settings.jaVoice);
+  $('bgToggle').checked = settings.bg;
 }
 function changed() {
   save();
@@ -567,6 +573,25 @@ function bind() {
     if (!Object.values(settings.read).some(Boolean)) toast('読み上げなしで、モーションだけを再生します');
     changed();
   });
+  $('jaVoiceSelect').addEventListener('change', (e) => {
+    settings.jaVoice = e.target.value;
+    speech.jaURI = settings.jaVoice;
+    save();
+  });
+  $('bgToggle').addEventListener('change', (e) => {
+    settings.bg = e.target.checked;
+    save();
+  });
+  const tryVoice = async (text, lang) => {
+    if (player.state !== 'stopped') player.stop();
+    speech.unlock();
+    speech.wake(true);
+    await speech.speak(text, lang, settings.rate, { cancelled: false });
+    if (player.state === 'stopped') speech.wake(false);
+  };
+  $('tryEn').addEventListener('click', () => tryVoice('The plane took off on time.', 'en-US'));
+  $('tryJa').addEventListener('click', () => tryVoice('飛行機は定刻どおりに離陸した。', 'ja-JP'));
+  speech.supported && speechSynthesis.addEventListener?.('voiceschanged', () => !$('sheet').hidden && renderSheet());
   $('voiceSelect').addEventListener('change', (e) => {
     settings.enVoice = e.target.value;
     speech.enURI = settings.enVoice;
@@ -652,7 +677,7 @@ function bind() {
 
   // 別アプリへ切り替え・画面ロック：再生を止め、戻ったときに案内を出す
   document.addEventListener('visibilitychange', () => {
-    if (document.hidden && player.state !== 'stopped') player.stop('hidden');
+    if (document.hidden && player.state !== 'stopped' && !settings.bg) player.stop('hidden');
     if (!document.hidden) updateWakeLock(player.state !== 'stopped');
   });
 }

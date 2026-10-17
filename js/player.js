@@ -78,6 +78,7 @@ export class Player {
     if (!this.order.length) return;
     this._cancel();
     this.speech.unlock();
+    this.speech.wake(true);
     const token = { cancelled: false };
     this.token = token;
     this._run(token).catch((e) => {
@@ -88,6 +89,7 @@ export class Player {
 
   stop(reason = 'user') {
     this._cancel();
+    this.speech.wake(false);
     this.stage.restart('loop');
     this.onSegment(null);
     this._status('stopped', reason);

@@ -10,6 +10,9 @@ export class Speech {
     this.supported = !!synth && typeof SpeechSynthesisUtterance !== 'undefined';
     this.voices = [];
     this.enURI = '';
+    this.jaURI = '';
+    this.ctx = null; // 音の出口を起こしておくための無音（Bluetooth・Android で頭が欠ける対策）
+    this.wakeNode = null;
     this.current = null; // 再生中の発話（ガベージコレクション対策で保持）
     if (this.supported) {
       const load = () => {
@@ -20,16 +23,58 @@ export class Speech {
     }
   }
 
+  // 声の一覧。聞き取りやすい順（オンライン/高品質 → 米 → 英 → その他）に並べる
+  voicesFor(lang) {
+    const head = lang === 'en' ? /^en[-_]/i : /^ja[-_]?/i;
+    const score = (v) => {
+      let n = 0;
+      if (/Natural|Online|Enhanced|Premium|Neural|Google/i.test(v.name)) n -= 10;
+      if (/en[-_]US/i.test(v.lang)) n -= 3;
+      else if (/en[-_]GB/i.test(v.lang)) n -= 2;
+      return n;
+    };
+    return this.voices.filter((v) => head.test(v.lang)).sort((a, b) => score(a) - score(b) || a.name.localeCompare(b.name));
+  }
   englishVoices() {
-    return this.voices.filter((v) => /^en[-_]/i.test(v.lang));
+    return this.voicesFor('en');
+  }
+
+  // 再生中は音の出口を開けたままにする。止めると最初の音節が欠ける端末がある。
+  wake(on) {
+    try {
+      if (on) {
+        if (!this.ctx) {
+          const AC = window.AudioContext || window.webkitAudioContext;
+          if (!AC) return;
+          this.ctx = new AC();
+        }
+        if (this.ctx.state === 'suspended') this.ctx.resume();
+        if (!this.wakeNode) {
+          const o = this.ctx.createOscillator();
+          const g = this.ctx.createGain();
+          g.gain.value = 0.0008; // 聞こえない大きさ
+          o.frequency.value = 30;
+          o.connect(g).connect(this.ctx.destination);
+          o.start();
+          this.wakeNode = { o, g };
+        }
+      } else if (this.wakeNode) {
+        this.wakeNode.o.stop();
+        this.wakeNode.o.disconnect();
+        this.wakeNode = null;
+      }
+    } catch (e) {
+      /* 無視 */
+    }
   }
 
   pick(lang) {
     const isEn = lang.startsWith('en');
     const list = this.voices.filter((v) => v.lang.toLowerCase().replace('_', '-').startsWith(isEn ? 'en' : 'ja'));
     if (!list.length) return null;
-    if (isEn && this.enURI) {
-      const v = list.find((x) => x.voiceURI === this.enURI);
+    const want = isEn ? this.enURI : this.jaURI;
+    if (want) {
+      const v = list.find((x) => x.voiceURI === want);
       if (v) return v;
     }
     const exact = list.filter((v) => v.lang.replace('_', '-').toLowerCase() === (isEn ? 'en-us' : 'ja-jp'));
@@ -70,9 +115,12 @@ export class Speech {
     if (token?.cancelled) return 'cancel';
     if (synth.speaking || synth.pending) {
       synth.cancel();
-      await sleep(70);
+      // 前の発話が完全に止まるまで待つ（すぐ次を出すと頭が欠ける）
+      for (let i = 0; i < 8 && (synth.speaking || synth.pending); i++) await sleep(60);
+      await sleep(120);
       if (token?.cancelled) return 'cancel';
     }
+    if (synth.paused) synth.resume();
     return new Promise((resolve) => {
       let done = false;
       let started = false;
@@ -94,6 +142,7 @@ export class Speech {
         if (v) x.voice = v;
         x.rate = rate;
         x.pitch = 1;
+        x.volume = 1;
         x.onstart = () => {
           if (x === u) started = true;
         };
