@@ -20,11 +20,11 @@ export function create(k) {
       // 両手の間にカード
       const hl = b.handPos('L'), hr = b.handPos('R');
       const cx = (hl.x + hr.x) / 2, cy = Math.min(hl.y, hr.y) - 8 * up - (1 - up) * 0 + 6;
-      tf(card, cx, (hl.y + hr.y) / 2 - 28 * (1 - up) * 0 - 6, 0, 0.8 + 0.1 * up, 0.8 + 0.1 * up);
+      tf(card, cx, (hl.y + hr.y) / 2 - 36 * up + 30 * (1 - up) - 6, 0, 0.8 + 0.1 * up, 0.8 + 0.1 * up);
       const sw = seg(t, 1.9, 2.5);
       rays.forEach((r, i) => {
         const ang = (-90 + (i - 2) * 38) * Math.PI / 180;
-        const cx2 = cx, cy2 = (hl.y + hr.y) / 2 - 6;
+        const cx2 = cx, cy2 = (hl.y + hr.y) / 2 - 42;
         r.setAttribute('x1', cx2 + Math.cos(ang) * 66); r.setAttribute('y1', cy2 + Math.sin(ang) * 58);
         r.setAttribute('x2', cx2 + Math.cos(ang) * (66 + 14 * sw)); r.setAttribute('y2', cy2 + Math.sin(ang) * (58 + 14 * sw));
         r.setAttribute('opacity', sw > 0 ? 1 : 0);

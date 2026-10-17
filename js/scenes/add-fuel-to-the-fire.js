@@ -9,13 +9,10 @@ export function create(k) {
   const FX = 235;
   const glow = el('circle', { cx: FX, cy: FY - 20, r: 90, fill: '#FFB86B', opacity: 0 });
   const fire = g({});
-  const mk = (c, w, h) => el('path', { d: 'M 0 0 C ' + (-w) + ' 0 ' + (-w * 0.8) + ' ' + (-h * 0.5) + ' ' + (-w * 0.2) + ' ' + (-h * 0.8) + ' C ' + (-w * 0.1) + ' ' + (-h * 0.9) + ' 0 ' + (-h) + ' 2 ' + (-h) + ' C ' + (w * 0.5) + ' ' + (-h * 0.6) + ' ' + w + ' ' + (-h * 0.3) + ' ' + w + ' 0 Z', fill: c }, fire);
   const f1 = g({}, fire), f2 = g({}, fire), f3 = g({}, fire);
-  el('path', { d: mk('#F2685B', 26, 64).getAttribute('d'), fill: '#F2685B' }, f1);
-  el('path', { d: 'M 0 0 C -18 0 -16 -26 -4 -42 C 0 -48 4 -50 4 -50 C 14 -34 18 -14 18 0 Z', fill: '#FFA94D' }, f2);
-  el('path', { d: 'M 0 0 C -9 0 -8 -14 -2 -24 C 4 -16 9 -8 9 0 Z', fill: '#FFE08A' }, f3);
-  fire.removeChild(fire.firstChild);
-  fire.removeChild(fire.firstChild);
+  el('path', { d: 'M 0 0 C -30 0 -32 -30 -4 -68 C -2 -50 10 -44 12 -34 C 28 -44 30 0 0 0 Z', fill: '#F2685B' }, f1);
+  el('path', { d: 'M 0 0 C -20 0 -22 -22 -2 -48 C 0 -36 8 -32 9 -24 C 20 -30 20 0 0 0 Z', fill: '#FFA94D' }, f2);
+  el('path', { d: 'M 0 0 C -11 0 -12 -12 0 -26 C 8 -18 11 -8 0 0 Z', fill: '#FFE08A' }, f3);
   // 薪（焚き火の台）
   el('rect', { x: FX - 32, y: FY - 8, width: 64, height: 10, rx: 5, fill: pal.woodDark, transform: 'rotate(-8 ' + FX + ' ' + FY + ')' });
   el('rect', { x: FX - 32, y: FY - 8, width: 64, height: 10, rx: 5, fill: pal.coffee, transform: 'rotate(8 ' + FX + ' ' + FY + ')' });
@@ -29,13 +26,13 @@ export function create(k) {
   return {
     update(t) {
       const grow = easeOut(seg(t, 1.8, 2.7));
-      const sz = 0.55 + 1.05 * grow;
+      const sz = 0.55 + 1.35 * grow;
       const fl = 1 + 0.07 * Math.sin(t * 13);
       tf(fire, FX, FY - 4, 0, 1, 1);
       tf(f1, 0, 0, 3 * Math.sin(t * 9), sz * fl, sz * (2 - fl));
       tf(f2, 0, 0, -4 * Math.sin(t * 11), sz * (2 - fl), sz * fl);
       tf(f3, 0, 0, 3 * Math.sin(t * 8 + 1), sz * fl, sz);
-      k.set(glow, { opacity: 0.18 + 0.3 * grow, r: 60 + 70 * grow });
+      k.set(glow, { opacity: 0.12 + 0.22 * grow, r: 60 + 70 * grow });
       sparks.forEach((s, i) => {
         const p = ((t * 1.1 + i * 0.2) % 1);
         k.set(s, { cx: FX + (i - 2) * 12 * (1 + grow) + Math.sin(t * 5 + i) * 6, cy: FY - 40 - p * (40 + 90 * grow), opacity: (1 - p) * (0.3 + 0.7 * grow) });

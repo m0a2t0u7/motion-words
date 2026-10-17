@@ -56,12 +56,12 @@ export function create(k) {
   const pad = padFront(k, b, S);
   tf(pad, 105 + 2, FY - 42 * S + 4, -6);
   const pn = pen(k, undefined, pal.blueDark);
-  const cd = card(k, 40, 22, 150, 90);
-  k.text(75, 38, 'NOTE', { 'font-size': 10, fill: pal.sub }, cd);
+  const cd = card(k, 40, 14, 150, 104);
+  k.text(75, 30, 'NOTE', { 'font-size': 10, fill: pal.sub }, cd);
   const notes = WORDS.map((w, i) => {
     const gg = g({ opacity: 0 }, cd);
-    el('circle', { cx: 22, cy: 56 + i * 18 - 1, r: 4.5, fill: cols[i] }, gg);
-    k.text(36, 56 + i * 18, w, { 'font-size': 15, 'text-anchor': 'start' }, gg);
+    el('circle', { cx: 22, cy: 52 + i * 20 - 1, r: 4.5, fill: cols[i] }, gg);
+    k.text(36, 52 + i * 20, w, { 'font-size': 15, 'text-anchor': 'start' }, gg);
     return gg;
   });
   return {

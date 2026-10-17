@@ -14,7 +14,7 @@ export function create(k) {
   const flag = g({});
   el('line', { x1: 0, y1: 0, x2: 0, y2: -30, stroke: pal.sub, 'stroke-width': 3, 'stroke-linecap': 'round' }, flag);
   el('path', { d: 'M 0 -30 L 22 -24 L 0 -16 Z', fill: pal.red }, flag);
-  tf(flag, CX(0) - 20, FY - 2);
+  tf(flag, CX(0) - 32, FY - 2);
   const goal = g({});
   el('line', { x1: 0, y1: 0, x2: 0, y2: -30, stroke: pal.sub, 'stroke-width': 3, 'stroke-linecap': 'round' }, goal);
   el('path', { d: 'M 0 -30 L 22 -24 L 0 -16 Z', fill: pal.green }, goal);

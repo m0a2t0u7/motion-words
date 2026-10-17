@@ -54,10 +54,10 @@ export function create(k) {
   const NUM = '555-0123';
   const say = k.text(60, 21, '', { 'font-size': 19, fill: pal.coralDark }, bub);
   // 手元の拡大カード
-  const cd = card(k, 40, 22, 150, 76);
-  k.text(75, 42, 'TEL', { 'font-size': 10, fill: pal.sub }, cd);
-  el('line', { x1: 14, y1: 62, x2: 134, y2: 62, stroke: '#E8D9A8', 'stroke-width': 2 }, cd);
-  const wr = k.text(75, 52, '', { 'font-size': 22, fill: pal.ink }, cd);
+  const cd = card(k, 40, 22, 150, 78);
+  k.text(75, 33, 'TEL', { 'font-size': 10, fill: pal.sub }, cd);
+  el('line', { x1: 14, y1: 66, x2: 134, y2: 66, stroke: '#E8D9A8', 'stroke-width': 2 }, cd);
+  const wr = k.text(75, 53, '', { 'font-size': 22, fill: pal.ink }, cd);
   el('path', { d: 'M 112 -10', fill: 'none' }, cd);
   return {
     update(t) {

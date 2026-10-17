@@ -30,7 +30,7 @@ export function create(k) {
       const drop = easeOut(seg(t, rel, rel + 0.4));
       sg.pose({ armR: lerp(168, 8, drop) + (t > rel + 0.5 ? 35 * easeOut(seg(t, rel + 0.5, rel + 0.9)) : 0), armL: t > rel + 0.5 ? 35 * easeOut(seg(t, rel + 0.5, rel + 0.9)) : 8, mood: t < rel + 0.5 ? 'smile' : 'open', look: 0.7 });
       const go = seg(t, 1.2, 3.2);
-      const x = lerp(215, 372, smooth(go));
+      const x = lerp(215, 335, smooth(go));
       const run = go > 0 && go < 1;
       const prep = hump(seg(t, 0.95, 1.2));
       const sw = Math.sin(t * 15) * 30;

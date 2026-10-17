@@ -13,7 +13,7 @@ export function create(k) {
   const cloud = g({});
   const parts = [[-64, 6, 30], [-26, -12, 38], [26, -14, 40], [66, 6, 30], [0, 8, 40]];
   const rim = g({}, cloud);
-  parts.forEach(([x, y, r]) => el('circle', { cx: x, cy: y, r: r + 4, fill: '#F4F7FB' }, rim));
+  parts.forEach(([x, y, r]) => el('circle', { cx: x, cy: y, r: r + 6, fill: '#FFFFFF' }, rim));
   const bodyG = g({}, cloud);
   parts.forEach(([x, y, r]) => el('circle', { cx: x, cy: y, r, fill: '#6F7A8E' }, bodyG));
   el('rect', { x: -70, y: 10, width: 140, height: 38, rx: 18, fill: '#6F7A8E' }, bodyG);
@@ -26,7 +26,7 @@ export function create(k) {
       const shine = smooth(seg(t, 1.7, 2.6));
       k.set(dim, { opacity: 0.4 * (1 - shine * 0.9) });
       const sp = smooth(seg(t, 2.0, 3.2));
-      tf(sun, 292, lerp(110, 86, sp), t * 8, 0.3 + 0.7 * sp, 0.3 + 0.7 * sp);
+      tf(sun, 338, lerp(112, 84, sp), t * 8, 0.3 + 0.7 * sp, 0.3 + 0.7 * sp);
       sun.setAttribute('opacity', sp);
       cloud.setAttribute('transform', 'translate(' + (236 + 6 * Math.sin(t)).toFixed(1) + ' 76)');
       rim.setAttribute('opacity', 0.15 + 0.85 * shine);

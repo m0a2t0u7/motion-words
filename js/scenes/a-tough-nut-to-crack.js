@@ -6,7 +6,7 @@ export const meta = { duration: 4.2, beats: [[0, '叩く'], [1.6, '割れない'
 export function create(k) {
   const { el, g, tf, pal } = k;
   const FY = k.backdrop({ floorY: 244 });
-  const S = 1.0, BX = 105;
+  const S = 1.0, BX = 150;
   // 切り株
   el('rect', { x: 215, y: FY - 30, width: 80, height: 32, rx: 6, fill: pal.wood });
   el('ellipse', { cx: 255, cy: FY - 30, rx: 40, ry: 8, fill: '#EBD2AE' });

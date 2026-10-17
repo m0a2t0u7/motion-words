@@ -37,7 +37,7 @@ export function create(k) {
       const ph = b.handPos('R');
       const settle = wobble(seg(t, 2.2, 3.0), 2, 5) * 1.5;
       const cx = t < 2.2 ? ph.x + 4 : 270, cy = t < 2.2 ? ph.y - 6 : 130;
-      tf(cloth, t < 0.5 ? ph.x : cx, t < 2.2 ? Math.min(cy, 128 + (1 - p2) * 0 + (t < 1.2 ? 0 : 0)) + (t < 2.2 ? 0 : 0) : 128 + settle * 0.3, t < 2.2 ? 20 * (1 - p2) : 0, 1 + 0.5 * p2, 1 + 0.15 * p2);
+      tf(cloth, t < 0.5 ? ph.x : cx, t < 2.2 ? Math.min(cy, 128 + (1 - p2) * 0 + (t < 1.2 ? 0 : 0)) + (t < 2.2 ? 0 : 0) : 124 + settle * 0.3, t < 2.2 ? 20 * (1 - p2) : 0, 1 + 0.5 * p2, 1 + 0.4 * p2);
       cloth.setAttribute('opacity', 1);
       ok.setAttribute('opacity', seg(t, 2.6, 2.9));
       tf(ok, 300, 96, 0, 1, 1);
