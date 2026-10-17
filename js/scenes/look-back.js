@@ -56,7 +56,7 @@ export function create(k) {
   el('rect', { x: -40, y: -64, width: 80, height: 64, rx: 4, fill: '#FBE9DC' }, h);
   el('path', { d: 'M -50 -60 L 0 -100 L 50 -60 Z', fill: pal.coral, stroke: pal.coral, 'stroke-width': 6, 'stroke-linejoin': 'round' }, h);
   el('rect', { x: -10, y: -40, width: 20, height: 40, rx: 3, fill: pal.blue }, h);
-  tree(k, 100, 222, 0.5);
+  tree(k, 70, 222, 0.5);
   tree(k, 345, 224, 0.7);
   const prints = [];
   for (let i = 0; i < 10; i++) prints.push(el('ellipse', { cx: 130 + i * 13, cy: 252 + (i % 2) * 5, rx: 5, ry: 2.6, fill: '#BFB197' }));
