@@ -16,7 +16,7 @@ const R_FOOD = [[0x1F345, 0x1F37F], [0x1F950, 0x1F96F], [0x1F9C0, 0x1F9CB], [0x1
 const R_BIG = [[0x1F3E0, 0x1F3F0], [0x1F6AA], [0x1FA9F], [0x1F6D7], [0x1F6CF], [0x1F6CB], [0x1FA91], [0x1FA9E], [0x26EA], [0x1F5FC]];
 export const isPerson = (e) => !!e && within(e, R_PERSON);
 const isProp = (e) => !!e && !isPerson(e) && !within(e, R_GESTURE) && !within(e, R_ABSTRACT);
-const isFood = (e) => !!e && within(e, R_FOOD);
+const isFood = (e) => !!e && within(e, R_FOOD) && !has(e, ['🍽', '🍴', '🥄', '🥢']);
 const isBig = (e) => !!e && within(e, R_BIG);
 const has = (e, list) => !!e && list.some((x) => e.startsWith(x));
 const pick = (e, fb) => (isProp(e) ? e : fb);
@@ -409,14 +409,15 @@ export function create(k, p) {
     const sweat = g({}); droplet(sweat);
     return (t) => {
       const go = seg(t, 0.9, 3.2);
-      const x = lerp(120, 420, easeIn(go) * 0.4 + go * 0.6);
+      const x = lerp(120, 330, easeOut(go) * 0.5 + go * 0.5);
+      const mvv = t > 0.9 && t < 3.2;
       tf(gate, 92 + easeOut(seg(t, 0.4, 0.8)) * 50, FY - 96, 0, lerp(1, 0.3, easeOut(seg(t, 0.4, 0.8))), 1);
-      const mv = t > 0.9;
-      b.pose({ x, walk: mv ? t * 15 : 0, lean: mv ? 14 : 0, armL: mv ? 30 + Math.sin(t * 15) * 50 : 8, armR: mv ? 30 - Math.sin(t * 15) * 50 : 8, look: t < 0.9 ? Math.sin(t * 7) : -0.8, mood: 'open', lift: mv ? Math.abs(Math.sin(t * 15)) * 5 : 0 });
+      const mv = mvv;
+      b.pose({ x, walk: mv ? t * 15 : 0, lean: mv ? 14 : 0, armL: mv ? 30 + Math.sin(t * 15) * 50 : 8, armR: mv ? 30 - Math.sin(t * 15) * 50 : 8, look: t < 0.9 ? Math.sin(t * 7) : -0.8, mood: t > 3.2 ? 'grin' : 'open', lift: mv ? Math.abs(Math.sin(t * 15)) * 5 : 0 });
       setPuffs(P, x - 30, FY, ((t - 0.9) * 2) % 1, -1);
       show(P.s, mv ? 1 : 0);
       tf(sweat, x + 26, FY - 96 - ((t * 3) % 1) * 6);
-      show(sweat, mv ? 1 - ((t * 3) % 1) : 0);
+      show(sweat, t > 0.9 ? 1 - ((t * 3) % 1) : 0);
     };
   }
   function train() {
@@ -450,7 +451,7 @@ export function create(k, p) {
   }
   function flow() {
     bgOut({ hills: false, ground: '#CDE6BE' });
-    el('path', { d: `M 0 150 Q 80 140 160 150 L 160 ${FY} L 0 ${FY} Z`, fill: '#CBE6C2' });
+    el('path', { d: `M 0 150 Q 90 140 140 158 Q 180 176 200 ${FY - 20} L 200 ${FY} L 0 ${FY} Z`, fill: '#CBE6C2' });
     const sea = el('path', { d: `M 250 ${FY - 50} Q 330 ${FY - 62} 400 ${FY - 58} L 400 ${H} L 230 ${H} Z`, fill: '#7FC4EA' });
     void sea;
     el('path', { d: `M -10 ${FY - 6} C 80 ${FY - 20} 120 ${FY + 40} 200 ${FY + 20} S 260 ${FY - 20} 300 ${FY - 30}`, stroke: '#8FD3F4', 'stroke-width': 34, fill: 'none', 'stroke-linecap': 'round' });
@@ -503,6 +504,8 @@ export function create(k, p) {
     const O = prop || bag;
     const sh = k.shadow(200, FY + 2, 44, 7);
     const b = B(200, { scale: 0.95 });
+    sh.parentNode.insertBefore(sh, b.w);
+    b.w.parentNode.insertBefore(b.w, O);
     const sweat = g({}); droplet(sweat); tf(droplet(sweat), 14, 8);
     const sh2 = k.shadow(0, 0, 1, 1); void sh2;
     return (t) => {
@@ -557,8 +560,9 @@ export function create(k, p) {
   }
   function drop() {
     bgRoom({ win: [280, 60] });
-    const o = gemo(pick(e, '📱'), 40);
+    const o = emo(pick(e, '📱'), 40);
     const sh = k.shadow(0, 0, 18, 4);
+    sh.parentNode.insertBefore(sh, o);
     const lines = g({});
     for (let i = 0; i < 3; i++) el('line', { x1: -20 + i * 20, y1: -4, x2: -28 + i * 28, y2: -16, stroke: pal.sub, 'stroke-width': 3, 'stroke-linecap': 'round' }, lines);
     const b = B(170, { scale: 0.95 });
@@ -566,13 +570,11 @@ export function create(k, p) {
       b.pose({ armR: t < 1.0 ? lerp(8, 80, easeOut(seg(t, 0.2, 0.7))) : 80 + seg(t, 1.0, 1.15) * 20, mood: t > 1.1 ? 'open' : 'smile', look: t > 1.1 ? 0.6 : 0.3, lean: t > 1.2 ? 8 : 0 });
       const h = b.handPos('R');
       const fq = seg(t, 1.05, 1.6);
-      const y0 = h.y + 16;
-      let y = lerp(y0, FY, easeIn(fq)), x = h.x + 6 + fq * 30, r = fq * 160;
-      if (t > 1.6) { const bq = seg(t, 1.6, 2.1); y = FY - hump(bq) * 14; x = h.x + 36 + bq * 10; r = 160 + bq * 20; }
-      if (t > 2.1) { r = 180; x = h.x + 46; y = FY; }
+      const y0 = h.y + 4;
+      let y = lerp(y0, FY - 14, easeIn(fq)), x = h.x + 6 + fq * 30, r = fq * 70;
+      if (t > 1.6) { const bq = seg(t, 1.6, 2.1); y = FY - 14 - hump(bq) * 16; x = h.x + 36 + bq * 12; r = 70 + bq * 20; }
       const sq = wobble(seg(t, 1.6, 2.4), 2, 5) * 0.15;
-      tf(o, x, y - (r > 90 ? 0 : 0), r > 170 ? 180 : r, 1 + sq, 1 - sq);
-      if (r > 170) tf(o, x, y - 40, 180, 1 + sq, 1 - sq);
+      tf(o, x, y, r, 1 + sq, 1 - sq);
       tf(sh, x, FY + 2, 0, 0.4 + fq * 0.6, 1);
       tf(lines, x, FY - 10);
       show(lines, t > 1.6 && t < 2.2 ? 1 - seg(t, 1.6, 2.2) : 0);
@@ -763,7 +765,7 @@ export function create(k, p) {
       const kick = hump(seg(t, 0.4, 0.9));
       b.pose({ lean: -kick * 10, armL: 8 + kick * 40, armR: 8 + kick * 40, lift: kick * 4, look: 0.7, mood: t > 2.5 ? 'open' : 'smile' });
       const q = easeOut(seg(t, 0.75, 2.8));
-      const x = lerp(112, 300, q);
+      const x = lerp(112, 248, q);
       tf(ball, x, FY + 16, (x - 112) / 17 * 57.3);
       tf(bsh, x, FY + 34);
       void Car;
@@ -965,12 +967,12 @@ export function create(k, p) {
   }
   function pay(kind) {
     bgRoom({ wall: '#F3F1EA', pic: [40, 64] });
-    const c = B(296, { ...C2, scale: 0.9, facing: -1 });
+    const c = B(296, { ...C2, y: FY - 22, scale: 0.9, facing: -1 });
     const ctr = g({});
-    el('rect', { x: 230, y: FY - 70, width: 170, height: 70, fill: '#C8D6E3' }, ctr);
-    el('rect', { x: 222, y: FY - 78, width: 178, height: 12, rx: 4, fill: '#A9BCCD' }, ctr);
-    el('rect', { x: 340, y: FY - 110, width: 46, height: 34, rx: 5, fill: '#5D6B80' }, ctr);
-    el('rect', { x: 346, y: FY - 104, width: 34, height: 12, rx: 2, fill: '#A6E3C7' }, ctr);
+    el('rect', { x: 230, y: FY - 46, width: 170, height: 46, fill: '#C8D6E3' }, ctr);
+    el('rect', { x: 222, y: FY - 54, width: 178, height: 12, rx: 4, fill: '#A9BCCD' }, ctr);
+    el('rect', { x: 340, y: FY - 86, width: 46, height: 34, rx: 5, fill: '#5D6B80' }, ctr);
+    el('rect', { x: 346, y: FY - 80, width: 34, height: 12, rx: 2, fill: '#A6E3C7' }, ctr);
     const a = B(110, { scale: 0.9 });
     const coin = g({});
     [[0, 0], [8, -5]].forEach(([x, y]) => { el('circle', { cx: x, cy: y, r: 9, fill: pal.yellow, stroke: pal.yellowDark, 'stroke-width': 2.5 }, coin); });
@@ -1015,7 +1017,7 @@ export function create(k, p) {
   function eat(kind) {
     bgRoom({ win: [50, 60] });
     const b = B(200, { scale: 0.95 });
-    const top = table(110, 180, 66);
+    const top = table(110, 180, 48);
     el('ellipse', { cx: 236, cy: top - 1, rx: 32, ry: 7, fill: '#FFFFFF', stroke: '#D9DFE7', 'stroke-width': 2 });
     const food = g({});
     const ch = kind === 'swallow' ? '💊' : isFood(e) ? e : has(e, ['🦷']) ? '🍎' : '🍙';
@@ -1064,7 +1066,7 @@ export function create(k, p) {
   function drink() {
     bgRoom({ win: [270, 60] });
     const b = B(170, { scale: 0.95 });
-    table(70, 200, 66);
+    table(70, 200, 48);
     const gl = g({});
     const liq = has(e, ['🥛']) || !isProp(e) ? '#FFFFFF' : has(e, ['☕', '🍵']) ? pal.coffee : '#FFB463';
     const cp = k.clip((c) => el('path', { d: 'M -13 -40 L 13 -40 L 10 0 L -10 0 Z' }, c));
@@ -1076,7 +1078,7 @@ export function create(k, p) {
       const tilt = easeInOut(seg(t, 1.1, 1.6)) * (1 - easeInOut(seg(t, 2.4, 2.8)));
       b.pose({ armR: lerp(8, 140, up) - tilt * 10, lean: -tilt * 10, look: 0.3, mood: t > 2.8 ? 'grin' : tilt > 0.5 ? 'open' : 'smile', blink: tilt > 0.5 ? 1 : 0 });
       const h = b.handPos('R');
-      const x = lerp(232, h.x + 4, up), y = lerp(FY - 66, h.y + 30, up);
+      const x = lerp(232, h.x + 4, up), y = lerp(FY - 48, h.y + 30, up);
       const level = 1 - seg(t, 1.4, 2.6) * 0.92;
       tf(gl, x, y, -tilt * 70);
       const tilted = -tilt * 70 * Math.PI / 180;
@@ -1268,18 +1270,18 @@ export function create(k, p) {
   function carry() {
     bgRoom({ pic: [40, 66] });
     const st = g({});
-    for (let i = 0; i < 5; i++) el('rect', { x: 260 + i * 28, y: FY - (i + 1) * 20, width: 140 - i * 28, height: 20, fill: i % 2 ? '#D8BF98' : '#E2CBA6', stroke: '#CDB28A', 'stroke-width': 1 }, st);
+    for (let i = 0; i < 5; i++) el('rect', { x: 210 + i * 26, y: FY - (i + 1) * 20, width: 190 - i * 26, height: 20, fill: i % 2 ? '#D8BF98' : '#E2CBA6', stroke: '#CDB28A', 'stroke-width': 1 }, st);
     const box = g({});
     if (isProp(e)) gemo(e, 42, box);
     else { el('rect', { x: -22, y: -36, width: 44, height: 36, rx: 3, fill: '#D5A86C' }, box); el('rect', { x: -22, y: -36, width: 44, height: 8, fill: '#C29055' }, box); el('rect', { x: -4, y: -36, width: 8, height: 36, fill: '#E8C99A' }, box); }
     const b = B(60, { scale: 0.85 });
     return (t) => {
-      const s = stride(t, 0.6, 1.8, 60, 250, 9);
+      const s = stride(t, 0.6, 1.8, 60, 200, 9);
       const q = seg(t, 1.8, 3.4);
       const sy = q > 0 ? FY - Math.min(100, q * 5 * 20 - (1 - Math.cos(q * 5 * Math.PI * 2)) * 0) : FY;
       const stepY = q > 0 ? FY - (Math.floor(q * 5) + easeInOut((q * 5) % 1)) * 20 : FY;
       void sy;
-      const x = t < 1.8 ? s.x : lerp(250, 360, q);
+      const x = t < 1.8 ? s.x : lerp(200, 330, q);
       const lift0 = easeOut(seg(t, 0.1, 0.5));
       b.pose({ x, y: Math.max(FY - 100, stepY), walk: t > 0.6 && t < 3.4 ? t * 9 : 0, armL: 8 + lift0 * 72, armR: 8 + lift0 * 72, lean: -4 * lift0, mood: t > 3.4 ? 'grin' : lift0 > 0.5 ? 'flat' : 'smile' });
       const h = b.handPos('R');
@@ -1454,7 +1456,7 @@ export function create(k, p) {
   }
   function fill() {
     bgRoom({ win: [50, 60] });
-    const top = table(160, 180, 66);
+    const top = table(160, 180, 52);
     const gx = 290;
     const cp = k.clip((c) => el('path', { d: `M ${gx - 18} ${top - 56} L ${gx + 18} ${top - 56} L ${gx + 14} ${top} L ${gx - 14} ${top} Z` }, c));
     const lv = el('rect', { x: gx - 30, y: top, width: 60, height: 60, fill: '#8FD3F4', 'clip-path': cp });
@@ -1470,9 +1472,9 @@ export function create(k, p) {
     return (t) => {
       const up = easeInOut(seg(t, 0.4, 1.0)) * (1 - easeInOut(seg(t, 2.6, 3.1)));
       const tilt = easeInOut(seg(t, 0.9, 1.3)) * (1 - easeInOut(seg(t, 2.3, 2.6)));
-      b.pose({ armR: lerp(30, 95, up), lean: tilt * 8, look: 0.8, mood: t > 2.7 ? 'grin' : 'flat' });
+      b.pose({ armR: lerp(30, 120, up), lean: tilt * 6, look: 0.8, mood: t > 2.7 ? 'grin' : 'flat' });
       const h = b.handPos('R');
-      const px = h.x + 26, py = h.y + 22;
+      const px = lerp(h.x + 14, gx - 40, up), py = lerp(h.y + 30, top - 70, up);
       tf(pit, px, py, tilt * 55);
       const sx = px + 28 * Math.cos(tilt * 55 * Math.PI / 180) + 30 * Math.sin(tilt * 55 * Math.PI / 180), sy = py - 40 * Math.cos(tilt * 55 * Math.PI / 180) + 20 * Math.sin(tilt * 55 * Math.PI / 180);
       const lvl = seg(t, 1.25, 2.45);
@@ -1535,7 +1537,7 @@ export function create(k, p) {
       const fq = seg(t, 1.0, 1.55);
       const y = t < 1.0 ? h.y + 30 : lerp(h.y + 30, FY, easeIn(fq));
       const x = h.x + 4 + fq * 18;
-      tf(cup, x, y, fq * 90);
+      tf(cup, x, y - 10 * (1 - fq), fq * 90, 1.4);
       show(cup, t < 1.55 ? 1 : 0);
       const sq = seg(t, 1.55, 2.3);
       shards.forEach(([s, dir], i) => {
@@ -1566,20 +1568,20 @@ export function create(k, p) {
     el('circle', { cx: 0, cy: 0, r: 30, fill: 'none', stroke: '#3B4252', 'stroke-width': 6 }, front);
     for (let i = 0; i < 6; i++) el('line', { x1: 0, y1: 0, x2: 0, y2: -27, stroke: '#9AA3B1', 'stroke-width': 1.6, transform: `rotate(${i * 60})` }, front);
     el('circle', { cx: 0, cy: 0, r: 4, fill: '#5A6170' }, front);
-    tf(bike, 220, FY);
-    k.shadow(225, FY + 2, 90, 6);
+    tf(bike, 270, FY);
+    k.shadow(275, FY + 2, 90, 6);
     void back;
     const wr = gemo(pick(e, '🔧'), 30);
     const b = B(110, { scale: 0.9 });
     const sp = g({}); [[0, 0], [20, -18], [-16, -24]].forEach(([x, y]) => { const s = g({}, sp); star4(s, pal.yellow, 8); tf(s, x, y); });
     return (t) => {
       const q = easeInOut(seg(t, 1.0, 2.2));
-      tf(front, lerp(300, 276, q), lerp(FY - 22, FY - 30, q), lerp(-70, 0, q) + (t > 2.2 ? (t - 2.2) * 200 : 0), 1, lerp(0.45, 1, q));
+      tf(front, lerp(352, 326, q), lerp(FY - 22, FY - 30, q), lerp(-70, 0, q) + (t > 2.2 ? (t - 2.2) * 200 : 0), 1, lerp(0.45, 1, q));
       const work = t > 0.8 && t < 2.4;
-      b.pose({ x: 110 + easeOut(seg(t, 0.2, 0.8)) * 60, walk: t > 0.2 && t < 0.8 ? t * 9 : 0, armR: work ? 80 + Math.sin(t * 14) * 18 : 30, lean: work ? 14 : 0, mood: t > 2.4 ? 'grin' : 'flat', look: 0.8 });
+      b.pose({ x: 90 + easeOut(seg(t, 0.2, 0.8)) * 70, walk: t > 0.2 && t < 0.8 ? t * 9 : 0, armR: work ? 80 + Math.sin(t * 14) * 18 : 30, lean: work ? 14 : 0, mood: t > 2.4 ? 'grin' : 'flat', look: 0.8 });
       const h = b.handPos('R');
       tf(wr, h.x + 6, h.y + 22, work ? Math.sin(t * 14) * 25 : 0);
-      tf(sp, 280, FY - 80, 0, ss(backOut(seg(t, 2.3, 2.7))));
+      tf(sp, 320, FY - 80, 0, ss(backOut(seg(t, 2.3, 2.7))));
       show(sp, t > 2.3 ? 1 : 0);
     };
   }
@@ -1632,8 +1634,10 @@ export function create(k, p) {
     bgRoom({ wall: '#EEF4F2', wall2: '#F7FAF9', wains: '#E1ECE8', floor: '#D9DED8' });
     for (let x = 0; x < W; x += 30) el('line', { x1: x, y1: FY - 140, x2: x, y2: FY - 60, stroke: '#DDE8E4', 'stroke-width': 2 });
     for (let y = FY - 140; y < FY - 60; y += 30) el('line', { x1: 0, y1: y, x2: W, y2: y, stroke: '#DDE8E4', 'stroke-width': 2 });
-    el('rect', { x: 170, y: FY - 74, width: 230, height: 74, fill: '#C9D3DA' });
-    el('rect', { x: 164, y: FY - 80, width: 236, height: 10, rx: 3, fill: '#AEB9C3' });
+    el('rect', { x: 196, y: FY - 74, width: 204, height: 74, fill: '#C9D3DA' });
+    el('rect', { x: 190, y: FY - 80, width: 210, height: 10, rx: 3, fill: '#AEB9C3' });
+    el('rect', { x: 250, y: FY - 86, width: 80, height: 6, rx: 3, fill: '#5D6B80' });
+    el('circle', { cx: 214, cy: FY - 54, r: 7, fill: '#5D6B80' });
     el('rect', { x: 230, y: FY - 54, width: 120, height: 44, rx: 6, fill: '#5D6B80' });
     el('rect', { x: 240, y: FY - 46, width: 100, height: 26, rx: 4, fill: '#7E8BA0' });
     return FY - 80;
@@ -1642,7 +1646,7 @@ export function create(k, p) {
     const top = stove();
     const fl = g({});
     const flames = [-18, 0, 18].map((x) => el('path', { d: 'M 0 0 Q -7 -10 0 -22 Q 7 -10 0 0 Z', fill: '#FF8A4C', transform: `translate(${x} 0)` }, fl));
-    tf(fl, 290, top);
+    tf(fl, 290, top - 6);
     const pot = g({});
     el('rect', { x: -40, y: -46, width: 80, height: 46, rx: 8, fill: '#9AA6B6' }, pot);
     el('rect', { x: -44, y: -50, width: 88, height: 8, rx: 4, fill: '#7E8BA0' }, pot);
@@ -1650,10 +1654,11 @@ export function create(k, p) {
     const lid = g({}, pot);
     el('path', { d: 'M -40 -50 Q 0 -66 40 -50 Z', fill: '#B6C0CC' }, lid);
     el('circle', { cx: 0, cy: -62, r: 5, fill: '#5D6B80' }, lid);
-    tf(pot, 290, top - 6);
+    tf(pot, 290, top - 24);
     const steam = g({});
-    const S = [0, 1, 2].map((i) => el('path', { d: 'M 0 0 q -8 -12 0 -24 q 8 -12 0 -24', stroke: '#FFFFFF', 'stroke-width': 5, fill: 'none', 'stroke-linecap': 'round', opacity: 0 }, steam));
+    const S = [0, 1, 2].map((i) => el('path', { d: 'M 0 0 q -8 -12 0 -24 q 8 -12 0 -24', stroke: '#C9D2DC', 'stroke-width': 5, fill: 'none', 'stroke-linecap': 'round', opacity: 0 }, steam));
     const b = B(150, { scale: 0.95 });
+    b.w.parentNode.insertBefore(b.w, fl);
     return (t) => {
       const on = easeOut(seg(t, 0.7, 1.4));
       flames.forEach((f, i) => { const s = on * (0.8 + Math.sin(t * 20 + i * 2) * 0.2); f.setAttribute('transform', `translate(${(i - 1) * 18} 0) scale(${ss(s)})`); });
@@ -1661,13 +1666,13 @@ export function create(k, p) {
       const boil = seg(t, 1.6, 2.6);
       const rattle = boil > 0 ? Math.max(0, Math.sin(t * 30)) * 3 * boil : 0;
       lid.setAttribute('transform', `translate(0 ${-rattle}) rotate(${rattle})`);
-      S.forEach((s, i) => { const q = ((t * 0.8 + i * 0.33) % 1); s.setAttribute('transform', `translate(${(i - 1) * 22} ${-70 - q * 40})`); s.setAttribute('opacity', boil * (1 - q) * 0.9); });
+      S.forEach((s, i) => { const q = ((t * 0.8 + i * 0.33) % 1); s.setAttribute('transform', `translate(${(i - 1) * 22} ${-90 - q * 40})`); s.setAttribute('opacity', boil * (1 - q) * 0.9); });
       tf(steam, 290, top);
     };
   }
   function cool() {
     bgRoom({ win: [40, 60] });
-    const top = table(170, 200, 66);
+    const top = table(170, 200, 48);
     const bowl = g({});
     el('path', { d: 'M -40 0 Q -38 34 0 36 Q 38 34 40 0 Z', fill: '#FFFFFF', stroke: '#C9D2DC', 'stroke-width': 2 }, bowl);
     el('ellipse', { cx: 0, cy: 0, rx: 40, ry: 8, fill: '#F2A65A' }, bowl);
@@ -1826,7 +1831,7 @@ export function create(k, p) {
       const q = easeInOut(seg(t, 0.8, 2.0));
       const x = lerp(170, 290, q);
       tf(cat, x, FY - 2 + (q > 0.5 ? (q - 0.5) * 20 : 0), 0, -1, 1);
-      show(cat, q < 0.95 ? 1 : 0);
+      show(cat, x < 236 ? 1 : 0);
       tf(csh, x, FY + 1);
       show(csh, q < 0.4 ? 1 : 0);
       const lk = t > 2.2 ? Math.sin((t - 2.2) * 5) : 0.8;
@@ -1877,9 +1882,10 @@ export function create(k, p) {
   function showBig() {
     const outside = has(e, ['🏠', '🏡', '🏢', '🏫', '🏬', '🏥', '⛪', '🗼', '🏰', '🏯']);
     if (outside) bgOut(); else bgRoom({ pic: [40, 64] });
-    k.shadow(255, FY + 4, 70, 9);
-    const o = gemo(e, 150);
-    tf(o, 255, FY + 8);
+    if (!has(e, ['🪟', '🖼'])) k.shadow(255, FY + 4, 70, 9);
+    const onWall = has(e, ['🪟', '🖼']);
+    const o = gemo(e, onWall ? 110 : 150);
+    tf(o, 255, onWall ? FY - 70 : FY + 8);
     const sp = g({}); [[-80, -150], [70, -130], [-60, -60]].forEach(([x, y]) => { const s = g({}, sp); star4(s, pal.yellow, 10); tf(s, x, y); });
     const b = B(-40, { scale: 0.85 });
     return (t) => {
@@ -1930,6 +1936,7 @@ export function create(k, p) {
       show(spot, 0.7 * seg(t, 1.4, 1.9));
       const pop = 1 + hump(seg(t, 1.5, 2.0)) * 0.12;
       tf(o, 255, top + 4 - hump(seg(t, 1.5, 2.0)) * 6, 0, pop, pop);
+      show(o, food ? (t > 0.95 ? 1 : 0) : (t > 1.1 ? 1 : 0));
       sp.childNodes.forEach((s2, i) => { const q = seg(t, 1.8 + i * 0.12, 2.2 + i * 0.12); s2.setAttribute('opacity', q * (0.6 + 0.4 * Math.sin(t * 5 + i))); });
       tf(sp, 255, top - 30);
     };
@@ -1953,7 +1960,7 @@ export function create(k, p) {
     if (m === 'worried' || m === 'busy') { add((G) => droplet(G, '#8FC7EE')); add((G) => el('path', { d: 'M -18 0 C -12 -14 -2 10 4 -4 S 16 -6 18 2', stroke: pal.sub, 'stroke-width': 3, fill: 'none', 'stroke-linecap': 'round' }, G)); }
     if (m === 'calm') for (let i = 0; i < 3; i++) add((G) => el('path', { d: 'M -9 0 Q 0 -9 9 0 Q 0 7 -9 0 Z', fill: '#8ED1A4' }, G));
     if (m === 'sick') add((G) => { el('rect', { x: -3, y: -28, width: 6, height: 30, rx: 3, fill: '#FFFFFF', stroke: '#C9D2DC' }, G); el('circle', { cx: 0, cy: 2, r: 5, fill: pal.red }, G); });
-    const blue = el('path', { d: '', fill: '#7A86C8', opacity: 0 });
+    const blue = el('path', { d: '', stroke: '#7A86C8', 'stroke-width': 3, 'stroke-linecap': 'round', fill: 'none', opacity: 0 });
     const cheeks = g({});
     [-1, 1].forEach((s) => el('ellipse', { cx: s * 20, cy: 0, rx: 8, ry: 4, fill: pal.red, opacity: 0.55 }, cheeks));
     const papers = g({});
@@ -1990,12 +1997,12 @@ export function create(k, p) {
         Object.assign(P, { mood: q > 0.2 ? 'open' : 'smile', lift: jump * 26, armL: lerp(8, m === 'scared' ? 100 : 150, q), armR: lerp(8, m === 'scared' ? 100 : 150, q), lean: m === 'scared' ? -10 * q : -4 * q, x: 200 + shiver - (m === 'scared' ? 20 * q : 0), squash: 1 + 0.05 * q });
         show(parts[0], seg(t, 1.1, 1.3)); tf(parts[0], 250, head - 20 - P.lift, 0, ss(backOut(seg(t, 1.1, 1.4))));
         parts.slice(1).forEach((G, i) => { show(G, seg(t, 1.1, 1.3) * (0.6 + 0.4 * Math.sin(t * 10))); tf(G, 200 + (i - 1) * 30, head - 14 - P.lift, (i - 1) * 30); });
-        if (m === 'scared') { show(blue, 0.45 * q); k.set(blue, { d: `M ${P.x - 22} ${FY - 92 * S - P.lift} L ${P.x + 22} ${FY - 92 * S - P.lift} L ${P.x + 22} ${FY - 72 * S - P.lift} L ${P.x - 22} ${FY - 72 * S - P.lift} Z` }); }
+        if (m === 'scared') { show(blue, 0.9 * q); { const y0 = FY - 96 * S - P.lift, xx = P.x; k.set(blue, { d: `M ${xx - 14} ${y0} l 0 14 M ${xx - 4} ${y0 - 2} l 0 18 M ${xx + 6} ${y0 - 2} l 0 18 M ${xx + 16} ${y0} l 0 14` }); } }
       } else if (m === 'tired' || m === 'sick') {
         const yawn = m === 'tired' && t > 1.0 && t < 2.0;
         Object.assign(P, { mood: yawn ? 'open' : q > 0.3 ? (m === 'sick' ? 'sad' : 'flat') : 'smile', lean: 12 * q, squash: 1 - 0.1 * q + (t > 1.7 ? Math.sin(t * 2) * 0.01 : 0), armL: yawn ? 150 : 0, armR: 0, blink: q > 0.3 ? (m === 'tired' ? 0.7 : 0.5) : P.blink });
         parts.forEach((G, i) => { if (i > 2) return; const r = ((t * 0.6 + i * 0.33) % 1); show(G, seg(t, 1.6, 2.0) * hump(r)); tf(G, 240 + i * 10 + r * 20, head - r * 50); });
-        if (m === 'sick') { show(parts[3], seg(t, 1.6, 1.9)); tf(parts[3], 218, FY - 55 * S, 70); show(blue, 0.4 * q); k.set(blue, { d: `M 178 ${FY - 104 * S} L 222 ${FY - 104 * S} L 222 ${FY - 84 * S} L 178 ${FY - 84 * S} Z` }); }
+        if (m === 'sick') { show(parts[3], seg(t, 1.6, 1.9)); tf(parts[3], 218, FY - 55 * S, 70); show(blue, 0.9 * q); { const y0 = FY - 96 * S; k.set(blue, { d: `M 188 ${y0} l 0 14 M 198 ${y0 - 2} l 0 18 M 208 ${y0 - 2} l 0 18 M 218 ${y0} l 0 14` }); } }
       } else if (m === 'worried' || m === 'busy') {
         const busy = m === 'busy';
         if (busy) {
@@ -2025,6 +2032,7 @@ export function create(k, p) {
       const G = g({});
       const sh = k.shadow(0, 2, 30, 6, G);
       const o = gemo(ch, 70, G);
+      if (rel === 'faster' || rel === 'first') o.setAttribute('transform', 'scale(-1 1)');
       return { kind: 'emo', g: G, o, sh };
     };
     if (rel === 'faster' || rel === 'first') {
@@ -2032,6 +2040,8 @@ export function create(k, p) {
       el('rect', { x: 350, y: FY - 60, width: 6, height: 110, fill: '#FFFFFF' });
       for (let i = 0; i < 9; i++) el('rect', { x: 350, y: FY - 60 + i * 12, width: 6, height: 6, fill: pal.ink });
     }
+    const nearFar = rel === 'near' || rel === 'far';
+    const me = nearFar ? B(90, { scale: 0.8 }) : null;
     const A = actor(p.e || '⬛', 130), Bt = actor(p.e2 || p.e || '⬛', 270, C2);
     const guide = el('line', { x1: 0, y1: 0, x2: 0, y2: 0, stroke: pal.coralDark, 'stroke-width': 2.5, 'stroke-dasharray': '6 6', opacity: 0 });
     const guideA = el('line', { x1: 0, y1: 0, x2: 0, y2: 0, stroke: pal.sub, 'stroke-width': 2.5, 'stroke-dasharray': '6 6', opacity: 0 });
@@ -2060,7 +2070,8 @@ export function create(k, p) {
         show(speed, t > 0.8 && t < 2.6 ? 1 : 0); tf(speed, bx - 30, by - 20);
       } else if (rel === 'near' || rel === 'far') {
         ax = 340; as = 0.55; ay = FY - 30;
-        bx = rel === 'near' ? lerp(320, 190, q) : lerp(190, 340, q); bs = rel === 'near' ? lerp(0.55, 1.2, q) : lerp(1.2, 0.5, q); by = rel === 'near' ? lerp(FY - 30, FY + 20, q) : lerp(FY + 20, FY - 28, q);
+        bx = rel === 'near' ? lerp(320, 200, q) : lerp(200, 330, q);
+        me.pose({ look: 0.8, armR: lerp(8, 100, easeOut(seg(t, 2.2, 2.6))), mood: t > 2.4 ? 'grin' : 'smile' }); bs = rel === 'near' ? lerp(0.55, 1.2, q) : lerp(1.2, 0.5, q); by = rel === 'near' ? lerp(FY - 30, FY + 20, q) : lerp(FY + 20, FY - 28, q);
       } else if (rel === 'same' || rel === 'different') {
         as = 1.2; bs = 1.2;
         if (rel === 'different') { bs = lerp(1.2, 0.7, q); }
@@ -2085,60 +2096,71 @@ export function create(k, p) {
   // =============== time ===============
   function time() {
     const rel = p.rel || 'now';
-    bgRoom({ wall: '#F2F4F8', wall2: '#FAFBFD', wains: '#E8ECF2', floor: '#DCE2EA' });
-    const ly = 168;
-    el('rect', { x: 30, y: ly - 4, width: 330, height: 8, rx: 4, fill: '#C9D2DC' });
-    el('path', { d: `M 356 ${ly - 14} L 376 ${ly} L 356 ${ly + 14} Z`, fill: '#C9D2DC' });
-    const ticks = [60, 100, 140, 180, 220, 260, 300, 340];
-    ticks.forEach((x) => el('rect', { x: x - 1.5, y: ly - 10, width: 3, height: 20, rx: 1.5, fill: '#B5C0CC' }));
+    el('rect', { x: 0, y: 0, width: W, height: H, fill: k.gradient([[0, '#EEF3FA'], [1, '#FBFCFE']]) });
+    const ly = 214;
+    el('rect', { x: 0, y: ly + 10, width: W, height: H - ly, fill: '#E6ECF3' });
+    el('rect', { x: 24, y: ly - 6, width: 336, height: 12, rx: 6, fill: '#D3DBE5' });
+    el('path', { d: `M 354 ${ly - 18} L 380 ${ly} L 354 ${ly + 18} Z`, fill: '#D3DBE5' });
+    const ticks = [50, 92, 134, 176, 218, 260, 302, 344];
+    ticks.forEach((x) => el('rect', { x: x - 2, y: ly - 14, width: 4, height: 28, rx: 2, fill: '#BAC5D2' }));
     const NOW = 200;
-    const past = el('rect', { x: 30, y: ly - 4, width: NOW - 30, height: 8, rx: 4, fill: '#A9D8C7' });
+    const past = el('rect', { x: 24, y: ly - 6, width: 0, height: 12, rx: 6, fill: '#9ED8C4' });
     const nowM = g({});
-    el('rect', { x: -2, y: -30, width: 4, height: 60, rx: 2, fill: pal.coral }, nowM);
-    k.text(0, 46, 'NOW', { 'font-size': 13, fill: pal.coralDark }, nowM);
+    el('rect', { x: -2.5, y: -150, width: 5, height: 172, rx: 2.5, fill: pal.coral, opacity: 0.85 }, nowM);
+    el('rect', { x: -26, y: 26, width: 52, height: 22, rx: 11, fill: pal.coral }, nowM);
+    k.text(0, 38, 'NOW', { 'font-size': 13, fill: '#FFFFFF' }, nowM);
+    tf(nowM, NOW, ly);
     const evCh = isProp(e) && !has(e, ['🕐', '⏳', '📅']) ? e : null;
-    const mkEv = () => { const G = g({}); el('path', { d: 'M 0 0 L -9 -14 Q 0 -20 9 -14 Z', fill: pal.violet }, G); el('circle', { cx: 0, cy: -26, r: 15, fill: '#FFFFFF', stroke: pal.violet, 'stroke-width': 3 }, G); if (evCh) { const o = emo(evCh, 18, G); tf(o, 0, -26); } else star4(G, pal.violet, 8).setAttribute('transform', 'translate(0 -26)'); return G; };
-    const pos = { before: [110], ago: [100], already: [130], after: [290], later: [320], soon: [250], now: [NOW], always: ticks, often: [60, 140, 180, 260, 340], again: [120, NOW], still: [], never: [] }[rel] || [NOW];
+    const mkEv = () => {
+      const G = g({});
+      el('rect', { x: -1.5, y: -96, width: 3, height: 96, fill: pal.violet, opacity: 0.5 }, G);
+      el('circle', { cx: 0, cy: -112, r: 19, fill: '#FFFFFF', stroke: pal.violet, 'stroke-width': 4 }, G);
+      if (evCh) { const o = emo(evCh, 22, G); tf(o, 0, -112); } else star4(G, pal.violet, 10).setAttribute('transform', 'translate(0 -112)');
+      el('circle', { cx: 0, cy: 0, r: 6, fill: pal.violet }, G);
+      return G;
+    };
+    const pos = { before: [110], ago: [92], already: [120], after: [290], later: [320], soon: [260], now: [NOW], always: ticks, often: [50, 134, 176, 260, 344], again: [110, NOW], still: [], never: [] }[rel] || [NOW];
     const evs = pos.map((x) => [mkEv(), x]);
-    const band = el('rect', { x: 80, y: ly - 60, width: 0, height: 22, rx: 11, fill: '#9CC8E6', opacity: 0 });
-    const rainG = g({});
-    if (rel === 'still') { cloud(0, 0, 0.55, rainG); }
+    const band = g({});
+    const bandR = el('rect', { x: 0, y: -16, width: 0, height: 32, rx: 16, fill: '#A9C6E0' }, band);
+    const drops = [0, 1, 2, 3, 4, 5].map(() => droplet(band, '#8FBBE3'));
+    tf(band, 60, ly - 150);
     const noG = g({});
-    el('circle', { cx: 0, cy: 0, r: 22, fill: 'none', stroke: pal.red, 'stroke-width': 5 }, noG);
-    el('line', { x1: -15, y1: 15, x2: 15, y2: -15, stroke: pal.red, 'stroke-width': 5 }, noG);
-    const loop = el('path', { d: `M 120 ${ly - 60} Q 160 ${ly - 100} 200 ${ly - 60}`, stroke: pal.violet, 'stroke-width': 3.5, fill: 'none', 'stroke-dasharray': '6 6', opacity: 0 });
-    const chk = g({}); el('circle', { cx: 0, cy: 0, r: 11, fill: pal.mint }, chk); el('path', { d: 'M -5 0 L -1 4 L 6 -4', stroke: '#FFFFFF', 'stroke-width': 3, fill: 'none', 'stroke-linecap': 'round' }, chk);
-    const arrow = el('path', { d: '', stroke: pal.blueDark, 'stroke-width': 3, fill: 'none', 'stroke-dasharray': '5 6' });
-    const b = B(60, { y: ly - 6, scale: 0.42 });
+    el('circle', { cx: 0, cy: 0, r: 26, fill: '#FFFFFF', stroke: pal.red, 'stroke-width': 6 }, noG);
+    el('line', { x1: -18, y1: 18, x2: 18, y2: -18, stroke: pal.red, 'stroke-width': 6 }, noG);
+    const loop = el('path', { d: `M 110 ${ly - 136} Q 155 ${ly - 190} ${NOW} ${ly - 136}`, stroke: pal.violet, 'stroke-width': 4, fill: 'none', 'stroke-dasharray': '7 7', opacity: 0 });
+    const chk = g({}); el('circle', { cx: 0, cy: 0, r: 13, fill: pal.mint }, chk); el('path', { d: 'M -6 0 L -1 5 L 7 -5', stroke: '#FFFFFF', 'stroke-width': 3.5, fill: 'none', 'stroke-linecap': 'round' }, chk);
+    const arrow = el('path', { d: '', stroke: pal.blueDark, 'stroke-width': 3.5, fill: 'none', 'stroke-dasharray': '6 7', 'stroke-linecap': 'round' });
+    const b = B(50, { y: ly - 4, scale: 0.6 });
+    const long = rel === 'never' || rel === 'always' || rel === 'often';
     return (t) => {
-      // まめが時間の線の上を「今」まで歩く
-      const walkTo = rel === 'never' || rel === 'always' || rel === 'often' ? 340 : NOW;
-      const s = stride(t, 0.2, rel === 'never' || rel === 'always' || rel === 'often' ? 3.2 : 1.4, 60, walkTo, 10);
-      b.pose({ x: s.x, walk: s.walk, armL: s.armL, armR: s.armR, mood: t > 2.4 ? (rel === 'never' ? 'flat' : 'grin') : 'smile', look: rel === 'already' || rel === 'ago' || rel === 'before' ? -0.8 : 0.6 });
-      tf(nowM, NOW, ly);
-      k.set(past, { width: Math.max(0, s.x - 30) });
+      const s = stride(t, 0.2, long ? 3.2 : 1.4, 50, long ? 344 : NOW, 10);
+      b.pose({ x: s.x, walk: s.walk, armL: s.armL, armR: s.armR, mood: t > 2.4 ? (rel === 'never' ? 'flat' : 'grin') : 'smile', look: ['already', 'ago', 'before', 'again'].includes(rel) && t > 1.5 ? -0.8 : 0.6 });
+      k.set(past, { width: Math.max(0, s.x - 24) });
       evs.forEach(([G, x], i) => {
         let q;
-        if (rel === 'always' || rel === 'often') q = clamp((s.x - x + 20) / 20);
-        else if (rel === 'soon') { q = backOut(seg(t, 0.6, 1.0)); }
+        if (long) q = backOut(clamp((s.x - x + 24) / 24));
         else if (rel === 'again') q = backOut(seg(t, i === 0 ? 0.4 : 2.0, i === 0 ? 0.8 : 2.4));
-        else q = backOut(seg(t, 0.8 + i * 0.2, 1.2 + i * 0.2));
-        let ex = x;
-        if (rel === 'soon') ex = lerp(330, 236, easeInOut(seg(t, 1.2, 2.6)));
-        tf(G, ex, ly - 8, 0, ss(q), ss(q));
+        else q = backOut(seg(t, 0.6 + i * 0.2, 1.0 + i * 0.2));
+        const ex = rel === 'soon' ? lerp(330, 236, easeInOut(seg(t, 1.2, 2.6))) : x;
+        tf(G, ex, ly, 0, 1, ss(q));
+        show(G, q > 0.01 ? 1 : 0);
       });
-      if (rel === 'still') { const w = lerp(0, 260, easeOut(seg(t, 0.6, 2.4))); k.set(band, { x: 80, width: w, opacity: 0.8 }); tf(rainG, 80 + w - 20, ly - 76); show(rainG, w > 10 ? 1 : 0); }
-      else show(band, 0);
-      tf(noG, 200, 80, 0, ss(backOut(seg(t, 2.9, 3.3))));
-      show(noG, rel === 'never' && t > 2.9 ? 1 : 0);
+      if (rel === 'still') {
+        const w = lerp(0, 270, easeOut(seg(t, 0.4, 2.6)));
+        k.set(bandR, { width: w });
+        drops.forEach((d, i) => { const q = (t * 1.2 + i * 0.17) % 1; const dx = 14 + i * 44; d.setAttribute('transform', `translate(${dx} ${22 + q * 40})`); show(d, dx < w ? 1 - q : 0); });
+        show(band, 1);
+      } else show(band, 0);
+      tf(noG, 200, 70, 0, ss(backOut(seg(t, 3.0, 3.4))));
+      show(noG, rel === 'never' && t > 3.0 ? 1 : 0);
       show(loop, rel === 'again' ? seg(t, 1.6, 2.0) : 0);
-      const done = rel === 'already' ? seg(t, 1.6, 1.8) : 0;
-      tf(chk, 144, ly - 54, 0, ss(backOut(seg(t, 1.6, 2.0))));
-      show(chk, done);
-      if (rel === 'later' || rel === 'after' || rel === 'soon' || rel === 'before' || rel === 'ago' || rel === 'already') {
+      tf(chk, 136, ly - 128, 0, ss(backOut(seg(t, 1.6, 2.0))));
+      show(chk, rel === 'already' ? seg(t, 1.6, 1.8) : 0);
+      if (['later', 'after', 'soon', 'before', 'ago'].includes(rel)) {
         const tx = rel === 'soon' ? lerp(330, 236, easeInOut(seg(t, 1.2, 2.6))) : pos[0];
         const aq = seg(t, 1.4, 2.2);
-        k.set(arrow, { d: `M ${NOW} ${ly - 40} Q ${(NOW + tx) / 2} ${ly - 74} ${lerp(NOW, tx, aq)} ${ly - 46}` });
+        k.set(arrow, { d: `M ${NOW} ${ly - 60} Q ${(NOW + tx) / 2} ${ly - 96} ${lerp(NOW, tx, aq)} ${ly - 70}` });
         show(arrow, aq > 0 ? 1 : 0);
       } else show(arrow, 0);
     };

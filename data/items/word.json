@@ -1718,13 +1718,7 @@
     },
     "core": "元に戻らないほど徹底的に壊す。",
     "diff": "break はこわす、destroy は完全にこわす。",
-    "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "💥",
-      "ch": "break"
-    }
+    "other": []
   },
   {
     "src": "M0690",
@@ -2060,13 +2054,7 @@
       ]
     },
     "core": "足で地面を強く蹴って、体を宙に上げる。",
-    "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🤸",
-      "act": "jump"
-    }
+    "other": []
   },
   {
     "src": "M0706",
@@ -3148,13 +3136,7 @@
       ]
     },
     "core": "歯でしっかりかむ。",
-    "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "act",
-      "e": "🦷",
-      "act": "eat"
-    }
+    "other": []
   },
   {
     "src": "M0762",
@@ -6051,13 +6033,7 @@
     "core": "時間とともに、大きくなっていく。",
     "other": [
       "（育てる）：grow vegetables"
-    ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "🌱",
-      "ch": "grow"
-    }
+    ]
   },
   {
     "src": "M0919",
@@ -7287,13 +7263,7 @@
     "core": "表面に細い裂け目ができる。",
     "other": [
       "（名詞）ひび：a crack in the wall"
-    ],
-    "motion": "tpl",
-    "tpl": {
-      "t": "change",
-      "e": "💥",
-      "ch": "break"
-    }
+    ]
   },
   {
     "src": "M0988",
@@ -9615,11 +9585,6 @@
       ]
     },
     "core": "人や物を上下の階に運ぶ箱形の乗り物。英国では lift。",
-    "motion": "tpl",
-    "tpl": {
-      "t": "show",
-      "e": "🛗"
-    },
     "other": []
   },
   {
@@ -12132,14 +12097,7 @@
     },
     "core": "大きさや程度が、ふつうより上。",
     "diff": "large より会話でよく使う。",
-    "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "compare",
-      "e": "🐭",
-      "e2": "🐘",
-      "rel": "bigger"
-    }
+    "other": []
   },
   {
     "src": "M1729",
@@ -12157,14 +12115,7 @@
     },
     "core": "大きさや量が、ふつうより上。",
     "diff": "big より少し改まった言い方。",
-    "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "compare",
-      "e": "🐭",
-      "e2": "🐘",
-      "rel": "bigger"
-    }
+    "other": []
   },
   {
     "src": "M1730",
@@ -12293,14 +12244,7 @@
       ]
     },
     "core": "地面に近く、位置や程度が下。",
-    "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "compare",
-      "e": "🏔️",
-      "e2": "🏠",
-      "rel": "low"
-    }
+    "other": []
   },
   {
     "src": "M1744",
@@ -13849,13 +13793,7 @@
       ]
     },
     "core": "前から続いている状態が、今も変わらない。",
-    "other": [],
-    "motion": "tpl",
-    "tpl": {
-      "t": "time",
-      "e": "🌧️",
-      "rel": "still"
-    }
+    "other": []
   },
   {
     "src": "M1944",
