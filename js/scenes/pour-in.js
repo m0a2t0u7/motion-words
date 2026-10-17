@@ -1,7 +1,7 @@
 // pour in：まめが牛乳パックを傾けてボウルへ注ぎ入れ、パックを置いてスプーンで混ぜる（例文 Pour in the milk and stir.）
 import { seg, lerp, easeInOut, easeOut, easeIn, wobble } from '../ease.js';
 
-export const meta = { duration: 4.6, beats: [[0, '牛乳を持つ'], [1.2, '中へ注ぐ'], [3.6, 'かき混ぜる']] };
+export const meta = { duration: 4.4, beats: [[0, '牛乳を持つ'], [1.15, '中へ注ぐ'], [3.44, 'かき混ぜる']] };
 
 const hex = (c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16));
 const mix = (a, b, p) => '#' + hex(a).map((v, i) => Math.round(v + (hex(b)[i] - v) * p).toString(16).padStart(2, '0')).join('');
@@ -41,7 +41,8 @@ export function create(k) {
   const HX = 214, HY = 187;      // スプーンの柄の先（立てかけ位置）
   const TX = 266, TY = 226;      // スプーンの先（ボウルの底）
   return {
-    update(t) {
+    update(t0) {
+      const t = t0 * 1.0455;
       const tilt = easeInOut(seg(t, 0.5, 1.3)) * (1 - easeInOut(seg(t, 2.3, 2.8)));
       const r = 58 * tilt;
       const stirP = seg(t, 3.2, 4.4);

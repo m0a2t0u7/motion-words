@@ -1,7 +1,7 @@
 // fill up：まめが給水機の下でボトルを持ち、水をいっぱい（口まで）満たす（例文 Fill up the bottle with water.）
 import { seg, lerp, easeInOut, easeOut, backOut, hump } from '../ease.js';
 
-export const meta = { duration: 4.4, beats: [[0, '空のボトル'], [1.7, '水を入れる'], [3.5, '満タンにした']] };
+export const meta = { duration: 4.4, beats: [[0, '空のボトル'], [2.2, '水を入れる'], [3.5, '満タンにした']] };
 
 export function create(k) {
   const { el, g, tf, pal } = k;
@@ -15,12 +15,12 @@ export function create(k) {
   const lvBar = el('rect', { x: 316, y: 104, width: 48, height: 0, rx: 3, fill: pal.water });
   el('rect', { x: 316, y: 78, width: 48, height: 26, rx: 3, fill: 'none', stroke: '#fff', 'stroke-width': 1.5, opacity: 0.5 });
   const led = el('circle', { cx: 340, cy: 130, r: 5.5, fill: pal.blue });
-  el('rect', { x: 284, y: 142, width: 22, height: 10, rx: 5, fill: '#B9C3D0' });
-  el('rect', { x: 278, y: 146, width: 12, height: 10, rx: 3, fill: '#9AA5B5' });
+  el('rect', { x: 284, y: 98, width: 22, height: 10, rx: 5, fill: '#B9C3D0' });
+  el('rect', { x: 278, y: 102, width: 12, height: 10, rx: 3, fill: '#9AA5B5' });
   el('rect', { x: 316, y: 190, width: 48, height: 30, rx: 4, fill: '#D5DCE6' });
 
   const S = 1;
-  const stream = el('line', { x1: 284, y1: 156, x2: 284, y2: 156, stroke: pal.water, 'stroke-width': 4.5, 'stroke-linecap': 'round' });
+  const stream = el('line', { x1: 284, y1: 112, x2: 284, y2: 112, stroke: pal.water, 'stroke-width': 4.5, 'stroke-linecap': 'round' });
   const bottle = g({});
   const bp = 'M -6 -34 L 6 -34 L 6 -24 Q 15 -20 15 -10 L 15 24 Q 15 32 7 32 L -7 32 Q -15 32 -15 24 L -15 -10 Q -15 -20 -6 -24 Z';
   el('path', { d: bp, fill: '#EEF6FC' }, bottle);
@@ -53,7 +53,7 @@ export function create(k) {
       k.set(water, { y: lv }); k.set(surf, { y: lv });
       const flowing = t > 1.25 && t < 3.05;
       const open = easeOut(seg(t, 1.25, 1.4)), cut = easeInOut(seg(t, 3.0, 3.15));
-      const top = lerp(156, by + lv, cut), bot = lerp(156, by + lv, open);
+      const top = lerp(112, by + lv, cut), bot = lerp(112, by + lv, open);
       k.set(stream, { y1: top, y2: bot, x1: 284, x2: 284 });
       stream.setAttribute('opacity', t > 1.25 && t < 3.15 ? 1 : 0);
       stream.setAttribute('stroke-width', 4.5 * (1 - 0.4 * cut));
