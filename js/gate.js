@@ -1,7 +1,7 @@
 // 4桁の合言葉。一度正しく入れたブラウザは記憶し、次からは聞かない。
 // 注意：静的サイトなので本格的な防御ではない（知らない人がふつうに使えない程度）。
 // PIN_HASH は SHA-256("motion-words:" + 4桁) の16進。null なら合言葉なしで開く。
-const PIN_HASH = null;
+const PIN_HASH = 'ee5a23f31c7f67196a0e79d0674416044d7f7a3f537ca88f9cd984b077b2e764';
 const KEY = 'motion-words:gate';
 
 async function sha(s) {
