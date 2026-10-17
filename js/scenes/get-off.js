@@ -22,8 +22,19 @@ export function create(k) {
   boardBack.position.set(-1.7, 2.25, 2.28);
   scene.add(pole, boardBack, board);
 
+  // 線路
+  [-0.55, 0.55].forEach((dz) => {
+    const r = new THREE.Mesh(new THREE.BoxGeometry(80, 0.08, 0.08), mat(0x8a93a3, { metalness: 0.4, roughness: 0.4 }));
+    r.position.set(0, 0.04, -1.25 + dz);
+    scene.add(r);
+  });
+  for (let x = -40; x < 40; x += 0.7) {
+    const sl = new THREE.Mesh(new THREE.BoxGeometry(0.22, 0.04, 1.6), mat(0xb7a48d));
+    sl.position.set(x, 0.02, -1.25);
+    scene.add(sl);
+  }
   // 電車
-  const train = k.vehicle({ len: 7.2, color: C.mint, doorAt: 0.8, windows: 6 });
+  const train = k.vehicle({ len: 7.2, color: C.mint, doorAt: 0.8, windows: 6, rail: true });
   const opening = new THREE.Mesh(new THREE.PlaneGeometry(0.86, 1.42), mat(0x2f3a4f, { roughness: 1 }));
   opening.position.set(0.8, 0.38 + 0.83, 0.9 + 0.024);
   train.add(opening);

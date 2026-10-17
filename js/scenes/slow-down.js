@@ -38,10 +38,10 @@ export function create(k) {
     scene.add(d);
   }
   // 横断歩道（車が最後に近づいていく位置）
-  const CW = endX + 2.4;
-  for (let i = 0; i < 6; i++) {
-    const s = new THREE.Mesh(new THREE.BoxGeometry(0.8, 0.012, 0.32), mat(C.white));
-    s.position.set(CW + 0.45, 0.046, -1.25 + i * 0.5);
+  const CW = endX + 1.9;
+  for (let i = 0; i < 7; i++) {
+    const s = new THREE.Mesh(new THREE.BoxGeometry(0.9, 0.012, 0.3), mat(C.white));
+    s.position.set(CW + 0.45, 0.046, -1.5 + i * 0.5);
     scene.add(s);
   }
   // 道ばたの木（速さの手がかり）
@@ -103,16 +103,16 @@ export function create(k) {
   c.fillStyle = '#2a3242';
   c.font = '800 34px Nunito, sans-serif';
   c.textAlign = 'center';
-  c.fillText('km/h', 128, 178);
+  c.fillText('km/h', 128, 182);
   c.font = '800 26px Nunito, sans-serif';
-  c.fillText('0', 40, 150);
-  c.fillText('60', 216, 150);
+  c.fillText('0', 36, 176);
+  c.fillText('60', 220, 176);
   const tex = new THREE.CanvasTexture(cv);
   tex.colorSpace = THREE.SRGBColorSpace;
   const dial = new THREE.Mesh(new THREE.PlaneGeometry(0.9, 0.9), new THREE.MeshBasicMaterial({ map: tex, transparent: true, depthTest: false }));
   dial.renderOrder = 10;
   hud.add(dial);
-  const needle = new THREE.Mesh(new THREE.PlaneGeometry(0.34, 0.06), new THREE.MeshBasicMaterial({ color: 0xe86f57, depthTest: false, transparent: true }));
+  const needle = new THREE.Mesh(new THREE.PlaneGeometry(0.29, 0.06), new THREE.MeshBasicMaterial({ color: 0xe86f57, depthTest: false, transparent: true }));
   needle.geometry.translate(0.15, 0, 0);
   needle.renderOrder = 11;
   needle.position.set(0, -0.042, 0.001);

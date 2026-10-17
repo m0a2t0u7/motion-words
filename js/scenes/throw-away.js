@@ -21,6 +21,10 @@ export function create(k) {
   inner.rotation.x = -Math.PI / 2;
   inner.position.y = 0.06;
   bin.add(wall, base, rim, inner);
+  // 中のごみ（入った紙が縁の近くで止まって見えるように）
+  const fill = new THREE.Mesh(new THREE.CylinderGeometry(BR * 0.88, BR * 0.74, BIN_H * 0.72, 32), mat(0xdfe6ef, { roughness: 0.95 }));
+  fill.position.y = BIN_H * 0.36;
+  bin.add(fill);
   k.shade(bin);
   bin.position.set(2.3, 0, -0.2);
   scene.add(bin);
@@ -56,13 +60,13 @@ export function create(k) {
     const back = easeInOut(seg(t, 0.15, 0.8));
     const fwd = easeIn(seg(t, 0.8, T_REL));
     const follow = easeOut(seg(t, T_REL, 1.6));
-    const x = -1.6 - back * 0.55 + fwd * 1.15 + follow * 0.35;
-    const y = 1.75 + back * 0.35 - fwd * 0.05 + follow * 0.15 - easeInOut(seg(t, 2.0, 3.0)) * 0.5;
+    const x = -1.6 - back * 0.55 + fwd * 1.15 + follow * 0.35 - easeInOut(seg(t, 2.0, 3.0)) * 0.9;
+    const y = 1.75 + back * 0.35 - fwd * 0.05 + follow * 0.15 - easeInOut(seg(t, 2.0, 3.0)) * 0.9;
     return { x, y, rot: -0.15 - back * 0.35 + fwd * 0.55 + follow * 0.05 - easeInOut(seg(t, 2.0, 3.0)) * 0.2 };
   };
   const rel = handAt(T_REL);
   const relPaper = { x: rel.x - off, y: rel.y - palm - PR };
-  const land = { x: 2.3, y: 0.06 + PR, z: -0.2 };
+  const land = { x: 2.25, y: BIN_H * 0.72 + PR * 0.55, z: -0.15 };
 
   return {
     update(t) {

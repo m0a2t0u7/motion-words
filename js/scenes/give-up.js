@@ -47,30 +47,32 @@ export function create(k) {
     update(t) {
       const a1 = seg(t, 0.75, 1.4), a2 = seg(t, 1.75, 2.55);
       const strain = hump(a1) * 0.9 + hump(a2);
-      const lift = easeOut(seg(t, 0.3, 0.65)) * 7 * (1 - easeInOut(seg(t, 3.15, 3.45)));
-      const bump = t > 3.45 && t < 3.9 ? wobble(seg(t, 3.45, 3.9), 2, 5) * 1.6 : 0;
+      const lift = easeOut(seg(t, 0.3, 0.65)) * 7 * (1 - easeInOut(seg(t, 3.0, 3.25)));
+      const slide = easeInOut(seg(t, 3.3, 3.85)) * 108; // 置いたびんを机の右へ押しやる
+      const bump = t > 3.25 && t < 3.6 ? wobble(seg(t, 3.25, 3.6), 2, 5) * 1.6 : 0;
       const shake = Math.sin(t * 55) * 1.3 * strain;
       // ふたの筋：ひねると横にずれる（スリップして戻る）
       const off = hump(a1) * 10 * (a1 < 0.7 ? 1 : 0.4) + hump(a2) * 14;
       ridges.forEach((r, i) => { const x = -15 + (((i * 7 + off) % 35) + 35) % 35; r.setAttribute('x1', x); r.setAttribute('x2', x); });
-      tf(jar, X + shake, Y0 - lift + bump, Math.sin(t * 40) * 1.5 * strain, S, S);
+      tf(jar, X + shake + slide, Y0 - lift + bump, Math.sin(t * 40) * 1.5 * strain, S, S);
       tf(jr, 0, 0, 0, 1 + (strain > 0 ? 0.0 : 0), 1);
       tf(lid, 0, 0, hump(a1) * -2 + hump(a2) * -3, 1, 1);
-      tf(jarSh, X, Y0 + 3, 0, 1 - lift / 40, 1);
+      tf(jarSh, X + slide, Y0 + 3, 0, 1 - lift / 40, 1);
       // 矢印
       const aOn = Math.max(hump(a1), hump(a2));
-      tf(arrow, X + shake, Y0 - lift - 30 * S, 0, S, S);
+      tf(arrow, X + shake + slide, Y0 - lift - 30 * S, 0, S, S);
       arrow.setAttribute('opacity', aOn > 0.2 && Math.sin(t * 30) > -0.3 ? 1 : 0);
       // まめ：力み → ため息 → 腕が下がる
       const slump = easeInOut(seg(t, 2.6, 3.1));
-      const hold = (1 - easeInOut(seg(t, 3.2, 3.55)));
-      const hands = -10 * hold + 4 * (1 - hold);
+      const hold = 1 - easeInOut(seg(t, 3.25, 3.6)); // びんから手を離す
+      const sink = easeInOut(seg(t, 3.5, 4.1));       // 肩を落とす
+      const hands = -10 * hold + 5 * (1 - hold);
       b.pose({
         x: X + shake * 0.8,
         armL: hands - strain * 3 + slump * 0, armR: hands - strain * 3,
-        squash: 1 - 0.07 * strain - 0.06 * slump,
-        lean: Math.sin(t * 38) * 1.6 * strain - slump * 4,
-        look: t > 3.0 ? 0.0 : 0,
+        squash: 1 - 0.07 * strain - 0.04 * slump - 0.07 * sink,
+        lean: Math.sin(t * 38) * 1.6 * strain - slump * 3 * (1 - sink) + sink * 11,
+        look: -0.4 * sink,
         mood: t < 2.8 ? 'flat' : 'sad',
         blink: t > 2.85 && t < 3.05 ? 1 : 0
       });

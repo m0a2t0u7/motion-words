@@ -12,7 +12,8 @@ const wait = (ms, token) =>
     }
   });
 
-const clean = (s) => s.replace(/[（(][^）)]*[）)]/g, '').replace(/〜/g, '').trim();
+// 「（電気・機械を）消す」→「電気・機械を消す」。かっこの中身は意味の区別に必要なので残す。
+const clean = (s) => s.replace(/[（(]([^）)]*)[）)]/g, '$1').replace(/〜/g, '').trim();
 
 export function segmentsFor(item, read) {
   const segs = [];
@@ -24,8 +25,8 @@ export function segmentsFor(item, read) {
 }
 
 export class Player {
-  constructor({ speech, stage, settings, show, onStatus, onSegment, onRep, prefetch }) {
-    Object.assign(this, { speech, stage, settings, show, onStatus, onSegment, onRep, prefetch });
+  constructor({ speech, stage, settings, show, onStatus, onSegment, onRep, prefetch, onSkip = () => {} }) {
+    Object.assign(this, { speech, stage, settings, show, onStatus, onSegment, onRep, prefetch, onSkip });
     this.ids = [];
     this.order = [];
     this.pos = 0;
@@ -104,11 +105,17 @@ export class Player {
 
   async go(delta) {
     if (!this.order.length) return;
+    const prev = this.pos;
     this.pos = (this.pos + delta + this.order.length) % this.order.length;
     if (this.state !== 'stopped') this.play();
     else {
       this._cancel();
-      await this.show(this.currentId);
+      try {
+        await this.show(this.currentId);
+      } catch (e) {
+        this.pos = prev; // 表示できなかったら位置を戻す（画面と内部の位置をずらさない）
+        throw e;
+      }
     }
   }
 
@@ -127,10 +134,27 @@ export class Player {
   }
 
   async _run(token) {
+    let fails = 0;
     while (!token.cancelled) {
       const id = this.currentId;
       this._status('loading');
-      const item = await this.show(id);
+      let item;
+      try {
+        item = await this.show(id);
+      } catch (e) {
+        // 通信が切れた等で読めない語は飛ばして次へ。全部だめなら止める。
+        if (token.cancelled) return;
+        fails++;
+        if (fails >= Math.min(this.order.length, 5)) {
+          this.stop('error');
+          return;
+        }
+        this.onSkip(id);
+        this.pos = (this.pos + 1) % this.order.length;
+        await wait(400, token);
+        continue;
+      }
+      fails = 0;
       if (token.cancelled) return;
       this._status('playing');
       const next = this.order[(this.pos + 1) % this.order.length];

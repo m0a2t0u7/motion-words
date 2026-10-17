@@ -1,4 +1,4 @@
-// go out：家のドアが開き、まめが外へ出て歩いていく（例文 Let's go out for lunch.）
+// go out：家のドアが開き、まめが外へ出て歩いていく（例文 I'm going out for a walk.）
 import { seg, lerp, easeInOut, easeOut } from '../ease.js';
 
 export const meta = { duration: 3.8, beats: [[0, '家の中にいる'], [0.9, 'ドアから出る'], [2.1, '出かけていく']] };
@@ -38,6 +38,8 @@ export function create(k) {
       const wp = seg(t, 0.9, 3.5);
       const x = lerp(127, 345, easeOut(wp) * 0.15 + wp * 0.85);
       const walking = t > 0.9 && t < 3.5;
+      // ドアが開くまでは戸口の中に隠しておく（閉じたドアの下から足が見えないように）
+      b.g.setAttribute('opacity', seg(t, 0.35, 0.6));
       b.pose({
         x,
         walk: walking ? (t - 0.9) * 9 : 0,

@@ -261,11 +261,46 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round
 }
 .say svg { width: 22px; height: 22px; }
 .ipa { font-size: 15px; color: var(--sub); margin-top: 2px; font-family: 'Lucida Grande', 'Segoe UI', var(--jp); }
-.ja-block { margin-top: 10px; border-radius: 12px; padding: 4px 8px; margin-left: -8px; }
-.ja { margin: 0; font-size: 22px; font-weight: 700; line-height: 1.4; }
-.sense { margin: 2px 0 0; font-size: 14.5px; color: var(--sub); }
-.sense::before { content: 'この場面：'; color: var(--faint); }
-.sense:empty { display: none; }
+.ja { margin: 10px 0 0; font-size: 22px; font-weight: 700; line-height: 1.4; }
+.sense-box {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-left: 4px solid var(--accent);
+  border-radius: 4px 12px 12px 4px;
+  background: var(--accent-soft);
+}
+.sense-label { display: block; font-size: 12px; font-weight: 700; color: var(--accent); letter-spacing: 0.04em; }
+.sense { margin: 0; font-size: 16.5px; font-weight: 600; color: var(--ink); line-height: 1.5; }
+.sense-box.speaking { background: var(--speak); border-left-color: #f2a93b; }
+.hint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 0;
+  padding: 8px 6px 8px 12px;
+  border-radius: 12px;
+  background: var(--card);
+  border: 1px dashed var(--line);
+  font-size: 13px;
+  color: var(--sub);
+}
+.hint span { flex: 1; }
+.hint button { width: 36px; height: 36px; border: 0; background: transparent; font-size: 18px; color: var(--faint); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.resume {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 528px;
+  margin-bottom: 6px;
+  padding: 8px 8px 8px 14px;
+  border-radius: 12px;
+  background: #fff4e0;
+  font-size: 13.5px;
+}
+.resume span { flex: 1; }
+.resume button { height: 38px; padding: 0 14px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; font-weight: 700; font-size: 13.5px; }
 
 .example {
   margin-top: 14px;
@@ -567,6 +602,21 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round
 @media (min-width: 720px) {
   .app { padding-top: 8px; }
 }
+/* 読み込み中は再生ボタンの外側に回る輪 */
+.ctl.play { position: relative; }
+.ctl.play[data-state='loading']::after {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #f2a93b;
+  animation: spin 0.9s linear infinite;
+}
+/* 設定シートを開いている間は通知を上に出す */
+body.sheet-open .toast { top: calc(12px + env(safe-area-inset-top, 0px)); bottom: auto; }
+.quiz-ex { color: var(--sub); }
+
 @media (prefers-reduced-motion: reduce) {
   .spinner, .status[data-state='playing'] .dot { animation: none; }
 }

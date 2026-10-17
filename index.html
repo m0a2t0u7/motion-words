@@ -34,11 +34,15 @@
     <section class="view" id="view-learn" aria-label="学ぶ">
       <div class="stage-slot" id="learnStageSlot"></div>
       <div class="beats" id="beats" aria-hidden="true"></div>
+      <p class="hint" id="hint" hidden>
+        <span>動きの枠を左右にスワイプで前後の語へ。タップで動きを最初から。</span>
+        <button type="button" id="hintClose" aria-label="ヒントを閉じる">×</button>
+      </p>
+      <span class="sr-only" id="liveText" aria-live="polite"></span>
 
-      <article class="word" id="word" aria-live="polite">
+      <article class="word" id="word">
         <div class="word-meta">
           <span class="cat-chip" id="catChip"></span>
-          <span class="kind-chip" id="kindChip"></span>
           <span class="pos" id="posText"></span>
           <button class="star" id="starBtn" type="button" aria-pressed="false" aria-label="マイリストに追加">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.6l-5.1 2.7 1-5.7-4.1-4 5.7-.8z"/></svg>
@@ -51,8 +55,9 @@
           </button>
         </div>
         <div class="ipa" id="ipaText"></div>
-        <div class="ja-block" data-seg="ja">
-          <p class="ja" id="jaText"></p>
+        <p class="ja" id="jaText"></p>
+        <div class="sense-box" data-seg="ja">
+          <span class="sense-label">この場面の意味</span>
           <p class="sense" id="senseText"></p>
         </div>
         <div class="example">
@@ -66,7 +71,6 @@
           <details class="other" id="otherBox">
             <summary>ほかの意味</summary>
             <ul id="otherList"></ul>
-            <p class="other-note">この画面で扱っているのは上の意味だけです。</p>
           </details>
         </div>
       </article>
@@ -102,15 +106,19 @@
 
   <!-- 再生操作 -->
   <div class="dock" id="dock">
+    <div class="resume" id="resume" hidden>
+      <span>画面を離れたため、再生を止めました</span>
+      <button type="button" id="resumeBtn">続きから再生</button>
+    </div>
     <div class="status" id="status" role="status">
       <span class="dot" id="statusDot"></span>
       <span id="statusText">停止中</span>
       <span class="status-sub" id="statusSub"></span>
     </div>
     <div class="controls">
-      <button class="ctl mode" id="modeBtn" type="button" aria-label="再生のしかた">
+      <button class="ctl mode" id="modeBtn" type="button" aria-pressed="false">
         <svg viewBox="0 0 24 24" aria-hidden="true" id="modeIcon"></svg>
-        <span id="modeLabel">順に進む</span>
+        <span id="modeLabel">1語リピート</span>
       </button>
       <button class="ctl" id="prevBtn" type="button" aria-label="前へ">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 6v12M18 6l-8 6 8 6z"/></svg>
@@ -121,9 +129,9 @@
       <button class="ctl" id="nextBtn" type="button" aria-label="次へ">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 6v12M6 6l8 6-8 6z"/></svg>
       </button>
-      <button class="ctl order" id="orderBtn" type="button" aria-label="並び順">
+      <button class="ctl order" id="orderBtn" type="button" aria-pressed="false">
         <svg viewBox="0 0 24 24" aria-hidden="true" id="orderIcon"></svg>
-        <span id="orderLabel">順番</span>
+        <span id="orderLabel">シャッフル</span>
       </button>
     </div>
   </div>
@@ -164,8 +172,8 @@
     <div class="field">
       <div class="field-label">並び順</div>
       <div class="seg" id="orderSeg">
-        <button type="button" data-v="seq">順番</button>
-        <button type="button" data-v="random">ランダム</button>
+        <button type="button" data-v="seq">順番どおり</button>
+        <button type="button" data-v="random">シャッフル</button>
       </div>
     </div>
     <div class="field" id="repsField">
@@ -215,7 +223,14 @@
       画面を開いたままなら、設定した条件で続けて再生します。
       別のアプリに切り替えたときや画面がロックされたときは、再生を止めます（音声だけが途中で鳴り続けたり、ずれたりしないようにするため）。
     </div>
-    <div class="note muted">設定とマイリストはこの端末のブラウザに保存されます。</div>
+    <div class="field">
+      <div class="field-label">マイリストの控え</div>
+      <div class="seg">
+        <button type="button" id="exportBtn">書き出す（コピー）</button>
+        <button type="button" id="importBtn">読み込む</button>
+      </div>
+    </div>
+    <div class="note muted">設定とマイリストはこの端末のブラウザに保存されます。ブラウザのデータを消すと消えるので、マイリストは書き出して控えておけます。</div>
   </div>
 </section>
 

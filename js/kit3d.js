@@ -215,7 +215,7 @@ export function createKit3D(renderer) {
   };
 
   // 簡単な乗り物の箱型ボディ（バス・電車）
-  const vehicle = ({ len = 4.6, h = 1.9, w = 1.8, color = C.blue, doorAt = 0.9, windows = 4 } = {}) => {
+  const vehicle = ({ len = 4.6, h = 1.9, w = 1.8, color = C.blue, doorAt = 0.9, windows = 4, rail = false } = {}) => {
     const g = new THREE.Group();
     const bodyM = rbox(len, h, w, 0.35, color);
     bodyM.position.y = h / 2 + 0.38;
@@ -232,14 +232,40 @@ export function createKit3D(renderer) {
     const stripe = new THREE.Mesh(new THREE.BoxGeometry(len - 0.4, 0.12, 0.02), mat(C.white));
     stripe.position.set(0, 0.85, w / 2 + 0.006);
     g.add(stripe);
-    [-len / 2 + 0.9, len / 2 - 0.9].forEach((x) => {
-      [-1, 1].forEach((s) => {
-        const wh = cyl(0.36, 0.36, 0.3, C.ink, { roughness: 0.8 });
-        wh.rotation.x = Math.PI / 2;
-        wh.position.set(x, 0.36, s * (w / 2 - 0.08));
-        g.add(wh);
+    if (rail) {
+      // 電車：車輪の代わりに台車、屋根にパンタグラフ
+      [-len / 2 + 1.2, len / 2 - 1.2].forEach((x) => {
+        const bogie = rbox(1.5, 0.32, w - 0.3, 0.06, 0x4a5262);
+        bogie.position.set(x, 0.22, 0);
+        g.add(bogie);
+        [-0.45, 0.45].forEach((dx) => {
+          const wh = cyl(0.17, 0.17, w - 0.2, 0x8a93a3);
+          wh.rotation.x = Math.PI / 2;
+          wh.position.set(x + dx, 0.17, 0);
+          g.add(wh);
+        });
       });
-    });
+      const pBase = rbox(0.9, 0.08, 0.7, 0.03, 0x6d7889);
+      pBase.position.set(-0.6, h + 0.42, 0);
+      const arm1 = cyl(0.025, 0.025, 0.7, 0x6d7889);
+      arm1.position.set(-0.75, h + 0.7, 0);
+      arm1.rotation.z = 0.6;
+      const arm2 = cyl(0.025, 0.025, 0.7, 0x6d7889);
+      arm2.position.set(-0.45, h + 0.7, 0);
+      arm2.rotation.z = -0.6;
+      const shoe = rbox(1.0, 0.05, 0.08, 0.02, 0x4a5262);
+      shoe.position.set(-0.6, h + 0.98, 0);
+      g.add(pBase, arm1, arm2, shoe);
+    } else {
+      [-len / 2 + 0.9, len / 2 - 0.9].forEach((x) => {
+        [-1, 1].forEach((s) => {
+          const wh = cyl(0.36, 0.36, 0.3, C.ink, { roughness: 0.8 });
+          wh.rotation.x = Math.PI / 2;
+          wh.position.set(x, 0.36, s * (w / 2 - 0.08));
+          g.add(wh);
+        });
+      });
+    }
     // ドア（左右に開く2枚）
     const doorL = new THREE.Mesh(new THREE.BoxGeometry(0.42, 1.4, 0.04), mat(C.glass, { roughness: 0.2 }));
     const doorR = doorL.clone();

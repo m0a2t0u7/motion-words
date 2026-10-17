@@ -24,7 +24,7 @@ export function create(k) {
 
   // 配達員のまめ（帽子つき）と箱。バンの後ろにいて、止まると出てくる
   const MS = 0.7, MY = 254;
-  const b = k.buddy({ x: 108, y: MY, scale: MS });
+  const b = k.buddy({ x: 150, y: MY, scale: MS });
   // 帽子（体にくっつけて動く）
   const cap = g({}, b.body);
   el('path', { d: 'M -27 -66 Q -27 -98 0 -98 Q 27 -98 27 -66 Z', fill: pal.blueDark }, cap);
@@ -57,6 +57,8 @@ export function create(k) {
   el('rect', { x: -36, y: -90, width: 6, height: 24, fill: '#F6DDB2' }, bodyG);
   el('line', { x1: -10, y1: -78, x2: 12, y2: -78, stroke: '#E4E9F0', 'stroke-width': 3, 'stroke-linecap': 'round' }, bodyG);
   el('line', { x1: -10, y1: -70, x2: 4, y2: -70, stroke: '#E4E9F0', 'stroke-width': 3, 'stroke-linecap': 'round' }, bodyG);
+  // 車体の下まわり（車内の配達員の足が見えないように覆う）
+  el('rect', { x: -66, y: -18, width: 140, height: 12, rx: 3, fill: '#3A4356' }, bodyG);
   const wheels = [-38, 46].map((wx) => {
     const w = g({}, van);
     tf(w, wx, -12);
@@ -76,6 +78,10 @@ export function create(k) {
   el('circle', { cx: 0, cy: 14, r: 3.5, fill: pal.yellowDark }, bellBody);
   el('circle', { cx: 0, cy: -14, r: 2.8, fill: pal.yellowDark }, bellBody);
 
+  // 配達員と箱は車体の手前に描く（降りたあとの姿）
+  k.root.appendChild(b.g);
+  k.root.appendChild(pkg);
+
   const VX0 = -62, VX1 = 106;
   const FINAL_X = 284;
   // 手の位置（体の傾き・つぶれも考慮）
@@ -87,7 +93,7 @@ export function create(k) {
   };
   const mame = (t) => {
     const wp = seg(t, 1.2, 2.6);
-    const x = lerp(108, FINAL_X, lerp(wp, smooth(wp), 0.35));
+    const x = lerp(150, FINAL_X, lerp(wp, smooth(wp), 0.35));
     const walking = t > 1.2 && t < 2.62;
     const w = walking ? (t - 1.2) * 9 : 0;
     const bend = easeInOut(seg(t, 2.6, 2.95)) * (1 - easeInOut(seg(t, 3.15, 3.45)));
@@ -113,7 +119,9 @@ export function create(k) {
 
       // ---- まめ（箱を持って歩く→置く→手を振る） ----
       const m = mame(t);
-      b.g.setAttribute('opacity', t < 1.2 ? 0 : 1);
+      // 車内にいる間は見せず、運転席のドアのあたりに降りてくる
+      const appear = easeOut(seg(t, 1.2, 1.45));
+      b.g.setAttribute('opacity', appear);
       const released = t >= 3.05;
       const wave = t > 3.5 ? 125 + 18 * Math.sin((t - 3.5) * 11) : null;
       const raise = easeInOut(seg(t, 3.4, 3.7));
@@ -149,7 +157,7 @@ export function create(k) {
         pkgSh.setAttribute('opacity', 0);
       }
       tf(pkgIn, 0, 0, 0, sx, sy);
-      pkg.setAttribute('opacity', t < 1.2 ? 0 : 1);
+      pkg.setAttribute('opacity', appear);
       // 箱は体の前に、ただしバンの後ろ（バンは後から描いているので順序はそのまま）
 
       // ---- チャイム ----

@@ -74,37 +74,63 @@ export class Speech {
       if (token?.cancelled) return 'cancel';
     }
     return new Promise((resolve) => {
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = lang;
-      const v = this.pick(lang);
-      if (v) u.voice = v;
-      u.rate = rate;
-      u.pitch = 1;
-      this.current = u;
       let done = false;
+      let started = false;
+      let retried = false;
+      let u = null;
       const finish = (why) => {
         if (done) return;
         done = true;
         clearTimeout(guard);
+        clearTimeout(kick);
         clearInterval(watch);
         if (this.current === u) this.current = null;
         resolve(why);
       };
-      u.onend = () => finish('end');
-      u.onerror = (e) => finish(e.error === 'interrupted' || e.error === 'canceled' ? 'cancel' : 'error');
+      const make = () => {
+        const x = new SpeechSynthesisUtterance(text);
+        x.lang = lang;
+        const v = this.pick(lang);
+        if (v) x.voice = v;
+        x.rate = rate;
+        x.pitch = 1;
+        x.onstart = () => {
+          if (x === u) started = true;
+        };
+        x.onend = () => x === u && finish('end');
+        x.onerror = (e) => x === u && finish(e.error === 'interrupted' || e.error === 'canceled' ? 'cancel' : 'error');
+        return x;
+      };
+      const start = () => {
+        u = make();
+        this.current = u;
+        try {
+          synth.speak(u);
+        } catch (e) {
+          finish('error');
+        }
+      };
       // onend が届かない端末への保険：文字数から見積もった時間で打ち切る
       const est = (lang.startsWith('ja') ? text.length * 160 : text.length * 75) / rate + 2500;
-      const guard = setTimeout(() => finish('timeout'), est);
-      const watch = setInterval(() => {
-        if (token?.cancelled) {
-          finish('cancel');
+      const guard = setTimeout(() => finish('timeout'), est + 1500);
+      // 取り消し直後の発話が始まらない端末（主に iPhone Safari）向け：1.2秒たっても始まらなければ1回だけ読み直す
+      const kick = setTimeout(() => {
+        if (done || started || retried || token?.cancelled) return;
+        // 何も話していない（speaking=false）ときだけ。話している最中に読み直して途切れさせない。
+        if (!synth.speaking) {
+          retried = true;
+          try {
+            synth.cancel();
+          } catch (e) {
+            /* 無視 */
+          }
+          setTimeout(() => !done && !token?.cancelled && start(), 80);
         }
+      }, 1200);
+      const watch = setInterval(() => {
+        if (token?.cancelled) finish('cancel');
       }, 80);
-      try {
-        synth.speak(u);
-      } catch (e) {
-        finish('error');
-      }
+      start();
     });
   }
 }

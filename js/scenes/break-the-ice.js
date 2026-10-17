@@ -1,9 +1,10 @@
 // break the ice：冗談で氷の壁が割れ、ぎこちなかった2人が打ち解ける（例文 He told a joke to break the ice.）
 import { seg, lerp, easeInOut, easeOut, backOut, wobble, hump, clamp } from '../ease.js';
 
-export const meta = { duration: 4.3, beats: [[0, 'ぎこちない'], [1.2, '冗談を言う'], [2.7, '打ち解ける']] };
+export const meta = { duration: 4.7, beats: [[0, 'ぎこちない'], [1.2, '冗談を言う'], [3.1, '打ち解ける']] };
 
 export function create(k) {
+  const BRK = 3.1;
   const { el, g, tf, pal } = k;
   const FY = k.backdrop({ floorY: 240, mood: 'indoor' });
   el('rect', { x: 36, y: 40, width: 70, height: 60, rx: 8, fill: '#DDEFFA' });
@@ -48,10 +49,22 @@ export function create(k) {
   const B = k.buddy({ x: 288, y: FY, scale: 0.85, facing: -1, color: pal.coral, dark: pal.coralDark });
   // 気まずい「…」
   const dots = k.text(IX, 92, '...', { 'font-size': 26, fill: pal.sub });
-  // 吹き出し
-  const bubble = g({});
-  el('path', { d: 'M -46 -26 Q -46 -34 -38 -34 L 38 -34 Q 46 -34 46 -26 L 46 6 Q 46 14 38 14 L 8 14 L 0 28 L -6 14 L -38 14 Q -46 14 -46 6 Z', fill: '#FFFFFF', stroke: '#CBD3DE', 'stroke-width': 2.5, 'stroke-linejoin': 'round' }, bubble);
-  k.text(0, -10, 'Haha', { 'font-size': 22, fill: pal.coralDark }, bubble);
+  // 吹き出し①：冗談を言う側（話している記号：音符と波線）
+  const talk = g({});
+  const bubbleD = 'M -46 -26 Q -46 -34 -38 -34 L 38 -34 Q 46 -34 46 -26 L 46 6 Q 46 14 38 14 L 8 14 L 0 28 L -6 14 L -38 14 Q -46 14 -46 6 Z';
+  el('path', { d: bubbleD, fill: '#FFFFFF', stroke: '#CBD3DE', 'stroke-width': 2.5, 'stroke-linejoin': 'round' }, talk);
+  const note = (x, y) => {
+    const n = g({ transform: `translate(${x} ${y})` }, talk);
+    el('ellipse', { cx: 0, cy: 8, rx: 5.5, ry: 4.2, fill: pal.coralDark, transform: 'rotate(-20 0 8)' }, n);
+    el('path', { d: 'M 5 7 L 5 -12 Q 12 -9 12 -2', fill: 'none', stroke: pal.coralDark, 'stroke-width': 3, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, n);
+    return n;
+  };
+  const notes = [note(-26, -14), note(-2, -10)];
+  const squig = el('path', { d: 'M 14 -10 q 5 -9 10 0 t 10 0', fill: 'none', stroke: pal.sub, 'stroke-width': 3, 'stroke-linecap': 'round' }, talk);
+  // 吹き出し②：聞いた側の笑い
+  const laugh = g({});
+  el('path', { d: bubbleD, fill: '#FFFFFF', stroke: '#CBD3DE', 'stroke-width': 2.5, 'stroke-linejoin': 'round' }, laugh);
+  k.text(0, -10, 'Haha', { 'font-size': 22, fill: pal.coralDark }, laugh);
   // きらきら
   const sparks = [[-62, -150], [60, -160], [0, -190], [-90, -120], [90, -125]].map(([x, y], i) => {
     const s = g({});
@@ -61,70 +74,76 @@ export function create(k) {
 
   return {
     update(t) {
-      // ---- 氷：ひびが入り、割れて飛び散る ----
-      const crk = seg(t, 1.95, 2.45);
+      // ---- 氷：笑いを聞いたあと、ひびが入り、割れて飛び散る ----
+            const crk = seg(t, 2.45, 3.0);
       cracks.forEach((c, i) => k.set(c, { 'stroke-dashoffset': 1 - clamp(crk * 1.3 - i * 0.15) }));
-      const broke = t >= 2.5;
-      const shake = broke ? 0 : 1.6 * hump(seg(t, 2.1, 2.5)) * Math.sin(t * 60);
+      const broke = t >= BRK;
+      const shake = broke ? 0 : 1.6 * hump(seg(t, 2.6, 3.1)) * Math.sin(t * 60);
       tf(wall, IX + shake, FY);
       slab.setAttribute('opacity', broke ? 0 : 1);
       cracks.forEach((c) => c.setAttribute('visibility', broke ? 'hidden' : 'visible'));
       frost.setAttribute('opacity', broke ? 0 : 1);
       shine.setAttribute('opacity', broke ? 0 : 0.75);
-      shards.forEach((s, i) => {
-        const tau = t - 2.5;
+      shards.forEach((s) => {
+        const tau = t - BRK;
         if (tau < 0) { s.sg.setAttribute('opacity', 0); return; }
-        // 重力で放物線、床で止まる
         let y = s.cy + s.v[1] * tau + 0.5 * 420 * tau * tau;
         const lim = -s.half * 0.5;
-        const landed = y > lim;
-        if (landed) y = lim;
+        if (y > lim) y = lim;
         const x = s.v[0] * Math.min(tau, 0.9);
         const rot = s.v[2] * easeOut(seg(tau, 0, 0.9));
         tf(s.sg, x, y, rot);
-        s.sg.setAttribute('opacity', 1 - seg(t, 3.2, 3.8));
+        s.sg.setAttribute('opacity', 1 - seg(t, BRK + 0.7, BRK + 1.3));
       });
       // ---- 気まずい「…」 ----
       const dp = seg(t, 0.35, 0.6) * (1 - seg(t, 1.05, 1.25));
       dots.setAttribute('opacity', dp);
       dots.textContent = ['.', '..', '...'][Math.floor(t * 3) % 3];
 
-      // ---- 吹き出し：冗談 ----
+      // ---- 吹き出し①：冗談（話している記号） ----
       const bp = backOut(seg(t, 1.3, 1.55));
-      const bout = 1 - seg(t, 2.55, 2.85);
-      tf(bubble, 112 + 22, FY - 128, 0, bp * 1.0, bp * 1.0);
-      bubble.setAttribute('opacity', t < 1.3 ? 0 : bout);
+      tf(talk, 112 + 22, FY - 128, 0, bp, bp);
+      talk.setAttribute('opacity', t < 1.3 ? 0 : 1 - seg(t, 2.1, 2.4));
+      notes.forEach((n, i) => {
+        const bob = 3 * Math.sin((t - 1.3) * 9 + i * 1.8);
+        n.setAttribute('transform', `translate(${i ? -2 : -26} ${(i ? -10 : -14) + bob})`);
+      });
+      k.set(squig, { opacity: 0.6 + 0.4 * Math.sin((t - 1.3) * 12) });
+      // ---- 吹き出し②：聞いた側の「Haha」 ----
+      const lp = backOut(seg(t, 2.05, 2.3));
+      tf(laugh, 288 - 22, FY - 128, 0, lp, lp);
+      laugh.setAttribute('opacity', t < 2.05 ? 0 : 1 - seg(t, BRK + 0.3, BRK + 0.7));
 
       // ---- まめA（冗談を言う側） ----
-      const joke = t > 1.25 && t < 2.5;
-      const happy = t >= 2.5;
-      const hp = seg(t, 2.5, 4.3);
-      const bounce = happy ? 15 * Math.abs(Math.sin((t - 2.55) * 6.5)) * (1 - hp * 0.35) : 0;
-      const bounceB = happy ? 15 * Math.abs(Math.sin((t - 2.75) * 6.5)) * (1 - hp * 0.35) : 0;
+      const joke = t > 1.25 && t < 2.4;
+      const happy = t >= BRK;
+      const hp = seg(t, BRK, 4.7);
+      const bounce = happy ? 15 * Math.abs(Math.sin((t - BRK - 0.05) * 6.5)) * (1 - hp * 0.35) : 0;
+      const bounceB = happy ? 15 * Math.abs(Math.sin((t - BRK - 0.25) * 6.5)) * (1 - hp * 0.35) : 0;
       const gest = 100 + 24 * Math.sin((t - 1.25) * 11);
       A.pose({
-        mood: happy ? 'grin' : joke ? 'grin' : 'flat',
+        mood: happy ? 'grin' : joke ? 'smile' : t >= 2.4 ? 'smile' : 'flat',
         look: happy ? 0.9 : joke ? 0.6 : -0.8,
         lean: joke ? 7 : happy ? 4 : 0,
-        armR: happy ? 140 + 15 * Math.sin((t - 2.5) * 13) : joke ? gest : 8,
+        armR: happy ? 140 + 15 * Math.sin((t - BRK) * 13) : joke ? gest : 8,
         armL: happy ? 125 : 8,
         lift: bounce,
         squash: happy && bounce < 1.5 ? 0.93 : 1
       });
-      // ---- まめB（相手） ----
-      const open = t > 1.95 && t < 2.5;
+      // ---- まめB（聞いた側）：冗談を聞いて笑う ----
+      const laughing = t >= 2.05 && !happy;
       B.pose({
-        mood: happy ? 'grin' : open ? 'open' : 'flat',
-        look: happy ? 0.9 : -0.8,
-        lean: happy ? 4 : 0,
-        armR: happy ? 140 - 15 * Math.sin((t - 2.5) * 13) : 8,
+        mood: happy || laughing ? 'grin' : 'flat',
+        look: happy ? 0.9 : laughing ? 0.4 : -0.8,
+        lean: happy ? 4 : laughing ? -4 : 0,
+        armR: happy ? 140 - 15 * Math.sin((t - BRK) * 13) : laughing ? 40 : 8,
         armL: happy ? 125 : 8,
-        lift: bounceB,
+        lift: bounceB + (laughing ? 3 * Math.abs(Math.sin((t - 2.05) * 12)) : 0),
         squash: happy && bounceB < 1.5 ? 0.93 : 1
       });
       // ---- きらきら ----
       sparks.forEach((p, i) => {
-        const q = seg(t, 2.6 + i * 0.1, 3.0 + i * 0.1);
+        const q = seg(t, BRK + 0.1 + i * 0.1, BRK + 0.5 + i * 0.1);
         const s = hump(q) * 1.2 + (q >= 1 ? 0 : 0);
         const tw = 0.85 + 0.15 * Math.sin(t * 8 + i);
         const sc = q <= 0 ? 0 : (q >= 1 ? 0.9 * tw : easeOut(q) * tw);

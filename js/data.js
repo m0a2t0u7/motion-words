@@ -34,8 +34,19 @@ function loadShard(cat) {
 export async function getItem(id) {
   const meta = index.byId.get(id);
   if (!meta) throw new Error('unknown id ' + id);
-  const m = await loadShard(meta.cat);
-  return m.get(id);
+  let it = (await loadShard(meta.cat)).get(id);
+  if (!it) {
+    // 一覧だけ新しく、カテゴリのデータが古い（保存データの食い違い）ときは取り直す
+    shards.set(
+      meta.cat,
+      fetch(`data/items/${meta.cat}.json`, { cache: 'reload' })
+        .then((r) => r.json())
+        .then((list) => new Map(list.map((x) => [x.id, { ...x, cat: meta.cat }])))
+    );
+    it = (await shards.get(meta.cat)).get(id);
+    if (!it) throw new Error('missing ' + id);
+  }
+  return it;
 }
 
 // 次に表示しそうな項目のデータを先に読んでおく

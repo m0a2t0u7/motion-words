@@ -11,9 +11,6 @@ export function create(k) {
   el('line', { x1: 305, y1: 52, x2: 305, y2: 122, stroke: '#FFFFFF', 'stroke-width': 4 });
   el('line', { x1: 262, y1: 87, x2: 348, y2: 87, stroke: '#FFFFFF', 'stroke-width': 4 });
   el('ellipse', { cx: 200, cy: 262, rx: 190, ry: 20, fill: '#FBE3D8' });
-  // テレビの光（消えると弱まる）
-  const spill = el('ellipse', { cx: 125, cy: 130, rx: 125, ry: 90, fill: '#CFE9FA' });
-  const floorSpill = el('ellipse', { cx: 125, cy: 244, rx: 105, ry: 14, fill: '#CFE9FA' });
   // テレビ台
   el('rect', { x: 36, y: 186, width: 178, height: 50, rx: 8, fill: pal.wood });
   el('rect', { x: 36, y: 186, width: 178, height: 8, rx: 4, fill: pal.woodDark });
@@ -53,7 +50,6 @@ export function create(k) {
   el('rect', { x: -14, y: -2, width: 14, height: 4, rx: 2, fill: '#6E7890' }, rbody);
   const rings = [0, 1, 2].map(() => el('path', { d: 'M 0 -10 Q 6 0 0 10', stroke: pal.blueDark, 'stroke-width': 4, fill: 'none', 'stroke-linecap': 'round' }));
   const flash = el('circle', { cx: 0, cy: 0, r: 8, fill: pal.yellow, opacity: 0 });
-  const dark = el('rect', { x: 0, y: 0, width: 400, height: 300, fill: '#1B2236', 'pointer-events': 'none' });
 
   return {
     update(t) {
@@ -88,12 +84,7 @@ export function create(k) {
       const dp = seg(t, 2.45, 3.1);
       dot.setAttribute('r', lerp(4.5, 0.5, easeOut(dp)) * (1 + (1 - p2) * 0.0));
       dot.setAttribute('opacity', p2 >= 1 && dp < 1 ? 1 - easeIn(dp) : 0);
-      const glow = 1 - easeInOut(seg(t, 1.95, 2.8));
-      spill.setAttribute('opacity', 0.55 * glow);
-      floorSpill.setAttribute('opacity', 0.6 * glow);
       led.setAttribute('opacity', t > 2.5 ? 1 : 0.0);
-      // 部屋が少し暗くなる
-      dark.setAttribute('opacity', 0.16 * easeInOut(seg(t, 2.2, 3.1)));
     }
   };
 }
