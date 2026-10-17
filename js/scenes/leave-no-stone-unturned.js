@@ -13,7 +13,7 @@ export function create(k) {
   el('circle', { cx: 361, cy: 84, r: 7, fill: 'none', stroke: pal.yellowDark, 'stroke-width': 4 });
   el('path', { d: 'M 367 88 L 380 100 M 376 96 l 4 -4 M 372 92 l 4 -4', stroke: pal.yellowDark, 'stroke-width': 3.5, fill: 'none', 'stroke-linecap': 'round' });
   const Y = FY + 36;
-  const xs = [60, 114, 168, 236, 290, 344];
+  const xs = [62, 110, 158, 232, 280, 328];
   const stones = xs.map((x, i) => {
     const hole = el('ellipse', { cx: x, cy: Y + 2, rx: 12, ry: 4, fill: '#B9AD96' });
     return { x, hole, sh: k.shadow(x, Y + 2, 16, 3.5) };
@@ -58,7 +58,7 @@ export function create(k) {
       const mi = target([0, 1, 2], T, 1), ci = target([3, 4, 5], T, -1);
       const pm = (i) => easeInOut(seg(t, T[i], T[i] + 0.55)), pc = (i) => pm(i);
       const bx = (i, list) => stones[list[i]].x;
-      const mxT = [stones[0].x - 40, stones[1].x - 40, stones[2].x - 40], cxT = [stones[3].x + 40, stones[4].x + 40, stones[5].x + 40];
+      const mxT = [stones[0].x - 40, stones[1].x - 40, stones[2].x - 40], cxT = [stones[3].x + 28, stones[4].x + 28, stones[5].x + 28];
       const mmx = lerp(mxT[Math.max(0, mi - 1)], mxT[mi], easeInOut(seg(t, T[mi] - 0.5, T[mi] - 0.05)));
       const ccx = lerp(cxT[Math.max(0, ci - 1)], cxT[ci], easeInOut(seg(t, T[3 + ci] - 0.5, T[3 + ci] - 0.05)));
       const fm = hump(seg(t, T[mi] - 0.05, T[mi] + 0.7)), fc = hump(seg(t, T[3 + ci] - 0.05, T[3 + ci] + 0.7));

@@ -19,9 +19,9 @@ export function create(k) {
   el('rect', { x: -70, y: DECK, width: 140, height: 14, rx: 5, fill: pal.blue }, wag);
   el('rect', { x: -70, y: DECK + 10, width: 140, height: 5, fill: pal.blueDark }, wag);
   const buddies = [
-    { c: pal.mint, d: pal.mintDark, sx: 70, tr: 0.7, off: -20 },
-    { c: pal.coral, d: pal.coralDark, sx: 40, tr: 1.5, off: 18 },
-    { c: pal.violet, d: '#8A6FDB', sx: 14, tr: 2.3, off: -44 }
+    { c: pal.mint, d: pal.mintDark, sx: 90, tr: 0.7, off: -20 },
+    { c: pal.coral, d: pal.coralDark, sx: 62, tr: 1.5, off: 18 },
+    { c: pal.violet, d: '#8A6FDB', sx: 34, tr: 2.3, off: -44 }
   ].map((o) => ({ ...o, b: k.buddy({ x: o.sx, y: FY, color: o.c, dark: o.d }) }));
   const drummer = k.buddy({ x: 0, y: DECK, color: pal.yellow, dark: pal.yellowDark, facing: -1 });
   const wagF = g({});
