@@ -34,7 +34,7 @@ export function create(k) {
   el('rect', { x: 336, y: 170, width: 64, height: 10, fill: pal.woodDark });
   // 床の並び線（テープ）と矢印
   el('rect', { x: 150, y: FY + 12, width: 186, height: 4, rx: 2, fill: pal.yellow });
-  [190, 250, 310].forEach((x) => el('path', { d: `M ${x} ${FY + 22} l 12 -6 v 12 z`, fill: pal.yellowDark }));
+  [190, 250, 310].forEach((x) => el('path', { d: `M ${x + 12} ${FY + 22} l -12 -6 v 12 z`, fill: pal.yellowDark }));
   const colors = [[pal.blue, pal.blueDark], [pal.violet, '#8467DB'], [pal.yellow, pal.yellowDark]];
   const line = [312, 256, 200].map((x, i) => {
     const y = FY - 4 + i * 0; const s = 0.85;

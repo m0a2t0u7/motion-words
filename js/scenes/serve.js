@@ -13,13 +13,13 @@ export function create(k) {
   el('circle', { cx: 68, cy: 63, r: 2.4, fill: '#4F7A68' });
   el('rect', { x: 150, y: 44, width: 60, height: 52, rx: 6, fill: '#DDEFFA', stroke: '#fff', 'stroke-width': 4 });
   // お客（座っている）
-  const cust = k.buddy({ x: 340, y: 246, facing: -1 });
+  const cust = k.buddy({ x: 336, y: 246, facing: -1 });
   el('rect', { x: 368, y: 150, width: 10, height: 96, rx: 4, fill: pal.woodDark });
   // テーブル
-  el('rect', { x: 262, y: 196, width: 120, height: 7, rx: 3, fill: '#fff' });
-  el('path', { d: 'M 268 203 L 376 203 L 376 226 L 268 226 Z', fill: '#FFE3DA' });
-  el('rect', { x: 316, y: 226, width: 8, height: 10, fill: pal.woodDark });
-  el('rect', { x: 296, y: 235, width: 48, height: 4, rx: 2, fill: pal.woodDark });
+  el('rect', { x: 250, y: 196, width: 124, height: 7, rx: 3, fill: '#fff' });
+  el('path', { d: 'M 256 203 L 368 203 L 368 226 L 256 226 Z', fill: '#FFE3DA' });
+  el('rect', { x: 308, y: 226, width: 8, height: 10, fill: pal.woodDark });
+  el('rect', { x: 288, y: 235, width: 48, height: 4, rx: 2, fill: pal.woodDark });
   // 料理（皿の上の魚）
   const plate = g({});
   el('ellipse', { cx: 0, cy: 4, rx: 25, ry: 6.5, fill: '#fff', stroke: '#DDE3EA', 'stroke-width': 1.5 }, plate);
@@ -31,7 +31,7 @@ export function create(k) {
   el('ellipse', { cx: 0, cy: 6, rx: 4, ry: 2, fill: pal.green, opacity: 0.0 }, fish);
   const spk = [0, 1].map((i) => el('path', { d: 'M 0 -5 L 1.4 -1.4 L 5 0 L 1.4 1.4 L 0 5 L -1.4 1.4 L -5 0 L -1.4 -1.4 Z', fill: '#fff' }, plate));
   const w = k.buddy({ x: -30, y: 236, color: pal.coral, dark: pal.coralDark, scale: 1 });
-  const xf = (t) => lerp(-40, 206, easeInOut(seg(t, 0.1, 2.1)));
+  const xf = (t) => lerp(-40, 246, easeInOut(seg(t, 0.1, 2.1)));
   return {
     update(t) {
       const p = gait(xf, t, -40, 14);
@@ -42,7 +42,7 @@ export function create(k) {
       const rest = t >= 2.75;
       const px = rest ? 286 : h.x, py = rest ? 193 : h.y - 4;
       const land = rest ? wobble(seg(t, 2.75, 3.4), 2, 5) * 1.2 : 0;
-      tf(plate, rest ? 286 : h.x, rest ? 192 + land : lerp(h.y - 4, 192, put * put), 0);
+      tf(plate, rest ? 300 : h.x, rest ? 192 + land : lerp(h.y - 4, 192, put * put), 0);
       cust.pose({ look: -0.6, mood: t > 2.8 ? 'grin' : 'smile', lean: t > 2.8 ? 4 : 0, armR: t > 3.1 ? 60 : 8, armL: 8, squash: 1 - 0.0 });
       const sp = smooth(seg(t, 2.8, 3.1)) * (0.6 + 0.4 * Math.sin(t * 8));
       spk.forEach((s, i) => { tf(s, -10 + i * 20, -10 - i * 3, t * 40, 0.8 * sp + 0.1); s.setAttribute('opacity', sp); });
