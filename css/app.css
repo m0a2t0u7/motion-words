@@ -652,3 +652,4 @@ body.sheet-open .toast { top: calc(12px + env(safe-area-inset-top, 0px)); bottom
 @media (max-height: 640px) and (max-width: 719px) {
   .stage { width: min(100%, calc(32svh * 4 / 3)); }
 }
+.row-kind.none { font: 700 10.5px var(--ja, inherit); opacity: .8; }

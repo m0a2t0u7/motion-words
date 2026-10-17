@@ -35,7 +35,14 @@ const player = new Player({
   onStatus: (s, reason) => renderStatus(s, reason),
   onSegment: (key) => {
     document.querySelectorAll('[data-seg].speaking').forEach((n) => n.classList.remove('speaking'));
-    if (key) document.querySelectorAll(`[data-seg="${key}"]`).forEach((n) => n.classList.add('speaking'));
+    if (key) document.querySelectorAll(`[data-seg="${key}"]`).forEach((n) => {
+      n.classList.add('speaking');
+      if (view === 'learn' && n.offsetParent) {
+        const r = n.getBoundingClientRect();
+        const dockTop = $('dock').getBoundingClientRect().top;
+        if (r.bottom > dockTop - 8 || r.top < 60) window.scrollBy({ top: r.top < 60 ? r.top - 70 : r.bottom - dockTop + 24, behavior: 'smooth' });
+      }
+    });
   },
   onRep: (r, n) => {
     $('statusSub').textContent = Number.isFinite(n) ? (n > 1 ? `${r} / ${n}回目` : '') : `${r}回目`;
@@ -44,7 +51,28 @@ const player = new Player({
 });
 
 /* ---------- 範囲 ---------- */
+// 試聴・クイズ・単語ボタンなど、プレーヤー外の読み上げ。画面を切り替えたら必ず止める。
+let adhoc = { cancelled: false };
+function sayOnce(text, lang = 'en-US') {
+  adhoc.cancelled = true;
+  adhoc = { cancelled: false };
+  speech.unlock();
+  return speech.speak(text, lang, settings.rate, adhoc);
+}
+function stopAdhoc() {
+  if (adhoc.cancelled) return;
+  adhoc.cancelled = true;
+  if (player.state === 'stopped') speech.cancel();
+}
+const shuffle = (a) => {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+};
 function idsOf(r) {
+  if (r === 'motion') return index.items.filter((i) => i.motion).map((i) => i.id);
   if (r === 'mylist') return settings.mylist.filter((id) => index.byId.has(id));
   if (r === 'unlearned') return index.items.filter((i) => !settings.learned.includes(i.id)).map((i) => i.id);
   if (r === 'all') return index.items.map((i) => i.id);
@@ -55,6 +83,7 @@ function rangeName(r = settings.range) {
   if (r === 'all') return 'すべて';
   if (r === 'mylist') return 'マイリスト';
   if (r === 'unlearned') return 'まだ覚えていない';
+  if (r === 'motion') return 'モーション付き';
   return index.catLabel[r] || r;
 }
 function applyRange(startId) {
@@ -202,7 +231,7 @@ function renderStats() {
     <div class="stats-note">収録はいま使える項目の実数です。表現＝句動詞・イディオム。モーション付き${s.motion}：専用${s.motionOwn ?? s.motion}（うち3D ${s.motion3d}）・型${s.motionTpl || 0}。モーションなし${s.total - s.motion}。</div>`;
 }
 function renderChips() {
-  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()]];
+  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()], ['motion', 'モーション付き', index.stats.motion]];
   $('listChips').innerHTML = opts
     .map(([v, l, n]) => `<button class="chip" role="tab" type="button" data-v="${v}" aria-selected="${v === listFilter}">${l}<small>${n}</small></button>`)
     .join('');
@@ -212,6 +241,7 @@ function listItems() {
   let items = search(q);
   if (listFilter === 'mylist') items = items.filter((i) => settings.mylist.includes(i.id));
   else if (listFilter === 'unlearned') items = items.filter((i) => !settings.learned.includes(i.id));
+  else if (listFilter === 'motion') items = items.filter((i) => i.motion);
   else if (listFilter !== 'all') items = items.filter((i) => i.cat === listFilter);
   return items;
 }
@@ -229,7 +259,7 @@ function renderList() {
       return `<li class="row${current && current.id === i.id ? ' current' : ''}">
         <button class="row-main" type="button" data-open="${i.id}"><span class="row-en">${esc(i.en)}</span><span class="row-ja">${esc(i.ja)}</span></button>
         ${settings.learned.includes(i.id) ? '<span class="row-learned">✓覚えた</span>' : ''}
-        ${i.motion === '3d' ? '<span class="row-kind">3D</span>' : ''}
+        ${i.motion === '3d' ? '<span class="row-kind">3D</span>' : i.motion ? '<span class="row-kind">動き</span>' : '<span class="row-kind none">準備中</span>'}
         <button class="star" type="button" data-star="${i.id}" aria-pressed="${on}" aria-label="${on ? 'マイリストから外す' : 'マイリストに追加'}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.6l-5.1 2.7 1-5.7-4.1-4 5.7-.8z"/></svg></button>
       </li>`;
     })
@@ -279,7 +309,13 @@ function toggleLearned(id) {
   // 「まだ覚えていない」を再生中なら、今の語の扱いは次の周回から反映する
   if (settings.range === 'unlearned') {
     const ids = rangeIds();
-    if (ids.length) $('rangeLabel').textContent = `${rangeName()} ${ids.length}`;
+    if (ids.length) {
+      $('rangeLabel').textContent = `${rangeName()} ${ids.length}`;
+      const keep = player.currentId;
+      player.ids = ids.slice();
+      if (player.state === 'stopped' && current) player.setList(ids, ids.includes(current.id) ? current.id : ids[0]);
+      else if (!ids.includes(keep)) player.setList(ids, ids[0]);
+    }
   }
 }
 
@@ -288,14 +324,18 @@ const quiz = { item: null, n: 0, ok: 0 };
 async function newQuestion() {
   const pool = index.items.filter((i) => i.motion);
   const ids = rangeIds().filter((id) => index.byId.get(id).motion);
-  const src = ids.length >= 3 ? ids.map((id) => index.byId.get(id)) : pool;
+  const src = ids.length >= 1 ? ids.map((id) => index.byId.get(id)) : pool;
+  if (!ids.length && !quiz.warned) {
+    quiz.warned = true;
+    toast('この範囲にモーション付きの語がないので、すべての語から出題します');
+  }
   let pick;
   do pick = src[Math.floor(Math.random() * src.length)];
   while (src.length > 1 && quiz.item && pick.id === quiz.item.id);
   const others = pool.filter((i) => i.id !== pick.id);
   const same = others.filter((i) => i.cat === pick.cat);
-  const base = (same.length >= 2 ? same : others).sort(() => Math.random() - 0.5).slice(0, 2);
-  const choices = [pick, ...base].sort(() => Math.random() - 0.5);
+  const base = shuffle(same.length >= 2 ? same : others).slice(0, 2);
+  const choices = shuffle([pick, ...base]);
   quiz.item = pick;
   $('quizResult').hidden = true;
   $('quizNext').hidden = true;
@@ -314,6 +354,7 @@ async function answer(btn) {
     const li = settings.learned.indexOf(quiz.item.id);
     if (li >= 0) settings.learned.splice(li, 1);
     save();
+    toast(`「${quiz.item.en}」をマイリストに入れました`);
   }
   document.querySelectorAll('.choice').forEach((b) => {
     b.disabled = true;
@@ -326,8 +367,7 @@ async function answer(btn) {
     const it = await getItem(quiz.item.id);
     $('quizResult').hidden = false;
     $('quizResult').innerHTML = `${ok ? '正解' : '正解は'}${ok ? '' : '（マイリストに入れました）'} <b>${esc(it.en)}</b>：${esc(it.sense)}<br><span class="quiz-ex">${esc(it.ex.en)}<br>${esc(it.ex.ja)}</span>`;
-    speech.unlock();
-    speech.speak(it.en, 'en-US', settings.rate, { cancelled: false });
+    sayOnce(it.en);
   } catch (e) {
     /* 結果の詳細だけ出せない */
   }
@@ -336,6 +376,7 @@ async function answer(btn) {
 /* ---------- 画面切り替え ---------- */
 async function setView(v) {
   if (v === view) return;
+  stopAdhoc();
   if (v !== 'learn' && player.state !== 'stopped') player.stop();
   view = v;
   document.querySelectorAll('.view').forEach((s) => (s.hidden = s.id !== `view-${v}`));
@@ -371,6 +412,7 @@ function openSheet(focusRange) {
   $('sheetClose').focus();
 }
 function closeSheet() {
+  stopAdhoc();
   $('sheet').hidden = true;
   $('sheetBackdrop').hidden = true;
   document.body.classList.remove('sheet-open');
@@ -382,7 +424,7 @@ function pressSeg(seg, v) {
   seg.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.v === String(v))));
 }
 function renderSheet() {
-  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()]];
+  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()], ['motion', 'モーション付き', index.stats.motion]];
   $('rangeSeg').innerHTML = opts.map(([v, l, n]) => `<button type="button" data-v="${v}" ${n ? '' : 'disabled'}>${l}<small>${n}</small></button>`).join('');
   pressSeg($('rangeSeg'), settings.range);
   pressSeg($('modeSeg'), settings.mode);
@@ -510,9 +552,8 @@ function bind() {
   $('sayBtn').addEventListener('click', () => {
     if (!current) return;
     if (player.state !== 'stopped') player.stop();
-    speech.unlock();
     stage.restart('loop');
-    speech.speak(current.en, 'en-US', settings.rate, { cancelled: false });
+    sayOnce(current.en);
   });
   $('starBtn').addEventListener('click', () => current && toggleMylist(current.id));
   $('learnedBtn').addEventListener('click', () => current && toggleLearned(current.id));
@@ -563,8 +604,7 @@ function bind() {
   const reps = (d) => {
     settings.reps = Math.min(10, Math.max(1, settings.reps + d));
     $('repsOut').textContent = `${settings.reps}回`;
-    save();
-    if (player.state !== 'stopped') toast('くり返し回数は次の語から反映します');
+    changed();
   };
   $('repsMinus').addEventListener('click', () => reps(-1));
   $('repsPlus').addEventListener('click', () => reps(1));
@@ -584,9 +624,8 @@ function bind() {
   });
   const tryVoice = async (text, lang) => {
     if (player.state !== 'stopped') player.stop();
-    speech.unlock();
     speech.wake(true);
-    await speech.speak(text, lang, settings.rate, { cancelled: false });
+    await sayOnce(text, lang);
     if (player.state === 'stopped') speech.wake(false);
   };
   $('tryEn').addEventListener('click', () => tryVoice('The plane took off on time.', 'en-US'));
@@ -606,7 +645,11 @@ function bind() {
   document.querySelectorAll('.tab').forEach((t) => t.addEventListener('click', () => setView(t.dataset.view)));
 
   // 一覧
-  $('searchInput').addEventListener('input', renderList);
+  let searchT = 0;
+  $('searchInput').addEventListener('input', () => {
+    clearTimeout(searchT);
+    searchT = setTimeout(renderList, 120);
+  });
   $('listChips').addEventListener('click', (e) => {
     const b = e.target.closest('.chip');
     if (!b) return;

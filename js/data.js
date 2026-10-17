@@ -40,8 +40,15 @@ export async function getItem(id) {
     shards.set(
       meta.cat,
       fetch(`data/items/${meta.cat}.json`, { cache: 'reload' })
-        .then((r) => r.json())
+        .then((r) => {
+          if (!r.ok) throw new Error('shard ' + r.status);
+          return r.json();
+        })
         .then((list) => new Map(list.map((x) => [x.id, { ...x, cat: meta.cat }])))
+        .catch((e) => {
+          shards.delete(meta.cat);
+          throw e;
+        })
     );
     it = (await shards.get(meta.cat)).get(id);
     if (!it) throw new Error('missing ' + id);
