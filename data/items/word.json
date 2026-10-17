@@ -1242,7 +1242,13 @@
     "core": "手で取り上げるように選ぶ。",
     "other": [
       "（摘む）摘む：pick apples"
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🃏",
+      "act": "take"
+    }
   },
   {
     "src": "M0665",
@@ -2193,7 +2199,13 @@
       ]
     },
     "core": "水や空気の上で、沈まずにとどまる。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "move",
+      "e": "🌊",
+      "dir": "across"
+    }
   },
   {
     "src": "M0713",
@@ -2542,7 +2554,12 @@
       ]
     },
     "core": "眠いときなどに口を大きく開けて息をする。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "mood",
+      "mood": "tired"
+    }
   },
   {
     "src": "M0731",
@@ -2595,7 +2612,12 @@
     },
     "core": "声を出して笑う。",
     "diff": "laugh は声を出して笑う、smile はほほ笑む。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "mood",
+      "mood": "happy"
+    }
   },
   {
     "src": "M0734",
@@ -2614,7 +2636,12 @@
     "core": "涙を流して、声を出して泣く。",
     "other": [
       "（叫ぶ）叫ぶ：He cried for help."
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "mood",
+      "mood": "sad"
+    }
   },
   {
     "src": "M0735",
@@ -2631,7 +2658,12 @@
       ]
     },
     "core": "静かに涙を流す。やや文語的。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "mood",
+      "mood": "sad"
+    }
   },
   {
     "src": "M0736",
@@ -2694,7 +2726,12 @@
       ]
     },
     "core": "恐怖や驚きで鋭く大きな声を出す。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "mood",
+      "mood": "scared"
+    }
   },
   {
     "src": "M0739",
@@ -2872,7 +2909,13 @@
     "core": "口に入れて味を確かめる。",
     "other": [
       "（味がする）〜の味がする：This tastes sweet."
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🍲",
+      "act": "eat"
+    }
   },
   {
     "src": "M0749",
@@ -3994,7 +4037,13 @@
     },
     "core": "口から出した言葉の内容を述べる。",
     "diff": "say は言葉の内容。tell は相手に伝えること。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "💬",
+      "act": "talk"
+    }
   },
   {
     "src": "M0809",
@@ -4034,7 +4083,13 @@
     "diff": "speak は話す行為。talk は会話のやりとり。",
     "other": [
       "（演説する）：speak in public"
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "💬",
+      "act": "talk"
+    }
   },
   {
     "src": "M0811",
@@ -5046,7 +5101,13 @@
     "core": "向かい合って質問し、その人について知る。",
     "other": [
       "（取材する）：interview a player"
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "🎤",
+      "act": "ask"
+    }
   },
   {
     "src": "M0867",
@@ -5587,7 +5648,13 @@
     "core": "お金や時間を、何かのために使って減らす。",
     "other": [
       "（時間を過ごす）：spend a day at the beach"
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "💰",
+      "act": "pay"
+    }
   },
   {
     "src": "M0897",
@@ -5680,7 +5747,13 @@
     },
     "core": "あとで返してもらう約束で、人に使わせる。",
     "diff": "lend は貸す側。borrow は借りる側。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "act",
+      "e": "☂️",
+      "act": "give"
+    }
   },
   {
     "src": "M0902",
@@ -6161,7 +6234,13 @@
       ]
     },
     "core": "文字やデータを、消してなくす。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🖼️",
+      "ch": "disappear"
+    }
   },
   {
     "src": "M0927",
@@ -6373,7 +6452,13 @@
     "core": "火を使って、食べ物を食べられる状態にする。",
     "other": [
       "（名詞）料理人：a good cook"
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🍳",
+      "ch": "heat"
+    }
   },
   {
     "src": "M0941",
@@ -6910,7 +6995,13 @@
     "core": "植物などに、水をかける。",
     "other": [
       "（名詞）水：a glass of water"
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "change",
+      "e": "🪴",
+      "ch": "grow"
+    }
   },
   {
     "src": "M0970",
@@ -7761,7 +7852,12 @@
       ]
     },
     "core": "張りつめた力がゆるむ。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "mood",
+      "mood": "calm"
+    }
   },
   {
     "src": "M1015",
@@ -8137,7 +8233,12 @@
       ]
     },
     "core": "男親。呼びかけでは Dad も使う。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "👨"
+    }
   },
   {
     "src": "M1033",
@@ -8154,7 +8255,12 @@
       ]
     },
     "core": "女親。呼びかけでは Mom も使う。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "👩"
+    }
   },
   {
     "src": "M1034",
@@ -8171,7 +8277,12 @@
       ]
     },
     "core": "親から見た男の子ども。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "👦"
+    }
   },
   {
     "src": "M1035",
@@ -8188,7 +8299,12 @@
       ]
     },
     "core": "親から見た女の子ども。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "👧"
+    }
   },
   {
     "src": "M1036",
@@ -8607,7 +8723,12 @@
       ]
     },
     "core": "同じ目的のために一緒に動く人たち。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "👥"
+    }
   },
   {
     "src": "M1060",
@@ -8624,7 +8745,12 @@
       ]
     },
     "core": "一か所にまとまった複数の人や物。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "👥"
+    }
   },
   {
     "src": "M1061",
@@ -9156,7 +9282,12 @@
       ]
     },
     "core": "病気やけがを診て治療する人。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🩺"
+    }
   },
   {
     "src": "M1092",
@@ -9229,7 +9360,12 @@
     "diff": "house は建物そのもの、home は暮らす場所・家庭の意味合い。",
     "other": [
       "家に（副詞）：go home"
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🏠"
+    }
   },
   {
     "src": "M1096",
@@ -9268,7 +9404,12 @@
       ]
     },
     "core": "一棟の建物の中の、一世帯分の住まい。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🏢"
+    }
   },
   {
     "src": "M1098",
@@ -9326,7 +9467,12 @@
       ]
     },
     "core": "bed（ベッド）のある room（部屋）。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🛏"
+    }
   },
   {
     "src": "M1101",
@@ -9343,7 +9489,12 @@
       ]
     },
     "core": "浴槽やトイレのある部屋。米国では家庭のトイレの意味でもよく使う。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🛁"
+    }
   },
   {
     "src": "M1102",
@@ -9394,7 +9545,12 @@
       ]
     },
     "core": "enter（入る）ための場所。反対は exit。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🚪"
+    }
   },
   {
     "src": "M1105",
@@ -10103,7 +10259,12 @@
       ]
     },
     "core": "置いたり吊るしたりして使う照明器具。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "💡"
+    }
   },
   {
     "src": "M1143",
@@ -10123,7 +10284,12 @@
     "other": [
       "軽い（形容詞）：a light bag",
       "光：sunlight"
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "💡"
+    }
   },
   {
     "src": "M1144",
@@ -10624,7 +10790,12 @@
       ]
     },
     "core": "食べるもの全般。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🍱"
+    }
   },
   {
     "src": "M1170",
@@ -10642,7 +10813,12 @@
     },
     "core": "朝食・昼食・夕食など、決まった時刻にとる食事。",
     "diff": "food は食べ物そのもの、meal は食事の機会。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🍽"
+    }
   },
   {
     "src": "M1171",
@@ -10659,7 +10835,12 @@
       ]
     },
     "core": "朝にとる食事。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🍳"
+    }
   },
   {
     "src": "M1172",
@@ -10676,7 +10857,12 @@
       ]
     },
     "core": "昼にとる食事。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🍱"
+    }
   },
   {
     "src": "M1173",
@@ -10693,7 +10879,12 @@
       ]
     },
     "core": "一日の主な食事で、普通は夕方にとる食事。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🍽"
+    }
   },
   {
     "src": "M1174",
@@ -10710,7 +10901,12 @@
       ]
     },
     "core": "食事の間に食べる軽いもの。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🍪"
+    }
   },
   {
     "src": "M1175",
@@ -10857,7 +11053,12 @@
     "core": "穀物を加工した朝食用の食品。",
     "other": [
       "穀物：rice and other cereals"
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🥣"
+    }
   },
   {
     "src": "M1182",
@@ -11006,7 +11207,12 @@
       ]
     },
     "core": "葉が丸く重なった野菜。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🥬"
+    }
   },
   {
     "src": "M1189",
@@ -11174,7 +11380,12 @@
       ]
     },
     "core": "木や植物にできる、甘みのある食べ物。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🍇"
+    }
   },
   {
     "src": "M1197",
@@ -11462,7 +11673,12 @@
     "core": "硬い殻に包まれた食べられる実。",
     "other": [
       "（ボルトに合わせる部品）ナット：a bolt and a nut"
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🥜"
+    }
   },
   {
     "src": "M1210",
@@ -11502,7 +11718,12 @@
       ]
     },
     "core": "牛から取れる肉。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🥩"
+    }
   },
   {
     "src": "M1212",
@@ -11584,7 +11805,12 @@
       ]
     },
     "core": "海（sea）から取れる食べ物（food）。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "show",
+      "e": "🦐"
+    }
   },
   {
     "src": "M1216",
@@ -11940,7 +12166,12 @@
     "diff": "flu（インフルエンザ）より軽い。",
     "other": [
       "（形容詞）冷たい、寒い：It's cold today."
-    ]
+    ],
+    "motion": "tpl",
+    "tpl": {
+      "t": "mood",
+      "mood": "sick"
+    }
   },
   {
     "src": "M1716",
@@ -12588,7 +12819,12 @@
     },
     "core": "気持ちが高まって、じっとしていられない。",
     "diff": "exciting は「わくわくさせる」側。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "mood",
+      "mood": "happy"
+    }
   },
   {
     "src": "M1800",
@@ -12685,7 +12921,12 @@
       ]
     },
     "core": "うまくいくか不安で、気持ちが張りつめている。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "mood",
+      "mood": "worried"
+    }
   },
   {
     "src": "M1807",
@@ -12769,7 +13010,12 @@
       ]
     },
     "core": "眠りたくなっている状態。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "mood",
+      "mood": "tired"
+    }
   },
   {
     "src": "M1819",
@@ -13406,7 +13652,14 @@
     },
     "core": "全く同じではないが、よく似ている。",
     "diff": "same は全く同じ。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "compare",
+      "e": "👜",
+      "e2": "👜",
+      "rel": "same"
+    }
   },
   {
     "src": "M1888",
@@ -13627,7 +13880,13 @@
       ]
     },
     "core": "今日の次の日。",
-    "other": []
+    "other": [],
+    "motion": "tpl",
+    "tpl": {
+      "t": "time",
+      "e": "📞",
+      "rel": "later"
+    }
   },
   {
     "src": "M1938",
