@@ -12,7 +12,8 @@ export const DEFAULTS = {
   wake: true, // 再生中は画面を消さない
   enVoice: '',
   lastId: null,
-  mylist: []
+  mylist: [],
+  learned: [] // 「覚えた」にした項目
 };
 
 function clone(o) {
@@ -28,6 +29,7 @@ export function loadSettings() {
   }
   const s = { ...clone(DEFAULTS), ...saved, read: { ...DEFAULTS.read, ...(saved.read || {}) } };
   if (!Array.isArray(s.mylist)) s.mylist = [];
+  if (!Array.isArray(s.learned)) s.learned = [];
   // 設定の版：2 から「例文の日本語訳」も初期で読む
   if ((saved.v || 1) < 2) s.read.exJa = true;
   s.v = 2;

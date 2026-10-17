@@ -45,6 +45,7 @@ const player = new Player({
 /* ---------- 範囲 ---------- */
 function idsOf(r) {
   if (r === 'mylist') return settings.mylist.filter((id) => index.byId.has(id));
+  if (r === 'unlearned') return index.items.filter((i) => !settings.learned.includes(i.id)).map((i) => i.id);
   if (r === 'all') return index.items.map((i) => i.id);
   return index.items.filter((i) => i.cat === r).map((i) => i.id);
 }
@@ -52,6 +53,7 @@ const rangeIds = () => idsOf(settings.range);
 function rangeName(r = settings.range) {
   if (r === 'all') return 'すべて';
   if (r === 'mylist') return 'マイリスト';
+  if (r === 'unlearned') return 'まだ覚えていない';
   return index.catLabel[r] || r;
 }
 function applyRange(startId) {
@@ -130,6 +132,7 @@ function renderWord(it) {
   $('otherBox').hidden = !(it.other && it.other.length);
   $('otherBox').open = false;
   renderStar();
+  renderLearned();
   document.querySelectorAll('[data-seg].speaking').forEach((n) => n.classList.remove('speaking'));
 }
 
@@ -194,11 +197,11 @@ function renderStats() {
     <div class="stat"><b>${s.total}</b><span>収録</span></div>
     <div class="stat"><b>${s.words}</b><span>単語</span></div>
     <div class="stat"><b>${s.expressions}</b><span>表現</span></div>
-    <div class="stat"><b>${s.motion}</b><span>モーション</span></div>
-    <div class="stats-note">収録はいま使える項目の実数です。表現＝句動詞・イディオム。モーションのうち3Dは${s.motion3d}、場面イラストは${s.motion - s.motion3d}。</div>`;
+    <div class="stat"><b>${learnedCount()}</b><span>覚えた</span></div>
+    <div class="stats-note">収録はいま使える項目の実数です。表現＝句動詞・イディオム。モーション付き${s.motion}（3D ${s.motion3d}・場面イラスト ${s.motion - s.motion3d}）。</div>`;
 }
 function renderChips() {
-  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length]];
+  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()]];
   $('listChips').innerHTML = opts
     .map(([v, l, n]) => `<button class="chip" role="tab" type="button" data-v="${v}" aria-selected="${v === listFilter}">${l}<small>${n}</small></button>`)
     .join('');
@@ -207,6 +210,7 @@ function listItems() {
   const q = $('searchInput').value;
   let items = search(q);
   if (listFilter === 'mylist') items = items.filter((i) => settings.mylist.includes(i.id));
+  else if (listFilter === 'unlearned') items = items.filter((i) => !settings.learned.includes(i.id));
   else if (listFilter !== 'all') items = items.filter((i) => i.cat === listFilter);
   return items;
 }
@@ -223,6 +227,7 @@ function renderList() {
       const on = settings.mylist.includes(i.id);
       return `<li class="row${current && current.id === i.id ? ' current' : ''}">
         <button class="row-main" type="button" data-open="${i.id}"><span class="row-en">${esc(i.en)}</span><span class="row-ja">${esc(i.ja)}</span></button>
+        ${settings.learned.includes(i.id) ? '<span class="row-learned">✓覚えた</span>' : ''}
         ${i.motion === '3d' ? '<span class="row-kind">3D</span>' : ''}
         <button class="star" type="button" data-star="${i.id}" aria-pressed="${on}" aria-label="${on ? 'マイリストから外す' : 'マイリストに追加'}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.6l-5.1 2.7 1-5.7-4.1-4 5.7-.8z"/></svg></button>
       </li>`;
@@ -255,6 +260,28 @@ function toggleMylist(id) {
   }
 }
 
+/* ---------- 覚えた ---------- */
+const learnedCount = () => settings.learned.filter((id) => index.byId.has(id)).length;
+function renderLearned() {
+  if (!current) return;
+  const on = settings.learned.includes(current.id);
+  $('learnedBtn').setAttribute('aria-pressed', on);
+  $('learnedBtn').setAttribute('aria-label', on ? '覚えたを外す' : '覚えたにする');
+}
+function toggleLearned(id) {
+  const i = settings.learned.indexOf(id);
+  if (i >= 0) settings.learned.splice(i, 1);
+  else settings.learned.push(id);
+  save();
+  renderLearned();
+  toast(i >= 0 ? '「まだ」に戻しました' : `覚えた：${learnedCount()} / ${index.items.length}`);
+  // 「まだ覚えていない」を再生中なら、今の語の扱いは次の周回から反映する
+  if (settings.range === 'unlearned') {
+    const ids = rangeIds();
+    if (ids.length) $('rangeLabel').textContent = `${rangeName()} ${ids.length}`;
+  }
+}
+
 /* ---------- 確認 ---------- */
 const quiz = { item: null, n: 0, ok: 0 };
 async function newQuestion() {
@@ -280,6 +307,13 @@ async function answer(btn) {
   const ok = id === quiz.item.id;
   quiz.n++;
   if (ok) quiz.ok++;
+  else {
+    // 間違えた語はマイリストに入れ、「覚えた」も外して、あとで流せるようにする
+    if (!settings.mylist.includes(quiz.item.id)) settings.mylist.push(quiz.item.id);
+    const li = settings.learned.indexOf(quiz.item.id);
+    if (li >= 0) settings.learned.splice(li, 1);
+    save();
+  }
   document.querySelectorAll('.choice').forEach((b) => {
     b.disabled = true;
     if (b.dataset.id === quiz.item.id) b.classList.add('ok');
@@ -290,7 +324,7 @@ async function answer(btn) {
   try {
     const it = await getItem(quiz.item.id);
     $('quizResult').hidden = false;
-    $('quizResult').innerHTML = `${ok ? '正解' : '正解は'} <b>${esc(it.en)}</b>：${esc(it.sense)}<br><span class="quiz-ex">${esc(it.ex.en)}<br>${esc(it.ex.ja)}</span>`;
+    $('quizResult').innerHTML = `${ok ? '正解' : '正解は'}${ok ? '' : '（マイリストに入れました）'} <b>${esc(it.en)}</b>：${esc(it.sense)}<br><span class="quiz-ex">${esc(it.ex.en)}<br>${esc(it.ex.ja)}</span>`;
     speech.unlock();
     speech.speak(it.en, 'en-US', settings.rate, { cancelled: false });
   } catch (e) {
@@ -347,7 +381,7 @@ function pressSeg(seg, v) {
   seg.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.v === String(v))));
 }
 function renderSheet() {
-  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length]];
+  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()]];
   $('rangeSeg').innerHTML = opts.map(([v, l, n]) => `<button type="button" data-v="${v}" ${n ? '' : 'disabled'}>${l}<small>${n}</small></button>`).join('');
   pressSeg($('rangeSeg'), settings.range);
   pressSeg($('modeSeg'), settings.mode);
@@ -475,6 +509,7 @@ function bind() {
     speech.speak(current.en, 'en-US', settings.rate, { cancelled: false });
   });
   $('starBtn').addEventListener('click', () => current && toggleMylist(current.id));
+  $('learnedBtn').addEventListener('click', () => current && toggleLearned(current.id));
   $('rangeBtn').addEventListener('click', () => openSheet(true));
   $('settingsBtn').addEventListener('click', () => openSheet(false));
   $('sheetClose').addEventListener('click', closeSheet);
