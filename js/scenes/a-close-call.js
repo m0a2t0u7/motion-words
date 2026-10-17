@@ -8,8 +8,8 @@ export function create(k) {
   const FY = k.backdrop({ floorY: 236 });
   // ビルの壁とベランダ
   el('rect', { x: 250, y: 0, width: 150, height: 150, fill: '#F2E7DA' });
-  el('rect', { x: 230, y: 40, width: 100, height: 10, rx: 3, fill: pal.woodDark });
-  const potX = 262;
+  el('rect', { x: 160, y: 40, width: 100, height: 10, rx: 3, fill: pal.woodDark });
+  const potX = 214;
   const pot = g({});
   el('path', { d: 'M -14 -10 L 14 -10 L 10 14 L -10 14 Z', fill: pal.coral }, pot);
   el('rect', { x: -16, y: -16, width: 32, height: 8, rx: 3, fill: pal.coralDark }, pot);
@@ -17,18 +17,18 @@ export function create(k) {
   const rest = g({});
   el('path', { d: 'M -14 14 L -10 -2 L -4 4 L 2 -4 L 8 3 L 12 -2 L 14 14 Z', fill: pal.coral }, rest);
   el('ellipse', { cx: -2, cy: 14, rx: 26, ry: 6, fill: pal.coffee, opacity: 0.8 }, rest);
-  tf(rest, potX, FY - 12);
+  tf(rest, potX, FY - 12, 0, 1.3, 1.3);
   const shards = [0, 1, 2, 3, 4, 5].map((i) => el('polygon', { points: '0,0 7,2 3,7', fill: i % 2 ? pal.coral : pal.coralDark }));
   const b = k.buddy({ x: 90, y: FY, scale: 1.0 });
   const sweat = el('path', { d: 'M 0 -7 Q 5 0 0 5 Q -5 0 0 -7 Z', fill: pal.water });
   return {
     update(t) {
       const walk = t < 1.1;
-      const bx = walk ? lerp(70, 168, t / 1.1) : 168;
+      const bx = walk ? lerp(60, 160, t / 1.1) : 160;
       const imp = 1.45;
       const fall = easeIn(seg(t, 0.85, imp));
       pot.setAttribute('opacity', t < imp && t > 0.85 ? 1 : t <= 0.85 ? 1 : 0);
-      tf(pot, potX, lerp(33, FY - 14, fall), fall * 30);
+      tf(pot, potX, lerp(33, FY - 16, fall), fall * 30, 1.3, 1.3);
       rest.setAttribute('opacity', t >= imp ? 1 : 0);
       const sp = seg(t, imp, imp + 0.9);
       shards.forEach((s, i) => {

@@ -38,7 +38,7 @@ export function create(k) {
         const c = easeOut(jam);
         d = 'M ' + x0 + ' ' + y0 + ' L ' + (x0 + 36) + ' ' + y0 + ' L ' + (x0 + 40 + 8 * c) + ' ' + (y0 - 14 - 10 * c) + ' L ' + (x0 + 22) + ' ' + (y0 - 22 - 12 * c) + ' L ' + (x0 + 38 - 14 * c) + ' ' + (y0 - 36 - 6 * c) + ' L ' + (x0 + 4) + ' ' + (y0 - 30 - 10 * c) + ' L ' + (x0 - 6 - 6 * c) + ' ' + (y0 - 16) + ' Z';
       }
-      k.set(paper, { d, transform: 'translate(' + shake + ' 64)' });
+      k.set(paper, { d, transform: 'translate(' + shake + ' 4)' });
       k.set(led, { fill: t < 1.2 ? pal.green : (Math.floor(t * 6) % 2 ? pal.red : '#F7B4AD') });
       const wp = backOut(seg(t, 1.5, 1.9), 2);
       tf(warn, 336, 100, 0, wp, wp);

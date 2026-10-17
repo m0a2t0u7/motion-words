@@ -6,9 +6,9 @@ export const meta = { duration: 4.4, beats: [[0, '去ろうとする'], [1.7, '�
 export function create(k) {
   const { el, g, tf, pal } = k;
   const FY = k.backdrop({ floorY: 236 });
-  const f1 = k.buddy({ x: 290, y: FY, scale: 0.85, facing: -1, color: pal.blue, dark: pal.blueDark });
-  const f2 = k.buddy({ x: 350, y: FY, scale: 0.85, facing: -1, color: pal.violet, dark: '#8468DB' });
-  const me = k.buddy({ x: 230, y: FY, scale: 0.9, facing: -1, color: pal.coral, dark: pal.coralDark });
+  const f1 = k.buddy({ x: 315, y: FY, scale: 0.85, facing: -1, color: pal.blue, dark: pal.blueDark });
+  const f2 = k.buddy({ x: 365, y: FY, scale: 0.85, facing: -1, color: pal.violet, dark: '#8468DB' });
+  const me = k.buddy({ x: 205, y: FY, scale: 0.9, facing: -1, color: pal.coral, dark: pal.coralDark });
   const heart = g({});
   const hs = g({}, heart);
   const hp = el('path', { d: 'M 0 14 C -26 -6 -14 -26 0 -12 C 14 -26 26 -6 0 14 Z', fill: '#9AA4B2', stroke: '#fff', 'stroke-width': 3, 'stroke-linejoin': 'round' }, hs);
@@ -17,7 +17,7 @@ export function create(k) {
       const away = seg(t, 0.1, 1.2);
       const back = easeInOut(seg(t, 2.1, 3.7));
       const turn = seg(t, 1.5, 2.0);
-      const x = t < 1.2 ? lerp(235, 150, easeOut(away)) : t < 2.1 ? 150 : lerp(150, 245, back);
+      const x = t < 1.2 ? lerp(205, 140, easeOut(away)) : t < 2.1 ? 140 : lerp(140, 245, back);
       const facing = t < 1.75 ? -1 : 1;
       const walking = (t > 0.1 && t < 1.2) || (t > 2.1 && t < 3.7);
       const sw = Math.sin(t * 9) * 18;

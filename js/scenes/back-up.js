@@ -50,7 +50,7 @@ export function create(k) {
   // ボタン台
   el('rect', { x: 206, y: 196, width: 26, height: 10, rx: 3, fill: '#B9C2CF' });
   const btn = el('rect', { x: 210, y: 190, width: 18, height: 7, rx: 3.5, fill: pal.coral });
-  const b = k.buddy({ x: 180, y: FY, scale: S });
+  const b = k.buddy({ x: 166, y: FY, scale: S });
   const ring = el('circle', { r: 8, fill: 'none', stroke: pal.coralDark, 'stroke-width': 3 });
   return {
     update(t) {

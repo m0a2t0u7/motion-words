@@ -29,7 +29,7 @@ export function create(k) {
   el('rect', { x: 10, y: TOP + 2, width: 380, height: 4, rx: 2, fill: '#E8D2B0' });
   const arrowL = el('path', { d: 'M 150 120 L 112 120 M 124 110 L 112 120 L 124 130', fill: 'none', stroke: pal.blueDark, 'stroke-width': 4, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' });
   const arrowR = el('path', { d: 'M 250 120 L 288 120 M 276 110 L 288 120 L 276 130', fill: 'none', stroke: pal.coralDark, 'stroke-width': 4, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' });
-  const q = k.text(200, 70, '?', { 'font-size': 32, fill: pal.sub });
+  const q = k.text(0, 0, '?', { 'font-size': 32, fill: pal.sub });
   return {
     update(t) {
       const s = t < 1.3 ? 0 : Math.sin((t - 1.3) * 2.6);

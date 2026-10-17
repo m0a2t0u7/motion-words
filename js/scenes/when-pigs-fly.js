@@ -38,7 +38,7 @@ export function create(k) {
       tf(bub, 270, 88, 0, bp, bp);
       bub.setAttribute('opacity', t < 1.0 ? 0 : 1);
       const p = seg(t, 1.5, 3.4);
-      const x = lerp(-60, 60, easeInOut(p));
+      const x = lerp(-48, 48, easeInOut(p));
       const flap = Math.sin(t * 16);
       tf(pig, x, -4 + Math.sin(t * 3) * 5, -6, 1, 1);
       tf(wingB, 0, 0, 0, 1, 0.75 + 0.45 * flap);

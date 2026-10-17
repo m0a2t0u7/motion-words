@@ -26,7 +26,7 @@ export function create(k) {
   const heart = g({});
   el('path', { d: 'M 0 6 C -14 -6 -8 -16 0 -9 C 8 -16 14 -6 0 6 Z', fill: pal.red }, heart);
   const spark = g({});
-  [[-1, -1], [1, -1], [-1, 1], [1, 1]].forEach(([sx, sy]) => el('path', { d: 'M 0 -7 L 2 -2 L 7 0 L 2 2 L 0 7 L -2 2 L -7 0 L -2 -2 Z', fill: pal.yellow, transform: `translate(${sx * 36} ${sy * 30})` }, spark));
+  [[-1, -1], [1, -1], [-1, 1], [1, 1]].forEach(([sx, sy]) => el('path', { d: 'M 0 -7 L 2 -2 L 7 0 L 2 2 L 0 7 L -2 2 L -7 0 L -2 -2 Z', fill: pal.yellow, transform: `translate(${sx * 30} ${sy * 14})` }, spark));
   const b = k.buddy({ x: 200, y: FY, scale: 1.1 });
   return {
     update(t) {
@@ -48,9 +48,9 @@ export function create(k) {
       // facing=1: R手はまめの右(画面右)側、L手は左側
       tf(work, hr.x + (grab < 1 ? 0 : 0) > 0 ? wx : wx, wy, 0, 1, 1);
       const sp = backOut(seg(t, 2.6, 3.1), 2);
-      tf(spark, 200, 74, 0, sp * 1.0, sp * 1.0);
+      tf(spark, 200, 40, 0, sp * 1.0, sp * 1.0);
       spark.setAttribute('opacity', t < 2.6 ? 0 : 0.6 + 0.4 * Math.sin(t * 9));
-      tf(heart, 200, 62, 0, sp, sp);
+      tf(heart, 200, 34, 0, sp, sp);
       heart.setAttribute('opacity', t < 2.6 ? 0 : 1);
     }
   };
