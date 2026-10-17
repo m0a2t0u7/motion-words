@@ -1,12 +1,13 @@
 // オフラインでも使えるようにするキャッシュ。
 // 初回に「画面・全データ・全モーション・3D部品」をまとめて保存するので、電波が切れても連続再生が止まらない。
 // 版（VERSION）を上げると古いキャッシュは消える。教材を追加したら必ず上げる。
-const VERSION = 'v12-2026-10-17';
+const VERSION = 'v13-2026-10-18';
 const SHELL = [
   './',
   'index.html',
   'css/app.css',
   'js/app.js',
+  'js/gate.js',
   'js/data.js',
   'js/stage.js',
   'js/speech.js',
