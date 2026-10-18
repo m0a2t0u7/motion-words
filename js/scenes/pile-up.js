@@ -10,7 +10,7 @@ export function create(k) {
   el('rect', { x: 300, y: 50, width: 66, height: 62, rx: 6, fill: '#fff', stroke: pal.line, 'stroke-width': 2 });
   el('rect', { x: 300, y: 50, width: 66, height: 14, rx: 6, fill: pal.red });
   const day = k.text(333, 90, '1', { 'font-size': 26 });
-  // 机といす（だれも座っていない）
+  // 机といす（持ち主は留守）
   el('rect', { x: 130, y: 176, width: 170, height: 10, rx: 3, fill: pal.wood });
   el('rect', { x: 140, y: 186, width: 8, height: 54, fill: pal.woodDark });
   el('rect', { x: 282, y: 186, width: 8, height: 54, fill: pal.woodDark });
@@ -28,8 +28,12 @@ export function create(k) {
     if (i % 4 === 1) el('rect', { x: w / 2 - 9, y: -4, width: 6, height: 5, fill: pal.red }, n);
     return { n, off: ((i * 37) % 13) - 6, r: ((i * 53) % 11) - 5 };
   });
+  // 机の持ち主（帰ってきて山を見て驚く）
+  const b = k.buddy({ scale: 0.8 });
   return {
     update(t) {
+      const e = easeOut(seg(t, 2.9, 3.6)), mv = t > 2.9 && t < 3.6;
+      b.pose({ x: lerp(460, 345, e), walk: mv ? t * 10 : 0, facing: -1, look: 0.8, armL: t > 3.6 ? 8 + seg(t, 3.6, 3.85) * 140 : 8, armR: t > 3.6 ? 8 + seg(t, 3.6, 3.85) * 140 : 8, mood: t > 3.6 ? 'open' : 'smile', lift: Math.abs(Math.sin(t * 10)) * (mv ? 3 : 0) });
       const T0 = 0.4, DT = 0.24;
       mail.forEach((m, i) => {
         const a = T0 + i * DT, u = seg(t, a, a + 0.28);

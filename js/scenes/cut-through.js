@@ -13,13 +13,11 @@ export function create(k) {
   for (let i = 0; i < 4; i++) { el('rect', { x: 60, y: 50 + i * 54, width: 110, height: 30, rx: 3, fill: '#fff', opacity: 0.35 }); el('rect', { x: 234, y: 50 + i * 54, width: 110, height: 30, rx: 3, fill: '#fff', opacity: 0.35 }); }
   el('rect', { x: 190, y: 30, width: 24, height: 240, fill: '#9AA6B6' });
   // 遠回りの大通り（点線）
-  el('path', { d: 'M 202 286 L 20 286 L 20 14 L 202 14', stroke: pal.sub, 'stroke-width': 3, fill: 'none', 'stroke-dasharray': '8 8' });
+  el('path', { d: 'M 202 286 L 20 286 L 20 22 L 186 22', stroke: pal.sub, 'stroke-width': 3, fill: 'none', 'stroke-dasharray': '8 8' });
   // 家（路地の出口の先）
-  const home = g({}); tf(home, 202, 14);
-  el('rect', { x: -14, y: -4, width: 28, height: 16, fill: '#FBE9DC', stroke: pal.coralDark, 'stroke-width': 2 });
-  el('rect', { x: 188, y: 10, width: 28, height: 16, fill: '#FBE9DC', stroke: pal.coralDark, 'stroke-width': 2 });
-  el('path', { d: 'M 184 10 L 202 -2 L 220 10 Z', fill: pal.coral });
-  const lamp = el('circle', { cx: 210, cy: 18, r: 3, fill: pal.yellow, opacity: 0 });
+  el('rect', { x: 188, y: 14, width: 28, height: 14, fill: '#FBE9DC', stroke: pal.coralDark, 'stroke-width': 2 });
+  el('path', { d: 'M 184 14 L 202 3 L 220 14 Z', fill: pal.coral });
+  const lamp = el('circle', { cx: 210, cy: 21, r: 3, fill: pal.yellow, opacity: 0 });
   const S = 0.3;
   const b = k.buddy({ scale: S });
   return {
