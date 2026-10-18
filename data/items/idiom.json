@@ -1813,5 +1813,22 @@
     "core": "遅れても、結局やらないよりずっとよい。",
     "other": [],
     "motion": "2d"
+  },
+  {
+    "src": "M0597",
+    "id": "a-win-win-situation",
+    "en": "a win-win situation",
+    "ipa": "/ə ˌwɪn ˈwɪn sɪtʃuˌeɪʃən/",
+    "sense": "双方に得のある状況",
+    "ja": "お互いに得",
+    "ex": {
+      "en": "This deal is a win-win situation for both of us.",
+      "ja": "この取引は私たち双方にとって得になる。",
+      "mark": [
+        "a win-win situation"
+      ]
+    },
+    "core": "どちらも勝つ（win）形で終わる状況。",
+    "other": []
   }
 ]

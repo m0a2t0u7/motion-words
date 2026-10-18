@@ -19630,5 +19630,6485 @@
     },
     "core": "欠けたところなく、すべてにわたって。",
     "other": []
+  },
+  {
+    "src": "M1233",
+    "id": "sandwich",
+    "en": "sandwich",
+    "ipa": "/ˈsændwɪtʃ/",
+    "sense": "サンドイッチ",
+    "ja": "サンドイッチ",
+    "ex": {
+      "en": "I made a ham sandwich for lunch.",
+      "ja": "昼食にハムサンドを作った。",
+      "mark": [
+        "sandwich"
+      ]
+    },
+    "core": "パンの間に具をはさんだ食べ物。",
+    "other": [
+      "（間に）はさむ：be sandwiched between"
+    ]
+  },
+  {
+    "src": "M1234",
+    "id": "pizza",
+    "en": "pizza",
+    "ipa": "/ˈpitsə/",
+    "sense": "ピザ",
+    "ja": "ピザ",
+    "ex": {
+      "en": "Let's order a pizza tonight.",
+      "ja": "今夜はピザを頼もう。",
+      "mark": [
+        "pizza"
+      ]
+    },
+    "core": "平たい生地に具とチーズを載せて焼いた料理。",
+    "other": []
+  },
+  {
+    "src": "M1235",
+    "id": "cake",
+    "en": "cake",
+    "ipa": "/keɪk/",
+    "sense": "ケーキ",
+    "ja": "ケーキ",
+    "ex": {
+      "en": "She baked a cake for my birthday.",
+      "ja": "彼女は私の誕生日にケーキを焼いてくれた。",
+      "mark": [
+        "cake"
+      ]
+    },
+    "core": "小麦粉・卵・砂糖で作る、ふんわり甘い焼き菓子。",
+    "other": []
+  },
+  {
+    "src": "M1236",
+    "id": "cookie",
+    "en": "cookie",
+    "ipa": "/ˈkʊki/",
+    "sense": "クッキー",
+    "ja": "クッキー",
+    "ex": {
+      "en": "Can I have another cookie?",
+      "ja": "クッキーをもう一枚もらっていい？",
+      "mark": [
+        "cookie"
+      ]
+    },
+    "core": "小さく平たい、甘い焼き菓子。",
+    "diff": "（英）では biscuit とも言う。",
+    "other": []
+  },
+  {
+    "src": "M1237",
+    "id": "chocolate",
+    "en": "chocolate",
+    "ipa": "/ˈtʃɑklət/",
+    "sense": "チョコレート",
+    "ja": "チョコレート",
+    "ex": {
+      "en": "I ate a piece of chocolate after dinner.",
+      "ja": "夕食後にチョコレートをひとかけ食べた。",
+      "mark": [
+        "chocolate"
+      ]
+    },
+    "core": "カカオから作る、甘いお菓子。",
+    "other": []
+  },
+  {
+    "src": "M1238",
+    "id": "candy",
+    "en": "candy",
+    "ipa": "/ˈkændi/",
+    "sense": "あめ、お菓子",
+    "ja": "あめ",
+    "ex": {
+      "en": "The kids got candy at the party.",
+      "ja": "子どもたちはパーティーでお菓子をもらった。",
+      "mark": [
+        "candy"
+      ]
+    },
+    "core": "砂糖で作った甘いお菓子全般。",
+    "diff": "（英）では sweets と言う。",
+    "other": []
+  },
+  {
+    "src": "M1239",
+    "id": "honey",
+    "en": "honey",
+    "ipa": "/ˈhʌni/",
+    "sense": "はちみつ",
+    "ja": "はちみつ",
+    "ex": {
+      "en": "I put honey in my tea.",
+      "ja": "紅茶にはちみつを入れた。",
+      "mark": [
+        "honey"
+      ]
+    },
+    "core": "ミツバチが花の蜜から作る、甘くとろりとしたもの。",
+    "other": [
+      "（呼びかけで）あなた：Honey, I'm home."
+    ]
+  },
+  {
+    "src": "M1240",
+    "id": "jam",
+    "en": "jam",
+    "ipa": "/dʒæm/",
+    "sense": "ジャム",
+    "ja": "ジャム",
+    "ex": {
+      "en": "I spread strawberry jam on my toast.",
+      "ja": "トーストにいちごジャムを塗った。",
+      "mark": [
+        "jam"
+      ]
+    },
+    "core": "果物を砂糖で煮つめた、パンに塗るもの。",
+    "other": [
+      "渋滞：a traffic jam"
+    ]
+  },
+  {
+    "src": "M1241",
+    "id": "juice",
+    "en": "juice",
+    "ipa": "/dʒus/",
+    "sense": "（果汁100％の）ジュース",
+    "ja": "ジュース",
+    "ex": {
+      "en": "I drink orange juice every morning.",
+      "ja": "毎朝オレンジジュースを飲む。",
+      "mark": [
+        "juice"
+      ]
+    },
+    "core": "果物や野菜をしぼった汁。",
+    "diff": "英語の juice はふつう果汁。炭酸飲料は soda。",
+    "other": []
+  },
+  {
+    "src": "M1242",
+    "id": "tea",
+    "en": "tea",
+    "ipa": "/ti/",
+    "sense": "お茶、紅茶",
+    "ja": "お茶",
+    "ex": {
+      "en": "Would you like some tea?",
+      "ja": "お茶はいかがですか？",
+      "mark": [
+        "tea"
+      ]
+    },
+    "core": "茶の葉にお湯を注いで作る飲み物。",
+    "other": []
+  },
+  {
+    "src": "M1243",
+    "id": "coffee",
+    "en": "coffee",
+    "ipa": "/ˈkɔfi/",
+    "sense": "コーヒー",
+    "ja": "コーヒー",
+    "ex": {
+      "en": "I need a cup of coffee.",
+      "ja": "コーヒーが一杯ほしい。",
+      "mark": [
+        "coffee"
+      ]
+    },
+    "core": "焙煎した豆から作る、苦みのある飲み物。",
+    "other": []
+  },
+  {
+    "src": "M1244",
+    "id": "beer",
+    "en": "beer",
+    "ipa": "/bɪr/",
+    "sense": "ビール",
+    "ja": "ビール",
+    "ex": {
+      "en": "He had a cold beer after work.",
+      "ja": "彼は仕事の後に冷えたビールを飲んだ。",
+      "mark": [
+        "beer"
+      ]
+    },
+    "core": "麦などから作る、泡の立つお酒。",
+    "other": []
+  },
+  {
+    "src": "M1245",
+    "id": "wine",
+    "en": "wine",
+    "ipa": "/waɪn/",
+    "sense": "ワイン",
+    "ja": "ワイン",
+    "ex": {
+      "en": "They had red wine with dinner.",
+      "ja": "彼らは夕食に赤ワインを飲んだ。",
+      "mark": [
+        "wine"
+      ]
+    },
+    "core": "ぶどうを発酵させて作るお酒。",
+    "other": []
+  },
+  {
+    "src": "M1246",
+    "id": "plate",
+    "en": "plate",
+    "ipa": "/pleɪt/",
+    "sense": "（平たい）皿",
+    "ja": "皿",
+    "ex": {
+      "en": "Put the plates on the table, please.",
+      "ja": "お皿をテーブルに並べてください。",
+      "mark": [
+        "plates"
+      ]
+    },
+    "core": "料理を載せる、平たく丸い皿。",
+    "other": [
+      "（料理の）一皿分：a plate of rice"
+    ]
+  },
+  {
+    "src": "M1247",
+    "id": "bowl",
+    "en": "bowl",
+    "ipa": "/boʊl/",
+    "sense": "ボウル、（深い）鉢",
+    "ja": "ボウル",
+    "ex": {
+      "en": "I ate a bowl of soup.",
+      "ja": "スープを一杯食べた。",
+      "mark": [
+        "bowl"
+      ]
+    },
+    "core": "スープやご飯を入れる、深くて丸い器。",
+    "diff": "plate は平たい皿。",
+    "other": []
+  },
+  {
+    "src": "M1248",
+    "id": "cup",
+    "en": "cup",
+    "ipa": "/kʌp/",
+    "sense": "カップ、茶わん",
+    "ja": "カップ",
+    "ex": {
+      "en": "She drank a cup of tea.",
+      "ja": "彼女はお茶を一杯飲んだ。",
+      "mark": [
+        "cup"
+      ]
+    },
+    "core": "取っ手のある小さな器。",
+    "other": [
+      "（優勝）カップ：the World Cup"
+    ]
+  },
+  {
+    "src": "M1249",
+    "id": "mug",
+    "en": "mug",
+    "ipa": "/mʌɡ/",
+    "sense": "マグカップ",
+    "ja": "マグ",
+    "ex": {
+      "en": "I drink coffee from a big mug.",
+      "ja": "大きなマグでコーヒーを飲む。",
+      "mark": [
+        "mug"
+      ]
+    },
+    "core": "取っ手付きの、厚くて背の高いカップ。",
+    "diff": "cup はふつう受け皿付きの小さめのもの。",
+    "other": []
+  },
+  {
+    "src": "M1250",
+    "id": "glass",
+    "en": "glass",
+    "ipa": "/ɡlæs/",
+    "sense": "コップ、グラス",
+    "ja": "コップ",
+    "ex": {
+      "en": "Can I have a glass of water?",
+      "ja": "水を一杯もらえますか？",
+      "mark": [
+        "glass"
+      ]
+    },
+    "core": "ガラスでできた、飲み物用の器。",
+    "other": [
+      "ガラス（素材）：made of glass"
+    ]
+  },
+  {
+    "src": "M1251",
+    "id": "bottle",
+    "en": "bottle",
+    "ipa": "/ˈbɑtəl/",
+    "sense": "瓶、ボトル",
+    "ja": "瓶",
+    "ex": {
+      "en": "He bought a bottle of water.",
+      "ja": "彼は水を1本買った。",
+      "mark": [
+        "bottle"
+      ]
+    },
+    "core": "口の細い、液体を入れる入れ物。",
+    "diff": "jar は口が広い瓶。",
+    "other": []
+  },
+  {
+    "src": "M1252",
+    "id": "jar",
+    "en": "jar",
+    "ipa": "/dʒɑr/",
+    "sense": "広口瓶",
+    "ja": "広口瓶",
+    "ex": {
+      "en": "Keep the cookies in a glass jar.",
+      "ja": "クッキーはガラス瓶に入れておいて。",
+      "mark": [
+        "jar"
+      ]
+    },
+    "core": "口が広く、ふたの付いた瓶。",
+    "diff": "bottle は口の細い瓶。",
+    "other": []
+  },
+  {
+    "src": "M1253",
+    "id": "can",
+    "en": "can",
+    "ipa": "/kæn/",
+    "sense": "缶",
+    "ja": "缶",
+    "ex": {
+      "en": "I opened a can of beans.",
+      "ja": "豆の缶詰を開けた。",
+      "mark": [
+        "can"
+      ]
+    },
+    "core": "金属でできた、飲み物や食べ物の入れ物。",
+    "diff": "（英）では tin とも言う。",
+    "other": []
+  },
+  {
+    "src": "M1254",
+    "id": "pot",
+    "en": "pot",
+    "ipa": "/pɑt/",
+    "sense": "（深い）鍋",
+    "ja": "鍋",
+    "ex": {
+      "en": "Boil water in a big pot.",
+      "ja": "大きな鍋でお湯を沸かして。",
+      "mark": [
+        "pot"
+      ]
+    },
+    "core": "煮たりゆでたりする、深くて丸い鍋。",
+    "diff": "pan は浅く平たい鍋。",
+    "other": [
+      "ポット：a coffee pot"
+    ]
+  },
+  {
+    "src": "M1255",
+    "id": "pan",
+    "en": "pan",
+    "ipa": "/pæn/",
+    "sense": "フライパン、（浅い）鍋",
+    "ja": "フライパン",
+    "ex": {
+      "en": "Heat some oil in the pan.",
+      "ja": "フライパンで油を熱して。",
+      "mark": [
+        "pan"
+      ]
+    },
+    "core": "焼いたり炒めたりする、浅く平たい鍋。",
+    "diff": "pot は深い鍋。",
+    "other": []
+  },
+  {
+    "src": "M1256",
+    "id": "lid",
+    "en": "lid",
+    "ipa": "/lɪd/",
+    "sense": "ふた",
+    "ja": "ふた",
+    "ex": {
+      "en": "Put the lid on the pot.",
+      "ja": "鍋にふたをして。",
+      "mark": [
+        "lid"
+      ]
+    },
+    "core": "鍋や箱の口をふさぐ、取り外せるふた。",
+    "other": []
+  },
+  {
+    "src": "M1257",
+    "id": "knife",
+    "en": "knife",
+    "ipa": "/naɪf/",
+    "sense": "ナイフ、包丁",
+    "ja": "ナイフ",
+    "ex": {
+      "en": "Cut the bread with this knife.",
+      "ja": "このナイフでパンを切って。",
+      "mark": [
+        "knife"
+      ]
+    },
+    "core": "ものを切るための刃物。",
+    "other": []
+  },
+  {
+    "src": "M1258",
+    "id": "fork",
+    "en": "fork",
+    "ipa": "/fɔrk/",
+    "sense": "フォーク",
+    "ja": "フォーク",
+    "ex": {
+      "en": "I eat salad with a fork.",
+      "ja": "サラダはフォークで食べる。",
+      "mark": [
+        "fork"
+      ]
+    },
+    "core": "先がいくつにも分かれた、刺して食べる道具。",
+    "other": [
+      "（道の）分かれ目：a fork in the road"
+    ]
+  },
+  {
+    "src": "M1259",
+    "id": "spoon",
+    "en": "spoon",
+    "ipa": "/spun/",
+    "sense": "スプーン",
+    "ja": "スプーン",
+    "ex": {
+      "en": "Eat your soup with a spoon.",
+      "ja": "スープはスプーンで飲んで。",
+      "mark": [
+        "spoon"
+      ]
+    },
+    "core": "すくって食べる、丸いくぼみのある道具。",
+    "other": []
+  },
+  {
+    "src": "M1260",
+    "id": "chopsticks",
+    "en": "chopsticks",
+    "ipa": "/ˈtʃɑpstɪks/",
+    "sense": "箸",
+    "ja": "箸",
+    "ex": {
+      "en": "Can you use chopsticks?",
+      "ja": "お箸は使える？",
+      "mark": [
+        "chopsticks"
+      ]
+    },
+    "core": "2本1組で、つまんで食べる細い棒。",
+    "other": []
+  },
+  {
+    "src": "M1261",
+    "id": "napkin",
+    "en": "napkin",
+    "ipa": "/ˈnæpkɪn/",
+    "sense": "（食事用の）ナプキン",
+    "ja": "ナプキン",
+    "ex": {
+      "en": "Please take a napkin.",
+      "ja": "ナプキンをどうぞ。",
+      "mark": [
+        "napkin"
+      ]
+    },
+    "core": "食事中に口や手をふく紙や布。",
+    "other": []
+  },
+  {
+    "src": "M1262",
+    "id": "tray",
+    "en": "tray",
+    "ipa": "/treɪ/",
+    "sense": "お盆、トレー",
+    "ja": "トレー",
+    "ex": {
+      "en": "She carried the cups on a tray.",
+      "ja": "彼女はお盆にカップを載せて運んだ。",
+      "mark": [
+        "tray"
+      ]
+    },
+    "core": "物を載せて運ぶ、平たい板。",
+    "other": []
+  },
+  {
+    "src": "M1263",
+    "id": "body",
+    "en": "body",
+    "ipa": "/ˈbɑdi/",
+    "sense": "体",
+    "ja": "体",
+    "ex": {
+      "en": "Exercise is good for your body.",
+      "ja": "運動は体によい。",
+      "mark": [
+        "body"
+      ]
+    },
+    "core": "頭から足までの、人や動物の体全体。",
+    "other": [
+      "（死）体：a dead body"
+    ]
+  },
+  {
+    "src": "M1264",
+    "id": "head",
+    "en": "head",
+    "ipa": "/hɛd/",
+    "sense": "頭",
+    "ja": "頭",
+    "ex": {
+      "en": "He hit his head on the door.",
+      "ja": "彼はドアに頭をぶつけた。",
+      "mark": [
+        "head"
+      ]
+    },
+    "core": "首から上の部分。",
+    "other": [
+      "向かう：head home"
+    ]
+  },
+  {
+    "src": "M1265",
+    "id": "face",
+    "en": "face",
+    "ipa": "/feɪs/",
+    "sense": "顔",
+    "ja": "顔",
+    "ex": {
+      "en": "Wash your face before bed.",
+      "ja": "寝る前に顔を洗って。",
+      "mark": [
+        "face"
+      ]
+    },
+    "core": "頭の前側の、目や鼻や口がある部分。",
+    "other": [
+      "（問題に）向き合う：face a problem"
+    ]
+  },
+  {
+    "src": "M1266",
+    "id": "hair",
+    "en": "hair",
+    "ipa": "/hɛr/",
+    "sense": "髪、毛",
+    "ja": "髪",
+    "ex": {
+      "en": "She has long black hair.",
+      "ja": "彼女は長い黒髪だ。",
+      "mark": [
+        "hair"
+      ]
+    },
+    "core": "頭や体に生える細い毛。",
+    "other": []
+  },
+  {
+    "src": "M1267",
+    "id": "eye",
+    "en": "eye",
+    "ipa": "/aɪ/",
+    "sense": "目",
+    "ja": "目",
+    "ex": {
+      "en": "Close your eyes and relax.",
+      "ja": "目を閉じてリラックスして。",
+      "mark": [
+        "eyes"
+      ]
+    },
+    "core": "ものを見るための器官。",
+    "other": []
+  },
+  {
+    "src": "M1268",
+    "id": "ear",
+    "en": "ear",
+    "ipa": "/ɪr/",
+    "sense": "耳",
+    "ja": "耳",
+    "ex": {
+      "en": "My ears hurt from the cold.",
+      "ja": "寒さで耳が痛い。",
+      "mark": [
+        "ears"
+      ]
+    },
+    "core": "音を聞くための器官。",
+    "other": []
+  },
+  {
+    "src": "M1269",
+    "id": "nose",
+    "en": "nose",
+    "ipa": "/noʊz/",
+    "sense": "鼻",
+    "ja": "鼻",
+    "ex": {
+      "en": "My nose is running.",
+      "ja": "鼻水が出ている。",
+      "mark": [
+        "nose"
+      ]
+    },
+    "core": "顔の中央にある、においをかぎ息をする器官。",
+    "other": []
+  },
+  {
+    "src": "M1270",
+    "id": "mouth",
+    "en": "mouth",
+    "ipa": "/maʊθ/",
+    "sense": "口",
+    "ja": "口",
+    "ex": {
+      "en": "Don't talk with your mouth full.",
+      "ja": "口に物を入れたまま話さないで。",
+      "mark": [
+        "mouth"
+      ]
+    },
+    "core": "食べたり話したりする、顔の開いた部分。",
+    "other": [
+      "（川の）河口：the mouth of a river"
+    ]
+  },
+  {
+    "src": "M1271",
+    "id": "lip",
+    "en": "lip",
+    "ipa": "/lɪp/",
+    "sense": "唇",
+    "ja": "唇",
+    "ex": {
+      "en": "My lips are dry in winter.",
+      "ja": "冬は唇が乾燥する。",
+      "mark": [
+        "lips"
+      ]
+    },
+    "core": "口のまわりの、やわらかい赤い部分。",
+    "other": []
+  },
+  {
+    "src": "M1272",
+    "id": "tongue",
+    "en": "tongue",
+    "ipa": "/tʌŋ/",
+    "sense": "舌",
+    "ja": "舌",
+    "ex": {
+      "en": "I burned my tongue on the hot soup.",
+      "ja": "熱いスープで舌をやけどした。",
+      "mark": [
+        "tongue"
+      ]
+    },
+    "core": "口の中で味を感じ、話すのに使う器官。",
+    "other": []
+  },
+  {
+    "src": "M1273",
+    "id": "tooth",
+    "en": "tooth",
+    "ipa": "/tuθ/",
+    "sense": "歯（複数形 teeth）",
+    "ja": "歯",
+    "ex": {
+      "en": "I lost a tooth when I was six.",
+      "ja": "6歳のとき歯が1本抜けた。",
+      "mark": [
+        "tooth"
+      ]
+    },
+    "core": "食べ物をかむ、口の中の硬いもの。",
+    "other": []
+  },
+  {
+    "src": "M1274",
+    "id": "neck",
+    "en": "neck",
+    "ipa": "/nɛk/",
+    "sense": "首",
+    "ja": "首",
+    "ex": {
+      "en": "My neck hurts after work.",
+      "ja": "仕事の後、首が痛い。",
+      "mark": [
+        "neck"
+      ]
+    },
+    "core": "頭と胴をつなぐ部分。",
+    "other": []
+  },
+  {
+    "src": "M1275",
+    "id": "shoulder",
+    "en": "shoulder",
+    "ipa": "/ˈʃoʊldɚ/",
+    "sense": "肩",
+    "ja": "肩",
+    "ex": {
+      "en": "She put her hand on my shoulder.",
+      "ja": "彼女は私の肩に手を置いた。",
+      "mark": [
+        "shoulder"
+      ]
+    },
+    "core": "腕の付け根の、首の両わきの部分。",
+    "other": []
+  },
+  {
+    "src": "M1276",
+    "id": "arm",
+    "en": "arm",
+    "ipa": "/ɑrm/",
+    "sense": "腕",
+    "ja": "腕",
+    "ex": {
+      "en": "He broke his arm playing soccer.",
+      "ja": "彼はサッカーで腕を骨折した。",
+      "mark": [
+        "arm"
+      ]
+    },
+    "core": "肩から手首までの部分。",
+    "other": []
+  },
+  {
+    "src": "M1277",
+    "id": "elbow",
+    "en": "elbow",
+    "ipa": "/ˈɛlboʊ/",
+    "sense": "ひじ",
+    "ja": "ひじ",
+    "ex": {
+      "en": "Don't put your elbows on the table.",
+      "ja": "テーブルにひじをつかないで。",
+      "mark": [
+        "elbows"
+      ]
+    },
+    "core": "腕の真ん中で曲がる関節。",
+    "other": []
+  },
+  {
+    "src": "M1278",
+    "id": "wrist",
+    "en": "wrist",
+    "ipa": "/rɪst/",
+    "sense": "手首",
+    "ja": "手首",
+    "ex": {
+      "en": "She wears a watch on her wrist.",
+      "ja": "彼女は手首に腕時計をしている。",
+      "mark": [
+        "wrist"
+      ]
+    },
+    "core": "腕と手をつなぐ関節。",
+    "other": []
+  },
+  {
+    "src": "M1279",
+    "id": "hand",
+    "en": "hand",
+    "ipa": "/hænd/",
+    "sense": "手",
+    "ja": "手",
+    "ex": {
+      "en": "Raise your hand if you know the answer.",
+      "ja": "答えが分かったら手を挙げて。",
+      "mark": [
+        "hand"
+      ]
+    },
+    "core": "手首から先の、ものをつかむ部分。",
+    "other": [
+      "手渡す：hand me the salt"
+    ]
+  },
+  {
+    "src": "M1280",
+    "id": "finger",
+    "en": "finger",
+    "ipa": "/ˈfɪŋɡɚ/",
+    "sense": "（手の）指",
+    "ja": "指",
+    "ex": {
+      "en": "I cut my finger with a knife.",
+      "ja": "ナイフで指を切った。",
+      "mark": [
+        "finger"
+      ]
+    },
+    "core": "手の先の、5本に分かれた部分。",
+    "diff": "足の指は toe。",
+    "other": []
+  },
+  {
+    "src": "M1281",
+    "id": "thumb",
+    "en": "thumb",
+    "ipa": "/θʌm/",
+    "sense": "親指",
+    "ja": "親指",
+    "ex": {
+      "en": "He gave me a thumbs-up.",
+      "ja": "彼は親指を立てて「いいね」と示した。",
+      "mark": [
+        "thumb"
+      ]
+    },
+    "core": "手の指のうち、いちばん太く短い指。",
+    "other": []
+  },
+  {
+    "src": "M1282",
+    "id": "chest",
+    "en": "chest",
+    "ipa": "/tʃɛst/",
+    "sense": "胸",
+    "ja": "胸",
+    "ex": {
+      "en": "I have a pain in my chest.",
+      "ja": "胸が痛い。",
+      "mark": [
+        "chest"
+      ]
+    },
+    "core": "首とおなかの間の、体の前側。",
+    "other": [
+      "（ふた付きの）大きな箱：a treasure chest"
+    ]
+  },
+  {
+    "src": "M1283",
+    "id": "back",
+    "en": "back",
+    "ipa": "/bæk/",
+    "sense": "背中",
+    "ja": "背中",
+    "ex": {
+      "en": "My back hurts from sitting all day.",
+      "ja": "一日中座っていて背中が痛い。",
+      "mark": [
+        "back"
+      ]
+    },
+    "core": "体の後ろ側、首から腰までの部分。",
+    "other": [
+      "後ろへ、戻って：come back"
+    ]
+  },
+  {
+    "src": "M1284",
+    "id": "waist",
+    "en": "waist",
+    "ipa": "/weɪst/",
+    "sense": "腰（のくびれ）、ウエスト",
+    "ja": "ウエスト",
+    "ex": {
+      "en": "These pants are too big at the waist.",
+      "ja": "このズボンはウエストが大きすぎる。",
+      "mark": [
+        "waist"
+      ]
+    },
+    "core": "胴のいちばん細い部分。",
+    "diff": "hip は腰の横に張り出した部分。",
+    "other": []
+  },
+  {
+    "src": "M1285",
+    "id": "hip",
+    "en": "hip",
+    "ipa": "/hɪp/",
+    "sense": "（左右に張り出した）腰、ヒップ",
+    "ja": "腰",
+    "ex": {
+      "en": "She put her hands on her hips.",
+      "ja": "彼女は両手を腰に当てた。",
+      "mark": [
+        "hips"
+      ]
+    },
+    "core": "脚の付け根の上、体の左右に張り出した部分。",
+    "diff": "日本語の「ヒップ（お尻）」とは少しずれる。お尻は butt など。",
+    "other": []
+  },
+  {
+    "src": "M1286",
+    "id": "leg",
+    "en": "leg",
+    "ipa": "/lɛɡ/",
+    "sense": "脚",
+    "ja": "脚",
+    "ex": {
+      "en": "My legs are tired from walking.",
+      "ja": "歩いて脚が疲れた。",
+      "mark": [
+        "legs"
+      ]
+    },
+    "core": "ももから足首までの部分。",
+    "other": [
+      "（机などの）脚：a table leg"
+    ]
+  },
+  {
+    "src": "M1287",
+    "id": "knee",
+    "en": "knee",
+    "ipa": "/ni/",
+    "sense": "ひざ",
+    "ja": "ひざ",
+    "ex": {
+      "en": "He fell and hurt his knee.",
+      "ja": "彼は転んでひざをけがした。",
+      "mark": [
+        "knee"
+      ]
+    },
+    "core": "脚の真ん中で曲がる関節。",
+    "other": []
+  },
+  {
+    "src": "M1288",
+    "id": "ankle",
+    "en": "ankle",
+    "ipa": "/ˈæŋkəl/",
+    "sense": "足首",
+    "ja": "足首",
+    "ex": {
+      "en": "I twisted my ankle on the stairs.",
+      "ja": "階段で足首をひねった。",
+      "mark": [
+        "ankle"
+      ]
+    },
+    "core": "脚と足をつなぐ関節。",
+    "other": []
+  },
+  {
+    "src": "M1289",
+    "id": "foot",
+    "en": "foot",
+    "ipa": "/fʊt/",
+    "sense": "足（足首から先、複数形 feet）",
+    "ja": "足",
+    "ex": {
+      "en": "I stepped on his foot by mistake.",
+      "ja": "うっかり彼の足を踏んだ。",
+      "mark": [
+        "foot"
+      ]
+    },
+    "core": "足首から下の、地面につく部分。",
+    "diff": "leg は脚全体。",
+    "other": [
+      "（長さの単位）フィート：six feet tall"
+    ]
+  },
+  {
+    "src": "M1290",
+    "id": "toe",
+    "en": "toe",
+    "ipa": "/toʊ/",
+    "sense": "足の指",
+    "ja": "足の指",
+    "ex": {
+      "en": "I hit my toe on the table.",
+      "ja": "テーブルに足の指をぶつけた。",
+      "mark": [
+        "toe"
+      ]
+    },
+    "core": "足の先の、5本に分かれた部分。",
+    "diff": "手の指は finger。",
+    "other": []
+  },
+  {
+    "src": "M1291",
+    "id": "skin",
+    "en": "skin",
+    "ipa": "/skɪn/",
+    "sense": "皮膚、肌",
+    "ja": "肌",
+    "ex": {
+      "en": "She has very soft skin.",
+      "ja": "彼女の肌はとてもやわらかい。",
+      "mark": [
+        "skin"
+      ]
+    },
+    "core": "体の表面をおおう薄い層。",
+    "other": [
+      "（果物の）皮：banana skin"
+    ]
+  },
+  {
+    "src": "M1292",
+    "id": "bone",
+    "en": "bone",
+    "ipa": "/boʊn/",
+    "sense": "骨",
+    "ja": "骨",
+    "ex": {
+      "en": "The dog is chewing a bone.",
+      "ja": "犬が骨をかじっている。",
+      "mark": [
+        "bone"
+      ]
+    },
+    "core": "体を内側から支える、硬い部分。",
+    "other": []
+  },
+  {
+    "src": "M1293",
+    "id": "muscle",
+    "en": "muscle",
+    "ipa": "/ˈmʌsəl/",
+    "sense": "筋肉",
+    "ja": "筋肉",
+    "ex": {
+      "en": "Running makes your leg muscles strong.",
+      "ja": "走ると脚の筋肉が強くなる。",
+      "mark": [
+        "muscles"
+      ]
+    },
+    "core": "縮んだりのびたりして体を動かす部分。",
+    "other": []
+  },
+  {
+    "src": "M1294",
+    "id": "heart",
+    "en": "heart",
+    "ipa": "/hɑrt/",
+    "sense": "心臓",
+    "ja": "心臓",
+    "ex": {
+      "en": "My heart was beating fast.",
+      "ja": "心臓がどきどきしていた。",
+      "mark": [
+        "heart"
+      ]
+    },
+    "core": "血液を全身に送り出す器官。",
+    "other": [
+      "心、気持ち：a kind heart"
+    ]
+  },
+  {
+    "src": "M1295",
+    "id": "brain",
+    "en": "brain",
+    "ipa": "/breɪn/",
+    "sense": "脳",
+    "ja": "脳",
+    "ex": {
+      "en": "The brain controls the whole body.",
+      "ja": "脳は体全体を動かしている。",
+      "mark": [
+        "brain"
+      ]
+    },
+    "core": "頭の中にあり、考えたり体を動かしたりする器官。",
+    "other": [
+      "頭のいい人：the brains of the team"
+    ]
+  },
+  {
+    "src": "M1296",
+    "id": "lung",
+    "en": "lung",
+    "ipa": "/lʌŋ/",
+    "sense": "肺",
+    "ja": "肺",
+    "ex": {
+      "en": "Smoking is bad for your lungs.",
+      "ja": "喫煙は肺に悪い。",
+      "mark": [
+        "lungs"
+      ]
+    },
+    "core": "胸の中にあり、息を吸って吐く器官。",
+    "other": []
+  },
+  {
+    "src": "M1398",
+    "id": "stamp",
+    "en": "stamp",
+    "ipa": "/stæmp/",
+    "sense": "（手紙に貼る）切手",
+    "ja": "切手",
+    "ex": {
+      "en": "I need a stamp for this letter.",
+      "ja": "この手紙に貼る切手が要る。",
+      "mark": [
+        "stamp"
+      ]
+    },
+    "core": "料金を払った印として、封筒に貼る小さな紙。",
+    "other": [
+      "判子・スタンプ：a date stamp"
+    ]
+  },
+  {
+    "src": "M1399",
+    "id": "card",
+    "en": "card",
+    "ipa": "/kɑrd/",
+    "sense": "（メッセージを書く）カード",
+    "ja": "カード",
+    "ex": {
+      "en": "She sent me a birthday card.",
+      "ja": "彼女が誕生日カードを送ってくれた。",
+      "mark": [
+        "card"
+      ]
+    },
+    "core": "厚めの小さな紙。用途に応じて書いたり見せたりする。",
+    "other": [
+      "（支払い用の）カード：pay by card",
+      "（遊びの）トランプ：play cards"
+    ]
+  },
+  {
+    "src": "M1400",
+    "id": "ticket",
+    "en": "ticket",
+    "ipa": "/ˈtɪkɪt/",
+    "sense": "（乗り物・催しの）切符、チケット",
+    "ja": "切符",
+    "ex": {
+      "en": "I bought a train ticket online.",
+      "ja": "電車の切符をネットで買った。",
+      "mark": [
+        "ticket"
+      ]
+    },
+    "core": "お金を払って、乗る・入る権利を持っている証拠。",
+    "other": [
+      "（交通違反の）切符：a parking ticket"
+    ]
+  },
+  {
+    "src": "M1401",
+    "id": "receipt",
+    "en": "receipt",
+    "ipa": "/rɪˈsit/",
+    "sense": "（買い物の）レシート、領収書",
+    "ja": "レシート",
+    "ex": {
+      "en": "Please keep the receipt.",
+      "ja": "レシートは取っておいてください。",
+      "mark": [
+        "receipt"
+      ]
+    },
+    "core": "お金を受け取ったことを示す紙。p は発音しない。",
+    "other": []
+  },
+  {
+    "src": "M1402",
+    "id": "coin",
+    "en": "coin",
+    "ipa": "/kɔɪn/",
+    "sense": "硬貨",
+    "ja": "硬貨",
+    "ex": {
+      "en": "I found a coin under the sofa.",
+      "ja": "ソファの下で硬貨を見つけた。",
+      "mark": [
+        "coin"
+      ]
+    },
+    "core": "金属でできた、丸くて小さなお金。",
+    "other": []
+  },
+  {
+    "src": "M1403",
+    "id": "cash",
+    "en": "cash",
+    "ipa": "/kæʃ/",
+    "sense": "現金",
+    "ja": "現金",
+    "ex": {
+      "en": "Do you take cash?",
+      "ja": "現金で払えますか？",
+      "mark": [
+        "cash"
+      ]
+    },
+    "core": "カードではなく、手で渡せるお札や硬貨。",
+    "other": []
+  },
+  {
+    "src": "M1404",
+    "id": "bill",
+    "en": "bill",
+    "ipa": "/bɪl/",
+    "sense": "請求書",
+    "ja": "請求書",
+    "ex": {
+      "en": "I paid the phone bill today.",
+      "ja": "今日、電話代の請求書を払った。",
+      "mark": [
+        "bill"
+      ]
+    },
+    "core": "「これだけ払ってください」と書かれた紙。",
+    "other": [
+      "紙幣：a ten-dollar bill",
+      "（店の）勘定：ask for the bill"
+    ]
+  },
+  {
+    "src": "M1405",
+    "id": "map",
+    "en": "map",
+    "ipa": "/mæp/",
+    "sense": "地図",
+    "ja": "地図",
+    "ex": {
+      "en": "Let's check the map before we go.",
+      "ja": "出かける前に地図を確認しよう。",
+      "mark": [
+        "map"
+      ]
+    },
+    "core": "土地や道の様子を、上から見て平らに描いたもの。",
+    "other": []
+  },
+  {
+    "src": "M1406",
+    "id": "passport",
+    "en": "passport",
+    "ipa": "/ˈpæsˌpɔrt/",
+    "sense": "パスポート、旅券",
+    "ja": "パスポート",
+    "ex": {
+      "en": "Don't forget your passport.",
+      "ja": "パスポートを忘れないで。",
+      "mark": [
+        "passport"
+      ]
+    },
+    "core": "外国へ出入りするときに、国籍と身元を示す冊子。",
+    "other": []
+  },
+  {
+    "src": "M1407",
+    "id": "license",
+    "en": "license",
+    "ipa": "/ˈlaɪsəns/",
+    "sense": "免許証、許可証",
+    "ja": "免許証",
+    "ex": {
+      "en": "He just got his driver's license.",
+      "ja": "彼は運転免許を取ったばかりだ。",
+      "mark": [
+        "license"
+      ]
+    },
+    "core": "あることをしてよいと公に認められた証明。",
+    "other": []
+  },
+  {
+    "src": "M1408",
+    "id": "identity",
+    "en": "identity",
+    "ipa": "/aɪˈdɛntəti/",
+    "sense": "身元、本人であること",
+    "ja": "身元",
+    "ex": {
+      "en": "They checked my identity at the door.",
+      "ja": "入口で身元を確認された。",
+      "mark": [
+        "identity"
+      ]
+    },
+    "core": "その人がほかでもない「その人」であること。",
+    "other": [
+      "自分らしさ：a sense of identity"
+    ]
+  },
+  {
+    "src": "M1409",
+    "id": "label",
+    "en": "label",
+    "ipa": "/ˈleɪbəl/",
+    "sense": "ラベル",
+    "ja": "ラベル",
+    "ex": {
+      "en": "Read the label before you take it.",
+      "ja": "飲む前にラベルを読んで。",
+      "mark": [
+        "label"
+      ]
+    },
+    "core": "中身や情報を知らせるために、物に付ける紙や札。",
+    "diff": "tag はひもで付ける札。label は貼る・縫い付けるもの。",
+    "other": []
+  },
+  {
+    "src": "M1410",
+    "id": "tag",
+    "en": "tag",
+    "ipa": "/tæɡ/",
+    "sense": "（ひもで付ける）札、値札",
+    "ja": "札",
+    "ex": {
+      "en": "I cut the price tag off my shirt.",
+      "ja": "シャツの値札を切り取った。",
+      "mark": [
+        "tag"
+      ]
+    },
+    "core": "物にぶら下げて、値段や名前を示す小さな札。",
+    "other": []
+  },
+  {
+    "src": "M1411",
+    "id": "box",
+    "en": "box",
+    "ipa": "/bɑks/",
+    "sense": "箱",
+    "ja": "箱",
+    "ex": {
+      "en": "Put the toys in the box.",
+      "ja": "おもちゃを箱に入れて。",
+      "mark": [
+        "box"
+      ]
+    },
+    "core": "物を入れておく、四角い入れ物。",
+    "other": []
+  },
+  {
+    "src": "M1412",
+    "id": "package",
+    "en": "package",
+    "ipa": "/ˈpækɪdʒ/",
+    "sense": "（郵送される）小包、荷物",
+    "ja": "小包",
+    "ex": {
+      "en": "A package came for you today.",
+      "ja": "今日、あなた宛ての小包が届いた。",
+      "mark": [
+        "package"
+      ]
+    },
+    "core": "送るために包んでまとめた物。",
+    "other": [
+      "ひとまとめの提案・セット：a travel package"
+    ]
+  },
+  {
+    "src": "M1413",
+    "id": "road",
+    "en": "road",
+    "ipa": "/roʊd/",
+    "sense": "道路",
+    "ja": "道路",
+    "ex": {
+      "en": "This road goes to the beach.",
+      "ja": "この道路は浜辺へ続いている。",
+      "mark": [
+        "road"
+      ]
+    },
+    "core": "車などが通る、場所と場所をつなぐ道。",
+    "diff": "street は建物が並ぶ街中の道。",
+    "other": []
+  },
+  {
+    "src": "M1414",
+    "id": "street",
+    "en": "street",
+    "ipa": "/strit/",
+    "sense": "（街中の）通り",
+    "ja": "通り",
+    "ex": {
+      "en": "I live on a quiet street.",
+      "ja": "静かな通りに住んでいる。",
+      "mark": [
+        "street"
+      ]
+    },
+    "core": "両側に家や店が並ぶ、街の中の道。",
+    "diff": "road は場所と場所を結ぶ道全般。",
+    "other": []
+  },
+  {
+    "src": "M1415",
+    "id": "avenue",
+    "en": "avenue",
+    "ipa": "/ˈævəˌnu/",
+    "sense": "大通り",
+    "ja": "大通り",
+    "ex": {
+      "en": "The museum is on Fifth Avenue.",
+      "ja": "博物館は5番街にある。",
+      "mark": [
+        "Avenue"
+      ]
+    },
+    "core": "街の中を通る、広くて大きな通り。",
+    "other": []
+  },
+  {
+    "src": "M1416",
+    "id": "lane",
+    "en": "lane",
+    "ipa": "/leɪn/",
+    "sense": "（道路の）車線",
+    "ja": "車線",
+    "ex": {
+      "en": "Stay in the right lane.",
+      "ja": "右の車線を走ってください。",
+      "mark": [
+        "lane"
+      ]
+    },
+    "core": "道路を線で分けた、車1台分の通り道。",
+    "other": [
+      "細い道：a country lane"
+    ]
+  },
+  {
+    "src": "M1417",
+    "id": "highway",
+    "en": "highway",
+    "ipa": "/ˈhaɪˌweɪ/",
+    "sense": "幹線道路、高速道路",
+    "ja": "幹線道路",
+    "ex": {
+      "en": "We drove on the highway for hours.",
+      "ja": "何時間も幹線道路を走った。",
+      "mark": [
+        "highway"
+      ]
+    },
+    "core": "町と町を結ぶ、大きくて速く走れる道路。",
+    "other": []
+  },
+  {
+    "src": "M1418",
+    "id": "bridge",
+    "en": "bridge",
+    "ipa": "/brɪdʒ/",
+    "sense": "橋",
+    "ja": "橋",
+    "ex": {
+      "en": "We walked across the bridge.",
+      "ja": "歩いて橋を渡った。",
+      "mark": [
+        "bridge"
+      ]
+    },
+    "core": "川や谷の上に架けて、両側をつなぐもの。",
+    "other": []
+  },
+  {
+    "src": "M1419",
+    "id": "tunnel",
+    "en": "tunnel",
+    "ipa": "/ˈtʌnəl/",
+    "sense": "トンネル",
+    "ja": "トンネル",
+    "ex": {
+      "en": "The train went through a long tunnel.",
+      "ja": "電車は長いトンネルを通り抜けた。",
+      "mark": [
+        "tunnel"
+      ]
+    },
+    "core": "山や地下を掘って作った通り道。",
+    "other": []
+  },
+  {
+    "src": "M1420",
+    "id": "intersection",
+    "en": "intersection",
+    "ipa": "/ˌɪntərˈsɛkʃən/",
+    "sense": "交差点",
+    "ja": "交差点",
+    "ex": {
+      "en": "Turn left at the next intersection.",
+      "ja": "次の交差点を左に曲がって。",
+      "mark": [
+        "intersection"
+      ]
+    },
+    "core": "2本以上の道が交わるところ。",
+    "other": []
+  },
+  {
+    "src": "M1421",
+    "id": "crosswalk",
+    "en": "crosswalk",
+    "ipa": "/ˈkrɔsˌwɔk/",
+    "sense": "横断歩道",
+    "ja": "横断歩道",
+    "ex": {
+      "en": "Always use the crosswalk.",
+      "ja": "必ず横断歩道を渡りなさい。",
+      "mark": [
+        "crosswalk"
+      ]
+    },
+    "core": "道路に線が引かれた、歩行者が渡る場所。",
+    "other": []
+  },
+  {
+    "src": "M1422",
+    "id": "sidewalk",
+    "en": "sidewalk",
+    "ipa": "/ˈsaɪdˌwɔk/",
+    "sense": "歩道",
+    "ja": "歩道",
+    "ex": {
+      "en": "Kids were drawing on the sidewalk.",
+      "ja": "子どもたちが歩道に絵を描いていた。",
+      "mark": [
+        "sidewalk"
+      ]
+    },
+    "core": "車道の横にある、人が歩くための道。",
+    "diff": "（英）では pavement と言う。",
+    "other": []
+  },
+  {
+    "src": "M1423",
+    "id": "traffic",
+    "en": "traffic",
+    "ipa": "/ˈtræfɪk/",
+    "sense": "（道路の）交通、交通量",
+    "ja": "交通",
+    "ex": {
+      "en": "There was heavy traffic this morning.",
+      "ja": "今朝はひどく道が混んでいた。",
+      "mark": [
+        "traffic"
+      ]
+    },
+    "core": "道路を行き来する車や人の流れ。",
+    "other": []
+  },
+  {
+    "src": "M1424",
+    "id": "vehicle",
+    "en": "vehicle",
+    "ipa": "/ˈviəkəl/",
+    "sense": "乗り物、車両",
+    "ja": "車両",
+    "ex": {
+      "en": "Please turn off your vehicle's engine.",
+      "ja": "車のエンジンを切ってください。",
+      "mark": [
+        "vehicle's"
+      ]
+    },
+    "core": "人や物を運ぶ、車輪の付いた乗り物全般。",
+    "other": []
+  },
+  {
+    "src": "M1425",
+    "id": "car",
+    "en": "car",
+    "ipa": "/kɑr/",
+    "sense": "自動車",
+    "ja": "車",
+    "ex": {
+      "en": "My car won't start.",
+      "ja": "車のエンジンがかからない。",
+      "mark": [
+        "car"
+      ]
+    },
+    "core": "人が乗って運転する、4輪の乗り物。",
+    "other": []
+  },
+  {
+    "src": "M1426",
+    "id": "bus",
+    "en": "bus",
+    "ipa": "/bʌs/",
+    "sense": "バス",
+    "ja": "バス",
+    "ex": {
+      "en": "I take the bus to school.",
+      "ja": "バスで通学している。",
+      "mark": [
+        "bus"
+      ]
+    },
+    "core": "大勢の客を乗せて決まった道を走る車。",
+    "other": []
+  },
+  {
+    "src": "M1427",
+    "id": "truck",
+    "en": "truck",
+    "ipa": "/trʌk/",
+    "sense": "トラック",
+    "ja": "トラック",
+    "ex": {
+      "en": "A big truck blocked the road.",
+      "ja": "大きなトラックが道をふさいだ。",
+      "mark": [
+        "truck"
+      ]
+    },
+    "core": "荷物を運ぶための大きな車。",
+    "other": []
+  },
+  {
+    "src": "M1428",
+    "id": "taxi",
+    "en": "taxi",
+    "ipa": "/ˈtæksi/",
+    "sense": "タクシー",
+    "ja": "タクシー",
+    "ex": {
+      "en": "Let's take a taxi to the station.",
+      "ja": "駅までタクシーで行こう。",
+      "mark": [
+        "taxi"
+      ]
+    },
+    "core": "お金を払って、行きたい場所まで乗せてもらう車。",
+    "other": []
+  },
+  {
+    "src": "M1429",
+    "id": "bicycle",
+    "en": "bicycle",
+    "ipa": "/ˈbaɪsɪkəl/",
+    "sense": "自転車",
+    "ja": "自転車",
+    "ex": {
+      "en": "He rides his bicycle to work.",
+      "ja": "彼は自転車で通勤している。",
+      "mark": [
+        "bicycle"
+      ]
+    },
+    "core": "ペダルをこいで進む、2つの車輪の乗り物。",
+    "other": []
+  },
+  {
+    "src": "M1430",
+    "id": "motorcycle",
+    "en": "motorcycle",
+    "ipa": "/ˈmoʊtərˌsaɪkəl/",
+    "sense": "オートバイ",
+    "ja": "オートバイ",
+    "ex": {
+      "en": "My uncle rides a motorcycle.",
+      "ja": "おじはオートバイに乗っている。",
+      "mark": [
+        "motorcycle"
+      ]
+    },
+    "core": "エンジンで走る、2つの車輪の乗り物。",
+    "other": []
+  },
+  {
+    "src": "M1431",
+    "id": "scooter",
+    "en": "scooter",
+    "ipa": "/ˈskutər/",
+    "sense": "スクーター",
+    "ja": "スクーター",
+    "ex": {
+      "en": "She goes to work on a scooter.",
+      "ja": "彼女はスクーターで通勤している。",
+      "mark": [
+        "scooter"
+      ]
+    },
+    "core": "足を乗せる板のある、小型の2輪の乗り物。",
+    "other": []
+  },
+  {
+    "src": "M1432",
+    "id": "subway",
+    "en": "subway",
+    "ipa": "/ˈsʌbˌweɪ/",
+    "sense": "地下鉄",
+    "ja": "地下鉄",
+    "ex": {
+      "en": "The subway is faster than the bus.",
+      "ja": "地下鉄のほうがバスより速い。",
+      "mark": [
+        "subway"
+      ]
+    },
+    "core": "地面の下を走る電車。",
+    "diff": "（英）では underground と言う。",
+    "other": []
+  },
+  {
+    "src": "M1433",
+    "id": "airplane",
+    "en": "airplane",
+    "ipa": "/ˈɛrˌpleɪn/",
+    "sense": "飛行機",
+    "ja": "飛行機",
+    "ex": {
+      "en": "The airplane landed safely.",
+      "ja": "飛行機は無事に着陸した。",
+      "mark": [
+        "airplane"
+      ]
+    },
+    "core": "翼で空を飛ぶ乗り物。",
+    "diff": "（英）では aeroplane とつづる。",
+    "other": []
+  },
+  {
+    "src": "M1434",
+    "id": "helicopter",
+    "en": "helicopter",
+    "ipa": "/ˈhɛlɪˌkɑptər/",
+    "sense": "ヘリコプター",
+    "ja": "ヘリコプター",
+    "ex": {
+      "en": "A helicopter flew over our house.",
+      "ja": "ヘリコプターが家の上を飛んでいった。",
+      "mark": [
+        "helicopter"
+      ]
+    },
+    "core": "頭の上の羽根を回して飛ぶ乗り物。",
+    "other": []
+  },
+  {
+    "src": "M1435",
+    "id": "boat",
+    "en": "boat",
+    "ipa": "/boʊt/",
+    "sense": "ボート、小さな船",
+    "ja": "ボート",
+    "ex": {
+      "en": "We rowed a boat on the lake.",
+      "ja": "湖でボートをこいだ。",
+      "mark": [
+        "boat"
+      ]
+    },
+    "core": "水の上を進む乗り物。ふつう小さめのもの。",
+    "diff": "ship は大きな船。",
+    "other": []
+  },
+  {
+    "src": "M1436",
+    "id": "ferry",
+    "en": "ferry",
+    "ipa": "/ˈfɛri/",
+    "sense": "フェリー",
+    "ja": "フェリー",
+    "ex": {
+      "en": "We took the ferry to the island.",
+      "ja": "フェリーで島へ渡った。",
+      "mark": [
+        "ferry"
+      ]
+    },
+    "core": "人や車を乗せて、決まった水路を行き来する船。",
+    "other": []
+  },
+  {
+    "src": "M1437",
+    "id": "wheel",
+    "en": "wheel",
+    "ipa": "/wil/",
+    "sense": "車輪",
+    "ja": "車輪",
+    "ex": {
+      "en": "One wheel came off the cart.",
+      "ja": "台車の車輪が1つ外れた。",
+      "mark": [
+        "wheel"
+      ]
+    },
+    "core": "軸を中心にくるくる回る丸い部品。",
+    "other": [
+      "（車の）ハンドル：behind the wheel"
+    ]
+  },
+  {
+    "src": "M1438",
+    "id": "tire",
+    "en": "tire",
+    "ipa": "/ˈtaɪər/",
+    "sense": "タイヤ",
+    "ja": "タイヤ",
+    "ex": {
+      "en": "I got a flat tire on the way.",
+      "ja": "途中でタイヤがパンクした。",
+      "mark": [
+        "tire"
+      ]
+    },
+    "core": "車輪の外側にはめる、ゴムの輪。",
+    "diff": "（英）では tyre とつづる。",
+    "other": []
+  },
+  {
+    "src": "M1439",
+    "id": "engine",
+    "en": "engine",
+    "ipa": "/ˈɛndʒən/",
+    "sense": "エンジン",
+    "ja": "エンジン",
+    "ex": {
+      "en": "The engine made a strange noise.",
+      "ja": "エンジンが変な音を立てた。",
+      "mark": [
+        "engine"
+      ]
+    },
+    "core": "燃料を燃やして、機械を動かす力を生む装置。",
+    "other": []
+  },
+  {
+    "src": "M1440",
+    "id": "seat",
+    "en": "seat",
+    "ipa": "/sit/",
+    "sense": "座席",
+    "ja": "座席",
+    "ex": {
+      "en": "Is this seat taken?",
+      "ja": "この席は空いていますか？",
+      "mark": [
+        "seat"
+      ]
+    },
+    "core": "座るための場所。",
+    "other": []
+  },
+  {
+    "src": "M1441",
+    "id": "seatbelt",
+    "en": "seatbelt",
+    "ipa": "/ˈsitˌbɛlt/",
+    "sense": "シートベルト",
+    "ja": "シートベルト",
+    "ex": {
+      "en": "Please fasten your seatbelt.",
+      "ja": "シートベルトを締めてください。",
+      "mark": [
+        "seatbelt"
+      ]
+    },
+    "core": "座席に体を固定する安全用のベルト。",
+    "other": []
+  },
+  {
+    "src": "M1442",
+    "id": "fuel",
+    "en": "fuel",
+    "ipa": "/ˈfjuəl/",
+    "sense": "燃料",
+    "ja": "燃料",
+    "ex": {
+      "en": "The truck ran out of fuel.",
+      "ja": "トラックの燃料が切れた。",
+      "mark": [
+        "fuel"
+      ]
+    },
+    "core": "燃やして熱や力を生むもの。",
+    "other": []
+  },
+  {
+    "src": "M1443",
+    "id": "gasoline",
+    "en": "gasoline",
+    "ipa": "/ˌɡæsəˈlin/",
+    "sense": "ガソリン",
+    "ja": "ガソリン",
+    "ex": {
+      "en": "The price of gasoline went up.",
+      "ja": "ガソリンの値段が上がった。",
+      "mark": [
+        "gasoline"
+      ]
+    },
+    "core": "車を動かす液体の燃料。会話では gas と言うことが多い。",
+    "diff": "（英）では petrol と言う。",
+    "other": []
+  },
+  {
+    "src": "M1444",
+    "id": "station",
+    "en": "station",
+    "ipa": "/ˈsteɪʃən/",
+    "sense": "駅",
+    "ja": "駅",
+    "ex": {
+      "en": "Meet me at the station at five.",
+      "ja": "5時に駅で会おう。",
+      "mark": [
+        "station"
+      ]
+    },
+    "core": "電車やバスが止まり、人が乗り降りする場所。",
+    "other": [
+      "（特定の仕事の）署・局：a police station"
+    ]
+  },
+  {
+    "src": "M1445",
+    "id": "platform",
+    "en": "platform",
+    "ipa": "/ˈplætˌfɔrm/",
+    "sense": "（駅の）ホーム",
+    "ja": "ホーム",
+    "ex": {
+      "en": "The train leaves from platform three.",
+      "ja": "電車は3番ホームから出る。",
+      "mark": [
+        "platform"
+      ]
+    },
+    "core": "線路の横の、一段高くなった乗り降りの場所。",
+    "other": []
+  },
+  {
+    "src": "M1446",
+    "id": "terminal",
+    "en": "terminal",
+    "ipa": "/ˈtɜrmənəl/",
+    "sense": "（空港・バスの）ターミナル",
+    "ja": "ターミナル",
+    "ex": {
+      "en": "Our flight leaves from Terminal 2.",
+      "ja": "私たちの便は第2ターミナルから出る。",
+      "mark": [
+        "Terminal"
+      ]
+    },
+    "core": "乗り物が出発・到着する建物。",
+    "other": []
+  },
+  {
+    "src": "M1447",
+    "id": "airport",
+    "en": "airport",
+    "ipa": "/ˈɛrˌpɔrt/",
+    "sense": "空港",
+    "ja": "空港",
+    "ex": {
+      "en": "We got to the airport early.",
+      "ja": "早めに空港に着いた。",
+      "mark": [
+        "airport"
+      ]
+    },
+    "core": "飛行機が離着陸し、人が乗り降りする場所。",
+    "other": []
+  },
+  {
+    "src": "M1448",
+    "id": "port",
+    "en": "port",
+    "ipa": "/pɔrt/",
+    "sense": "港",
+    "ja": "港",
+    "ex": {
+      "en": "The ship stayed in port for two days.",
+      "ja": "船は2日間港に停泊した。",
+      "mark": [
+        "port"
+      ]
+    },
+    "core": "船が着いて、人や荷物を積み下ろしする場所。",
+    "diff": "harbor は船が安全にとまれる水域。port は港町・施設を指すことが多い。",
+    "other": []
+  },
+  {
+    "src": "M1449",
+    "id": "parking",
+    "en": "parking",
+    "ipa": "/ˈpɑrkɪŋ/",
+    "sense": "駐車、駐車場所",
+    "ja": "駐車",
+    "ex": {
+      "en": "Parking is free on Sundays.",
+      "ja": "日曜日は駐車が無料だ。",
+      "mark": [
+        "Parking"
+      ]
+    },
+    "core": "車をとめておくこと、またはとめる場所。",
+    "other": []
+  },
+  {
+    "src": "M1450",
+    "id": "fare",
+    "en": "fare",
+    "ipa": "/fɛr/",
+    "sense": "（乗り物の）運賃",
+    "ja": "運賃",
+    "ex": {
+      "en": "The bus fare is two dollars.",
+      "ja": "バスの運賃は2ドルだ。",
+      "mark": [
+        "fare"
+      ]
+    },
+    "core": "乗り物に乗るために払うお金。",
+    "other": []
+  },
+  {
+    "src": "M1451",
+    "id": "route",
+    "en": "route",
+    "ipa": "/rut/",
+    "sense": "経路、ルート",
+    "ja": "経路",
+    "ex": {
+      "en": "This is the fastest route home.",
+      "ja": "これが家までの一番速い道だ。",
+      "mark": [
+        "route"
+      ]
+    },
+    "core": "出発点から目的地までに通る道すじ。",
+    "other": []
+  },
+  {
+    "src": "M1452",
+    "id": "journey",
+    "en": "journey",
+    "ipa": "/ˈdʒɜrni/",
+    "sense": "（長い）旅、道のり",
+    "ja": "旅",
+    "ex": {
+      "en": "It was a long journey by train.",
+      "ja": "列車での長い旅だった。",
+      "mark": [
+        "journey"
+      ]
+    },
+    "core": "ある場所から別の場所へ移っていく道のりそのもの。",
+    "diff": "trip は行って帰る旅行。journey は移動の過程に目を向ける。",
+    "other": []
+  },
+  {
+    "src": "M1453",
+    "id": "trip",
+    "en": "trip",
+    "ipa": "/trɪp/",
+    "sense": "（短い）旅行",
+    "ja": "旅行",
+    "ex": {
+      "en": "We took a trip to the mountains.",
+      "ja": "山へ旅行に出かけた。",
+      "mark": [
+        "trip"
+      ]
+    },
+    "core": "ある場所へ行って帰ってくること。",
+    "other": []
+  },
+  {
+    "src": "M1454",
+    "id": "travel",
+    "en": "travel",
+    "ipa": "/ˈtrævəl/",
+    "sense": "旅行（すること）",
+    "ja": "旅行",
+    "ex": {
+      "en": "Travel can be expensive.",
+      "ja": "旅行はお金がかかることがある。",
+      "mark": [
+        "Travel"
+      ]
+    },
+    "core": "あちこちへ移動して出かけること全般。数えない名詞。",
+    "diff": "trip は1回ごとの旅行で数えられる。",
+    "other": []
+  },
+  {
+    "src": "M1455",
+    "id": "vacation",
+    "en": "vacation",
+    "ipa": "/veɪˈkeɪʃən/",
+    "sense": "休暇、休み",
+    "ja": "休暇",
+    "ex": {
+      "en": "We're going to the beach on vacation.",
+      "ja": "休暇に海へ行く予定だ。",
+      "mark": [
+        "vacation"
+      ]
+    },
+    "core": "仕事や学校を離れて、まとまって休む期間。",
+    "diff": "（英）では holiday と言うことが多い。",
+    "other": []
+  },
+  {
+    "src": "M1456",
+    "id": "holiday",
+    "en": "holiday",
+    "ipa": "/ˈhɑlɪˌdeɪ/",
+    "sense": "祝日",
+    "ja": "祝日",
+    "ex": {
+      "en": "Monday is a national holiday.",
+      "ja": "月曜日は国民の祝日だ。",
+      "mark": [
+        "holiday"
+      ]
+    },
+    "core": "みんなが仕事や学校を休む、特別な日。",
+    "other": [
+      "（英）休暇：go on holiday"
+    ]
+  },
+  {
+    "src": "M1457",
+    "id": "destination",
+    "en": "destination",
+    "ipa": "/ˌdɛstəˈneɪʃən/",
+    "sense": "目的地",
+    "ja": "目的地",
+    "ex": {
+      "en": "We reached our destination at noon.",
+      "ja": "昼に目的地に着いた。",
+      "mark": [
+        "destination"
+      ]
+    },
+    "core": "移動の最後にたどり着く場所。",
+    "other": []
+  },
+  {
+    "src": "M1458",
+    "id": "departure",
+    "en": "departure",
+    "ipa": "/dɪˈpɑrtʃər/",
+    "sense": "出発",
+    "ja": "出発",
+    "ex": {
+      "en": "Our departure was delayed an hour.",
+      "ja": "出発が1時間遅れた。",
+      "mark": [
+        "departure"
+      ]
+    },
+    "core": "ある場所を離れて出ていくこと。",
+    "other": []
+  },
+  {
+    "src": "M1459",
+    "id": "arrival",
+    "en": "arrival",
+    "ipa": "/əˈraɪvəl/",
+    "sense": "到着",
+    "ja": "到着",
+    "ex": {
+      "en": "Check the arrival time on the board.",
+      "ja": "掲示板で到着時刻を確かめて。",
+      "mark": [
+        "arrival"
+      ]
+    },
+    "core": "目的の場所に着くこと。",
+    "other": []
+  },
+  {
+    "src": "M1460",
+    "id": "transfer",
+    "en": "transfer",
+    "ipa": "/ˈtrænsfər/",
+    "sense": "乗り換え",
+    "ja": "乗り換え",
+    "ex": {
+      "en": "There's a transfer at the next station.",
+      "ja": "次の駅で乗り換えがある。",
+      "mark": [
+        "transfer"
+      ]
+    },
+    "core": "ある乗り物から別の乗り物へ移ること。",
+    "other": [
+      "（お金の）振り込み：a bank transfer"
+    ]
+  },
+  {
+    "src": "M1461",
+    "id": "connection",
+    "en": "connection",
+    "ipa": "/kəˈnɛkʃən/",
+    "sense": "（乗り物の）乗り継ぎ、乗り継ぎ便",
+    "ja": "乗り継ぎ",
+    "ex": {
+      "en": "I almost missed my connection.",
+      "ja": "乗り継ぎ便に乗り遅れそうになった。",
+      "mark": [
+        "connection"
+      ]
+    },
+    "core": "ある便から次の便へと旅をつなぐこと。",
+    "other": [
+      "つながり、関係：a connection between the two"
+    ]
+  },
+  {
+    "src": "M1462",
+    "id": "reservation",
+    "en": "reservation",
+    "ipa": "/ˌrɛzərˈveɪʃən/",
+    "sense": "予約",
+    "ja": "予約",
+    "ex": {
+      "en": "I have a reservation for two.",
+      "ja": "2名で予約しています。",
+      "mark": [
+        "reservation"
+      ]
+    },
+    "core": "席や部屋を前もって取っておくこと。",
+    "other": []
+  },
+  {
+    "src": "M1463",
+    "id": "boarding",
+    "en": "boarding",
+    "ipa": "/ˈbɔrdɪŋ/",
+    "sense": "（飛行機などへの）搭乗",
+    "ja": "搭乗",
+    "ex": {
+      "en": "Boarding starts at 9:30.",
+      "ja": "搭乗は9時30分に始まる。",
+      "mark": [
+        "Boarding"
+      ]
+    },
+    "core": "飛行機・船・電車に乗り込むこと。",
+    "other": []
+  },
+  {
+    "src": "M1464",
+    "id": "baggage",
+    "en": "baggage",
+    "ipa": "/ˈbæɡɪdʒ/",
+    "sense": "手荷物",
+    "ja": "手荷物",
+    "ex": {
+      "en": "Where can I pick up my baggage?",
+      "ja": "手荷物はどこで受け取れますか？",
+      "mark": [
+        "baggage"
+      ]
+    },
+    "core": "旅行で持ち運ぶかばんや荷物。数えない名詞。",
+    "other": []
+  },
+  {
+    "src": "M1465",
+    "id": "customs",
+    "en": "customs",
+    "ipa": "/ˈkʌstəmz/",
+    "sense": "税関",
+    "ja": "税関",
+    "ex": {
+      "en": "We went through customs quickly.",
+      "ja": "税関はすぐに通過できた。",
+      "mark": [
+        "customs"
+      ]
+    },
+    "core": "国境で持ち込む物を調べる場所。",
+    "other": []
+  },
+  {
+    "src": "M1466",
+    "id": "immigration",
+    "en": "immigration",
+    "ipa": "/ˌɪməˈɡreɪʃən/",
+    "sense": "入国審査",
+    "ja": "入国審査",
+    "ex": {
+      "en": "There was a long line at immigration.",
+      "ja": "入国審査に長い列ができていた。",
+      "mark": [
+        "immigration"
+      ]
+    },
+    "core": "国に入る人の書類を確かめる場所。",
+    "other": [
+      "（外国からの）移住：immigration laws"
+    ]
+  },
+  {
+    "src": "M1467",
+    "id": "security",
+    "en": "security",
+    "ipa": "/sɪˈkjʊrəti/",
+    "sense": "（空港の）保安検査",
+    "ja": "保安検査",
+    "ex": {
+      "en": "We waited in line at security.",
+      "ja": "保安検査の列に並んだ。",
+      "mark": [
+        "security"
+      ]
+    },
+    "core": "危ない物がないか、人と荷物を調べるところ。",
+    "other": [
+      "安全、警備：home security"
+    ]
+  },
+  {
+    "src": "M1468",
+    "id": "hotel",
+    "en": "hotel",
+    "ipa": "/hoʊˈtɛl/",
+    "sense": "ホテル",
+    "ja": "ホテル",
+    "ex": {
+      "en": "We stayed at a hotel by the sea.",
+      "ja": "海辺のホテルに泊まった。",
+      "mark": [
+        "hotel"
+      ]
+    },
+    "core": "お金を払って泊まる建物。",
+    "other": []
+  },
+  {
+    "src": "M1469",
+    "id": "lobby",
+    "en": "lobby",
+    "ipa": "/ˈlɑbi/",
+    "sense": "ロビー",
+    "ja": "ロビー",
+    "ex": {
+      "en": "Let's meet in the hotel lobby.",
+      "ja": "ホテルのロビーで会おう。",
+      "mark": [
+        "lobby"
+      ]
+    },
+    "core": "建物の入口を入ってすぐの広い場所。",
+    "other": []
+  },
+  {
+    "src": "M1470",
+    "id": "counter",
+    "en": "counter",
+    "ipa": "/ˈkaʊntər/",
+    "sense": "（店などの）カウンター",
+    "ja": "カウンター",
+    "ex": {
+      "en": "Please pay at the counter.",
+      "ja": "カウンターでお支払いください。",
+      "mark": [
+        "counter"
+      ]
+    },
+    "core": "店員と客の間にある、長い台。",
+    "other": [
+      "（台所の）調理台：kitchen counter"
+    ]
+  },
+  {
+    "src": "M1471",
+    "id": "reception",
+    "en": "reception",
+    "ipa": "/rɪˈsɛpʃən/",
+    "sense": "受付、フロント",
+    "ja": "受付",
+    "ex": {
+      "en": "Ask at reception for a map.",
+      "ja": "地図は受付で聞いてください。",
+      "mark": [
+        "reception"
+      ]
+    },
+    "core": "訪れた人を迎えて対応する場所。",
+    "other": [
+      "（歓迎の）パーティー：a wedding reception"
+    ]
+  },
+  {
+    "src": "M1472",
+    "id": "restaurant",
+    "en": "restaurant",
+    "ipa": "/ˈrɛstəˌrɑnt/",
+    "sense": "レストラン",
+    "ja": "レストラン",
+    "ex": {
+      "en": "We ate at a new restaurant.",
+      "ja": "新しいレストランで食事した。",
+      "mark": [
+        "restaurant"
+      ]
+    },
+    "core": "お金を払って料理を食べる店。",
+    "other": []
+  },
+  {
+    "src": "M1473",
+    "id": "cafe",
+    "en": "cafe",
+    "ipa": "/kæˈfeɪ/",
+    "sense": "カフェ、喫茶店",
+    "ja": "カフェ",
+    "ex": {
+      "en": "Let's talk at the cafe.",
+      "ja": "カフェで話そう。",
+      "mark": [
+        "cafe"
+      ]
+    },
+    "core": "コーヒーや軽食を出す、小さな店。",
+    "other": []
+  },
+  {
+    "src": "M1474",
+    "id": "bakery",
+    "en": "bakery",
+    "ipa": "/ˈbeɪkəri/",
+    "sense": "パン屋",
+    "ja": "パン屋",
+    "ex": {
+      "en": "The bakery opens at seven.",
+      "ja": "そのパン屋は7時に開く。",
+      "mark": [
+        "bakery"
+      ]
+    },
+    "core": "パンやケーキを焼いて売る店。",
+    "other": []
+  },
+  {
+    "src": "M1475",
+    "id": "supermarket",
+    "en": "supermarket",
+    "ipa": "/ˈsupərˌmɑrkɪt/",
+    "sense": "スーパーマーケット",
+    "ja": "スーパー",
+    "ex": {
+      "en": "I buy food at the supermarket.",
+      "ja": "食料品はスーパーで買う。",
+      "mark": [
+        "supermarket"
+      ]
+    },
+    "core": "食品や日用品を、客が自分で選んで買う大きな店。",
+    "other": []
+  },
+  {
+    "src": "M1476",
+    "id": "store",
+    "en": "store",
+    "ipa": "/stɔr/",
+    "sense": "店",
+    "ja": "店",
+    "ex": {
+      "en": "The store closes at nine.",
+      "ja": "その店は9時に閉まる。",
+      "mark": [
+        "store"
+      ]
+    },
+    "core": "物を売る店。",
+    "diff": "（英）では shop と言うことが多い。",
+    "other": []
+  },
+  {
+    "src": "M1477",
+    "id": "market",
+    "en": "market",
+    "ipa": "/ˈmɑrkɪt/",
+    "sense": "市場、市",
+    "ja": "市場",
+    "ex": {
+      "en": "We bought fresh fish at the market.",
+      "ja": "市場で新鮮な魚を買った。",
+      "mark": [
+        "market"
+      ]
+    },
+    "core": "売り手が集まって物を売り買いする場所。",
+    "other": [
+      "（経済の）市場：the job market"
+    ]
+  },
+  {
+    "src": "M1478",
+    "id": "mall",
+    "en": "mall",
+    "ipa": "/mɔl/",
+    "sense": "ショッピングモール",
+    "ja": "モール",
+    "ex": {
+      "en": "Let's go shopping at the mall.",
+      "ja": "モールに買い物に行こう。",
+      "mark": [
+        "mall"
+      ]
+    },
+    "core": "たくさんの店が1つの建物に集まった場所。",
+    "other": []
+  },
+  {
+    "src": "M1479",
+    "id": "bank",
+    "en": "bank",
+    "ipa": "/bæŋk/",
+    "sense": "銀行",
+    "ja": "銀行",
+    "ex": {
+      "en": "I need to go to the bank.",
+      "ja": "銀行に行かなくちゃ。",
+      "mark": [
+        "bank"
+      ]
+    },
+    "core": "お金を預けたり借りたりする所。",
+    "other": [
+      "川岸、土手：the river bank"
+    ]
+  },
+  {
+    "src": "M1480",
+    "id": "library",
+    "en": "library",
+    "ipa": "/ˈlaɪˌbrɛri/",
+    "sense": "図書館",
+    "ja": "図書館",
+    "ex": {
+      "en": "I borrowed this book from the library.",
+      "ja": "この本は図書館で借りた。",
+      "mark": [
+        "library"
+      ]
+    },
+    "core": "本を集めて、人が読んだり借りたりできる所。",
+    "other": []
+  },
+  {
+    "src": "M1481",
+    "id": "museum",
+    "en": "museum",
+    "ipa": "/mjuˈziəm/",
+    "sense": "博物館、美術館",
+    "ja": "博物館",
+    "ex": {
+      "en": "We visited the science museum.",
+      "ja": "科学博物館を訪れた。",
+      "mark": [
+        "museum"
+      ]
+    },
+    "core": "大切な物を集めて展示し、見せる建物。",
+    "other": []
+  },
+  {
+    "src": "M1482",
+    "id": "theater",
+    "en": "theater",
+    "ipa": "/ˈθiətər/",
+    "sense": "劇場",
+    "ja": "劇場",
+    "ex": {
+      "en": "We saw a play at the theater.",
+      "ja": "劇場で劇を見た。",
+      "mark": [
+        "theater"
+      ]
+    },
+    "core": "劇や公演を見るための建物。",
+    "diff": "（英）では theatre とつづる。",
+    "other": [
+      "映画館：a movie theater"
+    ]
+  },
+  {
+    "src": "M1483",
+    "id": "cinema",
+    "en": "cinema",
+    "ipa": "/ˈsɪnəmə/",
+    "sense": "映画館",
+    "ja": "映画館",
+    "ex": {
+      "en": "The cinema was almost empty.",
+      "ja": "映画館はほとんどがらがらだった。",
+      "mark": [
+        "cinema"
+      ]
+    },
+    "core": "映画を上映する建物。",
+    "diff": "（英）でよく使う。アメリカでは movie theater が普通。",
+    "other": []
+  },
+  {
+    "src": "M1484",
+    "id": "park",
+    "en": "park",
+    "ipa": "/pɑrk/",
+    "sense": "公園",
+    "ja": "公園",
+    "ex": {
+      "en": "The kids are playing in the park.",
+      "ja": "子どもたちが公園で遊んでいる。",
+      "mark": [
+        "park"
+      ]
+    },
+    "core": "木や芝生があり、だれでも休んだり遊んだりできる場所。",
+    "other": []
+  },
+  {
+    "src": "M1485",
+    "id": "stadium",
+    "en": "stadium",
+    "ipa": "/ˈsteɪdiəm/",
+    "sense": "競技場、スタジアム",
+    "ja": "競技場",
+    "ex": {
+      "en": "The stadium was full of fans.",
+      "ja": "競技場はファンでいっぱいだった。",
+      "mark": [
+        "stadium"
+      ]
+    },
+    "core": "周りを観客席が囲む、大きな競技場。",
+    "other": []
+  },
+  {
+    "src": "M1486",
+    "id": "pool",
+    "en": "pool",
+    "ipa": "/pul/",
+    "sense": "プール",
+    "ja": "プール",
+    "ex": {
+      "en": "The kids swam in the pool all day.",
+      "ja": "子どもたちは一日中プールで泳いだ。",
+      "mark": [
+        "pool"
+      ]
+    },
+    "core": "泳ぐために水をためた場所。",
+    "other": []
+  },
+  {
+    "src": "M1487",
+    "id": "square",
+    "en": "square",
+    "ipa": "/skwɛr/",
+    "sense": "（街の）広場",
+    "ja": "広場",
+    "ex": {
+      "en": "People gathered in the town square.",
+      "ja": "人々が町の広場に集まった。",
+      "mark": [
+        "square"
+      ]
+    },
+    "core": "建物に囲まれた、四角く開けた場所。",
+    "other": [
+      "正方形：draw a square"
+    ]
+  },
+  {
+    "src": "M1488",
+    "id": "monument",
+    "en": "monument",
+    "ipa": "/ˈmɑnjəmənt/",
+    "sense": "記念碑",
+    "ja": "記念碑",
+    "ex": {
+      "en": "They built a monument to the soldiers.",
+      "ja": "兵士たちをしのぶ記念碑が建てられた。",
+      "mark": [
+        "monument"
+      ]
+    },
+    "core": "人や出来事を忘れないために建てたもの。",
+    "other": []
+  },
+  {
+    "src": "M1489",
+    "id": "nature",
+    "en": "nature",
+    "ipa": "/ˈneɪtʃər/",
+    "sense": "自然",
+    "ja": "自然",
+    "ex": {
+      "en": "I love being out in nature.",
+      "ja": "自然の中にいるのが大好きだ。",
+      "mark": [
+        "nature"
+      ]
+    },
+    "core": "人の手で作られていない、山・海・動植物など。",
+    "other": [
+      "性質：human nature"
+    ]
+  },
+  {
+    "src": "M1490",
+    "id": "earth",
+    "en": "earth",
+    "ipa": "/ɜrθ/",
+    "sense": "地球",
+    "ja": "地球",
+    "ex": {
+      "en": "The earth goes around the sun.",
+      "ja": "地球は太陽の周りを回っている。",
+      "mark": [
+        "earth"
+      ]
+    },
+    "core": "私たちが住んでいる星。",
+    "other": [
+      "土：dig in the earth"
+    ]
+  },
+  {
+    "src": "M1491",
+    "id": "world",
+    "en": "world",
+    "ipa": "/wɜrld/",
+    "sense": "世界",
+    "ja": "世界",
+    "ex": {
+      "en": "She wants to travel around the world.",
+      "ja": "彼女は世界中を旅したい。",
+      "mark": [
+        "world"
+      ]
+    },
+    "core": "地球上のすべての国と人々。",
+    "other": []
+  },
+  {
+    "src": "M1492",
+    "id": "sky",
+    "en": "sky",
+    "ipa": "/skaɪ/",
+    "sense": "空",
+    "ja": "空",
+    "ex": {
+      "en": "The sky is clear today.",
+      "ja": "今日は空が晴れている。",
+      "mark": [
+        "sky"
+      ]
+    },
+    "core": "頭の上に広がる、雲や星が見える空間。",
+    "other": []
+  },
+  {
+    "src": "M1493",
+    "id": "sun",
+    "en": "sun",
+    "ipa": "/sʌn/",
+    "sense": "太陽",
+    "ja": "太陽",
+    "ex": {
+      "en": "The sun rises in the east.",
+      "ja": "太陽は東から昇る。",
+      "mark": [
+        "sun"
+      ]
+    },
+    "core": "昼に空で光と熱を出す星。",
+    "other": [
+      "日光：sit in the sun"
+    ]
+  },
+  {
+    "src": "M1494",
+    "id": "moon",
+    "en": "moon",
+    "ipa": "/mun/",
+    "sense": "月",
+    "ja": "月",
+    "ex": {
+      "en": "The moon is full tonight.",
+      "ja": "今夜は満月だ。",
+      "mark": [
+        "moon"
+      ]
+    },
+    "core": "地球の周りを回り、夜空に光って見える星。",
+    "other": []
+  },
+  {
+    "src": "M1495",
+    "id": "star",
+    "en": "star",
+    "ipa": "/stɑr/",
+    "sense": "星",
+    "ja": "星",
+    "ex": {
+      "en": "We counted the stars in the sky.",
+      "ja": "空の星を数えた。",
+      "mark": [
+        "stars"
+      ]
+    },
+    "core": "夜空に小さく光る点。",
+    "other": [
+      "（人気者の）スター：a movie star"
+    ]
+  },
+  {
+    "src": "M1496",
+    "id": "planet",
+    "en": "planet",
+    "ipa": "/ˈplænɪt/",
+    "sense": "惑星",
+    "ja": "惑星",
+    "ex": {
+      "en": "Mars is a red planet.",
+      "ja": "火星は赤い惑星だ。",
+      "mark": [
+        "planet"
+      ]
+    },
+    "core": "太陽のような星の周りを回る大きな天体。",
+    "other": []
+  },
+  {
+    "src": "M1497",
+    "id": "space",
+    "en": "space",
+    "ipa": "/speɪs/",
+    "sense": "宇宙",
+    "ja": "宇宙",
+    "ex": {
+      "en": "She wants to travel to space.",
+      "ja": "彼女は宇宙へ行きたいと思っている。",
+      "mark": [
+        "space"
+      ]
+    },
+    "core": "地球の空気の外に広がる、果てしない空間。",
+    "other": [
+      "空き、場所：space for a desk"
+    ]
+  },
+  {
+    "src": "M1498",
+    "id": "air",
+    "en": "air",
+    "ipa": "/ɛr/",
+    "sense": "空気",
+    "ja": "空気",
+    "ex": {
+      "en": "The mountain air felt fresh.",
+      "ja": "山の空気がすがすがしかった。",
+      "mark": [
+        "air"
+      ]
+    },
+    "core": "私たちを包み、吸って生きている見えない気体。",
+    "other": []
+  },
+  {
+    "src": "M1499",
+    "id": "wind",
+    "en": "wind",
+    "ipa": "/wɪnd/",
+    "sense": "風",
+    "ja": "風",
+    "ex": {
+      "en": "The wind is strong today.",
+      "ja": "今日は風が強い。",
+      "mark": [
+        "wind"
+      ]
+    },
+    "core": "空気が動いて流れること。",
+    "other": []
+  },
+  {
+    "src": "M1500",
+    "id": "cloud",
+    "en": "cloud",
+    "ipa": "/klaʊd/",
+    "sense": "雲",
+    "ja": "雲",
+    "ex": {
+      "en": "Dark clouds covered the sky.",
+      "ja": "黒い雲が空をおおった。",
+      "mark": [
+        "clouds"
+      ]
+    },
+    "core": "空に浮かぶ、小さな水や氷の粒の集まり。",
+    "other": []
+  },
+  {
+    "src": "M1501",
+    "id": "rain",
+    "en": "rain",
+    "ipa": "/reɪn/",
+    "sense": "雨",
+    "ja": "雨",
+    "ex": {
+      "en": "The rain stopped in the afternoon.",
+      "ja": "午後に雨がやんだ。",
+      "mark": [
+        "rain"
+      ]
+    },
+    "core": "雲から落ちてくる水の粒。",
+    "other": []
+  },
+  {
+    "src": "M1502",
+    "id": "snow",
+    "en": "snow",
+    "ipa": "/snoʊ/",
+    "sense": "雪",
+    "ja": "雪",
+    "ex": {
+      "en": "The kids played in the snow.",
+      "ja": "子どもたちは雪の中で遊んだ。",
+      "mark": [
+        "snow"
+      ]
+    },
+    "core": "空から降ってくる白い氷の結晶。",
+    "other": []
+  },
+  {
+    "src": "M1503",
+    "id": "ice",
+    "en": "ice",
+    "ipa": "/aɪs/",
+    "sense": "氷",
+    "ja": "氷",
+    "ex": {
+      "en": "Can I have some ice in my drink?",
+      "ja": "飲み物に氷を入れてもらえますか？",
+      "mark": [
+        "ice"
+      ]
+    },
+    "core": "水が冷えて固まったもの。",
+    "other": []
+  },
+  {
+    "src": "M1504",
+    "id": "frost",
+    "en": "frost",
+    "ipa": "/frɔst/",
+    "sense": "霜",
+    "ja": "霜",
+    "ex": {
+      "en": "There was frost on the car this morning.",
+      "ja": "今朝は車に霜が降りていた。",
+      "mark": [
+        "frost"
+      ]
+    },
+    "core": "寒い朝、物の表面に付く白く細かい氷。",
+    "other": []
+  },
+  {
+    "src": "M1505",
+    "id": "fog",
+    "en": "fog",
+    "ipa": "/fɔɡ/",
+    "sense": "霧",
+    "ja": "霧",
+    "ex": {
+      "en": "The fog was so thick I couldn't see.",
+      "ja": "霧が濃くて前が見えなかった。",
+      "mark": [
+        "fog"
+      ]
+    },
+    "core": "地面の近くにたちこめ、視界をさえぎる細かい水の粒。",
+    "other": []
+  },
+  {
+    "src": "M1506",
+    "id": "storm",
+    "en": "storm",
+    "ipa": "/stɔrm/",
+    "sense": "嵐",
+    "ja": "嵐",
+    "ex": {
+      "en": "The storm knocked down several trees.",
+      "ja": "嵐で何本も木が倒れた。",
+      "mark": [
+        "storm"
+      ]
+    },
+    "core": "強い風と雨や雪が激しく吹き荒れる天気。",
+    "other": []
+  },
+  {
+    "src": "M1507",
+    "id": "thunder",
+    "en": "thunder",
+    "ipa": "/ˈθʌndər/",
+    "sense": "雷鳴、雷の音",
+    "ja": "雷鳴",
+    "ex": {
+      "en": "The dog hid when it heard thunder.",
+      "ja": "雷の音を聞いて犬が隠れた。",
+      "mark": [
+        "thunder"
+      ]
+    },
+    "core": "稲妻のあとに鳴る大きなゴロゴロという音。",
+    "diff": "lightning は光、thunder は音。",
+    "other": []
+  },
+  {
+    "src": "M1508",
+    "id": "lightning",
+    "en": "lightning",
+    "ipa": "/ˈlaɪtnɪŋ/",
+    "sense": "稲妻、雷の光",
+    "ja": "稲妻",
+    "ex": {
+      "en": "Lightning lit up the night sky.",
+      "ja": "稲妻が夜空を照らした。",
+      "mark": [
+        "Lightning"
+      ]
+    },
+    "core": "雲から走る、強い電気の光。",
+    "diff": "thunder は音、lightning は光。",
+    "other": []
+  },
+  {
+    "src": "M1509",
+    "id": "rainbow",
+    "en": "rainbow",
+    "ipa": "/ˈreɪnˌboʊ/",
+    "sense": "虹",
+    "ja": "虹",
+    "ex": {
+      "en": "Look, there's a rainbow!",
+      "ja": "見て、虹が出てる！",
+      "mark": [
+        "rainbow"
+      ]
+    },
+    "core": "雨のあと空にかかる、色の帯のアーチ。",
+    "other": []
+  },
+  {
+    "src": "M1510",
+    "id": "weather",
+    "en": "weather",
+    "ipa": "/ˈwɛðər/",
+    "sense": "天気",
+    "ja": "天気",
+    "ex": {
+      "en": "The weather was nice all week.",
+      "ja": "一週間ずっといい天気だった。",
+      "mark": [
+        "weather"
+      ]
+    },
+    "core": "ある日・ある時の、晴れや雨などの空の様子。",
+    "diff": "climate はある地域の長い期間の天気の傾向。",
+    "other": []
+  },
+  {
+    "src": "M1511",
+    "id": "climate",
+    "en": "climate",
+    "ipa": "/ˈklaɪmət/",
+    "sense": "気候",
+    "ja": "気候",
+    "ex": {
+      "en": "This area has a warm climate.",
+      "ja": "この地域は温暖な気候だ。",
+      "mark": [
+        "climate"
+      ]
+    },
+    "core": "ある土地で長い期間にわたって続く天気の傾向。",
+    "diff": "weather はその日その日の天気。",
+    "other": []
+  },
+  {
+    "src": "M1512",
+    "id": "temperature",
+    "en": "temperature",
+    "ipa": "/ˈtɛmpərətʃər/",
+    "sense": "気温、温度",
+    "ja": "気温",
+    "ex": {
+      "en": "The temperature dropped below zero.",
+      "ja": "気温が零度を下回った。",
+      "mark": [
+        "temperature"
+      ]
+    },
+    "core": "どれくらい暑いか寒いかを数字で表したもの。",
+    "other": [
+      "体温、熱：take your temperature"
+    ]
+  },
+  {
+    "src": "M1513",
+    "id": "humidity",
+    "en": "humidity",
+    "ipa": "/hjuˈmɪdəti/",
+    "sense": "湿度",
+    "ja": "湿度",
+    "ex": {
+      "en": "The humidity is high in summer.",
+      "ja": "夏は湿度が高い。",
+      "mark": [
+        "humidity"
+      ]
+    },
+    "core": "空気の中にどれだけ水分があるか。",
+    "other": []
+  },
+  {
+    "src": "M1514",
+    "id": "season",
+    "en": "season",
+    "ipa": "/ˈsizən/",
+    "sense": "季節",
+    "ja": "季節",
+    "ex": {
+      "en": "Spring is my favorite season.",
+      "ja": "春が一番好きな季節だ。",
+      "mark": [
+        "season"
+      ]
+    },
+    "core": "1年を気候で分けた、それぞれの時期。",
+    "other": [
+      "（ある活動の）時期：baseball season"
+    ]
+  },
+  {
+    "src": "M1515",
+    "id": "spring",
+    "en": "spring",
+    "ipa": "/sprɪŋ/",
+    "sense": "春",
+    "ja": "春",
+    "ex": {
+      "en": "The flowers bloom in spring.",
+      "ja": "春に花が咲く。",
+      "mark": [
+        "spring"
+      ]
+    },
+    "core": "冬のあと、暖かくなって草木が芽吹く季節。",
+    "other": [
+      "ばね：a metal spring"
+    ]
+  },
+  {
+    "src": "M1516",
+    "id": "summer",
+    "en": "summer",
+    "ipa": "/ˈsʌmər/",
+    "sense": "夏",
+    "ja": "夏",
+    "ex": {
+      "en": "We go to the beach every summer.",
+      "ja": "毎年夏には海へ行く。",
+      "mark": [
+        "summer"
+      ]
+    },
+    "core": "1年で一番暑い季節。",
+    "other": []
+  },
+  {
+    "src": "M1517",
+    "id": "autumn",
+    "en": "autumn",
+    "ipa": "/ˈɔtəm/",
+    "sense": "秋",
+    "ja": "秋",
+    "ex": {
+      "en": "The leaves turn red in autumn.",
+      "ja": "秋には葉が赤く色づく。",
+      "mark": [
+        "autumn"
+      ]
+    },
+    "core": "夏のあと、涼しくなり葉の色が変わる季節。",
+    "diff": "アメリカでは fall が普通で、autumn はやや改まった言い方。",
+    "other": []
+  },
+  {
+    "src": "M1518",
+    "id": "winter",
+    "en": "winter",
+    "ipa": "/ˈwɪntər/",
+    "sense": "冬",
+    "ja": "冬",
+    "ex": {
+      "en": "It snows a lot here in winter.",
+      "ja": "ここは冬に雪がたくさん降る。",
+      "mark": [
+        "winter"
+      ]
+    },
+    "core": "1年で一番寒い季節。",
+    "other": []
+  },
+  {
+    "src": "M1519",
+    "id": "mountain",
+    "en": "mountain",
+    "ipa": "/ˈmaʊntən/",
+    "sense": "山",
+    "ja": "山",
+    "ex": {
+      "en": "We climbed a mountain last summer.",
+      "ja": "去年の夏、山に登った。",
+      "mark": [
+        "mountain"
+      ]
+    },
+    "core": "周りの土地より高くそびえる大きな地形。",
+    "diff": "hill は低くなだらかな丘。",
+    "other": []
+  },
+  {
+    "src": "M1520",
+    "id": "hill",
+    "en": "hill",
+    "ipa": "/hɪl/",
+    "sense": "丘",
+    "ja": "丘",
+    "ex": {
+      "en": "Our house is at the top of the hill.",
+      "ja": "家は丘のてっぺんにある。",
+      "mark": [
+        "hill"
+      ]
+    },
+    "core": "山ほど高くない、なだらかに盛り上がった土地。",
+    "diff": "mountain は高く険しい山。",
+    "other": []
+  },
+  {
+    "src": "M1521",
+    "id": "valley",
+    "en": "valley",
+    "ipa": "/ˈvæli/",
+    "sense": "谷",
+    "ja": "谷",
+    "ex": {
+      "en": "A river runs through the valley.",
+      "ja": "谷を川が流れている。",
+      "mark": [
+        "valley"
+      ]
+    },
+    "core": "山と山の間の、低くくぼんだ土地。",
+    "other": []
+  },
+  {
+    "src": "M1522",
+    "id": "forest",
+    "en": "forest",
+    "ipa": "/ˈfɔrɪst/",
+    "sense": "森林、森",
+    "ja": "森",
+    "ex": {
+      "en": "We got lost in the forest.",
+      "ja": "森で道に迷った。",
+      "mark": [
+        "forest"
+      ]
+    },
+    "core": "木がたくさん集まって広がっている場所。",
+    "diff": "woods はふつう forest より小さい森。",
+    "other": []
+  },
+  {
+    "src": "M1523",
+    "id": "wood",
+    "en": "wood",
+    "ipa": "/wʊd/",
+    "sense": "木材",
+    "ja": "木材",
+    "ex": {
+      "en": "This table is made of wood.",
+      "ja": "このテーブルは木でできている。",
+      "mark": [
+        "wood"
+      ]
+    },
+    "core": "木を切って、材料として使うもの。数えない名詞。",
+    "other": [
+      "（woods で）森：walk in the woods"
+    ]
+  },
+  {
+    "src": "M1524",
+    "id": "tree",
+    "en": "tree",
+    "ipa": "/tri/",
+    "sense": "木",
+    "ja": "木",
+    "ex": {
+      "en": "There's a bird in that tree.",
+      "ja": "あの木に鳥がいる。",
+      "mark": [
+        "tree"
+      ]
+    },
+    "core": "幹と枝と葉を持つ、背の高い植物。",
+    "other": []
+  },
+  {
+    "src": "M1525",
+    "id": "branch",
+    "en": "branch",
+    "ipa": "/bræntʃ/",
+    "sense": "枝",
+    "ja": "枝",
+    "ex": {
+      "en": "A cat is sitting on the branch.",
+      "ja": "猫が枝の上に座っている。",
+      "mark": [
+        "branch"
+      ]
+    },
+    "core": "木の幹から横へ分かれて伸びた部分。",
+    "other": [
+      "支店：a bank branch"
+    ]
+  },
+  {
+    "src": "M1526",
+    "id": "leaf",
+    "en": "leaf",
+    "ipa": "/lif/",
+    "sense": "葉",
+    "ja": "葉",
+    "ex": {
+      "en": "A leaf fell on my head.",
+      "ja": "葉っぱが頭に落ちてきた。",
+      "mark": [
+        "leaf"
+      ]
+    },
+    "core": "枝に付く、薄くて平らな緑の部分。複数形は leaves。",
+    "other": []
+  },
+  {
+    "src": "M1527",
+    "id": "root",
+    "en": "root",
+    "ipa": "/rut/",
+    "sense": "根",
+    "ja": "根",
+    "ex": {
+      "en": "The tree's roots go deep.",
+      "ja": "その木の根は深く伸びている。",
+      "mark": [
+        "roots"
+      ]
+    },
+    "core": "植物の、土の中に伸びて水を吸う部分。",
+    "other": [
+      "根本の原因：the root of the problem"
+    ]
+  },
+  {
+    "src": "M1528",
+    "id": "flower",
+    "en": "flower",
+    "ipa": "/ˈflaʊər/",
+    "sense": "花",
+    "ja": "花",
+    "ex": {
+      "en": "She gave me some flowers.",
+      "ja": "彼女が花をくれた。",
+      "mark": [
+        "flowers"
+      ]
+    },
+    "core": "植物が咲かせる、色や形のきれいな部分。",
+    "other": []
+  },
+  {
+    "src": "M1529",
+    "id": "grass",
+    "en": "grass",
+    "ipa": "/ɡræs/",
+    "sense": "草、芝生",
+    "ja": "草",
+    "ex": {
+      "en": "We sat on the grass.",
+      "ja": "芝生の上に座った。",
+      "mark": [
+        "grass"
+      ]
+    },
+    "core": "地面を覆う、細くて緑の葉の植物。",
+    "other": []
+  },
+  {
+    "src": "M1530",
+    "id": "seed",
+    "en": "seed",
+    "ipa": "/sid/",
+    "sense": "種",
+    "ja": "種",
+    "ex": {
+      "en": "We planted some seeds in the garden.",
+      "ja": "庭に種をまいた。",
+      "mark": [
+        "seeds"
+      ]
+    },
+    "core": "植えると芽が出て育つ、植物の小さな粒。",
+    "other": []
+  },
+  {
+    "src": "M1531",
+    "id": "soil",
+    "en": "soil",
+    "ipa": "/sɔɪl/",
+    "sense": "土、土壌",
+    "ja": "土",
+    "ex": {
+      "en": "This soil is good for vegetables.",
+      "ja": "この土は野菜作りに向いている。",
+      "mark": [
+        "soil"
+      ]
+    },
+    "core": "植物が根を張って育つ、地面の表面の土。",
+    "other": []
+  },
+  {
+    "src": "M1532",
+    "id": "sand",
+    "en": "sand",
+    "ipa": "/sænd/",
+    "sense": "砂",
+    "ja": "砂",
+    "ex": {
+      "en": "The kids built a castle in the sand.",
+      "ja": "子どもたちは砂でお城を作った。",
+      "mark": [
+        "sand"
+      ]
+    },
+    "core": "浜辺などにある、とても細かい石の粒。",
+    "other": []
+  },
+  {
+    "src": "M1533",
+    "id": "stone",
+    "en": "stone",
+    "ipa": "/stoʊn/",
+    "sense": "石",
+    "ja": "石",
+    "ex": {
+      "en": "He threw a stone into the river.",
+      "ja": "彼は川に石を投げた。",
+      "mark": [
+        "stone"
+      ]
+    },
+    "core": "手で持てるくらいの、固い石のかけら。",
+    "diff": "rock は大きな岩。（米）では小石も rock と言うことがある。",
+    "other": []
+  },
+  {
+    "src": "M1534",
+    "id": "rock",
+    "en": "rock",
+    "ipa": "/rɑk/",
+    "sense": "岩",
+    "ja": "岩",
+    "ex": {
+      "en": "We sat on a big rock by the sea.",
+      "ja": "海辺の大きな岩に座った。",
+      "mark": [
+        "rock"
+      ]
+    },
+    "core": "地面から出ている、大きくて固い石のかたまり。",
+    "other": []
+  },
+  {
+    "src": "M1535",
+    "id": "river",
+    "en": "river",
+    "ipa": "/ˈrɪvər/",
+    "sense": "川",
+    "ja": "川",
+    "ex": {
+      "en": "We swam in the river.",
+      "ja": "川で泳いだ。",
+      "mark": [
+        "river"
+      ]
+    },
+    "core": "水が細長い道すじを通って、海や湖へ流れるもの。",
+    "other": []
+  },
+  {
+    "src": "M1536",
+    "id": "stream",
+    "en": "stream",
+    "ipa": "/strim/",
+    "sense": "小川",
+    "ja": "小川",
+    "ex": {
+      "en": "A small stream runs behind the house.",
+      "ja": "家の裏に小川が流れている。",
+      "mark": [
+        "stream"
+      ]
+    },
+    "core": "細く浅く流れる小さな川。",
+    "other": [
+      "（人や物の）流れ：a stream of cars"
+    ]
+  },
+  {
+    "src": "M1537",
+    "id": "lake",
+    "en": "lake",
+    "ipa": "/leɪk/",
+    "sense": "湖",
+    "ja": "湖",
+    "ex": {
+      "en": "We went fishing on the lake.",
+      "ja": "湖へ釣りに行った。",
+      "mark": [
+        "lake"
+      ]
+    },
+    "core": "陸に囲まれた、大きな水のたまり。",
+    "diff": "pond は小さな池。",
+    "other": []
+  },
+  {
+    "src": "M1538",
+    "id": "pond",
+    "en": "pond",
+    "ipa": "/pɑnd/",
+    "sense": "池",
+    "ja": "池",
+    "ex": {
+      "en": "There are fish in the pond.",
+      "ja": "池に魚がいる。",
+      "mark": [
+        "pond"
+      ]
+    },
+    "core": "陸に囲まれた、小さな水のたまり。",
+    "diff": "lake は大きな湖。",
+    "other": []
+  },
+  {
+    "src": "M1539",
+    "id": "sea",
+    "en": "sea",
+    "ipa": "/si/",
+    "sense": "海",
+    "ja": "海",
+    "ex": {
+      "en": "We swam in the sea.",
+      "ja": "海で泳いだ。",
+      "mark": [
+        "sea"
+      ]
+    },
+    "core": "地球の表面を覆う塩水。陸に近い部分を言うことが多い。",
+    "diff": "ocean はもっと広い大洋。（米）では海全般を ocean と言うことも多い。",
+    "other": []
+  },
+  {
+    "src": "M1540",
+    "id": "ocean",
+    "en": "ocean",
+    "ipa": "/ˈoʊʃən/",
+    "sense": "大洋、海",
+    "ja": "海",
+    "ex": {
+      "en": "The ocean was calm and blue.",
+      "ja": "海は穏やかで青かった。",
+      "mark": [
+        "ocean"
+      ]
+    },
+    "core": "大陸の間に広がる、とても大きな海。",
+    "other": []
+  },
+  {
+    "src": "M1541",
+    "id": "beach",
+    "en": "beach",
+    "ipa": "/bitʃ/",
+    "sense": "浜辺、ビーチ",
+    "ja": "浜辺",
+    "ex": {
+      "en": "We walked along the beach.",
+      "ja": "浜辺を歩いた。",
+      "mark": [
+        "beach"
+      ]
+    },
+    "core": "海や湖のそばの、砂や小石の岸。",
+    "other": []
+  },
+  {
+    "src": "M1542",
+    "id": "coast",
+    "en": "coast",
+    "ipa": "/koʊst/",
+    "sense": "海岸、沿岸",
+    "ja": "海岸",
+    "ex": {
+      "en": "They live on the east coast.",
+      "ja": "彼らは東海岸に住んでいる。",
+      "mark": [
+        "coast"
+      ]
+    },
+    "core": "陸地が海と接している、細長い一帯。",
+    "diff": "beach は砂浜そのもの。coast は海沿いの地域全体。",
+    "other": []
+  },
+  {
+    "src": "M1543",
+    "id": "island",
+    "en": "island",
+    "ipa": "/ˈaɪlənd/",
+    "sense": "島",
+    "ja": "島",
+    "ex": {
+      "en": "We took a boat to the island.",
+      "ja": "船で島へ渡った。",
+      "mark": [
+        "island"
+      ]
+    },
+    "core": "周りをぐるりと水に囲まれた陸地。s は発音しない。",
+    "other": []
+  },
+  {
+    "src": "M1544",
+    "id": "desert",
+    "en": "desert",
+    "ipa": "/ˈdɛzərt/",
+    "sense": "砂漠",
+    "ja": "砂漠",
+    "ex": {
+      "en": "It rarely rains in the desert.",
+      "ja": "砂漠ではめったに雨が降らない。",
+      "mark": [
+        "desert"
+      ]
+    },
+    "core": "雨がほとんど降らず、乾いた広い土地。",
+    "diff": "dessert（デザート）とつづりと発音が違う。",
+    "other": []
+  },
+  {
+    "src": "M1545",
+    "id": "field",
+    "en": "field",
+    "ipa": "/fild/",
+    "sense": "畑、野原",
+    "ja": "畑",
+    "ex": {
+      "en": "Cows are eating grass in the field.",
+      "ja": "牛が野原で草を食べている。",
+      "mark": [
+        "field"
+      ]
+    },
+    "core": "作物を育てたり動物を放したりする、開けた土地。",
+    "other": [
+      "分野：the field of medicine"
+    ]
+  },
+  {
+    "src": "M1546",
+    "id": "farm",
+    "en": "farm",
+    "ipa": "/fɑrm/",
+    "sense": "農場",
+    "ja": "農場",
+    "ex": {
+      "en": "My grandparents live on a farm.",
+      "ja": "祖父母は農場に住んでいる。",
+      "mark": [
+        "farm"
+      ]
+    },
+    "core": "作物を育てたり家畜を飼ったりする場所。",
+    "other": []
+  },
+  {
+    "src": "M1547",
+    "id": "animal",
+    "en": "animal",
+    "ipa": "/ˈænəməl/",
+    "sense": "動物",
+    "ja": "動物",
+    "ex": {
+      "en": "What's your favorite animal?",
+      "ja": "好きな動物は何？",
+      "mark": [
+        "animal"
+      ]
+    },
+    "core": "自分で動き回る生き物。",
+    "other": []
+  },
+  {
+    "src": "M1548",
+    "id": "bird",
+    "en": "bird",
+    "ipa": "/bɜrd/",
+    "sense": "鳥",
+    "ja": "鳥",
+    "ex": {
+      "en": "A bird is singing outside.",
+      "ja": "外で鳥が鳴いている。",
+      "mark": [
+        "bird"
+      ]
+    },
+    "core": "羽と翼とくちばしを持つ生き物。",
+    "other": []
+  },
+  {
+    "src": "M1549",
+    "id": "dog",
+    "en": "dog",
+    "ipa": "/dɔɡ/",
+    "sense": "犬",
+    "ja": "犬",
+    "ex": {
+      "en": "I walk my dog every morning.",
+      "ja": "毎朝犬の散歩をしている。",
+      "mark": [
+        "dog"
+      ]
+    },
+    "core": "人と一緒に暮らす、よくほえる動物。",
+    "other": []
+  },
+  {
+    "src": "M1550",
+    "id": "cat",
+    "en": "cat",
+    "ipa": "/kæt/",
+    "sense": "猫",
+    "ja": "猫",
+    "ex": {
+      "en": "The cat is sleeping on the sofa.",
+      "ja": "猫がソファで寝ている。",
+      "mark": [
+        "cat"
+      ]
+    },
+    "core": "やわらかい毛で、ニャーと鳴く小さな動物。",
+    "other": []
+  },
+  {
+    "src": "M1551",
+    "id": "horse",
+    "en": "horse",
+    "ipa": "/hɔrs/",
+    "sense": "馬",
+    "ja": "馬",
+    "ex": {
+      "en": "She rides a horse on weekends.",
+      "ja": "彼女は週末に馬に乗る。",
+      "mark": [
+        "horse"
+      ]
+    },
+    "core": "人が乗ったり荷物を引かせたりする大きな動物。",
+    "other": []
+  },
+  {
+    "src": "M1552",
+    "id": "cow",
+    "en": "cow",
+    "ipa": "/kaʊ/",
+    "sense": "雌牛、牛",
+    "ja": "牛",
+    "ex": {
+      "en": "The cow gives us milk.",
+      "ja": "その牛から牛乳がとれる。",
+      "mark": [
+        "cow"
+      ]
+    },
+    "core": "牛乳をとるために飼う大きな動物。",
+    "other": []
+  },
+  {
+    "src": "M1553",
+    "id": "pig",
+    "en": "pig",
+    "ipa": "/pɪɡ/",
+    "sense": "豚",
+    "ja": "豚",
+    "ex": {
+      "en": "The pig rolled in the mud.",
+      "ja": "豚が泥の中で転げ回った。",
+      "mark": [
+        "pig"
+      ]
+    },
+    "core": "鼻が平たく、ブーブー鳴く家畜。",
+    "other": []
+  },
+  {
+    "src": "M1554",
+    "id": "sheep",
+    "en": "sheep",
+    "ipa": "/ʃip/",
+    "sense": "羊",
+    "ja": "羊",
+    "ex": {
+      "en": "The sheep are eating grass.",
+      "ja": "羊たちが草を食べている。",
+      "mark": [
+        "sheep"
+      ]
+    },
+    "core": "もこもこの毛を持つ家畜。複数形も sheep。",
+    "other": []
+  },
+  {
+    "src": "M1555",
+    "id": "goat",
+    "en": "goat",
+    "ipa": "/ɡoʊt/",
+    "sense": "ヤギ",
+    "ja": "ヤギ",
+    "ex": {
+      "en": "The goat climbed onto the rock.",
+      "ja": "ヤギが岩の上に登った。",
+      "mark": [
+        "goat"
+      ]
+    },
+    "core": "角とあごひげのある、岩場に強い動物。",
+    "other": []
+  },
+  {
+    "src": "M1556",
+    "id": "rabbit",
+    "en": "rabbit",
+    "ipa": "/ˈræbɪt/",
+    "sense": "ウサギ",
+    "ja": "ウサギ",
+    "ex": {
+      "en": "The rabbit hopped across the yard.",
+      "ja": "ウサギが庭をぴょんぴょん横切った。",
+      "mark": [
+        "rabbit"
+      ]
+    },
+    "core": "長い耳を持ち、跳ねて動く小さな動物。",
+    "other": []
+  },
+  {
+    "src": "M1557",
+    "id": "mouse",
+    "en": "mouse",
+    "ipa": "/maʊs/",
+    "sense": "ネズミ、ハツカネズミ",
+    "ja": "ネズミ",
+    "ex": {
+      "en": "A mouse ran across the kitchen floor.",
+      "ja": "ネズミが台所の床を走っていった。",
+      "mark": [
+        "mouse"
+      ]
+    },
+    "core": "小さくて尾の長い動物。複数形は mice。",
+    "diff": "rat は大きめのネズミ。",
+    "other": [
+      "（パソコンの）マウス：click the mouse"
+    ]
+  },
+  {
+    "src": "M1558",
+    "id": "rat",
+    "en": "rat",
+    "ipa": "/ræt/",
+    "sense": "（大型の）ネズミ、ドブネズミ",
+    "ja": "ネズミ",
+    "ex": {
+      "en": "We saw a rat near the trash.",
+      "ja": "ごみの近くでネズミを見た。",
+      "mark": [
+        "rat"
+      ]
+    },
+    "core": "mouse より大きく、尾の長いネズミ。",
+    "diff": "mouse は小さいネズミ。",
+    "other": []
+  },
+  {
+    "src": "M1559",
+    "id": "lion",
+    "en": "lion",
+    "ipa": "/ˈlaɪən/",
+    "sense": "ライオン",
+    "ja": "ライオン",
+    "ex": {
+      "en": "The lion roared loudly.",
+      "ja": "ライオンが大きくほえた。",
+      "mark": [
+        "lion"
+      ]
+    },
+    "core": "たてがみを持つ、大きなネコ科の動物。",
+    "other": []
+  },
+  {
+    "src": "M1560",
+    "id": "tiger",
+    "en": "tiger",
+    "ipa": "/ˈtaɪɡər/",
+    "sense": "トラ",
+    "ja": "トラ",
+    "ex": {
+      "en": "The tiger has black stripes.",
+      "ja": "トラには黒いしまがある。",
+      "mark": [
+        "tiger"
+      ]
+    },
+    "core": "黄色に黒いしま模様の、大きなネコ科の動物。",
+    "other": []
+  },
+  {
+    "src": "M1561",
+    "id": "bear",
+    "en": "bear",
+    "ipa": "/bɛr/",
+    "sense": "クマ",
+    "ja": "クマ",
+    "ex": {
+      "en": "We saw a bear in the woods.",
+      "ja": "森でクマを見た。",
+      "mark": [
+        "bear"
+      ]
+    },
+    "core": "厚い毛皮を持つ、大きくて力の強い動物。",
+    "other": []
+  },
+  {
+    "src": "M1562",
+    "id": "elephant",
+    "en": "elephant",
+    "ipa": "/ˈɛləfənt/",
+    "sense": "ゾウ",
+    "ja": "ゾウ",
+    "ex": {
+      "en": "The elephant sprayed water with its trunk.",
+      "ja": "ゾウが鼻で水をかけた。",
+      "mark": [
+        "elephant"
+      ]
+    },
+    "core": "長い鼻と大きな耳を持つ、とても大きな動物。",
+    "other": []
+  },
+  {
+    "src": "M1563",
+    "id": "monkey",
+    "en": "monkey",
+    "ipa": "/ˈmʌŋki/",
+    "sense": "サル",
+    "ja": "サル",
+    "ex": {
+      "en": "A monkey was swinging in the tree.",
+      "ja": "サルが木にぶら下がって揺れていた。",
+      "mark": [
+        "monkey"
+      ]
+    },
+    "core": "長い尾を持ち、木に登るのが得意な動物。",
+    "other": []
+  },
+  {
+    "src": "M1564",
+    "id": "deer",
+    "en": "deer",
+    "ipa": "/dɪr/",
+    "sense": "シカ",
+    "ja": "シカ",
+    "ex": {
+      "en": "A deer ran across the road.",
+      "ja": "シカが道を横切った。",
+      "mark": [
+        "deer"
+      ]
+    },
+    "core": "細い脚を持ち、雄に角のある動物。複数形も deer。",
+    "other": []
+  },
+  {
+    "src": "M1565",
+    "id": "fox",
+    "en": "fox",
+    "ipa": "/fɑks/",
+    "sense": "キツネ",
+    "ja": "キツネ",
+    "ex": {
+      "en": "A fox was hiding in the bushes.",
+      "ja": "キツネが茂みに隠れていた。",
+      "mark": [
+        "fox"
+      ]
+    },
+    "core": "とがった耳とふさふさの尾を持つ動物。",
+    "other": []
+  },
+  {
+    "src": "M1566",
+    "id": "wolf",
+    "en": "wolf",
+    "ipa": "/wʊlf/",
+    "sense": "オオカミ",
+    "ja": "オオカミ",
+    "ex": {
+      "en": "We heard a wolf howling.",
+      "ja": "オオカミの遠ぼえが聞こえた。",
+      "mark": [
+        "wolf"
+      ]
+    },
+    "core": "群れで暮らす、犬に似た野生の動物。複数形は wolves。",
+    "other": []
+  },
+  {
+    "src": "M1567",
+    "id": "snake",
+    "en": "snake",
+    "ipa": "/sneɪk/",
+    "sense": "ヘビ",
+    "ja": "ヘビ",
+    "ex": {
+      "en": "A snake was lying in the sun.",
+      "ja": "ヘビが日なたで横になっていた。",
+      "mark": [
+        "snake"
+      ]
+    },
+    "core": "足がなく、細長い体ではって進む動物。",
+    "other": []
+  },
+  {
+    "src": "M1568",
+    "id": "frog",
+    "en": "frog",
+    "ipa": "/frɔɡ/",
+    "sense": "カエル",
+    "ja": "カエル",
+    "ex": {
+      "en": "A frog jumped into the pond.",
+      "ja": "カエルが池に飛び込んだ。",
+      "mark": [
+        "frog"
+      ]
+    },
+    "core": "水辺に住み、長い後ろ足で跳ねる動物。",
+    "other": []
+  },
+  {
+    "src": "M1569",
+    "id": "company",
+    "en": "company",
+    "ipa": "/ˈkʌmpəni/",
+    "sense": "会社",
+    "ja": "会社",
+    "ex": {
+      "en": "She works for a big company.",
+      "ja": "彼女は大きな会社で働いている。",
+      "mark": [
+        "company"
+      ]
+    },
+    "core": "人が集まって、仕事をしてお金を稼ぐ団体。",
+    "other": [
+      "一緒にいること：enjoy your company"
+    ]
+  },
+  {
+    "src": "M1570",
+    "id": "business",
+    "en": "business",
+    "ipa": "/ˈbɪznəs/",
+    "sense": "事業、商売",
+    "ja": "事業",
+    "ex": {
+      "en": "He started his own business.",
+      "ja": "彼は自分で事業を始めた。",
+      "mark": [
+        "business"
+      ]
+    },
+    "core": "物やサービスを売ってお金を稼ぐ活動。",
+    "other": [
+      "（関わるべき）こと：none of your business"
+    ]
+  },
+  {
+    "src": "M1571",
+    "id": "office",
+    "en": "office",
+    "ipa": "/ˈɔfɪs/",
+    "sense": "事務所、オフィス",
+    "ja": "事務所",
+    "ex": {
+      "en": "I'll be at the office until six.",
+      "ja": "6時まで事務所にいます。",
+      "mark": [
+        "office"
+      ]
+    },
+    "core": "机で書類などの仕事をする場所。",
+    "other": []
+  },
+  {
+    "src": "M1572",
+    "id": "department",
+    "en": "department",
+    "ipa": "/dɪˈpɑrtmənt/",
+    "sense": "（会社などの）部、部門",
+    "ja": "部門",
+    "ex": {
+      "en": "She works in the sales department.",
+      "ja": "彼女は営業部で働いている。",
+      "mark": [
+        "department"
+      ]
+    },
+    "core": "大きな組織を仕事ごとに分けた一部。",
+    "other": []
+  },
+  {
+    "src": "M1573",
+    "id": "organization",
+    "en": "organization",
+    "ipa": "/ˌɔrɡənəˈzeɪʃən/",
+    "sense": "組織、団体",
+    "ja": "組織",
+    "ex": {
+      "en": "She works for a health organization.",
+      "ja": "彼女は保健関係の団体で働いている。",
+      "mark": [
+        "organization"
+      ]
+    },
+    "core": "共通の目的のために人が集まった団体。",
+    "other": []
+  },
+  {
+    "src": "M1574",
+    "id": "industry",
+    "en": "industry",
+    "ipa": "/ˈɪndəstri/",
+    "sense": "産業、業界",
+    "ja": "産業",
+    "ex": {
+      "en": "He works in the car industry.",
+      "ja": "彼は自動車業界で働いている。",
+      "mark": [
+        "industry"
+      ]
+    },
+    "core": "同じ種類の物やサービスを作る仕事の集まり。",
+    "other": []
+  },
+  {
+    "src": "M1575",
+    "id": "factory",
+    "en": "factory",
+    "ipa": "/ˈfæktəri/",
+    "sense": "工場",
+    "ja": "工場",
+    "ex": {
+      "en": "My father works at a factory.",
+      "ja": "父は工場で働いている。",
+      "mark": [
+        "factory"
+      ]
+    },
+    "core": "機械を使って、物をたくさん作る建物。",
+    "other": []
+  },
+  {
+    "src": "M1576",
+    "id": "warehouse",
+    "en": "warehouse",
+    "ipa": "/ˈwɛrˌhaʊs/",
+    "sense": "倉庫",
+    "ja": "倉庫",
+    "ex": {
+      "en": "The boxes are stored in the warehouse.",
+      "ja": "箱は倉庫に保管されている。",
+      "mark": [
+        "warehouse"
+      ]
+    },
+    "core": "商品や荷物をたくさんしまっておく大きな建物。",
+    "other": []
+  },
+  {
+    "src": "M1577",
+    "id": "workplace",
+    "en": "workplace",
+    "ipa": "/ˈwɜrkˌpleɪs/",
+    "sense": "職場",
+    "ja": "職場",
+    "ex": {
+      "en": "Safety in the workplace is important.",
+      "ja": "職場の安全は大切だ。",
+      "mark": [
+        "workplace"
+      ]
+    },
+    "core": "人が働いている場所。",
+    "other": []
+  },
+  {
+    "src": "M1578",
+    "id": "staff",
+    "en": "staff",
+    "ipa": "/stæf/",
+    "sense": "（集合的に）職員、スタッフ",
+    "ja": "職員",
+    "ex": {
+      "en": "The hotel staff were very kind.",
+      "ja": "ホテルの職員はとても親切だった。",
+      "mark": [
+        "staff"
+      ]
+    },
+    "core": "1つの職場で働く人たち全体。",
+    "other": []
+  },
+  {
+    "src": "M1579",
+    "id": "career",
+    "en": "career",
+    "ipa": "/kəˈrɪr/",
+    "sense": "（生涯の）仕事、キャリア",
+    "ja": "キャリア",
+    "ex": {
+      "en": "She had a long career in teaching.",
+      "ja": "彼女は長く教師の仕事を続けた。",
+      "mark": [
+        "career"
+      ]
+    },
+    "core": "長い年月をかけて積み重ねていく仕事の歩み。",
+    "diff": "job は今している1つの仕事。",
+    "other": []
+  },
+  {
+    "src": "M1580",
+    "id": "profession",
+    "en": "profession",
+    "ipa": "/prəˈfɛʃən/",
+    "sense": "（専門的な）職業",
+    "ja": "専門職",
+    "ex": {
+      "en": "Teaching is a hard profession.",
+      "ja": "教師は大変な職業だ。",
+      "mark": [
+        "profession"
+      ]
+    },
+    "core": "特別な知識や訓練が必要な職業。",
+    "other": []
+  },
+  {
+    "src": "M1581",
+    "id": "job",
+    "en": "job",
+    "ipa": "/dʒɑb/",
+    "sense": "仕事、職",
+    "ja": "仕事",
+    "ex": {
+      "en": "She got a new job last month.",
+      "ja": "彼女は先月新しい仕事に就いた。",
+      "mark": [
+        "job"
+      ]
+    },
+    "core": "お金をもらうためにする仕事。",
+    "other": [
+      "（個々の）作業：do a good job"
+    ]
+  },
+  {
+    "src": "M1582",
+    "id": "position",
+    "en": "position",
+    "ipa": "/pəˈzɪʃən/",
+    "sense": "（職場の）地位、職",
+    "ja": "役職",
+    "ex": {
+      "en": "He applied for a manager position.",
+      "ja": "彼は管理職のポストに応募した。",
+      "mark": [
+        "position"
+      ]
+    },
+    "core": "組織の中で、その人が占めている場所。",
+    "other": [
+      "位置：the position of the sun"
+    ]
+  },
+  {
+    "src": "M1583",
+    "id": "role",
+    "en": "role",
+    "ipa": "/roʊl/",
+    "sense": "役割",
+    "ja": "役割",
+    "ex": {
+      "en": "Parents play an important role.",
+      "ja": "親は大事な役割を果たす。",
+      "mark": [
+        "role"
+      ]
+    },
+    "core": "ある場面で、その人が果たすべき働き。",
+    "other": [
+      "（劇の）役：the lead role"
+    ]
+  },
+  {
+    "src": "M1584",
+    "id": "responsibility",
+    "en": "responsibility",
+    "ipa": "/rɪˌspɑnsəˈbɪləti/",
+    "sense": "責任",
+    "ja": "責任",
+    "ex": {
+      "en": "It's my responsibility to lock the door.",
+      "ja": "戸締まりは私の責任だ。",
+      "mark": [
+        "responsibility"
+      ]
+    },
+    "core": "自分が引き受けて、きちんとやるべきこと。",
+    "other": []
+  },
+  {
+    "src": "M1585",
+    "id": "task",
+    "en": "task",
+    "ipa": "/tæsk/",
+    "sense": "（しなければならない）作業、仕事",
+    "ja": "作業",
+    "ex": {
+      "en": "Cleaning the room is a simple task.",
+      "ja": "部屋の掃除は簡単な作業だ。",
+      "mark": [
+        "task"
+      ]
+    },
+    "core": "やるように決められた、1つ1つの仕事。",
+    "other": []
+  },
+  {
+    "src": "M1586",
+    "id": "project",
+    "en": "project",
+    "ipa": "/ˈprɑdʒɛkt/",
+    "sense": "（計画的な）事業、プロジェクト",
+    "ja": "プロジェクト",
+    "ex": {
+      "en": "We finished the project on time.",
+      "ja": "期限どおりにプロジェクトを終えた。",
+      "mark": [
+        "project"
+      ]
+    },
+    "core": "目標に向けて計画を立てて進める、まとまった仕事。",
+    "other": [
+      "（学校の）課題研究：a science project"
+    ]
+  },
+  {
+    "src": "M1587",
+    "id": "meeting",
+    "en": "meeting",
+    "ipa": "/ˈmitɪŋ/",
+    "sense": "会議、打ち合わせ",
+    "ja": "会議",
+    "ex": {
+      "en": "I have a meeting at ten.",
+      "ja": "10時に会議がある。",
+      "mark": [
+        "meeting"
+      ]
+    },
+    "core": "人が集まって話し合うこと。",
+    "other": []
+  },
+  {
+    "src": "M1588",
+    "id": "conference",
+    "en": "conference",
+    "ipa": "/ˈkɑnfərəns/",
+    "sense": "（大規模な）会議、学会",
+    "ja": "会議",
+    "ex": {
+      "en": "She spoke at a conference in Tokyo.",
+      "ja": "彼女は東京の会議で講演した。",
+      "mark": [
+        "conference"
+      ]
+    },
+    "core": "多くの人が集まり、数日かけて意見を交わす大きな会。",
+    "diff": "meeting はふつう少人数の打ち合わせ。",
+    "other": []
+  },
+  {
+    "src": "M1589",
+    "id": "seminar",
+    "en": "seminar",
+    "ipa": "/ˈsɛməˌnɑr/",
+    "sense": "セミナー、講習会",
+    "ja": "セミナー",
+    "ex": {
+      "en": "I went to a seminar on marketing.",
+      "ja": "マーケティングのセミナーに行った。",
+      "mark": [
+        "seminar"
+      ]
+    },
+    "core": "あるテーマについて、少人数で学び話し合う会。",
+    "other": []
+  },
+  {
+    "src": "M1590",
+    "id": "presentation",
+    "en": "presentation",
+    "ipa": "/ˌprɛzənˈteɪʃən/",
+    "sense": "発表、プレゼン",
+    "ja": "発表",
+    "ex": {
+      "en": "I gave a presentation to the team.",
+      "ja": "チームの前で発表をした。",
+      "mark": [
+        "presentation"
+      ]
+    },
+    "core": "人の前で考えや情報を説明すること。",
+    "other": []
+  },
+  {
+    "src": "M1591",
+    "id": "agenda",
+    "en": "agenda",
+    "ipa": "/əˈdʒɛndə/",
+    "sense": "（会議の）議題、予定表",
+    "ja": "議題",
+    "ex": {
+      "en": "What's on the agenda today?",
+      "ja": "今日の議題は何ですか？",
+      "mark": [
+        "agenda"
+      ]
+    },
+    "core": "会議で話し合うことを順に並べたリスト。",
+    "other": []
+  },
+  {
+    "src": "M1592",
+    "id": "deadline",
+    "en": "deadline",
+    "ipa": "/ˈdɛdˌlaɪn/",
+    "sense": "締め切り",
+    "ja": "締め切り",
+    "ex": {
+      "en": "The deadline is next Friday.",
+      "ja": "締め切りは来週の金曜日だ。",
+      "mark": [
+        "deadline"
+      ]
+    },
+    "core": "それまでに終えなければならない時刻や日。",
+    "other": []
+  },
+  {
+    "src": "M1593",
+    "id": "shift",
+    "en": "shift",
+    "ipa": "/ʃɪft/",
+    "sense": "（交替制の）勤務時間、シフト",
+    "ja": "シフト",
+    "ex": {
+      "en": "I work the night shift this week.",
+      "ja": "今週は夜勤のシフトだ。",
+      "mark": [
+        "shift"
+      ]
+    },
+    "core": "交替で働くときの、1回ぶんの勤務時間。",
+    "other": [
+      "変化：a shift in plans"
+    ]
+  },
+  {
+    "src": "M1594",
+    "id": "salary",
+    "en": "salary",
+    "ipa": "/ˈsæləri/",
+    "sense": "給料、月給",
+    "ja": "給料",
+    "ex": {
+      "en": "She gets a good salary.",
+      "ja": "彼女はいい給料をもらっている。",
+      "mark": [
+        "salary"
+      ]
+    },
+    "core": "毎月など決まって払われる、決まった額の給料。",
+    "diff": "wage は時間や日ごとに払われる賃金。",
+    "other": []
+  },
+  {
+    "src": "M1595",
+    "id": "wage",
+    "en": "wage",
+    "ipa": "/weɪdʒ/",
+    "sense": "（時給・日給の）賃金",
+    "ja": "賃金",
+    "ex": {
+      "en": "The minimum wage went up this year.",
+      "ja": "今年、最低賃金が上がった。",
+      "mark": [
+        "wage"
+      ]
+    },
+    "core": "働いた時間や日数に応じて払われるお金。",
+    "diff": "salary は月や年で決まった額の給料。",
+    "other": []
+  },
+  {
+    "src": "M1596",
+    "id": "bonus",
+    "en": "bonus",
+    "ipa": "/ˈboʊnəs/",
+    "sense": "ボーナス、賞与",
+    "ja": "ボーナス",
+    "ex": {
+      "en": "We got a bonus at the end of the year.",
+      "ja": "年末にボーナスが出た。",
+      "mark": [
+        "bonus"
+      ]
+    },
+    "core": "ふだんの給料のほかに、追加でもらうお金。",
+    "other": [
+      "うれしいおまけ：an extra bonus"
+    ]
+  },
+  {
+    "src": "M1597",
+    "id": "benefit",
+    "en": "benefit",
+    "ipa": "/ˈbɛnəfɪt/",
+    "sense": "（会社の）福利厚生、手当",
+    "ja": "福利厚生",
+    "ex": {
+      "en": "The job has good benefits.",
+      "ja": "その仕事は福利厚生がいい。",
+      "mark": [
+        "benefits"
+      ]
+    },
+    "core": "給料のほかに、会社が働く人に与える保険や休暇などのよいもの。ふつう複数形。",
+    "other": [
+      "利点：the benefits of exercise"
+    ]
+  },
+  {
+    "src": "M1598",
+    "id": "promotion",
+    "en": "promotion",
+    "ipa": "/prəˈmoʊʃən/",
+    "sense": "（職場での）昇進",
+    "ja": "昇進",
+    "ex": {
+      "en": "She got a promotion to manager last month.",
+      "ja": "彼女は先月、マネージャーに昇進した。",
+      "mark": [
+        "promotion"
+      ]
+    },
+    "core": "今の立場から、一段上の地位へ押し上げられること。",
+    "other": [
+      "販売促進：a summer sales promotion"
+    ]
+  },
+  {
+    "src": "M1599",
+    "id": "training",
+    "en": "training",
+    "ipa": "/ˈtreɪnɪŋ/",
+    "sense": "（仕事のための）研修・訓練",
+    "ja": "研修",
+    "ex": {
+      "en": "New staff get two weeks of training.",
+      "ja": "新しいスタッフは2週間の研修を受ける。",
+      "mark": [
+        "training"
+      ]
+    },
+    "core": "できるように、くり返し教えこまれて身につけること。",
+    "other": [
+      "（スポーツの）トレーニング：training for a marathon"
+    ]
+  },
+  {
+    "src": "M1600",
+    "id": "experience",
+    "en": "experience",
+    "ipa": "/ɪkˈspɪriəns/",
+    "sense": "（仕事などの）経験",
+    "ja": "経験",
+    "ex": {
+      "en": "Do you have any experience in sales?",
+      "ja": "営業の経験はありますか？",
+      "mark": [
+        "experience"
+      ]
+    },
+    "core": "実際にやってみて、自分の中にたまったもの。",
+    "other": [
+      "（一回の）体験：a great experience"
+    ]
+  },
+  {
+    "src": "M1601",
+    "id": "skill",
+    "en": "skill",
+    "ipa": "/skɪl/",
+    "sense": "（練習で身につけた）技能",
+    "ja": "技能",
+    "ex": {
+      "en": "Good communication is an important skill.",
+      "ja": "うまく伝える力は大切な技能だ。",
+      "mark": [
+        "skill"
+      ]
+    },
+    "core": "練習を重ねて、手や頭が上手にできるようになった力。",
+    "other": []
+  },
+  {
+    "src": "M1602",
+    "id": "resume",
+    "en": "resume",
+    "ipa": "/ˈrɛzəˌmeɪ/",
+    "sense": "履歴書",
+    "ja": "履歴書",
+    "ex": {
+      "en": "Please send your resume by Friday.",
+      "ja": "金曜日までに履歴書を送ってください。",
+      "mark": [
+        "resume"
+      ]
+    },
+    "core": "自分の学歴や職歴を、紙一枚にまとめたもの。",
+    "diff": "英国では CV と言うことが多い。",
+    "other": []
+  },
+  {
+    "src": "M1603",
+    "id": "candidate",
+    "en": "candidate",
+    "ipa": "/ˈkændɪˌdeɪt/",
+    "sense": "（選ばれる）候補者",
+    "ja": "候補者",
+    "ex": {
+      "en": "We interviewed three candidates for the job.",
+      "ja": "その仕事に3人の候補者を面接した。",
+      "mark": [
+        "candidate"
+      ]
+    },
+    "core": "選ばれる前に、いくつか並べられている人。",
+    "diff": "applicant は自分から応募した人。candidate は選考の対象として残った人。",
+    "other": [
+      "（選挙の）立候補者：a candidate for mayor"
+    ]
+  },
+  {
+    "src": "M1604",
+    "id": "applicant",
+    "en": "applicant",
+    "ipa": "/ˈæplɪkənt/",
+    "sense": "（仕事などの）応募者",
+    "ja": "応募者",
+    "ex": {
+      "en": "Each applicant must fill out this form.",
+      "ja": "応募者はそれぞれこの用紙に記入してください。",
+      "mark": [
+        "applicant"
+      ]
+    },
+    "core": "自分から「お願いします」と申し込んだ人。",
+    "other": []
+  },
+  {
+    "src": "M1605",
+    "id": "contract",
+    "en": "contract",
+    "ipa": "/ˈkɑnˌtrækt/",
+    "sense": "（書面の）契約・契約書",
+    "ja": "契約",
+    "ex": {
+      "en": "He signed a one-year contract.",
+      "ja": "彼は1年間の契約に署名した。",
+      "mark": [
+        "contract"
+      ]
+    },
+    "core": "お互いの約束を、書面できっちり結んだもの。",
+    "diff": "agreement は広く「合意」。contract は法的に守る義務のある契約。",
+    "other": []
+  },
+  {
+    "src": "M1606",
+    "id": "agreement",
+    "en": "agreement",
+    "ipa": "/əˈɡrimənt/",
+    "sense": "（話し合いでの）合意",
+    "ja": "合意",
+    "ex": {
+      "en": "The two companies reached an agreement.",
+      "ja": "両社は合意に達した。",
+      "mark": [
+        "agreement"
+      ]
+    },
+    "core": "話し合って、考えがひとつにそろうこと。",
+    "other": [
+      "意見が同じであること：I'm in agreement with you."
+    ]
+  },
+  {
+    "src": "M1607",
+    "id": "policy",
+    "en": "policy",
+    "ipa": "/ˈpɑləsi/",
+    "sense": "（会社などの）方針",
+    "ja": "方針",
+    "ex": {
+      "en": "Our store has a no-return policy on sale items.",
+      "ja": "当店ではセール品の返品は受け付けない方針です。",
+      "mark": [
+        "policy"
+      ]
+    },
+    "core": "組織が「こうする」と決めた、大きな決まりごと。",
+    "other": [
+      "保険証券：an insurance policy"
+    ]
+  },
+  {
+    "src": "M1608",
+    "id": "procedure",
+    "en": "procedure",
+    "ipa": "/prəˈsidʒər/",
+    "sense": "（決まった）手順",
+    "ja": "手順",
+    "ex": {
+      "en": "Follow the safety procedure before using the machine.",
+      "ja": "機械を使う前に安全手順に従ってください。",
+      "mark": [
+        "procedure"
+      ]
+    },
+    "core": "決まった順番で一歩ずつ進める、やり方の流れ。",
+    "other": [
+      "（医療の）処置・手術：a simple procedure"
+    ]
+  },
+  {
+    "src": "M1609",
+    "id": "rule",
+    "en": "rule",
+    "ipa": "/rul/",
+    "sense": "（守るべき）規則・ルール",
+    "ja": "規則",
+    "ex": {
+      "en": "You have to follow the rules.",
+      "ja": "規則は守らなければならない。",
+      "mark": [
+        "rules"
+      ]
+    },
+    "core": "してよいこと・いけないことを決めた線。",
+    "other": []
+  },
+  {
+    "src": "M1610",
+    "id": "regulation",
+    "en": "regulation",
+    "ipa": "/ˌrɛɡjəˈleɪʃən/",
+    "sense": "（法律などによる）規制・規則",
+    "ja": "規制",
+    "ex": {
+      "en": "New regulations limit smoking in restaurants.",
+      "ja": "新しい規制で飲食店での喫煙が制限された。",
+      "mark": [
+        "regulations"
+      ]
+    },
+    "core": "国や組織が公式に決めて、行動をおさえる決まり。",
+    "diff": "rule は身近な決まり全般。regulation は公的機関などが定めた正式な規則。",
+    "other": []
+  },
+  {
+    "src": "M1611",
+    "id": "standard",
+    "en": "standard",
+    "ipa": "/ˈstændərd/",
+    "sense": "（品質などの）基準",
+    "ja": "基準",
+    "ex": {
+      "en": "This product meets safety standards.",
+      "ja": "この製品は安全基準を満たしている。",
+      "mark": [
+        "standards"
+      ]
+    },
+    "core": "「ここまでできれば合格」という目安の線。",
+    "other": [
+      "水準：a high standard of living"
+    ]
+  },
+  {
+    "src": "M1612",
+    "id": "quality",
+    "en": "quality",
+    "ipa": "/ˈkwɑləti/",
+    "sense": "品質",
+    "ja": "品質",
+    "ex": {
+      "en": "These shoes are good quality.",
+      "ja": "この靴は品質が良い。",
+      "mark": [
+        "quality"
+      ]
+    },
+    "core": "量ではなく、もののよしあしの度合い。",
+    "diff": "quantity は数や量。quality は質。",
+    "other": [
+      "（人の）長所・資質：She has many good qualities."
+    ]
+  },
+  {
+    "src": "M1613",
+    "id": "quantity",
+    "en": "quantity",
+    "ipa": "/ˈkwɑntəti/",
+    "sense": "数量",
+    "ja": "数量",
+    "ex": {
+      "en": "We ordered a large quantity of paper.",
+      "ja": "大量の紙を注文した。",
+      "mark": [
+        "quantity"
+      ]
+    },
+    "core": "どれだけあるかという、数や量の多さ。",
+    "diff": "quality は質。quantity は量。",
+    "other": []
+  },
+  {
+    "src": "M1614",
+    "id": "product",
+    "en": "product",
+    "ipa": "/ˈprɑdəkt/",
+    "sense": "製品",
+    "ja": "製品",
+    "ex": {
+      "en": "This company makes kitchen products.",
+      "ja": "この会社は台所用品を作っている。",
+      "mark": [
+        "products"
+      ]
+    },
+    "core": "作られて、売るために出てきたもの。",
+    "other": [
+      "（努力などの）成果：the product of hard work"
+    ]
+  },
+  {
+    "src": "M1615",
+    "id": "service",
+    "en": "service",
+    "ipa": "/ˈsɜrvɪs/",
+    "sense": "（客への）サービス・接客",
+    "ja": "サービス",
+    "ex": {
+      "en": "The food was good, but the service was slow.",
+      "ja": "料理はおいしかったが、接客が遅かった。",
+      "mark": [
+        "service"
+      ]
+    },
+    "core": "人のために何かをしてあげること。",
+    "other": [
+      "（交通などの）運行・便：bus service"
+    ]
+  },
+  {
+    "src": "M1616",
+    "id": "brand",
+    "en": "brand",
+    "ipa": "/brænd/",
+    "sense": "（商品の）ブランド・銘柄",
+    "ja": "ブランド",
+    "ex": {
+      "en": "Which brand of coffee do you like?",
+      "ja": "どのブランドのコーヒーが好き？",
+      "mark": [
+        "brand"
+      ]
+    },
+    "core": "どの会社の商品かを見分けるための名前。",
+    "other": []
+  },
+  {
+    "src": "M1617",
+    "id": "model",
+    "en": "model",
+    "ipa": "/ˈmɑdəl/",
+    "sense": "（製品の）型・モデル",
+    "ja": "型",
+    "ex": {
+      "en": "This is the newest model of the phone.",
+      "ja": "これはその携帯電話の最新モデルです。",
+      "mark": [
+        "model"
+      ]
+    },
+    "core": "同じ種類の製品の中で、作りごとに分けた一つの型。",
+    "other": [
+      "手本・模型：a model of the ship"
+    ]
+  },
+  {
+    "src": "M1618",
+    "id": "sample",
+    "en": "sample",
+    "ipa": "/ˈsæmpəl/",
+    "sense": "（商品の）見本・試供品",
+    "ja": "見本",
+    "ex": {
+      "en": "The store gave out free samples of cheese.",
+      "ja": "その店はチーズの無料サンプルを配っていた。",
+      "mark": [
+        "samples"
+      ]
+    },
+    "core": "全体がどんなものか分かるように、少しだけ取り出したもの。",
+    "other": [
+      "（検査用の）標本：a blood sample"
+    ]
+  },
+  {
+    "src": "M1619",
+    "id": "stock",
+    "en": "stock",
+    "ipa": "/stɑk/",
+    "sense": "（店の）在庫",
+    "ja": "在庫",
+    "ex": {
+      "en": "That size is out of stock right now.",
+      "ja": "そのサイズは今、在庫切れです。",
+      "mark": [
+        "stock"
+      ]
+    },
+    "core": "すぐ出せるように、店や倉庫にたくわえてある品物。",
+    "other": [
+      "株式：buy stock in a company"
+    ]
+  },
+  {
+    "src": "M1621",
+    "id": "shipment",
+    "en": "shipment",
+    "ipa": "/ˈʃɪpmənt/",
+    "sense": "（送られる）荷物・出荷品",
+    "ja": "出荷品",
+    "ex": {
+      "en": "The shipment will arrive next Tuesday.",
+      "ja": "荷物は来週の火曜日に届きます。",
+      "mark": [
+        "shipment"
+      ]
+    },
+    "core": "まとめて送り出された品物のかたまり。",
+    "other": [
+      "出荷すること：ready for shipment"
+    ]
+  },
+  {
+    "src": "M1622",
+    "id": "supplier",
+    "en": "supplier",
+    "ipa": "/səˈplaɪər/",
+    "sense": "供給業者・仕入れ先",
+    "ja": "仕入れ先",
+    "ex": {
+      "en": "We buy our paper from a local supplier.",
+      "ja": "紙は地元の業者から仕入れている。",
+      "mark": [
+        "supplier"
+      ]
+    },
+    "core": "必要なものを、ほかの会社に届けて売る側。",
+    "other": []
+  },
+  {
+    "src": "M1623",
+    "id": "manufacturer",
+    "en": "manufacturer",
+    "ipa": "/ˌmænjəˈfæktʃərər/",
+    "sense": "製造業者・メーカー",
+    "ja": "メーカー",
+    "ex": {
+      "en": "Contact the manufacturer if the product breaks.",
+      "ja": "製品が壊れたらメーカーに連絡してください。",
+      "mark": [
+        "manufacturer"
+      ]
+    },
+    "core": "工場で製品を大量に作っている会社。",
+    "other": []
+  },
+  {
+    "src": "M1624",
+    "id": "consumer",
+    "en": "consumer",
+    "ipa": "/kənˈsumər/",
+    "sense": "消費者",
+    "ja": "消費者",
+    "ex": {
+      "en": "Consumers want lower prices.",
+      "ja": "消費者はもっと安い値段を求めている。",
+      "mark": [
+        "Consumers"
+      ]
+    },
+    "core": "お金を払って、ものやサービスを買って使う人。",
+    "other": []
+  },
+  {
+    "src": "M1625",
+    "id": "advertisement",
+    "en": "advertisement",
+    "ipa": "/ˌædvərˈtaɪzmənt/",
+    "sense": "広告",
+    "ja": "広告",
+    "ex": {
+      "en": "I saw an advertisement for a new car.",
+      "ja": "新しい車の広告を見た。",
+      "mark": [
+        "advertisement"
+      ]
+    },
+    "core": "多くの人に知ってもらうために、商品などを宣伝するもの。",
+    "diff": "話し言葉では ad と短く言うことが多い。",
+    "other": []
+  },
+  {
+    "src": "M1626",
+    "id": "campaign",
+    "en": "campaign",
+    "ipa": "/kæmˈpeɪn/",
+    "sense": "（宣伝などの）キャンペーン・運動",
+    "ja": "キャンペーン",
+    "ex": {
+      "en": "The company started a new ad campaign.",
+      "ja": "その会社は新しい広告キャンペーンを始めた。",
+      "mark": [
+        "campaign"
+      ]
+    },
+    "core": "ひとつの目的のために、計画を立てて続ける一連の活動。",
+    "other": [
+      "選挙運動：an election campaign"
+    ]
+  },
+  {
+    "src": "M1627",
+    "id": "sales",
+    "en": "sales",
+    "ipa": "/seɪlz/",
+    "sense": "売上（高）",
+    "ja": "売上",
+    "ex": {
+      "en": "Sales went up 10 percent this year.",
+      "ja": "今年は売上が10パーセント伸びた。",
+      "mark": [
+        "Sales"
+      ]
+    },
+    "core": "売れた商品の量や金額。",
+    "other": [
+      "販売の仕事：She works in sales."
+    ]
+  },
+  {
+    "src": "M1628",
+    "id": "revenue",
+    "en": "revenue",
+    "ipa": "/ˈrɛvəˌnu/",
+    "sense": "（会社の）収入・収益",
+    "ja": "収益",
+    "ex": {
+      "en": "The company's revenue grew last year.",
+      "ja": "その会社の収益は昨年伸びた。",
+      "mark": [
+        "revenue"
+      ]
+    },
+    "core": "経費を引く前に、会社に入ってきたお金の全体。",
+    "diff": "profit は経費を引いた後に残るもうけ。",
+    "other": []
+  },
+  {
+    "src": "M1629",
+    "id": "profit",
+    "en": "profit",
+    "ipa": "/ˈprɑfɪt/",
+    "sense": "利益・もうけ",
+    "ja": "利益",
+    "ex": {
+      "en": "The shop made a small profit this month.",
+      "ja": "その店は今月、少し利益が出た。",
+      "mark": [
+        "profit"
+      ]
+    },
+    "core": "入ったお金から出たお金を引いて、手もとに残る分。",
+    "diff": "revenue は経費を引く前の収入全体。",
+    "other": []
+  },
+  {
+    "src": "M1630",
+    "id": "loss",
+    "en": "loss",
+    "ipa": "/lɔs/",
+    "sense": "（お金の）損失・赤字",
+    "ja": "損失",
+    "ex": {
+      "en": "The company had a big loss last year.",
+      "ja": "その会社は昨年、大きな赤字を出した。",
+      "mark": [
+        "loss"
+      ]
+    },
+    "core": "持っていたものが減って、なくなってしまうこと。",
+    "other": [
+      "失うこと：weight loss"
+    ]
+  },
+  {
+    "src": "M1631",
+    "id": "expense",
+    "en": "expense",
+    "ipa": "/ɪkˈspɛns/",
+    "sense": "支出・費用",
+    "ja": "費用",
+    "ex": {
+      "en": "Food is our biggest expense each month.",
+      "ja": "毎月いちばん大きな出費は食費だ。",
+      "mark": [
+        "expense"
+      ]
+    },
+    "core": "何かのために、出ていくお金。",
+    "other": []
+  },
+  {
+    "src": "M1632",
+    "id": "budget",
+    "en": "budget",
+    "ipa": "/ˈbʌdʒɪt/",
+    "sense": "予算",
+    "ja": "予算",
+    "ex": {
+      "en": "We have a budget of 500 dollars for the trip.",
+      "ja": "旅行の予算は500ドルだ。",
+      "mark": [
+        "budget"
+      ]
+    },
+    "core": "使ってよいお金を、前もって決めた枠。",
+    "other": []
+  },
+  {
+    "src": "M1633",
+    "id": "price",
+    "en": "price",
+    "ipa": "/praɪs/",
+    "sense": "価格・値段",
+    "ja": "値段",
+    "ex": {
+      "en": "The price of gas went up again.",
+      "ja": "ガソリンの値段がまた上がった。",
+      "mark": [
+        "price"
+      ]
+    },
+    "core": "ものを買うのに払う金額。",
+    "diff": "fee はサービスや手続きに払う料金。",
+    "other": []
+  },
+  {
+    "src": "M1634",
+    "id": "fee",
+    "en": "fee",
+    "ipa": "/fi/",
+    "sense": "（サービスなどの）料金・手数料",
+    "ja": "料金",
+    "ex": {
+      "en": "There is a small fee for late returns.",
+      "ja": "返却が遅れると少し料金がかかる。",
+      "mark": [
+        "fee"
+      ]
+    },
+    "core": "手続きや専門的なサービスを受けるために払うお金。",
+    "diff": "price は品物の値段。",
+    "other": []
+  },
+  {
+    "src": "M1635",
+    "id": "discount",
+    "en": "discount",
+    "ipa": "/ˈdɪsˌkaʊnt/",
+    "sense": "値引き・割引",
+    "ja": "割引",
+    "ex": {
+      "en": "Students get a 20 percent discount.",
+      "ja": "学生は20パーセント割引になる。",
+      "mark": [
+        "discount"
+      ]
+    },
+    "core": "ふつうの値段から、いくらか差し引くこと。",
+    "other": []
+  },
+  {
+    "src": "M1636",
+    "id": "information",
+    "en": "information",
+    "ipa": "/ˌɪnfərˈmeɪʃən/",
+    "sense": "情報",
+    "ja": "情報",
+    "ex": {
+      "en": "You can find more information on our website.",
+      "ja": "詳しい情報はウェブサイトで見られます。",
+      "mark": [
+        "information"
+      ]
+    },
+    "core": "何かについて知らせてくれる内容。数えられない名詞。",
+    "other": []
+  },
+  {
+    "src": "M1637",
+    "id": "news",
+    "en": "news",
+    "ipa": "/nuz/",
+    "sense": "ニュース・知らせ",
+    "ja": "知らせ",
+    "ex": {
+      "en": "I have some good news for you.",
+      "ja": "あなたにいい知らせがあるよ。",
+      "mark": [
+        "news"
+      ]
+    },
+    "core": "新しく起きたことの知らせ。数えられない名詞で、単数扱い。",
+    "other": [
+      "（テレビなどの）ニュース番組：watch the news"
+    ]
+  },
+  {
+    "src": "M1638",
+    "id": "message",
+    "en": "message",
+    "ipa": "/ˈmɛsɪdʒ/",
+    "sense": "伝言・メッセージ",
+    "ja": "伝言",
+    "ex": {
+      "en": "Can I leave a message for her?",
+      "ja": "彼女に伝言を残せますか？",
+      "mark": [
+        "message"
+      ]
+    },
+    "core": "ほかの人に伝えるために送る、短いことば。",
+    "other": []
+  },
+  {
+    "src": "M1639",
+    "id": "email",
+    "en": "email",
+    "ipa": "/ˈiˌmeɪl/",
+    "sense": "電子メール",
+    "ja": "メール",
+    "ex": {
+      "en": "I sent you an email this morning.",
+      "ja": "今朝あなたにメールを送ったよ。",
+      "mark": [
+        "email"
+      ]
+    },
+    "core": "インターネットを通して送り合う手紙。",
+    "other": []
+  },
+  {
+    "src": "M1640",
+    "id": "letter",
+    "en": "letter",
+    "ipa": "/ˈlɛtər/",
+    "sense": "手紙",
+    "ja": "手紙",
+    "ex": {
+      "en": "My grandmother still writes letters by hand.",
+      "ja": "祖母は今でも手書きで手紙を書く。",
+      "mark": [
+        "letters"
+      ]
+    },
+    "core": "紙に書いて、封筒に入れて送ることば。",
+    "other": [
+      "文字：the letter A"
+    ]
+  },
+  {
+    "src": "M1641",
+    "id": "text",
+    "en": "text",
+    "ipa": "/tɛkst/",
+    "sense": "（携帯電話の）メッセージ",
+    "ja": "メッセージ",
+    "ex": {
+      "en": "Send me a text when you get home.",
+      "ja": "家に着いたらメッセージを送って。",
+      "mark": [
+        "text"
+      ]
+    },
+    "core": "携帯電話で送る短い文字のメッセージ。",
+    "diff": "meaning_ja の「文章」も意味の一つだが、日常では携帯メッセージの意味が多い。",
+    "other": [
+      "（本などの）本文・文章：Read the text on page 10."
+    ]
+  },
+  {
+    "src": "M1642",
+    "id": "document",
+    "en": "document",
+    "ipa": "/ˈdɑkjəmənt/",
+    "sense": "文書・書類",
+    "ja": "書類",
+    "ex": {
+      "en": "Please sign this document.",
+      "ja": "この書類に署名してください。",
+      "mark": [
+        "document"
+      ]
+    },
+    "core": "大事なことを記録して、証拠として残す書きもの。",
+    "other": [
+      "（パソコンの）文書ファイル：save the document"
+    ]
+  },
+  {
+    "src": "M1643",
+    "id": "file",
+    "en": "file",
+    "ipa": "/faɪl/",
+    "sense": "（パソコンの）ファイル",
+    "ja": "ファイル",
+    "ex": {
+      "en": "I saved the file on my desktop.",
+      "ja": "ファイルをデスクトップに保存した。",
+      "mark": [
+        "file"
+      ]
+    },
+    "core": "ひとまとまりのデータを、名前をつけてしまっておく入れ物。",
+    "other": [
+      "書類つづり：a file of old letters"
+    ]
+  },
+  {
+    "src": "M1644",
+    "id": "folder",
+    "en": "folder",
+    "ipa": "/ˈfoʊldər/",
+    "sense": "（書類やファイルを入れる）フォルダー",
+    "ja": "フォルダー",
+    "ex": {
+      "en": "Put all the photos in one folder.",
+      "ja": "写真を全部一つのフォルダーに入れて。",
+      "mark": [
+        "folder"
+      ]
+    },
+    "core": "紙やファイルをまとめてはさんでおく入れ物。",
+    "other": []
+  },
+  {
+    "src": "M1645",
+    "id": "record",
+    "en": "record",
+    "ipa": "/ˈrɛkərd/",
+    "sense": "記録",
+    "ja": "記録",
+    "ex": {
+      "en": "Keep a record of what you spend.",
+      "ja": "使ったお金を記録しておいて。",
+      "mark": [
+        "record"
+      ]
+    },
+    "core": "あとで見られるように、残しておいた事実。",
+    "other": [
+      "（競技の）最高記録：break the world record"
+    ]
+  },
+  {
+    "src": "M1646",
+    "id": "data",
+    "en": "data",
+    "ipa": "/ˈdeɪtə/",
+    "sense": "データ",
+    "ja": "データ",
+    "ex": {
+      "en": "We collected data from 500 users.",
+      "ja": "500人の利用者からデータを集めた。",
+      "mark": [
+        "data"
+      ]
+    },
+    "core": "調べたり計算したりするための、数字や事実の集まり。",
+    "other": []
+  },
+  {
+    "src": "M1647",
+    "id": "database",
+    "en": "database",
+    "ipa": "/ˈdeɪtəˌbeɪs/",
+    "sense": "データベース",
+    "ja": "データベース",
+    "ex": {
+      "en": "All customer names are stored in the database.",
+      "ja": "顧客の名前はすべてデータベースに保存されている。",
+      "mark": [
+        "database"
+      ]
+    },
+    "core": "データを整理して、すぐ探せるようにためておく場所。",
+    "other": []
+  },
+  {
+    "src": "M1648",
+    "id": "system",
+    "en": "system",
+    "ipa": "/ˈsɪstəm/",
+    "sense": "（仕組みとしての）システム",
+    "ja": "仕組み",
+    "ex": {
+      "en": "The school has a new system for lunch orders.",
+      "ja": "学校に給食注文の新しい仕組みができた。",
+      "mark": [
+        "system"
+      ]
+    },
+    "core": "いくつもの部分が組み合わさって、ひとつに動く仕組み。",
+    "other": [
+      "（コンピューターの）システム：the computer system is down"
+    ]
+  },
+  {
+    "src": "M1649",
+    "id": "network",
+    "en": "network",
+    "ipa": "/ˈnɛtˌwɜrk/",
+    "sense": "（コンピューターの）ネットワーク・通信網",
+    "ja": "ネットワーク",
+    "ex": {
+      "en": "My laptop can't connect to the network.",
+      "ja": "ノートパソコンがネットワークにつながらない。",
+      "mark": [
+        "network"
+      ]
+    },
+    "core": "たくさんの点が線でつながった、網のような広がり。",
+    "other": [
+      "人脈：a network of friends"
+    ]
+  },
+  {
+    "src": "M1650",
+    "id": "internet",
+    "en": "internet",
+    "ipa": "/ˈɪntərˌnɛt/",
+    "sense": "インターネット",
+    "ja": "インターネット",
+    "ex": {
+      "en": "I looked it up on the internet.",
+      "ja": "インターネットで調べた。",
+      "mark": [
+        "internet"
+      ]
+    },
+    "core": "世界中のコンピューターをつなぐ、大きな網。",
+    "other": []
+  },
+  {
+    "src": "M1651",
+    "id": "website",
+    "en": "website",
+    "ipa": "/ˈwɛbˌsaɪt/",
+    "sense": "ウェブサイト",
+    "ja": "ウェブサイト",
+    "ex": {
+      "en": "You can order online from our website.",
+      "ja": "当社のウェブサイトからネットで注文できます。",
+      "mark": [
+        "website"
+      ]
+    },
+    "core": "インターネット上で、関係するページをまとめた場所。",
+    "other": []
+  },
+  {
+    "src": "M1652",
+    "id": "page",
+    "en": "page",
+    "ipa": "/peɪdʒ/",
+    "sense": "（本などの）ページ",
+    "ja": "ページ",
+    "ex": {
+      "en": "Open your books to page 20.",
+      "ja": "本の20ページを開いてください。",
+      "mark": [
+        "page"
+      ]
+    },
+    "core": "紙の一枚の片面。ウェブの一画面にも使う。",
+    "other": [
+      "（ウェブの）ページ：a web page"
+    ]
+  },
+  {
+    "src": "M1653",
+    "id": "screen",
+    "en": "screen",
+    "ipa": "/skrin/",
+    "sense": "（テレビ・スマホなどの）画面",
+    "ja": "画面",
+    "ex": {
+      "en": "My phone screen is cracked.",
+      "ja": "スマホの画面が割れている。",
+      "mark": [
+        "screen"
+      ]
+    },
+    "core": "映像や文字が映し出される平らな面。",
+    "other": []
+  },
+  {
+    "src": "M1654",
+    "id": "keyboard",
+    "en": "keyboard",
+    "ipa": "/ˈkiˌbɔrd/",
+    "sense": "キーボード",
+    "ja": "キーボード",
+    "ex": {
+      "en": "I spilled coffee on my keyboard.",
+      "ja": "キーボードにコーヒーをこぼした。",
+      "mark": [
+        "keyboard"
+      ]
+    },
+    "core": "文字を打つためのキーがずらりと並んだ板。",
+    "other": [
+      "（楽器の）鍵盤：play the keyboard"
+    ]
+  },
+  {
+    "src": "M1655",
+    "id": "cursor",
+    "en": "cursor",
+    "ipa": "/ˈkɜrsər/",
+    "sense": "カーソル",
+    "ja": "カーソル",
+    "ex": {
+      "en": "Move the cursor to the top of the page.",
+      "ja": "カーソルをページの一番上に動かして。",
+      "mark": [
+        "cursor"
+      ]
+    },
+    "core": "画面の上で、今どこを指しているかを示す印。",
+    "other": []
+  },
+  {
+    "src": "M1656",
+    "id": "printer",
+    "en": "printer",
+    "ipa": "/ˈprɪntər/",
+    "sense": "プリンター",
+    "ja": "プリンター",
+    "ex": {
+      "en": "The printer is out of paper.",
+      "ja": "プリンターの紙が切れている。",
+      "mark": [
+        "printer"
+      ]
+    },
+    "core": "画面の文字や画像を紙に写し出す機械。",
+    "other": []
+  },
+  {
+    "src": "M1657",
+    "id": "software",
+    "en": "software",
+    "ipa": "/ˈsɔftˌwɛr/",
+    "sense": "ソフトウェア",
+    "ja": "ソフトウェア",
+    "ex": {
+      "en": "You need to update the software.",
+      "ja": "ソフトウェアを更新する必要がある。",
+      "mark": [
+        "software"
+      ]
+    },
+    "core": "コンピューターを動かすための、目に見えない命令の集まり。",
+    "diff": "hardware は機械そのもの。",
+    "other": []
+  },
+  {
+    "src": "M1658",
+    "id": "hardware",
+    "en": "hardware",
+    "ipa": "/ˈhɑrdˌwɛr/",
+    "sense": "（コンピューターの）ハードウェア",
+    "ja": "ハードウェア",
+    "ex": {
+      "en": "The problem is with the hardware, not the software.",
+      "ja": "問題はソフトではなくハードにある。",
+      "mark": [
+        "hardware"
+      ]
+    },
+    "core": "コンピューターの、手でさわれる機械の部分。",
+    "diff": "software は中で動くプログラム。",
+    "other": [
+      "金物・工具類：a hardware store"
+    ]
+  },
+  {
+    "src": "M1659",
+    "id": "application",
+    "en": "application",
+    "ipa": "/ˌæplɪˈkeɪʃən/",
+    "sense": "（仕事などへの）申し込み・申請（書）",
+    "ja": "申請",
+    "ex": {
+      "en": "I sent my application for the job.",
+      "ja": "その仕事への応募書類を送った。",
+      "mark": [
+        "application"
+      ]
+    },
+    "core": "「お願いします」と正式に申し込むこと。またはその書類。",
+    "other": [
+      "（スマホなどの）アプリ：a phone application"
+    ]
+  },
+  {
+    "src": "M1660",
+    "id": "account",
+    "en": "account",
+    "ipa": "/əˈkaʊnt/",
+    "sense": "（サービスの）アカウント",
+    "ja": "アカウント",
+    "ex": {
+      "en": "I created a new account on the site.",
+      "ja": "そのサイトで新しいアカウントを作った。",
+      "mark": [
+        "account"
+      ]
+    },
+    "core": "サービスを使うために、自分の名前で登録したわく。",
+    "other": [
+      "銀行口座：a bank account"
+    ]
+  },
+  {
+    "src": "M1661",
+    "id": "password",
+    "en": "password",
+    "ipa": "/ˈpæsˌwɜrd/",
+    "sense": "パスワード",
+    "ja": "パスワード",
+    "ex": {
+      "en": "I forgot my password again.",
+      "ja": "またパスワードを忘れた。",
+      "mark": [
+        "password"
+      ]
+    },
+    "core": "本人だと確かめるための、秘密のことば。",
+    "other": []
+  },
+  {
+    "src": "M1662",
+    "id": "username",
+    "en": "username",
+    "ipa": "/ˈjuzərˌneɪm/",
+    "sense": "ユーザー名",
+    "ja": "ユーザー名",
+    "ex": {
+      "en": "Enter your username and password.",
+      "ja": "ユーザー名とパスワードを入力してください。",
+      "mark": [
+        "username"
+      ]
+    },
+    "core": "サービスの中で、自分を表すための名前。",
+    "other": []
+  },
+  {
+    "src": "M1663",
+    "id": "link",
+    "en": "link",
+    "ipa": "/lɪŋk/",
+    "sense": "（ウェブの）リンク",
+    "ja": "リンク",
+    "ex": {
+      "en": "Click the link to watch the video.",
+      "ja": "動画を見るにはリンクをクリックして。",
+      "mark": [
+        "link"
+      ]
+    },
+    "core": "ほかのページへとつながる、鎖の輪のようなもの。",
+    "other": [
+      "つながり・関係：a link between sleep and health"
+    ]
+  },
+  {
+    "src": "M1664",
+    "id": "browser",
+    "en": "browser",
+    "ipa": "/ˈbraʊzər/",
+    "sense": "（ウェブ）ブラウザー",
+    "ja": "ブラウザー",
+    "ex": {
+      "en": "Open the page in a different browser.",
+      "ja": "別のブラウザーでページを開いて。",
+      "mark": [
+        "browser"
+      ]
+    },
+    "core": "ウェブのページを見て回るためのソフト。",
+    "other": []
+  },
+  {
+    "src": "M1665",
+    "id": "computer",
+    "en": "computer",
+    "ipa": "/kəmˈpjutər/",
+    "sense": "コンピューター",
+    "ja": "コンピューター",
+    "ex": {
+      "en": "I use a computer at work every day.",
+      "ja": "仕事で毎日コンピューターを使う。",
+      "mark": [
+        "computer"
+      ]
+    },
+    "core": "計算や情報の処理を、とても速くこなす機械。",
+    "other": []
+  },
+  {
+    "src": "M1666",
+    "id": "laptop",
+    "en": "laptop",
+    "ipa": "/ˈlæpˌtɑp/",
+    "sense": "ノートパソコン",
+    "ja": "ノートパソコン",
+    "ex": {
+      "en": "I take my laptop to the cafe.",
+      "ja": "カフェにノートパソコンを持っていく。",
+      "mark": [
+        "laptop"
+      ]
+    },
+    "core": "ひざ（lap）の上にのせて使えるほど小さいパソコン。",
+    "other": []
+  },
+  {
+    "src": "M1667",
+    "id": "device",
+    "en": "device",
+    "ipa": "/dɪˈvaɪs/",
+    "sense": "（電子）機器・装置",
+    "ja": "機器",
+    "ex": {
+      "en": "Please turn off all electronic devices.",
+      "ja": "電子機器の電源をすべて切ってください。",
+      "mark": [
+        "devices"
+      ]
+    },
+    "core": "ある目的のために作られた道具や機械。",
+    "other": []
+  },
+  {
+    "src": "M1668",
+    "id": "technology",
+    "en": "technology",
+    "ipa": "/tɛkˈnɑlədʒi/",
+    "sense": "（科学）技術・テクノロジー",
+    "ja": "技術",
+    "ex": {
+      "en": "New technology changes how we work.",
+      "ja": "新しい技術は働き方を変える。",
+      "mark": [
+        "technology"
+      ]
+    },
+    "core": "科学の知識を、生活や仕事に役立つ形にしたもの。",
+    "other": []
+  },
+  {
+    "src": "M1669",
+    "id": "science",
+    "en": "science",
+    "ipa": "/ˈsaɪəns/",
+    "sense": "科学・理科",
+    "ja": "科学、理科",
+    "ex": {
+      "en": "Science is my favorite subject.",
+      "ja": "理科は私の好きな科目だ。",
+      "mark": [
+        "Science"
+      ]
+    },
+    "core": "自然や世の中のしくみを、調べて確かめていく学問。",
+    "other": [
+      "（学校の）理科：science class"
+    ]
+  },
+  {
+    "src": "M1670",
+    "id": "research",
+    "en": "research",
+    "ipa": "/ˈrisɜrtʃ/",
+    "sense": "研究・調査",
+    "ja": "研究",
+    "ex": {
+      "en": "She does research on brain health.",
+      "ja": "彼女は脳の健康について研究している。",
+      "mark": [
+        "research"
+      ]
+    },
+    "core": "新しいことを明らかにするために、くわしく調べること。数えられない名詞。",
+    "other": []
+  },
+  {
+    "src": "M1671",
+    "id": "experiment",
+    "en": "experiment",
+    "ipa": "/ɪkˈspɛrəmənt/",
+    "sense": "実験",
+    "ja": "実験",
+    "ex": {
+      "en": "We did an experiment with water and salt.",
+      "ja": "水と塩で実験をした。",
+      "mark": [
+        "experiment"
+      ]
+    },
+    "core": "考えが正しいか、実際にやってみて確かめること。",
+    "other": []
+  },
+  {
+    "src": "M1672",
+    "id": "evidence",
+    "en": "evidence",
+    "ipa": "/ˈɛvədəns/",
+    "sense": "証拠・根拠",
+    "ja": "証拠",
+    "ex": {
+      "en": "There is no evidence that he took the money.",
+      "ja": "彼がお金を取ったという証拠はない。",
+      "mark": [
+        "evidence"
+      ]
+    },
+    "core": "本当だと信じる理由になる事実やもの。数えられない名詞。",
+    "other": []
+  },
+  {
+    "src": "M1673",
+    "id": "fact",
+    "en": "fact",
+    "ipa": "/fækt/",
+    "sense": "事実",
+    "ja": "事実",
+    "ex": {
+      "en": "It's a fact that the earth goes around the sun.",
+      "ja": "地球が太陽の周りを回っているのは事実だ。",
+      "mark": [
+        "fact"
+      ]
+    },
+    "core": "意見ではなく、本当にあったこと・本当であること。",
+    "diff": "opinion は人の考え。fact は確かな事実。",
+    "other": []
+  },
+  {
+    "src": "M1674",
+    "id": "theory",
+    "en": "theory",
+    "ipa": "/ˈθɪəri/",
+    "sense": "理論・説",
+    "ja": "理論",
+    "ex": {
+      "en": "Scientists tested the theory many times.",
+      "ja": "科学者たちはその理論を何度も検証した。",
+      "mark": [
+        "theory"
+      ]
+    },
+    "core": "ものごとがなぜそうなるかを説明する、筋の通った考え。",
+    "other": [
+      "（個人的な）推測：I have a theory about it."
+    ]
+  },
+  {
+    "src": "M1675",
+    "id": "method",
+    "en": "method",
+    "ipa": "/ˈmɛθəd/",
+    "sense": "（体系的な）方法・やり方",
+    "ja": "方法",
+    "ex": {
+      "en": "This is a simple method for learning words.",
+      "ja": "これは単語を覚える簡単な方法だ。",
+      "mark": [
+        "method"
+      ]
+    },
+    "core": "目的にたどり着くための、決まった筋道のあるやり方。",
+    "other": []
+  },
+  {
+    "src": "M1676",
+    "id": "process",
+    "en": "process",
+    "ipa": "/ˈprɑˌsɛs/",
+    "sense": "（段階をふむ）過程・プロセス",
+    "ja": "過程",
+    "ex": {
+      "en": "Learning a language is a slow process.",
+      "ja": "言語を学ぶのはゆっくりとした過程だ。",
+      "mark": [
+        "process"
+      ]
+    },
+    "core": "始まりから終わりまで、段階をふんで進んでいく流れ。",
+    "other": []
+  },
+  {
+    "src": "M1677",
+    "id": "result",
+    "en": "result",
+    "ipa": "/rɪˈzʌlt/",
+    "sense": "結果",
+    "ja": "結果",
+    "ex": {
+      "en": "The test results will come next week.",
+      "ja": "検査の結果は来週出る。",
+      "mark": [
+        "results"
+      ]
+    },
+    "core": "何かをしたあとに、最後に出てくるもの。",
+    "other": []
+  },
+  {
+    "src": "M1678",
+    "id": "reason",
+    "en": "reason",
+    "ipa": "/ˈrizən/",
+    "sense": "理由",
+    "ja": "理由",
+    "ex": {
+      "en": "What's the reason for the delay?",
+      "ja": "遅れの理由は何ですか？",
+      "mark": [
+        "reason"
+      ]
+    },
+    "core": "あることが起きた、そのもとになるわけ。",
+    "other": [
+      "道理・理性：listen to reason"
+    ]
+  },
+  {
+    "src": "M1679",
+    "id": "purpose",
+    "en": "purpose",
+    "ipa": "/ˈpɜrpəs/",
+    "sense": "目的",
+    "ja": "目的",
+    "ex": {
+      "en": "What is the purpose of your visit?",
+      "ja": "訪問の目的は何ですか？",
+      "mark": [
+        "purpose"
+      ]
+    },
+    "core": "何のためにそれをするのか、という狙い。",
+    "other": []
+  },
+  {
+    "src": "M1680",
+    "id": "goal",
+    "en": "goal",
+    "ipa": "/ɡoʊl/",
+    "sense": "目標",
+    "ja": "目標",
+    "ex": {
+      "en": "My goal is to run a marathon.",
+      "ja": "私の目標はマラソンを走ることだ。",
+      "mark": [
+        "goal"
+      ]
+    },
+    "core": "そこへ向かって進んでいく、ゴールの地点。",
+    "other": [
+      "（サッカーなどの）ゴール・得点：score a goal"
+    ]
+  },
+  {
+    "src": "M1681",
+    "id": "problem",
+    "en": "problem",
+    "ipa": "/ˈprɑbləm/",
+    "sense": "（困った）問題",
+    "ja": "問題",
+    "ex": {
+      "en": "We have a problem with the printer.",
+      "ja": "プリンターに問題がある。",
+      "mark": [
+        "problem"
+      ]
+    },
+    "core": "うまく進むのをじゃまする、困ったこと。",
+    "diff": "question は答えを求める問い。problem は解決が必要な困りごと。",
+    "other": [
+      "（数学の）問題：a math problem"
+    ]
+  },
+  {
+    "src": "M1682",
+    "id": "solution",
+    "en": "solution",
+    "ipa": "/səˈluʃən/",
+    "sense": "解決策",
+    "ja": "解決策",
+    "ex": {
+      "en": "We need to find a solution quickly.",
+      "ja": "早く解決策を見つけなければ。",
+      "mark": [
+        "solution"
+      ]
+    },
+    "core": "困ったことをほどいて、うまくいくようにする答え。",
+    "other": [
+      "（問題の）答え：the solution to the puzzle"
+    ]
+  },
+  {
+    "src": "M1683",
+    "id": "idea",
+    "en": "idea",
+    "ipa": "/aɪˈdiə/",
+    "sense": "考え・アイデア",
+    "ja": "考え",
+    "ex": {
+      "en": "That's a great idea!",
+      "ja": "それはいい考えだね！",
+      "mark": [
+        "idea"
+      ]
+    },
+    "core": "頭の中にふっと浮かんだ思いつき。",
+    "other": [
+      "見当：I have no idea."
+    ]
+  },
+  {
+    "src": "M1684",
+    "id": "opinion",
+    "en": "opinion",
+    "ipa": "/əˈpɪnjən/",
+    "sense": "意見",
+    "ja": "意見",
+    "ex": {
+      "en": "In my opinion, the movie was too long.",
+      "ja": "私の意見では、その映画は長すぎた。",
+      "mark": [
+        "opinion"
+      ]
+    },
+    "core": "あることについて、その人がどう思うか。",
+    "diff": "fact は確かな事実。opinion は個人の考え。",
+    "other": []
+  },
+  {
+    "src": "M1685",
+    "id": "knowledge",
+    "en": "knowledge",
+    "ipa": "/ˈnɑlɪdʒ/",
+    "sense": "知識",
+    "ja": "知識",
+    "ex": {
+      "en": "He has a lot of knowledge about cars.",
+      "ja": "彼は車についての知識が豊富だ。",
+      "mark": [
+        "knowledge"
+      ]
+    },
+    "core": "学んだり経験したりして、頭に入っていること。数えられない名詞。",
+    "other": []
+  },
+  {
+    "src": "M1686",
+    "id": "memory",
+    "en": "memory",
+    "ipa": "/ˈmɛməri/",
+    "sense": "記憶（力）",
+    "ja": "記憶",
+    "ex": {
+      "en": "I have a bad memory for names.",
+      "ja": "私は名前を覚えるのが苦手だ。",
+      "mark": [
+        "memory"
+      ]
+    },
+    "core": "見たことや聞いたことを、頭にしまっておく力。",
+    "other": [
+      "思い出：happy memories"
+    ]
+  },
+  {
+    "src": "M1687",
+    "id": "attention",
+    "en": "attention",
+    "ipa": "/əˈtɛnʃən/",
+    "sense": "注意・注目",
+    "ja": "注意",
+    "ex": {
+      "en": "Please pay attention to the teacher.",
+      "ja": "先生の話に注意を向けてください。",
+      "mark": [
+        "attention"
+      ]
+    },
+    "core": "気持ちや目を、ひとつのものに向けること。",
+    "other": []
+  },
+  {
+    "src": "M1688",
+    "id": "education",
+    "en": "education",
+    "ipa": "/ˌɛdʒəˈkeɪʃən/",
+    "sense": "教育",
+    "ja": "教育",
+    "ex": {
+      "en": "Education is important for every child.",
+      "ja": "教育はすべての子どもにとって大切だ。",
+      "mark": [
+        "Education"
+      ]
+    },
+    "core": "知識や力を身につけられるように、教え育てること。",
+    "other": []
+  },
+  {
+    "src": "M1689",
+    "id": "school",
+    "en": "school",
+    "ipa": "/skul/",
+    "sense": "学校",
+    "ja": "学校",
+    "ex": {
+      "en": "My kids walk to school.",
+      "ja": "うちの子どもたちは歩いて学校に行く。",
+      "mark": [
+        "school"
+      ]
+    },
+    "core": "子どもや学生が集まって学ぶ場所。",
+    "other": [
+      "（米口語）大学：Where did you go to school?"
+    ]
+  },
+  {
+    "src": "M1690",
+    "id": "college",
+    "en": "college",
+    "ipa": "/ˈkɑlɪdʒ/",
+    "sense": "大学",
+    "ja": "大学",
+    "ex": {
+      "en": "My sister is in her second year of college.",
+      "ja": "姉は大学2年生だ。",
+      "mark": [
+        "college"
+      ]
+    },
+    "core": "高校の次に進んで学ぶところ。米国では大学全般を指す。",
+    "diff": "university は大学院もある総合大学。日常では college も大学全般に使う。",
+    "other": []
+  },
+  {
+    "src": "M1691",
+    "id": "university",
+    "en": "university",
+    "ipa": "/ˌjunəˈvɜrsəti/",
+    "sense": "（総合）大学",
+    "ja": "大学",
+    "ex": {
+      "en": "She teaches at a large university.",
+      "ja": "彼女は大きな大学で教えている。",
+      "mark": [
+        "university"
+      ]
+    },
+    "core": "多くの学部と大学院がある、大きな大学。",
+    "diff": "college は日常で大学全般、または単科大学。",
+    "other": []
+  },
+  {
+    "src": "M1692",
+    "id": "class",
+    "en": "class",
+    "ipa": "/klæs/",
+    "sense": "授業",
+    "ja": "授業",
+    "ex": {
+      "en": "I have a math class at nine.",
+      "ja": "9時に数学の授業がある。",
+      "mark": [
+        "class"
+      ]
+    },
+    "core": "みんなで集まって、決まった時間に学ぶ時間。",
+    "other": [
+      "クラス（の生徒たち）：The whole class laughed."
+    ]
+  },
+  {
+    "src": "M1693",
+    "id": "course",
+    "en": "course",
+    "ipa": "/kɔrs/",
+    "sense": "（一連の）講座・課程",
+    "ja": "講座",
+    "ex": {
+      "en": "I'm taking an online English course.",
+      "ja": "オンラインの英語講座を受けている。",
+      "mark": [
+        "course"
+      ]
+    },
+    "core": "何回もの授業で、決まった内容を順に学ぶまとまり。",
+    "other": [
+      "（食事の）一品：the main course"
+    ]
+  },
+  {
+    "src": "M1694",
+    "id": "lesson",
+    "en": "lesson",
+    "ipa": "/ˈlɛsən/",
+    "sense": "（習いごとの）レッスン・授業",
+    "ja": "レッスン",
+    "ex": {
+      "en": "I take piano lessons on Saturdays.",
+      "ja": "毎週土曜日にピアノのレッスンを受けている。",
+      "mark": [
+        "lessons"
+      ]
+    },
+    "core": "先生から教わる、ひとまとまりの学びの時間。",
+    "other": [
+      "教訓：learn a lesson"
+    ]
+  },
+  {
+    "src": "M1695",
+    "id": "subject",
+    "en": "subject",
+    "ipa": "/ˈsʌbdʒɪkt/",
+    "sense": "（学校の）科目",
+    "ja": "科目",
+    "ex": {
+      "en": "What's your favorite subject?",
+      "ja": "好きな科目は何？",
+      "mark": [
+        "subject"
+      ]
+    },
+    "core": "学ぶ内容を、分野ごとに分けたひとつ。",
+    "other": [
+      "話題：change the subject"
+    ]
+  },
+  {
+    "src": "M1696",
+    "id": "homework",
+    "en": "homework",
+    "ipa": "/ˈhoʊmˌwɜrk/",
+    "sense": "宿題",
+    "ja": "宿題",
+    "ex": {
+      "en": "Did you finish your homework?",
+      "ja": "宿題は終わった？",
+      "mark": [
+        "homework"
+      ]
+    },
+    "core": "家に帰ってからやるように出される勉強。数えられない名詞。",
+    "other": []
+  },
+  {
+    "src": "M1697",
+    "id": "exam",
+    "en": "exam",
+    "ipa": "/ɪɡˈzæm/",
+    "sense": "試験",
+    "ja": "試験",
+    "ex": {
+      "en": "I have a big exam tomorrow.",
+      "ja": "明日、大事な試験がある。",
+      "mark": [
+        "exam"
+      ]
+    },
+    "core": "学んだことがどれだけ身についたかを、正式に調べるもの。",
+    "diff": "test より大きく、正式な試験に使うことが多い。",
+    "other": []
+  },
+  {
+    "src": "M1698",
+    "id": "test",
+    "en": "test",
+    "ipa": "/tɛst/",
+    "sense": "テスト・小試験",
+    "ja": "テスト",
+    "ex": {
+      "en": "We have a spelling test on Friday.",
+      "ja": "金曜日に単語のつづりのテストがある。",
+      "mark": [
+        "test"
+      ]
+    },
+    "core": "できるかどうかを、ためしに確かめること。",
+    "diff": "exam は大きく正式な試験。test は小さめの確認にもよく使う。",
+    "other": [
+      "（医療の）検査：a blood test"
+    ]
   }
 ]

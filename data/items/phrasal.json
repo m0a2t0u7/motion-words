@@ -6844,5 +6844,662 @@
     },
     "core": "始めから終わりまで（through）、一気に通してやる。",
     "other": []
+  },
+  {
+    "src": "M0362",
+    "id": "run-after",
+    "en": "run after",
+    "ipa": "/ˌrʌn ˈæftɚ/",
+    "sense": "（人・動物を）走って追いかける",
+    "ja": "追いかける",
+    "ex": {
+      "en": "The kids ran after the dog in the park.",
+      "ja": "子どもたちは公園で犬を追いかけた。",
+      "mark": [
+        "ran after"
+      ]
+    },
+    "core": "逃げるものの後ろ（after）を走ってついていく。",
+    "other": [
+      "（夢・目標を）追い求める：run after success"
+    ]
+  },
+  {
+    "src": "M0363",
+    "id": "run-around",
+    "en": "run around",
+    "ipa": "/ˌrʌn əˈraʊnd/",
+    "sense": "（あちこち）走り回る",
+    "ja": "走り回る",
+    "ex": {
+      "en": "The children ran around the playground all afternoon.",
+      "ja": "子どもたちは午後ずっと公園を走り回った。",
+      "mark": [
+        "ran around"
+      ]
+    },
+    "core": "あちこち円を描くように（around）走る。",
+    "other": [
+      "（用事で）忙しく動き回る：run around all day"
+    ]
+  },
+  {
+    "src": "M0364",
+    "id": "run-off",
+    "en": "run off",
+    "ipa": "/ˌrʌn ˈɔf/",
+    "sense": "走り去る",
+    "ja": "走り去る",
+    "ex": {
+      "en": "The boy grabbed his bag and ran off.",
+      "ja": "少年はかばんをつかんで走り去った。",
+      "mark": [
+        "ran off"
+      ]
+    },
+    "core": "その場から離れる（off）ように走って消える。",
+    "other": [
+      "（コピーを）刷る：run off ten copies"
+    ]
+  },
+  {
+    "src": "M0365",
+    "id": "run-on",
+    "en": "run on",
+    "ipa": "/ˌrʌn ˈɑn/",
+    "sense": "（会議・話が）予定より長く続く",
+    "ja": "長々と続く",
+    "ex": {
+      "en": "The meeting ran on for another hour.",
+      "ja": "会議はさらに1時間も続いた。",
+      "mark": [
+        "ran on"
+      ]
+    },
+    "core": "止まるはずのところで止まらず、そのまま先へ（on）進み続ける。",
+    "other": [
+      "（燃料・電池で）動く：run on batteries"
+    ]
+  },
+  {
+    "src": "M0367",
+    "id": "run-up-against",
+    "en": "run up against",
+    "ipa": "/ˌrʌn ˈʌp əˌɡenst/",
+    "sense": "（困難・問題に）ぶつかる",
+    "ja": "困難にぶつかる",
+    "ex": {
+      "en": "We ran up against a big problem last week.",
+      "ja": "先週、大きな問題にぶつかった。",
+      "mark": [
+        "ran up against"
+      ]
+    },
+    "core": "進んでいく途中で、壁のようなものに突き当たる。",
+    "other": []
+  },
+  {
+    "src": "M0368",
+    "id": "make-up",
+    "en": "make up",
+    "ipa": "/ˌmeɪk ˈʌp/",
+    "sense": "（けんかの後で）仲直りする",
+    "ja": "仲直りする",
+    "ex": {
+      "en": "They argued, but they made up the next day.",
+      "ja": "二人は口論したが、翌日仲直りした。",
+      "mark": [
+        "made up"
+      ]
+    },
+    "core": "こじれた関係を元どおりの形に整える。",
+    "other": [
+      "（話・言い訳を）でっち上げる：make up a story",
+      "〜を構成する：make up the team"
+    ]
+  },
+  {
+    "src": "M0369",
+    "id": "make-up-for",
+    "en": "make up for",
+    "ipa": "/ˌmeɪk ˈʌp fɚ/",
+    "sense": "（損失・遅れを）埋め合わせる",
+    "ja": "埋め合わせる",
+    "ex": {
+      "en": "I'll work late to make up for lost time.",
+      "ja": "遅れた分を取り戻すため遅くまで働くよ。",
+      "mark": [
+        "make up for"
+      ]
+    },
+    "core": "足りない分を満たして（up）、何かの代わりとする。",
+    "other": []
+  },
+  {
+    "src": "M0370",
+    "id": "make-out",
+    "en": "make out",
+    "ipa": "/ˌmeɪk ˈaʊt/",
+    "sense": "（やっと）見分ける、読み取る",
+    "ja": "見分ける",
+    "ex": {
+      "en": "I couldn't make out the sign in the fog.",
+      "ja": "霧で看板の文字が読み取れなかった。",
+      "mark": [
+        "make out"
+      ]
+    },
+    "core": "ぼんやりしたものの中から、形をはっきり取り出す。",
+    "other": []
+  },
+  {
+    "src": "M0371",
+    "id": "go-through",
+    "en": "go through",
+    "ipa": "/ˌɡoʊ ˈθru/",
+    "sense": "（つらい経験を）経験する、くぐり抜ける",
+    "ja": "（つらいことを）経験する",
+    "ex": {
+      "en": "She went through a hard time last year.",
+      "ja": "彼女は去年つらい時期を経験した。",
+      "mark": [
+        "went through"
+      ]
+    },
+    "core": "トンネルを最初から最後まで通り抜ける（through）。",
+    "other": [
+      "（書類などを）よく調べる：go through the files"
+    ]
+  },
+  {
+    "src": "M0372",
+    "id": "go-over",
+    "en": "go over",
+    "ipa": "/ˌɡoʊ ˈoʊvɚ/",
+    "sense": "（資料などを）ひと通り確認する",
+    "ja": "見直す",
+    "ex": {
+      "en": "Let's go over the plan one more time.",
+      "ja": "もう一度計画を確認しよう。",
+      "mark": [
+        "go over"
+      ]
+    },
+    "core": "全体の上（over）をなぞるように見ていく。",
+    "diff": "go through は細かく調べる感じ、go over はざっと見直す感じ。",
+    "other": []
+  },
+  {
+    "src": "M0373",
+    "id": "go-ahead",
+    "en": "go ahead",
+    "ipa": "/ˌɡoʊ əˈhɛd/",
+    "sense": "（許可を得て）先に進める、どうぞ",
+    "ja": "どうぞ、進める",
+    "ex": {
+      "en": "\"Can I start now?\" \"Sure, go ahead.\"",
+      "ja": "「もう始めていい？」「ええ、どうぞ」",
+      "mark": [
+        "go ahead"
+      ]
+    },
+    "core": "止まっていたものが前（ahead）へ動き出す。",
+    "other": [
+      "（先に）行く：You go ahead."
+    ]
+  },
+  {
+    "src": "M0374",
+    "id": "go-on",
+    "en": "go on",
+    "ipa": "/ˌɡoʊ ˈɑn/",
+    "sense": "（中断せずに）続く、続ける",
+    "ja": "続く",
+    "ex": {
+      "en": "Please go on. I'm listening.",
+      "ja": "続けてください。聞いていますよ。",
+      "mark": [
+        "go on"
+      ]
+    },
+    "core": "止まらずに、そのまま先へ（on）進む。",
+    "other": [
+      "（出来事が）起こる：What's going on?"
+    ]
+  },
+  {
+    "src": "M0375",
+    "id": "go-without",
+    "en": "go without",
+    "ipa": "/ˌɡoʊ wɪˈθaʊt/",
+    "sense": "（〜を）なしで済ませる",
+    "ja": "なしで済ませる",
+    "ex": {
+      "en": "I had to go without lunch today.",
+      "ja": "今日は昼食抜きで過ごすしかなかった。",
+      "mark": [
+        "go without"
+      ]
+    },
+    "core": "あるはずのものを持たない（without）まま進む。",
+    "other": []
+  },
+  {
+    "src": "M0376",
+    "id": "go-with",
+    "en": "go with",
+    "ipa": "/ˈɡoʊ ˌwɪð/",
+    "sense": "（服などが）〜に合う、似合う",
+    "ja": "〜と合う",
+    "ex": {
+      "en": "These shoes go with your dress.",
+      "ja": "この靴はあなたのドレスに合う。",
+      "mark": [
+        "go with"
+      ]
+    },
+    "core": "二つのものが一緒に（with）並んで、しっくりくる。",
+    "other": [
+      "（案を）選ぶ：I'll go with the blue one."
+    ]
+  },
+  {
+    "src": "M0377",
+    "id": "turn-out",
+    "en": "turn out",
+    "ipa": "/ˌtɝn ˈaʊt/",
+    "sense": "結果として〜になる、〜だと分かる",
+    "ja": "結局〜になる",
+    "ex": {
+      "en": "The party turned out to be a lot of fun.",
+      "ja": "パーティーは結局とても楽しかった。",
+      "mark": [
+        "turned out"
+      ]
+    },
+    "core": "向きを変えて外（out）に出てきた姿が、最後の結果になる。",
+    "other": [
+      "（電気を）消す：turn out the lights"
+    ]
+  },
+  {
+    "src": "M0378",
+    "id": "turn-into",
+    "en": "turn into",
+    "ipa": "/ˌtɝn ˈɪntu/",
+    "sense": "〜に変わる",
+    "ja": "〜に変わる",
+    "ex": {
+      "en": "The rain turned into snow at night.",
+      "ja": "雨は夜に雪へと変わった。",
+      "mark": [
+        "turned into"
+      ]
+    },
+    "core": "向きを変えて、別の形の中（into）へ入っていく。",
+    "other": []
+  },
+  {
+    "src": "M0379",
+    "id": "turn-away",
+    "en": "turn away",
+    "ipa": "/ˌtɝn əˈweɪ/",
+    "sense": "（人を）追い返す、入場を断る",
+    "ja": "追い返す",
+    "ex": {
+      "en": "The restaurant was full, so they turned us away.",
+      "ja": "店が満席で、私たちは入店を断られた。",
+      "mark": [
+        "turned",
+        "away"
+      ]
+    },
+    "core": "来た人の向きを変えて、遠く（away）へ戻す。",
+    "other": [
+      "顔をそむける：She turned away."
+    ]
+  },
+  {
+    "src": "M0380",
+    "id": "turn-over",
+    "en": "turn over",
+    "ipa": "/ˌtɝn ˈoʊvɚ/",
+    "sense": "ひっくり返す、裏返す",
+    "ja": "裏返す",
+    "ex": {
+      "en": "Turn over the card and read the answer.",
+      "ja": "カードを裏返して答えを読んでください。",
+      "mark": [
+        "Turn over"
+      ]
+    },
+    "core": "上下をくるりと回して（over）反対側を見せる。",
+    "other": [
+      "（責任・物を）引き渡す：turn over the keys"
+    ]
+  },
+  {
+    "src": "M0381",
+    "id": "turn-back",
+    "en": "turn back",
+    "ipa": "/ˌtɝn ˈbæk/",
+    "sense": "引き返す",
+    "ja": "引き返す",
+    "ex": {
+      "en": "The road was closed, so we turned back.",
+      "ja": "道が通行止めだったので引き返した。",
+      "mark": [
+        "turned back"
+      ]
+    },
+    "core": "向きを変えて、来た方向（back）へ戻る。",
+    "other": []
+  },
+  {
+    "src": "M0382",
+    "id": "turn-to",
+    "en": "turn to",
+    "ipa": "/ˈtɝn ˌtu/",
+    "sense": "（助けを求めて）〜を頼る",
+    "ja": "頼る",
+    "ex": {
+      "en": "She always turns to her sister for advice.",
+      "ja": "彼女はいつも姉に相談して頼る。",
+      "mark": [
+        "turns to"
+      ]
+    },
+    "core": "困ったとき、相手の方へ（to）体を向ける。",
+    "other": [
+      "（ページを）開く：turn to page 10"
+    ]
+  },
+  {
+    "src": "M0383",
+    "id": "show-up",
+    "en": "show up",
+    "ipa": "/ˌʃoʊ ˈʌp/",
+    "sense": "（約束の場に）姿を現す、来る",
+    "ja": "現れる",
+    "ex": {
+      "en": "He showed up thirty minutes late.",
+      "ja": "彼は30分遅れて現れた。",
+      "mark": [
+        "showed up"
+      ]
+    },
+    "core": "見えなかった人が、目の前に浮かび上がる（up）。",
+    "other": []
+  },
+  {
+    "src": "M0384",
+    "id": "show-off",
+    "en": "show off",
+    "ipa": "/ˌʃoʊ ˈɔf/",
+    "sense": "見せびらかす",
+    "ja": "見せびらかす",
+    "ex": {
+      "en": "He loves to show off his new car.",
+      "ja": "彼は新車を見せびらかすのが大好きだ。",
+      "mark": [
+        "show off"
+      ]
+    },
+    "core": "周りから目立つように、ぐいと見せつける。",
+    "other": []
+  },
+  {
+    "src": "M0385",
+    "id": "show-around",
+    "en": "show around",
+    "ipa": "/ˌʃoʊ əˈraʊnd/",
+    "sense": "（人を）案内して回る",
+    "ja": "案内して回る",
+    "ex": {
+      "en": "Let me show you around the office.",
+      "ja": "オフィスを案内しますね。",
+      "mark": [
+        "show",
+        "around"
+      ]
+    },
+    "core": "あちこち（around）を順に見せて回る。",
+    "other": []
+  },
+  {
+    "src": "M0387",
+    "id": "set-back",
+    "en": "set back",
+    "ipa": "/ˌsɛt ˈbæk/",
+    "sense": "（計画・進行を）遅らせる",
+    "ja": "遅らせる",
+    "ex": {
+      "en": "The rain set back the project by a week.",
+      "ja": "雨で計画が1週間遅れた。",
+      "mark": [
+        "set back"
+      ]
+    },
+    "core": "進んでいたものを後ろ（back）に置き直す。",
+    "other": []
+  },
+  {
+    "src": "M0388",
+    "id": "set-in",
+    "en": "set in",
+    "ipa": "/ˌsɛt ˈɪn/",
+    "sense": "（よくないことが）始まって居座る",
+    "ja": "（天候などが）始まる",
+    "ex": {
+      "en": "Winter set in early this year.",
+      "ja": "今年は冬の訪れが早かった。",
+      "mark": [
+        "set in"
+      ]
+    },
+    "core": "何かが中（in）に入り込み、そのまま落ち着いて続く。",
+    "other": []
+  },
+  {
+    "src": "M0389",
+    "id": "pay-back",
+    "en": "pay back",
+    "ipa": "/ˌpeɪ ˈbæk/",
+    "sense": "（借りたお金を）返す",
+    "ja": "返済する",
+    "ex": {
+      "en": "I'll pay you back next week.",
+      "ja": "来週お金を返すね。",
+      "mark": [
+        "pay",
+        "back"
+      ]
+    },
+    "core": "受け取ったお金を、元の人へ戻す（back）。",
+    "other": [
+      "仕返しする：pay him back for the trick"
+    ]
+  },
+  {
+    "src": "M0390",
+    "id": "pay-off",
+    "en": "pay off",
+    "ipa": "/ˌpeɪ ˈɔf/",
+    "sense": "（借金を）完済する",
+    "ja": "完済する",
+    "ex": {
+      "en": "We finally paid off the car loan.",
+      "ja": "ついに車のローンを完済した。",
+      "mark": [
+        "paid off"
+      ]
+    },
+    "core": "払い続けて、借金をすっかり消す（off）。",
+    "other": [
+      "（努力が）実を結ぶ：Hard work pays off."
+    ]
+  },
+  {
+    "src": "M0391",
+    "id": "pay-for",
+    "en": "pay for",
+    "ipa": "/ˈpeɪ ˌfɔr/",
+    "sense": "（〜の）代金を払う",
+    "ja": "代金を払う",
+    "ex": {
+      "en": "I'll pay for the coffee today.",
+      "ja": "今日のコーヒー代は私が払うよ。",
+      "mark": [
+        "pay for"
+      ]
+    },
+    "core": "手に入れるもののために（for）お金を出す。",
+    "other": [
+      "（失敗の）報いを受ける：pay for a mistake"
+    ]
+  },
+  {
+    "src": "M0392",
+    "id": "drop-off",
+    "en": "drop off",
+    "ipa": "/ˌdrɑp ˈɔf/",
+    "sense": "（人・物を車で）送り届けて降ろす",
+    "ja": "送り届ける",
+    "ex": {
+      "en": "Can you drop me off at the station?",
+      "ja": "駅で降ろしてもらえる？",
+      "mark": [
+        "drop",
+        "off"
+      ]
+    },
+    "core": "車から人をぽんと落とす（drop）ように降ろして離れる。",
+    "other": [
+      "うとうとする：drop off to sleep"
+    ]
+  },
+  {
+    "src": "M0394",
+    "id": "drop-out",
+    "en": "drop out",
+    "ipa": "/ˌdrɑp ˈaʊt/",
+    "sense": "（学校・活動から）途中でやめる",
+    "ja": "中退する",
+    "ex": {
+      "en": "He dropped out of college after one year.",
+      "ja": "彼は1年で大学を中退した。",
+      "mark": [
+        "dropped out"
+      ]
+    },
+    "core": "列や集団の外（out）へぽろりと抜け落ちる。",
+    "other": []
+  },
+  {
+    "src": "M0395",
+    "id": "check-up-on",
+    "en": "check up on",
+    "ipa": "/ˌtʃɛk ˈʌp ɑn/",
+    "sense": "（人の）様子を確かめる",
+    "ja": "様子を見る",
+    "ex": {
+      "en": "I called to check up on my sick friend.",
+      "ja": "病気の友人の様子を確かめるため電話した。",
+      "mark": [
+        "check up on"
+      ]
+    },
+    "core": "相手が大丈夫か、ときどきのぞいて確かめる。",
+    "other": []
+  },
+  {
+    "src": "M0396",
+    "id": "check-into",
+    "en": "check into",
+    "ipa": "/ˌtʃɛk ˈɪntu/",
+    "sense": "（問題などを）詳しく調べる",
+    "ja": "調べる",
+    "ex": {
+      "en": "We'll check into the problem right away.",
+      "ja": "すぐにその問題を調べます。",
+      "mark": [
+        "check into"
+      ]
+    },
+    "core": "物事の中（into）まで入って確かめる。",
+    "diff": "look into も同じ意味でよく使う。",
+    "other": [
+      "（ホテルに）チェックインする：check into a hotel"
+    ]
+  },
+  {
+    "src": "M0397",
+    "id": "check-off",
+    "en": "check off",
+    "ipa": "/ˌtʃɛk ˈɔf/",
+    "sense": "（済んだ項目に）印を付ける",
+    "ja": "チェックを入れる",
+    "ex": {
+      "en": "I checked off each item on the list.",
+      "ja": "リストの項目に一つずつ印を付けた。",
+      "mark": [
+        "checked off"
+      ]
+    },
+    "core": "済んだものに印を付けて、リストから外す（off）。",
+    "other": []
+  },
+  {
+    "src": "M0398",
+    "id": "end-up",
+    "en": "end up",
+    "ipa": "/ˌɛnd ˈʌp/",
+    "sense": "結局〜になる、最後に〜に行き着く",
+    "ja": "結局〜になる",
+    "ex": {
+      "en": "We ended up staying home all weekend.",
+      "ja": "結局、週末はずっと家にいた。",
+      "mark": [
+        "ended up"
+      ]
+    },
+    "core": "予定とは違っても、最後にたどり着いた先。",
+    "other": []
+  },
+  {
+    "src": "M0399",
+    "id": "deal-with",
+    "en": "deal with",
+    "ipa": "/ˈdil ˌwɪð/",
+    "sense": "（問題などに）対処する",
+    "ja": "対処する",
+    "ex": {
+      "en": "I have to deal with a lot of emails.",
+      "ja": "大量のメールに対応しなければならない。",
+      "mark": [
+        "deal with"
+      ]
+    },
+    "core": "問題と向き合って（with）手を打つ。",
+    "other": [
+      "（話題を）扱う：The book deals with history."
+    ]
+  },
+  {
+    "src": "M0400",
+    "id": "stick-to",
+    "en": "stick to",
+    "ipa": "/ˈstɪk ˌtu/",
+    "sense": "（計画・決めたことを）守り通す",
+    "ja": "貫く",
+    "ex": {
+      "en": "Let's stick to the plan.",
+      "ja": "計画どおりにやろう。",
+      "mark": [
+        "stick to"
+      ]
+    },
+    "core": "決めたものにぴったりくっついて（stick）離れない。",
+    "other": []
   }
 ]

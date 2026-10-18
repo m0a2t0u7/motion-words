@@ -1,1 +1,1708 @@
-[]
+[
+  {
+    "src": "M0501",
+    "id": "so-far-so-good",
+    "en": "so far so good",
+    "ipa": "/ˌsoʊ ˌfɑr ˌsoʊ ˈɡʊd/",
+    "sense": "今のところ順調",
+    "ja": "今のところ順調",
+    "ex": {
+      "en": "\"How's the new job?\" \"So far so good.\"",
+      "ja": "「新しい仕事はどう？」「今のところ順調だよ」",
+      "mark": [
+        "So far so good"
+      ]
+    },
+    "core": "ここまで（so far）は、うまくいっている（good）。",
+    "other": []
+  },
+  {
+    "src": "M0502",
+    "id": "no-strings-attached",
+    "en": "no strings attached",
+    "ipa": "/ˌnoʊ ˌstrɪŋz əˈtætʃt/",
+    "sense": "（見返りなどの）条件なしで",
+    "ja": "ひも付きなし",
+    "ex": {
+      "en": "It's a free gift, no strings attached.",
+      "ja": "これは無料の贈り物で、何の条件もありません。",
+      "mark": [
+        "no strings attached"
+      ]
+    },
+    "core": "相手を操る「ひも」が付いていない。",
+    "other": []
+  },
+  {
+    "src": "M0503",
+    "id": "on-the-house",
+    "en": "on the house",
+    "ipa": "/ˌɑn ðə ˈhaʊs/",
+    "sense": "店のおごりで、無料で",
+    "ja": "店のおごり",
+    "ex": {
+      "en": "The dessert is on the house tonight.",
+      "ja": "今夜のデザートは店のおごりです。",
+      "mark": [
+        "on the house"
+      ]
+    },
+    "core": "代金を店（house）が持つ。",
+    "other": []
+  },
+  {
+    "src": "M0504",
+    "id": "on-the-go",
+    "en": "on the go",
+    "ipa": "/ˌɑn ðə ˈɡoʊ/",
+    "sense": "忙しく動き回って",
+    "ja": "動き回って",
+    "ex": {
+      "en": "I'm on the go all day at work.",
+      "ja": "仕事中は一日中動き回っている。",
+      "mark": [
+        "on the go"
+      ]
+    },
+    "core": "ずっと「行く（go）」の状態にあって、止まらない。",
+    "other": []
+  },
+  {
+    "src": "M0505",
+    "id": "on-the-mend",
+    "en": "on the mend",
+    "ipa": "/ˌɑn ðə ˈmɛnd/",
+    "sense": "（病気・けがが）回復に向かって",
+    "ja": "快方に向かって",
+    "ex": {
+      "en": "My dad is sick, but he's on the mend.",
+      "ja": "父は病気だが、快方に向かっている。",
+      "mark": [
+        "on the mend"
+      ]
+    },
+    "core": "壊れたものが直る（mend）途中にある。",
+    "other": []
+  },
+  {
+    "src": "M0506",
+    "id": "on-the-right-track",
+    "en": "on the right track",
+    "ipa": "/ˌɑn ðə ˌraɪt ˈtræk/",
+    "sense": "正しい方向に進んで",
+    "ja": "順調に進んで",
+    "ex": {
+      "en": "Your answer is on the right track.",
+      "ja": "君の答えは正しい方向に向かっている。",
+      "mark": [
+        "on the right track"
+      ]
+    },
+    "core": "正しい線路（track）の上を走っている。",
+    "other": []
+  },
+  {
+    "src": "M0507",
+    "id": "out-of-the-question",
+    "en": "out of the question",
+    "ipa": "/ˌaʊt əv ðə ˈkwɛstʃən/",
+    "sense": "問題外で、とても無理で",
+    "ja": "論外",
+    "ex": {
+      "en": "Going out in this storm is out of the question.",
+      "ja": "この嵐の中で出かけるなんて論外だ。",
+      "mark": [
+        "out of the question"
+      ]
+    },
+    "core": "考える候補（question）の外にある。",
+    "other": []
+  },
+  {
+    "src": "M0508",
+    "id": "out-of-touch",
+    "en": "out of touch",
+    "ipa": "/ˌaʊt əv ˈtʌtʃ/",
+    "sense": "（最近の事情に）疎い",
+    "ja": "疎い",
+    "ex": {
+      "en": "My grandpa is out of touch with new technology.",
+      "ja": "祖父は新しい技術に疎い。",
+      "mark": [
+        "out of touch"
+      ]
+    },
+    "core": "世の中と触れ合う（touch）ところから外れている。",
+    "other": [
+      "（人と）連絡が途絶えて：We've been out of touch."
+    ]
+  },
+  {
+    "src": "M0509",
+    "id": "out-of-date",
+    "en": "out of date",
+    "ipa": "/ˌaʊt əv ˈdeɪt/",
+    "sense": "時代遅れの、古くなった",
+    "ja": "古い",
+    "ex": {
+      "en": "This map is out of date.",
+      "ja": "この地図は古くなっている。",
+      "mark": [
+        "out of date"
+      ]
+    },
+    "core": "今の日付（date）から外れてしまった。",
+    "diff": "out of date の反対は up to date。",
+    "other": []
+  },
+  {
+    "src": "M0510",
+    "id": "in-the-long-run",
+    "en": "in the long run",
+    "ipa": "/ɪn ðə ˌlɔŋ ˈrʌn/",
+    "sense": "長い目で見れば",
+    "ja": "長い目で見れば",
+    "ex": {
+      "en": "Exercise saves you money in the long run.",
+      "ja": "運動は長い目で見ればお金の節約になる。",
+      "mark": [
+        "in the long run"
+      ]
+    },
+    "core": "長い道のり（run）を走り終えたときに見ると。",
+    "other": []
+  },
+  {
+    "src": "M0511",
+    "id": "in-the-blink-of-an-eye",
+    "en": "in the blink of an eye",
+    "ipa": "/ɪn ðə ˌblɪŋk əv ən ˈaɪ/",
+    "sense": "あっという間に",
+    "ja": "一瞬で",
+    "ex": {
+      "en": "The summer was over in the blink of an eye.",
+      "ja": "夏はあっという間に終わった。",
+      "mark": [
+        "in the blink of an eye"
+      ]
+    },
+    "core": "まばたき（blink）一回ほどの短い時間で。",
+    "other": []
+  },
+  {
+    "src": "M0512",
+    "id": "in-no-time",
+    "en": "in no time",
+    "ipa": "/ɪn ˌnoʊ ˈtaɪm/",
+    "sense": "すぐに、あっという間に",
+    "ja": "すぐに",
+    "ex": {
+      "en": "Don't worry, I'll be back in no time.",
+      "ja": "心配しないで、すぐ戻るから。",
+      "mark": [
+        "in no time"
+      ]
+    },
+    "core": "時間がほとんどかからないうちに。",
+    "other": []
+  },
+  {
+    "src": "M0513",
+    "id": "in-advance",
+    "en": "in advance",
+    "ipa": "/ˌɪn ədˈvæns/",
+    "sense": "前もって",
+    "ja": "前もって",
+    "ex": {
+      "en": "Please buy your tickets in advance.",
+      "ja": "チケットは前もって買ってください。",
+      "mark": [
+        "in advance"
+      ]
+    },
+    "core": "その時より前（advance）に済ませておく。",
+    "other": []
+  },
+  {
+    "src": "M0514",
+    "id": "in-person",
+    "en": "in person",
+    "ipa": "/ˌɪn ˈpɝsən/",
+    "sense": "（本人が）直接、じかに",
+    "ja": "直接会って",
+    "ex": {
+      "en": "I'd like to talk to you in person.",
+      "ja": "直接会って話がしたい。",
+      "mark": [
+        "in person"
+      ]
+    },
+    "core": "画面や手紙でなく、本人（person）として。",
+    "other": []
+  },
+  {
+    "src": "M0515",
+    "id": "in-private",
+    "en": "in private",
+    "ipa": "/ˌɪn ˈpraɪvət/",
+    "sense": "人目のないところで",
+    "ja": "内密に",
+    "ex": {
+      "en": "Can I talk to you in private?",
+      "ja": "二人だけで話せますか？",
+      "mark": [
+        "in private"
+      ]
+    },
+    "core": "ほかの人の目が届かない場所で。",
+    "diff": "in public の反対。",
+    "other": []
+  },
+  {
+    "src": "M0516",
+    "id": "in-public",
+    "en": "in public",
+    "ipa": "/ˌɪn ˈpʌblɪk/",
+    "sense": "人前で、公の場で",
+    "ja": "人前で",
+    "ex": {
+      "en": "She is nervous about speaking in public.",
+      "ja": "彼女は人前で話すことに緊張する。",
+      "mark": [
+        "in public"
+      ]
+    },
+    "core": "大勢の人（public）がいる場所で。",
+    "diff": "in private の反対。",
+    "other": []
+  },
+  {
+    "src": "M0517",
+    "id": "in-a-hurry",
+    "en": "in a hurry",
+    "ipa": "/ˌɪn ə ˈhɝi/",
+    "sense": "急いで",
+    "ja": "急いで",
+    "ex": {
+      "en": "Sorry, I'm in a hurry right now.",
+      "ja": "ごめん、今急いでいるんだ。",
+      "mark": [
+        "in a hurry"
+      ]
+    },
+    "core": "急ぎ（hurry）の状態の中にいる。",
+    "other": []
+  },
+  {
+    "src": "M0518",
+    "id": "in-trouble",
+    "en": "in trouble",
+    "ipa": "/ˌɪn ˈtrʌbəl/",
+    "sense": "困ったことになって、（しかられそうで）まずい状態で",
+    "ja": "困っている",
+    "ex": {
+      "en": "I'm in trouble. I lost my wallet.",
+      "ja": "困った。財布をなくした。",
+      "mark": [
+        "in trouble"
+      ]
+    },
+    "core": "面倒なこと（trouble）の中に入ってしまっている。",
+    "other": []
+  },
+  {
+    "src": "M0519",
+    "id": "in-charge-of",
+    "en": "in charge of",
+    "ipa": "/ɪn ˈtʃɑrdʒ əv/",
+    "sense": "〜を担当して、〜の責任者で",
+    "ja": "担当して",
+    "ex": {
+      "en": "She is in charge of the sales team.",
+      "ja": "彼女は営業チームの責任者だ。",
+      "mark": [
+        "in charge of"
+      ]
+    },
+    "core": "〜を任された（charge）立場にある。",
+    "other": []
+  },
+  {
+    "src": "M0520",
+    "id": "at-first-glance",
+    "en": "at first glance",
+    "ipa": "/ət ˌfɝst ˈɡlæns/",
+    "sense": "一見したところ",
+    "ja": "一見して",
+    "ex": {
+      "en": "At first glance, the room looked clean.",
+      "ja": "一見すると、部屋はきれいに見えた。",
+      "mark": [
+        "At first glance"
+      ]
+    },
+    "core": "最初にちらっと見た（glance）ときには。",
+    "other": []
+  },
+  {
+    "src": "M0521",
+    "id": "at-least",
+    "en": "at least",
+    "ipa": "/ət ˈlist/",
+    "sense": "少なくとも",
+    "ja": "少なくとも",
+    "ex": {
+      "en": "You need at least three hours to finish.",
+      "ja": "終えるには少なくとも3時間必要だ。",
+      "mark": [
+        "at least"
+      ]
+    },
+    "core": "いちばん少なく（least）見積もっても。",
+    "other": [
+      "せめて：At least you tried."
+    ]
+  },
+  {
+    "src": "M0522",
+    "id": "at-most",
+    "en": "at most",
+    "ipa": "/ət ˈmoʊst/",
+    "sense": "多くても、せいぜい",
+    "ja": "多くても",
+    "ex": {
+      "en": "The trip will take two hours at most.",
+      "ja": "移動は長くても2時間だろう。",
+      "mark": [
+        "at most"
+      ]
+    },
+    "core": "いちばん多く（most）見積もっても。",
+    "diff": "at least の反対。",
+    "other": []
+  },
+  {
+    "src": "M0523",
+    "id": "at-once",
+    "en": "at once",
+    "ipa": "/ət ˈwʌns/",
+    "sense": "すぐに",
+    "ja": "すぐに",
+    "ex": {
+      "en": "Come here at once!",
+      "ja": "すぐにこっちへ来なさい！",
+      "mark": [
+        "at once"
+      ]
+    },
+    "core": "一度（once）のうちに、間を置かずに。",
+    "other": [
+      "同時に：Don't talk all at once."
+    ]
+  },
+  {
+    "src": "M0524",
+    "id": "at-times",
+    "en": "at times",
+    "ipa": "/ət ˈtaɪmz/",
+    "sense": "時々",
+    "ja": "時々",
+    "ex": {
+      "en": "At times, I feel tired after work.",
+      "ja": "時々、仕事の後に疲れを感じる。",
+      "mark": [
+        "At times"
+      ]
+    },
+    "core": "いくつかの時（times）には。",
+    "other": []
+  },
+  {
+    "src": "M0525",
+    "id": "at-risk",
+    "en": "at risk",
+    "ipa": "/ət ˈrɪsk/",
+    "sense": "危険にさらされて",
+    "ja": "危険にさらされて",
+    "ex": {
+      "en": "Many animals are at risk because of pollution.",
+      "ja": "汚染のせいで多くの動物が危険にさらされている。",
+      "mark": [
+        "at risk"
+      ]
+    },
+    "core": "危険（risk）の地点に立っている。",
+    "other": []
+  },
+  {
+    "src": "M0526",
+    "id": "at-stake",
+    "en": "at stake",
+    "ipa": "/ət ˈsteɪk/",
+    "sense": "（勝敗などに）懸かって",
+    "ja": "懸かっている",
+    "ex": {
+      "en": "A lot of money is at stake in this game.",
+      "ja": "この試合には大金が懸かっている。",
+      "mark": [
+        "at stake"
+      ]
+    },
+    "core": "賭け（stake）の場に置かれている。",
+    "other": []
+  },
+  {
+    "src": "M0527",
+    "id": "by-accident",
+    "en": "by accident",
+    "ipa": "/ˌbaɪ ˈæksədənt/",
+    "sense": "偶然に、うっかり",
+    "ja": "うっかり",
+    "ex": {
+      "en": "I pressed the wrong button by accident.",
+      "ja": "うっかり違うボタンを押してしまった。",
+      "mark": [
+        "by accident"
+      ]
+    },
+    "core": "思いがけない出来事（accident）によって。",
+    "diff": "on purpose の反対。",
+    "other": []
+  },
+  {
+    "src": "M0528",
+    "id": "by-chance",
+    "en": "by chance",
+    "ipa": "/ˌbaɪ ˈtʃæns/",
+    "sense": "偶然に",
+    "ja": "偶然",
+    "ex": {
+      "en": "I met an old friend by chance at the station.",
+      "ja": "駅で偶然、昔の友人に会った。",
+      "mark": [
+        "by chance"
+      ]
+    },
+    "core": "運（chance）によって、たまたま。",
+    "other": []
+  },
+  {
+    "src": "M0529",
+    "id": "by-mistake",
+    "en": "by mistake",
+    "ipa": "/ˌbaɪ mɪˈsteɪk/",
+    "sense": "間違えて",
+    "ja": "間違えて",
+    "ex": {
+      "en": "I took your umbrella by mistake.",
+      "ja": "間違えてあなたの傘を持っていってしまった。",
+      "mark": [
+        "by mistake"
+      ]
+    },
+    "core": "間違い（mistake）によって。",
+    "other": []
+  },
+  {
+    "src": "M0530",
+    "id": "by-all-means",
+    "en": "by all means",
+    "ipa": "/ˌbaɪ ˌɔl ˈminz/",
+    "sense": "（許可して）ぜひどうぞ",
+    "ja": "ぜひどうぞ",
+    "ex": {
+      "en": "\"Can I sit here?\" \"By all means.\"",
+      "ja": "「ここに座ってもいい？」「どうぞどうぞ」",
+      "mark": [
+        "By all means"
+      ]
+    },
+    "core": "あらゆる手段（means）を使ってでも、どうぞ。",
+    "other": []
+  },
+  {
+    "src": "M0531",
+    "id": "for-good",
+    "en": "for good",
+    "ipa": "/fɚ ˈɡʊd/",
+    "sense": "永久に、これを最後に",
+    "ja": "永久に",
+    "ex": {
+      "en": "They left the town for good.",
+      "ja": "彼らはその町を永久に去った。",
+      "mark": [
+        "for good"
+      ]
+    },
+    "core": "もう戻らない、最終的なものとして。",
+    "other": []
+  },
+  {
+    "src": "M0532",
+    "id": "for-the-time-being",
+    "en": "for the time being",
+    "ipa": "/fɚ ðə ˈtaɪm ˌbiɪŋ/",
+    "sense": "当面の間、さしあたり",
+    "ja": "当面は",
+    "ex": {
+      "en": "Use this desk for the time being.",
+      "ja": "当面はこの机を使ってください。",
+      "mark": [
+        "for the time being"
+      ]
+    },
+    "core": "今そこにある時間（time being）のあいだだけ。",
+    "other": []
+  },
+  {
+    "src": "M0533",
+    "id": "for-a-change",
+    "en": "for a change",
+    "ipa": "/fɚ ə ˈtʃeɪndʒ/",
+    "sense": "気分転換に、たまには",
+    "ja": "たまには",
+    "ex": {
+      "en": "Let's walk a different way for a change.",
+      "ja": "気分転換に違う道を歩こう。",
+      "mark": [
+        "for a change"
+      ]
+    },
+    "core": "いつもと変化（change）をつけるために。",
+    "other": []
+  },
+  {
+    "src": "M0534",
+    "id": "for-instance",
+    "en": "for instance",
+    "ipa": "/fɚ ˈɪnstəns/",
+    "sense": "例えば",
+    "ja": "例えば",
+    "ex": {
+      "en": "I like fruit, for instance, apples and pears.",
+      "ja": "果物が好きだ。例えばりんごや梨。",
+      "mark": [
+        "for instance"
+      ]
+    },
+    "core": "一つの実例（instance）として。",
+    "diff": "for example とほぼ同じ。",
+    "other": []
+  },
+  {
+    "src": "M0535",
+    "id": "from-scratch",
+    "en": "from scratch",
+    "ipa": "/frəm ˈskrætʃ/",
+    "sense": "一から、最初から",
+    "ja": "一から",
+    "ex": {
+      "en": "She made the cake from scratch.",
+      "ja": "彼女はケーキを一から作った。",
+      "mark": [
+        "from scratch"
+      ]
+    },
+    "core": "何もない出発点から始める。",
+    "other": []
+  },
+  {
+    "src": "M0536",
+    "id": "from-time-to-time",
+    "en": "from time to time",
+    "ipa": "/frəm ˌtaɪm tə ˈtaɪm/",
+    "sense": "時々",
+    "ja": "時々",
+    "ex": {
+      "en": "I call my old friends from time to time.",
+      "ja": "時々、昔の友人に電話する。",
+      "mark": [
+        "from time to time"
+      ]
+    },
+    "core": "ある時から次の時へと、間をあけて。",
+    "other": []
+  },
+  {
+    "src": "M0537",
+    "id": "from-now-on",
+    "en": "from now on",
+    "ipa": "/frəm ˌnaʊ ˈɑn/",
+    "sense": "これからは、今後は",
+    "ja": "これからは",
+    "ex": {
+      "en": "From now on, I'll get up early.",
+      "ja": "これからは早起きする。",
+      "mark": [
+        "From now on"
+      ]
+    },
+    "core": "今（now）を出発点に、ずっと先へ（on）。",
+    "other": []
+  },
+  {
+    "src": "M0538",
+    "id": "from-head-to-toe",
+    "en": "from head to toe",
+    "ipa": "/frəm ˌhɛd tə ˈtoʊ/",
+    "sense": "頭のてっぺんからつま先まで、全身",
+    "ja": "全身",
+    "ex": {
+      "en": "I got wet from head to toe.",
+      "ja": "頭からつま先までずぶぬれになった。",
+      "mark": [
+        "from head to toe"
+      ]
+    },
+    "core": "頭（head）からつま先（toe）まで全部。",
+    "other": []
+  },
+  {
+    "src": "M0539",
+    "id": "as-a-matter-of-fact",
+    "en": "as a matter of fact",
+    "ipa": "/æz ə ˌmætɚ əv ˈfækt/",
+    "sense": "実は、実際のところ",
+    "ja": "実は",
+    "ex": {
+      "en": "As a matter of fact, I've been there before.",
+      "ja": "実は、そこに前に行ったことがある。",
+      "mark": [
+        "As a matter of fact"
+      ]
+    },
+    "core": "事実（fact）の問題として言うと。",
+    "other": []
+  },
+  {
+    "src": "M0540",
+    "id": "as-far-as-i-know",
+    "en": "as far as I know",
+    "ipa": "/æz ˌfɑr æz aɪ ˈnoʊ/",
+    "sense": "私の知る限りでは",
+    "ja": "知る限りでは",
+    "ex": {
+      "en": "As far as I know, the shop opens at ten.",
+      "ja": "私の知る限り、その店は10時に開く。",
+      "mark": [
+        "As far as I know"
+      ]
+    },
+    "core": "自分の知識が届く範囲（as far as）までで言うと。",
+    "other": []
+  },
+  {
+    "src": "M0541",
+    "id": "as-soon-as-possible",
+    "en": "as soon as possible",
+    "ipa": "/æz ˌsun æz ˈpɑsəbəl/",
+    "sense": "できるだけ早く",
+    "ja": "できるだけ早く",
+    "ex": {
+      "en": "Please call me back as soon as possible.",
+      "ja": "できるだけ早く折り返し電話をください。",
+      "mark": [
+        "as soon as possible"
+      ]
+    },
+    "core": "可能な（possible）かぎり早く（soon）。",
+    "other": []
+  },
+  {
+    "src": "M0542",
+    "id": "as-usual",
+    "en": "as usual",
+    "ipa": "/æz ˈjuʒuəl/",
+    "sense": "いつも通り",
+    "ja": "いつも通り",
+    "ex": {
+      "en": "He was late as usual.",
+      "ja": "彼はいつも通り遅刻した。",
+      "mark": [
+        "as usual"
+      ]
+    },
+    "core": "ふだん（usual）と同じように。",
+    "other": []
+  },
+  {
+    "src": "M0543",
+    "id": "as-a-rule",
+    "en": "as a rule",
+    "ipa": "/æz ə ˈrul/",
+    "sense": "ふつうは、概して",
+    "ja": "ふつうは",
+    "ex": {
+      "en": "As a rule, I don't eat after nine.",
+      "ja": "ふだん、9時以降は食べないことにしている。",
+      "mark": [
+        "As a rule"
+      ]
+    },
+    "core": "決まり（rule）のように、たいていの場合は。",
+    "other": []
+  },
+  {
+    "src": "M0544",
+    "id": "all-of-a-sudden",
+    "en": "all of a sudden",
+    "ipa": "/ˌɔl əv ə ˈsʌdən/",
+    "sense": "突然",
+    "ja": "突然",
+    "ex": {
+      "en": "All of a sudden, the phone rang.",
+      "ja": "突然、電話が鳴った。",
+      "mark": [
+        "All of a sudden"
+      ]
+    },
+    "core": "何の前ぶれもなく、急に（sudden）。",
+    "other": []
+  },
+  {
+    "src": "M0545",
+    "id": "all-in-all",
+    "en": "all in all",
+    "ipa": "/ˌɔl ɪn ˈɔl/",
+    "sense": "全体としては、総じて",
+    "ja": "全体としては",
+    "ex": {
+      "en": "All in all, it was a good trip.",
+      "ja": "全体としては、良い旅行だった。",
+      "mark": [
+        "All in all"
+      ]
+    },
+    "core": "すべて（all）を一つにまとめて見ると。",
+    "other": []
+  },
+  {
+    "src": "M0546",
+    "id": "all-the-same",
+    "en": "all the same",
+    "ipa": "/ˌɔl ðə ˈseɪm/",
+    "sense": "それでもやはり",
+    "ja": "それでも",
+    "ex": {
+      "en": "It was raining, but we went out all the same.",
+      "ja": "雨だったが、それでも私たちは出かけた。",
+      "mark": [
+        "all the same"
+      ]
+    },
+    "core": "状況が変わっても、結局は同じ（same）。",
+    "other": []
+  },
+  {
+    "src": "M0547",
+    "id": "all-along",
+    "en": "all along",
+    "ipa": "/ˌɔl əˈlɔŋ/",
+    "sense": "初めからずっと",
+    "ja": "最初からずっと",
+    "ex": {
+      "en": "My keys were in my pocket all along.",
+      "ja": "鍵は最初からずっとポケットにあった。",
+      "mark": [
+        "all along"
+      ]
+    },
+    "core": "最初から今までの道のり（along）全部で。",
+    "other": []
+  },
+  {
+    "src": "M0548",
+    "id": "all-set",
+    "en": "all set",
+    "ipa": "/ˌɔl ˈsɛt/",
+    "sense": "準備ができて",
+    "ja": "準備OK",
+    "ex": {
+      "en": "I have my ticket and bag. I'm all set.",
+      "ja": "切符もかばんもある。準備完了だ。",
+      "mark": [
+        "all set"
+      ]
+    },
+    "core": "すべて（all）がきちんと配置（set）された。",
+    "other": []
+  },
+  {
+    "src": "M0549",
+    "id": "more-or-less",
+    "en": "more or less",
+    "ipa": "/ˌmɔr ɚ ˈlɛs/",
+    "sense": "だいたい、ほぼ",
+    "ja": "ほぼ",
+    "ex": {
+      "en": "The work is more or less finished.",
+      "ja": "作業はほぼ終わった。",
+      "mark": [
+        "more or less"
+      ]
+    },
+    "core": "多少の多い少ないはあっても、だいたい。",
+    "other": []
+  },
+  {
+    "src": "M0550",
+    "id": "sooner-or-later",
+    "en": "sooner or later",
+    "ipa": "/ˌsunɚ ɚ ˈlætɚ/",
+    "sense": "遅かれ早かれ",
+    "ja": "いずれ",
+    "ex": {
+      "en": "Sooner or later, you'll have to tell her.",
+      "ja": "遅かれ早かれ、彼女に話さないといけないよ。",
+      "mark": [
+        "Sooner or later"
+      ]
+    },
+    "core": "早いか遅いかの差はあっても、必ず。",
+    "other": []
+  },
+  {
+    "src": "M0551",
+    "id": "now-and-then",
+    "en": "now and then",
+    "ipa": "/ˌnaʊ ən ˈðɛn/",
+    "sense": "時々",
+    "ja": "時々",
+    "ex": {
+      "en": "I go to the park now and then.",
+      "ja": "時々公園に行く。",
+      "mark": [
+        "now and then"
+      ]
+    },
+    "core": "今（now）と、その時（then）と、ぽつぽつと。",
+    "other": []
+  },
+  {
+    "src": "M0552",
+    "id": "again-and-again",
+    "en": "again and again",
+    "ipa": "/əˌɡɛn ən əˈɡɛn/",
+    "sense": "何度も",
+    "ja": "何度も",
+    "ex": {
+      "en": "I practiced the song again and again.",
+      "ja": "その歌を何度も練習した。",
+      "mark": [
+        "again and again"
+      ]
+    },
+    "core": "もう一度、またもう一度と重ねる。",
+    "other": []
+  },
+  {
+    "src": "M0553",
+    "id": "little-by-little",
+    "en": "little by little",
+    "ipa": "/ˌlɪtəl baɪ ˈlɪtəl/",
+    "sense": "少しずつ",
+    "ja": "少しずつ",
+    "ex": {
+      "en": "Little by little, my English got better.",
+      "ja": "少しずつ英語が上達した。",
+      "mark": [
+        "Little by little"
+      ]
+    },
+    "core": "少し（little）に少しを積み重ねて。",
+    "other": []
+  },
+  {
+    "src": "M0554",
+    "id": "step-by-step",
+    "en": "step by step",
+    "ipa": "/ˌstɛp baɪ ˈstɛp/",
+    "sense": "一歩ずつ、段階的に",
+    "ja": "一歩ずつ",
+    "ex": {
+      "en": "Let's solve the problem step by step.",
+      "ja": "一歩ずつ問題を解いていこう。",
+      "mark": [
+        "step by step"
+      ]
+    },
+    "core": "一段（step）ずつ順に上る。",
+    "other": []
+  },
+  {
+    "src": "M0555",
+    "id": "one-by-one",
+    "en": "one by one",
+    "ipa": "/ˌwʌn baɪ ˈwʌn/",
+    "sense": "一つずつ、一人ずつ",
+    "ja": "一人ずつ",
+    "ex": {
+      "en": "The students came in one by one.",
+      "ja": "生徒たちは一人ずつ入ってきた。",
+      "mark": [
+        "one by one"
+      ]
+    },
+    "core": "一つ（one）の次にまた一つ。",
+    "other": []
+  },
+  {
+    "src": "M0556",
+    "id": "side-by-side",
+    "en": "side by side",
+    "ipa": "/ˌsaɪd baɪ ˈsaɪd/",
+    "sense": "並んで",
+    "ja": "並んで",
+    "ex": {
+      "en": "The two friends walked side by side.",
+      "ja": "二人の友人は並んで歩いた。",
+      "mark": [
+        "side by side"
+      ]
+    },
+    "core": "わき（side）とわきをくっつけて。",
+    "other": []
+  },
+  {
+    "src": "M0557",
+    "id": "face-to-face",
+    "en": "face to face",
+    "ipa": "/ˌfeɪs tə ˈfeɪs/",
+    "sense": "向かい合って、対面で",
+    "ja": "対面で",
+    "ex": {
+      "en": "We finally met face to face.",
+      "ja": "ついに対面で会った。",
+      "mark": [
+        "face to face"
+      ]
+    },
+    "core": "顔（face）と顔を向け合って。",
+    "other": []
+  },
+  {
+    "src": "M0558",
+    "id": "hand-in-hand",
+    "en": "hand in hand",
+    "ipa": "/ˌhænd ɪn ˈhænd/",
+    "sense": "手をつないで",
+    "ja": "手をつないで",
+    "ex": {
+      "en": "The couple walked hand in hand on the beach.",
+      "ja": "二人は浜辺を手をつないで歩いた。",
+      "mark": [
+        "hand in hand"
+      ]
+    },
+    "core": "手（hand）を手の中に入れて。",
+    "other": [
+      "（物事が）密接に関連して：go hand in hand"
+    ]
+  },
+  {
+    "src": "M0559",
+    "id": "on-purpose",
+    "en": "on purpose",
+    "ipa": "/ɑn ˈpɝpəs/",
+    "sense": "わざと",
+    "ja": "わざと",
+    "ex": {
+      "en": "He broke the window on purpose.",
+      "ja": "彼はわざと窓を割った。",
+      "mark": [
+        "on purpose"
+      ]
+    },
+    "core": "目的（purpose）を持ってやる。",
+    "diff": "by accident の反対。",
+    "other": []
+  },
+  {
+    "src": "M0560",
+    "id": "on-time",
+    "en": "on time",
+    "ipa": "/ɑn ˈtaɪm/",
+    "sense": "時間通りに",
+    "ja": "時間通りに",
+    "ex": {
+      "en": "The train arrived on time.",
+      "ja": "電車は時間通りに着いた。",
+      "mark": [
+        "on time"
+      ]
+    },
+    "core": "決められた時刻（time）ぴったりの上に。",
+    "diff": "in time は「間に合って」。",
+    "other": []
+  },
+  {
+    "src": "M0561",
+    "id": "in-time",
+    "en": "in time",
+    "ipa": "/ɪn ˈtaɪm/",
+    "sense": "間に合って",
+    "ja": "間に合って",
+    "ex": {
+      "en": "We got to the store in time.",
+      "ja": "閉店に間に合って店に着いた。",
+      "mark": [
+        "in time"
+      ]
+    },
+    "core": "期限の時間（time）の内側に入る。",
+    "diff": "on time は「時間ぴったりに」。",
+    "other": []
+  },
+  {
+    "src": "M0562",
+    "id": "on-second-thought",
+    "en": "on second thought",
+    "ipa": "/ɑn ˌsɛkənd ˈθɔt/",
+    "sense": "やっぱり、考え直してみると",
+    "ja": "やっぱり",
+    "ex": {
+      "en": "On second thought, I'll have tea instead.",
+      "ja": "やっぱり、紅茶にします。",
+      "mark": [
+        "On second thought"
+      ]
+    },
+    "core": "二度目の考え（second thought）では。",
+    "other": []
+  },
+  {
+    "src": "M0563",
+    "id": "on-the-other-hand",
+    "en": "on the other hand",
+    "ipa": "/ɑn ði ˈʌðɚ ˌhænd/",
+    "sense": "一方では、他方では",
+    "ja": "一方で",
+    "ex": {
+      "en": "The city is fun. On the other hand, it's expensive.",
+      "ja": "都会は楽しい。一方で、お金がかかる。",
+      "mark": [
+        "On the other hand"
+      ]
+    },
+    "core": "もう片方の手（hand）に載せて比べると。",
+    "other": []
+  },
+  {
+    "src": "M0564",
+    "id": "in-other-words",
+    "en": "in other words",
+    "ipa": "/ɪn ˈʌðɚ ˌwɝdz/",
+    "sense": "言い換えると、つまり",
+    "ja": "つまり",
+    "ex": {
+      "en": "He's my mom's brother. In other words, my uncle.",
+      "ja": "彼は母の兄弟、つまり私のおじだ。",
+      "mark": [
+        "In other words"
+      ]
+    },
+    "core": "別の言葉（words）で言うと。",
+    "other": []
+  },
+  {
+    "src": "M0565",
+    "id": "in-fact",
+    "en": "in fact",
+    "ipa": "/ɪn ˈfækt/",
+    "sense": "実は、実際には",
+    "ja": "実際は",
+    "ex": {
+      "en": "I thought it was hard. In fact, it was easy.",
+      "ja": "難しいと思ったが、実際は簡単だった。",
+      "mark": [
+        "In fact"
+      ]
+    },
+    "core": "思いこみではなく、事実（fact）の中では。",
+    "other": []
+  },
+  {
+    "src": "M0566",
+    "id": "in-particular",
+    "en": "in particular",
+    "ipa": "/ˌɪn pɚˈtɪkjəlɚ/",
+    "sense": "特に",
+    "ja": "特に",
+    "ex": {
+      "en": "I like sports, soccer in particular.",
+      "ja": "スポーツが好きで、特にサッカーが好きだ。",
+      "mark": [
+        "in particular"
+      ]
+    },
+    "core": "多くの中から、一つ（particular）を取り出して。",
+    "other": []
+  },
+  {
+    "src": "M0567",
+    "id": "in-general",
+    "en": "in general",
+    "ipa": "/ˌɪn ˈdʒɛnərəl/",
+    "sense": "一般的に、概して",
+    "ja": "一般に",
+    "ex": {
+      "en": "In general, cats sleep a lot.",
+      "ja": "一般に、猫はよく眠る。",
+      "mark": [
+        "In general"
+      ]
+    },
+    "core": "個々ではなく、全体（general）として見ると。",
+    "other": []
+  },
+  {
+    "src": "M0568",
+    "id": "in-detail",
+    "en": "in detail",
+    "ipa": "/ˌɪn ˈditeɪl/",
+    "sense": "詳しく",
+    "ja": "詳しく",
+    "ex": {
+      "en": "Please explain the plan in detail.",
+      "ja": "計画を詳しく説明してください。",
+      "mark": [
+        "in detail"
+      ]
+    },
+    "core": "細かい部分（detail）まで入りこんで。",
+    "other": []
+  },
+  {
+    "src": "M0569",
+    "id": "in-common",
+    "en": "in common",
+    "ipa": "/ˌɪn ˈkɑmən/",
+    "sense": "共通して",
+    "ja": "共通して",
+    "ex": {
+      "en": "We have a lot in common.",
+      "ja": "私たちには共通点が多い。",
+      "mark": [
+        "in common"
+      ]
+    },
+    "core": "みんなが共有する（common）ところに。",
+    "other": []
+  },
+  {
+    "src": "M0570",
+    "id": "in-return",
+    "en": "in return",
+    "ipa": "/ˌɪn rɪˈtɝn/",
+    "sense": "お返しに",
+    "ja": "お返しに",
+    "ex": {
+      "en": "He helped me, so I helped him in return.",
+      "ja": "彼が手伝ってくれたので、お返しに手伝った。",
+      "mark": [
+        "in return"
+      ]
+    },
+    "core": "もらったものを返す（return）形で。",
+    "other": []
+  },
+  {
+    "src": "M0571",
+    "id": "in-a-row",
+    "en": "in a row",
+    "ipa": "/ˌɪn ə ˈroʊ/",
+    "sense": "連続して",
+    "ja": "連続で",
+    "ex": {
+      "en": "It rained three days in a row.",
+      "ja": "3日連続で雨が降った。",
+      "mark": [
+        "in a row"
+      ]
+    },
+    "core": "一列（row）に並ぶように、続けて。",
+    "other": []
+  },
+  {
+    "src": "M0572",
+    "id": "in-the-meantime",
+    "en": "in the meantime",
+    "ipa": "/ɪn ðə ˈminˌtaɪm/",
+    "sense": "その間に",
+    "ja": "その間に",
+    "ex": {
+      "en": "Dinner is cooking. In the meantime, set the table.",
+      "ja": "夕食を作っているから、その間に食卓を整えて。",
+      "mark": [
+        "In the meantime"
+      ]
+    },
+    "core": "二つの出来事の間（meantime）に。",
+    "other": []
+  },
+  {
+    "src": "M0573",
+    "id": "in-the-end",
+    "en": "in the end",
+    "ipa": "/ɪn ði ˈɛnd/",
+    "sense": "最後には、結局",
+    "ja": "結局",
+    "ex": {
+      "en": "In the end, we chose the red car.",
+      "ja": "結局、赤い車を選んだ。",
+      "mark": [
+        "In the end"
+      ]
+    },
+    "core": "いろいろあった末の、最後（end）のところで。",
+    "diff": "at the end は「（期間・物の）終わりに」。",
+    "other": []
+  },
+  {
+    "src": "M0574",
+    "id": "at-the-moment",
+    "en": "at the moment",
+    "ipa": "/ət ðə ˈmoʊmənt/",
+    "sense": "今のところ、ちょうど今",
+    "ja": "今は",
+    "ex": {
+      "en": "I'm busy at the moment.",
+      "ja": "今は手が離せない。",
+      "mark": [
+        "at the moment"
+      ]
+    },
+    "core": "この瞬間（moment）の時点で。",
+    "other": []
+  },
+  {
+    "src": "M0575",
+    "id": "at-any-rate",
+    "en": "at any rate",
+    "ipa": "/ət ˈɛni ˌreɪt/",
+    "sense": "いずれにせよ、とにかく",
+    "ja": "とにかく",
+    "ex": {
+      "en": "At any rate, let's start now.",
+      "ja": "とにかく、今始めよう。",
+      "mark": [
+        "At any rate"
+      ]
+    },
+    "core": "どんな状況（rate）であっても。",
+    "other": []
+  },
+  {
+    "src": "M0576",
+    "id": "at-ones-own-pace",
+    "en": "at one's own pace",
+    "ipa": "/ət wʌnz ˌoʊn ˈpeɪs/",
+    "sense": "自分のペースで",
+    "ja": "自分のペースで",
+    "ex": {
+      "en": "You can study at your own pace.",
+      "ja": "自分のペースで勉強できます。",
+      "mark": [
+        "at your own pace"
+      ]
+    },
+    "core": "ほかの人ではなく、自分の速さ（pace）で。",
+    "other": []
+  },
+  {
+    "src": "M0577",
+    "id": "at-ones-fingertips",
+    "en": "at one's fingertips",
+    "ipa": "/ət wʌnz ˈfɪŋɡɚˌtɪps/",
+    "sense": "すぐ使える状態で、手元に",
+    "ja": "すぐ手の届くところに",
+    "ex": {
+      "en": "Phones put a lot of information at our fingertips.",
+      "ja": "スマホのおかげで多くの情報がすぐ手に入る。",
+      "mark": [
+        "at our fingertips"
+      ]
+    },
+    "core": "指先（fingertips）ですぐ触れられる位置に。",
+    "other": []
+  },
+  {
+    "src": "M0578",
+    "id": "on-ones-own",
+    "en": "on one's own",
+    "ipa": "/ɑn wʌnz ˈoʊn/",
+    "sense": "一人で、自力で",
+    "ja": "自力で",
+    "ex": {
+      "en": "She built the shelf on her own.",
+      "ja": "彼女は自力で棚を組み立てた。",
+      "mark": [
+        "on her own"
+      ]
+    },
+    "core": "自分（own）だけの力の上に立って。",
+    "other": []
+  },
+  {
+    "src": "M0579",
+    "id": "on-behalf-of",
+    "en": "on behalf of",
+    "ipa": "/ɑn bɪˈhæf əv/",
+    "sense": "〜を代表して、〜に代わって",
+    "ja": "〜を代表して",
+    "ex": {
+      "en": "On behalf of the team, thank you.",
+      "ja": "チームを代表して、ありがとうございます。",
+      "mark": [
+        "On behalf of"
+      ]
+    },
+    "core": "〜の側（behalf）に立って。",
+    "other": []
+  },
+  {
+    "src": "M0580",
+    "id": "on-a-budget",
+    "en": "on a budget",
+    "ipa": "/ɑn ə ˈbʌdʒɪt/",
+    "sense": "限られた予算で",
+    "ja": "予算を抑えて",
+    "ex": {
+      "en": "We're traveling on a budget this year.",
+      "ja": "今年は予算を抑えて旅行する。",
+      "mark": [
+        "on a budget"
+      ]
+    },
+    "core": "決まった予算（budget）の上でやりくりする。",
+    "other": []
+  },
+  {
+    "src": "M0581",
+    "id": "on-sale",
+    "en": "on sale",
+    "ipa": "/ɑn ˈseɪl/",
+    "sense": "特価で、セール中で",
+    "ja": "セール中",
+    "ex": {
+      "en": "These shoes are on sale today.",
+      "ja": "この靴は今日セール中だ。",
+      "mark": [
+        "on sale"
+      ]
+    },
+    "core": "安売り（sale）の状態に置かれている。",
+    "diff": "for sale は「売り物の」。",
+    "other": [
+      "（一般に）販売されて：go on sale next week"
+    ]
+  },
+  {
+    "src": "M0582",
+    "id": "out-of-stock",
+    "en": "out of stock",
+    "ipa": "/ˌaʊt əv ˈstɑk/",
+    "sense": "在庫切れで",
+    "ja": "在庫切れ",
+    "ex": {
+      "en": "Sorry, that item is out of stock.",
+      "ja": "申し訳ありません、その商品は在庫切れです。",
+      "mark": [
+        "out of stock"
+      ]
+    },
+    "core": "在庫（stock）の外に出てしまった。",
+    "other": []
+  },
+  {
+    "src": "M0583",
+    "id": "out-of-order",
+    "en": "out of order",
+    "ipa": "/ˌaʊt əv ˈɔrdɚ/",
+    "sense": "（機械が）故障中で",
+    "ja": "故障中",
+    "ex": {
+      "en": "The ticket machine is out of order.",
+      "ja": "券売機が故障中だ。",
+      "mark": [
+        "out of order"
+      ]
+    },
+    "core": "きちんと働く状態（order）から外れている。",
+    "other": []
+  },
+  {
+    "src": "M0584",
+    "id": "out-of-breath",
+    "en": "out of breath",
+    "ipa": "/ˌaʊt əv ˈbrɛθ/",
+    "sense": "息を切らして",
+    "ja": "息切れして",
+    "ex": {
+      "en": "I was out of breath after running.",
+      "ja": "走った後、息が切れていた。",
+      "mark": [
+        "out of breath"
+      ]
+    },
+    "core": "息（breath）が足りなくなった。",
+    "other": []
+  },
+  {
+    "src": "M0585",
+    "id": "out-of-reach",
+    "en": "out of reach",
+    "ipa": "/ˌaʊt əv ˈritʃ/",
+    "sense": "手が届かない",
+    "ja": "手が届かない",
+    "ex": {
+      "en": "The box on the top shelf is out of reach.",
+      "ja": "いちばん上の棚の箱に手が届かない。",
+      "mark": [
+        "out of reach"
+      ]
+    },
+    "core": "手を伸ばせる範囲（reach）の外にある。",
+    "other": []
+  },
+  {
+    "src": "M0586",
+    "id": "out-of-sight",
+    "en": "out of sight",
+    "ipa": "/ˌaʊt əv ˈsaɪt/",
+    "sense": "見えなくなって",
+    "ja": "見えなくなって",
+    "ex": {
+      "en": "The car turned the corner and was out of sight.",
+      "ja": "車は角を曲がって見えなくなった。",
+      "mark": [
+        "out of sight"
+      ]
+    },
+    "core": "目に見える範囲（sight）の外へ出た。",
+    "other": []
+  },
+  {
+    "src": "M0587",
+    "id": "out-of-practice",
+    "en": "out of practice",
+    "ipa": "/ˌaʊt əv ˈpræktɪs/",
+    "sense": "練習不足で、腕が鈍って",
+    "ja": "腕が鈍って",
+    "ex": {
+      "en": "I haven't played piano for years, so I'm out of practice.",
+      "ja": "何年もピアノを弾いていないので腕が鈍っている。",
+      "mark": [
+        "out of practice"
+      ]
+    },
+    "core": "練習（practice）から離れてしまっている。",
+    "other": []
+  },
+  {
+    "src": "M0588",
+    "id": "out-of-curiosity",
+    "en": "out of curiosity",
+    "ipa": "/ˌaʊt əv ˌkjʊriˈɑsəti/",
+    "sense": "好奇心から",
+    "ja": "好奇心から",
+    "ex": {
+      "en": "I opened the box out of curiosity.",
+      "ja": "好奇心から箱を開けた。",
+      "mark": [
+        "out of curiosity"
+      ]
+    },
+    "core": "好奇心（curiosity）がきっかけとなって。",
+    "other": []
+  },
+  {
+    "src": "M0589",
+    "id": "out-of-necessity",
+    "en": "out of necessity",
+    "ipa": "/ˌaʊt əv nəˈsɛsəti/",
+    "sense": "必要に迫られて",
+    "ja": "必要に迫られて",
+    "ex": {
+      "en": "I learned to cook out of necessity.",
+      "ja": "必要に迫られて料理を覚えた。",
+      "mark": [
+        "out of necessity"
+      ]
+    },
+    "core": "「どうしても必要（necessity）」が理由となって。",
+    "other": []
+  },
+  {
+    "src": "M0590",
+    "id": "up-to-date",
+    "en": "up to date",
+    "ipa": "/ˌʌp tə ˈdeɪt/",
+    "sense": "最新の状態で",
+    "ja": "最新の",
+    "ex": {
+      "en": "Keep your phone up to date.",
+      "ja": "スマホを最新の状態にしておこう。",
+      "mark": [
+        "up to date"
+      ]
+    },
+    "core": "今日の日付（date）まで追いついている。",
+    "diff": "out of date の反対。",
+    "other": []
+  },
+  {
+    "src": "M0591",
+    "id": "up-to-you",
+    "en": "up to you",
+    "ipa": "/ˌʌp tə ˈju/",
+    "sense": "あなた次第で",
+    "ja": "あなた次第",
+    "ex": {
+      "en": "\"Pizza or pasta?\" \"It's up to you.\"",
+      "ja": "「ピザとパスタ、どっち？」「君が決めていいよ」",
+      "mark": [
+        "up to you"
+      ]
+    },
+    "core": "決める役目が、あなたのところまで（up to）来ている。",
+    "other": []
+  },
+  {
+    "src": "M0592",
+    "id": "no-wonder",
+    "en": "no wonder",
+    "ipa": "/ˌnoʊ ˈwʌndɚ/",
+    "sense": "なるほど、どうりで",
+    "ja": "どうりで",
+    "ex": {
+      "en": "You didn't sleep? No wonder you're tired.",
+      "ja": "寝てないの？どうりで疲れているわけだ。",
+      "mark": [
+        "No wonder"
+      ]
+    },
+    "core": "不思議（wonder）に思うことは何もない。",
+    "other": []
+  },
+  {
+    "src": "M0593",
+    "id": "no-big-deal",
+    "en": "no big deal",
+    "ipa": "/ˌnoʊ ˌbɪɡ ˈdil/",
+    "sense": "大したことではない",
+    "ja": "大したことない",
+    "ex": {
+      "en": "\"Sorry I'm late.\" \"No big deal.\"",
+      "ja": "「遅れてごめん」「気にしないで」",
+      "mark": [
+        "No big deal"
+      ]
+    },
+    "core": "大きな（big）出来事（deal）ではない。",
+    "other": []
+  },
+  {
+    "src": "M0594",
+    "id": "no-hard-feelings",
+    "en": "no hard feelings",
+    "ipa": "/ˌnoʊ ˌhɑrd ˈfilɪŋz/",
+    "sense": "恨みっこなし",
+    "ja": "恨みっこなし",
+    "ex": {
+      "en": "You won fair and square. No hard feelings.",
+      "ja": "君は正々堂々と勝った。恨みっこなしだ。",
+      "mark": [
+        "No hard feelings"
+      ]
+    },
+    "core": "とげとげしい（hard）気持ち（feelings）は残っていない。",
+    "other": []
+  },
+  {
+    "src": "M0595",
+    "id": "better-safe-than-sorry",
+    "en": "better safe than sorry",
+    "ipa": "/ˌbɛtɚ ˌseɪf ðən ˈsɑri/",
+    "sense": "用心するに越したことはない",
+    "ja": "念のため",
+    "ex": {
+      "en": "Take an umbrella. Better safe than sorry.",
+      "ja": "傘を持っていきなよ。念のためにね。",
+      "mark": [
+        "Better safe than sorry"
+      ]
+    },
+    "core": "後で後悔する（sorry）より、安全（safe）なほうがよい。",
+    "other": []
+  },
+  {
+    "src": "M0596",
+    "id": "easier-said-than-done",
+    "en": "easier said than done",
+    "ipa": "/ˌiziɚ ˌsɛd ðən ˈdʌn/",
+    "sense": "言うのは簡単だが、するのは難しい",
+    "ja": "言うは易く行うは難し",
+    "ex": {
+      "en": "Waking up at five is easier said than done.",
+      "ja": "5時起きは、言うのは簡単でも実行は難しい。",
+      "mark": [
+        "easier said than done"
+      ]
+    },
+    "core": "口で言う（said）ほうが、実際にやる（done）より簡単。",
+    "other": []
+  },
+  {
+    "src": "M0598",
+    "id": "go-with-the-flow",
+    "en": "go with the flow",
+    "ipa": "/ˌɡoʊ wɪð ðə ˈfloʊ/",
+    "sense": "流れに身を任せる",
+    "ja": "流れに任せる",
+    "ex": {
+      "en": "We had no plan, so we just went with the flow.",
+      "ja": "計画はなかったので、流れに任せた。",
+      "mark": [
+        "went with the flow"
+      ]
+    },
+    "core": "川の流れ（flow）と一緒に（with）進む。",
+    "other": []
+  },
+  {
+    "src": "M0599",
+    "id": "the-sooner-the-better",
+    "en": "the sooner the better",
+    "ipa": "/ðə ˌsunɚ ðə ˈbɛtɚ/",
+    "sense": "早ければ早いほどよい",
+    "ja": "早いほどよい",
+    "ex": {
+      "en": "Send the form soon. The sooner the better.",
+      "ja": "書類は早めに送って。早いほどいいから。",
+      "mark": [
+        "The sooner the better"
+      ]
+    },
+    "core": "早ければ（sooner）、それだけ良い（better）。",
+    "other": []
+  },
+  {
+    "src": "M0600",
+    "id": "keep-ones-word",
+    "en": "keep one's word",
+    "ipa": "/ˌkip wʌnz ˈwɝd/",
+    "sense": "約束を守る",
+    "ja": "約束を守る",
+    "ex": {
+      "en": "He kept his word and returned the book.",
+      "ja": "彼は約束を守って本を返した。",
+      "mark": [
+        "kept his word"
+      ]
+    },
+    "core": "口にした言葉（word）をそのまま持ち続ける。",
+    "diff": "break one's word は「約束を破る」。",
+    "other": []
+  }
+]

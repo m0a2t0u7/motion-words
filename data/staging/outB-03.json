@@ -1,0 +1,1784 @@
+[
+ {
+  "src": "M0565",
+  "id": "in-fact",
+  "cat": "idiom",
+  "en": "in fact",
+  "ipa": "/ɪn ˈfækt/",
+  "sense": "実は、実際には",
+  "ja": "実際は",
+  "ex": {
+   "en": "I thought it was hard. In fact, it was easy.",
+   "ja": "難しいと思ったが、実際は簡単だった。",
+   "mark": [
+    "In fact"
+   ]
+  },
+  "core": "思いこみではなく、事実（fact）の中では。"
+ },
+ {
+  "src": "M0566",
+  "id": "in-particular",
+  "cat": "idiom",
+  "en": "in particular",
+  "ipa": "/ˌɪn pɚˈtɪkjəlɚ/",
+  "sense": "特に",
+  "ja": "特に",
+  "ex": {
+   "en": "I like sports, soccer in particular.",
+   "ja": "スポーツが好きで、特にサッカーが好きだ。",
+   "mark": [
+    "in particular"
+   ]
+  },
+  "core": "多くの中から、一つ（particular）を取り出して。"
+ },
+ {
+  "src": "M0567",
+  "id": "in-general",
+  "cat": "idiom",
+  "en": "in general",
+  "ipa": "/ˌɪn ˈdʒɛnərəl/",
+  "sense": "一般的に、概して",
+  "ja": "一般に",
+  "ex": {
+   "en": "In general, cats sleep a lot.",
+   "ja": "一般に、猫はよく眠る。",
+   "mark": [
+    "In general"
+   ]
+  },
+  "core": "個々ではなく、全体（general）として見ると。"
+ },
+ {
+  "src": "M0568",
+  "id": "in-detail",
+  "cat": "idiom",
+  "en": "in detail",
+  "ipa": "/ˌɪn ˈditeɪl/",
+  "sense": "詳しく",
+  "ja": "詳しく",
+  "ex": {
+   "en": "Please explain the plan in detail.",
+   "ja": "計画を詳しく説明してください。",
+   "mark": [
+    "in detail"
+   ]
+  },
+  "core": "細かい部分（detail）まで入りこんで。"
+ },
+ {
+  "src": "M0569",
+  "id": "in-common",
+  "cat": "idiom",
+  "en": "in common",
+  "ipa": "/ˌɪn ˈkɑmən/",
+  "sense": "共通して",
+  "ja": "共通して",
+  "ex": {
+   "en": "We have a lot in common.",
+   "ja": "私たちには共通点が多い。",
+   "mark": [
+    "in common"
+   ]
+  },
+  "core": "みんなが共有する（common）ところに。"
+ },
+ {
+  "src": "M0570",
+  "id": "in-return",
+  "cat": "idiom",
+  "en": "in return",
+  "ipa": "/ˌɪn rɪˈtɝn/",
+  "sense": "お返しに",
+  "ja": "お返しに",
+  "ex": {
+   "en": "He helped me, so I helped him in return.",
+   "ja": "彼が手伝ってくれたので、お返しに手伝った。",
+   "mark": [
+    "in return"
+   ]
+  },
+  "core": "もらったものを返す（return）形で。"
+ },
+ {
+  "src": "M0571",
+  "id": "in-a-row",
+  "cat": "idiom",
+  "en": "in a row",
+  "ipa": "/ˌɪn ə ˈroʊ/",
+  "sense": "連続して",
+  "ja": "連続で",
+  "ex": {
+   "en": "It rained three days in a row.",
+   "ja": "3日連続で雨が降った。",
+   "mark": [
+    "in a row"
+   ]
+  },
+  "core": "一列（row）に並ぶように、続けて。"
+ },
+ {
+  "src": "M0572",
+  "id": "in-the-meantime",
+  "cat": "idiom",
+  "en": "in the meantime",
+  "ipa": "/ɪn ðə ˈminˌtaɪm/",
+  "sense": "その間に",
+  "ja": "その間に",
+  "ex": {
+   "en": "Dinner is cooking. In the meantime, set the table.",
+   "ja": "夕食を作っているから、その間に食卓を整えて。",
+   "mark": [
+    "In the meantime"
+   ]
+  },
+  "core": "二つの出来事の間（meantime）に。"
+ },
+ {
+  "src": "M0573",
+  "id": "in-the-end",
+  "cat": "idiom",
+  "en": "in the end",
+  "ipa": "/ɪn ði ˈɛnd/",
+  "sense": "最後には、結局",
+  "ja": "結局",
+  "ex": {
+   "en": "In the end, we chose the red car.",
+   "ja": "結局、赤い車を選んだ。",
+   "mark": [
+    "In the end"
+   ]
+  },
+  "core": "いろいろあった末の、最後（end）のところで。",
+  "diff": "at the end は「（期間・物の）終わりに」。"
+ },
+ {
+  "src": "M0574",
+  "id": "at-the-moment",
+  "cat": "idiom",
+  "en": "at the moment",
+  "ipa": "/ət ðə ˈmoʊmənt/",
+  "sense": "今のところ、ちょうど今",
+  "ja": "今は",
+  "ex": {
+   "en": "I'm busy at the moment.",
+   "ja": "今は手が離せない。",
+   "mark": [
+    "at the moment"
+   ]
+  },
+  "core": "この瞬間（moment）の時点で。"
+ },
+ {
+  "src": "M0575",
+  "id": "at-any-rate",
+  "cat": "idiom",
+  "en": "at any rate",
+  "ipa": "/ət ˈɛni ˌreɪt/",
+  "sense": "いずれにせよ、とにかく",
+  "ja": "とにかく",
+  "ex": {
+   "en": "At any rate, let's start now.",
+   "ja": "とにかく、今始めよう。",
+   "mark": [
+    "At any rate"
+   ]
+  },
+  "core": "どんな状況（rate）であっても。"
+ },
+ {
+  "src": "M0576",
+  "id": "at-ones-own-pace",
+  "cat": "idiom",
+  "en": "at one's own pace",
+  "ipa": "/ət wʌnz ˌoʊn ˈpeɪs/",
+  "sense": "自分のペースで",
+  "ja": "自分のペースで",
+  "ex": {
+   "en": "You can study at your own pace.",
+   "ja": "自分のペースで勉強できます。",
+   "mark": [
+    "at your own pace"
+   ]
+  },
+  "core": "ほかの人ではなく、自分の速さ（pace）で。"
+ },
+ {
+  "src": "M0577",
+  "id": "at-ones-fingertips",
+  "cat": "idiom",
+  "en": "at one's fingertips",
+  "ipa": "/ət wʌnz ˈfɪŋɡɚˌtɪps/",
+  "sense": "すぐ使える状態で、手元に",
+  "ja": "すぐ手の届くところに",
+  "ex": {
+   "en": "Phones put a lot of information at our fingertips.",
+   "ja": "スマホのおかげで多くの情報がすぐ手に入る。",
+   "mark": [
+    "at our fingertips"
+   ]
+  },
+  "core": "指先（fingertips）ですぐ触れられる位置に。"
+ },
+ {
+  "src": "M0578",
+  "id": "on-ones-own",
+  "cat": "idiom",
+  "en": "on one's own",
+  "ipa": "/ɑn wʌnz ˈoʊn/",
+  "sense": "一人で、自力で",
+  "ja": "自力で",
+  "ex": {
+   "en": "She built the shelf on her own.",
+   "ja": "彼女は自力で棚を組み立てた。",
+   "mark": [
+    "on her own"
+   ]
+  },
+  "core": "自分（own）だけの力の上に立って。"
+ },
+ {
+  "src": "M0579",
+  "id": "on-behalf-of",
+  "cat": "idiom",
+  "en": "on behalf of",
+  "ipa": "/ɑn bɪˈhæf əv/",
+  "sense": "〜を代表して、〜に代わって",
+  "ja": "〜を代表して",
+  "ex": {
+   "en": "On behalf of the team, thank you.",
+   "ja": "チームを代表して、ありがとうございます。",
+   "mark": [
+    "On behalf of"
+   ]
+  },
+  "core": "〜の側（behalf）に立って。"
+ },
+ {
+  "src": "M0580",
+  "id": "on-a-budget",
+  "cat": "idiom",
+  "en": "on a budget",
+  "ipa": "/ɑn ə ˈbʌdʒɪt/",
+  "sense": "限られた予算で",
+  "ja": "予算を抑えて",
+  "ex": {
+   "en": "We're traveling on a budget this year.",
+   "ja": "今年は予算を抑えて旅行する。",
+   "mark": [
+    "on a budget"
+   ]
+  },
+  "core": "決まった予算（budget）の上でやりくりする。"
+ },
+ {
+  "src": "M0581",
+  "id": "on-sale",
+  "cat": "idiom",
+  "en": "on sale",
+  "ipa": "/ɑn ˈseɪl/",
+  "sense": "特価で、セール中で",
+  "ja": "セール中",
+  "ex": {
+   "en": "These shoes are on sale today.",
+   "ja": "この靴は今日セール中だ。",
+   "mark": [
+    "on sale"
+   ]
+  },
+  "core": "安売り（sale）の状態に置かれている。",
+  "diff": "for sale は「売り物の」。",
+  "other": [
+   "（一般に）販売されて：go on sale next week"
+  ]
+ },
+ {
+  "src": "M0582",
+  "id": "out-of-stock",
+  "cat": "idiom",
+  "en": "out of stock",
+  "ipa": "/ˌaʊt əv ˈstɑk/",
+  "sense": "在庫切れで",
+  "ja": "在庫切れ",
+  "ex": {
+   "en": "Sorry, that item is out of stock.",
+   "ja": "申し訳ありません、その商品は在庫切れです。",
+   "mark": [
+    "out of stock"
+   ]
+  },
+  "core": "在庫（stock）の外に出てしまった。"
+ },
+ {
+  "src": "M0583",
+  "id": "out-of-order",
+  "cat": "idiom",
+  "en": "out of order",
+  "ipa": "/ˌaʊt əv ˈɔrdɚ/",
+  "sense": "（機械が）故障中で",
+  "ja": "故障中",
+  "ex": {
+   "en": "The ticket machine is out of order.",
+   "ja": "券売機が故障中だ。",
+   "mark": [
+    "out of order"
+   ]
+  },
+  "core": "きちんと働く状態（order）から外れている。"
+ },
+ {
+  "src": "M0584",
+  "id": "out-of-breath",
+  "cat": "idiom",
+  "en": "out of breath",
+  "ipa": "/ˌaʊt əv ˈbrɛθ/",
+  "sense": "息を切らして",
+  "ja": "息切れして",
+  "ex": {
+   "en": "I was out of breath after running.",
+   "ja": "走った後、息が切れていた。",
+   "mark": [
+    "out of breath"
+   ]
+  },
+  "core": "息（breath）が足りなくなった。"
+ },
+ {
+  "src": "M0585",
+  "id": "out-of-reach",
+  "cat": "idiom",
+  "en": "out of reach",
+  "ipa": "/ˌaʊt əv ˈritʃ/",
+  "sense": "手が届かない",
+  "ja": "手が届かない",
+  "ex": {
+   "en": "The box on the top shelf is out of reach.",
+   "ja": "いちばん上の棚の箱に手が届かない。",
+   "mark": [
+    "out of reach"
+   ]
+  },
+  "core": "手を伸ばせる範囲（reach）の外にある。"
+ },
+ {
+  "src": "M0586",
+  "id": "out-of-sight",
+  "cat": "idiom",
+  "en": "out of sight",
+  "ipa": "/ˌaʊt əv ˈsaɪt/",
+  "sense": "見えなくなって",
+  "ja": "見えなくなって",
+  "ex": {
+   "en": "The car turned the corner and was out of sight.",
+   "ja": "車は角を曲がって見えなくなった。",
+   "mark": [
+    "out of sight"
+   ]
+  },
+  "core": "目に見える範囲（sight）の外へ出た。"
+ },
+ {
+  "src": "M0587",
+  "id": "out-of-practice",
+  "cat": "idiom",
+  "en": "out of practice",
+  "ipa": "/ˌaʊt əv ˈpræktɪs/",
+  "sense": "練習不足で、腕が鈍って",
+  "ja": "腕が鈍って",
+  "ex": {
+   "en": "I haven't played piano for years, so I'm out of practice.",
+   "ja": "何年もピアノを弾いていないので腕が鈍っている。",
+   "mark": [
+    "out of practice"
+   ]
+  },
+  "core": "練習（practice）から離れてしまっている。"
+ },
+ {
+  "src": "M0588",
+  "id": "out-of-curiosity",
+  "cat": "idiom",
+  "en": "out of curiosity",
+  "ipa": "/ˌaʊt əv ˌkjʊriˈɑsəti/",
+  "sense": "好奇心から",
+  "ja": "好奇心から",
+  "ex": {
+   "en": "I opened the box out of curiosity.",
+   "ja": "好奇心から箱を開けた。",
+   "mark": [
+    "out of curiosity"
+   ]
+  },
+  "core": "好奇心（curiosity）がきっかけとなって。"
+ },
+ {
+  "src": "M0589",
+  "id": "out-of-necessity",
+  "cat": "idiom",
+  "en": "out of necessity",
+  "ipa": "/ˌaʊt əv nəˈsɛsəti/",
+  "sense": "必要に迫られて",
+  "ja": "必要に迫られて",
+  "ex": {
+   "en": "I learned to cook out of necessity.",
+   "ja": "必要に迫られて料理を覚えた。",
+   "mark": [
+    "out of necessity"
+   ]
+  },
+  "core": "「どうしても必要（necessity）」が理由となって。"
+ },
+ {
+  "src": "M0590",
+  "id": "up-to-date",
+  "cat": "idiom",
+  "en": "up to date",
+  "ipa": "/ˌʌp tə ˈdeɪt/",
+  "sense": "最新の状態で",
+  "ja": "最新の",
+  "ex": {
+   "en": "Keep your phone up to date.",
+   "ja": "スマホを最新の状態にしておこう。",
+   "mark": [
+    "up to date"
+   ]
+  },
+  "core": "今日の日付（date）まで追いついている。",
+  "diff": "out of date の反対。"
+ },
+ {
+  "src": "M0591",
+  "id": "up-to-you",
+  "cat": "idiom",
+  "en": "up to you",
+  "ipa": "/ˌʌp tə ˈju/",
+  "sense": "あなた次第で",
+  "ja": "あなた次第",
+  "ex": {
+   "en": "\"Pizza or pasta?\" \"It's up to you.\"",
+   "ja": "「ピザとパスタ、どっち？」「君が決めていいよ」",
+   "mark": [
+    "up to you"
+   ]
+  },
+  "core": "決める役目が、あなたのところまで（up to）来ている。"
+ },
+ {
+  "src": "M0592",
+  "id": "no-wonder",
+  "cat": "idiom",
+  "en": "no wonder",
+  "ipa": "/ˌnoʊ ˈwʌndɚ/",
+  "sense": "なるほど、どうりで",
+  "ja": "どうりで",
+  "ex": {
+   "en": "You didn't sleep? No wonder you're tired.",
+   "ja": "寝てないの？どうりで疲れているわけだ。",
+   "mark": [
+    "No wonder"
+   ]
+  },
+  "core": "不思議（wonder）に思うことは何もない。"
+ },
+ {
+  "src": "M0593",
+  "id": "no-big-deal",
+  "cat": "idiom",
+  "en": "no big deal",
+  "ipa": "/ˌnoʊ ˌbɪɡ ˈdil/",
+  "sense": "大したことではない",
+  "ja": "大したことない",
+  "ex": {
+   "en": "\"Sorry I'm late.\" \"No big deal.\"",
+   "ja": "「遅れてごめん」「気にしないで」",
+   "mark": [
+    "No big deal"
+   ]
+  },
+  "core": "大きな（big）出来事（deal）ではない。"
+ },
+ {
+  "src": "M0594",
+  "id": "no-hard-feelings",
+  "cat": "idiom",
+  "en": "no hard feelings",
+  "ipa": "/ˌnoʊ ˌhɑrd ˈfilɪŋz/",
+  "sense": "恨みっこなし",
+  "ja": "恨みっこなし",
+  "ex": {
+   "en": "You won fair and square. No hard feelings.",
+   "ja": "君は正々堂々と勝った。恨みっこなしだ。",
+   "mark": [
+    "No hard feelings"
+   ]
+  },
+  "core": "とげとげしい（hard）気持ち（feelings）は残っていない。"
+ },
+ {
+  "src": "M0595",
+  "id": "better-safe-than-sorry",
+  "cat": "idiom",
+  "en": "better safe than sorry",
+  "ipa": "/ˌbɛtɚ ˌseɪf ðən ˈsɑri/",
+  "sense": "用心するに越したことはない",
+  "ja": "念のため",
+  "ex": {
+   "en": "Take an umbrella. Better safe than sorry.",
+   "ja": "傘を持っていきなよ。念のためにね。",
+   "mark": [
+    "Better safe than sorry"
+   ]
+  },
+  "core": "後で後悔する（sorry）より、安全（safe）なほうがよい。"
+ },
+ {
+  "src": "M0596",
+  "id": "easier-said-than-done",
+  "cat": "idiom",
+  "en": "easier said than done",
+  "ipa": "/ˌiziɚ ˌsɛd ðən ˈdʌn/",
+  "sense": "言うのは簡単だが、するのは難しい",
+  "ja": "言うは易く行うは難し",
+  "ex": {
+   "en": "Waking up at five is easier said than done.",
+   "ja": "5時起きは、言うのは簡単でも実行は難しい。",
+   "mark": [
+    "easier said than done"
+   ]
+  },
+  "core": "口で言う（said）ほうが、実際にやる（done）より簡単。"
+ },
+ {
+  "src": "M0597",
+  "id": "a-win-win-situation",
+  "cat": "idiom",
+  "en": "a win-win situation",
+  "ipa": "/ə ˌwɪn ˈwɪn sɪtʃuˌeɪʃən/",
+  "sense": "双方に得のある状況",
+  "ja": "お互いに得",
+  "ex": {
+   "en": "This deal is a win-win situation for both of us.",
+   "ja": "この取引は私たち双方にとって得になる。",
+   "mark": [
+    "a win-win situation"
+   ]
+  },
+  "core": "どちらも勝つ（win）形で終わる状況。"
+ },
+ {
+  "src": "M0598",
+  "id": "go-with-the-flow",
+  "cat": "idiom",
+  "en": "go with the flow",
+  "ipa": "/ˌɡoʊ wɪð ðə ˈfloʊ/",
+  "sense": "流れに身を任せる",
+  "ja": "流れに任せる",
+  "ex": {
+   "en": "We had no plan, so we just went with the flow.",
+   "ja": "計画はなかったので、流れに任せた。",
+   "mark": [
+    "went with the flow"
+   ]
+  },
+  "core": "川の流れ（flow）と一緒に（with）進む。"
+ },
+ {
+  "src": "M0599",
+  "id": "the-sooner-the-better",
+  "cat": "idiom",
+  "en": "the sooner the better",
+  "ipa": "/ðə ˌsunɚ ðə ˈbɛtɚ/",
+  "sense": "早ければ早いほどよい",
+  "ja": "早いほどよい",
+  "ex": {
+   "en": "Send the form soon. The sooner the better.",
+   "ja": "書類は早めに送って。早いほどいいから。",
+   "mark": [
+    "The sooner the better"
+   ]
+  },
+  "core": "早ければ（sooner）、それだけ良い（better）。"
+ },
+ {
+  "src": "M0600",
+  "id": "keep-ones-word",
+  "cat": "idiom",
+  "en": "keep one's word",
+  "ipa": "/ˌkip wʌnz ˈwɝd/",
+  "sense": "約束を守る",
+  "ja": "約束を守る",
+  "ex": {
+   "en": "He kept his word and returned the book.",
+   "ja": "彼は約束を守って本を返した。",
+   "mark": [
+    "kept his word"
+   ]
+  },
+  "core": "口にした言葉（word）をそのまま持ち続ける。",
+  "diff": "break one's word は「約束を破る」。"
+ },
+ {
+  "src": "M1233",
+  "id": "sandwich",
+  "cat": "word",
+  "en": "sandwich",
+  "ipa": "/ˈsændwɪtʃ/",
+  "sense": "サンドイッチ",
+  "ja": "サンドイッチ",
+  "ex": {
+   "en": "I made a ham sandwich for lunch.",
+   "ja": "昼食にハムサンドを作った。",
+   "mark": [
+    "sandwich"
+   ]
+  },
+  "core": "パンの間に具をはさんだ食べ物。",
+  "other": [
+   "（間に）はさむ：be sandwiched between"
+  ]
+ },
+ {
+  "src": "M1234",
+  "id": "pizza",
+  "cat": "word",
+  "en": "pizza",
+  "ipa": "/ˈpitsə/",
+  "sense": "ピザ",
+  "ja": "ピザ",
+  "ex": {
+   "en": "Let's order a pizza tonight.",
+   "ja": "今夜はピザを頼もう。",
+   "mark": [
+    "pizza"
+   ]
+  },
+  "core": "平たい生地に具とチーズを載せて焼いた料理。"
+ },
+ {
+  "src": "M1235",
+  "id": "cake",
+  "cat": "word",
+  "en": "cake",
+  "ipa": "/keɪk/",
+  "sense": "ケーキ",
+  "ja": "ケーキ",
+  "ex": {
+   "en": "She baked a cake for my birthday.",
+   "ja": "彼女は私の誕生日にケーキを焼いてくれた。",
+   "mark": [
+    "cake"
+   ]
+  },
+  "core": "小麦粉・卵・砂糖で作る、ふんわり甘い焼き菓子。"
+ },
+ {
+  "src": "M1236",
+  "id": "cookie",
+  "cat": "word",
+  "en": "cookie",
+  "ipa": "/ˈkʊki/",
+  "sense": "クッキー",
+  "ja": "クッキー",
+  "ex": {
+   "en": "Can I have another cookie?",
+   "ja": "クッキーをもう一枚もらっていい？",
+   "mark": [
+    "cookie"
+   ]
+  },
+  "core": "小さく平たい、甘い焼き菓子。",
+  "diff": "（英）では biscuit とも言う。"
+ },
+ {
+  "src": "M1237",
+  "id": "chocolate",
+  "cat": "word",
+  "en": "chocolate",
+  "ipa": "/ˈtʃɑklət/",
+  "sense": "チョコレート",
+  "ja": "チョコレート",
+  "ex": {
+   "en": "I ate a piece of chocolate after dinner.",
+   "ja": "夕食後にチョコレートをひとかけ食べた。",
+   "mark": [
+    "chocolate"
+   ]
+  },
+  "core": "カカオから作る、甘いお菓子。"
+ },
+ {
+  "src": "M1238",
+  "id": "candy",
+  "cat": "word",
+  "en": "candy",
+  "ipa": "/ˈkændi/",
+  "sense": "あめ、お菓子",
+  "ja": "あめ",
+  "ex": {
+   "en": "The kids got candy at the party.",
+   "ja": "子どもたちはパーティーでお菓子をもらった。",
+   "mark": [
+    "candy"
+   ]
+  },
+  "core": "砂糖で作った甘いお菓子全般。",
+  "diff": "（英）では sweets と言う。"
+ },
+ {
+  "src": "M1239",
+  "id": "honey",
+  "cat": "word",
+  "en": "honey",
+  "ipa": "/ˈhʌni/",
+  "sense": "はちみつ",
+  "ja": "はちみつ",
+  "ex": {
+   "en": "I put honey in my tea.",
+   "ja": "紅茶にはちみつを入れた。",
+   "mark": [
+    "honey"
+   ]
+  },
+  "core": "ミツバチが花の蜜から作る、甘くとろりとしたもの。",
+  "other": [
+   "（呼びかけで）あなた：Honey, I'm home."
+  ]
+ },
+ {
+  "src": "M1240",
+  "id": "jam",
+  "cat": "word",
+  "en": "jam",
+  "ipa": "/dʒæm/",
+  "sense": "ジャム",
+  "ja": "ジャム",
+  "ex": {
+   "en": "I spread strawberry jam on my toast.",
+   "ja": "トーストにいちごジャムを塗った。",
+   "mark": [
+    "jam"
+   ]
+  },
+  "core": "果物を砂糖で煮つめた、パンに塗るもの。",
+  "other": [
+   "渋滞：a traffic jam"
+  ]
+ },
+ {
+  "src": "M1241",
+  "id": "juice",
+  "cat": "word",
+  "en": "juice",
+  "ipa": "/dʒus/",
+  "sense": "（果汁100％の）ジュース",
+  "ja": "ジュース",
+  "ex": {
+   "en": "I drink orange juice every morning.",
+   "ja": "毎朝オレンジジュースを飲む。",
+   "mark": [
+    "juice"
+   ]
+  },
+  "core": "果物や野菜をしぼった汁。",
+  "diff": "英語の juice はふつう果汁。炭酸飲料は soda。"
+ },
+ {
+  "src": "M1242",
+  "id": "tea",
+  "cat": "word",
+  "en": "tea",
+  "ipa": "/ti/",
+  "sense": "お茶、紅茶",
+  "ja": "お茶",
+  "ex": {
+   "en": "Would you like some tea?",
+   "ja": "お茶はいかがですか？",
+   "mark": [
+    "tea"
+   ]
+  },
+  "core": "茶の葉にお湯を注いで作る飲み物。"
+ },
+ {
+  "src": "M1243",
+  "id": "coffee",
+  "cat": "word",
+  "en": "coffee",
+  "ipa": "/ˈkɔfi/",
+  "sense": "コーヒー",
+  "ja": "コーヒー",
+  "ex": {
+   "en": "I need a cup of coffee.",
+   "ja": "コーヒーが一杯ほしい。",
+   "mark": [
+    "coffee"
+   ]
+  },
+  "core": "焙煎した豆から作る、苦みのある飲み物。"
+ },
+ {
+  "src": "M1244",
+  "id": "beer",
+  "cat": "word",
+  "en": "beer",
+  "ipa": "/bɪr/",
+  "sense": "ビール",
+  "ja": "ビール",
+  "ex": {
+   "en": "He had a cold beer after work.",
+   "ja": "彼は仕事の後に冷えたビールを飲んだ。",
+   "mark": [
+    "beer"
+   ]
+  },
+  "core": "麦などから作る、泡の立つお酒。"
+ },
+ {
+  "src": "M1245",
+  "id": "wine",
+  "cat": "word",
+  "en": "wine",
+  "ipa": "/waɪn/",
+  "sense": "ワイン",
+  "ja": "ワイン",
+  "ex": {
+   "en": "They had red wine with dinner.",
+   "ja": "彼らは夕食に赤ワインを飲んだ。",
+   "mark": [
+    "wine"
+   ]
+  },
+  "core": "ぶどうを発酵させて作るお酒。"
+ },
+ {
+  "src": "M1246",
+  "id": "plate",
+  "cat": "word",
+  "en": "plate",
+  "ipa": "/pleɪt/",
+  "sense": "（平たい）皿",
+  "ja": "皿",
+  "ex": {
+   "en": "Put the plates on the table, please.",
+   "ja": "お皿をテーブルに並べてください。",
+   "mark": [
+    "plates"
+   ]
+  },
+  "core": "料理を載せる、平たく丸い皿。",
+  "other": [
+   "（料理の）一皿分：a plate of rice"
+  ]
+ },
+ {
+  "src": "M1247",
+  "id": "bowl",
+  "cat": "word",
+  "en": "bowl",
+  "ipa": "/boʊl/",
+  "sense": "ボウル、（深い）鉢",
+  "ja": "ボウル",
+  "ex": {
+   "en": "I ate a bowl of soup.",
+   "ja": "スープを一杯食べた。",
+   "mark": [
+    "bowl"
+   ]
+  },
+  "core": "スープやご飯を入れる、深くて丸い器。",
+  "diff": "plate は平たい皿。"
+ },
+ {
+  "src": "M1248",
+  "id": "cup",
+  "cat": "word",
+  "en": "cup",
+  "ipa": "/kʌp/",
+  "sense": "カップ、茶わん",
+  "ja": "カップ",
+  "ex": {
+   "en": "She drank a cup of tea.",
+   "ja": "彼女はお茶を一杯飲んだ。",
+   "mark": [
+    "cup"
+   ]
+  },
+  "core": "取っ手のある小さな器。",
+  "other": [
+   "（優勝）カップ：the World Cup"
+  ]
+ },
+ {
+  "src": "M1249",
+  "id": "mug",
+  "cat": "word",
+  "en": "mug",
+  "ipa": "/mʌɡ/",
+  "sense": "マグカップ",
+  "ja": "マグ",
+  "ex": {
+   "en": "I drink coffee from a big mug.",
+   "ja": "大きなマグでコーヒーを飲む。",
+   "mark": [
+    "mug"
+   ]
+  },
+  "core": "取っ手付きの、厚くて背の高いカップ。",
+  "diff": "cup はふつう受け皿付きの小さめのもの。"
+ },
+ {
+  "src": "M1250",
+  "id": "glass",
+  "cat": "word",
+  "en": "glass",
+  "ipa": "/ɡlæs/",
+  "sense": "コップ、グラス",
+  "ja": "コップ",
+  "ex": {
+   "en": "Can I have a glass of water?",
+   "ja": "水を一杯もらえますか？",
+   "mark": [
+    "glass"
+   ]
+  },
+  "core": "ガラスでできた、飲み物用の器。",
+  "other": [
+   "ガラス（素材）：made of glass"
+  ]
+ },
+ {
+  "src": "M1251",
+  "id": "bottle",
+  "cat": "word",
+  "en": "bottle",
+  "ipa": "/ˈbɑtəl/",
+  "sense": "瓶、ボトル",
+  "ja": "瓶",
+  "ex": {
+   "en": "He bought a bottle of water.",
+   "ja": "彼は水を1本買った。",
+   "mark": [
+    "bottle"
+   ]
+  },
+  "core": "口の細い、液体を入れる入れ物。",
+  "diff": "jar は口が広い瓶。"
+ },
+ {
+  "src": "M1252",
+  "id": "jar",
+  "cat": "word",
+  "en": "jar",
+  "ipa": "/dʒɑr/",
+  "sense": "広口瓶",
+  "ja": "広口瓶",
+  "ex": {
+   "en": "Keep the cookies in a glass jar.",
+   "ja": "クッキーはガラス瓶に入れておいて。",
+   "mark": [
+    "jar"
+   ]
+  },
+  "core": "口が広く、ふたの付いた瓶。",
+  "diff": "bottle は口の細い瓶。"
+ },
+ {
+  "src": "M1253",
+  "id": "can",
+  "cat": "word",
+  "en": "can",
+  "ipa": "/kæn/",
+  "sense": "缶",
+  "ja": "缶",
+  "ex": {
+   "en": "I opened a can of beans.",
+   "ja": "豆の缶詰を開けた。",
+   "mark": [
+    "can"
+   ]
+  },
+  "core": "金属でできた、飲み物や食べ物の入れ物。",
+  "diff": "（英）では tin とも言う。"
+ },
+ {
+  "src": "M1254",
+  "id": "pot",
+  "cat": "word",
+  "en": "pot",
+  "ipa": "/pɑt/",
+  "sense": "（深い）鍋",
+  "ja": "鍋",
+  "ex": {
+   "en": "Boil water in a big pot.",
+   "ja": "大きな鍋でお湯を沸かして。",
+   "mark": [
+    "pot"
+   ]
+  },
+  "core": "煮たりゆでたりする、深くて丸い鍋。",
+  "diff": "pan は浅く平たい鍋。",
+  "other": [
+   "ポット：a coffee pot"
+  ]
+ },
+ {
+  "src": "M1255",
+  "id": "pan",
+  "cat": "word",
+  "en": "pan",
+  "ipa": "/pæn/",
+  "sense": "フライパン、（浅い）鍋",
+  "ja": "フライパン",
+  "ex": {
+   "en": "Heat some oil in the pan.",
+   "ja": "フライパンで油を熱して。",
+   "mark": [
+    "pan"
+   ]
+  },
+  "core": "焼いたり炒めたりする、浅く平たい鍋。",
+  "diff": "pot は深い鍋。"
+ },
+ {
+  "src": "M1256",
+  "id": "lid",
+  "cat": "word",
+  "en": "lid",
+  "ipa": "/lɪd/",
+  "sense": "ふた",
+  "ja": "ふた",
+  "ex": {
+   "en": "Put the lid on the pot.",
+   "ja": "鍋にふたをして。",
+   "mark": [
+    "lid"
+   ]
+  },
+  "core": "鍋や箱の口をふさぐ、取り外せるふた。"
+ },
+ {
+  "src": "M1257",
+  "id": "knife",
+  "cat": "word",
+  "en": "knife",
+  "ipa": "/naɪf/",
+  "sense": "ナイフ、包丁",
+  "ja": "ナイフ",
+  "ex": {
+   "en": "Cut the bread with this knife.",
+   "ja": "このナイフでパンを切って。",
+   "mark": [
+    "knife"
+   ]
+  },
+  "core": "ものを切るための刃物。"
+ },
+ {
+  "src": "M1258",
+  "id": "fork",
+  "cat": "word",
+  "en": "fork",
+  "ipa": "/fɔrk/",
+  "sense": "フォーク",
+  "ja": "フォーク",
+  "ex": {
+   "en": "I eat salad with a fork.",
+   "ja": "サラダはフォークで食べる。",
+   "mark": [
+    "fork"
+   ]
+  },
+  "core": "先がいくつにも分かれた、刺して食べる道具。",
+  "other": [
+   "（道の）分かれ目：a fork in the road"
+  ]
+ },
+ {
+  "src": "M1259",
+  "id": "spoon",
+  "cat": "word",
+  "en": "spoon",
+  "ipa": "/spun/",
+  "sense": "スプーン",
+  "ja": "スプーン",
+  "ex": {
+   "en": "Eat your soup with a spoon.",
+   "ja": "スープはスプーンで飲んで。",
+   "mark": [
+    "spoon"
+   ]
+  },
+  "core": "すくって食べる、丸いくぼみのある道具。"
+ },
+ {
+  "src": "M1260",
+  "id": "chopsticks",
+  "cat": "word",
+  "en": "chopsticks",
+  "ipa": "/ˈtʃɑpstɪks/",
+  "sense": "箸",
+  "ja": "箸",
+  "ex": {
+   "en": "Can you use chopsticks?",
+   "ja": "お箸は使える？",
+   "mark": [
+    "chopsticks"
+   ]
+  },
+  "core": "2本1組で、つまんで食べる細い棒。"
+ },
+ {
+  "src": "M1261",
+  "id": "napkin",
+  "cat": "word",
+  "en": "napkin",
+  "ipa": "/ˈnæpkɪn/",
+  "sense": "（食事用の）ナプキン",
+  "ja": "ナプキン",
+  "ex": {
+   "en": "Please take a napkin.",
+   "ja": "ナプキンをどうぞ。",
+   "mark": [
+    "napkin"
+   ]
+  },
+  "core": "食事中に口や手をふく紙や布。"
+ },
+ {
+  "src": "M1262",
+  "id": "tray",
+  "cat": "word",
+  "en": "tray",
+  "ipa": "/treɪ/",
+  "sense": "お盆、トレー",
+  "ja": "トレー",
+  "ex": {
+   "en": "She carried the cups on a tray.",
+   "ja": "彼女はお盆にカップを載せて運んだ。",
+   "mark": [
+    "tray"
+   ]
+  },
+  "core": "物を載せて運ぶ、平たい板。"
+ },
+ {
+  "src": "M1263",
+  "id": "body",
+  "cat": "word",
+  "en": "body",
+  "ipa": "/ˈbɑdi/",
+  "sense": "体",
+  "ja": "体",
+  "ex": {
+   "en": "Exercise is good for your body.",
+   "ja": "運動は体によい。",
+   "mark": [
+    "body"
+   ]
+  },
+  "core": "頭から足までの、人や動物の体全体。",
+  "other": [
+   "（死）体：a dead body"
+  ]
+ },
+ {
+  "src": "M1264",
+  "id": "head",
+  "cat": "word",
+  "en": "head",
+  "ipa": "/hɛd/",
+  "sense": "頭",
+  "ja": "頭",
+  "ex": {
+   "en": "He hit his head on the door.",
+   "ja": "彼はドアに頭をぶつけた。",
+   "mark": [
+    "head"
+   ]
+  },
+  "core": "首から上の部分。",
+  "other": [
+   "向かう：head home"
+  ]
+ },
+ {
+  "src": "M1265",
+  "id": "face",
+  "cat": "word",
+  "en": "face",
+  "ipa": "/feɪs/",
+  "sense": "顔",
+  "ja": "顔",
+  "ex": {
+   "en": "Wash your face before bed.",
+   "ja": "寝る前に顔を洗って。",
+   "mark": [
+    "face"
+   ]
+  },
+  "core": "頭の前側の、目や鼻や口がある部分。",
+  "other": [
+   "（問題に）向き合う：face a problem"
+  ]
+ },
+ {
+  "src": "M1266",
+  "id": "hair",
+  "cat": "word",
+  "en": "hair",
+  "ipa": "/hɛr/",
+  "sense": "髪、毛",
+  "ja": "髪",
+  "ex": {
+   "en": "She has long black hair.",
+   "ja": "彼女は長い黒髪だ。",
+   "mark": [
+    "hair"
+   ]
+  },
+  "core": "頭や体に生える細い毛。"
+ },
+ {
+  "src": "M1267",
+  "id": "eye",
+  "cat": "word",
+  "en": "eye",
+  "ipa": "/aɪ/",
+  "sense": "目",
+  "ja": "目",
+  "ex": {
+   "en": "Close your eyes and relax.",
+   "ja": "目を閉じてリラックスして。",
+   "mark": [
+    "eyes"
+   ]
+  },
+  "core": "ものを見るための器官。"
+ },
+ {
+  "src": "M1268",
+  "id": "ear",
+  "cat": "word",
+  "en": "ear",
+  "ipa": "/ɪr/",
+  "sense": "耳",
+  "ja": "耳",
+  "ex": {
+   "en": "My ears hurt from the cold.",
+   "ja": "寒さで耳が痛い。",
+   "mark": [
+    "ears"
+   ]
+  },
+  "core": "音を聞くための器官。"
+ },
+ {
+  "src": "M1269",
+  "id": "nose",
+  "cat": "word",
+  "en": "nose",
+  "ipa": "/noʊz/",
+  "sense": "鼻",
+  "ja": "鼻",
+  "ex": {
+   "en": "My nose is running.",
+   "ja": "鼻水が出ている。",
+   "mark": [
+    "nose"
+   ]
+  },
+  "core": "顔の中央にある、においをかぎ息をする器官。"
+ },
+ {
+  "src": "M1270",
+  "id": "mouth",
+  "cat": "word",
+  "en": "mouth",
+  "ipa": "/maʊθ/",
+  "sense": "口",
+  "ja": "口",
+  "ex": {
+   "en": "Don't talk with your mouth full.",
+   "ja": "口に物を入れたまま話さないで。",
+   "mark": [
+    "mouth"
+   ]
+  },
+  "core": "食べたり話したりする、顔の開いた部分。",
+  "other": [
+   "（川の）河口：the mouth of a river"
+  ]
+ },
+ {
+  "src": "M1271",
+  "id": "lip",
+  "cat": "word",
+  "en": "lip",
+  "ipa": "/lɪp/",
+  "sense": "唇",
+  "ja": "唇",
+  "ex": {
+   "en": "My lips are dry in winter.",
+   "ja": "冬は唇が乾燥する。",
+   "mark": [
+    "lips"
+   ]
+  },
+  "core": "口のまわりの、やわらかい赤い部分。"
+ },
+ {
+  "src": "M1272",
+  "id": "tongue",
+  "cat": "word",
+  "en": "tongue",
+  "ipa": "/tʌŋ/",
+  "sense": "舌",
+  "ja": "舌",
+  "ex": {
+   "en": "I burned my tongue on the hot soup.",
+   "ja": "熱いスープで舌をやけどした。",
+   "mark": [
+    "tongue"
+   ]
+  },
+  "core": "口の中で味を感じ、話すのに使う器官。"
+ },
+ {
+  "src": "M1273",
+  "id": "tooth",
+  "cat": "word",
+  "en": "tooth",
+  "ipa": "/tuθ/",
+  "sense": "歯（複数形 teeth）",
+  "ja": "歯",
+  "ex": {
+   "en": "I lost a tooth when I was six.",
+   "ja": "6歳のとき歯が1本抜けた。",
+   "mark": [
+    "tooth"
+   ]
+  },
+  "core": "食べ物をかむ、口の中の硬いもの。"
+ },
+ {
+  "src": "M1274",
+  "id": "neck",
+  "cat": "word",
+  "en": "neck",
+  "ipa": "/nɛk/",
+  "sense": "首",
+  "ja": "首",
+  "ex": {
+   "en": "My neck hurts after work.",
+   "ja": "仕事の後、首が痛い。",
+   "mark": [
+    "neck"
+   ]
+  },
+  "core": "頭と胴をつなぐ部分。"
+ },
+ {
+  "src": "M1275",
+  "id": "shoulder",
+  "cat": "word",
+  "en": "shoulder",
+  "ipa": "/ˈʃoʊldɚ/",
+  "sense": "肩",
+  "ja": "肩",
+  "ex": {
+   "en": "She put her hand on my shoulder.",
+   "ja": "彼女は私の肩に手を置いた。",
+   "mark": [
+    "shoulder"
+   ]
+  },
+  "core": "腕の付け根の、首の両わきの部分。"
+ },
+ {
+  "src": "M1276",
+  "id": "arm",
+  "cat": "word",
+  "en": "arm",
+  "ipa": "/ɑrm/",
+  "sense": "腕",
+  "ja": "腕",
+  "ex": {
+   "en": "He broke his arm playing soccer.",
+   "ja": "彼はサッカーで腕を骨折した。",
+   "mark": [
+    "arm"
+   ]
+  },
+  "core": "肩から手首までの部分。"
+ },
+ {
+  "src": "M1277",
+  "id": "elbow",
+  "cat": "word",
+  "en": "elbow",
+  "ipa": "/ˈɛlboʊ/",
+  "sense": "ひじ",
+  "ja": "ひじ",
+  "ex": {
+   "en": "Don't put your elbows on the table.",
+   "ja": "テーブルにひじをつかないで。",
+   "mark": [
+    "elbows"
+   ]
+  },
+  "core": "腕の真ん中で曲がる関節。"
+ },
+ {
+  "src": "M1278",
+  "id": "wrist",
+  "cat": "word",
+  "en": "wrist",
+  "ipa": "/rɪst/",
+  "sense": "手首",
+  "ja": "手首",
+  "ex": {
+   "en": "She wears a watch on her wrist.",
+   "ja": "彼女は手首に腕時計をしている。",
+   "mark": [
+    "wrist"
+   ]
+  },
+  "core": "腕と手をつなぐ関節。"
+ },
+ {
+  "src": "M1279",
+  "id": "hand",
+  "cat": "word",
+  "en": "hand",
+  "ipa": "/hænd/",
+  "sense": "手",
+  "ja": "手",
+  "ex": {
+   "en": "Raise your hand if you know the answer.",
+   "ja": "答えが分かったら手を挙げて。",
+   "mark": [
+    "hand"
+   ]
+  },
+  "core": "手首から先の、ものをつかむ部分。",
+  "other": [
+   "手渡す：hand me the salt"
+  ]
+ },
+ {
+  "src": "M1280",
+  "id": "finger",
+  "cat": "word",
+  "en": "finger",
+  "ipa": "/ˈfɪŋɡɚ/",
+  "sense": "（手の）指",
+  "ja": "指",
+  "ex": {
+   "en": "I cut my finger with a knife.",
+   "ja": "ナイフで指を切った。",
+   "mark": [
+    "finger"
+   ]
+  },
+  "core": "手の先の、5本に分かれた部分。",
+  "diff": "足の指は toe。"
+ },
+ {
+  "src": "M1281",
+  "id": "thumb",
+  "cat": "word",
+  "en": "thumb",
+  "ipa": "/θʌm/",
+  "sense": "親指",
+  "ja": "親指",
+  "ex": {
+   "en": "He gave me a thumbs-up.",
+   "ja": "彼は親指を立てて「いいね」と示した。",
+   "mark": [
+    "thumb"
+   ]
+  },
+  "core": "手の指のうち、いちばん太く短い指。"
+ },
+ {
+  "src": "M1282",
+  "id": "chest",
+  "cat": "word",
+  "en": "chest",
+  "ipa": "/tʃɛst/",
+  "sense": "胸",
+  "ja": "胸",
+  "ex": {
+   "en": "I have a pain in my chest.",
+   "ja": "胸が痛い。",
+   "mark": [
+    "chest"
+   ]
+  },
+  "core": "首とおなかの間の、体の前側。",
+  "other": [
+   "（ふた付きの）大きな箱：a treasure chest"
+  ]
+ },
+ {
+  "src": "M1283",
+  "id": "back",
+  "cat": "word",
+  "en": "back",
+  "ipa": "/bæk/",
+  "sense": "背中",
+  "ja": "背中",
+  "ex": {
+   "en": "My back hurts from sitting all day.",
+   "ja": "一日中座っていて背中が痛い。",
+   "mark": [
+    "back"
+   ]
+  },
+  "core": "体の後ろ側、首から腰までの部分。",
+  "other": [
+   "後ろへ、戻って：come back"
+  ]
+ },
+ {
+  "src": "M1284",
+  "id": "waist",
+  "cat": "word",
+  "en": "waist",
+  "ipa": "/weɪst/",
+  "sense": "腰（のくびれ）、ウエスト",
+  "ja": "ウエスト",
+  "ex": {
+   "en": "These pants are too big at the waist.",
+   "ja": "このズボンはウエストが大きすぎる。",
+   "mark": [
+    "waist"
+   ]
+  },
+  "core": "胴のいちばん細い部分。",
+  "diff": "hip は腰の横に張り出した部分。"
+ },
+ {
+  "src": "M1285",
+  "id": "hip",
+  "cat": "word",
+  "en": "hip",
+  "ipa": "/hɪp/",
+  "sense": "（左右に張り出した）腰、ヒップ",
+  "ja": "腰",
+  "ex": {
+   "en": "She put her hands on her hips.",
+   "ja": "彼女は両手を腰に当てた。",
+   "mark": [
+    "hips"
+   ]
+  },
+  "core": "脚の付け根の上、体の左右に張り出した部分。",
+  "diff": "日本語の「ヒップ（お尻）」とは少しずれる。お尻は butt など。"
+ },
+ {
+  "src": "M1286",
+  "id": "leg",
+  "cat": "word",
+  "en": "leg",
+  "ipa": "/lɛɡ/",
+  "sense": "脚",
+  "ja": "脚",
+  "ex": {
+   "en": "My legs are tired from walking.",
+   "ja": "歩いて脚が疲れた。",
+   "mark": [
+    "legs"
+   ]
+  },
+  "core": "ももから足首までの部分。",
+  "other": [
+   "（机などの）脚：a table leg"
+  ]
+ },
+ {
+  "src": "M1287",
+  "id": "knee",
+  "cat": "word",
+  "en": "knee",
+  "ipa": "/ni/",
+  "sense": "ひざ",
+  "ja": "ひざ",
+  "ex": {
+   "en": "He fell and hurt his knee.",
+   "ja": "彼は転んでひざをけがした。",
+   "mark": [
+    "knee"
+   ]
+  },
+  "core": "脚の真ん中で曲がる関節。"
+ },
+ {
+  "src": "M1288",
+  "id": "ankle",
+  "cat": "word",
+  "en": "ankle",
+  "ipa": "/ˈæŋkəl/",
+  "sense": "足首",
+  "ja": "足首",
+  "ex": {
+   "en": "I twisted my ankle on the stairs.",
+   "ja": "階段で足首をひねった。",
+   "mark": [
+    "ankle"
+   ]
+  },
+  "core": "脚と足をつなぐ関節。"
+ },
+ {
+  "src": "M1289",
+  "id": "foot",
+  "cat": "word",
+  "en": "foot",
+  "ipa": "/fʊt/",
+  "sense": "足（足首から先、複数形 feet）",
+  "ja": "足",
+  "ex": {
+   "en": "I stepped on his foot by mistake.",
+   "ja": "うっかり彼の足を踏んだ。",
+   "mark": [
+    "foot"
+   ]
+  },
+  "core": "足首から下の、地面につく部分。",
+  "diff": "leg は脚全体。",
+  "other": [
+   "（長さの単位）フィート：six feet tall"
+  ]
+ },
+ {
+  "src": "M1290",
+  "id": "toe",
+  "cat": "word",
+  "en": "toe",
+  "ipa": "/toʊ/",
+  "sense": "足の指",
+  "ja": "足の指",
+  "ex": {
+   "en": "I hit my toe on the table.",
+   "ja": "テーブルに足の指をぶつけた。",
+   "mark": [
+    "toe"
+   ]
+  },
+  "core": "足の先の、5本に分かれた部分。",
+  "diff": "手の指は finger。"
+ },
+ {
+  "src": "M1291",
+  "id": "skin",
+  "cat": "word",
+  "en": "skin",
+  "ipa": "/skɪn/",
+  "sense": "皮膚、肌",
+  "ja": "肌",
+  "ex": {
+   "en": "She has very soft skin.",
+   "ja": "彼女の肌はとてもやわらかい。",
+   "mark": [
+    "skin"
+   ]
+  },
+  "core": "体の表面をおおう薄い層。",
+  "other": [
+   "（果物の）皮：banana skin"
+  ]
+ },
+ {
+  "src": "M1292",
+  "id": "bone",
+  "cat": "word",
+  "en": "bone",
+  "ipa": "/boʊn/",
+  "sense": "骨",
+  "ja": "骨",
+  "ex": {
+   "en": "The dog is chewing a bone.",
+   "ja": "犬が骨をかじっている。",
+   "mark": [
+    "bone"
+   ]
+  },
+  "core": "体を内側から支える、硬い部分。"
+ },
+ {
+  "src": "M1293",
+  "id": "muscle",
+  "cat": "word",
+  "en": "muscle",
+  "ipa": "/ˈmʌsəl/",
+  "sense": "筋肉",
+  "ja": "筋肉",
+  "ex": {
+   "en": "Running makes your leg muscles strong.",
+   "ja": "走ると脚の筋肉が強くなる。",
+   "mark": [
+    "muscles"
+   ]
+  },
+  "core": "縮んだりのびたりして体を動かす部分。"
+ },
+ {
+  "src": "M1294",
+  "id": "heart",
+  "cat": "word",
+  "en": "heart",
+  "ipa": "/hɑrt/",
+  "sense": "心臓",
+  "ja": "心臓",
+  "ex": {
+   "en": "My heart was beating fast.",
+   "ja": "心臓がどきどきしていた。",
+   "mark": [
+    "heart"
+   ]
+  },
+  "core": "血液を全身に送り出す器官。",
+  "other": [
+   "心、気持ち：a kind heart"
+  ]
+ },
+ {
+  "src": "M1295",
+  "id": "brain",
+  "cat": "word",
+  "en": "brain",
+  "ipa": "/breɪn/",
+  "sense": "脳",
+  "ja": "脳",
+  "ex": {
+   "en": "The brain controls the whole body.",
+   "ja": "脳は体全体を動かしている。",
+   "mark": [
+    "brain"
+   ]
+  },
+  "core": "頭の中にあり、考えたり体を動かしたりする器官。",
+  "other": [
+   "頭のいい人：the brains of the team"
+  ]
+ },
+ {
+  "src": "M1296",
+  "id": "lung",
+  "cat": "word",
+  "en": "lung",
+  "ipa": "/lʌŋ/",
+  "sense": "肺",
+  "ja": "肺",
+  "ex": {
+   "en": "Smoking is bad for your lungs.",
+   "ja": "喫煙は肺に悪い。",
+   "mark": [
+    "lungs"
+   ]
+  },
+  "core": "胸の中にあり、息を吸って吐く器官。"
+ }
+]
