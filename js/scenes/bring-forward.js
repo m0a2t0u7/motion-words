@@ -1,6 +1,6 @@
 // bring forward：週のカレンダーで木曜にあった会議カードを、まめがつかんで前の月曜へ移す（早める）（例文 We brought the meeting forward to Monday.）
 import { seg, lerp, easeInOut, easeOut, hump } from '../ease.js';
-import { hp } from './dig.js';
+import { hp, reach } from './dig.js';
 
 export const meta = { duration: 4.2, beats: [[0, '会議は木曜'], [1.4, '前の日へ移す'], [3.2, '月曜になった']] };
 
@@ -23,6 +23,7 @@ export function create(k) {
       const grab = easeOut(seg(t, 0.5, 1.0)), mv = easeInOut(seg(t, 1.2, 2.6)), rel = easeInOut(seg(t, 2.8, 3.2));
       const cx = lerp(thuX, monX, mv), cy = 117 - hump(mv) * 10;
       b.pose({ x: lerp(330, 190, mv), walk: mv > 0 && mv < 1 ? t * 9 : 0, facing: -1, armR: lerp(10, 160, grab) * (1 - rel) + 10 * rel, lean: 6 * grab * (1 - rel), look: 0.6, mood: t > 2.8 ? 'grin' : 'smile' });
+      if (grab > 0 && rel < 1) b.pose({ armR: lerp(10, reach(b, 1, 'R', cx, cy + 6), grab * (1 - rel)) });
       const h = hp(b, 1);
       tf(card, t < 1.0 ? lerp(thuX, thuX, 0) : cx, t < 1.0 ? 117 : cy, -6 * hump(mv));
       mark.setAttribute('opacity', mv > 0.2 ? 1 : 0);
