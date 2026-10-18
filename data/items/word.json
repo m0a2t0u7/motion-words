@@ -15662,7 +15662,7 @@
       ]
     },
     "core": "頭にのせる物。ふち（つば）のある物が多い。",
-    "diff": "cap はつば付きの帽子。",
+    "diff": "cap は前だけにつばがある帽子。hat は帽子全般で、ふちが一周するものが多い。",
     "other": []
   },
   {
@@ -15716,9 +15716,8 @@
       ]
     },
     "core": "指を一本ずつ包む手の覆い。",
-    "other": [
-      "gloves と複数形で使うことが多い。"
-    ]
+    "other": [],
+    "diff": "gloves と複数形で使うことが多い。"
   },
   {
     "src": "M1360",
@@ -15728,8 +15727,8 @@
     "sense": "ベルト",
     "ja": "ベルト",
     "ex": {
-      "en": "He tightened his belt by one notch after the big meal.",
-      "ja": "彼は大きな食事のあと、ベルトを一つ分ゆるめた。",
+      "en": "He loosened his belt after the big meal.",
+      "ja": "たくさん食べたあと、彼はベルトをゆるめた。",
       "mark": [
         "belt"
       ]
@@ -15873,8 +15872,8 @@
     "sense": "革",
     "ja": "革",
     "ex": {
-      "en": "He bought a leather bag for his mother in Italy.",
-      "ja": "彼はイタリアで、母のために革のかばんを買った。",
+      "en": "He bought a leather bag for his mother.",
+      "ja": "彼は母に革のかばんを買った。",
       "mark": [
         "leather"
       ]
@@ -15915,7 +15914,7 @@
     },
     "core": "物事の特徴的な形や、やり方。",
     "other": [
-      "（服装）髪型や服の型：a new hair style"
+      "（髪・服の）型：a new hairstyle"
     ]
   },
   {
@@ -16003,7 +16002,7 @@
       ]
     },
     "core": "旅行で運ぶかばんなどをまとめた呼び方。数えられない名詞。",
-    "diff": "baggage は主に（英）や航空関係で使う。",
+    "diff": "baggage もほぼ同じ意味で、（米）や空港でよく使う。",
     "other": [
       "数え方：a piece of luggage"
     ]
@@ -16256,7 +16255,7 @@
     },
     "core": "メモや勉強の内容を書き留める、とじた紙の束。",
     "other": [
-      "（ノートパソコン）a notebook computer"
+      "ノートパソコン：a notebook computer"
     ]
   },
   {
@@ -16418,7 +16417,7 @@
     },
     "core": "努力の結果を、段階（階級）で表したもの。",
     "other": [
-      "（学年）年生：He is in the fifth grade."
+      "（米）学年：He is in the fifth grade."
     ]
   },
   {
@@ -16426,7 +16425,7 @@
     "id": "mark",
     "en": "mark",
     "ipa": "/mɑːrk/",
-    "sense": "（試験などの）点数、評点",
+    "sense": "（英）（試験などの）点数・評点",
     "ja": "評点",
     "ex": {
       "en": "I got a high mark in English this term.",
@@ -16582,8 +16581,8 @@
     },
     "core": "新聞や雑誌の中の、ひとまとまりの文章。",
     "other": [
-      "（品詞の）冠詞：the は定冠詞",
-      "（物）品、一品：an article of clothing"
+      "（文法の）冠詞：\"The\" is an article.",
+      "（物の）一品：an article of clothing"
     ]
   },
   {
@@ -17236,7 +17235,7 @@
     "ja": "蒸し暑い",
     "ex": {
       "en": "Summer in Japan is hot and humid.",
-      "ja": "日本の夏は暑くて蒸し暑い。",
+      "ja": "日本の夏は暑くてじめじめしている。",
       "mark": [
         "humid"
       ]
@@ -18772,8 +18771,8 @@
     "sense": "産業の、工業の",
     "ja": "産業の",
     "ex": {
-      "en": "This area has many industrial factories.",
-      "ja": "この地域には多くの工場がある。",
+      "en": "This is an industrial area with many factories.",
+      "ja": "ここは工場の多い工業地域だ。",
       "mark": [
         "industrial"
       ]
@@ -18824,7 +18823,7 @@
     "ja": "手動の",
     "ex": {
       "en": "This is a manual car, not an automatic.",
-      "ja": "これはオートマではなく手動の車だ。",
+      "ja": "これはオートマ車ではなくマニュアル車だ。",
       "mark": [
         "manual"
       ]
@@ -18842,8 +18841,8 @@
     "sense": "自動の",
     "ja": "自動の",
     "ex": {
-      "en": "The door opens with an automatic sensor.",
-      "ja": "そのドアは自動センサーで開く。",
+      "en": "The store has automatic doors.",
+      "ja": "その店のドアは自動ドアだ。",
       "mark": [
         "automatic"
       ]
@@ -18946,14 +18945,16 @@
     "sense": "妥当な、道理にかなった",
     "ja": "妥当な",
     "ex": {
-      "en": "The price of this hotel is quite reasonable.",
-      "ja": "このホテルの料金はかなり手ごろだ。",
+      "en": "That sounds like a reasonable plan.",
+      "ja": "それは妥当な計画だね。",
       "mark": [
         "reasonable"
       ]
     },
     "core": "理由（reason）があり、納得できる。",
-    "other": []
+    "other": [
+      "（値段が）手ごろな：a reasonable price"
+    ]
   },
   {
     "src": "M1929",
@@ -19429,7 +19430,7 @@
     "ja": "ほぼ",
     "ex": {
       "en": "It's nearly midnight. Let's go home.",
-      "ja": "もうすぐ夜中だ。帰ろう。",
+      "ja": "もうすぐ夜の12時だ。帰ろう。",
       "mark": [
         "nearly"
       ]
@@ -19460,11 +19461,11 @@
     "id": "rather",
     "en": "rather",
     "ipa": "/ˈræðər/",
-    "sense": "やや、どちらかといえば",
-    "ja": "やや",
+    "sense": "（思ったより）かなり、けっこう",
+    "ja": "かなり",
     "ex": {
       "en": "It was rather cold this morning.",
-      "ja": "今朝はやや寒かった。",
+      "ja": "今朝は思ったより寒かった。",
       "mark": [
         "rather"
       ]
@@ -20492,8 +20493,8 @@
     "sense": "親指",
     "ja": "親指",
     "ex": {
-      "en": "He gave me a thumbs-up.",
-      "ja": "彼は親指を立てて「いいね」と示した。",
+      "en": "I hurt my thumb in the door.",
+      "ja": "ドアで親指をけがした。",
       "mark": [
         "thumb"
       ]
@@ -20892,7 +20893,7 @@
     "ja": "請求書",
     "ex": {
       "en": "I paid the phone bill today.",
-      "ja": "今日、電話代の請求書を払った。",
+      "ja": "今日、電話代を払った。",
       "mark": [
         "bill"
       ]
@@ -21088,10 +21089,10 @@
     "sense": "大通り",
     "ja": "大通り",
     "ex": {
-      "en": "The museum is on Fifth Avenue.",
-      "ja": "博物館は5番街にある。",
+      "en": "We walked down a wide avenue lined with trees.",
+      "ja": "並木のある広い大通りを歩いた。",
       "mark": [
-        "Avenue"
+        "avenue"
       ]
     },
     "core": "街の中を通る、広くて大きな通り。",
@@ -22514,8 +22515,8 @@
     "sense": "惑星",
     "ja": "惑星",
     "ex": {
-      "en": "Mars is a red planet.",
-      "ja": "火星は赤い惑星だ。",
+      "en": "We can see a bright planet near the moon tonight.",
+      "ja": "今夜は月の近くに明るい惑星が見える。",
       "mark": [
         "planet"
       ]
@@ -23375,7 +23376,7 @@
     "en": "field",
     "ipa": "/fild/",
     "sense": "畑、野原",
-    "ja": "畑",
+    "ja": "野原、畑",
     "ex": {
       "en": "Cows are eating grass in the field.",
       "ja": "牛が野原で草を食べている。",
@@ -24127,8 +24128,8 @@
     "sense": "（大規模な）会議、学会",
     "ja": "会議",
     "ex": {
-      "en": "She spoke at a conference in Tokyo.",
-      "ja": "彼女は東京の会議で講演した。",
+      "en": "She spoke at a big conference last week.",
+      "ja": "彼女は先週、大きな会議で講演した。",
       "mark": [
         "conference"
       ]
@@ -25078,7 +25079,7 @@
       ]
     },
     "core": "携帯電話で送る短い文字のメッセージ。",
-    "diff": "meaning_ja の「文章」も意味の一つだが、日常では携帯メッセージの意味が多い。",
+    "diff": "message は伝言全般。text は携帯電話で送る文字のメッセージ。",
     "other": [
       "（本などの）本文・文章：Read the text on page 10."
     ]
@@ -25581,9 +25582,7 @@
       ]
     },
     "core": "自然や世の中のしくみを、調べて確かめていく学問。",
-    "other": [
-      "（学校の）理科：science class"
-    ]
+    "other": []
   },
   {
     "src": "M1670",

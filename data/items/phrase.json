@@ -22,7 +22,7 @@
     "en": "no strings attached",
     "ipa": "/ˌnoʊ ˌstrɪŋz əˈtætʃt/",
     "sense": "（見返りなどの）条件なしで",
-    "ja": "ひも付きなし",
+    "ja": "見返りなしで",
     "ex": {
       "en": "It's a free gift, no strings attached.",
       "ja": "これは無料の贈り物で、何の条件もありません。",
@@ -1044,7 +1044,7 @@
     "ja": "間に合って",
     "ex": {
       "en": "We got to the store in time.",
-      "ja": "閉店に間に合って店に着いた。",
+      "ja": "店にはなんとか間に合った。",
       "mark": [
         "in time"
       ]
@@ -1289,7 +1289,7 @@
         "At any rate"
       ]
     },
-    "core": "どんな状況（rate）であっても。",
+    "core": "状況がどうであれ、話を肝心な点に戻す。",
     "other": []
   },
   {

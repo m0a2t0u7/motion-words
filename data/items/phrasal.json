@@ -3950,7 +3950,7 @@
     "id": "queue-up",
     "en": "queue up",
     "ipa": "/ˌkjuː ˈʌp/",
-    "sense": "（順番を待って）列に並ぶ",
+    "sense": "（英）（順番を待って）列に並ぶ",
     "ja": "列に並ぶ",
     "ex": {
       "en": "Customers queued up at the cash register.",
@@ -4174,8 +4174,8 @@
     "sense": "中に入れない、立ち入らない",
     "ja": "中に入れない",
     "ex": {
-      "en": "The sign says, Keep out.",
-      "ja": "その看板には「立入禁止」と書いてある。",
+      "en": "The sign on the gate says \"Keep out.\"",
+      "ja": "門の看板には「立入禁止」と書いてある。",
       "mark": [
         "Keep out"
       ]
@@ -6236,7 +6236,7 @@
     "src": "M0326",
     "id": "figure-on",
     "en": "figure on",
-    "ipa": "/ˈfɪɡyɚ ɑːn/",
+    "ipa": "/ˈfɪɡjɚ ɑːn/",
     "sense": "（米）見込む、当てにする",
     "ja": "見込む",
     "ex": {
@@ -6507,8 +6507,8 @@
     "sense": "延期する、待つ",
     "ja": "延期する",
     "ex": {
-      "en": "Let's hold off the decision for a week.",
-      "ja": "決定を1週間待とう。",
+      "en": "Let's hold off on the decision for a week.",
+      "ja": "決めるのは1週間待とう。",
       "mark": [
         "hold off"
       ]
@@ -6925,7 +6925,7 @@
     "src": "M0367",
     "id": "run-up-against",
     "en": "run up against",
-    "ipa": "/ˌrʌn ˈʌp əˌɡenst/",
+    "ipa": "/ˌrʌn ˈʌp əˈɡɛnst/",
     "sense": "（困難・問題に）ぶつかる",
     "ja": "困難にぶつかる",
     "ex": {
@@ -7035,7 +7035,7 @@
     "en": "go ahead",
     "ipa": "/ˌɡoʊ əˈhɛd/",
     "sense": "（許可を得て）先に進める、どうぞ",
-    "ja": "どうぞ、進める",
+    "ja": "どうぞ",
     "ex": {
       "en": "\"Can I start now?\" \"Sure, go ahead.\"",
       "ja": "「もう始めていい？」「ええ、どうぞ」",
@@ -7204,7 +7204,7 @@
     "ja": "頼る",
     "ex": {
       "en": "She always turns to her sister for advice.",
-      "ja": "彼女はいつも姉に相談して頼る。",
+      "ja": "彼女はいつも姉に助言を求める。",
       "mark": [
         "turns to"
       ]
