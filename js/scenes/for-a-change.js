@@ -16,20 +16,19 @@ export function create(k) {
   el('path', { d: `M 200 ${FY} Q 280 ${FY - 30} 400 ${FY - 50} L 400 ${FY - 34} Q 280 ${FY - 14} 214 ${FY} Z`, fill: '#EBD9B4' });
   [[300, FY - 40, pal.coral], [330, FY - 52, pal.yellow], [360, FY - 46, pal.violet], [380, FY - 66, pal.coral], [270, FY - 30, pal.yellow]].forEach(([x, y, c]) => { el('line', { x1: x, y1: y, x2: x, y2: y + 10, stroke: pal.green, 'stroke-width': 2 }); el('circle', { cx: x, cy: y, r: 5, fill: c }); });
   tree(k, 350, FY - 52, 0.7);
-  el('rect', { x: 330, y: 40, width: 60, height: 80, fill: '#C4CCD8' });
-  const G = k.buddy({ x: 40, y: FY, scale: 0.85 });
+  const G = k.buddy({ x: 58, y: FY, scale: 0.85 });
   const C = k.buddy({ x: 0, y: FY, scale: 0.8, color: pal.coral, dark: pal.coralDark });
   const bub = talk(k, 'This way!', 84, 32, -1, 13);
   const path = (x0) => (t) => {
-    if (t < 1.3) return { x: lerp(x0, x0 + 150, easeInOut(seg(t, 0, 1.3))), y: FY };
-    const q = easeInOut(seg(t, 2.1, 4.3)), x = lerp(x0 + 150, x0 + 330, q);
+    if (t < 1.3) return { x: lerp(x0, x0 + 130, easeInOut(seg(t, 0, 1.3))), y: FY };
+    const q = easeInOut(seg(t, 2.1, 4.3)), x = lerp(x0 + 130, x0 + 290, q);
     return { x, y: FY - clamp((x - 210) / 190) * 42 };
   };
-  const pg = path(40), pc = path(-6);
+  const pg = path(58), pc = path(-12);
   return {
     update(t) {
       const a = pg(t), b = pc(t);
-      const wg = gait((tt) => pg(tt).x, t, 40), wc = gait((tt) => pc(tt).x, t, -6);
+      const wg = gait((tt) => pg(tt).x, t, 58), wc = gait((tt) => pc(tt).x, t, -12);
       const point = hump(seg(t, 1.3, 2.3));
       P(G, { x: a.x, y: a.y, walk: wg.walk, armL: wg.armL, armR: t > 1.3 && t < 2.3 ? 8 + 140 * clamp(point * 2) : wg.armR, lean: wg.lean,
         look: t > 1.2 && t < 1.6 ? -0.8 : 0.6, mood: t > 1.3 ? 'grin' : 'flat', blink: blinkAt(t) });

@@ -1,8 +1,9 @@
 // look out for：駅の改札前で、ピンクが手をおでこにかざし、人ごみの中にまめがいないか見張っている（例文 Look out for me at the station.）
 import { seg, lerp, easeInOut, easeOut, hump } from '../ease.js';
+import { walkTo } from './run-after.js';
 import { P, person, walk, path, thought } from './in-common.js';
 
-export const meta = { duration: 4.4, beats: [[0, '駅で待つ'], [1.4, '人ごみを見張る'], [3.4, 'まだ探す']] };
+export const meta = { duration: 4.4, beats: [[0, '駅で待つ'], [1.4, '人ごみを見張る'], [3.0, '見つけた！']] };
 
 export function create(k) {
   const { el, g, tf, pal } = k;
@@ -20,6 +21,8 @@ export function create(k) {
     return { b, xf: path([[d, dir > 0 ? -40 : 440], [d + 2.6, dir > 0 ? 440 : -40]]) };
   });
   const C = k.buddy({ x: 120, y: FY + 6, scale: 0.92, color: pal.coral, dark: pal.coralDark });
+  const gxf = path([[2.0, 460], [3.2, 230]]);
+  const G = k.buddy({ x: 460, y: FY + 6, scale: 0.85, facing: -1 });
   // 探している相手（まめの顔）の思い浮かべ
   const th = thought(k, 50, 40, -1);
   const face = g({}, th.inner);
@@ -31,10 +34,14 @@ export function create(k) {
     update(t) {
       crowd.forEach(({ b, xf }) => walk(b, xf, t, { y: FY - 16, look: 0.4 }));
       // ピンク：手をかざして左右を見わたす（つま先立ちも）
+      const found = seg(t, 3.0, 3.3);
       const scan = Math.sin(t * 1.8);
-      const fc = scan > 0 ? 1 : -1;
-      P(C, { x: 120, y: FY + 6, facing: fc, look: 0.4 + 0.5 * Math.abs(scan), armR: lerp(8, 138, easeOut(seg(t, 0.2, 0.6))), armL: 8, lean: -3 + 4 * Math.abs(scan), lift: 3 * easeOut(seg(t, 0.6, 1.0)), mood: 'flat' });
-      tf(th.g, 172, 96, 0, Math.max(0.001, easeOut(seg(t, 0.5, 0.9))));
+      const fc = found > 0 ? 1 : (scan > 0 ? 1 : -1);
+      P(C, { x: 120, y: FY + 6, facing: fc, look: found > 0 ? 0.6 : 0.4 + 0.5 * Math.abs(scan), armR: found > 0 ? lerp(138, 150, found) : lerp(8, 138, easeOut(seg(t, 0.2, 0.6))), armL: 8, lean: found > 0 ? 0 : -3 + 4 * Math.abs(scan), lift: found > 0 ? 6 * hump(seg(t, 3.0, 3.6)) : 3 * easeOut(seg(t, 0.6, 1.0)), mood: found > 0 ? 'happy' : 'flat' });
+      // まめが改札から歩いてきて手を振る
+      const w = walkTo(gxf, t, 460, -1);
+      P(G, { ...w, y: FY + 6, ...(t > 3.2 ? { armR: 140 + 15 * Math.sin(t * 14), mood: 'happy' } : {}) });
+      tf(th.g, 172, 96, 0, Math.max(0.001, easeOut(seg(t, 0.5, 0.9)) * (1 - seg(t, 2.9, 3.2))));
     }
   };
 }

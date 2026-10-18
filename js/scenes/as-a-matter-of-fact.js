@@ -37,11 +37,11 @@ export function create(k) {
   return {
     update(t) {
       // 相手：ポスターを掲げて「知らないでしょ？」
-      const show = easeOut(seg(t, 0.2, 0.6));
+      const show = easeOut(seg(t, 0.2, 0.6)) * (1 - easeInOut(seg(t, 1.8, 2.3)));
       const surp = easeOut(seg(t, 3.0, 3.3));
       P(c, { x: 280, facing: -1, look: -0.5, armR: lerp(20, 110, show) - 30 * surp, armL: 8 + 40 * surp, mood: t < 3.0 ? 'grin' : 'open', lift: 8 * hump(seg(t, 3.0, 3.4)), lean: -6 * surp, blink: t > 3.0 ? 0 : blinkAt(t, 1) });
       const hc = hp(c, 1);
-      tf(post, hc.x - 14, hc.y - 26, 0, 1);
+      tf(post, hc.x - 14, hc.y - 26, 0, Math.max(0.001, 1 - easeInOut(seg(t, 1.9, 2.3))));
       q.show(300, 100, easeOut(seg(t, 0.6, 0.9)) * (1 - seg(t, 1.5, 1.7)));
       // 自分：見て→にっこり→写真を取り出して見せる
       const take = easeOut(seg(t, 2.0, 2.6));

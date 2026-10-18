@@ -28,8 +28,8 @@ export function create(k) {
   el('rect', { x: -4, y: 104, width: 190, height: 10, rx: 4, fill: pal.coralDark });
   el('rect', { x: 0, y: FY, width: 190, height: 6, fill: '#D5DCE5' });
   const R = rain(k, 40, FY, 150, 420);
-  const c = k.buddy({ x: 92, y: FY, facing: 1, color: pal.coral, dark: pal.coralDark });
-  const b = k.buddy({ x: 150, y: FY, facing: 1 });
+  const c = k.buddy({ x: 78, y: FY, facing: 1, color: pal.coral, dark: pal.coralDark });
+  const b = k.buddy({ x: 162, y: FY, facing: 1 });
   const ub = umbrella(k, pal.blue, pal.blueDark), uc = umbrella(k, pal.yellow, pal.yellowDark);
   return {
     update(t) {
@@ -37,9 +37,9 @@ export function create(k) {
       const look = seg(t, 1.0, 1.9);
       const turn = look > 0 && look < 1;
       const op = easeOut(seg(t, 2.0, 2.4));
-      const xb = (tt) => lerp(150, 330, easeInOut(seg(tt, 2.5, 4.3)));
-      const xc = (tt) => lerp(92, 250, easeInOut(seg(tt, 2.6, 4.4)));
-      const wb = walkTo(xb, t, 150, 1), wc = walkTo(xc, t, 92, 1);
+      const xb = (tt) => lerp(162, 312, easeInOut(seg(tt, 2.5, 4.3)));
+      const xc = (tt) => lerp(78, 216, easeInOut(seg(tt, 2.6, 4.4)));
+      const wb = walkTo(xb, t, 162, 1), wc = walkTo(xc, t, 78, 1);
       const raise = easeOut(seg(t, 1.95, 2.3));
       P(b, { ...wb, facing: turn ? -1 : 1, armR: lerp(30, 150, raise), armL: wb.armL, look: turn ? 0.6 : t < 1.0 ? 0.2 : 0.5, mood: t < 1.0 ? 'flat' : turn ? 'flat' : 'grin', blink: blinkAt(t) });
       P(c, { ...wc, facing: 1, armR: lerp(30, 150, raise), armL: wc.armL, look: turn ? 0.8 : 0.4, mood: t < 1.0 ? 'sad' : turn ? 'flat' : 'grin', blink: blinkAt(t, 1) });

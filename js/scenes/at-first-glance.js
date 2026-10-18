@@ -32,8 +32,8 @@ export function create(k) {
   return {
     update(t) {
       const op = easeOut(seg(t, 2.0, 2.3));
-      tf(drL, 290 - 40 * op, FY - 160, 0, 1, 1);
-      tf(drR, 340 + 40 * op, FY - 160, 0, 1, 1);
+      tf(drL, 290, FY - 160, 0, 1 - 0.7 * op, 1);
+      tf(drR, 390 - 50 * (1 - 0.7 * op), FY - 160, 0, 1 - 0.7 * op, 1);
       items.forEach((n, i) => {
         const p = seg(t, 2.15 + i * 0.07, 2.75 + i * 0.07);
         const [x0, y0] = home[i], [x1, y1] = land[i];
