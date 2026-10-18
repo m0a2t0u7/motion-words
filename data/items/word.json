@@ -14605,5 +14605,5030 @@
     },
     "core": "うそではなく、心から。程度を強める。",
     "other": []
+  },
+  {
+    "src": "M1297",
+    "id": "stomach",
+    "en": "stomach",
+    "ipa": "/ˈstʌmək/",
+    "sense": "胃、おなか",
+    "ja": "胃",
+    "ex": {
+      "en": "My stomach hurts after eating too much cake.",
+      "ja": "ケーキを食べすぎて胃が痛い。",
+      "mark": [
+        "stomach"
+      ]
+    },
+    "core": "食べ物を受け止めて消化する、体の中の袋。",
+    "diff": "「おなか」の意味でも日常的に使う。",
+    "other": [
+      "（おなか）腹：lie on your stomach"
+    ]
+  },
+  {
+    "src": "M1298",
+    "id": "blood",
+    "en": "blood",
+    "ipa": "/blʌd/",
+    "sense": "血液",
+    "ja": "血液",
+    "ex": {
+      "en": "The nurse took a small sample of my blood.",
+      "ja": "看護師は私の血液を少し採取した。",
+      "mark": [
+        "blood"
+      ]
+    },
+    "core": "体の中をめぐって酸素や栄養を運ぶ赤い液体。",
+    "other": [
+      "（血縁）血筋：They are related by blood."
+    ]
+  },
+  {
+    "src": "M1299",
+    "id": "health",
+    "en": "health",
+    "ipa": "/hɛlθ/",
+    "sense": "健康（な状態）",
+    "ja": "健康",
+    "ex": {
+      "en": "Eating well and sleeping enough are good for your health.",
+      "ja": "きちんと食べて十分に眠ることは、健康によい。",
+      "mark": [
+        "health"
+      ]
+    },
+    "core": "体や心がうまく働いている状態。",
+    "diff": "healthy は形容詞。health は名詞。",
+    "other": []
+  },
+  {
+    "src": "M1300",
+    "id": "illness",
+    "en": "illness",
+    "ipa": "/ˈɪlnəs/",
+    "sense": "（一般的な）病気",
+    "ja": "病気",
+    "ex": {
+      "en": "She missed school because of a long illness.",
+      "ja": "彼女は長い病気で学校を休んだ。",
+      "mark": [
+        "illness"
+      ]
+    },
+    "core": "体の調子が悪くなっている状態。",
+    "diff": "disease は特定の病名がつく疾患。illness は具合が悪い状態全般。",
+    "other": []
+  },
+  {
+    "src": "M1301",
+    "id": "disease",
+    "en": "disease",
+    "ipa": "/dɪˈziːz/",
+    "sense": "（病名のつく）疾患",
+    "ja": "疾患",
+    "ex": {
+      "en": "Heart disease is a serious problem for many people.",
+      "ja": "心臓病は多くの人にとって深刻な問題だ。",
+      "mark": [
+        "disease"
+      ]
+    },
+    "core": "原因や名前がはっきりした、体の病的な状態。",
+    "diff": "illness は具合の悪さ全般。disease は病名のつく病気。",
+    "other": []
+  },
+  {
+    "src": "M1302",
+    "id": "symptom",
+    "en": "symptom",
+    "ipa": "/ˈsɪmptəm/",
+    "sense": "（病気の）症状",
+    "ja": "症状",
+    "ex": {
+      "en": "A cough is a common symptom of a cold.",
+      "ja": "せきは風邪によくある症状だ。",
+      "mark": [
+        "symptom"
+      ]
+    },
+    "core": "病気があることを示す、体に出たしるし。",
+    "other": []
+  },
+  {
+    "src": "M1303",
+    "id": "pain",
+    "en": "pain",
+    "ipa": "/peɪn/",
+    "sense": "（体の）痛み",
+    "ja": "痛み",
+    "ex": {
+      "en": "I felt a sharp pain in my knee.",
+      "ja": "ひざに鋭い痛みを感じた。",
+      "mark": [
+        "pain"
+      ]
+    },
+    "core": "体が出す「どこか悪い」という不快な信号。",
+    "other": [
+      "（苦痛）心の痛み：the pain of losing a friend"
+    ]
+  },
+  {
+    "src": "M1304",
+    "id": "fever",
+    "en": "fever",
+    "ipa": "/ˈfiːvər/",
+    "sense": "発熱、熱",
+    "ja": "発熱",
+    "ex": {
+      "en": "The child stayed home from school because he had a high fever.",
+      "ja": "その子は高い熱があったので学校を休んだ。",
+      "mark": [
+        "fever"
+      ]
+    },
+    "core": "体温が普段より上がった状態。",
+    "diff": "have a fever は「熱がある」。",
+    "other": []
+  },
+  {
+    "src": "M1305",
+    "id": "headache",
+    "en": "headache",
+    "ipa": "/ˈhɛdeɪk/",
+    "sense": "頭痛",
+    "ja": "頭痛",
+    "ex": {
+      "en": "I have a headache, so I'm going to lie down.",
+      "ja": "頭が痛いので、横になるつもりだ。",
+      "mark": [
+        "headache"
+      ]
+    },
+    "core": "頭（head）の痛み（ache）。",
+    "other": [
+      "（悩みの種）頭の痛い問題：This job is a headache."
+    ]
+  },
+  {
+    "src": "M1307",
+    "id": "flu",
+    "en": "flu",
+    "ipa": "/fluː/",
+    "sense": "インフルエンザ",
+    "ja": "インフルエンザ",
+    "ex": {
+      "en": "Half of my class is out with the flu.",
+      "ja": "クラスの半分がインフルエンザで休んでいる。",
+      "mark": [
+        "flu"
+      ]
+    },
+    "core": "influenza を縮めた言い方。ウイルスで急に熱が出る病気。",
+    "diff": "cold は軽い風邪。flu は高熱など症状が重い。",
+    "other": []
+  },
+  {
+    "src": "M1308",
+    "id": "allergy",
+    "en": "allergy",
+    "ipa": "/ˈælərdʒi/",
+    "sense": "アレルギー",
+    "ja": "アレルギー",
+    "ex": {
+      "en": "My brother has an allergy to eggs, so he can't eat cake.",
+      "ja": "弟は卵アレルギーなので、ケーキが食べられない。",
+      "mark": [
+        "allergy"
+      ]
+    },
+    "core": "特定の物に体が過剰に反応する状態。",
+    "other": []
+  },
+  {
+    "src": "M1309",
+    "id": "injury",
+    "en": "injury",
+    "ipa": "/ˈɪndʒəri/",
+    "sense": "（事故などによる）けが",
+    "ja": "けが",
+    "ex": {
+      "en": "The player missed the game because of an injury.",
+      "ja": "その選手はけがで試合を休んだ。",
+      "mark": [
+        "injury"
+      ]
+    },
+    "core": "事故や衝撃で体が傷つくこと。",
+    "diff": "wound は刃物や銃などによる傷。injury は広くけが全般。",
+    "other": []
+  },
+  {
+    "src": "M1310",
+    "id": "wound",
+    "en": "wound",
+    "ipa": "/wuːnd/",
+    "sense": "（刃物・銃などによる）傷",
+    "ja": "傷",
+    "ex": {
+      "en": "The doctor cleaned the wound on his arm.",
+      "ja": "医者は彼の腕の傷を消毒した。",
+      "mark": [
+        "wound"
+      ]
+    },
+    "core": "皮膚が切れたり破れたりしてできた傷。",
+    "diff": "injury はけが全般。wound は皮膚が裂けた傷。",
+    "other": [
+      "（心の）傷：an emotional wound"
+    ]
+  },
+  {
+    "src": "M1311",
+    "id": "bruise",
+    "en": "bruise",
+    "ipa": "/bruːz/",
+    "sense": "あざ、打撲",
+    "ja": "あざ",
+    "ex": {
+      "en": "I got a big bruise on my leg.",
+      "ja": "脚に大きなあざができた。",
+      "mark": [
+        "bruise"
+      ]
+    },
+    "core": "ぶつけて、皮膚の下が青黒く変わった跡。",
+    "other": []
+  },
+  {
+    "src": "M1312",
+    "id": "infection",
+    "en": "infection",
+    "ipa": "/ɪnˈfɛkʃən/",
+    "sense": "感染（症）",
+    "ja": "感染",
+    "ex": {
+      "en": "The cut got an infection, so he took medicine.",
+      "ja": "傷が感染したので、彼は薬を飲んだ。",
+      "mark": [
+        "infection"
+      ]
+    },
+    "core": "細菌やウイルスが体に入り込んで広がること。",
+    "other": []
+  },
+  {
+    "src": "M1313",
+    "id": "medicine",
+    "en": "medicine",
+    "ipa": "/ˈmɛdəsən/",
+    "sense": "薬",
+    "ja": "薬",
+    "ex": {
+      "en": "The doctor told me to take this medicine after every meal.",
+      "ja": "医者は私に、毎食後にこの薬を飲むよう言った。",
+      "mark": [
+        "medicine"
+      ]
+    },
+    "core": "病気やけがを治すために体に入れる物。",
+    "other": [
+      "（医学）医学：study medicine"
+    ]
+  },
+  {
+    "src": "M1314",
+    "id": "pill",
+    "en": "pill",
+    "ipa": "/pɪl/",
+    "sense": "錠剤",
+    "ja": "錠剤",
+    "ex": {
+      "en": "She takes a vitamin pill with a glass of water every morning.",
+      "ja": "彼女は毎朝、水と一緒にビタミン剤を飲む。",
+      "mark": [
+        "pill"
+      ]
+    },
+    "core": "小さく丸めて飲みやすくした薬。",
+    "diff": "tablet は平たく固めた錠剤。pill は丸い粒の薬を指すことが多い。",
+    "other": []
+  },
+  {
+    "src": "M1315",
+    "id": "tablet",
+    "en": "tablet",
+    "ipa": "/ˈtæblət/",
+    "sense": "タブレット端末",
+    "ja": "タブレット端末",
+    "ex": {
+      "en": "I read the news on my tablet in bed.",
+      "ja": "私はベッドでタブレットでニュースを読む。",
+      "mark": [
+        "tablet"
+      ]
+    },
+    "core": "平らな板のような形の物。画面を指で操作する端末。",
+    "other": [
+      "（薬）錠剤：take two tablets"
+    ]
+  },
+  {
+    "src": "M1316",
+    "id": "prescription",
+    "en": "prescription",
+    "ipa": "/prɪˈskrɪpʃən/",
+    "sense": "処方箋",
+    "ja": "処方箋",
+    "ex": {
+      "en": "The doctor wrote me a prescription for the cough.",
+      "ja": "医者はせきの処方箋を書いてくれた。",
+      "mark": [
+        "prescription"
+      ]
+    },
+    "core": "医者があらかじめ書いて指示する、薬の指示書。",
+    "other": []
+  },
+  {
+    "src": "M1317",
+    "id": "bandage",
+    "en": "bandage",
+    "ipa": "/ˈbændɪdʒ/",
+    "sense": "包帯",
+    "ja": "包帯",
+    "ex": {
+      "en": "The nurse put a bandage on his hand.",
+      "ja": "看護師は彼の手に包帯を巻いた。",
+      "mark": [
+        "bandage"
+      ]
+    },
+    "core": "傷を覆って守る、細長い布。",
+    "other": []
+  },
+  {
+    "src": "M1318",
+    "id": "mask",
+    "en": "mask",
+    "ipa": "/mæsk/",
+    "sense": "（顔をおおう）マスク",
+    "ja": "マスク",
+    "ex": {
+      "en": "Please wear a mask when you visit your friend in the hospital.",
+      "ja": "病院の友人を見舞うときはマスクをつけてください。",
+      "mark": [
+        "mask"
+      ]
+    },
+    "core": "顔の一部をおおって守る物。",
+    "other": [
+      "（仮面）顔につける面：a Halloween mask"
+    ]
+  },
+  {
+    "src": "M1319",
+    "id": "hospital",
+    "en": "hospital",
+    "ipa": "/ˈhɑːspɪtl/",
+    "sense": "病院",
+    "ja": "病院",
+    "ex": {
+      "en": "My mother works at a hospital as a nurse.",
+      "ja": "母は病院で看護師として働いている。",
+      "mark": [
+        "hospital"
+      ]
+    },
+    "core": "入院や手術ができる大きな医療施設。",
+    "diff": "clinic は通院で診てもらう小さな診療所。",
+    "other": []
+  },
+  {
+    "src": "M1320",
+    "id": "clinic",
+    "en": "clinic",
+    "ipa": "/ˈklɪnɪk/",
+    "sense": "診療所、クリニック",
+    "ja": "診療所",
+    "ex": {
+      "en": "I went to a clinic near my house.",
+      "ja": "私は家の近くの診療所に行った。",
+      "mark": [
+        "clinic"
+      ]
+    },
+    "core": "通院して診てもらう、小さめの医療施設。",
+    "diff": "hospital は入院設備のある大きな病院。",
+    "other": []
+  },
+  {
+    "src": "M1321",
+    "id": "pharmacy",
+    "en": "pharmacy",
+    "ipa": "/ˈfɑːrməsi/",
+    "sense": "薬局",
+    "ja": "薬局",
+    "ex": {
+      "en": "You can buy cold medicine at the pharmacy.",
+      "ja": "薬局で風邪薬が買えます。",
+      "mark": [
+        "pharmacy"
+      ]
+    },
+    "core": "薬を調合して売る店。",
+    "other": []
+  },
+  {
+    "src": "M1322",
+    "id": "ambulance",
+    "en": "ambulance",
+    "ipa": "/ˈæmbjələns/",
+    "sense": "救急車",
+    "ja": "救急車",
+    "ex": {
+      "en": "An ambulance arrived at the scene of the accident within five minutes.",
+      "ja": "救急車は5分以内に事故現場へ到着した。",
+      "mark": [
+        "ambulance"
+      ]
+    },
+    "core": "病人やけが人を病院へ運ぶ車。",
+    "other": []
+  },
+  {
+    "src": "M1323",
+    "id": "emergency",
+    "en": "emergency",
+    "ipa": "/ɪˈmɜːrdʒənsi/",
+    "sense": "緊急事態",
+    "ja": "緊急事態",
+    "ex": {
+      "en": "Call 911 right away if you are in an emergency situation.",
+      "ja": "緊急事態のときは、すぐに911に電話してください。",
+      "mark": [
+        "emergency"
+      ]
+    },
+    "core": "すぐに対応しないといけない、突然の危ない状況。",
+    "other": [
+      "（緊急の）緊急の：an emergency exit"
+    ]
+  },
+  {
+    "src": "M1324",
+    "id": "appointment",
+    "en": "appointment",
+    "ipa": "/əˈpɔɪntmənt/",
+    "sense": "（医者などの）診察予約",
+    "ja": "予約",
+    "ex": {
+      "en": "I have a dentist appointment at three, so I must leave early.",
+      "ja": "3時に歯医者の予約があるので、早く出なければならない。",
+      "mark": [
+        "appointment"
+      ]
+    },
+    "core": "会う日時を前もって決めた約束。",
+    "diff": "reservation はホテルや席の予約。appointment は人に会う予約。",
+    "other": []
+  },
+  {
+    "src": "M1325",
+    "id": "treatment",
+    "en": "treatment",
+    "ipa": "/ˈtriːtmənt/",
+    "sense": "治療",
+    "ja": "治療",
+    "ex": {
+      "en": "The treatment for the injury took two months.",
+      "ja": "そのけがの治療には2か月かかった。",
+      "mark": [
+        "treatment"
+      ]
+    },
+    "core": "病気やけがを治すために行う手当て。",
+    "other": [
+      "（扱い）接し方：unfair treatment"
+    ]
+  },
+  {
+    "src": "M1326",
+    "id": "surgery",
+    "en": "surgery",
+    "ipa": "/ˈsɜːrdʒəri/",
+    "sense": "手術",
+    "ja": "手術",
+    "ex": {
+      "en": "He had surgery on his knee last year.",
+      "ja": "彼は去年ひざの手術を受けた。",
+      "mark": [
+        "surgery"
+      ]
+    },
+    "core": "体を切って治す医療。",
+    "other": []
+  },
+  {
+    "src": "M1327",
+    "id": "checkup",
+    "en": "checkup",
+    "ipa": "/ˈtʃɛkʌp/",
+    "sense": "健康診断、定期検診",
+    "ja": "健康診断",
+    "ex": {
+      "en": "I go to the dentist for a checkup every year.",
+      "ja": "私は毎年、歯医者で定期検診を受ける。",
+      "mark": [
+        "checkup"
+      ]
+    },
+    "core": "悪いところがないか、全体を点検すること。",
+    "other": []
+  },
+  {
+    "src": "M1328",
+    "id": "recovery",
+    "en": "recovery",
+    "ipa": "/rɪˈkʌvəri/",
+    "sense": "（病気などからの）回復",
+    "ja": "回復",
+    "ex": {
+      "en": "We all wish you a quick and full recovery from the surgery.",
+      "ja": "手術からの早く完全な回復を、みんなで祈っています。",
+      "mark": [
+        "recovery"
+      ]
+    },
+    "core": "悪い状態から元の状態へ戻ること。",
+    "other": [
+      "（景気の）回復：economic recovery"
+    ]
+  },
+  {
+    "src": "M1329",
+    "id": "diet",
+    "en": "diet",
+    "ipa": "/ˈdaɪət/",
+    "sense": "食生活、食事",
+    "ja": "食生活",
+    "ex": {
+      "en": "A healthy diet includes plenty of vegetables, fruit, and fish.",
+      "ja": "健康的な食生活には、野菜、果物、魚がたっぷり含まれる。",
+      "mark": [
+        "diet"
+      ]
+    },
+    "core": "ふだん食べる物の組み合わせ。",
+    "diff": "日本語の「ダイエット」と違い、減量の意味は be on a diet のように使う。",
+    "other": [
+      "（減量）食事制限：be on a diet"
+    ]
+  },
+  {
+    "src": "M1330",
+    "id": "vitamin",
+    "en": "vitamin",
+    "ipa": "/ˈvaɪtəmɪn/",
+    "sense": "ビタミン",
+    "ja": "ビタミン",
+    "ex": {
+      "en": "Oranges are full of vitamin C, which helps prevent colds.",
+      "ja": "オレンジはビタミンCが豊富で、風邪の予防に役立つ。",
+      "mark": [
+        "vitamin"
+      ]
+    },
+    "core": "体の調子を保つために少量だけ必要な栄養素。",
+    "diff": "発音は「ヴィタミン」ではなく /ˈvaɪ/ で始まる（米）。",
+    "other": []
+  },
+  {
+    "src": "M1331",
+    "id": "protein",
+    "en": "protein",
+    "ipa": "/ˈproʊtiːn/",
+    "sense": "タンパク質",
+    "ja": "タンパク質",
+    "ex": {
+      "en": "Eggs and fish are good sources of protein.",
+      "ja": "卵や魚はタンパク質のよい供給源だ。",
+      "mark": [
+        "protein"
+      ]
+    },
+    "core": "筋肉などの体をつくる、基本的な栄養素。",
+    "other": []
+  },
+  {
+    "src": "M1332",
+    "id": "energy",
+    "en": "energy",
+    "ipa": "/ˈɛnərdʒi/",
+    "sense": "（体の）活力、元気",
+    "ja": "元気、活力",
+    "ex": {
+      "en": "I have no energy after a long day.",
+      "ja": "長い一日のあとは元気が出ない。",
+      "mark": [
+        "energy"
+      ]
+    },
+    "core": "体や物を動かす力の元。",
+    "other": [
+      "（資源）エネルギー：solar energy"
+    ]
+  },
+  {
+    "src": "M1333",
+    "id": "stress",
+    "en": "stress",
+    "ipa": "/strɛs/",
+    "sense": "（精神的な）ストレス",
+    "ja": "ストレス",
+    "ex": {
+      "en": "Too much work causes a lot of stress.",
+      "ja": "仕事が多すぎると大きなストレスになる。",
+      "mark": [
+        "stress"
+      ]
+    },
+    "core": "心や体にかかる、押さえつけられるような負担。",
+    "other": [
+      "（強勢）語の強く言う部分：the stress of a word"
+    ]
+  },
+  {
+    "src": "M1334",
+    "id": "habit",
+    "en": "habit",
+    "ipa": "/ˈhæbɪt/",
+    "sense": "習慣、癖",
+    "ja": "習慣",
+    "ex": {
+      "en": "Brushing your teeth after every meal is a very good habit.",
+      "ja": "毎食後に歯をみがくのは、とてもよい習慣だ。",
+      "mark": [
+        "habit"
+      ]
+    },
+    "core": "くり返すうちに、考えなくても行うようになったこと。",
+    "diff": "routine は決まった手順の日課。habit は身についた癖や習慣。",
+    "other": []
+  },
+  {
+    "src": "M1335",
+    "id": "routine",
+    "en": "routine",
+    "ipa": "/ruːˈtiːn/",
+    "sense": "日課、お決まりの手順",
+    "ja": "日課",
+    "ex": {
+      "en": "My morning routine takes about thirty minutes from start to finish.",
+      "ja": "私の朝の日課は、最初から最後まで約30分かかる。",
+      "mark": [
+        "routine"
+      ]
+    },
+    "core": "毎日同じ順番でくり返す決まった流れ。",
+    "diff": "habit は身についた癖。routine は決まった手順の流れ。",
+    "other": []
+  },
+  {
+    "src": "M1336",
+    "id": "fitness",
+    "en": "fitness",
+    "ipa": "/ˈfɪtnəs/",
+    "sense": "体力、健康な体",
+    "ja": "体力",
+    "ex": {
+      "en": "Swimming is a great way to improve your fitness.",
+      "ja": "水泳は体力をつけるのによい方法だ。",
+      "mark": [
+        "fitness"
+      ]
+    },
+    "core": "体が運動や活動に十分に合っている（fit）状態。",
+    "other": []
+  },
+  {
+    "src": "M1337",
+    "id": "posture",
+    "en": "posture",
+    "ipa": "/ˈpɑːstʃər/",
+    "sense": "姿勢",
+    "ja": "姿勢",
+    "ex": {
+      "en": "Good posture while sitting at your desk helps prevent back pain.",
+      "ja": "机に向かうときのよい姿勢は、腰痛の予防に役立つ。",
+      "mark": [
+        "posture"
+      ]
+    },
+    "core": "立ったり座ったりするときの体の構え。",
+    "other": []
+  },
+  {
+    "src": "M1338",
+    "id": "breath",
+    "en": "breath",
+    "ipa": "/brɛθ/",
+    "sense": "息",
+    "ja": "息",
+    "ex": {
+      "en": "Take a deep breath and count slowly to ten before you answer.",
+      "ja": "深く息を吸って、答える前にゆっくり10まで数えなさい。",
+      "mark": [
+        "breath"
+      ]
+    },
+    "core": "口や鼻から出入りする空気。",
+    "diff": "breathe（息をする）は動詞で、発音は /briːð/。",
+    "other": [
+      "息切れ：out of breath"
+    ]
+  },
+  {
+    "src": "M1339",
+    "id": "clothes",
+    "en": "clothes",
+    "ipa": "/kloʊðz/",
+    "sense": "衣服",
+    "ja": "衣服",
+    "ex": {
+      "en": "I need to buy some new clothes for winter.",
+      "ja": "冬用の新しい服を買わないといけない。",
+      "mark": [
+        "clothes"
+      ]
+    },
+    "core": "体に着るもの全般。いつも複数形。",
+    "diff": "cloth は布、clothes は衣服。",
+    "other": []
+  },
+  {
+    "src": "M1340",
+    "id": "shirt",
+    "en": "shirt",
+    "ipa": "/ʃɜːrt/",
+    "sense": "シャツ",
+    "ja": "シャツ",
+    "ex": {
+      "en": "He wore a white shirt to the party.",
+      "ja": "彼はパーティーに白いシャツを着ていった。",
+      "mark": [
+        "shirt"
+      ]
+    },
+    "core": "上半身に着る、えりや袖のある服。",
+    "other": []
+  },
+  {
+    "src": "M1341",
+    "id": "blouse",
+    "en": "blouse",
+    "ipa": "/blaʊs/",
+    "sense": "ブラウス",
+    "ja": "ブラウス",
+    "ex": {
+      "en": "She wore a pink blouse and a black skirt.",
+      "ja": "彼女はピンクのブラウスと黒いスカートを着ていた。",
+      "mark": [
+        "blouse"
+      ]
+    },
+    "core": "女性が着る、ゆったりしたシャツ風の上着。",
+    "other": []
+  },
+  {
+    "src": "M1342",
+    "id": "sweater",
+    "en": "sweater",
+    "ipa": "/ˈswɛtər/",
+    "sense": "セーター",
+    "ja": "セーター",
+    "ex": {
+      "en": "Put on a sweater before you go out, because it's cold.",
+      "ja": "寒いから、出かける前にセーターを着なさい。",
+      "mark": [
+        "sweater"
+      ]
+    },
+    "core": "毛糸などで編んだ、あたたかい上着。",
+    "other": []
+  },
+  {
+    "src": "M1343",
+    "id": "jacket",
+    "en": "jacket",
+    "ipa": "/ˈdʒækɪt/",
+    "sense": "上着、ジャケット",
+    "ja": "上着",
+    "ex": {
+      "en": "He left his jacket on the train and had to go back.",
+      "ja": "彼は電車に上着を忘れて、取りに戻らなければならなかった。",
+      "mark": [
+        "jacket"
+      ]
+    },
+    "core": "丈が短めで、シャツなどの上に着る上着。",
+    "diff": "coat は丈が長く、厚手の外套。",
+    "other": []
+  },
+  {
+    "src": "M1344",
+    "id": "coat",
+    "en": "coat",
+    "ipa": "/koʊt/",
+    "sense": "コート、外套",
+    "ja": "コート",
+    "ex": {
+      "en": "I need a warm coat for the winter.",
+      "ja": "冬用のあたたかいコートが必要だ。",
+      "mark": [
+        "coat"
+      ]
+    },
+    "core": "寒さを防ぐために一番上に着る、丈の長い服。",
+    "diff": "jacket は丈が短い上着。",
+    "other": []
+  },
+  {
+    "src": "M1345",
+    "id": "suit",
+    "en": "suit",
+    "ipa": "/suːt/",
+    "sense": "スーツ",
+    "ja": "スーツ",
+    "ex": {
+      "en": "My father always wears a dark suit and a tie to work.",
+      "ja": "父は仕事にいつも、濃い色のスーツとネクタイを身につけていく。",
+      "mark": [
+        "suit"
+      ]
+    },
+    "core": "同じ布でそろえた上着とズボン（またはスカート）。",
+    "other": [
+      "（訴え）訴訟：file a suit"
+    ]
+  },
+  {
+    "src": "M1346",
+    "id": "uniform",
+    "en": "uniform",
+    "ipa": "/ˈjuːnəfɔːrm/",
+    "sense": "制服",
+    "ja": "制服",
+    "ex": {
+      "en": "Students at my school have to wear a uniform every day.",
+      "ja": "私の学校の生徒は、毎日制服を着なければならない。",
+      "mark": [
+        "uniform"
+      ]
+    },
+    "core": "同じ形（form）にそろえた服。",
+    "other": []
+  },
+  {
+    "src": "M1347",
+    "id": "skirt",
+    "en": "skirt",
+    "ipa": "/skɜːrt/",
+    "sense": "スカート",
+    "ja": "スカート",
+    "ex": {
+      "en": "She bought a long skirt for the party.",
+      "ja": "彼女はパーティー用に長いスカートを買った。",
+      "mark": [
+        "skirt"
+      ]
+    },
+    "core": "腰から下をおおう、筒状の服。",
+    "other": []
+  },
+  {
+    "src": "M1348",
+    "id": "trousers",
+    "en": "trousers",
+    "ipa": "/ˈtraʊzərz/",
+    "sense": "ズボン",
+    "ja": "ズボン",
+    "ex": {
+      "en": "These trousers are a little too long, so I'll shorten them.",
+      "ja": "このズボンは少し長すぎるので、丈を詰めるつもりだ。",
+      "mark": [
+        "trousers"
+      ]
+    },
+    "core": "両脚を通す長い服。いつも複数形。",
+    "diff": "（米）では pants が普通。trousers はやや改まった言い方。",
+    "other": []
+  },
+  {
+    "src": "M1349",
+    "id": "jeans",
+    "en": "jeans",
+    "ipa": "/dʒiːnz/",
+    "sense": "ジーンズ",
+    "ja": "ジーンズ",
+    "ex": {
+      "en": "I usually wear jeans and a T-shirt on the weekend.",
+      "ja": "私は週末はたいていジーンズとTシャツを着ている。",
+      "mark": [
+        "jeans"
+      ]
+    },
+    "core": "丈夫な綿布で作った、カジュアルなズボン。いつも複数形。",
+    "other": []
+  },
+  {
+    "src": "M1350",
+    "id": "shorts",
+    "en": "shorts",
+    "ipa": "/ʃɔːrts/",
+    "sense": "半ズボン",
+    "ja": "半ズボン",
+    "ex": {
+      "en": "He wore shorts and a T-shirt because it was so hot.",
+      "ja": "とても暑かったので、彼は半ズボンとTシャツを着ていた。",
+      "mark": [
+        "shorts"
+      ]
+    },
+    "core": "ひざより上の丈の短いズボン（short）。いつも複数形。",
+    "other": []
+  },
+  {
+    "src": "M1351",
+    "id": "sock",
+    "en": "sock",
+    "ipa": "/sɑːk/",
+    "sense": "靴下",
+    "ja": "靴下",
+    "ex": {
+      "en": "I can't find my other sock anywhere in the house.",
+      "ja": "もう片方の靴下が、家のどこにも見つからない。",
+      "mark": [
+        "sock"
+      ]
+    },
+    "core": "足を包んで、靴の中で守る布。ふつう2つで1組。",
+    "other": [],
+    "diff": "socks と複数形で使うことが多い。"
+  },
+  {
+    "src": "M1352",
+    "id": "shoe",
+    "en": "shoe",
+    "ipa": "/ʃuː/",
+    "sense": "靴",
+    "ja": "靴",
+    "ex": {
+      "en": "These shoes are too small for me, so I can't walk well.",
+      "ja": "この靴は私には小さすぎて、うまく歩けない。",
+      "mark": [
+        "shoe"
+      ]
+    },
+    "core": "足を守るために履く物。ふつう左右で1組。",
+    "other": [],
+    "diff": "shoes と複数形で使うことが多い。"
+  },
+  {
+    "src": "M1353",
+    "id": "boot",
+    "en": "boot",
+    "ipa": "/buːt/",
+    "sense": "ブーツ",
+    "ja": "ブーツ",
+    "ex": {
+      "en": "He put on his boots and went out in the snow.",
+      "ja": "彼はブーツをはいて雪の中へ出ていった。",
+      "mark": [
+        "boot"
+      ]
+    },
+    "core": "足首より上まで包む、丈夫な靴。",
+    "other": []
+  },
+  {
+    "src": "M1354",
+    "id": "sandal",
+    "en": "sandal",
+    "ipa": "/ˈsændl/",
+    "sense": "サンダル",
+    "ja": "サンダル",
+    "ex": {
+      "en": "I like to wear sandals when I walk along the beach.",
+      "ja": "私は海辺を歩くときはサンダルをはくのが好きだ。",
+      "mark": [
+        "sandal"
+      ]
+    },
+    "core": "ひもや帯で足に留める、開いた靴。",
+    "other": []
+  },
+  {
+    "src": "M1355",
+    "id": "slipper",
+    "en": "slipper",
+    "ipa": "/ˈslɪpər/",
+    "sense": "スリッパ",
+    "ja": "スリッパ",
+    "ex": {
+      "en": "Put on your slippers. The floor is cold.",
+      "ja": "スリッパをはきなさい。床が冷たいよ。",
+      "mark": [
+        "slipper"
+      ]
+    },
+    "core": "家の中で履く、軽くて脱ぎやすいはき物。",
+    "other": []
+  },
+  {
+    "src": "M1356",
+    "id": "hat",
+    "en": "hat",
+    "ipa": "/hæt/",
+    "sense": "（ふちのある）帽子",
+    "ja": "帽子",
+    "ex": {
+      "en": "She wore a big hat to the beach.",
+      "ja": "彼女は海辺に大きな帽子をかぶっていった。",
+      "mark": [
+        "hat"
+      ]
+    },
+    "core": "頭にのせる物。ふち（つば）のある物が多い。",
+    "diff": "cap はつば付きの帽子。",
+    "other": []
+  },
+  {
+    "src": "M1357",
+    "id": "cap",
+    "en": "cap",
+    "ipa": "/kæp/",
+    "sense": "つば付きの帽子",
+    "ja": "つば付き帽子",
+    "ex": {
+      "en": "He always wears a baseball cap when he goes out to play.",
+      "ja": "彼は遊びに出かけるとき、いつも野球帽をかぶっている。",
+      "mark": [
+        "cap"
+      ]
+    },
+    "core": "前にだけつばがある、頭にぴったりの帽子。",
+    "other": [
+      "（ふた）ふた：put the cap on the bottle"
+    ]
+  },
+  {
+    "src": "M1358",
+    "id": "scarf",
+    "en": "scarf",
+    "ipa": "/skɑːrf/",
+    "sense": "マフラー、スカーフ",
+    "ja": "マフラー",
+    "ex": {
+      "en": "She wrapped a warm scarf around her neck before leaving home.",
+      "ja": "彼女は家を出る前に、あたたかいマフラーを首に巻いた。",
+      "mark": [
+        "scarf"
+      ]
+    },
+    "core": "首に巻く長い布。",
+    "other": []
+  },
+  {
+    "src": "M1359",
+    "id": "glove",
+    "en": "glove",
+    "ipa": "/ɡlʌv/",
+    "sense": "手袋",
+    "ja": "手袋",
+    "ex": {
+      "en": "I lost one glove on the way home.",
+      "ja": "帰り道で手袋を片方なくした。",
+      "mark": [
+        "glove"
+      ]
+    },
+    "core": "指を一本ずつ包む手の覆い。",
+    "other": [
+      "gloves と複数形で使うことが多い。"
+    ]
+  },
+  {
+    "src": "M1360",
+    "id": "belt",
+    "en": "belt",
+    "ipa": "/bɛlt/",
+    "sense": "ベルト",
+    "ja": "ベルト",
+    "ex": {
+      "en": "He tightened his belt by one notch after the big meal.",
+      "ja": "彼は大きな食事のあと、ベルトを一つ分ゆるめた。",
+      "mark": [
+        "belt"
+      ]
+    },
+    "core": "腰に巻いて、ズボンなどを留める帯。",
+    "other": [
+      "（シートベルト）安全のためのベルト：a seat belt"
+    ]
+  },
+  {
+    "src": "M1361",
+    "id": "tie",
+    "en": "tie",
+    "ipa": "/taɪ/",
+    "sense": "ネクタイ",
+    "ja": "ネクタイ",
+    "ex": {
+      "en": "He wore a blue tie to the meeting.",
+      "ja": "彼は会議に青いネクタイをしていった。",
+      "mark": [
+        "tie"
+      ]
+    },
+    "core": "首にむすぶ（tie）細長い布。",
+    "other": [
+      "（結ぶ）ひもを結ぶ：tie a knot"
+    ]
+  },
+  {
+    "src": "M1362",
+    "id": "pocket",
+    "en": "pocket",
+    "ipa": "/ˈpɑːkɪt/",
+    "sense": "ポケット",
+    "ja": "ポケット",
+    "ex": {
+      "en": "I put the key in my pocket so I wouldn't lose it.",
+      "ja": "なくさないように、私はカギをポケットに入れた。",
+      "mark": [
+        "pocket"
+      ]
+    },
+    "core": "服についた、小物を入れる小さな袋。",
+    "other": []
+  },
+  {
+    "src": "M1363",
+    "id": "button",
+    "en": "button",
+    "ipa": "/ˈbʌtn/",
+    "sense": "（服の）ボタン",
+    "ja": "ボタン",
+    "ex": {
+      "en": "A button came off my shirt while I was running for the bus.",
+      "ja": "バスに向かって走っているときに、シャツのボタンが取れた。",
+      "mark": [
+        "button"
+      ]
+    },
+    "core": "服の合わせ目を留める、小さな丸い物。",
+    "other": [
+      "（押しボタン）押して使う部分：press the button"
+    ]
+  },
+  {
+    "src": "M1364",
+    "id": "zipper",
+    "en": "zipper",
+    "ipa": "/ˈzɪpər/",
+    "sense": "ファスナー",
+    "ja": "ファスナー",
+    "ex": {
+      "en": "The zipper on my bag is stuck, and I can't open it.",
+      "ja": "かばんのファスナーが引っかかって、開けられない。",
+      "mark": [
+        "zipper"
+      ]
+    },
+    "core": "2つの列がかみ合って開け閉めできる留め具。",
+    "diff": "（米）では zipper、（英）では zip と言う。",
+    "other": []
+  },
+  {
+    "src": "M1365",
+    "id": "sleeve",
+    "en": "sleeve",
+    "ipa": "/sliːv/",
+    "sense": "袖",
+    "ja": "袖",
+    "ex": {
+      "en": "He rolled up his sleeves and started working.",
+      "ja": "彼は袖をまくって働き始めた。",
+      "mark": [
+        "sleeve"
+      ]
+    },
+    "core": "腕を通す、服の筒状の部分。",
+    "other": []
+  },
+  {
+    "src": "M1366",
+    "id": "collar",
+    "en": "collar",
+    "ipa": "/ˈkɑːlər/",
+    "sense": "襟",
+    "ja": "襟",
+    "ex": {
+      "en": "The collar of his white shirt was dirty after the long day.",
+      "ja": "長い一日のあと、彼の白いシャツの襟は汚れていた。",
+      "mark": [
+        "collar"
+      ]
+    },
+    "core": "首のまわりを囲む、服の部分。",
+    "other": [
+      "（犬の首輪）首輪：a dog collar"
+    ]
+  },
+  {
+    "src": "M1367",
+    "id": "cotton",
+    "en": "cotton",
+    "ipa": "/ˈkɑːtn/",
+    "sense": "綿、綿布",
+    "ja": "綿",
+    "ex": {
+      "en": "This shirt is made of soft cotton, so it feels comfortable.",
+      "ja": "このシャツはやわらかい綿でできているので、着心地がいい。",
+      "mark": [
+        "cotton"
+      ]
+    },
+    "core": "綿の実から取った、やわらかい繊維。",
+    "other": []
+  },
+  {
+    "src": "M1368",
+    "id": "leather",
+    "en": "leather",
+    "ipa": "/ˈlɛðər/",
+    "sense": "革",
+    "ja": "革",
+    "ex": {
+      "en": "He bought a leather bag for his mother in Italy.",
+      "ja": "彼はイタリアで、母のために革のかばんを買った。",
+      "mark": [
+        "leather"
+      ]
+    },
+    "core": "動物の皮をなめして作った、丈夫な素材。",
+    "other": []
+  },
+  {
+    "src": "M1369",
+    "id": "size",
+    "en": "size",
+    "ipa": "/saɪz/",
+    "sense": "サイズ、大きさ",
+    "ja": "サイズ",
+    "ex": {
+      "en": "Do you have this shirt in a larger size?",
+      "ja": "このシャツのもっと大きいサイズはありますか。",
+      "mark": [
+        "size"
+      ]
+    },
+    "core": "物の大きさの度合い。服では号数や寸法を指す。",
+    "other": []
+  },
+  {
+    "src": "M1370",
+    "id": "style",
+    "en": "style",
+    "ipa": "/staɪl/",
+    "sense": "やり方、様式、型",
+    "ja": "様式",
+    "ex": {
+      "en": "I really like her style of writing and her sense of humor.",
+      "ja": "私は彼女の文章の書き方とユーモアのセンスがとても好きだ。",
+      "mark": [
+        "style"
+      ]
+    },
+    "core": "物事の特徴的な形や、やり方。",
+    "other": [
+      "（服装）髪型や服の型：a new hair style"
+    ]
+  },
+  {
+    "src": "M1371",
+    "id": "fashion",
+    "en": "fashion",
+    "ipa": "/ˈfæʃən/",
+    "sense": "（服装の）流行",
+    "ja": "流行の服装",
+    "ex": {
+      "en": "Short skirts are in fashion this year among young people.",
+      "ja": "今年は若い人たちのあいだで、短いスカートが流行している。",
+      "mark": [
+        "fashion"
+      ]
+    },
+    "core": "ある時期に多くの人が選ぶ、服などの型。",
+    "other": [
+      "（業界）ファッション関連：the fashion industry"
+    ]
+  },
+  {
+    "src": "M1372",
+    "id": "bag",
+    "en": "bag",
+    "ipa": "/bæɡ/",
+    "sense": "かばん、袋",
+    "ja": "かばん",
+    "ex": {
+      "en": "She carried a heavy bag to school every single day.",
+      "ja": "彼女は毎日、重いかばんを持って学校へ通った。",
+      "mark": [
+        "bag"
+      ]
+    },
+    "core": "物を入れて持ち運ぶ、やわらかい入れ物。",
+    "other": []
+  },
+  {
+    "src": "M1373",
+    "id": "backpack",
+    "en": "backpack",
+    "ipa": "/ˈbækpæk/",
+    "sense": "リュックサック",
+    "ja": "リュックサック",
+    "ex": {
+      "en": "He put his lunch and a water bottle in his backpack.",
+      "ja": "彼は昼食と水筒をリュックサックに入れた。",
+      "mark": [
+        "backpack"
+      ]
+    },
+    "core": "背中（back）に背負う袋。",
+    "other": []
+  },
+  {
+    "src": "M1374",
+    "id": "suitcase",
+    "en": "suitcase",
+    "ipa": "/ˈsuːtkeɪs/",
+    "sense": "スーツケース",
+    "ja": "スーツケース",
+    "ex": {
+      "en": "I packed my suitcase the night before the long trip.",
+      "ja": "長い旅行の前の晩に、私はスーツケースに荷造りした。",
+      "mark": [
+        "suitcase"
+      ]
+    },
+    "core": "旅行用の服などを入れる、四角くて固い入れ物。",
+    "other": []
+  },
+  {
+    "src": "M1375",
+    "id": "luggage",
+    "en": "luggage",
+    "ipa": "/ˈlʌɡɪdʒ/",
+    "sense": "（旅行用の）手荷物、荷物",
+    "ja": "荷物",
+    "ex": {
+      "en": "Please keep your luggage with you at all times in the station.",
+      "ja": "駅では、荷物をいつも手元に置いておいてください。",
+      "mark": [
+        "luggage"
+      ]
+    },
+    "core": "旅行で運ぶかばんなどをまとめた呼び方。数えられない名詞。",
+    "diff": "baggage は主に（英）や航空関係で使う。",
+    "other": [
+      "数え方：a piece of luggage"
+    ]
+  },
+  {
+    "src": "M1376",
+    "id": "wallet",
+    "en": "wallet",
+    "ipa": "/ˈwɑːlɪt/",
+    "sense": "財布",
+    "ja": "財布",
+    "ex": {
+      "en": "I left my wallet at home, so I couldn't pay for lunch.",
+      "ja": "財布を家に忘れたので、昼食の代金を払えなかった。",
+      "mark": [
+        "wallet"
+      ]
+    },
+    "core": "お札やカードを入れる、折りたたみ式の入れ物。",
+    "diff": "purse は小銭入れ、または（米）女性用のハンドバッグ。",
+    "other": []
+  },
+  {
+    "src": "M1377",
+    "id": "purse",
+    "en": "purse",
+    "ipa": "/pɜːrs/",
+    "sense": "（米）女性用のハンドバッグ",
+    "ja": "ハンドバッグ",
+    "ex": {
+      "en": "She took her phone and some tissues out of her purse.",
+      "ja": "彼女はハンドバッグから携帯電話とティッシュを取り出した。",
+      "mark": [
+        "purse"
+      ]
+    },
+    "core": "小物を入れて持ち歩く、小さめのバッグ。",
+    "diff": "（英）では小銭入れの意味が中心。",
+    "other": [
+      "（英）小銭入れ：a coin purse"
+    ]
+  },
+  {
+    "src": "M1378",
+    "id": "umbrella",
+    "en": "umbrella",
+    "ipa": "/ʌmˈbrɛlə/",
+    "sense": "傘",
+    "ja": "傘",
+    "ex": {
+      "en": "Take an umbrella with you, because it might rain this afternoon.",
+      "ja": "今日の午後は雨が降るかもしれないから、傘を持っていきなさい。",
+      "mark": [
+        "umbrella"
+      ]
+    },
+    "core": "雨や日ざしを防ぐために頭の上に広げる物。",
+    "other": []
+  },
+  {
+    "src": "M1379",
+    "id": "sunglasses",
+    "en": "sunglasses",
+    "ipa": "/ˈsʌnɡlæsɪz/",
+    "sense": "サングラス",
+    "ja": "サングラス",
+    "ex": {
+      "en": "He wore sunglasses because the sun was bright.",
+      "ja": "日ざしが強かったので彼はサングラスをかけていた。",
+      "mark": [
+        "sunglasses"
+      ]
+    },
+    "core": "強い日ざし（sun）から目を守るめがね。いつも複数形。",
+    "other": []
+  },
+  {
+    "src": "M1380",
+    "id": "ring",
+    "en": "ring",
+    "ipa": "/rɪŋ/",
+    "sense": "指輪",
+    "ja": "指輪",
+    "ex": {
+      "en": "She wears a gold ring on her finger.",
+      "ja": "彼女は指に金の指輪をはめている。",
+      "mark": [
+        "ring"
+      ]
+    },
+    "core": "指にはめる、輪の形の飾り。",
+    "other": [
+      "（鳴る）電話などが鳴る：The phone rang."
+    ]
+  },
+  {
+    "src": "M1381",
+    "id": "necklace",
+    "en": "necklace",
+    "ipa": "/ˈnɛkləs/",
+    "sense": "ネックレス",
+    "ja": "ネックレス",
+    "ex": {
+      "en": "He gave her a silver necklace for her birthday.",
+      "ja": "彼は誕生日に彼女へ銀のネックレスを贈った。",
+      "mark": [
+        "necklace"
+      ]
+    },
+    "core": "首（neck）のまわりにつける飾り。",
+    "other": []
+  },
+  {
+    "src": "M1382",
+    "id": "clock",
+    "en": "clock",
+    "ipa": "/klɑːk/",
+    "sense": "（置き・掛け）時計",
+    "ja": "時計",
+    "ex": {
+      "en": "The clock on the wall says ten, so we should leave soon.",
+      "ja": "壁の時計は10時を指しているから、そろそろ出よう。",
+      "mark": [
+        "clock"
+      ]
+    },
+    "core": "部屋に置いたり掛けたりする時計。",
+    "diff": "watch は腕につける時計。",
+    "other": []
+  },
+  {
+    "src": "M1383",
+    "id": "alarm",
+    "en": "alarm",
+    "ipa": "/əˈlɑːrm/",
+    "sense": "警報（器）、目覚まし",
+    "ja": "警報",
+    "ex": {
+      "en": "The fire alarm went off in the middle of our math test.",
+      "ja": "数学のテストの最中に、火災警報が鳴り出した。",
+      "mark": [
+        "alarm"
+      ]
+    },
+    "core": "危険や時間を音で知らせるしくみ。",
+    "other": [
+      "（目覚まし）目覚まし時計の音：set an alarm for six"
+    ]
+  },
+  {
+    "src": "M1384",
+    "id": "phone",
+    "en": "phone",
+    "ipa": "/foʊn/",
+    "sense": "電話、携帯電話",
+    "ja": "電話",
+    "ex": {
+      "en": "My phone is out of battery, so I can't call you now.",
+      "ja": "電話の電池が切れたので、今は電話をかけられない。",
+      "mark": [
+        "phone"
+      ]
+    },
+    "core": "遠くの人と話すための機器。telephone の短縮形。",
+    "other": [
+      "（電話をかける）電話する：I'll phone you later."
+    ]
+  },
+  {
+    "src": "M1385",
+    "id": "camera",
+    "en": "camera",
+    "ipa": "/ˈkæmərə/",
+    "sense": "カメラ",
+    "ja": "カメラ",
+    "ex": {
+      "en": "He took a picture with his new camera.",
+      "ja": "彼は新しいカメラで写真を撮った。",
+      "mark": [
+        "camera"
+      ]
+    },
+    "core": "光をとらえて写真や映像を記録する機械。",
+    "other": []
+  },
+  {
+    "src": "M1386",
+    "id": "battery",
+    "en": "battery",
+    "ipa": "/ˈbætəri/",
+    "sense": "電池、バッテリー",
+    "ja": "電池",
+    "ex": {
+      "en": "The battery in this clock is dead, so it has stopped.",
+      "ja": "この時計の電池が切れたので、止まってしまった。",
+      "mark": [
+        "battery"
+      ]
+    },
+    "core": "電気をためて、機器に送る部品。",
+    "other": []
+  },
+  {
+    "src": "M1387",
+    "id": "charger",
+    "en": "charger",
+    "ipa": "/ˈtʃɑːrdʒər/",
+    "sense": "充電器",
+    "ja": "充電器",
+    "ex": {
+      "en": "Can I borrow your phone charger? Mine is at home.",
+      "ja": "あなたの携帯の充電器を借りてもいい？私のは家にあるの。",
+      "mark": [
+        "charger"
+      ]
+    },
+    "core": "電池に電気を入れる（charge）機器。",
+    "other": []
+  },
+  {
+    "src": "M1388",
+    "id": "headphones",
+    "en": "headphones",
+    "ipa": "/ˈhɛdfoʊnz/",
+    "sense": "ヘッドホン",
+    "ja": "ヘッドホン",
+    "ex": {
+      "en": "He listens to music on his headphones on the train.",
+      "ja": "彼は電車の中でヘッドホンで音楽を聞く。",
+      "mark": [
+        "headphones"
+      ]
+    },
+    "core": "頭（head）にかけて耳に音を届ける機器。いつも複数形。",
+    "other": []
+  },
+  {
+    "src": "M1389",
+    "id": "notebook",
+    "en": "notebook",
+    "ipa": "/ˈnoʊtbʊk/",
+    "sense": "ノート、帳面",
+    "ja": "ノート",
+    "ex": {
+      "en": "I wrote the new words in my notebook after class.",
+      "ja": "私は授業のあと、新しい単語をノートに書いた。",
+      "mark": [
+        "notebook"
+      ]
+    },
+    "core": "メモや勉強の内容を書き留める、とじた紙の束。",
+    "other": [
+      "（ノートパソコン）a notebook computer"
+    ]
+  },
+  {
+    "src": "M1390",
+    "id": "pen",
+    "en": "pen",
+    "ipa": "/pɛn/",
+    "sense": "ペン",
+    "ja": "ペン",
+    "ex": {
+      "en": "Can I borrow your pen for a minute?",
+      "ja": "ちょっとペンを貸してもらえますか。",
+      "mark": [
+        "pen"
+      ]
+    },
+    "core": "インクで字を書く筆記具。",
+    "other": []
+  },
+  {
+    "src": "M1391",
+    "id": "pencil",
+    "en": "pencil",
+    "ipa": "/ˈpɛnsl/",
+    "sense": "鉛筆",
+    "ja": "鉛筆",
+    "ex": {
+      "en": "Please write your answer in pencil so that you can erase it.",
+      "ja": "消せるように、答えは鉛筆で書いてください。",
+      "mark": [
+        "pencil"
+      ]
+    },
+    "core": "黒い芯で書く、消せる筆記具。",
+    "other": []
+  },
+  {
+    "src": "M1392",
+    "id": "eraser",
+    "en": "eraser",
+    "ipa": "/ɪˈreɪsər/",
+    "sense": "消しゴム",
+    "ja": "消しゴム",
+    "ex": {
+      "en": "I need an eraser to fix the mistake in my answer.",
+      "ja": "答えの間違いを直すために、消しゴムが必要だ。",
+      "mark": [
+        "eraser"
+      ]
+    },
+    "core": "書いた字をこすって消す（erase）道具。",
+    "diff": "（英）では rubber と言うことが多い。",
+    "other": []
+  },
+  {
+    "src": "M1393",
+    "id": "ruler",
+    "en": "ruler",
+    "ipa": "/ˈruːlər/",
+    "sense": "定規",
+    "ja": "定規",
+    "ex": {
+      "en": "Use a ruler to draw a straight line.",
+      "ja": "まっすぐな線を引くには定規を使いなさい。",
+      "mark": [
+        "ruler"
+      ]
+    },
+    "core": "長さを測り、線を引くための細長い道具。",
+    "other": [
+      "（支配者）君主：the ruler of a country"
+    ]
+  },
+  {
+    "src": "M1394",
+    "id": "scissors",
+    "en": "scissors",
+    "ipa": "/ˈsɪzərz/",
+    "sense": "はさみ",
+    "ja": "はさみ",
+    "ex": {
+      "en": "Can you pass me the scissors so I can cut this paper?",
+      "ja": "この紙を切りたいから、はさみを取ってもらえますか。",
+      "mark": [
+        "scissors"
+      ]
+    },
+    "core": "2枚の刃で紙や布を切る道具。いつも複数形。",
+    "other": [
+      "数え方：a pair of scissors"
+    ]
+  },
+  {
+    "src": "M1395",
+    "id": "glue",
+    "en": "glue",
+    "ipa": "/ɡluː/",
+    "sense": "接着剤、のり",
+    "ja": "接着剤",
+    "ex": {
+      "en": "I used glue to fix the broken cup.",
+      "ja": "私は接着剤で割れたカップを直した。",
+      "mark": [
+        "glue"
+      ]
+    },
+    "core": "物と物をくっつけるねばねばした液体。",
+    "other": []
+  },
+  {
+    "src": "M1396",
+    "id": "tape",
+    "en": "tape",
+    "ipa": "/teɪp/",
+    "sense": "粘着テープ",
+    "ja": "粘着テープ",
+    "ex": {
+      "en": "Use tape to hold the poster on the wall.",
+      "ja": "ポスターを壁に貼るのにテープを使って。",
+      "mark": [
+        "tape"
+      ]
+    },
+    "core": "片面がくっつく、細長い帯。",
+    "other": [
+      "（録音）録音テープ：a tape of the music"
+    ]
+  },
+  {
+    "src": "M1397",
+    "id": "envelope",
+    "en": "envelope",
+    "ipa": "/ˈɛnvəloʊp/",
+    "sense": "封筒",
+    "ja": "封筒",
+    "ex": {
+      "en": "She put the letter in an envelope and wrote his address on it.",
+      "ja": "彼女は手紙を封筒に入れて、彼の住所を書いた。",
+      "mark": [
+        "envelope"
+      ]
+    },
+    "core": "手紙や書類を包んで送るための紙の袋。",
+    "other": []
+  },
+  {
+    "src": "M1699",
+    "id": "grade",
+    "en": "grade",
+    "ipa": "/ɡreɪd/",
+    "sense": "（学校の）成績、評価",
+    "ja": "成績",
+    "ex": {
+      "en": "She got a good grade on the math test.",
+      "ja": "彼女は数学のテストでよい成績をとった。",
+      "mark": [
+        "grade"
+      ]
+    },
+    "core": "努力の結果を、段階（階級）で表したもの。",
+    "other": [
+      "（学年）年生：He is in the fifth grade."
+    ]
+  },
+  {
+    "src": "M1700",
+    "id": "mark",
+    "en": "mark",
+    "ipa": "/mɑːrk/",
+    "sense": "（試験などの）点数、評点",
+    "ja": "評点",
+    "ex": {
+      "en": "I got a high mark in English this term.",
+      "ja": "今学期、英語でよい点数をとった。",
+      "mark": [
+        "mark"
+      ]
+    },
+    "core": "答案につけられた印が、そのまま点数を表す。",
+    "diff": "grade は成績の段階。mark は個々の採点の点数。（英）で特によく使う。",
+    "other": [
+      "しるし、跡：a mark on the wall"
+    ]
+  },
+  {
+    "src": "M1701",
+    "id": "certificate",
+    "en": "certificate",
+    "ipa": "/sərˈtɪfɪkət/",
+    "sense": "（資格などの）証明書",
+    "ja": "証明書",
+    "ex": {
+      "en": "She received a certificate after the course.",
+      "ja": "彼女は講座のあとで修了証をもらった。",
+      "mark": [
+        "certificate"
+      ]
+    },
+    "core": "ある事実が確かだと、紙で証明するもの。",
+    "other": []
+  },
+  {
+    "src": "M1702",
+    "id": "degree",
+    "en": "degree",
+    "ipa": "/dɪˈɡriː/",
+    "sense": "（大学の）学位",
+    "ja": "学位",
+    "ex": {
+      "en": "He has a degree in history.",
+      "ja": "彼は歴史学の学位を持っている。",
+      "mark": [
+        "degree"
+      ]
+    },
+    "core": "学びの段階（階段の一段）をのぼった証。",
+    "diff": "diploma は卒業証書の紙。degree は学位そのもの。",
+    "other": [
+      "程度、度：a high degree of skill",
+      "（温度・角度の）度：20 degrees"
+    ]
+  },
+  {
+    "src": "M1703",
+    "id": "book",
+    "en": "book",
+    "ipa": "/bʊk/",
+    "sense": "本、書籍",
+    "ja": "本",
+    "ex": {
+      "en": "I read a book on the train every day.",
+      "ja": "私は毎日電車で本を読む。",
+      "mark": [
+        "book"
+      ]
+    },
+    "core": "文字が綴じられてひとまとまりになったもの。",
+    "other": [
+      "予約する：book a table"
+    ]
+  },
+  {
+    "src": "M1704",
+    "id": "textbook",
+    "en": "textbook",
+    "ipa": "/ˈtɛkstbʊk/",
+    "sense": "教科書",
+    "ja": "教科書",
+    "ex": {
+      "en": "Please open your textbook to page ten.",
+      "ja": "教科書の10ページを開いてください。",
+      "mark": [
+        "textbook"
+      ]
+    },
+    "core": "授業で使う本（text + book）。",
+    "other": []
+  },
+  {
+    "src": "M1705",
+    "id": "dictionary",
+    "en": "dictionary",
+    "ipa": "/ˈdɪkʃəˌnɛri/",
+    "sense": "辞書",
+    "ja": "辞書",
+    "ex": {
+      "en": "I looked up the word in a dictionary.",
+      "ja": "私はその単語を辞書で調べた。",
+      "mark": [
+        "dictionary"
+      ]
+    },
+    "core": "言葉を集めて、意味を引けるようにした本。",
+    "other": []
+  },
+  {
+    "src": "M1706",
+    "id": "magazine",
+    "en": "magazine",
+    "ipa": "/ˈmæɡəˌziːn/",
+    "sense": "雑誌",
+    "ja": "雑誌",
+    "ex": {
+      "en": "She buys a fashion magazine every month.",
+      "ja": "彼女は毎月ファッション雑誌を買う。",
+      "mark": [
+        "magazine"
+      ]
+    },
+    "core": "さまざまな記事や写真をまとめて、定期的に出す刊行物。",
+    "other": []
+  },
+  {
+    "src": "M1707",
+    "id": "newspaper",
+    "en": "newspaper",
+    "ipa": "/ˈnuːzˌpeɪpər/",
+    "sense": "新聞",
+    "ja": "新聞",
+    "ex": {
+      "en": "My father reads the newspaper after breakfast.",
+      "ja": "父は朝食のあとに新聞を読む。",
+      "mark": [
+        "newspaper"
+      ]
+    },
+    "core": "ニュース（news）を紙（paper）に載せたもの。",
+    "other": []
+  },
+  {
+    "src": "M1708",
+    "id": "article",
+    "en": "article",
+    "ipa": "/ˈɑːrtɪkəl/",
+    "sense": "（新聞・雑誌の）記事",
+    "ja": "記事",
+    "ex": {
+      "en": "I read an interesting article about space.",
+      "ja": "私は宇宙についてのおもしろい記事を読んだ。",
+      "mark": [
+        "article"
+      ]
+    },
+    "core": "新聞や雑誌の中の、ひとまとまりの文章。",
+    "other": [
+      "（品詞の）冠詞：the は定冠詞",
+      "（物）品、一品：an article of clothing"
+    ]
+  },
+  {
+    "src": "M1709",
+    "id": "chapter",
+    "en": "chapter",
+    "ipa": "/ˈtʃæptər/",
+    "sense": "（本の）章",
+    "ja": "章",
+    "ex": {
+      "en": "The story begins in the first chapter.",
+      "ja": "物語は第1章から始まる。",
+      "mark": [
+        "chapter"
+      ]
+    },
+    "core": "本をいくつかに区切った、ひとまとまり。",
+    "other": []
+  },
+  {
+    "src": "M1710",
+    "id": "paragraph",
+    "en": "paragraph",
+    "ipa": "/ˈpærəˌɡræf/",
+    "sense": "（文章の）段落",
+    "ja": "段落",
+    "ex": {
+      "en": "Each paragraph should have one main idea.",
+      "ja": "各段落には中心となる考えを一つ置くべきだ。",
+      "mark": [
+        "paragraph"
+      ]
+    },
+    "core": "同じ話題でまとめた文のかたまり。改行して区切る。",
+    "other": []
+  },
+  {
+    "src": "M1711",
+    "id": "sentence",
+    "en": "sentence",
+    "ipa": "/ˈsɛntəns/",
+    "sense": "文",
+    "ja": "文",
+    "ex": {
+      "en": "Please write a sentence with this word.",
+      "ja": "この単語を使って文を書いてください。",
+      "mark": [
+        "sentence"
+      ]
+    },
+    "core": "主語と述語を備え、言いたいことを完結させた言葉のまとまり。",
+    "other": [
+      "判決、刑：a life sentence"
+    ]
+  },
+  {
+    "src": "M1712",
+    "id": "word",
+    "en": "word",
+    "ipa": "/wɝːd/",
+    "sense": "単語、語",
+    "ja": "単語",
+    "ex": {
+      "en": "I don't know this word. Can you explain it?",
+      "ja": "この単語がわからない。説明してくれる？",
+      "mark": [
+        "word"
+      ]
+    },
+    "core": "意味を持つ最小の言葉のかたまり。",
+    "other": [
+      "約束：keep my word"
+    ]
+  },
+  {
+    "src": "M1713",
+    "id": "phrase",
+    "en": "phrase",
+    "ipa": "/freɪz/",
+    "sense": "語句、フレーズ",
+    "ja": "語句",
+    "ex": {
+      "en": "This phrase is often used in business.",
+      "ja": "この語句はビジネスでよく使われる。",
+      "mark": [
+        "phrase"
+      ]
+    },
+    "core": "いくつかの語が集まって一つの意味を作るまとまり。",
+    "other": []
+  },
+  {
+    "src": "M1714",
+    "id": "language",
+    "en": "language",
+    "ipa": "/ˈlæŋɡwɪdʒ/",
+    "sense": "言語、言葉",
+    "ja": "言語",
+    "ex": {
+      "en": "She can speak three languages.",
+      "ja": "彼女は3か国語を話せる。",
+      "mark": [
+        "language"
+      ]
+    },
+    "core": "人が考えや気持ちを伝えるための言葉の体系。",
+    "other": []
+  },
+  {
+    "src": "M1715",
+    "id": "grammar",
+    "en": "grammar",
+    "ipa": "/ˈɡræmər/",
+    "sense": "文法",
+    "ja": "文法",
+    "ex": {
+      "en": "English grammar is easy once you learn the rules.",
+      "ja": "英語の文法は、規則を覚えればやさしい。",
+      "mark": [
+        "grammar"
+      ]
+    },
+    "core": "言葉を正しく組み立てるための決まり。",
+    "other": []
+  },
+  {
+    "src": "M1719",
+    "id": "excellent",
+    "en": "excellent",
+    "ipa": "/ˈɛksələnt/",
+    "sense": "非常に優れた",
+    "ja": "非常に優れた",
+    "ex": {
+      "en": "The food at this restaurant is excellent.",
+      "ja": "このレストランの料理は素晴らしい。",
+      "mark": [
+        "excellent"
+      ]
+    },
+    "core": "ほかより大きく抜け出て、とても優れている。",
+    "diff": "good より強く、最高に近い評価。",
+    "other": []
+  },
+  {
+    "src": "M1720",
+    "id": "terrible",
+    "en": "terrible",
+    "ipa": "/ˈtɛrəbəl/",
+    "sense": "ひどい、最悪の",
+    "ja": "ひどい",
+    "ex": {
+      "en": "The weather was terrible all week.",
+      "ja": "一週間ずっと天気がひどかった。",
+      "mark": [
+        "terrible"
+      ]
+    },
+    "core": "もともとは「恐ろしい」。そこから、とても悪い状態を表す。",
+    "other": []
+  },
+  {
+    "src": "M1721",
+    "id": "wonderful",
+    "en": "wonderful",
+    "ipa": "/ˈwʌndərfəl/",
+    "sense": "すてきな、すばらしい",
+    "ja": "すてきな",
+    "ex": {
+      "en": "We had a wonderful time at the beach.",
+      "ja": "私たちは海辺ですばらしい時間を過ごした。",
+      "mark": [
+        "wonderful"
+      ]
+    },
+    "core": "思わず「わあ（wonder）」と感動するほどよい。",
+    "other": []
+  },
+  {
+    "src": "M1722",
+    "id": "perfect",
+    "en": "perfect",
+    "ipa": "/ˈpɝːfɪkt/",
+    "sense": "完璧な、申し分ない",
+    "ja": "完璧な",
+    "ex": {
+      "en": "This is the perfect place for a picnic.",
+      "ja": "ここはピクニックにぴったりの場所だ。",
+      "mark": [
+        "perfect"
+      ]
+    },
+    "core": "足りないところも余りもなく、欠点がない。",
+    "other": []
+  },
+  {
+    "src": "M1726",
+    "id": "pretty",
+    "en": "pretty",
+    "ipa": "/ˈprɪti/",
+    "sense": "かわいらしい、きれいな",
+    "ja": "かわいらしい",
+    "ex": {
+      "en": "She wore a pretty dress to the party.",
+      "ja": "彼女はパーティーにかわいいドレスを着ていった。",
+      "mark": [
+        "pretty"
+      ]
+    },
+    "core": "見た目が愛らしく、心地よい。",
+    "diff": "beautiful ほど強くなく、親しみのある美しさ。",
+    "other": [
+      "かなり（副詞）：It's pretty cold today."
+    ]
+  },
+  {
+    "src": "M1727",
+    "id": "ugly",
+    "en": "ugly",
+    "ipa": "/ˈʌɡli/",
+    "sense": "醜い、見苦しい",
+    "ja": "醜い",
+    "ex": {
+      "en": "I don't like this ugly old building.",
+      "ja": "私はこの古くて醜い建物が好きではない。",
+      "mark": [
+        "ugly"
+      ]
+    },
+    "core": "見て不快になるほど、美しくない。",
+    "other": []
+  },
+  {
+    "src": "M1731",
+    "id": "tiny",
+    "en": "tiny",
+    "ipa": "/ˈtaɪni/",
+    "sense": "ごく小さい",
+    "ja": "ごく小さい",
+    "ex": {
+      "en": "A tiny bird sat on the branch.",
+      "ja": "小さな鳥が枝にとまっていた。",
+      "mark": [
+        "tiny"
+      ]
+    },
+    "core": "small よりもさらに小さく、ほんの少し。",
+    "other": []
+  },
+  {
+    "src": "M1732",
+    "id": "huge",
+    "en": "huge",
+    "ipa": "/hjuːdʒ/",
+    "sense": "巨大な、莫大な",
+    "ja": "巨大な",
+    "ex": {
+      "en": "They live in a huge house near the lake.",
+      "ja": "彼らは湖の近くの巨大な家に住んでいる。",
+      "mark": [
+        "huge"
+      ]
+    },
+    "core": "big をはるかに超えた、並外れた大きさ。",
+    "other": []
+  },
+  {
+    "src": "M1736",
+    "id": "wide",
+    "en": "wide",
+    "ipa": "/waɪd/",
+    "sense": "幅が広い",
+    "ja": "幅が広い",
+    "ex": {
+      "en": "The river is wide at this point.",
+      "ja": "川はこのあたりで幅が広くなっている。",
+      "mark": [
+        "wide"
+      ]
+    },
+    "core": "端から端までの距離が大きい。",
+    "diff": "broad は広がりのある印象。wide は幅の数値を言うときによく使う。",
+    "other": []
+  },
+  {
+    "src": "M1737",
+    "id": "narrow",
+    "en": "narrow",
+    "ipa": "/ˈnæroʊ/",
+    "sense": "幅が狭い",
+    "ja": "幅が狭い",
+    "ex": {
+      "en": "The road to the village is very narrow.",
+      "ja": "その村へ続く道はとても狭い。",
+      "mark": [
+        "narrow"
+      ]
+    },
+    "core": "端から端までの距離が小さい。",
+    "other": []
+  },
+  {
+    "src": "M1738",
+    "id": "thick",
+    "en": "thick",
+    "ipa": "/θɪk/",
+    "sense": "厚い、太い",
+    "ja": "厚い",
+    "ex": {
+      "en": "He cut a thick slice of bread.",
+      "ja": "彼は厚切りのパンを切った。",
+      "mark": [
+        "thick"
+      ]
+    },
+    "core": "表と裏の間の距離が大きい。",
+    "other": [
+      "（液体が）濃い：thick soup"
+    ]
+  },
+  {
+    "src": "M1739",
+    "id": "thin",
+    "en": "thin",
+    "ipa": "/θɪn/",
+    "sense": "薄い、細い",
+    "ja": "薄い",
+    "ex": {
+      "en": "The wall is so thin that I can hear the neighbors.",
+      "ja": "壁が薄くて、隣人の声が聞こえる。",
+      "mark": [
+        "thin"
+      ]
+    },
+    "core": "表と裏の間の距離が小さい。",
+    "other": [
+      "やせた：a thin man"
+    ]
+  },
+  {
+    "src": "M1740",
+    "id": "deep",
+    "en": "deep",
+    "ipa": "/diːp/",
+    "sense": "深い",
+    "ja": "深い",
+    "ex": {
+      "en": "The lake is very deep in the middle.",
+      "ja": "その湖は真ん中がとても深い。",
+      "mark": [
+        "deep"
+      ]
+    },
+    "core": "上から底までの距離が大きい。",
+    "other": []
+  },
+  {
+    "src": "M1741",
+    "id": "shallow",
+    "en": "shallow",
+    "ipa": "/ˈʃæloʊ/",
+    "sense": "浅い",
+    "ja": "浅い",
+    "ex": {
+      "en": "Children can play safely in the shallow water.",
+      "ja": "子どもたちは浅い水の中で安全に遊べる。",
+      "mark": [
+        "shallow"
+      ]
+    },
+    "core": "上から底までの距離が小さい。",
+    "other": [
+      "（考えなどが）浅い：a shallow idea"
+    ]
+  },
+  {
+    "src": "M1749",
+    "id": "smooth",
+    "en": "smooth",
+    "ipa": "/smuːð/",
+    "sense": "滑らかな、すべすべした",
+    "ja": "滑らかな",
+    "ex": {
+      "en": "The baby's skin is soft and smooth.",
+      "ja": "赤ちゃんの肌は柔らかくてすべすべだ。",
+      "mark": [
+        "smooth"
+      ]
+    },
+    "core": "表面に引っかかりやでこぼこがない。",
+    "other": [
+      "（進行が）順調な：a smooth trip"
+    ]
+  },
+  {
+    "src": "M1750",
+    "id": "rough",
+    "en": "rough",
+    "ipa": "/rʌf/",
+    "sense": "ざらざらした、粗い",
+    "ja": "ざらざらした",
+    "ex": {
+      "en": "The wall felt rough under my hand.",
+      "ja": "壁は手にざらざらと感じた。",
+      "mark": [
+        "rough"
+      ]
+    },
+    "core": "表面にでこぼこがあり、引っかかる。",
+    "other": [
+      "おおよその：a rough idea"
+    ]
+  },
+  {
+    "src": "M1751",
+    "id": "sharp",
+    "en": "sharp",
+    "ipa": "/ʃɑːrp/",
+    "sense": "鋭い、よく切れる",
+    "ja": "鋭い",
+    "ex": {
+      "en": "Be careful. That knife is very sharp.",
+      "ja": "気をつけて。そのナイフはとても鋭いよ。",
+      "mark": [
+        "sharp"
+      ]
+    },
+    "core": "先や刃が細く尖っていて、よく切れる。",
+    "other": []
+  },
+  {
+    "src": "M1752",
+    "id": "dull",
+    "en": "dull",
+    "ipa": "/dʌl/",
+    "sense": "切れ味が鈍い",
+    "ja": "切れ味が鈍い",
+    "ex": {
+      "en": "This knife is too dull to cut tomatoes.",
+      "ja": "このナイフは切れ味が悪くてトマトが切れない。",
+      "mark": [
+        "dull"
+      ]
+    },
+    "core": "先や刃が丸くなって、鋭さがない。",
+    "other": [
+      "退屈な：a dull movie"
+    ]
+  },
+  {
+    "src": "M1753",
+    "id": "flat",
+    "en": "flat",
+    "ipa": "/flæt/",
+    "sense": "平らな",
+    "ja": "平らな",
+    "ex": {
+      "en": "The table has a flat surface.",
+      "ja": "そのテーブルは表面が平らだ。",
+      "mark": [
+        "flat"
+      ]
+    },
+    "core": "でこぼこも傾きもなく、水平に広がっている。",
+    "other": [
+      "（タイヤが）パンクした：a flat tire"
+    ]
+  },
+  {
+    "src": "M1754",
+    "id": "round",
+    "en": "round",
+    "ipa": "/raʊnd/",
+    "sense": "丸い",
+    "ja": "丸い",
+    "ex": {
+      "en": "The baby has big round eyes.",
+      "ja": "その赤ちゃんは大きな丸い目をしている。",
+      "mark": [
+        "round"
+      ]
+    },
+    "core": "角がなく、円や球のかたちをしている。",
+    "other": []
+  },
+  {
+    "src": "M1755",
+    "id": "straight",
+    "en": "straight",
+    "ipa": "/streɪt/",
+    "sense": "まっすぐな",
+    "ja": "まっすぐな",
+    "ex": {
+      "en": "Draw a straight line with a ruler.",
+      "ja": "定規でまっすぐな線を引いてください。",
+      "mark": [
+        "straight"
+      ]
+    },
+    "core": "曲がりも折れもなく、一方向に伸びている。",
+    "other": []
+  },
+  {
+    "src": "M1756",
+    "id": "curved",
+    "en": "curved",
+    "ipa": "/kɝːvd/",
+    "sense": "曲がった、湾曲した",
+    "ja": "曲がった",
+    "ex": {
+      "en": "The road follows a curved line along the coast.",
+      "ja": "その道は海岸に沿って曲線を描いている。",
+      "mark": [
+        "curved"
+      ]
+    },
+    "core": "直線ではなく、なめらかに曲がっている。",
+    "other": []
+  },
+  {
+    "src": "M1757",
+    "id": "hollow",
+    "en": "hollow",
+    "ipa": "/ˈhɑːloʊ/",
+    "sense": "中が空洞の",
+    "ja": "中が空洞の",
+    "ex": {
+      "en": "The tree trunk was hollow inside.",
+      "ja": "その木の幹は中が空洞だった。",
+      "mark": [
+        "hollow"
+      ]
+    },
+    "core": "外側はあるが、中身が空っぽ。",
+    "other": []
+  },
+  {
+    "src": "M1758",
+    "id": "solid",
+    "en": "solid",
+    "ipa": "/ˈsɑːləd/",
+    "sense": "固体の、中身の詰まった",
+    "ja": "固体の",
+    "ex": {
+      "en": "Ice is water in a solid form.",
+      "ja": "氷は水が固体になったものだ。",
+      "mark": [
+        "solid"
+      ]
+    },
+    "core": "中身が詰まって、形が崩れない。",
+    "diff": "hollow は中が空っぽ。solid は中身が詰まっている。",
+    "other": [
+      "頑丈な：a solid wall",
+      "確かな：solid evidence"
+    ]
+  },
+  {
+    "src": "M1759",
+    "id": "liquid",
+    "en": "liquid",
+    "ipa": "/ˈlɪkwɪd/",
+    "sense": "液体の",
+    "ja": "液体の",
+    "ex": {
+      "en": "Water is a liquid substance.",
+      "ja": "水は液体の物質だ。",
+      "mark": [
+        "liquid"
+      ]
+    },
+    "core": "決まった形がなく、流れる状態。",
+    "other": []
+  },
+  {
+    "src": "M1762",
+    "id": "chilly",
+    "en": "chilly",
+    "ipa": "/ˈtʃɪli/",
+    "sense": "肌寒い",
+    "ja": "肌寒い",
+    "ex": {
+      "en": "It gets chilly in the evening in October.",
+      "ja": "10月は夕方になると肌寒くなる。",
+      "mark": [
+        "chilly"
+      ]
+    },
+    "core": "cold ほどではないが、ひやりとして少し寒い。",
+    "diff": "cool より寒く、cold より弱い。",
+    "other": []
+  },
+  {
+    "src": "M1763",
+    "id": "freezing",
+    "en": "freezing",
+    "ipa": "/ˈfriːzɪŋ/",
+    "sense": "凍えるほど寒い",
+    "ja": "凍えるほど寒い",
+    "ex": {
+      "en": "It's freezing outside. Wear a warm coat.",
+      "ja": "外は凍えるほど寒いよ。暖かいコートを着て。",
+      "mark": [
+        "freezing"
+      ]
+    },
+    "core": "水が凍る（freeze）ほどの寒さ。",
+    "other": []
+  },
+  {
+    "src": "M1764",
+    "id": "wet",
+    "en": "wet",
+    "ipa": "/wɛt/",
+    "sense": "ぬれた、湿った",
+    "ja": "ぬれた",
+    "ex": {
+      "en": "My shoes got wet in the rain.",
+      "ja": "雨で靴がぬれた。",
+      "mark": [
+        "wet"
+      ]
+    },
+    "core": "水分が表面や中に付いている。",
+    "other": []
+  },
+  {
+    "src": "M1765",
+    "id": "damp",
+    "en": "damp",
+    "ipa": "/dæmp/",
+    "sense": "湿った、しめった",
+    "ja": "湿った",
+    "ex": {
+      "en": "The basement is cold and damp.",
+      "ja": "地下室は寒くて湿っている。",
+      "mark": [
+        "damp"
+      ]
+    },
+    "core": "wet ほどではないが、じっとりと水気がある。",
+    "diff": "wet はぬれている。damp は少し湿っている。",
+    "other": []
+  },
+  {
+    "src": "M1766",
+    "id": "humid",
+    "en": "humid",
+    "ipa": "/ˈhjuːmɪd/",
+    "sense": "湿度が高い、蒸し暑い",
+    "ja": "蒸し暑い",
+    "ex": {
+      "en": "Summer in Japan is hot and humid.",
+      "ja": "日本の夏は暑くて蒸し暑い。",
+      "mark": [
+        "humid"
+      ]
+    },
+    "core": "空気の中に水分が多く含まれている。",
+    "other": []
+  },
+  {
+    "src": "M1767",
+    "id": "fresh",
+    "en": "fresh",
+    "ipa": "/frɛʃ/",
+    "sense": "新鮮な、取れたての",
+    "ja": "新鮮な",
+    "ex": {
+      "en": "We bought fresh fish at the market.",
+      "ja": "私たちは市場で新鮮な魚を買った。",
+      "mark": [
+        "fresh"
+      ]
+    },
+    "core": "できたて、とれたてで、傷んでいない。",
+    "other": [
+      "新しい：a fresh start"
+    ]
+  },
+  {
+    "src": "M1768",
+    "id": "stale",
+    "en": "stale",
+    "ipa": "/steɪl/",
+    "sense": "（食べ物が）古くなった",
+    "ja": "古くなった",
+    "ex": {
+      "en": "This bread is stale. Let's throw it away.",
+      "ja": "このパンは古くなっている。捨てよう。",
+      "mark": [
+        "stale"
+      ]
+    },
+    "core": "時間がたって新鮮さを失い、味が落ちた。",
+    "other": []
+  },
+  {
+    "src": "M1769",
+    "id": "raw",
+    "en": "raw",
+    "ipa": "/rɔː/",
+    "sense": "生の、加熱していない",
+    "ja": "生の",
+    "ex": {
+      "en": "Some people eat raw fish with soy sauce.",
+      "ja": "生魚をしょうゆで食べる人もいる。",
+      "mark": [
+        "raw"
+      ]
+    },
+    "core": "火を通すなどの手を加えていない、そのままの状態。",
+    "other": []
+  },
+  {
+    "src": "M1770",
+    "id": "ripe",
+    "en": "ripe",
+    "ipa": "/raɪp/",
+    "sense": "（果物が）熟した",
+    "ja": "熟した",
+    "ex": {
+      "en": "These peaches are ripe and sweet.",
+      "ja": "この桃は熟していて甘い。",
+      "mark": [
+        "ripe"
+      ]
+    },
+    "core": "果物が十分に育ち、食べごろになっている。",
+    "other": []
+  },
+  {
+    "src": "M1771",
+    "id": "sweet",
+    "en": "sweet",
+    "ipa": "/swiːt/",
+    "sense": "甘い",
+    "ja": "甘い",
+    "ex": {
+      "en": "This cake is too sweet for me.",
+      "ja": "このケーキは私には甘すぎる。",
+      "mark": [
+        "sweet"
+      ]
+    },
+    "core": "砂糖のような味がする。",
+    "other": [
+      "優しい：a sweet girl"
+    ]
+  },
+  {
+    "src": "M1772",
+    "id": "sour",
+    "en": "sour",
+    "ipa": "/saʊr/",
+    "sense": "酸っぱい",
+    "ja": "酸っぱい",
+    "ex": {
+      "en": "The lemon was very sour.",
+      "ja": "そのレモンはとても酸っぱかった。",
+      "mark": [
+        "sour"
+      ]
+    },
+    "core": "レモンやお酢のような味がする。",
+    "other": [
+      "（牛乳などが）傷んだ：sour milk"
+    ]
+  },
+  {
+    "src": "M1773",
+    "id": "bitter",
+    "en": "bitter",
+    "ipa": "/ˈbɪtər/",
+    "sense": "苦い",
+    "ja": "苦い",
+    "ex": {
+      "en": "Black coffee tastes bitter to me.",
+      "ja": "ブラックコーヒーは私には苦く感じる。",
+      "mark": [
+        "bitter"
+      ]
+    },
+    "core": "コーヒーや薬のような、舌に残る苦い味。",
+    "other": [
+      "つらい：a bitter memory"
+    ]
+  },
+  {
+    "src": "M1774",
+    "id": "salty",
+    "en": "salty",
+    "ipa": "/ˈsɔːlti/",
+    "sense": "塩辛い、塩気のある",
+    "ja": "塩辛い",
+    "ex": {
+      "en": "This soup is too salty.",
+      "ja": "このスープは塩辛すぎる。",
+      "mark": [
+        "salty"
+      ]
+    },
+    "core": "塩（salt）の味が強い。",
+    "other": []
+  },
+  {
+    "src": "M1775",
+    "id": "spicy",
+    "en": "spicy",
+    "ipa": "/ˈspaɪsi/",
+    "sense": "香辛料のきいた、辛い",
+    "ja": "香辛料のきいた",
+    "ex": {
+      "en": "I love spicy curry with lots of pepper.",
+      "ja": "私は唐辛子たっぷりの辛いカレーが大好きだ。",
+      "mark": [
+        "spicy"
+      ]
+    },
+    "core": "香辛料（spice）がきいて、ぴりっとする。",
+    "other": []
+  },
+  {
+    "src": "M1776",
+    "id": "delicious",
+    "en": "delicious",
+    "ipa": "/dɪˈlɪʃəs/",
+    "sense": "とてもおいしい",
+    "ja": "おいしい",
+    "ex": {
+      "en": "The soup was absolutely delicious.",
+      "ja": "そのスープは本当においしかった。",
+      "mark": [
+        "delicious"
+      ]
+    },
+    "core": "味や香りがとてもよく、食べて楽しい。",
+    "diff": "tasty より強く、特においしいとき。",
+    "other": []
+  },
+  {
+    "src": "M1777",
+    "id": "tasty",
+    "en": "tasty",
+    "ipa": "/ˈteɪsti/",
+    "sense": "おいしい、風味のよい",
+    "ja": "おいしい",
+    "ex": {
+      "en": "These cookies are really tasty.",
+      "ja": "このクッキーはとてもおいしい。",
+      "mark": [
+        "tasty"
+      ]
+    },
+    "core": "味（taste）がよい。",
+    "diff": "delicious ほど強くなく、気軽に使える。",
+    "other": []
+  },
+  {
+    "src": "M1778",
+    "id": "bland",
+    "en": "bland",
+    "ipa": "/blænd/",
+    "sense": "味の薄い、味気ない",
+    "ja": "味の薄い",
+    "ex": {
+      "en": "The soup was bland, so I added salt.",
+      "ja": "スープは味が薄かったので、塩を足した。",
+      "mark": [
+        "bland"
+      ]
+    },
+    "core": "刺激や特徴がなく、味がはっきりしない。",
+    "other": [
+      "（人・話などが）面白みのない：a bland speech"
+    ]
+  },
+  {
+    "src": "M1782",
+    "id": "modern",
+    "en": "modern",
+    "ipa": "/ˈmɑːdərn/",
+    "sense": "現代的な、近代の",
+    "ja": "現代的な",
+    "ex": {
+      "en": "The hotel has a modern design.",
+      "ja": "そのホテルは現代的なデザインだ。",
+      "mark": [
+        "modern"
+      ]
+    },
+    "core": "今の時代に合った、新しい様式の。",
+    "other": []
+  },
+  {
+    "src": "M1783",
+    "id": "ancient",
+    "en": "ancient",
+    "ipa": "/ˈeɪnʃənt/",
+    "sense": "古代の",
+    "ja": "古代の",
+    "ex": {
+      "en": "They visited the ancient ruins of Rome.",
+      "ja": "彼らはローマの古代遺跡を訪れた。",
+      "mark": [
+        "ancient"
+      ]
+    },
+    "core": "はるか昔、遠い過去の時代の。",
+    "diff": "old は単に古いこと。ancient は大昔のこと。",
+    "other": []
+  },
+  {
+    "src": "M1784",
+    "id": "recent",
+    "en": "recent",
+    "ipa": "/ˈriːsənt/",
+    "sense": "最近の",
+    "ja": "最近の",
+    "ex": {
+      "en": "There have been many accidents in recent years.",
+      "ja": "近年、多くの事故が起きている。",
+      "mark": [
+        "recent"
+      ]
+    },
+    "core": "今から見て、ほんの少し前の。",
+    "other": []
+  },
+  {
+    "src": "M1790",
+    "id": "rapid",
+    "en": "rapid",
+    "ipa": "/ˈræpɪd/",
+    "sense": "急速な",
+    "ja": "急速な",
+    "ex": {
+      "en": "The city has seen rapid growth.",
+      "ja": "その都市は急速な成長を見せてきた。",
+      "mark": [
+        "rapid"
+      ]
+    },
+    "core": "変化や動きの速度がとても速い。",
+    "diff": "fast は動く人や物に使う。rapid は変化や成長に使うことが多い。",
+    "other": []
+  },
+  {
+    "src": "M1791",
+    "id": "sudden",
+    "en": "sudden",
+    "ipa": "/ˈsʌdn/",
+    "sense": "突然の",
+    "ja": "突然の",
+    "ex": {
+      "en": "A sudden noise made me jump.",
+      "ja": "突然の物音に私は飛び上がった。",
+      "mark": [
+        "sudden"
+      ]
+    },
+    "core": "予告も前触れもなく、いきなり起こる。",
+    "other": []
+  },
+  {
+    "src": "M1792",
+    "id": "gradual",
+    "en": "gradual",
+    "ipa": "/ˈɡrædʒuəl/",
+    "sense": "徐々の、緩やかな",
+    "ja": "徐々の",
+    "ex": {
+      "en": "There was a gradual change in the weather.",
+      "ja": "天気が少しずつ変わっていった。",
+      "mark": [
+        "gradual"
+      ]
+    },
+    "core": "一段ずつ、少しずつ進む。",
+    "other": []
+  },
+  {
+    "src": "M1793",
+    "id": "steady",
+    "en": "steady",
+    "ipa": "/ˈstɛdi/",
+    "sense": "安定した、着実な",
+    "ja": "安定した",
+    "ex": {
+      "en": "He walked at a steady pace.",
+      "ja": "彼は一定の速さで歩いた。",
+      "mark": [
+        "steady"
+      ]
+    },
+    "core": "揺れや変化が少なく、一定に保たれている。",
+    "other": []
+  },
+  {
+    "src": "M1797",
+    "id": "upset",
+    "en": "upset",
+    "ipa": "/ʌpˈsɛt/",
+    "sense": "動揺した、取り乱した",
+    "ja": "動揺した",
+    "ex": {
+      "en": "She was upset when she heard the news.",
+      "ja": "彼女はその知らせを聞いて動揺した。",
+      "mark": [
+        "upset"
+      ]
+    },
+    "core": "気持ちがひっくり返され、落ち着きを失っている。",
+    "other": [
+      "（胃が）むかむかする：an upset stomach"
+    ]
+  },
+  {
+    "src": "M1803",
+    "id": "confused",
+    "en": "confused",
+    "ipa": "/kənˈfjuːzd/",
+    "sense": "混乱した、困惑した",
+    "ja": "混乱した",
+    "ex": {
+      "en": "I was confused by the long instructions.",
+      "ja": "長い説明に私は混乱した。",
+      "mark": [
+        "confused"
+      ]
+    },
+    "core": "いろいろなものが混ざって、どれがどれかわからない。",
+    "other": []
+  },
+  {
+    "src": "M1805",
+    "id": "anxious",
+    "en": "anxious",
+    "ipa": "/ˈæŋkʃəs/",
+    "sense": "不安な、心配な",
+    "ja": "不安な",
+    "ex": {
+      "en": "He felt anxious before the job interview.",
+      "ja": "彼は就職の面接の前で不安だった。",
+      "mark": [
+        "anxious"
+      ]
+    },
+    "core": "これから起こることを思って、心が落ち着かない。",
+    "other": []
+  },
+  {
+    "src": "M1809",
+    "id": "brave",
+    "en": "brave",
+    "ipa": "/breɪv/",
+    "sense": "勇敢な",
+    "ja": "勇敢な",
+    "ex": {
+      "en": "The brave firefighter saved the child.",
+      "ja": "勇敢な消防士がその子を救った。",
+      "mark": [
+        "brave"
+      ]
+    },
+    "core": "恐れを感じても、立ち向かう強さがある。",
+    "other": []
+  },
+  {
+    "src": "M1810",
+    "id": "confident",
+    "en": "confident",
+    "ipa": "/ˈkɑːnfədənt/",
+    "sense": "自信のある",
+    "ja": "自信のある",
+    "ex": {
+      "en": "She felt confident before the speech.",
+      "ja": "彼女はスピーチの前に自信を持っていた。",
+      "mark": [
+        "confident"
+      ]
+    },
+    "core": "自分の力を信じて、不安がない。",
+    "other": []
+  },
+  {
+    "src": "M1811",
+    "id": "proud",
+    "en": "proud",
+    "ipa": "/praʊd/",
+    "sense": "誇りに思う、誇らしい",
+    "ja": "誇らしい",
+    "ex": {
+      "en": "I'm proud of you for working so hard.",
+      "ja": "そんなに頑張ったあなたを誇りに思う。",
+      "mark": [
+        "proud"
+      ]
+    },
+    "core": "自分や身近な人の成果を、胸を張ってうれしく思う。",
+    "other": []
+  },
+  {
+    "src": "M1812",
+    "id": "shy",
+    "en": "shy",
+    "ipa": "/ʃaɪ/",
+    "sense": "内気な、恥ずかしがりの",
+    "ja": "内気な",
+    "ex": {
+      "en": "The shy boy hid behind his mother.",
+      "ja": "その内気な男の子は母親の後ろに隠れた。",
+      "mark": [
+        "shy"
+      ]
+    },
+    "core": "人前で緊張して、話したり前に出たりしにくい。",
+    "other": []
+  },
+  {
+    "src": "M1813",
+    "id": "lonely",
+    "en": "lonely",
+    "ipa": "/ˈloʊnli/",
+    "sense": "孤独な、さびしい",
+    "ja": "孤独な",
+    "ex": {
+      "en": "She felt lonely in the new city.",
+      "ja": "彼女は新しい街でさびしさを感じた。",
+      "mark": [
+        "lonely"
+      ]
+    },
+    "core": "人とのつながりがなく、心がさびしい。",
+    "diff": "alone はひとりでいる状態。lonely はさびしい気持ち。",
+    "other": []
+  },
+  {
+    "src": "M1814",
+    "id": "comfortable",
+    "en": "comfortable",
+    "ipa": "/ˈkʌmftərbəl/",
+    "sense": "快適な、心地よい",
+    "ja": "快適な",
+    "ex": {
+      "en": "This sofa is very comfortable.",
+      "ja": "このソファはとても座り心地がいい。",
+      "mark": [
+        "comfortable"
+      ]
+    },
+    "core": "体にも気持ちにも負担がなく、楽。",
+    "other": []
+  },
+  {
+    "src": "M1815",
+    "id": "uncomfortable",
+    "en": "uncomfortable",
+    "ipa": "/ʌnˈkʌmftərbəl/",
+    "sense": "居心地の悪い、落ち着かない",
+    "ja": "居心地の悪い",
+    "ex": {
+      "en": "I felt uncomfortable in the crowded room.",
+      "ja": "混雑した部屋で私は居心地が悪かった。",
+      "mark": [
+        "uncomfortable"
+      ]
+    },
+    "core": "体や気持ちに負担があり、楽でない。",
+    "other": []
+  },
+  {
+    "src": "M1816",
+    "id": "relaxed",
+    "en": "relaxed",
+    "ipa": "/rɪˈlækst/",
+    "sense": "くつろいだ、リラックスした",
+    "ja": "くつろいだ",
+    "ex": {
+      "en": "He looked relaxed on the sofa.",
+      "ja": "彼はソファでくつろいで見えた。",
+      "mark": [
+        "relaxed"
+      ]
+    },
+    "core": "緊張がほどけ、力が抜けている。",
+    "other": []
+  },
+  {
+    "src": "M1826",
+    "id": "ill",
+    "en": "ill",
+    "ipa": "/ɪl/",
+    "sense": "病気の、具合が悪い",
+    "ja": "病気の",
+    "ex": {
+      "en": "He stayed home because he was ill.",
+      "ja": "彼は病気だったので家にいた。",
+      "mark": [
+        "ill"
+      ]
+    },
+    "core": "体の調子が悪い状態。",
+    "diff": "sick は（米）で日常的に使う。ill は少し改まった言い方。",
+    "other": []
+  },
+  {
+    "src": "M1833",
+    "id": "absent",
+    "en": "absent",
+    "ipa": "/ˈæbsənt/",
+    "sense": "欠席の、不在の",
+    "ja": "欠席の",
+    "ex": {
+      "en": "Three students were absent from class today.",
+      "ja": "今日は3人の生徒がクラスを欠席した。",
+      "mark": [
+        "absent"
+      ]
+    },
+    "core": "いるはずの場所に、いない。",
+    "other": []
+  },
+  {
+    "src": "M1834",
+    "id": "present",
+    "en": "present",
+    "ipa": "/ˈprɛzənt/",
+    "sense": "出席している、その場にいる",
+    "ja": "出席している",
+    "ex": {
+      "en": "All the members were present at the meeting.",
+      "ja": "会員は全員その会議に出席していた。",
+      "mark": [
+        "present"
+      ]
+    },
+    "core": "その場所に、いる。",
+    "diff": "absent は欠席。present は出席。",
+    "other": [
+      "現在の：the present time",
+      "贈り物：a birthday present"
+    ]
+  },
+  {
+    "src": "M1835",
+    "id": "alive",
+    "en": "alive",
+    "ipa": "/əˈlaɪv/",
+    "sense": "生きている",
+    "ja": "生きている",
+    "ex": {
+      "en": "The fish is still alive.",
+      "ja": "その魚はまだ生きている。",
+      "mark": [
+        "alive"
+      ]
+    },
+    "core": "命がある状態にある。",
+    "other": []
+  },
+  {
+    "src": "M1836",
+    "id": "dead",
+    "en": "dead",
+    "ipa": "/dɛd/",
+    "sense": "死んだ、枯れた",
+    "ja": "死んだ",
+    "ex": {
+      "en": "The flowers in the vase are dead.",
+      "ja": "花瓶の花は枯れている。",
+      "mark": [
+        "dead"
+      ]
+    },
+    "core": "命がなくなっている。",
+    "other": [
+      "（電池が）切れた：a dead battery"
+    ]
+  },
+  {
+    "src": "M1837",
+    "id": "active",
+    "en": "active",
+    "ipa": "/ˈæktɪv/",
+    "sense": "活動的な、活発な",
+    "ja": "活動的な",
+    "ex": {
+      "en": "My grandmother is very active for her age.",
+      "ja": "祖母は年齢のわりにとても活動的だ。",
+      "mark": [
+        "active"
+      ]
+    },
+    "core": "よく動き、行動している。",
+    "other": []
+  },
+  {
+    "src": "M1838",
+    "id": "lazy",
+    "en": "lazy",
+    "ipa": "/ˈleɪzi/",
+    "sense": "怠けた、無精な",
+    "ja": "怠けた",
+    "ex": {
+      "en": "I felt lazy and stayed in bed all morning.",
+      "ja": "怠けた気分で、午前中ずっと寝ていた。",
+      "mark": [
+        "lazy"
+      ]
+    },
+    "core": "動くのをいやがり、努力しない。",
+    "other": []
+  },
+  {
+    "src": "M1839",
+    "id": "friendly",
+    "en": "friendly",
+    "ipa": "/ˈfrɛndli/",
+    "sense": "親しみやすい、友好的な",
+    "ja": "親しみやすい",
+    "ex": {
+      "en": "The staff at the hotel were very friendly.",
+      "ja": "ホテルの従業員はとても親しみやすかった。",
+      "mark": [
+        "friendly"
+      ]
+    },
+    "core": "友だち（friend）のように、感じがよい。",
+    "other": []
+  },
+  {
+    "src": "M1841",
+    "id": "polite",
+    "en": "polite",
+    "ipa": "/pəˈlaɪt/",
+    "sense": "礼儀正しい、丁寧な",
+    "ja": "礼儀正しい",
+    "ex": {
+      "en": "He is always polite to older people.",
+      "ja": "彼は年上の人にいつも礼儀正しい。",
+      "mark": [
+        "polite"
+      ]
+    },
+    "core": "相手への気づかいがあり、ふるまいが丁寧。",
+    "other": []
+  },
+  {
+    "src": "M1842",
+    "id": "rude",
+    "en": "rude",
+    "ipa": "/ruːd/",
+    "sense": "無礼な、失礼な",
+    "ja": "無礼な",
+    "ex": {
+      "en": "It's rude to talk with your mouth full.",
+      "ja": "口にものを入れて話すのは失礼だ。",
+      "mark": [
+        "rude"
+      ]
+    },
+    "core": "相手への敬意がなく、礼儀に反する。",
+    "other": []
+  },
+  {
+    "src": "M1843",
+    "id": "honest",
+    "en": "honest",
+    "ipa": "/ˈɑːnɪst/",
+    "sense": "正直な",
+    "ja": "正直な",
+    "ex": {
+      "en": "Please be honest with me about the problem.",
+      "ja": "その問題について、正直に話してください。",
+      "mark": [
+        "honest"
+      ]
+    },
+    "core": "うそやごまかしがない。",
+    "other": []
+  },
+  {
+    "src": "M1844",
+    "id": "fair",
+    "en": "fair",
+    "ipa": "/fɛr/",
+    "sense": "公平な、公正な",
+    "ja": "公平な",
+    "ex": {
+      "en": "The teacher gave everyone a fair chance.",
+      "ja": "先生は全員に公平な機会を与えた。",
+      "mark": [
+        "fair"
+      ]
+    },
+    "core": "だれか一人をひいきせず、釣り合いが取れている。",
+    "other": [
+      "（髪・肌が）色白の：fair skin"
+    ]
+  },
+  {
+    "src": "M1846",
+    "id": "careless",
+    "en": "careless",
+    "ipa": "/ˈkɛrləs/",
+    "sense": "不注意な",
+    "ja": "不注意な",
+    "ex": {
+      "en": "A careless mistake cost him the game.",
+      "ja": "不注意なミスで彼は試合に負けた。",
+      "mark": [
+        "careless"
+      ]
+    },
+    "core": "注意（care）を払っていない。",
+    "other": []
+  },
+  {
+    "src": "M1849",
+    "id": "clever",
+    "en": "clever",
+    "ipa": "/ˈklɛvər/",
+    "sense": "賢い、頭の切れる",
+    "ja": "賢い",
+    "ex": {
+      "en": "She is a clever girl who learns quickly.",
+      "ja": "彼女は飲み込みの早い賢い女の子だ。",
+      "mark": [
+        "clever"
+      ]
+    },
+    "core": "頭の回転が速く、うまい方法を思いつく。",
+    "diff": "wise は経験に基づく賢さ。clever は頭の回転の速さ。",
+    "other": []
+  },
+  {
+    "src": "M1851",
+    "id": "wise",
+    "en": "wise",
+    "ipa": "/waɪz/",
+    "sense": "賢明な、分別のある",
+    "ja": "賢明な",
+    "ex": {
+      "en": "It was wise of you to save some money.",
+      "ja": "お金を少し貯めておいたのは賢明だった。",
+      "mark": [
+        "wise"
+      ]
+    },
+    "core": "経験や知識をもとに、よい判断ができる。",
+    "diff": "clever は頭の回転の速さ。wise は判断の確かさ。",
+    "other": []
+  },
+  {
+    "src": "M1852",
+    "id": "foolish",
+    "en": "foolish",
+    "ipa": "/ˈfuːlɪʃ/",
+    "sense": "愚かな、ばかげた",
+    "ja": "愚かな",
+    "ex": {
+      "en": "It would be foolish to ignore the warning.",
+      "ja": "警告を無視するのは愚かだろう。",
+      "mark": [
+        "foolish"
+      ]
+    },
+    "core": "よく考えず、判断が間違っている。",
+    "other": []
+  },
+  {
+    "src": "M1853",
+    "id": "curious",
+    "en": "curious",
+    "ipa": "/ˈkjʊriəs/",
+    "sense": "好奇心の強い",
+    "ja": "好奇心の強い",
+    "ex": {
+      "en": "Children are curious about everything.",
+      "ja": "子どもは何にでも好奇心を持つ。",
+      "mark": [
+        "curious"
+      ]
+    },
+    "core": "知りたい、確かめたいという気持ちが強い。",
+    "other": [
+      "変な：a curious smell"
+    ]
+  },
+  {
+    "src": "M1854",
+    "id": "creative",
+    "en": "creative",
+    "ipa": "/kriˈeɪtɪv/",
+    "sense": "創造力のある、独創的な",
+    "ja": "創造力のある",
+    "ex": {
+      "en": "She is very creative and loves to paint.",
+      "ja": "彼女はとても創造力があり、絵を描くのが好きだ。",
+      "mark": [
+        "creative"
+      ]
+    },
+    "core": "新しいものを作り出す（create）力がある。",
+    "other": []
+  },
+  {
+    "src": "M1855",
+    "id": "generous",
+    "en": "generous",
+    "ipa": "/ˈdʒɛnərəs/",
+    "sense": "気前の良い、寛大な",
+    "ja": "気前の良い",
+    "ex": {
+      "en": "He is generous with his time and money.",
+      "ja": "彼は時間もお金も惜しまない気前のいい人だ。",
+      "mark": [
+        "generous"
+      ]
+    },
+    "core": "自分のものを、惜しまず人に分け与える。",
+    "other": []
+  },
+  {
+    "src": "M1856",
+    "id": "selfish",
+    "en": "selfish",
+    "ipa": "/ˈsɛlfɪʃ/",
+    "sense": "自分勝手な、わがままな",
+    "ja": "自分勝手な",
+    "ex": {
+      "en": "It was selfish of him to take all the cake.",
+      "ja": "ケーキを全部取るなんて、彼は自分勝手だった。",
+      "mark": [
+        "selfish"
+      ]
+    },
+    "core": "自分（self）のことだけを考えている。",
+    "other": []
+  },
+  {
+    "src": "M1857",
+    "id": "strict",
+    "en": "strict",
+    "ipa": "/strɪkt/",
+    "sense": "厳しい、厳格な",
+    "ja": "厳しい",
+    "ex": {
+      "en": "Our teacher is strict about homework.",
+      "ja": "私たちの先生は宿題に厳しい。",
+      "mark": [
+        "strict"
+      ]
+    },
+    "core": "規則や基準を、ゆるめずに守らせる。",
+    "other": []
+  },
+  {
+    "src": "M1858",
+    "id": "gentle",
+    "en": "gentle",
+    "ipa": "/ˈdʒɛntl/",
+    "sense": "優しい、穏やかな",
+    "ja": "優しい",
+    "ex": {
+      "en": "The nurse spoke in a gentle voice.",
+      "ja": "看護師は穏やかな声で話した。",
+      "mark": [
+        "gentle"
+      ]
+    },
+    "core": "荒さがなく、やわらかく丁寧。",
+    "other": []
+  },
+  {
+    "src": "M1862",
+    "id": "silent",
+    "en": "silent",
+    "ipa": "/ˈsaɪlənt/",
+    "sense": "静かな、音を立てない",
+    "ja": "静かな",
+    "ex": {
+      "en": "The room was silent after the teacher spoke.",
+      "ja": "先生が話したあと、部屋は静まりかえった。",
+      "mark": [
+        "silent"
+      ]
+    },
+    "core": "音や声がまったくしない状態。",
+    "diff": "quiet は小さな音はある静かさ。silent は音がまったくない静けさ。",
+    "other": []
+  },
+  {
+    "src": "M1865",
+    "id": "essential",
+    "en": "essential",
+    "ipa": "/ɪˈsɛnʃəl/",
+    "sense": "不可欠な、絶対に必要な",
+    "ja": "不可欠な",
+    "ex": {
+      "en": "Water is essential for all living things.",
+      "ja": "水はすべての生き物にとって不可欠だ。",
+      "mark": [
+        "essential"
+      ]
+    },
+    "core": "それがなければ成り立たない、中心的な必要さ。",
+    "other": []
+  },
+  {
+    "src": "M1867",
+    "id": "useless",
+    "en": "useless",
+    "ipa": "/ˈjuːsləs/",
+    "sense": "役に立たない、無駄な",
+    "ja": "役に立たない",
+    "ex": {
+      "en": "This old map is useless without a legend.",
+      "ja": "この古い地図は凡例がないと役に立たない。",
+      "mark": [
+        "useless"
+      ]
+    },
+    "core": "使う（use）ことができず、価値がない。",
+    "other": []
+  },
+  {
+    "src": "M1868",
+    "id": "helpful",
+    "en": "helpful",
+    "ipa": "/ˈhɛlpfəl/",
+    "sense": "助けになる、役に立つ",
+    "ja": "助けになる",
+    "ex": {
+      "en": "The guide gave us some helpful advice.",
+      "ja": "ガイドは私たちに役立つ助言をくれた。",
+      "mark": [
+        "helpful"
+      ]
+    },
+    "core": "手助け（help）になる性質がある。",
+    "other": []
+  },
+  {
+    "src": "M1871",
+    "id": "likely",
+    "en": "likely",
+    "ipa": "/ˈlaɪkli/",
+    "sense": "ありそうな、起こりそうな",
+    "ja": "ありそうな",
+    "ex": {
+      "en": "It is likely to rain this afternoon.",
+      "ja": "今日の午後は雨が降りそうだ。",
+      "mark": [
+        "likely"
+      ]
+    },
+    "core": "そうなる可能性が高い。",
+    "other": []
+  },
+  {
+    "src": "M1872",
+    "id": "unlikely",
+    "en": "unlikely",
+    "ipa": "/ʌnˈlaɪkli/",
+    "sense": "ありそうもない",
+    "ja": "ありそうもない",
+    "ex": {
+      "en": "It is unlikely that he will come.",
+      "ja": "彼が来る可能性は低い。",
+      "mark": [
+        "unlikely"
+      ]
+    },
+    "core": "そうなる可能性が低い。",
+    "other": []
+  },
+  {
+    "src": "M1873",
+    "id": "certain",
+    "en": "certain",
+    "ipa": "/ˈsɝːtn/",
+    "sense": "確かな、確信している",
+    "ja": "確かな",
+    "ex": {
+      "en": "I'm certain that I locked the door.",
+      "ja": "私はドアに鍵をかけたと確信している。",
+      "mark": [
+        "certain"
+      ]
+    },
+    "core": "疑いの余地がなく、はっきりしている。",
+    "other": [
+      "ある（特定の）：a certain person"
+    ]
+  },
+  {
+    "src": "M1876",
+    "id": "obvious",
+    "en": "obvious",
+    "ipa": "/ˈɑːbviəs/",
+    "sense": "明らかな、はっきりした",
+    "ja": "明らかな",
+    "ex": {
+      "en": "It was obvious that she was tired.",
+      "ja": "彼女が疲れているのは明らかだった。",
+      "mark": [
+        "obvious"
+      ]
+    },
+    "core": "説明されなくても、見ればわかる。",
+    "other": []
+  },
+  {
+    "src": "M1878",
+    "id": "complex",
+    "en": "complex",
+    "ipa": "/kɑːmˈplɛks/",
+    "sense": "複雑な",
+    "ja": "複雑な",
+    "ex": {
+      "en": "The rules of this game are too complex.",
+      "ja": "このゲームのルールは複雑すぎる。",
+      "mark": [
+        "complex"
+      ]
+    },
+    "core": "多くの部分が絡み合っていて、わかりにくい。",
+    "diff": "complicated は「ややこしい」と困る感じが強い。",
+    "other": []
+  },
+  {
+    "src": "M1882",
+    "id": "advanced",
+    "en": "advanced",
+    "ipa": "/ədˈvænst/",
+    "sense": "高度な、上級の",
+    "ja": "高度な",
+    "ex": {
+      "en": "She is taking an advanced English course.",
+      "ja": "彼女は上級の英語講座を受けている。",
+      "mark": [
+        "advanced"
+      ]
+    },
+    "core": "ほかより先（advance）へ進んだ段階にある。",
+    "other": []
+  },
+  {
+    "src": "M1885",
+    "id": "accurate",
+    "en": "accurate",
+    "ipa": "/ˈækjərət/",
+    "sense": "正確な、間違いのない",
+    "ja": "正確な",
+    "ex": {
+      "en": "The report was accurate and clear.",
+      "ja": "その報告は正確でわかりやすかった。",
+      "mark": [
+        "accurate"
+      ]
+    },
+    "core": "事実や的に、ずれなく合っている。",
+    "other": []
+  },
+  {
+    "src": "M1886",
+    "id": "exact",
+    "en": "exact",
+    "ipa": "/ɪɡˈzækt/",
+    "sense": "正確な、ちょうどの",
+    "ja": "正確な",
+    "ex": {
+      "en": "What is the exact time now?",
+      "ja": "今、正確な時刻は何時ですか。",
+      "mark": [
+        "exact"
+      ]
+    },
+    "core": "細かいところまで、少しもずれがない。",
+    "other": []
+  },
+  {
+    "src": "M1891",
+    "id": "rare",
+    "en": "rare",
+    "ipa": "/rɛr/",
+    "sense": "まれな、めずらしい",
+    "ja": "まれな",
+    "ex": {
+      "en": "It is rare to see snow in this city.",
+      "ja": "この街で雪を見ることはまれだ。",
+      "mark": [
+        "rare"
+      ]
+    },
+    "core": "めったに起こらず、数が少ない。",
+    "other": [
+      "（ステーキが）レアの：a rare steak"
+    ]
+  },
+  {
+    "src": "M1892",
+    "id": "usual",
+    "en": "usual",
+    "ipa": "/ˈjuːʒuəl/",
+    "sense": "通常の、いつもの",
+    "ja": "通常の",
+    "ex": {
+      "en": "I took my usual seat near the window.",
+      "ja": "私は窓際のいつもの席に座った。",
+      "mark": [
+        "usual"
+      ]
+    },
+    "core": "いつもどおりで、ふつうに行われる。",
+    "other": []
+  },
+  {
+    "src": "M1893",
+    "id": "unusual",
+    "en": "unusual",
+    "ipa": "/ʌnˈjuːʒuəl/",
+    "sense": "珍しい、変わった",
+    "ja": "珍しい",
+    "ex": {
+      "en": "It's unusual for him to be late.",
+      "ja": "彼が遅れるのは珍しい。",
+      "mark": [
+        "unusual"
+      ]
+    },
+    "core": "いつもと違っていて、ふつうではない。",
+    "other": []
+  },
+  {
+    "src": "M1894",
+    "id": "normal",
+    "en": "normal",
+    "ipa": "/ˈnɔːrməl/",
+    "sense": "正常な、標準的な",
+    "ja": "正常な",
+    "ex": {
+      "en": "Your temperature is normal, so you can go to school.",
+      "ja": "体温は正常なので、学校に行ってよい。",
+      "mark": [
+        "normal"
+      ]
+    },
+    "core": "基準の範囲内で、ふだんどおりの状態。",
+    "other": []
+  },
+  {
+    "src": "M1896",
+    "id": "ordinary",
+    "en": "ordinary",
+    "ipa": "/ˈɔːrdəˌnɛri/",
+    "sense": "普通の、ありふれた",
+    "ja": "普通の",
+    "ex": {
+      "en": "It was just an ordinary day at school.",
+      "ja": "学校でのごく普通の一日だった。",
+      "mark": [
+        "ordinary"
+      ]
+    },
+    "core": "特別なところがなく、ありふれている。",
+    "other": []
+  },
+  {
+    "src": "M1897",
+    "id": "unique",
+    "en": "unique",
+    "ipa": "/juˈniːk/",
+    "sense": "他に類のない、独特の",
+    "ja": "独特の",
+    "ex": {
+      "en": "Each snowflake has a unique shape.",
+      "ja": "雪の結晶はそれぞれ独特の形をしている。",
+      "mark": [
+        "unique"
+      ]
+    },
+    "core": "同じものが他になく、一つだけ。",
+    "other": []
+  },
+  {
+    "src": "M1898",
+    "id": "popular",
+    "en": "popular",
+    "ipa": "/ˈpɑːpjələr/",
+    "sense": "人気のある",
+    "ja": "人気のある",
+    "ex": {
+      "en": "This song is popular with young people.",
+      "ja": "この歌は若い人に人気がある。",
+      "mark": [
+        "popular"
+      ]
+    },
+    "core": "多くの人に好まれている。",
+    "other": []
+  },
+  {
+    "src": "M1899",
+    "id": "famous",
+    "en": "famous",
+    "ipa": "/ˈfeɪməs/",
+    "sense": "有名な",
+    "ja": "有名な",
+    "ex": {
+      "en": "Kyoto is famous for its old temples.",
+      "ja": "京都は古い寺で有名だ。",
+      "mark": [
+        "famous"
+      ]
+    },
+    "core": "多くの人にその名が知られている。",
+    "other": []
+  },
+  {
+    "src": "M1900",
+    "id": "familiar",
+    "en": "familiar",
+    "ipa": "/fəˈmɪljər/",
+    "sense": "よく知っている、見慣れた",
+    "ja": "見慣れた",
+    "ex": {
+      "en": "Her face looked familiar to me.",
+      "ja": "彼女の顔に見覚えがあった。",
+      "mark": [
+        "familiar"
+      ]
+    },
+    "core": "何度も接して、なじみがある。",
+    "other": []
+  },
+  {
+    "src": "M1901",
+    "id": "strange",
+    "en": "strange",
+    "ipa": "/streɪndʒ/",
+    "sense": "奇妙な、不思議な",
+    "ja": "奇妙な",
+    "ex": {
+      "en": "I heard a strange noise in the kitchen.",
+      "ja": "台所で奇妙な物音が聞こえた。",
+      "mark": [
+        "strange"
+      ]
+    },
+    "core": "ふつうと違い、理由がわからず不思議。",
+    "other": []
+  },
+  {
+    "src": "M1902",
+    "id": "foreign",
+    "en": "foreign",
+    "ipa": "/ˈfɔːrən/",
+    "sense": "外国の",
+    "ja": "外国の",
+    "ex": {
+      "en": "She is learning a foreign language.",
+      "ja": "彼女は外国語を学んでいる。",
+      "mark": [
+        "foreign"
+      ]
+    },
+    "core": "自分の国の外にある。",
+    "other": []
+  },
+  {
+    "src": "M1904",
+    "id": "international",
+    "en": "international",
+    "ipa": "/ˌɪntərˈnæʃənl/",
+    "sense": "国際的な",
+    "ja": "国際的な",
+    "ex": {
+      "en": "He works for an international company.",
+      "ja": "彼は国際的な会社で働いている。",
+      "mark": [
+        "international"
+      ]
+    },
+    "core": "国と国の間（inter）にまたがる。",
+    "other": []
+  },
+  {
+    "src": "M1905",
+    "id": "domestic",
+    "en": "domestic",
+    "ipa": "/dəˈmɛstɪk/",
+    "sense": "国内の",
+    "ja": "国内の",
+    "ex": {
+      "en": "I took a domestic flight to Osaka.",
+      "ja": "私は大阪行きの国内線に乗った。",
+      "mark": [
+        "domestic"
+      ]
+    },
+    "core": "自分の国の中に限られる。",
+    "other": [
+      "家庭の：domestic work"
+    ]
+  },
+  {
+    "src": "M1908",
+    "id": "personal",
+    "en": "personal",
+    "ipa": "/ˈpɝːsənəl/",
+    "sense": "個人の、個人的な",
+    "ja": "個人的な",
+    "ex": {
+      "en": "Please don't ask me personal questions.",
+      "ja": "個人的な質問はしないでください。",
+      "mark": [
+        "personal"
+      ]
+    },
+    "core": "ある一人の人に属し、その人自身のこと。",
+    "other": []
+  },
+  {
+    "src": "M1909",
+    "id": "professional",
+    "en": "professional",
+    "ipa": "/prəˈfɛʃənəl/",
+    "sense": "職業上の、プロの",
+    "ja": "職業上の",
+    "ex": {
+      "en": "She asked a professional photographer for help.",
+      "ja": "彼女はプロの写真家に助けを頼んだ。",
+      "mark": [
+        "professional"
+      ]
+    },
+    "core": "仕事として行い、専門の技能を持つ。",
+    "other": []
+  },
+  {
+    "src": "M1910",
+    "id": "formal",
+    "en": "formal",
+    "ipa": "/ˈfɔːrməl/",
+    "sense": "正式な、改まった",
+    "ja": "正式な",
+    "ex": {
+      "en": "He wore a formal suit to the ceremony.",
+      "ja": "彼は式典に正式なスーツを着ていった。",
+      "mark": [
+        "formal"
+      ]
+    },
+    "core": "決まった形式に沿った、改まった。",
+    "other": []
+  },
+  {
+    "src": "M1911",
+    "id": "informal",
+    "en": "informal",
+    "ipa": "/ɪnˈfɔːrməl/",
+    "sense": "形式ばらない、くだけた",
+    "ja": "くだけた",
+    "ex": {
+      "en": "It was an informal meeting among friends.",
+      "ja": "友人同士のくだけた集まりだった。",
+      "mark": [
+        "informal"
+      ]
+    },
+    "core": "決まった形式にとらわれず、気軽。",
+    "other": []
+  },
+  {
+    "src": "M1912",
+    "id": "legal",
+    "en": "legal",
+    "ipa": "/ˈliːɡəl/",
+    "sense": "合法の、法律上の",
+    "ja": "合法の",
+    "ex": {
+      "en": "It is legal to drive at the age of eighteen.",
+      "ja": "18歳で車を運転するのは合法だ。",
+      "mark": [
+        "legal"
+      ]
+    },
+    "core": "法律（law）に合っている。",
+    "other": []
+  },
+  {
+    "src": "M1913",
+    "id": "illegal",
+    "en": "illegal",
+    "ipa": "/ɪˈliːɡəl/",
+    "sense": "違法の",
+    "ja": "違法の",
+    "ex": {
+      "en": "Parking here is illegal, so please use the garage.",
+      "ja": "ここに駐車するのは違法なので、車庫を使ってください。",
+      "mark": [
+        "illegal"
+      ]
+    },
+    "core": "法律に反している。",
+    "other": []
+  },
+  {
+    "src": "M1914",
+    "id": "official",
+    "en": "official",
+    "ipa": "/əˈfɪʃəl/",
+    "sense": "公式の",
+    "ja": "公式の",
+    "ex": {
+      "en": "The official website has all the details.",
+      "ja": "公式サイトに詳細が全部載っている。",
+      "mark": [
+        "official"
+      ]
+    },
+    "core": "公の立場で認められた、正式な。",
+    "other": []
+  },
+  {
+    "src": "M1915",
+    "id": "financial",
+    "en": "financial",
+    "ipa": "/faɪˈnænʃəl/",
+    "sense": "財務の、金銭上の",
+    "ja": "金銭上の",
+    "ex": {
+      "en": "The company is having financial problems.",
+      "ja": "その会社は財務上の問題を抱えている。",
+      "mark": [
+        "financial"
+      ]
+    },
+    "core": "お金の流れや管理にかかわる。",
+    "other": []
+  },
+  {
+    "src": "M1916",
+    "id": "economic",
+    "en": "economic",
+    "ipa": "/ˌɛkəˈnɑːmɪk/",
+    "sense": "経済の",
+    "ja": "経済の",
+    "ex": {
+      "en": "The country faces serious economic problems.",
+      "ja": "その国は深刻な経済問題に直面している。",
+      "mark": [
+        "economic"
+      ]
+    },
+    "core": "社会全体のお金やものの動きにかかわる。",
+    "diff": "economical は「節約になる」。",
+    "other": []
+  },
+  {
+    "src": "M1917",
+    "id": "commercial",
+    "en": "commercial",
+    "ipa": "/kəˈmɝːʃəl/",
+    "sense": "商業の、営利の",
+    "ja": "商業の",
+    "ex": {
+      "en": "The street is full of commercial buildings.",
+      "ja": "その通りは商業ビルでいっぱいだ。",
+      "mark": [
+        "commercial"
+      ]
+    },
+    "core": "売り買いや利益を目的とする。",
+    "other": [
+      "（テレビの）広告：a TV commercial"
+    ]
+  },
+  {
+    "src": "M1918",
+    "id": "industrial",
+    "en": "industrial",
+    "ipa": "/ɪnˈdʌstriəl/",
+    "sense": "産業の、工業の",
+    "ja": "産業の",
+    "ex": {
+      "en": "This area has many industrial factories.",
+      "ja": "この地域には多くの工場がある。",
+      "mark": [
+        "industrial"
+      ]
+    },
+    "core": "工場でものを大量に作る、産業にかかわる。",
+    "other": []
+  },
+  {
+    "src": "M1919",
+    "id": "technical",
+    "en": "technical",
+    "ipa": "/ˈtɛknɪkəl/",
+    "sense": "技術的な、専門的な",
+    "ja": "技術的な",
+    "ex": {
+      "en": "We had a technical problem during the show.",
+      "ja": "ショーの最中に技術的なトラブルがあった。",
+      "mark": [
+        "technical"
+      ]
+    },
+    "core": "機械や方法など、専門的な技術にかかわる。",
+    "other": []
+  },
+  {
+    "src": "M1920",
+    "id": "digital",
+    "en": "digital",
+    "ipa": "/ˈdɪdʒɪtl/",
+    "sense": "デジタルの",
+    "ja": "デジタルの",
+    "ex": {
+      "en": "I bought a new digital camera.",
+      "ja": "私は新しいデジタルカメラを買った。",
+      "mark": [
+        "digital"
+      ]
+    },
+    "core": "情報を数字（0と1）の形で扱う。",
+    "other": []
+  },
+  {
+    "src": "M1921",
+    "id": "manual",
+    "en": "manual",
+    "ipa": "/ˈmænjuəl/",
+    "sense": "手動の",
+    "ja": "手動の",
+    "ex": {
+      "en": "This is a manual car, not an automatic.",
+      "ja": "これはオートマではなく手動の車だ。",
+      "mark": [
+        "manual"
+      ]
+    },
+    "core": "手（manu-）を使って操作する。",
+    "other": [
+      "手引書：an instruction manual"
+    ]
+  },
+  {
+    "src": "M1922",
+    "id": "automatic",
+    "en": "automatic",
+    "ipa": "/ˌɔːtəˈmætɪk/",
+    "sense": "自動の",
+    "ja": "自動の",
+    "ex": {
+      "en": "The door opens with an automatic sensor.",
+      "ja": "そのドアは自動センサーで開く。",
+      "mark": [
+        "automatic"
+      ]
+    },
+    "core": "人が操作しなくても、ひとりでに動く。",
+    "other": []
+  },
+  {
+    "src": "M1923",
+    "id": "efficient",
+    "en": "efficient",
+    "ipa": "/ɪˈfɪʃənt/",
+    "sense": "効率的な",
+    "ja": "効率的な",
+    "ex": {
+      "en": "This machine is more efficient than the old one.",
+      "ja": "この機械は古いものより効率がいい。",
+      "mark": [
+        "efficient"
+      ]
+    },
+    "core": "むだが少なく、力や時間を有効に使う。",
+    "diff": "effective は「効果がある」。efficient は「むだがない」。",
+    "other": []
+  },
+  {
+    "src": "M1924",
+    "id": "effective",
+    "en": "effective",
+    "ipa": "/ɪˈfɛktɪv/",
+    "sense": "効果的な",
+    "ja": "効果的な",
+    "ex": {
+      "en": "This medicine is effective against headaches.",
+      "ja": "この薬は頭痛に効果がある。",
+      "mark": [
+        "effective"
+      ]
+    },
+    "core": "ねらった結果をきちんと出す。",
+    "diff": "efficient は「むだがない」。effective は「効果がある」。",
+    "other": []
+  },
+  {
+    "src": "M1925",
+    "id": "productive",
+    "en": "productive",
+    "ipa": "/prəˈdʌktɪv/",
+    "sense": "生産性の高い",
+    "ja": "生産性の高い",
+    "ex": {
+      "en": "We had a productive meeting this morning.",
+      "ja": "今朝は実りの多い会議だった。",
+      "mark": [
+        "productive"
+      ]
+    },
+    "core": "成果やものをたくさん生み出す。",
+    "other": []
+  },
+  {
+    "src": "M1926",
+    "id": "reliable",
+    "en": "reliable",
+    "ipa": "/rɪˈlaɪəbəl/",
+    "sense": "信頼できる",
+    "ja": "信頼できる",
+    "ex": {
+      "en": "He is a reliable worker who never misses a day.",
+      "ja": "彼は一日も休まない信頼できる働き手だ。",
+      "mark": [
+        "reliable"
+      ]
+    },
+    "core": "頼って（rely）任せても大丈夫。",
+    "other": []
+  },
+  {
+    "src": "M1927",
+    "id": "responsible",
+    "en": "responsible",
+    "ipa": "/rɪˈspɑːnsəbəl/",
+    "sense": "責任のある、責任を負う",
+    "ja": "責任のある",
+    "ex": {
+      "en": "The driver was responsible for the accident.",
+      "ja": "運転手がその事故の責任を負っていた。",
+      "mark": [
+        "responsible"
+      ]
+    },
+    "core": "ある事柄を引き受け、応える（respond）立場にある。",
+    "other": []
+  },
+  {
+    "src": "M1928",
+    "id": "reasonable",
+    "en": "reasonable",
+    "ipa": "/ˈriːznəbəl/",
+    "sense": "妥当な、道理にかなった",
+    "ja": "妥当な",
+    "ex": {
+      "en": "The price of this hotel is quite reasonable.",
+      "ja": "このホテルの料金はかなり手ごろだ。",
+      "mark": [
+        "reasonable"
+      ]
+    },
+    "core": "理由（reason）があり、納得できる。",
+    "other": []
+  },
+  {
+    "src": "M1929",
+    "id": "suitable",
+    "en": "suitable",
+    "ipa": "/ˈsuːtəbəl/",
+    "sense": "適した、ふさわしい",
+    "ja": "適した",
+    "ex": {
+      "en": "This room is suitable for a small meeting.",
+      "ja": "この部屋は小さな会議に適している。",
+      "mark": [
+        "suitable"
+      ]
+    },
+    "core": "目的や場面にぴったり合う。",
+    "other": []
+  },
+  {
+    "src": "M1930",
+    "id": "appropriate",
+    "en": "appropriate",
+    "ipa": "/əˈproʊpriət/",
+    "sense": "適切な、ふさわしい",
+    "ja": "適切な",
+    "ex": {
+      "en": "Jeans are not appropriate for a wedding.",
+      "ja": "ジーンズは結婚式にふさわしくない。",
+      "mark": [
+        "appropriate"
+      ]
+    },
+    "core": "場面や状況に、きちんと合っている。",
+    "other": []
+  },
+  {
+    "src": "M1931",
+    "id": "convenient",
+    "en": "convenient",
+    "ipa": "/kənˈviːniənt/",
+    "sense": "便利な、都合のよい",
+    "ja": "便利な",
+    "ex": {
+      "en": "The station is convenient for shopping.",
+      "ja": "その駅は買い物に便利だ。",
+      "mark": [
+        "convenient"
+      ]
+    },
+    "core": "手間が少なく、使いやすい。",
+    "other": []
+  },
+  {
+    "src": "M1932",
+    "id": "flexible",
+    "en": "flexible",
+    "ipa": "/ˈflɛksəbəl/",
+    "sense": "柔軟な、融通のきく",
+    "ja": "柔軟な",
+    "ex": {
+      "en": "My boss is flexible about work hours.",
+      "ja": "上司は勤務時間に融通がきく。",
+      "mark": [
+        "flexible"
+      ]
+    },
+    "core": "折れずに曲がるように、状況に合わせて変えられる。",
+    "other": []
+  },
+  {
+    "src": "M1945",
+    "id": "recently",
+    "en": "recently",
+    "ipa": "/ˈriːsntli/",
+    "sense": "最近、近ごろ",
+    "ja": "最近",
+    "ex": {
+      "en": "I recently moved to a new apartment.",
+      "ja": "私は最近新しいアパートに引っ越した。",
+      "mark": [
+        "recently"
+      ]
+    },
+    "core": "今から見て、少し前の時期に。",
+    "other": []
+  },
+  {
+    "src": "M1946",
+    "id": "currently",
+    "en": "currently",
+    "ipa": "/ˈkɝːəntli/",
+    "sense": "現在、今のところ",
+    "ja": "現在",
+    "ex": {
+      "en": "She is currently working in Osaka.",
+      "ja": "彼女は現在、大阪で働いている。",
+      "mark": [
+        "currently"
+      ]
+    },
+    "core": "今この時点で。",
+    "other": []
+  },
+  {
+    "src": "M1947",
+    "id": "previously",
+    "en": "previously",
+    "ipa": "/ˈpriːviəsli/",
+    "sense": "以前に、前もって",
+    "ja": "以前に",
+    "ex": {
+      "en": "He previously worked at a bank.",
+      "ja": "彼は以前、銀行で働いていた。",
+      "mark": [
+        "previously"
+      ]
+    },
+    "core": "今より前の時点で。",
+    "other": []
+  },
+  {
+    "src": "M1948",
+    "id": "finally",
+    "en": "finally",
+    "ipa": "/ˈfaɪnəli/",
+    "sense": "ついに、ようやく",
+    "ja": "ついに",
+    "ex": {
+      "en": "After a long wait, the bus finally came.",
+      "ja": "長く待って、バスがようやく来た。",
+      "mark": [
+        "finally"
+      ]
+    },
+    "core": "長い間や多くの出来事を経て、最後にたどり着く。",
+    "other": [
+      "最後に：Finally, add some salt."
+    ]
+  },
+  {
+    "src": "M1949",
+    "id": "eventually",
+    "en": "eventually",
+    "ipa": "/ɪˈvɛntʃuəli/",
+    "sense": "最終的には、いずれは",
+    "ja": "最終的には",
+    "ex": {
+      "en": "He eventually found his lost keys.",
+      "ja": "彼は結局なくした鍵を見つけた。",
+      "mark": [
+        "eventually"
+      ]
+    },
+    "core": "時間はかかったが、最後にはそうなる。",
+    "other": []
+  },
+  {
+    "src": "M1950",
+    "id": "immediately",
+    "en": "immediately",
+    "ipa": "/ɪˈmiːdiətli/",
+    "sense": "すぐに、直ちに",
+    "ja": "すぐに",
+    "ex": {
+      "en": "Please call me immediately if you need help.",
+      "ja": "助けが必要なら、すぐに電話をください。",
+      "mark": [
+        "immediately"
+      ]
+    },
+    "core": "間を置かず、その場ですぐに。",
+    "other": []
+  },
+  {
+    "src": "M1951",
+    "id": "suddenly",
+    "en": "suddenly",
+    "ipa": "/ˈsʌdnli/",
+    "sense": "突然、急に",
+    "ja": "突然",
+    "ex": {
+      "en": "The lights suddenly went out.",
+      "ja": "突然、明かりが消えた。",
+      "mark": [
+        "suddenly"
+      ]
+    },
+    "core": "前触れなく、急に。",
+    "other": []
+  },
+  {
+    "src": "M1952",
+    "id": "gradually",
+    "en": "gradually",
+    "ipa": "/ˈɡrædʒuəli/",
+    "sense": "徐々に、だんだんと",
+    "ja": "徐々に",
+    "ex": {
+      "en": "The weather gradually got warmer.",
+      "ja": "天気はだんだん暖かくなった。",
+      "mark": [
+        "gradually"
+      ]
+    },
+    "core": "一段ずつ、少しずつ。",
+    "other": []
+  },
+  {
+    "src": "M1957",
+    "id": "rarely",
+    "en": "rarely",
+    "ipa": "/ˈrɛrli/",
+    "sense": "めったに〜ない",
+    "ja": "めったに〜ない",
+    "ex": {
+      "en": "I rarely eat fast food.",
+      "ja": "私はファストフードをめったに食べない。",
+      "mark": [
+        "rarely"
+      ]
+    },
+    "core": "まれにしか起こらない。",
+    "diff": "seldom と同じ意味。rarely のほうが日常的。",
+    "other": []
+  },
+  {
+    "src": "M1960",
+    "id": "once",
+    "en": "once",
+    "ipa": "/wʌns/",
+    "sense": "一度、一回",
+    "ja": "一度",
+    "ex": {
+      "en": "I have been to Hokkaido only once.",
+      "ja": "私は北海道に一度しか行ったことがない。",
+      "mark": [
+        "once"
+      ]
+    },
+    "core": "回数が1回。",
+    "other": [
+      "かつて：He once lived here.",
+      "いったん〜すると：Once you start, you can't stop."
+    ]
+  },
+  {
+    "src": "M1961",
+    "id": "twice",
+    "en": "twice",
+    "ipa": "/twaɪs/",
+    "sense": "二度、二回",
+    "ja": "二度",
+    "ex": {
+      "en": "I go to the gym twice a week.",
+      "ja": "私は週に2回ジムに行く。",
+      "mark": [
+        "twice"
+      ]
+    },
+    "core": "回数が2回。",
+    "other": []
+  },
+  {
+    "src": "M1962",
+    "id": "daily",
+    "en": "daily",
+    "ipa": "/ˈdeɪli/",
+    "sense": "毎日、日ごとに",
+    "ja": "毎日",
+    "ex": {
+      "en": "I write in my diary daily.",
+      "ja": "私は毎日日記を書く。",
+      "mark": [
+        "daily"
+      ]
+    },
+    "core": "1日ごとにくり返す。",
+    "other": []
+  },
+  {
+    "src": "M1963",
+    "id": "weekly",
+    "en": "weekly",
+    "ipa": "/ˈwiːkli/",
+    "sense": "毎週、週に一度",
+    "ja": "毎週",
+    "ex": {
+      "en": "The class meets weekly on Mondays.",
+      "ja": "その授業は毎週月曜日にある。",
+      "mark": [
+        "weekly"
+      ]
+    },
+    "core": "1週間ごとにくり返す。",
+    "other": []
+  },
+  {
+    "src": "M1964",
+    "id": "monthly",
+    "en": "monthly",
+    "ipa": "/ˈmʌnθli/",
+    "sense": "毎月、月に一度",
+    "ja": "毎月",
+    "ex": {
+      "en": "The magazine is published monthly.",
+      "ja": "その雑誌は月に一度発行される。",
+      "mark": [
+        "monthly"
+      ]
+    },
+    "core": "1か月ごとにくり返す。",
+    "other": []
+  },
+  {
+    "src": "M1965",
+    "id": "annually",
+    "en": "annually",
+    "ipa": "/ˈænjuəli/",
+    "sense": "毎年、年に一度",
+    "ja": "毎年",
+    "ex": {
+      "en": "The festival is held annually in July.",
+      "ja": "その祭りは毎年7月に開かれる。",
+      "mark": [
+        "annually"
+      ]
+    },
+    "core": "1年ごとにくり返す。",
+    "other": []
+  },
+  {
+    "src": "M1970",
+    "id": "abroad",
+    "en": "abroad",
+    "ipa": "/əˈbrɔːd/",
+    "sense": "海外へ、海外で",
+    "ja": "海外へ",
+    "ex": {
+      "en": "She wants to study abroad next year.",
+      "ja": "彼女は来年、海外で勉強したいと思っている。",
+      "mark": [
+        "abroad"
+      ]
+    },
+    "core": "自分の国の外（広い所）へ出ていく。",
+    "other": []
+  },
+  {
+    "src": "M1971",
+    "id": "indoors",
+    "en": "indoors",
+    "ipa": "/ˌɪnˈdɔːrz/",
+    "sense": "屋内で、屋内へ",
+    "ja": "屋内で",
+    "ex": {
+      "en": "We stayed indoors because of the rain.",
+      "ja": "雨のため、私たちは屋内にいた。",
+      "mark": [
+        "indoors"
+      ]
+    },
+    "core": "建物の中（in）で。",
+    "other": []
+  },
+  {
+    "src": "M1972",
+    "id": "outdoors",
+    "en": "outdoors",
+    "ipa": "/ˌaʊtˈdɔːrz/",
+    "sense": "屋外で、屋外へ",
+    "ja": "屋外で",
+    "ex": {
+      "en": "The children love playing outdoors.",
+      "ja": "子どもたちは屋外で遊ぶのが大好きだ。",
+      "mark": [
+        "outdoors"
+      ]
+    },
+    "core": "建物の外（out）で。",
+    "other": []
+  },
+  {
+    "src": "M1973",
+    "id": "upstairs",
+    "en": "upstairs",
+    "ipa": "/ˌʌpˈstɛrz/",
+    "sense": "上の階へ、二階で",
+    "ja": "上の階へ",
+    "ex": {
+      "en": "He went upstairs to take a nap.",
+      "ja": "彼は昼寝をしに上の階へ行った。",
+      "mark": [
+        "upstairs"
+      ]
+    },
+    "core": "階段（stairs）の上（up）の方へ。",
+    "other": []
+  },
+  {
+    "src": "M1974",
+    "id": "downstairs",
+    "en": "downstairs",
+    "ipa": "/ˌdaʊnˈstɛrz/",
+    "sense": "下の階へ、階下で",
+    "ja": "下の階へ",
+    "ex": {
+      "en": "She came downstairs for breakfast.",
+      "ja": "彼女は朝食のために階下へ下りてきた。",
+      "mark": [
+        "downstairs"
+      ]
+    },
+    "core": "階段（stairs）の下（down）の方へ。",
+    "other": []
+  },
+  {
+    "src": "M1975",
+    "id": "forward",
+    "en": "forward",
+    "ipa": "/ˈfɔːrwərd/",
+    "sense": "前へ、前方へ",
+    "ja": "前へ",
+    "ex": {
+      "en": "The car moved slowly forward.",
+      "ja": "車はゆっくり前へ進んだ。",
+      "mark": [
+        "forward"
+      ]
+    },
+    "core": "顔の向いている方向、前（fore）へ。",
+    "other": []
+  },
+  {
+    "src": "M1976",
+    "id": "backward",
+    "en": "backward",
+    "ipa": "/ˈbækwərd/",
+    "sense": "後ろへ、後方へ",
+    "ja": "後ろへ",
+    "ex": {
+      "en": "She took a step backward.",
+      "ja": "彼女は一歩後ろへ下がった。",
+      "mark": [
+        "backward"
+      ]
+    },
+    "core": "背中の向いている方向、後ろ（back）へ。",
+    "other": []
+  },
+  {
+    "src": "M1978",
+    "id": "apart",
+    "en": "apart",
+    "ipa": "/əˈpɑːrt/",
+    "sense": "離れて、ばらばらに",
+    "ja": "離れて",
+    "ex": {
+      "en": "The two houses stand ten meters apart.",
+      "ja": "その2軒の家は10メートル離れて建っている。",
+      "mark": [
+        "apart"
+      ]
+    },
+    "core": "ひとつのものが、別々の位置に離れている。",
+    "other": []
+  },
+  {
+    "src": "M1981",
+    "id": "nearly",
+    "en": "nearly",
+    "ipa": "/ˈnɪrli/",
+    "sense": "ほぼ、もう少しで",
+    "ja": "ほぼ",
+    "ex": {
+      "en": "It's nearly midnight. Let's go home.",
+      "ja": "もうすぐ夜中だ。帰ろう。",
+      "mark": [
+        "nearly"
+      ]
+    },
+    "core": "目標にあと少しで届くところまで近い。",
+    "diff": "almost とほぼ同じ意味。",
+    "other": []
+  },
+  {
+    "src": "M1982",
+    "id": "quite",
+    "en": "quite",
+    "ipa": "/kwaɪt/",
+    "sense": "かなり、なかなか",
+    "ja": "かなり",
+    "ex": {
+      "en": "The movie was quite long.",
+      "ja": "その映画はかなり長かった。",
+      "mark": [
+        "quite"
+      ]
+    },
+    "core": "程度が思ったより高い。",
+    "other": []
+  },
+  {
+    "src": "M1983",
+    "id": "rather",
+    "en": "rather",
+    "ipa": "/ˈræðər/",
+    "sense": "やや、どちらかといえば",
+    "ja": "やや",
+    "ex": {
+      "en": "It was rather cold this morning.",
+      "ja": "今朝はやや寒かった。",
+      "mark": [
+        "rather"
+      ]
+    },
+    "core": "予想より少し強めの程度を表す。やや控えめな言い方。",
+    "other": [
+      "むしろ：I'd rather stay home."
+    ]
+  },
+  {
+    "src": "M1989",
+    "id": "even",
+    "en": "even",
+    "ipa": "/ˈiːvn/",
+    "sense": "〜さえ、〜でも",
+    "ja": "〜さえ",
+    "ex": {
+      "en": "Even a child can use this app.",
+      "ja": "子どもでさえこのアプリを使える。",
+      "mark": [
+        "Even"
+      ]
+    },
+    "core": "予想より極端な例を挙げて、「そこまで」と強調する。",
+    "other": []
+  },
+  {
+    "src": "M1990",
+    "id": "especially",
+    "en": "especially",
+    "ipa": "/ɪˈspɛʃəli/",
+    "sense": "特に、とりわけ",
+    "ja": "特に",
+    "ex": {
+      "en": "I love fruit, especially strawberries.",
+      "ja": "私は果物が好きで、特にいちごが好きだ。",
+      "mark": [
+        "especially"
+      ]
+    },
+    "core": "ほかのものの中から、特に取り出して言う。",
+    "other": []
+  },
+  {
+    "src": "M1991",
+    "id": "particularly",
+    "en": "particularly",
+    "ipa": "/pərˈtɪkjələrli/",
+    "sense": "とりわけ、特に",
+    "ja": "とりわけ",
+    "ex": {
+      "en": "The soup is particularly good in winter.",
+      "ja": "そのスープは冬にとりわけおいしい。",
+      "mark": [
+        "particularly"
+      ]
+    },
+    "core": "多くの中から一つ（particular）を強く取り上げる。",
+    "other": []
+  },
+  {
+    "src": "M1993",
+    "id": "perhaps",
+    "en": "perhaps",
+    "ipa": "/pərˈhæps/",
+    "sense": "もしかすると、たぶん",
+    "ja": "もしかすると",
+    "ex": {
+      "en": "Perhaps he missed the train.",
+      "ja": "もしかすると、彼は電車に乗り遅れたのかもしれない。",
+      "mark": [
+        "Perhaps"
+      ]
+    },
+    "core": "ありえるが、確かではない。",
+    "diff": "maybe より少し改まった言い方。",
+    "other": []
+  },
+  {
+    "src": "M1995",
+    "id": "certainly",
+    "en": "certainly",
+    "ipa": "/ˈsɝːtnli/",
+    "sense": "確かに、もちろん",
+    "ja": "確かに",
+    "ex": {
+      "en": "Certainly, I'll bring it right away.",
+      "ja": "かしこまりました、すぐお持ちします。",
+      "mark": [
+        "Certainly"
+      ]
+    },
+    "core": "疑いなく、そのとおりだと伝える。",
+    "other": []
+  },
+  {
+    "src": "M1996",
+    "id": "actually",
+    "en": "actually",
+    "ipa": "/ˈæktʃuəli/",
+    "sense": "実際は、実は",
+    "ja": "実は",
+    "ex": {
+      "en": "Actually, I've never been to Kyoto.",
+      "ja": "実は、私は京都に行ったことがない。",
+      "mark": [
+        "Actually"
+      ]
+    },
+    "core": "見た目や予想と違い、本当のところは。",
+    "diff": "currently は「現在」。actually は「実は」。",
+    "other": []
+  },
+  {
+    "src": "M1998",
+    "id": "simply",
+    "en": "simply",
+    "ipa": "/ˈsɪmpli/",
+    "sense": "単に、ただ",
+    "ja": "単に",
+    "ex": {
+      "en": "He simply forgot to call you.",
+      "ja": "彼は単にあなたに電話するのを忘れただけだ。",
+      "mark": [
+        "simply"
+      ]
+    },
+    "core": "ほかの理由はなく、ただそれだけ。",
+    "other": [
+      "簡単に：explain it simply"
+    ]
+  },
+  {
+    "src": "M1999",
+    "id": "exactly",
+    "en": "exactly",
+    "ipa": "/ɪɡˈzæktli/",
+    "sense": "正確に、ちょうど",
+    "ja": "正確に",
+    "ex": {
+      "en": "The train leaves at exactly nine o'clock.",
+      "ja": "電車はちょうど9時に出る。",
+      "mark": [
+        "exactly"
+      ]
+    },
+    "core": "少しもずれずに、ぴったりと。",
+    "other": []
+  },
+  {
+    "src": "M2000",
+    "id": "completely",
+    "en": "completely",
+    "ipa": "/kəmˈpliːtli/",
+    "sense": "完全に、すっかり",
+    "ja": "完全に",
+    "ex": {
+      "en": "I completely forgot about the meeting.",
+      "ja": "私は会議のことをすっかり忘れていた。",
+      "mark": [
+        "completely"
+      ]
+    },
+    "core": "欠けたところなく、すべてにわたって。",
+    "other": []
   }
 ]
