@@ -26,7 +26,7 @@ export function create(k) {
   const path = (i, u, h) => {
     const T = [[RX - 26, RY - 4], [RX + 28, RY - 30], [RX, RY - 6]][i];
     if (u < 0.7) { const q = u / 0.7; return { x: lerp(h.x, T[0], q), y: lerp(h.y, T[1], q) - 110 * q * (1 - q) * 1.4, r: u * 600 }; }
-    const v = (u - 0.7) / 0.6;
+    const v = Math.min(1.3, (u - 0.7) / 0.6);
     if (i === 0) return { x: T[0] - 50 * v, y: Math.min(FY - 10, T[1] - 40 * v + 200 * v * v), r: 420 - v * 400 };
     if (i === 1) return { x: Math.min(T[0] - 20 * v, 400), y: Math.min(FY - 10, T[1] + 200 * v * v), r: 420 + v * 200 };
     return { x: RX + 4, y: Math.min(FY - 10, T[1] + 160 * v * v + 20 * v), r: 420 };
@@ -54,18 +54,8 @@ export function create(k) {
         let p;
         if (u < 0.25) p = { x: 158 + i * 6, y: FY - 26, r: 0 };
         else if (u < 0.8) p = { x: h.x + 4, y: h.y - 8, r: 0 };
-        else {
-          const rel = { x: 0, y: 0 };
-          b.state && 0;
-          const fl = u - 0.8;
-          p = path(i, fl / 0.9, { x: 150, y: 120 });
-        }
-        if (u >= 0.8) { // 放つ瞬間の手の位置から
-          const h0 = { x: 152, y: 128 };
-          p = path(i, (u - 0.8) / 0.9, h0);
-        }
+        else p = path(i, (u - 0.8) / 0.9, { x: 150, y: 146 }); // 放つ瞬間の手の位置から
         tf(n, p.x, p.y, p.r);
-        n.setAttribute('opacity', u > -0.0 || i === 0 ? 1 : 1);
         const hgt = FY - p.y;
         k.set(bsh[i], { cx: p.x, opacity: Math.max(0, 1 - hgt / 120), rx: 9 });
       });

@@ -22,6 +22,7 @@ export function create(k) {
   el('rect', { x: -6, y: -46, width: 12, height: 46, rx: 2, fill: pal.red }, bk);
   el('rect', { x: -4, y: -38, width: 8, height: 3, fill: '#fff', opacity: 0.7 }, bk);
   const B = k.buddy({ x: 70, y: FY, scale: 0.9 });
+  k.root.appendChild(bk);
   const xf = (t) => lerp(70, 196, easeInOut(seg(t, 0.3, 1.5)));
   return {
     update(t) {

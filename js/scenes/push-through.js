@@ -13,10 +13,10 @@ export function create(k) {
   el('rect', { x: 314, y: 200, width: 4, height: 36, fill: '#8C96A8' });
   el('line', { x1: 316, y1: 204, x2: 400, y2: 204, stroke: pal.red, 'stroke-width': 3 });
   const cols = [[pal.blue, pal.blueDark], [pal.coral, pal.coralDark], [pal.yellow, pal.yellowDark], [pal.violet, '#8467D8'], [pal.coral, pal.coralDark], [pal.blue, pal.blueDark]];
-  const XS = [128, 166, 204, 236, 270, 300];
+  const XS = [104, 140, 174, 206, 238, 268];
   const crowd = XS.map((x, i) => ({ b: k.buddy({ x, y: FY + (i % 2) * 6, scale: 0.68 + (i % 3) * 0.03, facing: 1, color: cols[i][0], dark: cols[i][1] }), x, i }));
   const me = k.buddy({ x: 50, y: FY + 4, scale: 0.7 });
-  const xf = (t) => lerp(50, 300, easeInOut(seg(t, 0.3, 3.8)));
+  const xf = (t) => lerp(40, 306, easeInOut(seg(t, 0.3, 3.8)));
   return {
     update(t) {
       const p = gait(xf, t, 50, 6, 0.09);
