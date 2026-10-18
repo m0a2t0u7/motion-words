@@ -1,0 +1,1776 @@
+[
+ {
+  "src": "M1498",
+  "id": "air",
+  "cat": "word",
+  "en": "air",
+  "ipa": "/ɛr/",
+  "sense": "空気",
+  "ja": "空気",
+  "ex": {
+   "en": "The mountain air felt fresh.",
+   "ja": "山の空気がすがすがしかった。",
+   "mark": [
+    "air"
+   ]
+  },
+  "core": "私たちを包み、吸って生きている見えない気体。"
+ },
+ {
+  "src": "M1499",
+  "id": "wind",
+  "cat": "word",
+  "en": "wind",
+  "ipa": "/wɪnd/",
+  "sense": "風",
+  "ja": "風",
+  "ex": {
+   "en": "The wind is strong today.",
+   "ja": "今日は風が強い。",
+   "mark": [
+    "wind"
+   ]
+  },
+  "core": "空気が動いて流れること。"
+ },
+ {
+  "src": "M1500",
+  "id": "cloud",
+  "cat": "word",
+  "en": "cloud",
+  "ipa": "/klaʊd/",
+  "sense": "雲",
+  "ja": "雲",
+  "ex": {
+   "en": "Dark clouds covered the sky.",
+   "ja": "黒い雲が空をおおった。",
+   "mark": [
+    "clouds"
+   ]
+  },
+  "core": "空に浮かぶ、小さな水や氷の粒の集まり。"
+ },
+ {
+  "src": "M1501",
+  "id": "rain",
+  "cat": "word",
+  "en": "rain",
+  "ipa": "/reɪn/",
+  "sense": "雨",
+  "ja": "雨",
+  "ex": {
+   "en": "The rain stopped in the afternoon.",
+   "ja": "午後に雨がやんだ。",
+   "mark": [
+    "rain"
+   ]
+  },
+  "core": "雲から落ちてくる水の粒。"
+ },
+ {
+  "src": "M1502",
+  "id": "snow",
+  "cat": "word",
+  "en": "snow",
+  "ipa": "/snoʊ/",
+  "sense": "雪",
+  "ja": "雪",
+  "ex": {
+   "en": "The kids played in the snow.",
+   "ja": "子どもたちは雪の中で遊んだ。",
+   "mark": [
+    "snow"
+   ]
+  },
+  "core": "空から降ってくる白い氷の結晶。"
+ },
+ {
+  "src": "M1503",
+  "id": "ice",
+  "cat": "word",
+  "en": "ice",
+  "ipa": "/aɪs/",
+  "sense": "氷",
+  "ja": "氷",
+  "ex": {
+   "en": "Can I have some ice in my drink?",
+   "ja": "飲み物に氷を入れてもらえますか？",
+   "mark": [
+    "ice"
+   ]
+  },
+  "core": "水が冷えて固まったもの。"
+ },
+ {
+  "src": "M1504",
+  "id": "frost",
+  "cat": "word",
+  "en": "frost",
+  "ipa": "/frɔst/",
+  "sense": "霜",
+  "ja": "霜",
+  "ex": {
+   "en": "There was frost on the car this morning.",
+   "ja": "今朝は車に霜が降りていた。",
+   "mark": [
+    "frost"
+   ]
+  },
+  "core": "寒い朝、物の表面に付く白く細かい氷。"
+ },
+ {
+  "src": "M1505",
+  "id": "fog",
+  "cat": "word",
+  "en": "fog",
+  "ipa": "/fɔɡ/",
+  "sense": "霧",
+  "ja": "霧",
+  "ex": {
+   "en": "The fog was so thick I couldn't see.",
+   "ja": "霧が濃くて前が見えなかった。",
+   "mark": [
+    "fog"
+   ]
+  },
+  "core": "地面の近くにたちこめ、視界をさえぎる細かい水の粒。"
+ },
+ {
+  "src": "M1506",
+  "id": "storm",
+  "cat": "word",
+  "en": "storm",
+  "ipa": "/stɔrm/",
+  "sense": "嵐",
+  "ja": "嵐",
+  "ex": {
+   "en": "The storm knocked down several trees.",
+   "ja": "嵐で何本も木が倒れた。",
+   "mark": [
+    "storm"
+   ]
+  },
+  "core": "強い風と雨や雪が激しく吹き荒れる天気。"
+ },
+ {
+  "src": "M1507",
+  "id": "thunder",
+  "cat": "word",
+  "en": "thunder",
+  "ipa": "/ˈθʌndər/",
+  "sense": "雷鳴、雷の音",
+  "ja": "雷鳴",
+  "ex": {
+   "en": "The dog hid when it heard thunder.",
+   "ja": "雷の音を聞いて犬が隠れた。",
+   "mark": [
+    "thunder"
+   ]
+  },
+  "core": "稲妻のあとに鳴る大きなゴロゴロという音。",
+  "diff": "lightning は光、thunder は音。"
+ },
+ {
+  "src": "M1508",
+  "id": "lightning",
+  "cat": "word",
+  "en": "lightning",
+  "ipa": "/ˈlaɪtnɪŋ/",
+  "sense": "稲妻、雷の光",
+  "ja": "稲妻",
+  "ex": {
+   "en": "Lightning lit up the night sky.",
+   "ja": "稲妻が夜空を照らした。",
+   "mark": [
+    "Lightning"
+   ]
+  },
+  "core": "雲から走る、強い電気の光。",
+  "diff": "thunder は音、lightning は光。"
+ },
+ {
+  "src": "M1509",
+  "id": "rainbow",
+  "cat": "word",
+  "en": "rainbow",
+  "ipa": "/ˈreɪnˌboʊ/",
+  "sense": "虹",
+  "ja": "虹",
+  "ex": {
+   "en": "Look, there's a rainbow!",
+   "ja": "見て、虹が出てる！",
+   "mark": [
+    "rainbow"
+   ]
+  },
+  "core": "雨のあと空にかかる、色の帯のアーチ。"
+ },
+ {
+  "src": "M1510",
+  "id": "weather",
+  "cat": "word",
+  "en": "weather",
+  "ipa": "/ˈwɛðər/",
+  "sense": "天気",
+  "ja": "天気",
+  "ex": {
+   "en": "The weather was nice all week.",
+   "ja": "一週間ずっといい天気だった。",
+   "mark": [
+    "weather"
+   ]
+  },
+  "core": "ある日・ある時の、晴れや雨などの空の様子。",
+  "diff": "climate はある地域の長い期間の天気の傾向。"
+ },
+ {
+  "src": "M1511",
+  "id": "climate",
+  "cat": "word",
+  "en": "climate",
+  "ipa": "/ˈklaɪmət/",
+  "sense": "気候",
+  "ja": "気候",
+  "ex": {
+   "en": "This area has a warm climate.",
+   "ja": "この地域は温暖な気候だ。",
+   "mark": [
+    "climate"
+   ]
+  },
+  "core": "ある土地で長い期間にわたって続く天気の傾向。",
+  "diff": "weather はその日その日の天気。"
+ },
+ {
+  "src": "M1512",
+  "id": "temperature",
+  "cat": "word",
+  "en": "temperature",
+  "ipa": "/ˈtɛmpərətʃər/",
+  "sense": "気温、温度",
+  "ja": "気温",
+  "ex": {
+   "en": "The temperature dropped below zero.",
+   "ja": "気温が零度を下回った。",
+   "mark": [
+    "temperature"
+   ]
+  },
+  "core": "どれくらい暑いか寒いかを数字で表したもの。",
+  "other": [
+   "体温、熱：take your temperature"
+  ]
+ },
+ {
+  "src": "M1513",
+  "id": "humidity",
+  "cat": "word",
+  "en": "humidity",
+  "ipa": "/hjuˈmɪdəti/",
+  "sense": "湿度",
+  "ja": "湿度",
+  "ex": {
+   "en": "The humidity is high in summer.",
+   "ja": "夏は湿度が高い。",
+   "mark": [
+    "humidity"
+   ]
+  },
+  "core": "空気の中にどれだけ水分があるか。"
+ },
+ {
+  "src": "M1514",
+  "id": "season",
+  "cat": "word",
+  "en": "season",
+  "ipa": "/ˈsizən/",
+  "sense": "季節",
+  "ja": "季節",
+  "ex": {
+   "en": "Spring is my favorite season.",
+   "ja": "春が一番好きな季節だ。",
+   "mark": [
+    "season"
+   ]
+  },
+  "core": "1年を気候で分けた、それぞれの時期。",
+  "other": [
+   "（ある活動の）時期：baseball season"
+  ]
+ },
+ {
+  "src": "M1515",
+  "id": "spring",
+  "cat": "word",
+  "en": "spring",
+  "ipa": "/sprɪŋ/",
+  "sense": "春",
+  "ja": "春",
+  "ex": {
+   "en": "The flowers bloom in spring.",
+   "ja": "春に花が咲く。",
+   "mark": [
+    "spring"
+   ]
+  },
+  "core": "冬のあと、暖かくなって草木が芽吹く季節。",
+  "other": [
+   "ばね：a metal spring"
+  ]
+ },
+ {
+  "src": "M1516",
+  "id": "summer",
+  "cat": "word",
+  "en": "summer",
+  "ipa": "/ˈsʌmər/",
+  "sense": "夏",
+  "ja": "夏",
+  "ex": {
+   "en": "We go to the beach every summer.",
+   "ja": "毎年夏には海へ行く。",
+   "mark": [
+    "summer"
+   ]
+  },
+  "core": "1年で一番暑い季節。"
+ },
+ {
+  "src": "M1517",
+  "id": "autumn",
+  "cat": "word",
+  "en": "autumn",
+  "ipa": "/ˈɔtəm/",
+  "sense": "秋",
+  "ja": "秋",
+  "ex": {
+   "en": "The leaves turn red in autumn.",
+   "ja": "秋には葉が赤く色づく。",
+   "mark": [
+    "autumn"
+   ]
+  },
+  "core": "夏のあと、涼しくなり葉の色が変わる季節。",
+  "diff": "アメリカでは fall が普通で、autumn はやや改まった言い方。"
+ },
+ {
+  "src": "M1518",
+  "id": "winter",
+  "cat": "word",
+  "en": "winter",
+  "ipa": "/ˈwɪntər/",
+  "sense": "冬",
+  "ja": "冬",
+  "ex": {
+   "en": "It snows a lot here in winter.",
+   "ja": "ここは冬に雪がたくさん降る。",
+   "mark": [
+    "winter"
+   ]
+  },
+  "core": "1年で一番寒い季節。"
+ },
+ {
+  "src": "M1519",
+  "id": "mountain",
+  "cat": "word",
+  "en": "mountain",
+  "ipa": "/ˈmaʊntən/",
+  "sense": "山",
+  "ja": "山",
+  "ex": {
+   "en": "We climbed a mountain last summer.",
+   "ja": "去年の夏、山に登った。",
+   "mark": [
+    "mountain"
+   ]
+  },
+  "core": "周りの土地より高くそびえる大きな地形。",
+  "diff": "hill は低くなだらかな丘。"
+ },
+ {
+  "src": "M1520",
+  "id": "hill",
+  "cat": "word",
+  "en": "hill",
+  "ipa": "/hɪl/",
+  "sense": "丘",
+  "ja": "丘",
+  "ex": {
+   "en": "Our house is at the top of the hill.",
+   "ja": "家は丘のてっぺんにある。",
+   "mark": [
+    "hill"
+   ]
+  },
+  "core": "山ほど高くない、なだらかに盛り上がった土地。",
+  "diff": "mountain は高く険しい山。"
+ },
+ {
+  "src": "M1521",
+  "id": "valley",
+  "cat": "word",
+  "en": "valley",
+  "ipa": "/ˈvæli/",
+  "sense": "谷",
+  "ja": "谷",
+  "ex": {
+   "en": "A river runs through the valley.",
+   "ja": "谷を川が流れている。",
+   "mark": [
+    "valley"
+   ]
+  },
+  "core": "山と山の間の、低くくぼんだ土地。"
+ },
+ {
+  "src": "M1522",
+  "id": "forest",
+  "cat": "word",
+  "en": "forest",
+  "ipa": "/ˈfɔrɪst/",
+  "sense": "森林、森",
+  "ja": "森",
+  "ex": {
+   "en": "We got lost in the forest.",
+   "ja": "森で道に迷った。",
+   "mark": [
+    "forest"
+   ]
+  },
+  "core": "木がたくさん集まって広がっている場所。",
+  "diff": "woods はふつう forest より小さい森。"
+ },
+ {
+  "src": "M1523",
+  "id": "wood",
+  "cat": "word",
+  "en": "wood",
+  "ipa": "/wʊd/",
+  "sense": "木材",
+  "ja": "木材",
+  "ex": {
+   "en": "This table is made of wood.",
+   "ja": "このテーブルは木でできている。",
+   "mark": [
+    "wood"
+   ]
+  },
+  "core": "木を切って、材料として使うもの。数えない名詞。",
+  "other": [
+   "（woods で）森：walk in the woods"
+  ]
+ },
+ {
+  "src": "M1524",
+  "id": "tree",
+  "cat": "word",
+  "en": "tree",
+  "ipa": "/tri/",
+  "sense": "木",
+  "ja": "木",
+  "ex": {
+   "en": "There's a bird in that tree.",
+   "ja": "あの木に鳥がいる。",
+   "mark": [
+    "tree"
+   ]
+  },
+  "core": "幹と枝と葉を持つ、背の高い植物。"
+ },
+ {
+  "src": "M1525",
+  "id": "branch",
+  "cat": "word",
+  "en": "branch",
+  "ipa": "/bræntʃ/",
+  "sense": "枝",
+  "ja": "枝",
+  "ex": {
+   "en": "A cat is sitting on the branch.",
+   "ja": "猫が枝の上に座っている。",
+   "mark": [
+    "branch"
+   ]
+  },
+  "core": "木の幹から横へ分かれて伸びた部分。",
+  "other": [
+   "支店：a bank branch"
+  ]
+ },
+ {
+  "src": "M1526",
+  "id": "leaf",
+  "cat": "word",
+  "en": "leaf",
+  "ipa": "/lif/",
+  "sense": "葉",
+  "ja": "葉",
+  "ex": {
+   "en": "A leaf fell on my head.",
+   "ja": "葉っぱが頭に落ちてきた。",
+   "mark": [
+    "leaf"
+   ]
+  },
+  "core": "枝に付く、薄くて平らな緑の部分。複数形は leaves。"
+ },
+ {
+  "src": "M1527",
+  "id": "root",
+  "cat": "word",
+  "en": "root",
+  "ipa": "/rut/",
+  "sense": "根",
+  "ja": "根",
+  "ex": {
+   "en": "The tree's roots go deep.",
+   "ja": "その木の根は深く伸びている。",
+   "mark": [
+    "roots"
+   ]
+  },
+  "core": "植物の、土の中に伸びて水を吸う部分。",
+  "other": [
+   "根本の原因：the root of the problem"
+  ]
+ },
+ {
+  "src": "M1528",
+  "id": "flower",
+  "cat": "word",
+  "en": "flower",
+  "ipa": "/ˈflaʊər/",
+  "sense": "花",
+  "ja": "花",
+  "ex": {
+   "en": "She gave me some flowers.",
+   "ja": "彼女が花をくれた。",
+   "mark": [
+    "flowers"
+   ]
+  },
+  "core": "植物が咲かせる、色や形のきれいな部分。"
+ },
+ {
+  "src": "M1529",
+  "id": "grass",
+  "cat": "word",
+  "en": "grass",
+  "ipa": "/ɡræs/",
+  "sense": "草、芝生",
+  "ja": "草",
+  "ex": {
+   "en": "We sat on the grass.",
+   "ja": "芝生の上に座った。",
+   "mark": [
+    "grass"
+   ]
+  },
+  "core": "地面を覆う、細くて緑の葉の植物。"
+ },
+ {
+  "src": "M1530",
+  "id": "seed",
+  "cat": "word",
+  "en": "seed",
+  "ipa": "/sid/",
+  "sense": "種",
+  "ja": "種",
+  "ex": {
+   "en": "We planted some seeds in the garden.",
+   "ja": "庭に種をまいた。",
+   "mark": [
+    "seeds"
+   ]
+  },
+  "core": "植えると芽が出て育つ、植物の小さな粒。"
+ },
+ {
+  "src": "M1531",
+  "id": "soil",
+  "cat": "word",
+  "en": "soil",
+  "ipa": "/sɔɪl/",
+  "sense": "土、土壌",
+  "ja": "土",
+  "ex": {
+   "en": "This soil is good for vegetables.",
+   "ja": "この土は野菜作りに向いている。",
+   "mark": [
+    "soil"
+   ]
+  },
+  "core": "植物が根を張って育つ、地面の表面の土。"
+ },
+ {
+  "src": "M1532",
+  "id": "sand",
+  "cat": "word",
+  "en": "sand",
+  "ipa": "/sænd/",
+  "sense": "砂",
+  "ja": "砂",
+  "ex": {
+   "en": "The kids built a castle in the sand.",
+   "ja": "子どもたちは砂でお城を作った。",
+   "mark": [
+    "sand"
+   ]
+  },
+  "core": "浜辺などにある、とても細かい石の粒。"
+ },
+ {
+  "src": "M1533",
+  "id": "stone",
+  "cat": "word",
+  "en": "stone",
+  "ipa": "/stoʊn/",
+  "sense": "石",
+  "ja": "石",
+  "ex": {
+   "en": "He threw a stone into the river.",
+   "ja": "彼は川に石を投げた。",
+   "mark": [
+    "stone"
+   ]
+  },
+  "core": "手で持てるくらいの、固い石のかけら。",
+  "diff": "rock は大きな岩。（米）では小石も rock と言うことがある。"
+ },
+ {
+  "src": "M1534",
+  "id": "rock",
+  "cat": "word",
+  "en": "rock",
+  "ipa": "/rɑk/",
+  "sense": "岩",
+  "ja": "岩",
+  "ex": {
+   "en": "We sat on a big rock by the sea.",
+   "ja": "海辺の大きな岩に座った。",
+   "mark": [
+    "rock"
+   ]
+  },
+  "core": "地面から出ている、大きくて固い石のかたまり。"
+ },
+ {
+  "src": "M1535",
+  "id": "river",
+  "cat": "word",
+  "en": "river",
+  "ipa": "/ˈrɪvər/",
+  "sense": "川",
+  "ja": "川",
+  "ex": {
+   "en": "We swam in the river.",
+   "ja": "川で泳いだ。",
+   "mark": [
+    "river"
+   ]
+  },
+  "core": "水が細長い道すじを通って、海や湖へ流れるもの。"
+ },
+ {
+  "src": "M1536",
+  "id": "stream",
+  "cat": "word",
+  "en": "stream",
+  "ipa": "/strim/",
+  "sense": "小川",
+  "ja": "小川",
+  "ex": {
+   "en": "A small stream runs behind the house.",
+   "ja": "家の裏に小川が流れている。",
+   "mark": [
+    "stream"
+   ]
+  },
+  "core": "細く浅く流れる小さな川。",
+  "other": [
+   "（人や物の）流れ：a stream of cars"
+  ]
+ },
+ {
+  "src": "M1537",
+  "id": "lake",
+  "cat": "word",
+  "en": "lake",
+  "ipa": "/leɪk/",
+  "sense": "湖",
+  "ja": "湖",
+  "ex": {
+   "en": "We went fishing on the lake.",
+   "ja": "湖へ釣りに行った。",
+   "mark": [
+    "lake"
+   ]
+  },
+  "core": "陸に囲まれた、大きな水のたまり。",
+  "diff": "pond は小さな池。"
+ },
+ {
+  "src": "M1538",
+  "id": "pond",
+  "cat": "word",
+  "en": "pond",
+  "ipa": "/pɑnd/",
+  "sense": "池",
+  "ja": "池",
+  "ex": {
+   "en": "There are fish in the pond.",
+   "ja": "池に魚がいる。",
+   "mark": [
+    "pond"
+   ]
+  },
+  "core": "陸に囲まれた、小さな水のたまり。",
+  "diff": "lake は大きな湖。"
+ },
+ {
+  "src": "M1539",
+  "id": "sea",
+  "cat": "word",
+  "en": "sea",
+  "ipa": "/si/",
+  "sense": "海",
+  "ja": "海",
+  "ex": {
+   "en": "We swam in the sea.",
+   "ja": "海で泳いだ。",
+   "mark": [
+    "sea"
+   ]
+  },
+  "core": "地球の表面を覆う塩水。陸に近い部分を言うことが多い。",
+  "diff": "ocean はもっと広い大洋。（米）では海全般を ocean と言うことも多い。"
+ },
+ {
+  "src": "M1540",
+  "id": "ocean",
+  "cat": "word",
+  "en": "ocean",
+  "ipa": "/ˈoʊʃən/",
+  "sense": "大洋、海",
+  "ja": "海",
+  "ex": {
+   "en": "The ocean was calm and blue.",
+   "ja": "海は穏やかで青かった。",
+   "mark": [
+    "ocean"
+   ]
+  },
+  "core": "大陸の間に広がる、とても大きな海。"
+ },
+ {
+  "src": "M1541",
+  "id": "beach",
+  "cat": "word",
+  "en": "beach",
+  "ipa": "/bitʃ/",
+  "sense": "浜辺、ビーチ",
+  "ja": "浜辺",
+  "ex": {
+   "en": "We walked along the beach.",
+   "ja": "浜辺を歩いた。",
+   "mark": [
+    "beach"
+   ]
+  },
+  "core": "海や湖のそばの、砂や小石の岸。"
+ },
+ {
+  "src": "M1542",
+  "id": "coast",
+  "cat": "word",
+  "en": "coast",
+  "ipa": "/koʊst/",
+  "sense": "海岸、沿岸",
+  "ja": "海岸",
+  "ex": {
+   "en": "They live on the east coast.",
+   "ja": "彼らは東海岸に住んでいる。",
+   "mark": [
+    "coast"
+   ]
+  },
+  "core": "陸地が海と接している、細長い一帯。",
+  "diff": "beach は砂浜そのもの。coast は海沿いの地域全体。"
+ },
+ {
+  "src": "M1543",
+  "id": "island",
+  "cat": "word",
+  "en": "island",
+  "ipa": "/ˈaɪlənd/",
+  "sense": "島",
+  "ja": "島",
+  "ex": {
+   "en": "We took a boat to the island.",
+   "ja": "船で島へ渡った。",
+   "mark": [
+    "island"
+   ]
+  },
+  "core": "周りをぐるりと水に囲まれた陸地。s は発音しない。"
+ },
+ {
+  "src": "M1544",
+  "id": "desert",
+  "cat": "word",
+  "en": "desert",
+  "ipa": "/ˈdɛzərt/",
+  "sense": "砂漠",
+  "ja": "砂漠",
+  "ex": {
+   "en": "It rarely rains in the desert.",
+   "ja": "砂漠ではめったに雨が降らない。",
+   "mark": [
+    "desert"
+   ]
+  },
+  "core": "雨がほとんど降らず、乾いた広い土地。",
+  "diff": "dessert（デザート）とつづりと発音が違う。"
+ },
+ {
+  "src": "M1545",
+  "id": "field",
+  "cat": "word",
+  "en": "field",
+  "ipa": "/fild/",
+  "sense": "畑、野原",
+  "ja": "畑",
+  "ex": {
+   "en": "Cows are eating grass in the field.",
+   "ja": "牛が野原で草を食べている。",
+   "mark": [
+    "field"
+   ]
+  },
+  "core": "作物を育てたり動物を放したりする、開けた土地。",
+  "other": [
+   "分野：the field of medicine"
+  ]
+ },
+ {
+  "src": "M1546",
+  "id": "farm",
+  "cat": "word",
+  "en": "farm",
+  "ipa": "/fɑrm/",
+  "sense": "農場",
+  "ja": "農場",
+  "ex": {
+   "en": "My grandparents live on a farm.",
+   "ja": "祖父母は農場に住んでいる。",
+   "mark": [
+    "farm"
+   ]
+  },
+  "core": "作物を育てたり家畜を飼ったりする場所。"
+ },
+ {
+  "src": "M1547",
+  "id": "animal",
+  "cat": "word",
+  "en": "animal",
+  "ipa": "/ˈænəməl/",
+  "sense": "動物",
+  "ja": "動物",
+  "ex": {
+   "en": "What's your favorite animal?",
+   "ja": "好きな動物は何？",
+   "mark": [
+    "animal"
+   ]
+  },
+  "core": "自分で動き回る生き物。"
+ },
+ {
+  "src": "M1548",
+  "id": "bird",
+  "cat": "word",
+  "en": "bird",
+  "ipa": "/bɜrd/",
+  "sense": "鳥",
+  "ja": "鳥",
+  "ex": {
+   "en": "A bird is singing outside.",
+   "ja": "外で鳥が鳴いている。",
+   "mark": [
+    "bird"
+   ]
+  },
+  "core": "羽と翼とくちばしを持つ生き物。"
+ },
+ {
+  "src": "M1549",
+  "id": "dog",
+  "cat": "word",
+  "en": "dog",
+  "ipa": "/dɔɡ/",
+  "sense": "犬",
+  "ja": "犬",
+  "ex": {
+   "en": "I walk my dog every morning.",
+   "ja": "毎朝犬の散歩をしている。",
+   "mark": [
+    "dog"
+   ]
+  },
+  "core": "人と一緒に暮らす、よくほえる動物。"
+ },
+ {
+  "src": "M1550",
+  "id": "cat",
+  "cat": "word",
+  "en": "cat",
+  "ipa": "/kæt/",
+  "sense": "猫",
+  "ja": "猫",
+  "ex": {
+   "en": "The cat is sleeping on the sofa.",
+   "ja": "猫がソファで寝ている。",
+   "mark": [
+    "cat"
+   ]
+  },
+  "core": "やわらかい毛で、ニャーと鳴く小さな動物。"
+ },
+ {
+  "src": "M1551",
+  "id": "horse",
+  "cat": "word",
+  "en": "horse",
+  "ipa": "/hɔrs/",
+  "sense": "馬",
+  "ja": "馬",
+  "ex": {
+   "en": "She rides a horse on weekends.",
+   "ja": "彼女は週末に馬に乗る。",
+   "mark": [
+    "horse"
+   ]
+  },
+  "core": "人が乗ったり荷物を引かせたりする大きな動物。"
+ },
+ {
+  "src": "M1552",
+  "id": "cow",
+  "cat": "word",
+  "en": "cow",
+  "ipa": "/kaʊ/",
+  "sense": "雌牛、牛",
+  "ja": "牛",
+  "ex": {
+   "en": "The cow gives us milk.",
+   "ja": "その牛から牛乳がとれる。",
+   "mark": [
+    "cow"
+   ]
+  },
+  "core": "牛乳をとるために飼う大きな動物。"
+ },
+ {
+  "src": "M1553",
+  "id": "pig",
+  "cat": "word",
+  "en": "pig",
+  "ipa": "/pɪɡ/",
+  "sense": "豚",
+  "ja": "豚",
+  "ex": {
+   "en": "The pig rolled in the mud.",
+   "ja": "豚が泥の中で転げ回った。",
+   "mark": [
+    "pig"
+   ]
+  },
+  "core": "鼻が平たく、ブーブー鳴く家畜。"
+ },
+ {
+  "src": "M1554",
+  "id": "sheep",
+  "cat": "word",
+  "en": "sheep",
+  "ipa": "/ʃip/",
+  "sense": "羊",
+  "ja": "羊",
+  "ex": {
+   "en": "The sheep are eating grass.",
+   "ja": "羊たちが草を食べている。",
+   "mark": [
+    "sheep"
+   ]
+  },
+  "core": "もこもこの毛を持つ家畜。複数形も sheep。"
+ },
+ {
+  "src": "M1555",
+  "id": "goat",
+  "cat": "word",
+  "en": "goat",
+  "ipa": "/ɡoʊt/",
+  "sense": "ヤギ",
+  "ja": "ヤギ",
+  "ex": {
+   "en": "The goat climbed onto the rock.",
+   "ja": "ヤギが岩の上に登った。",
+   "mark": [
+    "goat"
+   ]
+  },
+  "core": "角とあごひげのある、岩場に強い動物。"
+ },
+ {
+  "src": "M1556",
+  "id": "rabbit",
+  "cat": "word",
+  "en": "rabbit",
+  "ipa": "/ˈræbɪt/",
+  "sense": "ウサギ",
+  "ja": "ウサギ",
+  "ex": {
+   "en": "The rabbit hopped across the yard.",
+   "ja": "ウサギが庭をぴょんぴょん横切った。",
+   "mark": [
+    "rabbit"
+   ]
+  },
+  "core": "長い耳を持ち、跳ねて動く小さな動物。"
+ },
+ {
+  "src": "M1557",
+  "id": "mouse",
+  "cat": "word",
+  "en": "mouse",
+  "ipa": "/maʊs/",
+  "sense": "ネズミ、ハツカネズミ",
+  "ja": "ネズミ",
+  "ex": {
+   "en": "A mouse ran across the kitchen floor.",
+   "ja": "ネズミが台所の床を走っていった。",
+   "mark": [
+    "mouse"
+   ]
+  },
+  "core": "小さくて尾の長い動物。複数形は mice。",
+  "diff": "rat は大きめのネズミ。",
+  "other": [
+   "（パソコンの）マウス：click the mouse"
+  ]
+ },
+ {
+  "src": "M1558",
+  "id": "rat",
+  "cat": "word",
+  "en": "rat",
+  "ipa": "/ræt/",
+  "sense": "（大型の）ネズミ、ドブネズミ",
+  "ja": "ネズミ",
+  "ex": {
+   "en": "We saw a rat near the trash.",
+   "ja": "ごみの近くでネズミを見た。",
+   "mark": [
+    "rat"
+   ]
+  },
+  "core": "mouse より大きく、尾の長いネズミ。",
+  "diff": "mouse は小さいネズミ。"
+ },
+ {
+  "src": "M1559",
+  "id": "lion",
+  "cat": "word",
+  "en": "lion",
+  "ipa": "/ˈlaɪən/",
+  "sense": "ライオン",
+  "ja": "ライオン",
+  "ex": {
+   "en": "The lion roared loudly.",
+   "ja": "ライオンが大きくほえた。",
+   "mark": [
+    "lion"
+   ]
+  },
+  "core": "たてがみを持つ、大きなネコ科の動物。"
+ },
+ {
+  "src": "M1560",
+  "id": "tiger",
+  "cat": "word",
+  "en": "tiger",
+  "ipa": "/ˈtaɪɡər/",
+  "sense": "トラ",
+  "ja": "トラ",
+  "ex": {
+   "en": "The tiger has black stripes.",
+   "ja": "トラには黒いしまがある。",
+   "mark": [
+    "tiger"
+   ]
+  },
+  "core": "黄色に黒いしま模様の、大きなネコ科の動物。"
+ },
+ {
+  "src": "M1561",
+  "id": "bear",
+  "cat": "word",
+  "en": "bear",
+  "ipa": "/bɛr/",
+  "sense": "クマ",
+  "ja": "クマ",
+  "ex": {
+   "en": "We saw a bear in the woods.",
+   "ja": "森でクマを見た。",
+   "mark": [
+    "bear"
+   ]
+  },
+  "core": "厚い毛皮を持つ、大きくて力の強い動物。"
+ },
+ {
+  "src": "M1562",
+  "id": "elephant",
+  "cat": "word",
+  "en": "elephant",
+  "ipa": "/ˈɛləfənt/",
+  "sense": "ゾウ",
+  "ja": "ゾウ",
+  "ex": {
+   "en": "The elephant sprayed water with its trunk.",
+   "ja": "ゾウが鼻で水をかけた。",
+   "mark": [
+    "elephant"
+   ]
+  },
+  "core": "長い鼻と大きな耳を持つ、とても大きな動物。"
+ },
+ {
+  "src": "M1563",
+  "id": "monkey",
+  "cat": "word",
+  "en": "monkey",
+  "ipa": "/ˈmʌŋki/",
+  "sense": "サル",
+  "ja": "サル",
+  "ex": {
+   "en": "A monkey was swinging in the tree.",
+   "ja": "サルが木にぶら下がって揺れていた。",
+   "mark": [
+    "monkey"
+   ]
+  },
+  "core": "長い尾を持ち、木に登るのが得意な動物。"
+ },
+ {
+  "src": "M1564",
+  "id": "deer",
+  "cat": "word",
+  "en": "deer",
+  "ipa": "/dɪr/",
+  "sense": "シカ",
+  "ja": "シカ",
+  "ex": {
+   "en": "A deer ran across the road.",
+   "ja": "シカが道を横切った。",
+   "mark": [
+    "deer"
+   ]
+  },
+  "core": "細い脚を持ち、雄に角のある動物。複数形も deer。"
+ },
+ {
+  "src": "M1565",
+  "id": "fox",
+  "cat": "word",
+  "en": "fox",
+  "ipa": "/fɑks/",
+  "sense": "キツネ",
+  "ja": "キツネ",
+  "ex": {
+   "en": "A fox was hiding in the bushes.",
+   "ja": "キツネが茂みに隠れていた。",
+   "mark": [
+    "fox"
+   ]
+  },
+  "core": "とがった耳とふさふさの尾を持つ動物。"
+ },
+ {
+  "src": "M1566",
+  "id": "wolf",
+  "cat": "word",
+  "en": "wolf",
+  "ipa": "/wʊlf/",
+  "sense": "オオカミ",
+  "ja": "オオカミ",
+  "ex": {
+   "en": "We heard a wolf howling.",
+   "ja": "オオカミの遠ぼえが聞こえた。",
+   "mark": [
+    "wolf"
+   ]
+  },
+  "core": "群れで暮らす、犬に似た野生の動物。複数形は wolves。"
+ },
+ {
+  "src": "M1567",
+  "id": "snake",
+  "cat": "word",
+  "en": "snake",
+  "ipa": "/sneɪk/",
+  "sense": "ヘビ",
+  "ja": "ヘビ",
+  "ex": {
+   "en": "A snake was lying in the sun.",
+   "ja": "ヘビが日なたで横になっていた。",
+   "mark": [
+    "snake"
+   ]
+  },
+  "core": "足がなく、細長い体ではって進む動物。"
+ },
+ {
+  "src": "M1568",
+  "id": "frog",
+  "cat": "word",
+  "en": "frog",
+  "ipa": "/frɔɡ/",
+  "sense": "カエル",
+  "ja": "カエル",
+  "ex": {
+   "en": "A frog jumped into the pond.",
+   "ja": "カエルが池に飛び込んだ。",
+   "mark": [
+    "frog"
+   ]
+  },
+  "core": "水辺に住み、長い後ろ足で跳ねる動物。"
+ },
+ {
+  "src": "M1569",
+  "id": "company",
+  "cat": "word",
+  "en": "company",
+  "ipa": "/ˈkʌmpəni/",
+  "sense": "会社",
+  "ja": "会社",
+  "ex": {
+   "en": "She works for a big company.",
+   "ja": "彼女は大きな会社で働いている。",
+   "mark": [
+    "company"
+   ]
+  },
+  "core": "人が集まって、仕事をしてお金を稼ぐ団体。",
+  "other": [
+   "一緒にいること：enjoy your company"
+  ]
+ },
+ {
+  "src": "M1570",
+  "id": "business",
+  "cat": "word",
+  "en": "business",
+  "ipa": "/ˈbɪznəs/",
+  "sense": "事業、商売",
+  "ja": "事業",
+  "ex": {
+   "en": "He started his own business.",
+   "ja": "彼は自分で事業を始めた。",
+   "mark": [
+    "business"
+   ]
+  },
+  "core": "物やサービスを売ってお金を稼ぐ活動。",
+  "other": [
+   "（関わるべき）こと：none of your business"
+  ]
+ },
+ {
+  "src": "M1571",
+  "id": "office",
+  "cat": "word",
+  "en": "office",
+  "ipa": "/ˈɔfɪs/",
+  "sense": "事務所、オフィス",
+  "ja": "事務所",
+  "ex": {
+   "en": "I'll be at the office until six.",
+   "ja": "6時まで事務所にいます。",
+   "mark": [
+    "office"
+   ]
+  },
+  "core": "机で書類などの仕事をする場所。"
+ },
+ {
+  "src": "M1572",
+  "id": "department",
+  "cat": "word",
+  "en": "department",
+  "ipa": "/dɪˈpɑrtmənt/",
+  "sense": "（会社などの）部、部門",
+  "ja": "部門",
+  "ex": {
+   "en": "She works in the sales department.",
+   "ja": "彼女は営業部で働いている。",
+   "mark": [
+    "department"
+   ]
+  },
+  "core": "大きな組織を仕事ごとに分けた一部。"
+ },
+ {
+  "src": "M1573",
+  "id": "organization",
+  "cat": "word",
+  "en": "organization",
+  "ipa": "/ˌɔrɡənəˈzeɪʃən/",
+  "sense": "組織、団体",
+  "ja": "組織",
+  "ex": {
+   "en": "She works for a health organization.",
+   "ja": "彼女は保健関係の団体で働いている。",
+   "mark": [
+    "organization"
+   ]
+  },
+  "core": "共通の目的のために人が集まった団体。"
+ },
+ {
+  "src": "M1574",
+  "id": "industry",
+  "cat": "word",
+  "en": "industry",
+  "ipa": "/ˈɪndəstri/",
+  "sense": "産業、業界",
+  "ja": "産業",
+  "ex": {
+   "en": "He works in the car industry.",
+   "ja": "彼は自動車業界で働いている。",
+   "mark": [
+    "industry"
+   ]
+  },
+  "core": "同じ種類の物やサービスを作る仕事の集まり。"
+ },
+ {
+  "src": "M1575",
+  "id": "factory",
+  "cat": "word",
+  "en": "factory",
+  "ipa": "/ˈfæktəri/",
+  "sense": "工場",
+  "ja": "工場",
+  "ex": {
+   "en": "My father works at a factory.",
+   "ja": "父は工場で働いている。",
+   "mark": [
+    "factory"
+   ]
+  },
+  "core": "機械を使って、物をたくさん作る建物。"
+ },
+ {
+  "src": "M1576",
+  "id": "warehouse",
+  "cat": "word",
+  "en": "warehouse",
+  "ipa": "/ˈwɛrˌhaʊs/",
+  "sense": "倉庫",
+  "ja": "倉庫",
+  "ex": {
+   "en": "The boxes are stored in the warehouse.",
+   "ja": "箱は倉庫に保管されている。",
+   "mark": [
+    "warehouse"
+   ]
+  },
+  "core": "商品や荷物をたくさんしまっておく大きな建物。"
+ },
+ {
+  "src": "M1577",
+  "id": "workplace",
+  "cat": "word",
+  "en": "workplace",
+  "ipa": "/ˈwɜrkˌpleɪs/",
+  "sense": "職場",
+  "ja": "職場",
+  "ex": {
+   "en": "Safety in the workplace is important.",
+   "ja": "職場の安全は大切だ。",
+   "mark": [
+    "workplace"
+   ]
+  },
+  "core": "人が働いている場所。"
+ },
+ {
+  "src": "M1578",
+  "id": "staff",
+  "cat": "word",
+  "en": "staff",
+  "ipa": "/stæf/",
+  "sense": "（集合的に）職員、スタッフ",
+  "ja": "職員",
+  "ex": {
+   "en": "The hotel staff were very kind.",
+   "ja": "ホテルの職員はとても親切だった。",
+   "mark": [
+    "staff"
+   ]
+  },
+  "core": "1つの職場で働く人たち全体。"
+ },
+ {
+  "src": "M1579",
+  "id": "career",
+  "cat": "word",
+  "en": "career",
+  "ipa": "/kəˈrɪr/",
+  "sense": "（生涯の）仕事、キャリア",
+  "ja": "キャリア",
+  "ex": {
+   "en": "She had a long career in teaching.",
+   "ja": "彼女は長く教師の仕事を続けた。",
+   "mark": [
+    "career"
+   ]
+  },
+  "core": "長い年月をかけて積み重ねていく仕事の歩み。",
+  "diff": "job は今している1つの仕事。"
+ },
+ {
+  "src": "M1580",
+  "id": "profession",
+  "cat": "word",
+  "en": "profession",
+  "ipa": "/prəˈfɛʃən/",
+  "sense": "（専門的な）職業",
+  "ja": "専門職",
+  "ex": {
+   "en": "Teaching is a hard profession.",
+   "ja": "教師は大変な職業だ。",
+   "mark": [
+    "profession"
+   ]
+  },
+  "core": "特別な知識や訓練が必要な職業。"
+ },
+ {
+  "src": "M1581",
+  "id": "job",
+  "cat": "word",
+  "en": "job",
+  "ipa": "/dʒɑb/",
+  "sense": "仕事、職",
+  "ja": "仕事",
+  "ex": {
+   "en": "She got a new job last month.",
+   "ja": "彼女は先月新しい仕事に就いた。",
+   "mark": [
+    "job"
+   ]
+  },
+  "core": "お金をもらうためにする仕事。",
+  "other": [
+   "（個々の）作業：do a good job"
+  ]
+ },
+ {
+  "src": "M1582",
+  "id": "position",
+  "cat": "word",
+  "en": "position",
+  "ipa": "/pəˈzɪʃən/",
+  "sense": "（職場の）地位、職",
+  "ja": "役職",
+  "ex": {
+   "en": "He applied for a manager position.",
+   "ja": "彼は管理職のポストに応募した。",
+   "mark": [
+    "position"
+   ]
+  },
+  "core": "組織の中で、その人が占めている場所。",
+  "other": [
+   "位置：the position of the sun"
+  ]
+ },
+ {
+  "src": "M1583",
+  "id": "role",
+  "cat": "word",
+  "en": "role",
+  "ipa": "/roʊl/",
+  "sense": "役割",
+  "ja": "役割",
+  "ex": {
+   "en": "Parents play an important role.",
+   "ja": "親は大事な役割を果たす。",
+   "mark": [
+    "role"
+   ]
+  },
+  "core": "ある場面で、その人が果たすべき働き。",
+  "other": [
+   "（劇の）役：the lead role"
+  ]
+ },
+ {
+  "src": "M1584",
+  "id": "responsibility",
+  "cat": "word",
+  "en": "responsibility",
+  "ipa": "/rɪˌspɑnsəˈbɪləti/",
+  "sense": "責任",
+  "ja": "責任",
+  "ex": {
+   "en": "It's my responsibility to lock the door.",
+   "ja": "戸締まりは私の責任だ。",
+   "mark": [
+    "responsibility"
+   ]
+  },
+  "core": "自分が引き受けて、きちんとやるべきこと。"
+ },
+ {
+  "src": "M1585",
+  "id": "task",
+  "cat": "word",
+  "en": "task",
+  "ipa": "/tæsk/",
+  "sense": "（しなければならない）作業、仕事",
+  "ja": "作業",
+  "ex": {
+   "en": "Cleaning the room is a simple task.",
+   "ja": "部屋の掃除は簡単な作業だ。",
+   "mark": [
+    "task"
+   ]
+  },
+  "core": "やるように決められた、1つ1つの仕事。"
+ },
+ {
+  "src": "M1586",
+  "id": "project",
+  "cat": "word",
+  "en": "project",
+  "ipa": "/ˈprɑdʒɛkt/",
+  "sense": "（計画的な）事業、プロジェクト",
+  "ja": "プロジェクト",
+  "ex": {
+   "en": "We finished the project on time.",
+   "ja": "期限どおりにプロジェクトを終えた。",
+   "mark": [
+    "project"
+   ]
+  },
+  "core": "目標に向けて計画を立てて進める、まとまった仕事。",
+  "other": [
+   "（学校の）課題研究：a science project"
+  ]
+ },
+ {
+  "src": "M1587",
+  "id": "meeting",
+  "cat": "word",
+  "en": "meeting",
+  "ipa": "/ˈmitɪŋ/",
+  "sense": "会議、打ち合わせ",
+  "ja": "会議",
+  "ex": {
+   "en": "I have a meeting at ten.",
+   "ja": "10時に会議がある。",
+   "mark": [
+    "meeting"
+   ]
+  },
+  "core": "人が集まって話し合うこと。"
+ },
+ {
+  "src": "M1588",
+  "id": "conference",
+  "cat": "word",
+  "en": "conference",
+  "ipa": "/ˈkɑnfərəns/",
+  "sense": "（大規模な）会議、学会",
+  "ja": "会議",
+  "ex": {
+   "en": "She spoke at a conference in Tokyo.",
+   "ja": "彼女は東京の会議で講演した。",
+   "mark": [
+    "conference"
+   ]
+  },
+  "core": "多くの人が集まり、数日かけて意見を交わす大きな会。",
+  "diff": "meeting はふつう少人数の打ち合わせ。"
+ },
+ {
+  "src": "M1589",
+  "id": "seminar",
+  "cat": "word",
+  "en": "seminar",
+  "ipa": "/ˈsɛməˌnɑr/",
+  "sense": "セミナー、講習会",
+  "ja": "セミナー",
+  "ex": {
+   "en": "I went to a seminar on marketing.",
+   "ja": "マーケティングのセミナーに行った。",
+   "mark": [
+    "seminar"
+   ]
+  },
+  "core": "あるテーマについて、少人数で学び話し合う会。"
+ },
+ {
+  "src": "M1590",
+  "id": "presentation",
+  "cat": "word",
+  "en": "presentation",
+  "ipa": "/ˌprɛzənˈteɪʃən/",
+  "sense": "発表、プレゼン",
+  "ja": "発表",
+  "ex": {
+   "en": "I gave a presentation to the team.",
+   "ja": "チームの前で発表をした。",
+   "mark": [
+    "presentation"
+   ]
+  },
+  "core": "人の前で考えや情報を説明すること。"
+ },
+ {
+  "src": "M1591",
+  "id": "agenda",
+  "cat": "word",
+  "en": "agenda",
+  "ipa": "/əˈdʒɛndə/",
+  "sense": "（会議の）議題、予定表",
+  "ja": "議題",
+  "ex": {
+   "en": "What's on the agenda today?",
+   "ja": "今日の議題は何ですか？",
+   "mark": [
+    "agenda"
+   ]
+  },
+  "core": "会議で話し合うことを順に並べたリスト。"
+ },
+ {
+  "src": "M1592",
+  "id": "deadline",
+  "cat": "word",
+  "en": "deadline",
+  "ipa": "/ˈdɛdˌlaɪn/",
+  "sense": "締め切り",
+  "ja": "締め切り",
+  "ex": {
+   "en": "The deadline is next Friday.",
+   "ja": "締め切りは来週の金曜日だ。",
+   "mark": [
+    "deadline"
+   ]
+  },
+  "core": "それまでに終えなければならない時刻や日。"
+ },
+ {
+  "src": "M1593",
+  "id": "shift",
+  "cat": "word",
+  "en": "shift",
+  "ipa": "/ʃɪft/",
+  "sense": "（交替制の）勤務時間、シフト",
+  "ja": "シフト",
+  "ex": {
+   "en": "I work the night shift this week.",
+   "ja": "今週は夜勤のシフトだ。",
+   "mark": [
+    "shift"
+   ]
+  },
+  "core": "交替で働くときの、1回ぶんの勤務時間。",
+  "other": [
+   "変化：a shift in plans"
+  ]
+ },
+ {
+  "src": "M1594",
+  "id": "salary",
+  "cat": "word",
+  "en": "salary",
+  "ipa": "/ˈsæləri/",
+  "sense": "給料、月給",
+  "ja": "給料",
+  "ex": {
+   "en": "She gets a good salary.",
+   "ja": "彼女はいい給料をもらっている。",
+   "mark": [
+    "salary"
+   ]
+  },
+  "core": "毎月など決まって払われる、決まった額の給料。",
+  "diff": "wage は時間や日ごとに払われる賃金。"
+ },
+ {
+  "src": "M1595",
+  "id": "wage",
+  "cat": "word",
+  "en": "wage",
+  "ipa": "/weɪdʒ/",
+  "sense": "（時給・日給の）賃金",
+  "ja": "賃金",
+  "ex": {
+   "en": "The minimum wage went up this year.",
+   "ja": "今年、最低賃金が上がった。",
+   "mark": [
+    "wage"
+   ]
+  },
+  "core": "働いた時間や日数に応じて払われるお金。",
+  "diff": "salary は月や年で決まった額の給料。"
+ },
+ {
+  "src": "M1596",
+  "id": "bonus",
+  "cat": "word",
+  "en": "bonus",
+  "ipa": "/ˈboʊnəs/",
+  "sense": "ボーナス、賞与",
+  "ja": "ボーナス",
+  "ex": {
+   "en": "We got a bonus at the end of the year.",
+   "ja": "年末にボーナスが出た。",
+   "mark": [
+    "bonus"
+   ]
+  },
+  "core": "ふだんの給料のほかに、追加でもらうお金。",
+  "other": [
+   "うれしいおまけ：an extra bonus"
+  ]
+ },
+ {
+  "src": "M1597",
+  "id": "benefit",
+  "cat": "word",
+  "en": "benefit",
+  "ipa": "/ˈbɛnəfɪt/",
+  "sense": "（会社の）福利厚生、手当",
+  "ja": "福利厚生",
+  "ex": {
+   "en": "The job has good benefits.",
+   "ja": "その仕事は福利厚生がいい。",
+   "mark": [
+    "benefits"
+   ]
+  },
+  "core": "給料のほかに、会社が働く人に与える保険や休暇などのよいもの。ふつう複数形。",
+  "other": [
+   "利点：the benefits of exercise"
+  ]
+ }
+]

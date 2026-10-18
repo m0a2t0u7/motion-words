@@ -1,0 +1,1795 @@
+[
+ {
+  "src": "M1398",
+  "id": "stamp",
+  "cat": "word",
+  "en": "stamp",
+  "ipa": "/stæmp/",
+  "sense": "（手紙に貼る）切手",
+  "ja": "切手",
+  "ex": {
+   "en": "I need a stamp for this letter.",
+   "ja": "この手紙に貼る切手が要る。",
+   "mark": [
+    "stamp"
+   ]
+  },
+  "core": "料金を払った印として、封筒に貼る小さな紙。",
+  "other": [
+   "判子・スタンプ：a date stamp"
+  ]
+ },
+ {
+  "src": "M1399",
+  "id": "card",
+  "cat": "word",
+  "en": "card",
+  "ipa": "/kɑrd/",
+  "sense": "（メッセージを書く）カード",
+  "ja": "カード",
+  "ex": {
+   "en": "She sent me a birthday card.",
+   "ja": "彼女が誕生日カードを送ってくれた。",
+   "mark": [
+    "card"
+   ]
+  },
+  "core": "厚めの小さな紙。用途に応じて書いたり見せたりする。",
+  "other": [
+   "（支払い用の）カード：pay by card",
+   "（遊びの）トランプ：play cards"
+  ]
+ },
+ {
+  "src": "M1400",
+  "id": "ticket",
+  "cat": "word",
+  "en": "ticket",
+  "ipa": "/ˈtɪkɪt/",
+  "sense": "（乗り物・催しの）切符、チケット",
+  "ja": "切符",
+  "ex": {
+   "en": "I bought a train ticket online.",
+   "ja": "電車の切符をネットで買った。",
+   "mark": [
+    "ticket"
+   ]
+  },
+  "core": "お金を払って、乗る・入る権利を持っている証拠。",
+  "other": [
+   "（交通違反の）切符：a parking ticket"
+  ]
+ },
+ {
+  "src": "M1401",
+  "id": "receipt",
+  "cat": "word",
+  "en": "receipt",
+  "ipa": "/rɪˈsit/",
+  "sense": "（買い物の）レシート、領収書",
+  "ja": "レシート",
+  "ex": {
+   "en": "Please keep the receipt.",
+   "ja": "レシートは取っておいてください。",
+   "mark": [
+    "receipt"
+   ]
+  },
+  "core": "お金を受け取ったことを示す紙。p は発音しない。"
+ },
+ {
+  "src": "M1402",
+  "id": "coin",
+  "cat": "word",
+  "en": "coin",
+  "ipa": "/kɔɪn/",
+  "sense": "硬貨",
+  "ja": "硬貨",
+  "ex": {
+   "en": "I found a coin under the sofa.",
+   "ja": "ソファの下で硬貨を見つけた。",
+   "mark": [
+    "coin"
+   ]
+  },
+  "core": "金属でできた、丸くて小さなお金。"
+ },
+ {
+  "src": "M1403",
+  "id": "cash",
+  "cat": "word",
+  "en": "cash",
+  "ipa": "/kæʃ/",
+  "sense": "現金",
+  "ja": "現金",
+  "ex": {
+   "en": "Do you take cash?",
+   "ja": "現金で払えますか？",
+   "mark": [
+    "cash"
+   ]
+  },
+  "core": "カードではなく、手で渡せるお札や硬貨。"
+ },
+ {
+  "src": "M1404",
+  "id": "bill",
+  "cat": "word",
+  "en": "bill",
+  "ipa": "/bɪl/",
+  "sense": "請求書",
+  "ja": "請求書",
+  "ex": {
+   "en": "I paid the phone bill today.",
+   "ja": "今日、電話代の請求書を払った。",
+   "mark": [
+    "bill"
+   ]
+  },
+  "core": "「これだけ払ってください」と書かれた紙。",
+  "other": [
+   "紙幣：a ten-dollar bill",
+   "（店の）勘定：ask for the bill"
+  ]
+ },
+ {
+  "src": "M1405",
+  "id": "map",
+  "cat": "word",
+  "en": "map",
+  "ipa": "/mæp/",
+  "sense": "地図",
+  "ja": "地図",
+  "ex": {
+   "en": "Let's check the map before we go.",
+   "ja": "出かける前に地図を確認しよう。",
+   "mark": [
+    "map"
+   ]
+  },
+  "core": "土地や道の様子を、上から見て平らに描いたもの。"
+ },
+ {
+  "src": "M1406",
+  "id": "passport",
+  "cat": "word",
+  "en": "passport",
+  "ipa": "/ˈpæsˌpɔrt/",
+  "sense": "パスポート、旅券",
+  "ja": "パスポート",
+  "ex": {
+   "en": "Don't forget your passport.",
+   "ja": "パスポートを忘れないで。",
+   "mark": [
+    "passport"
+   ]
+  },
+  "core": "外国へ出入りするときに、国籍と身元を示す冊子。"
+ },
+ {
+  "src": "M1407",
+  "id": "license",
+  "cat": "word",
+  "en": "license",
+  "ipa": "/ˈlaɪsəns/",
+  "sense": "免許証、許可証",
+  "ja": "免許証",
+  "ex": {
+   "en": "He just got his driver's license.",
+   "ja": "彼は運転免許を取ったばかりだ。",
+   "mark": [
+    "license"
+   ]
+  },
+  "core": "あることをしてよいと公に認められた証明。"
+ },
+ {
+  "src": "M1408",
+  "id": "identity",
+  "cat": "word",
+  "en": "identity",
+  "ipa": "/aɪˈdɛntəti/",
+  "sense": "身元、本人であること",
+  "ja": "身元",
+  "ex": {
+   "en": "They checked my identity at the door.",
+   "ja": "入口で身元を確認された。",
+   "mark": [
+    "identity"
+   ]
+  },
+  "core": "その人がほかでもない「その人」であること。",
+  "other": [
+   "自分らしさ：a sense of identity"
+  ]
+ },
+ {
+  "src": "M1409",
+  "id": "label",
+  "cat": "word",
+  "en": "label",
+  "ipa": "/ˈleɪbəl/",
+  "sense": "ラベル",
+  "ja": "ラベル",
+  "ex": {
+   "en": "Read the label before you take it.",
+   "ja": "飲む前にラベルを読んで。",
+   "mark": [
+    "label"
+   ]
+  },
+  "core": "中身や情報を知らせるために、物に付ける紙や札。",
+  "diff": "tag はひもで付ける札。label は貼る・縫い付けるもの。"
+ },
+ {
+  "src": "M1410",
+  "id": "tag",
+  "cat": "word",
+  "en": "tag",
+  "ipa": "/tæɡ/",
+  "sense": "（ひもで付ける）札、値札",
+  "ja": "札",
+  "ex": {
+   "en": "I cut the price tag off my shirt.",
+   "ja": "シャツの値札を切り取った。",
+   "mark": [
+    "tag"
+   ]
+  },
+  "core": "物にぶら下げて、値段や名前を示す小さな札。"
+ },
+ {
+  "src": "M1411",
+  "id": "box",
+  "cat": "word",
+  "en": "box",
+  "ipa": "/bɑks/",
+  "sense": "箱",
+  "ja": "箱",
+  "ex": {
+   "en": "Put the toys in the box.",
+   "ja": "おもちゃを箱に入れて。",
+   "mark": [
+    "box"
+   ]
+  },
+  "core": "物を入れておく、四角い入れ物。"
+ },
+ {
+  "src": "M1412",
+  "id": "package",
+  "cat": "word",
+  "en": "package",
+  "ipa": "/ˈpækɪdʒ/",
+  "sense": "（郵送される）小包、荷物",
+  "ja": "小包",
+  "ex": {
+   "en": "A package came for you today.",
+   "ja": "今日、あなた宛ての小包が届いた。",
+   "mark": [
+    "package"
+   ]
+  },
+  "core": "送るために包んでまとめた物。",
+  "other": [
+   "ひとまとめの提案・セット：a travel package"
+  ]
+ },
+ {
+  "src": "M1413",
+  "id": "road",
+  "cat": "word",
+  "en": "road",
+  "ipa": "/roʊd/",
+  "sense": "道路",
+  "ja": "道路",
+  "ex": {
+   "en": "This road goes to the beach.",
+   "ja": "この道路は浜辺へ続いている。",
+   "mark": [
+    "road"
+   ]
+  },
+  "core": "車などが通る、場所と場所をつなぐ道。",
+  "diff": "street は建物が並ぶ街中の道。"
+ },
+ {
+  "src": "M1414",
+  "id": "street",
+  "cat": "word",
+  "en": "street",
+  "ipa": "/strit/",
+  "sense": "（街中の）通り",
+  "ja": "通り",
+  "ex": {
+   "en": "I live on a quiet street.",
+   "ja": "静かな通りに住んでいる。",
+   "mark": [
+    "street"
+   ]
+  },
+  "core": "両側に家や店が並ぶ、街の中の道。",
+  "diff": "road は場所と場所を結ぶ道全般。"
+ },
+ {
+  "src": "M1415",
+  "id": "avenue",
+  "cat": "word",
+  "en": "avenue",
+  "ipa": "/ˈævəˌnu/",
+  "sense": "大通り",
+  "ja": "大通り",
+  "ex": {
+   "en": "The museum is on Fifth Avenue.",
+   "ja": "博物館は5番街にある。",
+   "mark": [
+    "Avenue"
+   ]
+  },
+  "core": "街の中を通る、広くて大きな通り。"
+ },
+ {
+  "src": "M1416",
+  "id": "lane",
+  "cat": "word",
+  "en": "lane",
+  "ipa": "/leɪn/",
+  "sense": "（道路の）車線",
+  "ja": "車線",
+  "ex": {
+   "en": "Stay in the right lane.",
+   "ja": "右の車線を走ってください。",
+   "mark": [
+    "lane"
+   ]
+  },
+  "core": "道路を線で分けた、車1台分の通り道。",
+  "other": [
+   "細い道：a country lane"
+  ]
+ },
+ {
+  "src": "M1417",
+  "id": "highway",
+  "cat": "word",
+  "en": "highway",
+  "ipa": "/ˈhaɪˌweɪ/",
+  "sense": "幹線道路、高速道路",
+  "ja": "幹線道路",
+  "ex": {
+   "en": "We drove on the highway for hours.",
+   "ja": "何時間も幹線道路を走った。",
+   "mark": [
+    "highway"
+   ]
+  },
+  "core": "町と町を結ぶ、大きくて速く走れる道路。"
+ },
+ {
+  "src": "M1418",
+  "id": "bridge",
+  "cat": "word",
+  "en": "bridge",
+  "ipa": "/brɪdʒ/",
+  "sense": "橋",
+  "ja": "橋",
+  "ex": {
+   "en": "We walked across the bridge.",
+   "ja": "歩いて橋を渡った。",
+   "mark": [
+    "bridge"
+   ]
+  },
+  "core": "川や谷の上に架けて、両側をつなぐもの。"
+ },
+ {
+  "src": "M1419",
+  "id": "tunnel",
+  "cat": "word",
+  "en": "tunnel",
+  "ipa": "/ˈtʌnəl/",
+  "sense": "トンネル",
+  "ja": "トンネル",
+  "ex": {
+   "en": "The train went through a long tunnel.",
+   "ja": "電車は長いトンネルを通り抜けた。",
+   "mark": [
+    "tunnel"
+   ]
+  },
+  "core": "山や地下を掘って作った通り道。"
+ },
+ {
+  "src": "M1420",
+  "id": "intersection",
+  "cat": "word",
+  "en": "intersection",
+  "ipa": "/ˌɪntərˈsɛkʃən/",
+  "sense": "交差点",
+  "ja": "交差点",
+  "ex": {
+   "en": "Turn left at the next intersection.",
+   "ja": "次の交差点を左に曲がって。",
+   "mark": [
+    "intersection"
+   ]
+  },
+  "core": "2本以上の道が交わるところ。"
+ },
+ {
+  "src": "M1421",
+  "id": "crosswalk",
+  "cat": "word",
+  "en": "crosswalk",
+  "ipa": "/ˈkrɔsˌwɔk/",
+  "sense": "横断歩道",
+  "ja": "横断歩道",
+  "ex": {
+   "en": "Always use the crosswalk.",
+   "ja": "必ず横断歩道を渡りなさい。",
+   "mark": [
+    "crosswalk"
+   ]
+  },
+  "core": "道路に線が引かれた、歩行者が渡る場所。"
+ },
+ {
+  "src": "M1422",
+  "id": "sidewalk",
+  "cat": "word",
+  "en": "sidewalk",
+  "ipa": "/ˈsaɪdˌwɔk/",
+  "sense": "歩道",
+  "ja": "歩道",
+  "ex": {
+   "en": "Kids were drawing on the sidewalk.",
+   "ja": "子どもたちが歩道に絵を描いていた。",
+   "mark": [
+    "sidewalk"
+   ]
+  },
+  "core": "車道の横にある、人が歩くための道。",
+  "diff": "（英）では pavement と言う。"
+ },
+ {
+  "src": "M1423",
+  "id": "traffic",
+  "cat": "word",
+  "en": "traffic",
+  "ipa": "/ˈtræfɪk/",
+  "sense": "（道路の）交通、交通量",
+  "ja": "交通",
+  "ex": {
+   "en": "There was heavy traffic this morning.",
+   "ja": "今朝はひどく道が混んでいた。",
+   "mark": [
+    "traffic"
+   ]
+  },
+  "core": "道路を行き来する車や人の流れ。"
+ },
+ {
+  "src": "M1424",
+  "id": "vehicle",
+  "cat": "word",
+  "en": "vehicle",
+  "ipa": "/ˈviəkəl/",
+  "sense": "乗り物、車両",
+  "ja": "車両",
+  "ex": {
+   "en": "Please turn off your vehicle's engine.",
+   "ja": "車のエンジンを切ってください。",
+   "mark": [
+    "vehicle's"
+   ]
+  },
+  "core": "人や物を運ぶ、車輪の付いた乗り物全般。"
+ },
+ {
+  "src": "M1425",
+  "id": "car",
+  "cat": "word",
+  "en": "car",
+  "ipa": "/kɑr/",
+  "sense": "自動車",
+  "ja": "車",
+  "ex": {
+   "en": "My car won't start.",
+   "ja": "車のエンジンがかからない。",
+   "mark": [
+    "car"
+   ]
+  },
+  "core": "人が乗って運転する、4輪の乗り物。"
+ },
+ {
+  "src": "M1426",
+  "id": "bus",
+  "cat": "word",
+  "en": "bus",
+  "ipa": "/bʌs/",
+  "sense": "バス",
+  "ja": "バス",
+  "ex": {
+   "en": "I take the bus to school.",
+   "ja": "バスで通学している。",
+   "mark": [
+    "bus"
+   ]
+  },
+  "core": "大勢の客を乗せて決まった道を走る車。"
+ },
+ {
+  "src": "M1427",
+  "id": "truck",
+  "cat": "word",
+  "en": "truck",
+  "ipa": "/trʌk/",
+  "sense": "トラック",
+  "ja": "トラック",
+  "ex": {
+   "en": "A big truck blocked the road.",
+   "ja": "大きなトラックが道をふさいだ。",
+   "mark": [
+    "truck"
+   ]
+  },
+  "core": "荷物を運ぶための大きな車。"
+ },
+ {
+  "src": "M1428",
+  "id": "taxi",
+  "cat": "word",
+  "en": "taxi",
+  "ipa": "/ˈtæksi/",
+  "sense": "タクシー",
+  "ja": "タクシー",
+  "ex": {
+   "en": "Let's take a taxi to the station.",
+   "ja": "駅までタクシーで行こう。",
+   "mark": [
+    "taxi"
+   ]
+  },
+  "core": "お金を払って、行きたい場所まで乗せてもらう車。"
+ },
+ {
+  "src": "M1429",
+  "id": "bicycle",
+  "cat": "word",
+  "en": "bicycle",
+  "ipa": "/ˈbaɪsɪkəl/",
+  "sense": "自転車",
+  "ja": "自転車",
+  "ex": {
+   "en": "He rides his bicycle to work.",
+   "ja": "彼は自転車で通勤している。",
+   "mark": [
+    "bicycle"
+   ]
+  },
+  "core": "ペダルをこいで進む、2つの車輪の乗り物。"
+ },
+ {
+  "src": "M1430",
+  "id": "motorcycle",
+  "cat": "word",
+  "en": "motorcycle",
+  "ipa": "/ˈmoʊtərˌsaɪkəl/",
+  "sense": "オートバイ",
+  "ja": "オートバイ",
+  "ex": {
+   "en": "My uncle rides a motorcycle.",
+   "ja": "おじはオートバイに乗っている。",
+   "mark": [
+    "motorcycle"
+   ]
+  },
+  "core": "エンジンで走る、2つの車輪の乗り物。"
+ },
+ {
+  "src": "M1431",
+  "id": "scooter",
+  "cat": "word",
+  "en": "scooter",
+  "ipa": "/ˈskutər/",
+  "sense": "スクーター",
+  "ja": "スクーター",
+  "ex": {
+   "en": "She goes to work on a scooter.",
+   "ja": "彼女はスクーターで通勤している。",
+   "mark": [
+    "scooter"
+   ]
+  },
+  "core": "足を乗せる板のある、小型の2輪の乗り物。"
+ },
+ {
+  "src": "M1432",
+  "id": "subway",
+  "cat": "word",
+  "en": "subway",
+  "ipa": "/ˈsʌbˌweɪ/",
+  "sense": "地下鉄",
+  "ja": "地下鉄",
+  "ex": {
+   "en": "The subway is faster than the bus.",
+   "ja": "地下鉄のほうがバスより速い。",
+   "mark": [
+    "subway"
+   ]
+  },
+  "core": "地面の下を走る電車。",
+  "diff": "（英）では underground と言う。"
+ },
+ {
+  "src": "M1433",
+  "id": "airplane",
+  "cat": "word",
+  "en": "airplane",
+  "ipa": "/ˈɛrˌpleɪn/",
+  "sense": "飛行機",
+  "ja": "飛行機",
+  "ex": {
+   "en": "The airplane landed safely.",
+   "ja": "飛行機は無事に着陸した。",
+   "mark": [
+    "airplane"
+   ]
+  },
+  "core": "翼で空を飛ぶ乗り物。",
+  "diff": "（英）では aeroplane とつづる。"
+ },
+ {
+  "src": "M1434",
+  "id": "helicopter",
+  "cat": "word",
+  "en": "helicopter",
+  "ipa": "/ˈhɛlɪˌkɑptər/",
+  "sense": "ヘリコプター",
+  "ja": "ヘリコプター",
+  "ex": {
+   "en": "A helicopter flew over our house.",
+   "ja": "ヘリコプターが家の上を飛んでいった。",
+   "mark": [
+    "helicopter"
+   ]
+  },
+  "core": "頭の上の羽根を回して飛ぶ乗り物。"
+ },
+ {
+  "src": "M1435",
+  "id": "boat",
+  "cat": "word",
+  "en": "boat",
+  "ipa": "/boʊt/",
+  "sense": "ボート、小さな船",
+  "ja": "ボート",
+  "ex": {
+   "en": "We rowed a boat on the lake.",
+   "ja": "湖でボートをこいだ。",
+   "mark": [
+    "boat"
+   ]
+  },
+  "core": "水の上を進む乗り物。ふつう小さめのもの。",
+  "diff": "ship は大きな船。"
+ },
+ {
+  "src": "M1436",
+  "id": "ferry",
+  "cat": "word",
+  "en": "ferry",
+  "ipa": "/ˈfɛri/",
+  "sense": "フェリー",
+  "ja": "フェリー",
+  "ex": {
+   "en": "We took the ferry to the island.",
+   "ja": "フェリーで島へ渡った。",
+   "mark": [
+    "ferry"
+   ]
+  },
+  "core": "人や車を乗せて、決まった水路を行き来する船。"
+ },
+ {
+  "src": "M1437",
+  "id": "wheel",
+  "cat": "word",
+  "en": "wheel",
+  "ipa": "/wil/",
+  "sense": "車輪",
+  "ja": "車輪",
+  "ex": {
+   "en": "One wheel came off the cart.",
+   "ja": "台車の車輪が1つ外れた。",
+   "mark": [
+    "wheel"
+   ]
+  },
+  "core": "軸を中心にくるくる回る丸い部品。",
+  "other": [
+   "（車の）ハンドル：behind the wheel"
+  ]
+ },
+ {
+  "src": "M1438",
+  "id": "tire",
+  "cat": "word",
+  "en": "tire",
+  "ipa": "/ˈtaɪər/",
+  "sense": "タイヤ",
+  "ja": "タイヤ",
+  "ex": {
+   "en": "I got a flat tire on the way.",
+   "ja": "途中でタイヤがパンクした。",
+   "mark": [
+    "tire"
+   ]
+  },
+  "core": "車輪の外側にはめる、ゴムの輪。",
+  "diff": "（英）では tyre とつづる。"
+ },
+ {
+  "src": "M1439",
+  "id": "engine",
+  "cat": "word",
+  "en": "engine",
+  "ipa": "/ˈɛndʒən/",
+  "sense": "エンジン",
+  "ja": "エンジン",
+  "ex": {
+   "en": "The engine made a strange noise.",
+   "ja": "エンジンが変な音を立てた。",
+   "mark": [
+    "engine"
+   ]
+  },
+  "core": "燃料を燃やして、機械を動かす力を生む装置。"
+ },
+ {
+  "src": "M1440",
+  "id": "seat",
+  "cat": "word",
+  "en": "seat",
+  "ipa": "/sit/",
+  "sense": "座席",
+  "ja": "座席",
+  "ex": {
+   "en": "Is this seat taken?",
+   "ja": "この席は空いていますか？",
+   "mark": [
+    "seat"
+   ]
+  },
+  "core": "座るための場所。"
+ },
+ {
+  "src": "M1441",
+  "id": "seatbelt",
+  "cat": "word",
+  "en": "seatbelt",
+  "ipa": "/ˈsitˌbɛlt/",
+  "sense": "シートベルト",
+  "ja": "シートベルト",
+  "ex": {
+   "en": "Please fasten your seatbelt.",
+   "ja": "シートベルトを締めてください。",
+   "mark": [
+    "seatbelt"
+   ]
+  },
+  "core": "座席に体を固定する安全用のベルト。"
+ },
+ {
+  "src": "M1442",
+  "id": "fuel",
+  "cat": "word",
+  "en": "fuel",
+  "ipa": "/ˈfjuəl/",
+  "sense": "燃料",
+  "ja": "燃料",
+  "ex": {
+   "en": "The truck ran out of fuel.",
+   "ja": "トラックの燃料が切れた。",
+   "mark": [
+    "fuel"
+   ]
+  },
+  "core": "燃やして熱や力を生むもの。"
+ },
+ {
+  "src": "M1443",
+  "id": "gasoline",
+  "cat": "word",
+  "en": "gasoline",
+  "ipa": "/ˌɡæsəˈlin/",
+  "sense": "ガソリン",
+  "ja": "ガソリン",
+  "ex": {
+   "en": "The price of gasoline went up.",
+   "ja": "ガソリンの値段が上がった。",
+   "mark": [
+    "gasoline"
+   ]
+  },
+  "core": "車を動かす液体の燃料。会話では gas と言うことが多い。",
+  "diff": "（英）では petrol と言う。"
+ },
+ {
+  "src": "M1444",
+  "id": "station",
+  "cat": "word",
+  "en": "station",
+  "ipa": "/ˈsteɪʃən/",
+  "sense": "駅",
+  "ja": "駅",
+  "ex": {
+   "en": "Meet me at the station at five.",
+   "ja": "5時に駅で会おう。",
+   "mark": [
+    "station"
+   ]
+  },
+  "core": "電車やバスが止まり、人が乗り降りする場所。",
+  "other": [
+   "（特定の仕事の）署・局：a police station"
+  ]
+ },
+ {
+  "src": "M1445",
+  "id": "platform",
+  "cat": "word",
+  "en": "platform",
+  "ipa": "/ˈplætˌfɔrm/",
+  "sense": "（駅の）ホーム",
+  "ja": "ホーム",
+  "ex": {
+   "en": "The train leaves from platform three.",
+   "ja": "電車は3番ホームから出る。",
+   "mark": [
+    "platform"
+   ]
+  },
+  "core": "線路の横の、一段高くなった乗り降りの場所。"
+ },
+ {
+  "src": "M1446",
+  "id": "terminal",
+  "cat": "word",
+  "en": "terminal",
+  "ipa": "/ˈtɜrmənəl/",
+  "sense": "（空港・バスの）ターミナル",
+  "ja": "ターミナル",
+  "ex": {
+   "en": "Our flight leaves from Terminal 2.",
+   "ja": "私たちの便は第2ターミナルから出る。",
+   "mark": [
+    "Terminal"
+   ]
+  },
+  "core": "乗り物が出発・到着する建物。"
+ },
+ {
+  "src": "M1447",
+  "id": "airport",
+  "cat": "word",
+  "en": "airport",
+  "ipa": "/ˈɛrˌpɔrt/",
+  "sense": "空港",
+  "ja": "空港",
+  "ex": {
+   "en": "We got to the airport early.",
+   "ja": "早めに空港に着いた。",
+   "mark": [
+    "airport"
+   ]
+  },
+  "core": "飛行機が離着陸し、人が乗り降りする場所。"
+ },
+ {
+  "src": "M1448",
+  "id": "port",
+  "cat": "word",
+  "en": "port",
+  "ipa": "/pɔrt/",
+  "sense": "港",
+  "ja": "港",
+  "ex": {
+   "en": "The ship stayed in port for two days.",
+   "ja": "船は2日間港に停泊した。",
+   "mark": [
+    "port"
+   ]
+  },
+  "core": "船が着いて、人や荷物を積み下ろしする場所。",
+  "diff": "harbor は船が安全にとまれる水域。port は港町・施設を指すことが多い。"
+ },
+ {
+  "src": "M1449",
+  "id": "parking",
+  "cat": "word",
+  "en": "parking",
+  "ipa": "/ˈpɑrkɪŋ/",
+  "sense": "駐車、駐車場所",
+  "ja": "駐車",
+  "ex": {
+   "en": "Parking is free on Sundays.",
+   "ja": "日曜日は駐車が無料だ。",
+   "mark": [
+    "Parking"
+   ]
+  },
+  "core": "車をとめておくこと、またはとめる場所。"
+ },
+ {
+  "src": "M1450",
+  "id": "fare",
+  "cat": "word",
+  "en": "fare",
+  "ipa": "/fɛr/",
+  "sense": "（乗り物の）運賃",
+  "ja": "運賃",
+  "ex": {
+   "en": "The bus fare is two dollars.",
+   "ja": "バスの運賃は2ドルだ。",
+   "mark": [
+    "fare"
+   ]
+  },
+  "core": "乗り物に乗るために払うお金。"
+ },
+ {
+  "src": "M1451",
+  "id": "route",
+  "cat": "word",
+  "en": "route",
+  "ipa": "/rut/",
+  "sense": "経路、ルート",
+  "ja": "経路",
+  "ex": {
+   "en": "This is the fastest route home.",
+   "ja": "これが家までの一番速い道だ。",
+   "mark": [
+    "route"
+   ]
+  },
+  "core": "出発点から目的地までに通る道すじ。"
+ },
+ {
+  "src": "M1452",
+  "id": "journey",
+  "cat": "word",
+  "en": "journey",
+  "ipa": "/ˈdʒɜrni/",
+  "sense": "（長い）旅、道のり",
+  "ja": "旅",
+  "ex": {
+   "en": "It was a long journey by train.",
+   "ja": "列車での長い旅だった。",
+   "mark": [
+    "journey"
+   ]
+  },
+  "core": "ある場所から別の場所へ移っていく道のりそのもの。",
+  "diff": "trip は行って帰る旅行。journey は移動の過程に目を向ける。"
+ },
+ {
+  "src": "M1453",
+  "id": "trip",
+  "cat": "word",
+  "en": "trip",
+  "ipa": "/trɪp/",
+  "sense": "（短い）旅行",
+  "ja": "旅行",
+  "ex": {
+   "en": "We took a trip to the mountains.",
+   "ja": "山へ旅行に出かけた。",
+   "mark": [
+    "trip"
+   ]
+  },
+  "core": "ある場所へ行って帰ってくること。"
+ },
+ {
+  "src": "M1454",
+  "id": "travel",
+  "cat": "word",
+  "en": "travel",
+  "ipa": "/ˈtrævəl/",
+  "sense": "旅行（すること）",
+  "ja": "旅行",
+  "ex": {
+   "en": "Travel can be expensive.",
+   "ja": "旅行はお金がかかることがある。",
+   "mark": [
+    "Travel"
+   ]
+  },
+  "core": "あちこちへ移動して出かけること全般。数えない名詞。",
+  "diff": "trip は1回ごとの旅行で数えられる。"
+ },
+ {
+  "src": "M1455",
+  "id": "vacation",
+  "cat": "word",
+  "en": "vacation",
+  "ipa": "/veɪˈkeɪʃən/",
+  "sense": "休暇、休み",
+  "ja": "休暇",
+  "ex": {
+   "en": "We're going to the beach on vacation.",
+   "ja": "休暇に海へ行く予定だ。",
+   "mark": [
+    "vacation"
+   ]
+  },
+  "core": "仕事や学校を離れて、まとまって休む期間。",
+  "diff": "（英）では holiday と言うことが多い。"
+ },
+ {
+  "src": "M1456",
+  "id": "holiday",
+  "cat": "word",
+  "en": "holiday",
+  "ipa": "/ˈhɑlɪˌdeɪ/",
+  "sense": "祝日",
+  "ja": "祝日",
+  "ex": {
+   "en": "Monday is a national holiday.",
+   "ja": "月曜日は国民の祝日だ。",
+   "mark": [
+    "holiday"
+   ]
+  },
+  "core": "みんなが仕事や学校を休む、特別な日。",
+  "other": [
+   "（英）休暇：go on holiday"
+  ]
+ },
+ {
+  "src": "M1457",
+  "id": "destination",
+  "cat": "word",
+  "en": "destination",
+  "ipa": "/ˌdɛstəˈneɪʃən/",
+  "sense": "目的地",
+  "ja": "目的地",
+  "ex": {
+   "en": "We reached our destination at noon.",
+   "ja": "昼に目的地に着いた。",
+   "mark": [
+    "destination"
+   ]
+  },
+  "core": "移動の最後にたどり着く場所。"
+ },
+ {
+  "src": "M1458",
+  "id": "departure",
+  "cat": "word",
+  "en": "departure",
+  "ipa": "/dɪˈpɑrtʃər/",
+  "sense": "出発",
+  "ja": "出発",
+  "ex": {
+   "en": "Our departure was delayed an hour.",
+   "ja": "出発が1時間遅れた。",
+   "mark": [
+    "departure"
+   ]
+  },
+  "core": "ある場所を離れて出ていくこと。"
+ },
+ {
+  "src": "M1459",
+  "id": "arrival",
+  "cat": "word",
+  "en": "arrival",
+  "ipa": "/əˈraɪvəl/",
+  "sense": "到着",
+  "ja": "到着",
+  "ex": {
+   "en": "Check the arrival time on the board.",
+   "ja": "掲示板で到着時刻を確かめて。",
+   "mark": [
+    "arrival"
+   ]
+  },
+  "core": "目的の場所に着くこと。"
+ },
+ {
+  "src": "M1460",
+  "id": "transfer",
+  "cat": "word",
+  "en": "transfer",
+  "ipa": "/ˈtrænsfər/",
+  "sense": "乗り換え",
+  "ja": "乗り換え",
+  "ex": {
+   "en": "There's a transfer at the next station.",
+   "ja": "次の駅で乗り換えがある。",
+   "mark": [
+    "transfer"
+   ]
+  },
+  "core": "ある乗り物から別の乗り物へ移ること。",
+  "other": [
+   "（お金の）振り込み：a bank transfer"
+  ]
+ },
+ {
+  "src": "M1461",
+  "id": "connection",
+  "cat": "word",
+  "en": "connection",
+  "ipa": "/kəˈnɛkʃən/",
+  "sense": "（乗り物の）乗り継ぎ、乗り継ぎ便",
+  "ja": "乗り継ぎ",
+  "ex": {
+   "en": "I almost missed my connection.",
+   "ja": "乗り継ぎ便に乗り遅れそうになった。",
+   "mark": [
+    "connection"
+   ]
+  },
+  "core": "ある便から次の便へと旅をつなぐこと。",
+  "other": [
+   "つながり、関係：a connection between the two"
+  ]
+ },
+ {
+  "src": "M1462",
+  "id": "reservation",
+  "cat": "word",
+  "en": "reservation",
+  "ipa": "/ˌrɛzərˈveɪʃən/",
+  "sense": "予約",
+  "ja": "予約",
+  "ex": {
+   "en": "I have a reservation for two.",
+   "ja": "2名で予約しています。",
+   "mark": [
+    "reservation"
+   ]
+  },
+  "core": "席や部屋を前もって取っておくこと。"
+ },
+ {
+  "src": "M1463",
+  "id": "boarding",
+  "cat": "word",
+  "en": "boarding",
+  "ipa": "/ˈbɔrdɪŋ/",
+  "sense": "（飛行機などへの）搭乗",
+  "ja": "搭乗",
+  "ex": {
+   "en": "Boarding starts at 9:30.",
+   "ja": "搭乗は9時30分に始まる。",
+   "mark": [
+    "Boarding"
+   ]
+  },
+  "core": "飛行機・船・電車に乗り込むこと。"
+ },
+ {
+  "src": "M1464",
+  "id": "baggage",
+  "cat": "word",
+  "en": "baggage",
+  "ipa": "/ˈbæɡɪdʒ/",
+  "sense": "手荷物",
+  "ja": "手荷物",
+  "ex": {
+   "en": "Where can I pick up my baggage?",
+   "ja": "手荷物はどこで受け取れますか？",
+   "mark": [
+    "baggage"
+   ]
+  },
+  "core": "旅行で持ち運ぶかばんや荷物。数えない名詞。"
+ },
+ {
+  "src": "M1465",
+  "id": "customs",
+  "cat": "word",
+  "en": "customs",
+  "ipa": "/ˈkʌstəmz/",
+  "sense": "税関",
+  "ja": "税関",
+  "ex": {
+   "en": "We went through customs quickly.",
+   "ja": "税関はすぐに通過できた。",
+   "mark": [
+    "customs"
+   ]
+  },
+  "core": "国境で持ち込む物を調べる場所。"
+ },
+ {
+  "src": "M1466",
+  "id": "immigration",
+  "cat": "word",
+  "en": "immigration",
+  "ipa": "/ˌɪməˈɡreɪʃən/",
+  "sense": "入国審査",
+  "ja": "入国審査",
+  "ex": {
+   "en": "There was a long line at immigration.",
+   "ja": "入国審査に長い列ができていた。",
+   "mark": [
+    "immigration"
+   ]
+  },
+  "core": "国に入る人の書類を確かめる場所。",
+  "other": [
+   "（外国からの）移住：immigration laws"
+  ]
+ },
+ {
+  "src": "M1467",
+  "id": "security",
+  "cat": "word",
+  "en": "security",
+  "ipa": "/sɪˈkjʊrəti/",
+  "sense": "（空港の）保安検査",
+  "ja": "保安検査",
+  "ex": {
+   "en": "We waited in line at security.",
+   "ja": "保安検査の列に並んだ。",
+   "mark": [
+    "security"
+   ]
+  },
+  "core": "危ない物がないか、人と荷物を調べるところ。",
+  "other": [
+   "安全、警備：home security"
+  ]
+ },
+ {
+  "src": "M1468",
+  "id": "hotel",
+  "cat": "word",
+  "en": "hotel",
+  "ipa": "/hoʊˈtɛl/",
+  "sense": "ホテル",
+  "ja": "ホテル",
+  "ex": {
+   "en": "We stayed at a hotel by the sea.",
+   "ja": "海辺のホテルに泊まった。",
+   "mark": [
+    "hotel"
+   ]
+  },
+  "core": "お金を払って泊まる建物。"
+ },
+ {
+  "src": "M1469",
+  "id": "lobby",
+  "cat": "word",
+  "en": "lobby",
+  "ipa": "/ˈlɑbi/",
+  "sense": "ロビー",
+  "ja": "ロビー",
+  "ex": {
+   "en": "Let's meet in the hotel lobby.",
+   "ja": "ホテルのロビーで会おう。",
+   "mark": [
+    "lobby"
+   ]
+  },
+  "core": "建物の入口を入ってすぐの広い場所。"
+ },
+ {
+  "src": "M1470",
+  "id": "counter",
+  "cat": "word",
+  "en": "counter",
+  "ipa": "/ˈkaʊntər/",
+  "sense": "（店などの）カウンター",
+  "ja": "カウンター",
+  "ex": {
+   "en": "Please pay at the counter.",
+   "ja": "カウンターでお支払いください。",
+   "mark": [
+    "counter"
+   ]
+  },
+  "core": "店員と客の間にある、長い台。",
+  "other": [
+   "（台所の）調理台：kitchen counter"
+  ]
+ },
+ {
+  "src": "M1471",
+  "id": "reception",
+  "cat": "word",
+  "en": "reception",
+  "ipa": "/rɪˈsɛpʃən/",
+  "sense": "受付、フロント",
+  "ja": "受付",
+  "ex": {
+   "en": "Ask at reception for a map.",
+   "ja": "地図は受付で聞いてください。",
+   "mark": [
+    "reception"
+   ]
+  },
+  "core": "訪れた人を迎えて対応する場所。",
+  "other": [
+   "（歓迎の）パーティー：a wedding reception"
+  ]
+ },
+ {
+  "src": "M1472",
+  "id": "restaurant",
+  "cat": "word",
+  "en": "restaurant",
+  "ipa": "/ˈrɛstəˌrɑnt/",
+  "sense": "レストラン",
+  "ja": "レストラン",
+  "ex": {
+   "en": "We ate at a new restaurant.",
+   "ja": "新しいレストランで食事した。",
+   "mark": [
+    "restaurant"
+   ]
+  },
+  "core": "お金を払って料理を食べる店。"
+ },
+ {
+  "src": "M1473",
+  "id": "cafe",
+  "cat": "word",
+  "en": "cafe",
+  "ipa": "/kæˈfeɪ/",
+  "sense": "カフェ、喫茶店",
+  "ja": "カフェ",
+  "ex": {
+   "en": "Let's talk at the cafe.",
+   "ja": "カフェで話そう。",
+   "mark": [
+    "cafe"
+   ]
+  },
+  "core": "コーヒーや軽食を出す、小さな店。"
+ },
+ {
+  "src": "M1474",
+  "id": "bakery",
+  "cat": "word",
+  "en": "bakery",
+  "ipa": "/ˈbeɪkəri/",
+  "sense": "パン屋",
+  "ja": "パン屋",
+  "ex": {
+   "en": "The bakery opens at seven.",
+   "ja": "そのパン屋は7時に開く。",
+   "mark": [
+    "bakery"
+   ]
+  },
+  "core": "パンやケーキを焼いて売る店。"
+ },
+ {
+  "src": "M1475",
+  "id": "supermarket",
+  "cat": "word",
+  "en": "supermarket",
+  "ipa": "/ˈsupərˌmɑrkɪt/",
+  "sense": "スーパーマーケット",
+  "ja": "スーパー",
+  "ex": {
+   "en": "I buy food at the supermarket.",
+   "ja": "食料品はスーパーで買う。",
+   "mark": [
+    "supermarket"
+   ]
+  },
+  "core": "食品や日用品を、客が自分で選んで買う大きな店。"
+ },
+ {
+  "src": "M1476",
+  "id": "store",
+  "cat": "word",
+  "en": "store",
+  "ipa": "/stɔr/",
+  "sense": "店",
+  "ja": "店",
+  "ex": {
+   "en": "The store closes at nine.",
+   "ja": "その店は9時に閉まる。",
+   "mark": [
+    "store"
+   ]
+  },
+  "core": "物を売る店。",
+  "diff": "（英）では shop と言うことが多い。"
+ },
+ {
+  "src": "M1477",
+  "id": "market",
+  "cat": "word",
+  "en": "market",
+  "ipa": "/ˈmɑrkɪt/",
+  "sense": "市場、市",
+  "ja": "市場",
+  "ex": {
+   "en": "We bought fresh fish at the market.",
+   "ja": "市場で新鮮な魚を買った。",
+   "mark": [
+    "market"
+   ]
+  },
+  "core": "売り手が集まって物を売り買いする場所。",
+  "other": [
+   "（経済の）市場：the job market"
+  ]
+ },
+ {
+  "src": "M1478",
+  "id": "mall",
+  "cat": "word",
+  "en": "mall",
+  "ipa": "/mɔl/",
+  "sense": "ショッピングモール",
+  "ja": "モール",
+  "ex": {
+   "en": "Let's go shopping at the mall.",
+   "ja": "モールに買い物に行こう。",
+   "mark": [
+    "mall"
+   ]
+  },
+  "core": "たくさんの店が1つの建物に集まった場所。"
+ },
+ {
+  "src": "M1479",
+  "id": "bank",
+  "cat": "word",
+  "en": "bank",
+  "ipa": "/bæŋk/",
+  "sense": "銀行",
+  "ja": "銀行",
+  "ex": {
+   "en": "I need to go to the bank.",
+   "ja": "銀行に行かなくちゃ。",
+   "mark": [
+    "bank"
+   ]
+  },
+  "core": "お金を預けたり借りたりする所。",
+  "other": [
+   "川岸、土手：the river bank"
+  ]
+ },
+ {
+  "src": "M1480",
+  "id": "library",
+  "cat": "word",
+  "en": "library",
+  "ipa": "/ˈlaɪˌbrɛri/",
+  "sense": "図書館",
+  "ja": "図書館",
+  "ex": {
+   "en": "I borrowed this book from the library.",
+   "ja": "この本は図書館で借りた。",
+   "mark": [
+    "library"
+   ]
+  },
+  "core": "本を集めて、人が読んだり借りたりできる所。"
+ },
+ {
+  "src": "M1481",
+  "id": "museum",
+  "cat": "word",
+  "en": "museum",
+  "ipa": "/mjuˈziəm/",
+  "sense": "博物館、美術館",
+  "ja": "博物館",
+  "ex": {
+   "en": "We visited the science museum.",
+   "ja": "科学博物館を訪れた。",
+   "mark": [
+    "museum"
+   ]
+  },
+  "core": "大切な物を集めて展示し、見せる建物。"
+ },
+ {
+  "src": "M1482",
+  "id": "theater",
+  "cat": "word",
+  "en": "theater",
+  "ipa": "/ˈθiətər/",
+  "sense": "劇場",
+  "ja": "劇場",
+  "ex": {
+   "en": "We saw a play at the theater.",
+   "ja": "劇場で劇を見た。",
+   "mark": [
+    "theater"
+   ]
+  },
+  "core": "劇や公演を見るための建物。",
+  "diff": "（英）では theatre とつづる。",
+  "other": [
+   "映画館：a movie theater"
+  ]
+ },
+ {
+  "src": "M1483",
+  "id": "cinema",
+  "cat": "word",
+  "en": "cinema",
+  "ipa": "/ˈsɪnəmə/",
+  "sense": "映画館",
+  "ja": "映画館",
+  "ex": {
+   "en": "The cinema was almost empty.",
+   "ja": "映画館はほとんどがらがらだった。",
+   "mark": [
+    "cinema"
+   ]
+  },
+  "core": "映画を上映する建物。",
+  "diff": "（英）でよく使う。アメリカでは movie theater が普通。"
+ },
+ {
+  "src": "M1484",
+  "id": "park",
+  "cat": "word",
+  "en": "park",
+  "ipa": "/pɑrk/",
+  "sense": "公園",
+  "ja": "公園",
+  "ex": {
+   "en": "The kids are playing in the park.",
+   "ja": "子どもたちが公園で遊んでいる。",
+   "mark": [
+    "park"
+   ]
+  },
+  "core": "木や芝生があり、だれでも休んだり遊んだりできる場所。"
+ },
+ {
+  "src": "M1485",
+  "id": "stadium",
+  "cat": "word",
+  "en": "stadium",
+  "ipa": "/ˈsteɪdiəm/",
+  "sense": "競技場、スタジアム",
+  "ja": "競技場",
+  "ex": {
+   "en": "The stadium was full of fans.",
+   "ja": "競技場はファンでいっぱいだった。",
+   "mark": [
+    "stadium"
+   ]
+  },
+  "core": "周りを観客席が囲む、大きな競技場。"
+ },
+ {
+  "src": "M1486",
+  "id": "pool",
+  "cat": "word",
+  "en": "pool",
+  "ipa": "/pul/",
+  "sense": "プール",
+  "ja": "プール",
+  "ex": {
+   "en": "The kids swam in the pool all day.",
+   "ja": "子どもたちは一日中プールで泳いだ。",
+   "mark": [
+    "pool"
+   ]
+  },
+  "core": "泳ぐために水をためた場所。"
+ },
+ {
+  "src": "M1487",
+  "id": "square",
+  "cat": "word",
+  "en": "square",
+  "ipa": "/skwɛr/",
+  "sense": "（街の）広場",
+  "ja": "広場",
+  "ex": {
+   "en": "People gathered in the town square.",
+   "ja": "人々が町の広場に集まった。",
+   "mark": [
+    "square"
+   ]
+  },
+  "core": "建物に囲まれた、四角く開けた場所。",
+  "other": [
+   "正方形：draw a square"
+  ]
+ },
+ {
+  "src": "M1488",
+  "id": "monument",
+  "cat": "word",
+  "en": "monument",
+  "ipa": "/ˈmɑnjəmənt/",
+  "sense": "記念碑",
+  "ja": "記念碑",
+  "ex": {
+   "en": "They built a monument to the soldiers.",
+   "ja": "兵士たちをしのぶ記念碑が建てられた。",
+   "mark": [
+    "monument"
+   ]
+  },
+  "core": "人や出来事を忘れないために建てたもの。"
+ },
+ {
+  "src": "M1489",
+  "id": "nature",
+  "cat": "word",
+  "en": "nature",
+  "ipa": "/ˈneɪtʃər/",
+  "sense": "自然",
+  "ja": "自然",
+  "ex": {
+   "en": "I love being out in nature.",
+   "ja": "自然の中にいるのが大好きだ。",
+   "mark": [
+    "nature"
+   ]
+  },
+  "core": "人の手で作られていない、山・海・動植物など。",
+  "other": [
+   "性質：human nature"
+  ]
+ },
+ {
+  "src": "M1490",
+  "id": "earth",
+  "cat": "word",
+  "en": "earth",
+  "ipa": "/ɜrθ/",
+  "sense": "地球",
+  "ja": "地球",
+  "ex": {
+   "en": "The earth goes around the sun.",
+   "ja": "地球は太陽の周りを回っている。",
+   "mark": [
+    "earth"
+   ]
+  },
+  "core": "私たちが住んでいる星。",
+  "other": [
+   "土：dig in the earth"
+  ]
+ },
+ {
+  "src": "M1491",
+  "id": "world",
+  "cat": "word",
+  "en": "world",
+  "ipa": "/wɜrld/",
+  "sense": "世界",
+  "ja": "世界",
+  "ex": {
+   "en": "She wants to travel around the world.",
+   "ja": "彼女は世界中を旅したい。",
+   "mark": [
+    "world"
+   ]
+  },
+  "core": "地球上のすべての国と人々。"
+ },
+ {
+  "src": "M1492",
+  "id": "sky",
+  "cat": "word",
+  "en": "sky",
+  "ipa": "/skaɪ/",
+  "sense": "空",
+  "ja": "空",
+  "ex": {
+   "en": "The sky is clear today.",
+   "ja": "今日は空が晴れている。",
+   "mark": [
+    "sky"
+   ]
+  },
+  "core": "頭の上に広がる、雲や星が見える空間。"
+ },
+ {
+  "src": "M1493",
+  "id": "sun",
+  "cat": "word",
+  "en": "sun",
+  "ipa": "/sʌn/",
+  "sense": "太陽",
+  "ja": "太陽",
+  "ex": {
+   "en": "The sun rises in the east.",
+   "ja": "太陽は東から昇る。",
+   "mark": [
+    "sun"
+   ]
+  },
+  "core": "昼に空で光と熱を出す星。",
+  "other": [
+   "日光：sit in the sun"
+  ]
+ },
+ {
+  "src": "M1494",
+  "id": "moon",
+  "cat": "word",
+  "en": "moon",
+  "ipa": "/mun/",
+  "sense": "月",
+  "ja": "月",
+  "ex": {
+   "en": "The moon is full tonight.",
+   "ja": "今夜は満月だ。",
+   "mark": [
+    "moon"
+   ]
+  },
+  "core": "地球の周りを回り、夜空に光って見える星。"
+ },
+ {
+  "src": "M1495",
+  "id": "star",
+  "cat": "word",
+  "en": "star",
+  "ipa": "/stɑr/",
+  "sense": "星",
+  "ja": "星",
+  "ex": {
+   "en": "We counted the stars in the sky.",
+   "ja": "空の星を数えた。",
+   "mark": [
+    "stars"
+   ]
+  },
+  "core": "夜空に小さく光る点。",
+  "other": [
+   "（人気者の）スター：a movie star"
+  ]
+ },
+ {
+  "src": "M1496",
+  "id": "planet",
+  "cat": "word",
+  "en": "planet",
+  "ipa": "/ˈplænɪt/",
+  "sense": "惑星",
+  "ja": "惑星",
+  "ex": {
+   "en": "Mars is a red planet.",
+   "ja": "火星は赤い惑星だ。",
+   "mark": [
+    "planet"
+   ]
+  },
+  "core": "太陽のような星の周りを回る大きな天体。"
+ },
+ {
+  "src": "M1497",
+  "id": "space",
+  "cat": "word",
+  "en": "space",
+  "ipa": "/speɪs/",
+  "sense": "宇宙",
+  "ja": "宇宙",
+  "ex": {
+   "en": "She wants to travel to space.",
+   "ja": "彼女は宇宙へ行きたいと思っている。",
+   "mark": [
+    "space"
+   ]
+  },
+  "core": "地球の空気の外に広がる、果てしない空間。",
+  "other": [
+   "空き、場所：space for a desk"
+  ]
+ }
+]
