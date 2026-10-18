@@ -28,7 +28,7 @@ export function create(k) {
       const amt = well * (1 - 0.7 * back);
       const quiver = Math.sin(t * 30) * 0.6 * amt * (1 - back);
       A.pose({ armR: 140 + 22 * Math.sin(t * 9), armL: 10, look: 0.6, mood: t < 1.6 ? 'smile' : back > 0.5 ? 'smile' : 'flat', squash: 1 - 0.03 * hump(seg(t, 2.4, 3.2)), lean: -2 * hump(fight) + quiver * 0.4, blink: hump(seg(t, 3.0, 3.25)) * 0.9 });
-      tears.forEach((tr, i) => { k.set(tr, { d: `M ${[-10, 10][i] - 5} -50 Q ${[-10, 10][i]} ${-50 + 5 + 3 * amt} ${[-10, 10][i] + 5} -50 Z`, opacity: amt > 0.02 ? 1 : 0 }); });
+      tears.forEach((tr, i) => { k.set(tr, { d: `M ${[-10, 10][i] - 6} -51 Q ${[-10, 10][i]} ${-51 + 12 * amt} ${[-10, 10][i] + 6} -51 Z`, opacity: amt > 0.02 ? 1 : 0 }); });
       shine.forEach((s, i) => k.set(s, { cx: [-10, 10][i] + 1.5, cy: -56, opacity: amt }));
     }
   };

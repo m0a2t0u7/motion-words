@@ -17,7 +17,7 @@ export function create(k) {
   el('rect', { x: 296, y: 182, width: 44, height: 22, rx: 3, fill: pal.yellow, stroke: pal.ink, 'stroke-width': 2 });
   k.text(318, 194, '!', { 'font-size': 18 });
   // 黄色い線（床）
-  el('rect', { x: 196, y: FY + 6, width: 8, height: 40, fill: pal.yellow, transform: `skewX(-20) translate(${(FY + 6) * 0.36} 0)` });
+  el('path', { d: `M 206 ${FY + 2} L 214 ${FY + 2} L 202 ${FY + 62} L 192 ${FY + 62} Z`, fill: pal.yellow });
   el('rect', { x: 0, y: FY + 8, width: 400, height: 0, fill: 'none' });
   const G = k.buddy({ x: 260, y: FY + 34, scale: 0.9, facing: -1, color: pal.coral, dark: pal.coralDark });
   const cap = el('path', { d: 'M -28 -76 Q 0 -100 28 -76 Z', fill: pal.blue }, G.body);

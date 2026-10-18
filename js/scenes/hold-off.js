@@ -23,7 +23,7 @@ export function create(k) {
   R.front();
   // 書類（カウンター上）と判
   const TY = 196;
-  el('rect', { x: 176, y: TY - 3, width: 52, height: 3, fill: '#fff', stroke: pal.line, 'stroke-width': 1 });
+  el('path', { d: `M 180 ${TY - 1} L 228 ${TY - 1} L 220 ${TY - 9} L 186 ${TY - 9} Z`, fill: '#fff', stroke: pal.line, 'stroke-width': 1.5 });
   k.shadow(202, TY + 1, 28, 2);
   const stamp = g({});
   el('rect', { x: -6, y: -26, width: 12, height: 18, rx: 4, fill: pal.woodDark }, stamp);
