@@ -1,0 +1,1915 @@
+[
+ {
+  "src": "M1598",
+  "id": "promotion",
+  "cat": "word",
+  "en": "promotion",
+  "ipa": "/prəˈmoʊʃən/",
+  "sense": "（職場での）昇進",
+  "ja": "昇進",
+  "ex": {
+   "en": "She got a promotion to manager last month.",
+   "ja": "彼女は先月、マネージャーに昇進した。",
+   "mark": [
+    "promotion"
+   ]
+  },
+  "core": "今の立場から、一段上の地位へ押し上げられること。",
+  "other": [
+   "販売促進：a summer sales promotion"
+  ]
+ },
+ {
+  "src": "M1599",
+  "id": "training",
+  "cat": "word",
+  "en": "training",
+  "ipa": "/ˈtreɪnɪŋ/",
+  "sense": "（仕事のための）研修・訓練",
+  "ja": "研修",
+  "ex": {
+   "en": "New staff get two weeks of training.",
+   "ja": "新しいスタッフは2週間の研修を受ける。",
+   "mark": [
+    "training"
+   ]
+  },
+  "core": "できるように、くり返し教えこまれて身につけること。",
+  "other": [
+   "（スポーツの）トレーニング：training for a marathon"
+  ]
+ },
+ {
+  "src": "M1600",
+  "id": "experience",
+  "cat": "word",
+  "en": "experience",
+  "ipa": "/ɪkˈspɪriəns/",
+  "sense": "（仕事などの）経験",
+  "ja": "経験",
+  "ex": {
+   "en": "Do you have any experience in sales?",
+   "ja": "営業の経験はありますか？",
+   "mark": [
+    "experience"
+   ]
+  },
+  "core": "実際にやってみて、自分の中にたまったもの。",
+  "other": [
+   "（一回の）体験：a great experience"
+  ]
+ },
+ {
+  "src": "M1601",
+  "id": "skill",
+  "cat": "word",
+  "en": "skill",
+  "ipa": "/skɪl/",
+  "sense": "（練習で身につけた）技能",
+  "ja": "技能",
+  "ex": {
+   "en": "Good communication is an important skill.",
+   "ja": "うまく伝える力は大切な技能だ。",
+   "mark": [
+    "skill"
+   ]
+  },
+  "core": "練習を重ねて、手や頭が上手にできるようになった力。",
+  "other": []
+ },
+ {
+  "src": "M1602",
+  "id": "resume",
+  "cat": "word",
+  "en": "resume",
+  "ipa": "/ˈrɛzəˌmeɪ/",
+  "sense": "履歴書",
+  "ja": "履歴書",
+  "ex": {
+   "en": "Please send your resume by Friday.",
+   "ja": "金曜日までに履歴書を送ってください。",
+   "mark": [
+    "resume"
+   ]
+  },
+  "core": "自分の学歴や職歴を、紙一枚にまとめたもの。",
+  "diff": "英国では CV と言うことが多い。",
+  "other": []
+ },
+ {
+  "src": "M1603",
+  "id": "candidate",
+  "cat": "word",
+  "en": "candidate",
+  "ipa": "/ˈkændɪˌdeɪt/",
+  "sense": "（選ばれる）候補者",
+  "ja": "候補者",
+  "ex": {
+   "en": "We interviewed three candidates for the job.",
+   "ja": "その仕事に3人の候補者を面接した。",
+   "mark": [
+    "candidate"
+   ]
+  },
+  "core": "選ばれる前に、いくつか並べられている人。",
+  "diff": "applicant は自分から応募した人。candidate は選考の対象として残った人。",
+  "other": [
+   "（選挙の）立候補者：a candidate for mayor"
+  ]
+ },
+ {
+  "src": "M1604",
+  "id": "applicant",
+  "cat": "word",
+  "en": "applicant",
+  "ipa": "/ˈæplɪkənt/",
+  "sense": "（仕事などの）応募者",
+  "ja": "応募者",
+  "ex": {
+   "en": "Each applicant must fill out this form.",
+   "ja": "応募者はそれぞれこの用紙に記入してください。",
+   "mark": [
+    "applicant"
+   ]
+  },
+  "core": "自分から「お願いします」と申し込んだ人。",
+  "other": []
+ },
+ {
+  "src": "M1605",
+  "id": "contract",
+  "cat": "word",
+  "en": "contract",
+  "ipa": "/ˈkɑnˌtrækt/",
+  "sense": "（書面の）契約・契約書",
+  "ja": "契約",
+  "ex": {
+   "en": "He signed a one-year contract.",
+   "ja": "彼は1年間の契約に署名した。",
+   "mark": [
+    "contract"
+   ]
+  },
+  "core": "お互いの約束を、書面できっちり結んだもの。",
+  "diff": "agreement は広く「合意」。contract は法的に守る義務のある契約。",
+  "other": []
+ },
+ {
+  "src": "M1606",
+  "id": "agreement",
+  "cat": "word",
+  "en": "agreement",
+  "ipa": "/əˈɡrimənt/",
+  "sense": "（話し合いでの）合意",
+  "ja": "合意",
+  "ex": {
+   "en": "The two companies reached an agreement.",
+   "ja": "両社は合意に達した。",
+   "mark": [
+    "agreement"
+   ]
+  },
+  "core": "話し合って、考えがひとつにそろうこと。",
+  "other": [
+   "意見が同じであること：I'm in agreement with you."
+  ]
+ },
+ {
+  "src": "M1607",
+  "id": "policy",
+  "cat": "word",
+  "en": "policy",
+  "ipa": "/ˈpɑləsi/",
+  "sense": "（会社などの）方針",
+  "ja": "方針",
+  "ex": {
+   "en": "Our store has a no-return policy on sale items.",
+   "ja": "当店ではセール品の返品は受け付けない方針です。",
+   "mark": [
+    "policy"
+   ]
+  },
+  "core": "組織が「こうする」と決めた、大きな決まりごと。",
+  "other": [
+   "保険証券：an insurance policy"
+  ]
+ },
+ {
+  "src": "M1608",
+  "id": "procedure",
+  "cat": "word",
+  "en": "procedure",
+  "ipa": "/prəˈsidʒər/",
+  "sense": "（決まった）手順",
+  "ja": "手順",
+  "ex": {
+   "en": "Follow the safety procedure before using the machine.",
+   "ja": "機械を使う前に安全手順に従ってください。",
+   "mark": [
+    "procedure"
+   ]
+  },
+  "core": "決まった順番で一歩ずつ進める、やり方の流れ。",
+  "other": [
+   "（医療の）処置・手術：a simple procedure"
+  ]
+ },
+ {
+  "src": "M1609",
+  "id": "rule",
+  "cat": "word",
+  "en": "rule",
+  "ipa": "/rul/",
+  "sense": "（守るべき）規則・ルール",
+  "ja": "規則",
+  "ex": {
+   "en": "You have to follow the rules.",
+   "ja": "規則は守らなければならない。",
+   "mark": [
+    "rules"
+   ]
+  },
+  "core": "してよいこと・いけないことを決めた線。",
+  "other": []
+ },
+ {
+  "src": "M1610",
+  "id": "regulation",
+  "cat": "word",
+  "en": "regulation",
+  "ipa": "/ˌrɛɡjəˈleɪʃən/",
+  "sense": "（法律などによる）規制・規則",
+  "ja": "規制",
+  "ex": {
+   "en": "New regulations limit smoking in restaurants.",
+   "ja": "新しい規制で飲食店での喫煙が制限された。",
+   "mark": [
+    "regulations"
+   ]
+  },
+  "core": "国や組織が公式に決めて、行動をおさえる決まり。",
+  "diff": "rule は身近な決まり全般。regulation は公的機関などが定めた正式な規則。",
+  "other": []
+ },
+ {
+  "src": "M1611",
+  "id": "standard",
+  "cat": "word",
+  "en": "standard",
+  "ipa": "/ˈstændərd/",
+  "sense": "（品質などの）基準",
+  "ja": "基準",
+  "ex": {
+   "en": "This product meets safety standards.",
+   "ja": "この製品は安全基準を満たしている。",
+   "mark": [
+    "standards"
+   ]
+  },
+  "core": "「ここまでできれば合格」という目安の線。",
+  "other": [
+   "水準：a high standard of living"
+  ]
+ },
+ {
+  "src": "M1612",
+  "id": "quality",
+  "cat": "word",
+  "en": "quality",
+  "ipa": "/ˈkwɑləti/",
+  "sense": "品質",
+  "ja": "品質",
+  "ex": {
+   "en": "These shoes are good quality.",
+   "ja": "この靴は品質が良い。",
+   "mark": [
+    "quality"
+   ]
+  },
+  "core": "量ではなく、もののよしあしの度合い。",
+  "diff": "quantity は数や量。quality は質。",
+  "other": [
+   "（人の）長所・資質：She has many good qualities."
+  ]
+ },
+ {
+  "src": "M1613",
+  "id": "quantity",
+  "cat": "word",
+  "en": "quantity",
+  "ipa": "/ˈkwɑntəti/",
+  "sense": "数量",
+  "ja": "数量",
+  "ex": {
+   "en": "We ordered a large quantity of paper.",
+   "ja": "大量の紙を注文した。",
+   "mark": [
+    "quantity"
+   ]
+  },
+  "core": "どれだけあるかという、数や量の多さ。",
+  "diff": "quality は質。quantity は量。",
+  "other": []
+ },
+ {
+  "src": "M1614",
+  "id": "product",
+  "cat": "word",
+  "en": "product",
+  "ipa": "/ˈprɑdəkt/",
+  "sense": "製品",
+  "ja": "製品",
+  "ex": {
+   "en": "This company makes kitchen products.",
+   "ja": "この会社は台所用品を作っている。",
+   "mark": [
+    "products"
+   ]
+  },
+  "core": "作られて、売るために出てきたもの。",
+  "other": [
+   "（努力などの）成果：the product of hard work"
+  ]
+ },
+ {
+  "src": "M1615",
+  "id": "service",
+  "cat": "word",
+  "en": "service",
+  "ipa": "/ˈsɜrvɪs/",
+  "sense": "（客への）サービス・接客",
+  "ja": "サービス",
+  "ex": {
+   "en": "The food was good, but the service was slow.",
+   "ja": "料理はおいしかったが、接客が遅かった。",
+   "mark": [
+    "service"
+   ]
+  },
+  "core": "人のために何かをしてあげること。",
+  "other": [
+   "（交通などの）運行・便：bus service"
+  ]
+ },
+ {
+  "src": "M1616",
+  "id": "brand",
+  "cat": "word",
+  "en": "brand",
+  "ipa": "/brænd/",
+  "sense": "（商品の）ブランド・銘柄",
+  "ja": "ブランド",
+  "ex": {
+   "en": "Which brand of coffee do you like?",
+   "ja": "どのブランドのコーヒーが好き？",
+   "mark": [
+    "brand"
+   ]
+  },
+  "core": "どの会社の商品かを見分けるための名前。",
+  "other": []
+ },
+ {
+  "src": "M1617",
+  "id": "model",
+  "cat": "word",
+  "en": "model",
+  "ipa": "/ˈmɑdəl/",
+  "sense": "（製品の）型・モデル",
+  "ja": "型",
+  "ex": {
+   "en": "This is the newest model of the phone.",
+   "ja": "これはその携帯電話の最新モデルです。",
+   "mark": [
+    "model"
+   ]
+  },
+  "core": "同じ種類の製品の中で、作りごとに分けた一つの型。",
+  "other": [
+   "手本・模型：a model of the ship"
+  ]
+ },
+ {
+  "src": "M1618",
+  "id": "sample",
+  "cat": "word",
+  "en": "sample",
+  "ipa": "/ˈsæmpəl/",
+  "sense": "（商品の）見本・試供品",
+  "ja": "見本",
+  "ex": {
+   "en": "The store gave out free samples of cheese.",
+   "ja": "その店はチーズの無料サンプルを配っていた。",
+   "mark": [
+    "samples"
+   ]
+  },
+  "core": "全体がどんなものか分かるように、少しだけ取り出したもの。",
+  "other": [
+   "（検査用の）標本：a blood sample"
+  ]
+ },
+ {
+  "src": "M1619",
+  "id": "stock",
+  "cat": "word",
+  "en": "stock",
+  "ipa": "/stɑk/",
+  "sense": "（店の）在庫",
+  "ja": "在庫",
+  "ex": {
+   "en": "That size is out of stock right now.",
+   "ja": "そのサイズは今、在庫切れです。",
+   "mark": [
+    "stock"
+   ]
+  },
+  "core": "すぐ出せるように、店や倉庫にたくわえてある品物。",
+  "other": [
+   "株式：buy stock in a company"
+  ]
+ },
+ {
+  "src": "M1621",
+  "id": "shipment",
+  "cat": "word",
+  "en": "shipment",
+  "ipa": "/ˈʃɪpmənt/",
+  "sense": "（送られる）荷物・出荷品",
+  "ja": "出荷品",
+  "ex": {
+   "en": "The shipment will arrive next Tuesday.",
+   "ja": "荷物は来週の火曜日に届きます。",
+   "mark": [
+    "shipment"
+   ]
+  },
+  "core": "まとめて送り出された品物のかたまり。",
+  "other": [
+   "出荷すること：ready for shipment"
+  ]
+ },
+ {
+  "src": "M1622",
+  "id": "supplier",
+  "cat": "word",
+  "en": "supplier",
+  "ipa": "/səˈplaɪər/",
+  "sense": "供給業者・仕入れ先",
+  "ja": "仕入れ先",
+  "ex": {
+   "en": "We buy our paper from a local supplier.",
+   "ja": "紙は地元の業者から仕入れている。",
+   "mark": [
+    "supplier"
+   ]
+  },
+  "core": "必要なものを、ほかの会社に届けて売る側。",
+  "other": []
+ },
+ {
+  "src": "M1623",
+  "id": "manufacturer",
+  "cat": "word",
+  "en": "manufacturer",
+  "ipa": "/ˌmænjəˈfæktʃərər/",
+  "sense": "製造業者・メーカー",
+  "ja": "メーカー",
+  "ex": {
+   "en": "Contact the manufacturer if the product breaks.",
+   "ja": "製品が壊れたらメーカーに連絡してください。",
+   "mark": [
+    "manufacturer"
+   ]
+  },
+  "core": "工場で製品を大量に作っている会社。",
+  "other": []
+ },
+ {
+  "src": "M1624",
+  "id": "consumer",
+  "cat": "word",
+  "en": "consumer",
+  "ipa": "/kənˈsumər/",
+  "sense": "消費者",
+  "ja": "消費者",
+  "ex": {
+   "en": "Consumers want lower prices.",
+   "ja": "消費者はもっと安い値段を求めている。",
+   "mark": [
+    "Consumers"
+   ]
+  },
+  "core": "お金を払って、ものやサービスを買って使う人。",
+  "other": []
+ },
+ {
+  "src": "M1625",
+  "id": "advertisement",
+  "cat": "word",
+  "en": "advertisement",
+  "ipa": "/ˌædvərˈtaɪzmənt/",
+  "sense": "広告",
+  "ja": "広告",
+  "ex": {
+   "en": "I saw an advertisement for a new car.",
+   "ja": "新しい車の広告を見た。",
+   "mark": [
+    "advertisement"
+   ]
+  },
+  "core": "多くの人に知ってもらうために、商品などを宣伝するもの。",
+  "diff": "話し言葉では ad と短く言うことが多い。",
+  "other": []
+ },
+ {
+  "src": "M1626",
+  "id": "campaign",
+  "cat": "word",
+  "en": "campaign",
+  "ipa": "/kæmˈpeɪn/",
+  "sense": "（宣伝などの）キャンペーン・運動",
+  "ja": "キャンペーン",
+  "ex": {
+   "en": "The company started a new ad campaign.",
+   "ja": "その会社は新しい広告キャンペーンを始めた。",
+   "mark": [
+    "campaign"
+   ]
+  },
+  "core": "ひとつの目的のために、計画を立てて続ける一連の活動。",
+  "other": [
+   "選挙運動：an election campaign"
+  ]
+ },
+ {
+  "src": "M1627",
+  "id": "sales",
+  "cat": "word",
+  "en": "sales",
+  "ipa": "/seɪlz/",
+  "sense": "売上（高）",
+  "ja": "売上",
+  "ex": {
+   "en": "Sales went up 10 percent this year.",
+   "ja": "今年は売上が10パーセント伸びた。",
+   "mark": [
+    "Sales"
+   ]
+  },
+  "core": "売れた商品の量や金額。",
+  "other": [
+   "販売の仕事：She works in sales."
+  ]
+ },
+ {
+  "src": "M1628",
+  "id": "revenue",
+  "cat": "word",
+  "en": "revenue",
+  "ipa": "/ˈrɛvəˌnu/",
+  "sense": "（会社の）収入・収益",
+  "ja": "収益",
+  "ex": {
+   "en": "The company's revenue grew last year.",
+   "ja": "その会社の収益は昨年伸びた。",
+   "mark": [
+    "revenue"
+   ]
+  },
+  "core": "経費を引く前に、会社に入ってきたお金の全体。",
+  "diff": "profit は経費を引いた後に残るもうけ。",
+  "other": []
+ },
+ {
+  "src": "M1629",
+  "id": "profit",
+  "cat": "word",
+  "en": "profit",
+  "ipa": "/ˈprɑfɪt/",
+  "sense": "利益・もうけ",
+  "ja": "利益",
+  "ex": {
+   "en": "The shop made a small profit this month.",
+   "ja": "その店は今月、少し利益が出た。",
+   "mark": [
+    "profit"
+   ]
+  },
+  "core": "入ったお金から出たお金を引いて、手もとに残る分。",
+  "diff": "revenue は経費を引く前の収入全体。",
+  "other": []
+ },
+ {
+  "src": "M1630",
+  "id": "loss",
+  "cat": "word",
+  "en": "loss",
+  "ipa": "/lɔs/",
+  "sense": "（お金の）損失・赤字",
+  "ja": "損失",
+  "ex": {
+   "en": "The company had a big loss last year.",
+   "ja": "その会社は昨年、大きな赤字を出した。",
+   "mark": [
+    "loss"
+   ]
+  },
+  "core": "持っていたものが減って、なくなってしまうこと。",
+  "other": [
+   "失うこと：weight loss"
+  ]
+ },
+ {
+  "src": "M1631",
+  "id": "expense",
+  "cat": "word",
+  "en": "expense",
+  "ipa": "/ɪkˈspɛns/",
+  "sense": "支出・費用",
+  "ja": "費用",
+  "ex": {
+   "en": "Food is our biggest expense each month.",
+   "ja": "毎月いちばん大きな出費は食費だ。",
+   "mark": [
+    "expense"
+   ]
+  },
+  "core": "何かのために、出ていくお金。",
+  "other": []
+ },
+ {
+  "src": "M1632",
+  "id": "budget",
+  "cat": "word",
+  "en": "budget",
+  "ipa": "/ˈbʌdʒɪt/",
+  "sense": "予算",
+  "ja": "予算",
+  "ex": {
+   "en": "We have a budget of 500 dollars for the trip.",
+   "ja": "旅行の予算は500ドルだ。",
+   "mark": [
+    "budget"
+   ]
+  },
+  "core": "使ってよいお金を、前もって決めた枠。",
+  "other": []
+ },
+ {
+  "src": "M1633",
+  "id": "price",
+  "cat": "word",
+  "en": "price",
+  "ipa": "/praɪs/",
+  "sense": "価格・値段",
+  "ja": "値段",
+  "ex": {
+   "en": "The price of gas went up again.",
+   "ja": "ガソリンの値段がまた上がった。",
+   "mark": [
+    "price"
+   ]
+  },
+  "core": "ものを買うのに払う金額。",
+  "diff": "fee はサービスや手続きに払う料金。",
+  "other": []
+ },
+ {
+  "src": "M1634",
+  "id": "fee",
+  "cat": "word",
+  "en": "fee",
+  "ipa": "/fi/",
+  "sense": "（サービスなどの）料金・手数料",
+  "ja": "料金",
+  "ex": {
+   "en": "There is a small fee for late returns.",
+   "ja": "返却が遅れると少し料金がかかる。",
+   "mark": [
+    "fee"
+   ]
+  },
+  "core": "手続きや専門的なサービスを受けるために払うお金。",
+  "diff": "price は品物の値段。",
+  "other": []
+ },
+ {
+  "src": "M1635",
+  "id": "discount",
+  "cat": "word",
+  "en": "discount",
+  "ipa": "/ˈdɪsˌkaʊnt/",
+  "sense": "値引き・割引",
+  "ja": "割引",
+  "ex": {
+   "en": "Students get a 20 percent discount.",
+   "ja": "学生は20パーセント割引になる。",
+   "mark": [
+    "discount"
+   ]
+  },
+  "core": "ふつうの値段から、いくらか差し引くこと。",
+  "other": []
+ },
+ {
+  "src": "M1636",
+  "id": "information",
+  "cat": "word",
+  "en": "information",
+  "ipa": "/ˌɪnfərˈmeɪʃən/",
+  "sense": "情報",
+  "ja": "情報",
+  "ex": {
+   "en": "You can find more information on our website.",
+   "ja": "詳しい情報はウェブサイトで見られます。",
+   "mark": [
+    "information"
+   ]
+  },
+  "core": "何かについて知らせてくれる内容。数えられない名詞。",
+  "other": []
+ },
+ {
+  "src": "M1637",
+  "id": "news",
+  "cat": "word",
+  "en": "news",
+  "ipa": "/nuz/",
+  "sense": "ニュース・知らせ",
+  "ja": "知らせ",
+  "ex": {
+   "en": "I have some good news for you.",
+   "ja": "あなたにいい知らせがあるよ。",
+   "mark": [
+    "news"
+   ]
+  },
+  "core": "新しく起きたことの知らせ。数えられない名詞で、単数扱い。",
+  "other": [
+   "（テレビなどの）ニュース番組：watch the news"
+  ]
+ },
+ {
+  "src": "M1638",
+  "id": "message",
+  "cat": "word",
+  "en": "message",
+  "ipa": "/ˈmɛsɪdʒ/",
+  "sense": "伝言・メッセージ",
+  "ja": "伝言",
+  "ex": {
+   "en": "Can I leave a message for her?",
+   "ja": "彼女に伝言を残せますか？",
+   "mark": [
+    "message"
+   ]
+  },
+  "core": "ほかの人に伝えるために送る、短いことば。",
+  "other": []
+ },
+ {
+  "src": "M1639",
+  "id": "email",
+  "cat": "word",
+  "en": "email",
+  "ipa": "/ˈiˌmeɪl/",
+  "sense": "電子メール",
+  "ja": "メール",
+  "ex": {
+   "en": "I sent you an email this morning.",
+   "ja": "今朝あなたにメールを送ったよ。",
+   "mark": [
+    "email"
+   ]
+  },
+  "core": "インターネットを通して送り合う手紙。",
+  "other": []
+ },
+ {
+  "src": "M1640",
+  "id": "letter",
+  "cat": "word",
+  "en": "letter",
+  "ipa": "/ˈlɛtər/",
+  "sense": "手紙",
+  "ja": "手紙",
+  "ex": {
+   "en": "My grandmother still writes letters by hand.",
+   "ja": "祖母は今でも手書きで手紙を書く。",
+   "mark": [
+    "letters"
+   ]
+  },
+  "core": "紙に書いて、封筒に入れて送ることば。",
+  "other": [
+   "文字：the letter A"
+  ]
+ },
+ {
+  "src": "M1641",
+  "id": "text",
+  "cat": "word",
+  "en": "text",
+  "ipa": "/tɛkst/",
+  "sense": "（携帯電話の）メッセージ",
+  "ja": "メッセージ",
+  "ex": {
+   "en": "Send me a text when you get home.",
+   "ja": "家に着いたらメッセージを送って。",
+   "mark": [
+    "text"
+   ]
+  },
+  "core": "携帯電話で送る短い文字のメッセージ。",
+  "diff": "meaning_ja の「文章」も意味の一つだが、日常では携帯メッセージの意味が多い。",
+  "other": [
+   "（本などの）本文・文章：Read the text on page 10."
+  ]
+ },
+ {
+  "src": "M1642",
+  "id": "document",
+  "cat": "word",
+  "en": "document",
+  "ipa": "/ˈdɑkjəmənt/",
+  "sense": "文書・書類",
+  "ja": "書類",
+  "ex": {
+   "en": "Please sign this document.",
+   "ja": "この書類に署名してください。",
+   "mark": [
+    "document"
+   ]
+  },
+  "core": "大事なことを記録して、証拠として残す書きもの。",
+  "other": [
+   "（パソコンの）文書ファイル：save the document"
+  ]
+ },
+ {
+  "src": "M1643",
+  "id": "file",
+  "cat": "word",
+  "en": "file",
+  "ipa": "/faɪl/",
+  "sense": "（パソコンの）ファイル",
+  "ja": "ファイル",
+  "ex": {
+   "en": "I saved the file on my desktop.",
+   "ja": "ファイルをデスクトップに保存した。",
+   "mark": [
+    "file"
+   ]
+  },
+  "core": "ひとまとまりのデータを、名前をつけてしまっておく入れ物。",
+  "other": [
+   "書類つづり：a file of old letters"
+  ]
+ },
+ {
+  "src": "M1644",
+  "id": "folder",
+  "cat": "word",
+  "en": "folder",
+  "ipa": "/ˈfoʊldər/",
+  "sense": "（書類やファイルを入れる）フォルダー",
+  "ja": "フォルダー",
+  "ex": {
+   "en": "Put all the photos in one folder.",
+   "ja": "写真を全部一つのフォルダーに入れて。",
+   "mark": [
+    "folder"
+   ]
+  },
+  "core": "紙やファイルをまとめてはさんでおく入れ物。",
+  "other": []
+ },
+ {
+  "src": "M1645",
+  "id": "record",
+  "cat": "word",
+  "en": "record",
+  "ipa": "/ˈrɛkərd/",
+  "sense": "記録",
+  "ja": "記録",
+  "ex": {
+   "en": "Keep a record of what you spend.",
+   "ja": "使ったお金を記録しておいて。",
+   "mark": [
+    "record"
+   ]
+  },
+  "core": "あとで見られるように、残しておいた事実。",
+  "other": [
+   "（競技の）最高記録：break the world record"
+  ]
+ },
+ {
+  "src": "M1646",
+  "id": "data",
+  "cat": "word",
+  "en": "data",
+  "ipa": "/ˈdeɪtə/",
+  "sense": "データ",
+  "ja": "データ",
+  "ex": {
+   "en": "We collected data from 500 users.",
+   "ja": "500人の利用者からデータを集めた。",
+   "mark": [
+    "data"
+   ]
+  },
+  "core": "調べたり計算したりするための、数字や事実の集まり。",
+  "other": []
+ },
+ {
+  "src": "M1647",
+  "id": "database",
+  "cat": "word",
+  "en": "database",
+  "ipa": "/ˈdeɪtəˌbeɪs/",
+  "sense": "データベース",
+  "ja": "データベース",
+  "ex": {
+   "en": "All customer names are stored in the database.",
+   "ja": "顧客の名前はすべてデータベースに保存されている。",
+   "mark": [
+    "database"
+   ]
+  },
+  "core": "データを整理して、すぐ探せるようにためておく場所。",
+  "other": []
+ },
+ {
+  "src": "M1648",
+  "id": "system",
+  "cat": "word",
+  "en": "system",
+  "ipa": "/ˈsɪstəm/",
+  "sense": "（仕組みとしての）システム",
+  "ja": "仕組み",
+  "ex": {
+   "en": "The school has a new system for lunch orders.",
+   "ja": "学校に給食注文の新しい仕組みができた。",
+   "mark": [
+    "system"
+   ]
+  },
+  "core": "いくつもの部分が組み合わさって、ひとつに動く仕組み。",
+  "other": [
+   "（コンピューターの）システム：the computer system is down"
+  ]
+ },
+ {
+  "src": "M1649",
+  "id": "network",
+  "cat": "word",
+  "en": "network",
+  "ipa": "/ˈnɛtˌwɜrk/",
+  "sense": "（コンピューターの）ネットワーク・通信網",
+  "ja": "ネットワーク",
+  "ex": {
+   "en": "My laptop can't connect to the network.",
+   "ja": "ノートパソコンがネットワークにつながらない。",
+   "mark": [
+    "network"
+   ]
+  },
+  "core": "たくさんの点が線でつながった、網のような広がり。",
+  "other": [
+   "人脈：a network of friends"
+  ]
+ },
+ {
+  "src": "M1650",
+  "id": "internet",
+  "cat": "word",
+  "en": "internet",
+  "ipa": "/ˈɪntərˌnɛt/",
+  "sense": "インターネット",
+  "ja": "インターネット",
+  "ex": {
+   "en": "I looked it up on the internet.",
+   "ja": "インターネットで調べた。",
+   "mark": [
+    "internet"
+   ]
+  },
+  "core": "世界中のコンピューターをつなぐ、大きな網。",
+  "other": []
+ },
+ {
+  "src": "M1651",
+  "id": "website",
+  "cat": "word",
+  "en": "website",
+  "ipa": "/ˈwɛbˌsaɪt/",
+  "sense": "ウェブサイト",
+  "ja": "ウェブサイト",
+  "ex": {
+   "en": "You can order online from our website.",
+   "ja": "当社のウェブサイトからネットで注文できます。",
+   "mark": [
+    "website"
+   ]
+  },
+  "core": "インターネット上で、関係するページをまとめた場所。",
+  "other": []
+ },
+ {
+  "src": "M1652",
+  "id": "page",
+  "cat": "word",
+  "en": "page",
+  "ipa": "/peɪdʒ/",
+  "sense": "（本などの）ページ",
+  "ja": "ページ",
+  "ex": {
+   "en": "Open your books to page 20.",
+   "ja": "本の20ページを開いてください。",
+   "mark": [
+    "page"
+   ]
+  },
+  "core": "紙の一枚の片面。ウェブの一画面にも使う。",
+  "other": [
+   "（ウェブの）ページ：a web page"
+  ]
+ },
+ {
+  "src": "M1653",
+  "id": "screen",
+  "cat": "word",
+  "en": "screen",
+  "ipa": "/skrin/",
+  "sense": "（テレビ・スマホなどの）画面",
+  "ja": "画面",
+  "ex": {
+   "en": "My phone screen is cracked.",
+   "ja": "スマホの画面が割れている。",
+   "mark": [
+    "screen"
+   ]
+  },
+  "core": "映像や文字が映し出される平らな面。",
+  "other": []
+ },
+ {
+  "src": "M1654",
+  "id": "keyboard",
+  "cat": "word",
+  "en": "keyboard",
+  "ipa": "/ˈkiˌbɔrd/",
+  "sense": "キーボード",
+  "ja": "キーボード",
+  "ex": {
+   "en": "I spilled coffee on my keyboard.",
+   "ja": "キーボードにコーヒーをこぼした。",
+   "mark": [
+    "keyboard"
+   ]
+  },
+  "core": "文字を打つためのキーがずらりと並んだ板。",
+  "other": [
+   "（楽器の）鍵盤：play the keyboard"
+  ]
+ },
+ {
+  "src": "M1655",
+  "id": "cursor",
+  "cat": "word",
+  "en": "cursor",
+  "ipa": "/ˈkɜrsər/",
+  "sense": "カーソル",
+  "ja": "カーソル",
+  "ex": {
+   "en": "Move the cursor to the top of the page.",
+   "ja": "カーソルをページの一番上に動かして。",
+   "mark": [
+    "cursor"
+   ]
+  },
+  "core": "画面の上で、今どこを指しているかを示す印。",
+  "other": []
+ },
+ {
+  "src": "M1656",
+  "id": "printer",
+  "cat": "word",
+  "en": "printer",
+  "ipa": "/ˈprɪntər/",
+  "sense": "プリンター",
+  "ja": "プリンター",
+  "ex": {
+   "en": "The printer is out of paper.",
+   "ja": "プリンターの紙が切れている。",
+   "mark": [
+    "printer"
+   ]
+  },
+  "core": "画面の文字や画像を紙に写し出す機械。",
+  "other": []
+ },
+ {
+  "src": "M1657",
+  "id": "software",
+  "cat": "word",
+  "en": "software",
+  "ipa": "/ˈsɔftˌwɛr/",
+  "sense": "ソフトウェア",
+  "ja": "ソフトウェア",
+  "ex": {
+   "en": "You need to update the software.",
+   "ja": "ソフトウェアを更新する必要がある。",
+   "mark": [
+    "software"
+   ]
+  },
+  "core": "コンピューターを動かすための、目に見えない命令の集まり。",
+  "diff": "hardware は機械そのもの。",
+  "other": []
+ },
+ {
+  "src": "M1658",
+  "id": "hardware",
+  "cat": "word",
+  "en": "hardware",
+  "ipa": "/ˈhɑrdˌwɛr/",
+  "sense": "（コンピューターの）ハードウェア",
+  "ja": "ハードウェア",
+  "ex": {
+   "en": "The problem is with the hardware, not the software.",
+   "ja": "問題はソフトではなくハードにある。",
+   "mark": [
+    "hardware"
+   ]
+  },
+  "core": "コンピューターの、手でさわれる機械の部分。",
+  "diff": "software は中で動くプログラム。",
+  "other": [
+   "金物・工具類：a hardware store"
+  ]
+ },
+ {
+  "src": "M1659",
+  "id": "application",
+  "cat": "word",
+  "en": "application",
+  "ipa": "/ˌæplɪˈkeɪʃən/",
+  "sense": "（仕事などへの）申し込み・申請（書）",
+  "ja": "申請",
+  "ex": {
+   "en": "I sent my application for the job.",
+   "ja": "その仕事への応募書類を送った。",
+   "mark": [
+    "application"
+   ]
+  },
+  "core": "「お願いします」と正式に申し込むこと。またはその書類。",
+  "other": [
+   "（スマホなどの）アプリ：a phone application"
+  ]
+ },
+ {
+  "src": "M1660",
+  "id": "account",
+  "cat": "word",
+  "en": "account",
+  "ipa": "/əˈkaʊnt/",
+  "sense": "（サービスの）アカウント",
+  "ja": "アカウント",
+  "ex": {
+   "en": "I created a new account on the site.",
+   "ja": "そのサイトで新しいアカウントを作った。",
+   "mark": [
+    "account"
+   ]
+  },
+  "core": "サービスを使うために、自分の名前で登録したわく。",
+  "other": [
+   "銀行口座：a bank account"
+  ]
+ },
+ {
+  "src": "M1661",
+  "id": "password",
+  "cat": "word",
+  "en": "password",
+  "ipa": "/ˈpæsˌwɜrd/",
+  "sense": "パスワード",
+  "ja": "パスワード",
+  "ex": {
+   "en": "I forgot my password again.",
+   "ja": "またパスワードを忘れた。",
+   "mark": [
+    "password"
+   ]
+  },
+  "core": "本人だと確かめるための、秘密のことば。",
+  "other": []
+ },
+ {
+  "src": "M1662",
+  "id": "username",
+  "cat": "word",
+  "en": "username",
+  "ipa": "/ˈjuzərˌneɪm/",
+  "sense": "ユーザー名",
+  "ja": "ユーザー名",
+  "ex": {
+   "en": "Enter your username and password.",
+   "ja": "ユーザー名とパスワードを入力してください。",
+   "mark": [
+    "username"
+   ]
+  },
+  "core": "サービスの中で、自分を表すための名前。",
+  "other": []
+ },
+ {
+  "src": "M1663",
+  "id": "link",
+  "cat": "word",
+  "en": "link",
+  "ipa": "/lɪŋk/",
+  "sense": "（ウェブの）リンク",
+  "ja": "リンク",
+  "ex": {
+   "en": "Click the link to watch the video.",
+   "ja": "動画を見るにはリンクをクリックして。",
+   "mark": [
+    "link"
+   ]
+  },
+  "core": "ほかのページへとつながる、鎖の輪のようなもの。",
+  "other": [
+   "つながり・関係：a link between sleep and health"
+  ]
+ },
+ {
+  "src": "M1664",
+  "id": "browser",
+  "cat": "word",
+  "en": "browser",
+  "ipa": "/ˈbraʊzər/",
+  "sense": "（ウェブ）ブラウザー",
+  "ja": "ブラウザー",
+  "ex": {
+   "en": "Open the page in a different browser.",
+   "ja": "別のブラウザーでページを開いて。",
+   "mark": [
+    "browser"
+   ]
+  },
+  "core": "ウェブのページを見て回るためのソフト。",
+  "other": []
+ },
+ {
+  "src": "M1665",
+  "id": "computer",
+  "cat": "word",
+  "en": "computer",
+  "ipa": "/kəmˈpjutər/",
+  "sense": "コンピューター",
+  "ja": "コンピューター",
+  "ex": {
+   "en": "I use a computer at work every day.",
+   "ja": "仕事で毎日コンピューターを使う。",
+   "mark": [
+    "computer"
+   ]
+  },
+  "core": "計算や情報の処理を、とても速くこなす機械。",
+  "other": []
+ },
+ {
+  "src": "M1666",
+  "id": "laptop",
+  "cat": "word",
+  "en": "laptop",
+  "ipa": "/ˈlæpˌtɑp/",
+  "sense": "ノートパソコン",
+  "ja": "ノートパソコン",
+  "ex": {
+   "en": "I take my laptop to the cafe.",
+   "ja": "カフェにノートパソコンを持っていく。",
+   "mark": [
+    "laptop"
+   ]
+  },
+  "core": "ひざ（lap）の上にのせて使えるほど小さいパソコン。",
+  "other": []
+ },
+ {
+  "src": "M1667",
+  "id": "device",
+  "cat": "word",
+  "en": "device",
+  "ipa": "/dɪˈvaɪs/",
+  "sense": "（電子）機器・装置",
+  "ja": "機器",
+  "ex": {
+   "en": "Please turn off all electronic devices.",
+   "ja": "電子機器の電源をすべて切ってください。",
+   "mark": [
+    "devices"
+   ]
+  },
+  "core": "ある目的のために作られた道具や機械。",
+  "other": []
+ },
+ {
+  "src": "M1668",
+  "id": "technology",
+  "cat": "word",
+  "en": "technology",
+  "ipa": "/tɛkˈnɑlədʒi/",
+  "sense": "（科学）技術・テクノロジー",
+  "ja": "技術",
+  "ex": {
+   "en": "New technology changes how we work.",
+   "ja": "新しい技術は働き方を変える。",
+   "mark": [
+    "technology"
+   ]
+  },
+  "core": "科学の知識を、生活や仕事に役立つ形にしたもの。",
+  "other": []
+ },
+ {
+  "src": "M1669",
+  "id": "science",
+  "cat": "word",
+  "en": "science",
+  "ipa": "/ˈsaɪəns/",
+  "sense": "科学",
+  "ja": "科学",
+  "ex": {
+   "en": "Science is my favorite subject.",
+   "ja": "理科は私の好きな科目だ。",
+   "mark": [
+    "Science"
+   ]
+  },
+  "core": "自然や世の中のしくみを、調べて確かめていく学問。",
+  "other": [
+   "（学校の）理科：science class"
+  ]
+ },
+ {
+  "src": "M1670",
+  "id": "research",
+  "cat": "word",
+  "en": "research",
+  "ipa": "/ˈrisɜrtʃ/",
+  "sense": "研究・調査",
+  "ja": "研究",
+  "ex": {
+   "en": "She does research on brain health.",
+   "ja": "彼女は脳の健康について研究している。",
+   "mark": [
+    "research"
+   ]
+  },
+  "core": "新しいことを明らかにするために、くわしく調べること。数えられない名詞。",
+  "other": []
+ },
+ {
+  "src": "M1671",
+  "id": "experiment",
+  "cat": "word",
+  "en": "experiment",
+  "ipa": "/ɪkˈspɛrəmənt/",
+  "sense": "実験",
+  "ja": "実験",
+  "ex": {
+   "en": "We did an experiment with water and salt.",
+   "ja": "水と塩で実験をした。",
+   "mark": [
+    "experiment"
+   ]
+  },
+  "core": "考えが正しいか、実際にやってみて確かめること。",
+  "other": []
+ },
+ {
+  "src": "M1672",
+  "id": "evidence",
+  "cat": "word",
+  "en": "evidence",
+  "ipa": "/ˈɛvədəns/",
+  "sense": "証拠・根拠",
+  "ja": "証拠",
+  "ex": {
+   "en": "There is no evidence that he took the money.",
+   "ja": "彼がお金を取ったという証拠はない。",
+   "mark": [
+    "evidence"
+   ]
+  },
+  "core": "本当だと信じる理由になる事実やもの。数えられない名詞。",
+  "other": []
+ },
+ {
+  "src": "M1673",
+  "id": "fact",
+  "cat": "word",
+  "en": "fact",
+  "ipa": "/fækt/",
+  "sense": "事実",
+  "ja": "事実",
+  "ex": {
+   "en": "It's a fact that the earth goes around the sun.",
+   "ja": "地球が太陽の周りを回っているのは事実だ。",
+   "mark": [
+    "fact"
+   ]
+  },
+  "core": "意見ではなく、本当にあったこと・本当であること。",
+  "diff": "opinion は人の考え。fact は確かな事実。",
+  "other": []
+ },
+ {
+  "src": "M1674",
+  "id": "theory",
+  "cat": "word",
+  "en": "theory",
+  "ipa": "/ˈθɪəri/",
+  "sense": "理論・説",
+  "ja": "理論",
+  "ex": {
+   "en": "Scientists tested the theory many times.",
+   "ja": "科学者たちはその理論を何度も検証した。",
+   "mark": [
+    "theory"
+   ]
+  },
+  "core": "ものごとがなぜそうなるかを説明する、筋の通った考え。",
+  "other": [
+   "（個人的な）推測：I have a theory about it."
+  ]
+ },
+ {
+  "src": "M1675",
+  "id": "method",
+  "cat": "word",
+  "en": "method",
+  "ipa": "/ˈmɛθəd/",
+  "sense": "（体系的な）方法・やり方",
+  "ja": "方法",
+  "ex": {
+   "en": "This is a simple method for learning words.",
+   "ja": "これは単語を覚える簡単な方法だ。",
+   "mark": [
+    "method"
+   ]
+  },
+  "core": "目的にたどり着くための、決まった筋道のあるやり方。",
+  "other": []
+ },
+ {
+  "src": "M1676",
+  "id": "process",
+  "cat": "word",
+  "en": "process",
+  "ipa": "/ˈprɑˌsɛs/",
+  "sense": "（段階をふむ）過程・プロセス",
+  "ja": "過程",
+  "ex": {
+   "en": "Learning a language is a slow process.",
+   "ja": "言語を学ぶのはゆっくりとした過程だ。",
+   "mark": [
+    "process"
+   ]
+  },
+  "core": "始まりから終わりまで、段階をふんで進んでいく流れ。",
+  "other": []
+ },
+ {
+  "src": "M1677",
+  "id": "result",
+  "cat": "word",
+  "en": "result",
+  "ipa": "/rɪˈzʌlt/",
+  "sense": "結果",
+  "ja": "結果",
+  "ex": {
+   "en": "The test results will come next week.",
+   "ja": "検査の結果は来週出る。",
+   "mark": [
+    "results"
+   ]
+  },
+  "core": "何かをしたあとに、最後に出てくるもの。",
+  "other": []
+ },
+ {
+  "src": "M1678",
+  "id": "reason",
+  "cat": "word",
+  "en": "reason",
+  "ipa": "/ˈrizən/",
+  "sense": "理由",
+  "ja": "理由",
+  "ex": {
+   "en": "What's the reason for the delay?",
+   "ja": "遅れの理由は何ですか？",
+   "mark": [
+    "reason"
+   ]
+  },
+  "core": "あることが起きた、そのもとになるわけ。",
+  "other": [
+   "道理・理性：listen to reason"
+  ]
+ },
+ {
+  "src": "M1679",
+  "id": "purpose",
+  "cat": "word",
+  "en": "purpose",
+  "ipa": "/ˈpɜrpəs/",
+  "sense": "目的",
+  "ja": "目的",
+  "ex": {
+   "en": "What is the purpose of your visit?",
+   "ja": "訪問の目的は何ですか？",
+   "mark": [
+    "purpose"
+   ]
+  },
+  "core": "何のためにそれをするのか、という狙い。",
+  "other": []
+ },
+ {
+  "src": "M1680",
+  "id": "goal",
+  "cat": "word",
+  "en": "goal",
+  "ipa": "/ɡoʊl/",
+  "sense": "目標",
+  "ja": "目標",
+  "ex": {
+   "en": "My goal is to run a marathon.",
+   "ja": "私の目標はマラソンを走ることだ。",
+   "mark": [
+    "goal"
+   ]
+  },
+  "core": "そこへ向かって進んでいく、ゴールの地点。",
+  "other": [
+   "（サッカーなどの）ゴール・得点：score a goal"
+  ]
+ },
+ {
+  "src": "M1681",
+  "id": "problem",
+  "cat": "word",
+  "en": "problem",
+  "ipa": "/ˈprɑbləm/",
+  "sense": "（困った）問題",
+  "ja": "問題",
+  "ex": {
+   "en": "We have a problem with the printer.",
+   "ja": "プリンターに問題がある。",
+   "mark": [
+    "problem"
+   ]
+  },
+  "core": "うまく進むのをじゃまする、困ったこと。",
+  "diff": "question は答えを求める問い。problem は解決が必要な困りごと。",
+  "other": [
+   "（数学の）問題：a math problem"
+  ]
+ },
+ {
+  "src": "M1682",
+  "id": "solution",
+  "cat": "word",
+  "en": "solution",
+  "ipa": "/səˈluʃən/",
+  "sense": "解決策",
+  "ja": "解決策",
+  "ex": {
+   "en": "We need to find a solution quickly.",
+   "ja": "早く解決策を見つけなければ。",
+   "mark": [
+    "solution"
+   ]
+  },
+  "core": "困ったことをほどいて、うまくいくようにする答え。",
+  "other": [
+   "（問題の）答え：the solution to the puzzle"
+  ]
+ },
+ {
+  "src": "M1683",
+  "id": "idea",
+  "cat": "word",
+  "en": "idea",
+  "ipa": "/aɪˈdiə/",
+  "sense": "考え・アイデア",
+  "ja": "考え",
+  "ex": {
+   "en": "That's a great idea!",
+   "ja": "それはいい考えだね！",
+   "mark": [
+    "idea"
+   ]
+  },
+  "core": "頭の中にふっと浮かんだ思いつき。",
+  "other": [
+   "見当：I have no idea."
+  ]
+ },
+ {
+  "src": "M1684",
+  "id": "opinion",
+  "cat": "word",
+  "en": "opinion",
+  "ipa": "/əˈpɪnjən/",
+  "sense": "意見",
+  "ja": "意見",
+  "ex": {
+   "en": "In my opinion, the movie was too long.",
+   "ja": "私の意見では、その映画は長すぎた。",
+   "mark": [
+    "opinion"
+   ]
+  },
+  "core": "あることについて、その人がどう思うか。",
+  "diff": "fact は確かな事実。opinion は個人の考え。",
+  "other": []
+ },
+ {
+  "src": "M1685",
+  "id": "knowledge",
+  "cat": "word",
+  "en": "knowledge",
+  "ipa": "/ˈnɑlɪdʒ/",
+  "sense": "知識",
+  "ja": "知識",
+  "ex": {
+   "en": "He has a lot of knowledge about cars.",
+   "ja": "彼は車についての知識が豊富だ。",
+   "mark": [
+    "knowledge"
+   ]
+  },
+  "core": "学んだり経験したりして、頭に入っていること。数えられない名詞。",
+  "other": []
+ },
+ {
+  "src": "M1686",
+  "id": "memory",
+  "cat": "word",
+  "en": "memory",
+  "ipa": "/ˈmɛməri/",
+  "sense": "記憶（力）",
+  "ja": "記憶",
+  "ex": {
+   "en": "I have a bad memory for names.",
+   "ja": "私は名前を覚えるのが苦手だ。",
+   "mark": [
+    "memory"
+   ]
+  },
+  "core": "見たことや聞いたことを、頭にしまっておく力。",
+  "other": [
+   "思い出：happy memories"
+  ]
+ },
+ {
+  "src": "M1687",
+  "id": "attention",
+  "cat": "word",
+  "en": "attention",
+  "ipa": "/əˈtɛnʃən/",
+  "sense": "注意・注目",
+  "ja": "注意",
+  "ex": {
+   "en": "Please pay attention to the teacher.",
+   "ja": "先生の話に注意を向けてください。",
+   "mark": [
+    "attention"
+   ]
+  },
+  "core": "気持ちや目を、ひとつのものに向けること。",
+  "other": []
+ },
+ {
+  "src": "M1688",
+  "id": "education",
+  "cat": "word",
+  "en": "education",
+  "ipa": "/ˌɛdʒəˈkeɪʃən/",
+  "sense": "教育",
+  "ja": "教育",
+  "ex": {
+   "en": "Education is important for every child.",
+   "ja": "教育はすべての子どもにとって大切だ。",
+   "mark": [
+    "Education"
+   ]
+  },
+  "core": "知識や力を身につけられるように、教え育てること。",
+  "other": []
+ },
+ {
+  "src": "M1689",
+  "id": "school",
+  "cat": "word",
+  "en": "school",
+  "ipa": "/skul/",
+  "sense": "学校",
+  "ja": "学校",
+  "ex": {
+   "en": "My kids walk to school.",
+   "ja": "うちの子どもたちは歩いて学校に行く。",
+   "mark": [
+    "school"
+   ]
+  },
+  "core": "子どもや学生が集まって学ぶ場所。",
+  "other": [
+   "（米口語）大学：Where did you go to school?"
+  ]
+ },
+ {
+  "src": "M1690",
+  "id": "college",
+  "cat": "word",
+  "en": "college",
+  "ipa": "/ˈkɑlɪdʒ/",
+  "sense": "大学",
+  "ja": "大学",
+  "ex": {
+   "en": "My sister is in her second year of college.",
+   "ja": "姉は大学2年生だ。",
+   "mark": [
+    "college"
+   ]
+  },
+  "core": "高校の次に進んで学ぶところ。米国では大学全般を指す。",
+  "diff": "university は大学院もある総合大学。日常では college も大学全般に使う。",
+  "other": []
+ },
+ {
+  "src": "M1691",
+  "id": "university",
+  "cat": "word",
+  "en": "university",
+  "ipa": "/ˌjunəˈvɜrsəti/",
+  "sense": "（総合）大学",
+  "ja": "大学",
+  "ex": {
+   "en": "She teaches at a large university.",
+   "ja": "彼女は大きな大学で教えている。",
+   "mark": [
+    "university"
+   ]
+  },
+  "core": "多くの学部と大学院がある、大きな大学。",
+  "diff": "college は日常で大学全般、または単科大学。",
+  "other": []
+ },
+ {
+  "src": "M1692",
+  "id": "class",
+  "cat": "word",
+  "en": "class",
+  "ipa": "/klæs/",
+  "sense": "授業",
+  "ja": "授業",
+  "ex": {
+   "en": "I have a math class at nine.",
+   "ja": "9時に数学の授業がある。",
+   "mark": [
+    "class"
+   ]
+  },
+  "core": "みんなで集まって、決まった時間に学ぶ時間。",
+  "other": [
+   "クラス（の生徒たち）：The whole class laughed."
+  ]
+ },
+ {
+  "src": "M1693",
+  "id": "course",
+  "cat": "word",
+  "en": "course",
+  "ipa": "/kɔrs/",
+  "sense": "（一連の）講座・課程",
+  "ja": "講座",
+  "ex": {
+   "en": "I'm taking an online English course.",
+   "ja": "オンラインの英語講座を受けている。",
+   "mark": [
+    "course"
+   ]
+  },
+  "core": "何回もの授業で、決まった内容を順に学ぶまとまり。",
+  "other": [
+   "（食事の）一品：the main course"
+  ]
+ },
+ {
+  "src": "M1694",
+  "id": "lesson",
+  "cat": "word",
+  "en": "lesson",
+  "ipa": "/ˈlɛsən/",
+  "sense": "（習いごとの）レッスン・授業",
+  "ja": "レッスン",
+  "ex": {
+   "en": "I take piano lessons on Saturdays.",
+   "ja": "毎週土曜日にピアノのレッスンを受けている。",
+   "mark": [
+    "lessons"
+   ]
+  },
+  "core": "先生から教わる、ひとまとまりの学びの時間。",
+  "other": [
+   "教訓：learn a lesson"
+  ]
+ },
+ {
+  "src": "M1695",
+  "id": "subject",
+  "cat": "word",
+  "en": "subject",
+  "ipa": "/ˈsʌbdʒɪkt/",
+  "sense": "（学校の）科目",
+  "ja": "科目",
+  "ex": {
+   "en": "What's your favorite subject?",
+   "ja": "好きな科目は何？",
+   "mark": [
+    "subject"
+   ]
+  },
+  "core": "学ぶ内容を、分野ごとに分けたひとつ。",
+  "other": [
+   "話題：change the subject"
+  ]
+ },
+ {
+  "src": "M1696",
+  "id": "homework",
+  "cat": "word",
+  "en": "homework",
+  "ipa": "/ˈhoʊmˌwɜrk/",
+  "sense": "宿題",
+  "ja": "宿題",
+  "ex": {
+   "en": "Did you finish your homework?",
+   "ja": "宿題は終わった？",
+   "mark": [
+    "homework"
+   ]
+  },
+  "core": "家に帰ってからやるように出される勉強。数えられない名詞。",
+  "other": []
+ },
+ {
+  "src": "M1697",
+  "id": "exam",
+  "cat": "word",
+  "en": "exam",
+  "ipa": "/ɪɡˈzæm/",
+  "sense": "試験",
+  "ja": "試験",
+  "ex": {
+   "en": "I have a big exam tomorrow.",
+   "ja": "明日、大事な試験がある。",
+   "mark": [
+    "exam"
+   ]
+  },
+  "core": "学んだことがどれだけ身についたかを、正式に調べるもの。",
+  "diff": "test より大きく、正式な試験に使うことが多い。",
+  "other": []
+ },
+ {
+  "src": "M1698",
+  "id": "test",
+  "cat": "word",
+  "en": "test",
+  "ipa": "/tɛst/",
+  "sense": "テスト・小試験",
+  "ja": "テスト",
+  "ex": {
+   "en": "We have a spelling test on Friday.",
+   "ja": "金曜日に単語のつづりのテストがある。",
+   "mark": [
+    "test"
+   ]
+  },
+  "core": "できるかどうかを、ためしに確かめること。",
+  "diff": "exam は大きく正式な試験。test は小さめの確認にもよく使う。",
+  "other": [
+   "（医療の）検査：a blood test"
+  ]
+ }
+]
