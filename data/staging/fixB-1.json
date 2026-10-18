@@ -1,0 +1,14 @@
+{
+"belt": {"ex": {"en": "He loosened his belt after the big meal.", "ja": "たくさん食べたあと、彼はベルトをゆるめた。", "mark": ["belt"]}},
+"luggage": {"diff": "baggage もほぼ同じ意味で、（米）や空港でよく使う。"},
+"glove": {"diff": "gloves と複数形で使うことが多い。", "other": []},
+"bill": {"ex": {"en": "I paid the phone bill today.", "ja": "今日、電話代を払った。", "mark": ["bill"]}},
+"avenue": {"ex": {"en": "We walked down a wide avenue lined with trees.", "ja": "並木のある広い大通りを歩いた。", "mark": ["avenue"]}},
+"planet": {"ex": {"en": "We can see a bright planet near the moon tonight.", "ja": "今夜は月の近くに明るい惑星が見える。", "mark": ["planet"]}},
+"conference": {"ex": {"en": "She spoke at a big conference last week.", "ja": "彼女は先週、大きな会議で講演した。", "mark": ["conference"]}},
+"leather": {"ex": {"en": "He bought a leather bag for his mother.", "ja": "彼は母に革のかばんを買った。", "mark": ["leather"]}},
+"field": {"ja": "野原、畑"},
+"hat": {"diff": "cap は前だけにつばがある帽子。hat は帽子全般で、ふちが一周するものが多い。"},
+"notebook": {"other": ["ノートパソコン：a notebook computer"]},
+"style": {"other": ["（髪・服の）型：a new hairstyle"]}
+}

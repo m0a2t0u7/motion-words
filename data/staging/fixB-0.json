@@ -1,0 +1,14 @@
+{
+  "figure-on": {"ipa": "/ˈfɪɡjɚ ɑːn/"},
+  "run-up-against": {"ipa": "/ˌrʌn ˈʌp əˈɡɛnst/"},
+  "a-win-win-situation": {"ipa": "/ə ˌwɪn ˈwɪn ˌsɪtʃuˈeɪʃən/"},
+  "queue-up": {"sense": "（英）（順番を待って）列に並ぶ"},
+  "turn-to": {"ex": {"en": "She always turns to her sister for advice.", "ja": "彼女はいつも姉に助言を求める。", "mark": ["turns to"]}},
+  "go-ahead": {"ja": "どうぞ"},
+  "no-strings-attached": {"ja": "見返りなしで"},
+  "in-time": {"ex": {"en": "We got to the store in time.", "ja": "店にはなんとか間に合った。", "mark": ["in time"]}},
+  "thumb": {"ex": {"en": "I hurt my thumb in the door.", "ja": "ドアで親指をけがした。", "mark": ["thumb"]}},
+  "at-any-rate": {"core": "状況がどうであれ、話を肝心な点に戻す。"},
+  "hold-off": {"ex": {"en": "Let's hold off on the decision for a week.", "ja": "決めるのは1週間待とう。", "mark": ["hold off"]}},
+  "keep-out": {"ex": {"en": "The sign on the gate says \"Keep out.\"", "ja": "門の看板には「立入禁止」と書いてある。", "mark": ["Keep out"]}}
+}
