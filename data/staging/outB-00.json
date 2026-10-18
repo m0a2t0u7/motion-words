@@ -1,0 +1,1957 @@
+[
+ {
+  "src": "M0152",
+  "id": "break-up",
+  "cat": "phrasal",
+  "en": "break up",
+  "ipa": "/ˌbreɪk ˈʌp/",
+  "sense": "（恋人などが）別れる",
+  "ja": "別れる",
+  "ex": {
+   "en": "They broke up after dating for two years.",
+   "ja": "二人は2年付き合って別れた。",
+   "mark": [
+    "broke up"
+   ]
+  },
+  "core": "ひとつだった関係がばらばらに割れる。",
+  "other": [
+   "〜を細かく分ける：break up the bread"
+  ]
+ },
+ {
+  "src": "M0153",
+  "id": "break-in",
+  "cat": "phrasal",
+  "en": "break in",
+  "ipa": "/ˌbreɪk ˈɪn/",
+  "sense": "（建物に）押し入る",
+  "ja": "押し入る",
+  "ex": {
+   "en": "Someone broke in and stole the TV last night.",
+   "ja": "昨夜、誰かが押し入ってテレビを盗んだ。",
+   "mark": [
+    "broke in"
+   ]
+  },
+  "core": "壁や鍵を破って、中（in）へ入り込む。",
+  "other": [
+   "（話に）口をはさむ：break in on the talk"
+  ]
+ },
+ {
+  "src": "M0154",
+  "id": "break-out",
+  "cat": "phrasal",
+  "en": "break out",
+  "ipa": "/ˌbreɪk ˈaʊt/",
+  "sense": "（戦争・火事などが）突然発生する",
+  "ja": "突然発生する",
+  "ex": {
+   "en": "A fire broke out in the kitchen.",
+   "ja": "台所で火事が起きた。",
+   "mark": [
+    "broke out"
+   ]
+  },
+  "core": "抑えられていたものが外（out）へ一気に出てくる。",
+  "other": [
+   "（刑務所などから）脱走する：break out of prison"
+  ]
+ },
+ {
+  "src": "M0155",
+  "id": "break-off",
+  "cat": "phrasal",
+  "en": "break off",
+  "ipa": "/ˌbreɪk ˈɔːf/",
+  "sense": "（一部が）折れて取れる",
+  "ja": "折れて取れる",
+  "ex": {
+   "en": "A branch broke off in the storm.",
+   "ja": "嵐で枝が折れて落ちた。",
+   "mark": [
+    "broke off"
+   ]
+  },
+  "core": "つながっていた部分が折れて離れる（off）。",
+  "other": [
+   "（話などを）急にやめる：break off in the middle"
+  ]
+ },
+ {
+  "src": "M0156",
+  "id": "break-through",
+  "cat": "phrasal",
+  "en": "break through",
+  "ipa": "/ˌbreɪk ˈθruː/",
+  "sense": "（壁などを）突き破って進む",
+  "ja": "突き破る",
+  "ex": {
+   "en": "The firefighters broke through the wall.",
+   "ja": "消防士たちは壁を突き破って進んだ。",
+   "mark": [
+    "broke through"
+   ]
+  },
+  "core": "さえぎる物を壊して、向こう側へ通り抜ける（through）。",
+  "other": [
+   "（行き詰まりを）打開する：a breakthrough in research"
+  ]
+ },
+ {
+  "src": "M0157",
+  "id": "break-away",
+  "cat": "phrasal",
+  "en": "break away",
+  "ipa": "/ˌbreɪk əˈweɪ/",
+  "sense": "（集団から）抜け出す、離脱する",
+  "ja": "離脱する",
+  "ex": {
+   "en": "One runner broke away from the group.",
+   "ja": "一人の走者が集団から抜け出した。",
+   "mark": [
+    "broke away"
+   ]
+  },
+  "core": "つながりを断って、離れた所（away）へ出ていく。",
+  "other": [
+   "（組織から）分かれる：break away from the party"
+  ]
+ },
+ {
+  "src": "M0159",
+  "id": "fall-over",
+  "cat": "phrasal",
+  "en": "fall over",
+  "ipa": "/ˌfɔːl ˈoʊvər/",
+  "sense": "（立っていて）転ぶ、倒れる",
+  "ja": "転ぶ",
+  "ex": {
+   "en": "The old man tripped and fell over.",
+   "ja": "老人はつまずいて転んだ。",
+   "mark": [
+    "fell over"
+   ]
+  },
+  "core": "立っていた体が横にひっくり返る（over）。",
+  "diff": "fall down とほぼ同じ意味で使える。",
+  "other": [
+   "（物が）倒れる：The vase fell over."
+  ]
+ },
+ {
+  "src": "M0160",
+  "id": "fall-off",
+  "cat": "phrasal",
+  "en": "fall off",
+  "ipa": "/ˌfɔːl ˈɔːf/",
+  "sense": "（高い所から）落ちる",
+  "ja": "落ちる",
+  "ex": {
+   "en": "A book fell off the shelf.",
+   "ja": "本が棚から落ちた。",
+   "mark": [
+    "fell off"
+   ]
+  },
+  "core": "くっついていた場所から離れて（off）落ちる。",
+  "other": [
+   "（数量が）減る：Sales fell off in winter."
+  ]
+ },
+ {
+  "src": "M0161",
+  "id": "fall-apart",
+  "cat": "phrasal",
+  "en": "fall apart",
+  "ipa": "/ˌfɔːl əˈpɑːrt/",
+  "sense": "ばらばらになる、崩れる",
+  "ja": "ばらばらになる",
+  "ex": {
+   "en": "The old box fell apart in my hands.",
+   "ja": "古い箱が手の中でばらばらになった。",
+   "mark": [
+    "fell apart"
+   ]
+  },
+  "core": "まとまっていた物が、別々の方向へ（apart）崩れる。",
+  "other": [
+   "（気持ちが）取り乱す：fall apart after the news"
+  ]
+ },
+ {
+  "src": "M0162",
+  "id": "fall-out",
+  "cat": "phrasal",
+  "en": "fall out",
+  "ipa": "/ˌfɔːl ˈaʊt/",
+  "sense": "（中から）抜け落ちる",
+  "ja": "抜け落ちる",
+  "ex": {
+   "en": "A coin fell out of his pocket.",
+   "ja": "硬貨が彼のポケットから落ちた。",
+   "mark": [
+    "fell out"
+   ]
+  },
+  "core": "中にあった物が外（out）へ落ちてしまう。",
+  "other": [
+   "けんかする：fall out with a friend"
+  ]
+ },
+ {
+  "src": "M0163",
+  "id": "come-apart",
+  "cat": "phrasal",
+  "en": "come apart",
+  "ipa": "/ˌkʌm əˈpɑːrt/",
+  "sense": "（部品が）外れて分かれる",
+  "ja": "分かれる",
+  "ex": {
+   "en": "The toy came apart when he dropped it.",
+   "ja": "おもちゃは落とすと部品が外れた。",
+   "mark": [
+    "came apart"
+   ]
+  },
+  "core": "つながっていた部品が、別々に（apart）離れていく。",
+  "other": [
+   "（計画などが）崩れる：The plan came apart."
+  ]
+ },
+ {
+  "src": "M0164",
+  "id": "come-off",
+  "cat": "phrasal",
+  "en": "come off",
+  "ipa": "/ˌkʌm ˈɔːf/",
+  "sense": "（くっついていた物が）取れる",
+  "ja": "取れる",
+  "ex": {
+   "en": "A button came off my shirt.",
+   "ja": "シャツのボタンが取れた。",
+   "mark": [
+    "came off"
+   ]
+  },
+  "core": "付いていた物が表面から離れる（off）。",
+  "other": [
+   "うまくいく：The joke didn't come off."
+  ]
+ },
+ {
+  "src": "M0165",
+  "id": "come-loose",
+  "cat": "phrasal",
+  "en": "come loose",
+  "ipa": "/ˌkʌm ˈluːs/",
+  "sense": "（固定が）緩む、ゆるんで外れかける",
+  "ja": "緩む",
+  "ex": {
+   "en": "The screw came loose and the part shook.",
+   "ja": "ねじが緩んで部品がぐらついた。",
+   "mark": [
+    "came loose"
+   ]
+  },
+  "core": "固く留まっていたものが、ゆるい状態（loose）になる。",
+  "other": []
+ },
+ {
+  "src": "M0166",
+  "id": "wear-out",
+  "cat": "phrasal",
+  "en": "wear out",
+  "ipa": "/ˌwɛr ˈaʊt/",
+  "sense": "（使い古して）すり減る、傷む",
+  "ja": "すり減る",
+  "ex": {
+   "en": "My shoes wore out after one year.",
+   "ja": "靴は1年ですり減ってしまった。",
+   "mark": [
+    "wore out"
+   ]
+  },
+  "core": "使い続けて、物が最後まで（out）弱っていく。",
+  "other": [
+   "（人を）ぐったり疲れさせる：The trip wore me out."
+  ]
+ },
+ {
+  "src": "M0167",
+  "id": "use-up",
+  "cat": "phrasal",
+  "en": "use up",
+  "ipa": "/ˌjuːz ˈʌp/",
+  "sense": "（全部）使い切る",
+  "ja": "使い切る",
+  "ex": {
+   "en": "We used up all the paper.",
+   "ja": "私たちは紙を使い切った。",
+   "mark": [
+    "used up"
+   ]
+  },
+  "core": "残りがなくなるまで（up）使う。",
+  "other": []
+ },
+ {
+  "src": "M0168",
+  "id": "run-out",
+  "cat": "phrasal",
+  "en": "run out",
+  "ipa": "/ˌrʌn ˈaʊt/",
+  "sense": "（物が）なくなる、切れる",
+  "ja": "なくなる",
+  "ex": {
+   "en": "The ink ran out in the middle of printing.",
+   "ja": "印刷の途中でインクが切れた。",
+   "mark": [
+    "ran out"
+   ]
+  },
+  "core": "中にあったものが外（out）へ流れ出て、空になる。",
+  "other": [
+   "（時間・期限が）尽きる：Time is running out."
+  ]
+ },
+ {
+  "src": "M0169",
+  "id": "burn-out",
+  "cat": "phrasal",
+  "en": "burn out",
+  "ipa": "/ˌbɝːn ˈaʊt/",
+  "sense": "（火が）燃え尽きて消える",
+  "ja": "燃え尽きる",
+  "ex": {
+   "en": "The fire burned out by morning.",
+   "ja": "火は朝までに燃え尽きた。",
+   "mark": [
+    "burned out"
+   ]
+  },
+  "core": "燃える物がなくなって、火が最後まで（out）消える。",
+  "other": [
+   "（人が）燃え尽き症候群になる：feel burned out"
+  ]
+ },
+ {
+  "src": "M0170",
+  "id": "burn-down",
+  "cat": "phrasal",
+  "en": "burn down",
+  "ipa": "/ˌbɝːn ˈdaʊn/",
+  "sense": "（建物が）全焼する",
+  "ja": "全焼する",
+  "ex": {
+   "en": "The old barn burned down last summer.",
+   "ja": "古い納屋が去年の夏に全焼した。",
+   "mark": [
+    "burned down"
+   ]
+  },
+  "core": "建物が燃えて、地面まで低く（down）崩れ落ちる。",
+  "other": []
+ },
+ {
+  "src": "M0171",
+  "id": "blow-out",
+  "cat": "phrasal",
+  "en": "blow out",
+  "ipa": "/ˌbloʊ ˈaʊt/",
+  "sense": "（息で）吹き消す",
+  "ja": "吹き消す",
+  "ex": {
+   "en": "She blew out the candles on the cake.",
+   "ja": "彼女はケーキのろうそくを吹き消した。",
+   "mark": [
+    "blew out"
+   ]
+  },
+  "core": "息を吹いて、火を消す（out）。",
+  "other": [
+   "（タイヤが）パンクする：A tire blew out."
+  ]
+ },
+ {
+  "src": "M0172",
+  "id": "blow-up",
+  "cat": "phrasal",
+  "en": "blow up",
+  "ipa": "/ˌbloʊ ˈʌp/",
+  "sense": "（空気で）膨らませる",
+  "ja": "膨らませる",
+  "ex": {
+   "en": "He blew up ten balloons for the party.",
+   "ja": "彼はパーティーのために風船を10個膨らませた。",
+   "mark": [
+    "blew up"
+   ]
+  },
+  "core": "空気を入れて、大きく（up）する。",
+  "other": [
+   "爆発する：The bomb blew up."
+  ]
+ },
+ {
+  "src": "M0173",
+  "id": "tear-up",
+  "cat": "phrasal",
+  "en": "tear up",
+  "ipa": "/ˌtɛr ˈʌp/",
+  "sense": "（紙などを）細かく引き裂く",
+  "ja": "引き裂く",
+  "ex": {
+   "en": "She tore up the old letter.",
+   "ja": "彼女は古い手紙をびりびりに破いた。",
+   "mark": [
+    "tore up"
+   ]
+  },
+  "core": "紙などを何度も裂いて、細かく（up）する。",
+  "other": []
+ },
+ {
+  "src": "M0174",
+  "id": "tear-down",
+  "cat": "phrasal",
+  "en": "tear down",
+  "ipa": "/ˌtɛr ˈdaʊn/",
+  "sense": "（建物などを）取り壊す",
+  "ja": "取り壊す",
+  "ex": {
+   "en": "They tore down the old school building.",
+   "ja": "彼らは古い校舎を取り壊した。",
+   "mark": [
+    "tore down"
+   ]
+  },
+  "core": "立っている物を引き倒して（down）なくす。",
+  "other": []
+ },
+ {
+  "src": "M0175",
+  "id": "rip-off",
+  "cat": "phrasal",
+  "en": "rip off",
+  "ipa": "/ˌrɪp ˈɔːf/",
+  "sense": "（勢いよく）はぎ取る",
+  "ja": "はぎ取る",
+  "ex": {
+   "en": "He ripped off the wrapping paper.",
+   "ja": "彼は包み紙を勢いよくはがした。",
+   "mark": [
+    "ripped off"
+   ]
+  },
+  "core": "くっついた物を、力を入れて引き離す（off）。",
+  "other": [
+   "（客から）ぼったくる：rip off tourists"
+  ]
+ },
+ {
+  "src": "M0176",
+  "id": "peel-off",
+  "cat": "phrasal",
+  "en": "peel off",
+  "ipa": "/ˌpiːl ˈɔːf/",
+  "sense": "（薄い物を）はがす",
+  "ja": "はがす",
+  "ex": {
+   "en": "Peel off the sticker slowly.",
+   "ja": "シールをゆっくりはがしてください。",
+   "mark": [
+    "Peel off"
+   ]
+  },
+  "core": "薄い層を、端から離していく（off）。",
+  "other": [
+   "（衣類を）脱ぐ：peel off wet socks"
+  ]
+ },
+ {
+  "src": "M0177",
+  "id": "pull-out",
+  "cat": "phrasal",
+  "en": "pull out",
+  "ipa": "/ˌpʊl ˈaʊt/",
+  "sense": "（中から）引き抜く",
+  "ja": "引き抜く",
+  "ex": {
+   "en": "He pulled out a weed from the soil.",
+   "ja": "彼は土から雑草を引き抜いた。",
+   "mark": [
+    "pulled out"
+   ]
+  },
+  "core": "中に入っている物を、外（out）へ引っぱり出す。",
+  "other": [
+   "（計画などから）手を引く：pull out of the deal"
+  ]
+ },
+ {
+  "src": "M0178",
+  "id": "pull-up",
+  "cat": "phrasal",
+  "en": "pull up",
+  "ipa": "/ˌpʊl ˈʌp/",
+  "sense": "（車を）止める、停車する",
+  "ja": "車を止める",
+  "ex": {
+   "en": "A taxi pulled up in front of the hotel.",
+   "ja": "タクシーがホテルの前に止まった。",
+   "mark": [
+    "pulled up"
+   ]
+  },
+  "core": "車を引き寄せるように、目的の場所へ寄せて止める。",
+  "diff": "pull over は路肩に寄せて止まること。",
+  "other": [
+   "〜を引き上げる：pull up a chair"
+  ]
+ },
+ {
+  "src": "M0179",
+  "id": "pull-over",
+  "cat": "phrasal",
+  "en": "pull over",
+  "ipa": "/ˌpʊl ˈoʊvər/",
+  "sense": "（車が）路肩に寄って止まる",
+  "ja": "路肩に寄る",
+  "ex": {
+   "en": "Please pull over at the next corner.",
+   "ja": "次の角で路肩に寄せて止めてください。",
+   "mark": [
+    "pull over"
+   ]
+  },
+  "core": "車を道の端（over）へ寄せて止める。",
+  "diff": "pull up は目的の場所に寄って止まること。pull over は道の端に寄ること。",
+  "other": []
+ },
+ {
+  "src": "M0180",
+  "id": "pull-in",
+  "cat": "phrasal",
+  "en": "pull in",
+  "ipa": "/ˌpʊl ˈɪn/",
+  "sense": "（乗り物が）到着する",
+  "ja": "到着する",
+  "ex": {
+   "en": "The train pulled in at platform two.",
+   "ja": "電車は2番ホームに入ってきた。",
+   "mark": [
+    "pulled in"
+   ]
+  },
+  "core": "乗り物が駅などの中（in）へ入ってくる。",
+  "other": [
+   "（客などを）引きつける：pull in crowds"
+  ]
+ },
+ {
+  "src": "M0181",
+  "id": "pull-away",
+  "cat": "phrasal",
+  "en": "pull away",
+  "ipa": "/ˌpʊl əˈweɪ/",
+  "sense": "（乗り物が）発車する",
+  "ja": "発車する",
+  "ex": {
+   "en": "The bus pulled away from the stop.",
+   "ja": "バスは停留所から走り出した。",
+   "mark": [
+    "pulled away"
+   ]
+  },
+  "core": "止まっていた乗り物が、その場から離れていく（away）。",
+  "other": [
+   "（相手から）体を引く：pull away from him"
+  ]
+ },
+ {
+  "src": "M0182",
+  "id": "push-back",
+  "cat": "phrasal",
+  "en": "push back",
+  "ipa": "/ˌpʊʃ ˈbæk/",
+  "sense": "（後ろへ）押し戻す",
+  "ja": "後ろへ押す",
+  "ex": {
+   "en": "He pushed back his chair from the desk.",
+   "ja": "彼は椅子を机から後ろへ引いた。",
+   "mark": [
+    "pushed back"
+   ]
+  },
+  "core": "物を後ろ（back）の方向へ押しやる。",
+  "other": [
+   "（予定を）延期する：push back the meeting"
+  ]
+ },
+ {
+  "src": "M0183",
+  "id": "push-through",
+  "cat": "phrasal",
+  "en": "push through",
+  "ipa": "/ˌpʊʃ ˈθruː/",
+  "sense": "（人混みなどを）押し分けて進む",
+  "ja": "押し分けて進む",
+  "ex": {
+   "en": "She pushed through the crowd to the front.",
+   "ja": "彼女は人混みを押し分けて前へ進んだ。",
+   "mark": [
+    "pushed through"
+   ]
+  },
+  "core": "さえぎる物を押しのけて、向こう側へ（through）出る。",
+  "other": [
+   "（案を）強引に通す：push through a law"
+  ]
+ },
+ {
+  "src": "M0184",
+  "id": "put-together",
+  "cat": "phrasal",
+  "en": "put together",
+  "ipa": "/ˌpʊt təˈɡɛðər/",
+  "sense": "（部品を）組み立てる",
+  "ja": "組み立てる",
+  "ex": {
+   "en": "We put together the shelf in an hour.",
+   "ja": "私たちは1時間で棚を組み立てた。",
+   "mark": [
+    "put together"
+   ]
+  },
+  "core": "別々の部品を一緒に（together）置いて、ひとつにする。",
+  "other": [
+   "（計画などを）まとめる：put together a plan"
+  ]
+ },
+ {
+  "src": "M0185",
+  "id": "take-apart",
+  "cat": "phrasal",
+  "en": "take apart",
+  "ipa": "/ˌteɪk əˈpɑːrt/",
+  "sense": "（機械などを）分解する",
+  "ja": "分解する",
+  "ex": {
+   "en": "He took apart the old radio.",
+   "ja": "彼は古いラジオを分解した。",
+   "mark": [
+    "took apart"
+   ]
+  },
+  "core": "ひとつの物を、部品ごとに別々に（apart）する。",
+  "other": []
+ },
+ {
+  "src": "M0186",
+  "id": "put-up",
+  "cat": "phrasal",
+  "en": "put up",
+  "ipa": "/ˌpʊt ˈʌp/",
+  "sense": "（テントなどを）立てる",
+  "ja": "立てる",
+  "ex": {
+   "en": "We put up the tent before dark.",
+   "ja": "私たちは暗くなる前にテントを張った。",
+   "mark": [
+    "put up"
+   ]
+  },
+  "core": "物を上（up）に向けて立てて、設置する。",
+  "other": [
+   "（人を）泊める：put up a friend"
+  ]
+ },
+ {
+  "src": "M0187",
+  "id": "take-down",
+  "cat": "phrasal",
+  "en": "take down",
+  "ipa": "/ˌteɪk ˈdaʊn/",
+  "sense": "（壁などから）取り外す",
+  "ja": "取り外す",
+  "ex": {
+   "en": "She took down the poster from the wall.",
+   "ja": "彼女は壁からポスターを外した。",
+   "mark": [
+    "took down"
+   ]
+  },
+  "core": "高い所にある物を、下（down）へおろす。",
+  "other": [
+   "（言葉を）書き留める：take down his name"
+  ]
+ },
+ {
+  "src": "M0188",
+  "id": "put-back",
+  "cat": "phrasal",
+  "en": "put back",
+  "ipa": "/ˌpʊt ˈbæk/",
+  "sense": "元の場所に戻す",
+  "ja": "元に戻す",
+  "ex": {
+   "en": "Please put the book back on the shelf.",
+   "ja": "本を棚に戻してください。",
+   "mark": [
+    "put the book back"
+   ]
+  },
+  "core": "物を元の位置（back）に置く。",
+  "other": [
+   "（時計・予定を）遅らせる：put back the clock"
+  ]
+ },
+ {
+  "src": "M0189",
+  "id": "build-up",
+  "cat": "phrasal",
+  "en": "build up",
+  "ipa": "/ˌbɪld ˈʌp/",
+  "sense": "（少しずつ）増やす、積み上げる",
+  "ja": "徐々に増やす",
+  "ex": {
+   "en": "He built up his strength with daily exercise.",
+   "ja": "彼は毎日の運動で少しずつ体力をつけた。",
+   "mark": [
+    "built up"
+   ]
+  },
+  "core": "少しずつ重ねて、高く大きく（up）していく。",
+  "other": [
+   "（物事が）たまる：Stress builds up."
+  ]
+ },
+ {
+  "src": "M0190",
+  "id": "pile-up",
+  "cat": "phrasal",
+  "en": "pile up",
+  "ipa": "/ˌpaɪl ˈʌp/",
+  "sense": "（物が）積み重なる、たまる",
+  "ja": "積み重なる",
+  "ex": {
+   "en": "Unread mail piled up on his desk.",
+   "ja": "未読の郵便が机の上にたまった。",
+   "mark": [
+    "piled up"
+   ]
+  },
+  "core": "物が重なり合って、上（up）へ高くなる。",
+  "other": []
+ },
+ {
+  "src": "M0191",
+  "id": "stack-up",
+  "cat": "phrasal",
+  "en": "stack up",
+  "ipa": "/ˌstæk ˈʌp/",
+  "sense": "（きちんと）積み重ねる",
+  "ja": "積み重ねる",
+  "ex": {
+   "en": "He stacked up the boxes against the wall.",
+   "ja": "彼は箱を壁ぎわに積み重ねた。",
+   "mark": [
+    "stacked up"
+   ]
+  },
+  "core": "物を上（up）に向けて、整えて重ねる。",
+  "diff": "pile up は自然に積もること。stack up は整えて重ねること。",
+  "other": [
+   "（他と）比較される：stack up against rivals"
+  ]
+ },
+ {
+  "src": "M0192",
+  "id": "line-up",
+  "cat": "phrasal",
+  "en": "line up",
+  "ipa": "/ˌlaɪn ˈʌp/",
+  "sense": "（一列に）並ぶ",
+  "ja": "列に並ぶ",
+  "ex": {
+   "en": "People lined up outside the shop.",
+   "ja": "人々は店の外に並んだ。",
+   "mark": [
+    "lined up"
+   ]
+  },
+  "core": "人が一本の線（line）になるように並ぶ。",
+  "other": [
+   "（予定などを）手配する：line up a speaker"
+  ]
+ },
+ {
+  "src": "M0193",
+  "id": "queue-up",
+  "cat": "phrasal",
+  "en": "queue up",
+  "ipa": "/ˌkjuː ˈʌp/",
+  "sense": "（順番を待って）列に並ぶ",
+  "ja": "列に並ぶ",
+  "ex": {
+   "en": "Customers queued up at the cash register.",
+   "ja": "客がレジの前に並んだ。",
+   "mark": [
+    "queued up"
+   ]
+  },
+  "core": "順番を待つ列（queue）をつくる。",
+  "diff": "（英）で多く使う。米国では line up がふつう。",
+  "other": []
+ },
+ {
+  "src": "M0194",
+  "id": "spread-out",
+  "cat": "phrasal",
+  "en": "spread out",
+  "ipa": "/ˌsprɛd ˈaʊt/",
+  "sense": "（大きく）広げる",
+  "ja": "広げる",
+  "ex": {
+   "en": "She spread out the map on the table.",
+   "ja": "彼女は地図を机いっぱいに広げた。",
+   "mark": [
+    "spread out"
+   ]
+  },
+  "core": "折りたたんだ物を、外（out）へ広く伸ばす。",
+  "other": [
+   "（人が）散らばる：spread out in the park"
+  ]
+ },
+ {
+  "src": "M0195",
+  "id": "lay-out",
+  "cat": "phrasal",
+  "en": "lay out",
+  "ipa": "/ˌleɪ ˈaʊt/",
+  "sense": "（見やすく）並べて置く",
+  "ja": "並べて置く",
+  "ex": {
+   "en": "He laid out his tools on the table.",
+   "ja": "彼は道具を机の上に並べた。",
+   "mark": [
+    "laid out"
+   ]
+  },
+  "core": "物を見えるように外（out）へ並べて置く。",
+  "other": [
+   "（計画などを）詳しく示す：lay out a plan"
+  ]
+ },
+ {
+  "src": "M0196",
+  "id": "fold-up",
+  "cat": "phrasal",
+  "en": "fold up",
+  "ipa": "/ˌfoʊld ˈʌp/",
+  "sense": "折りたたむ",
+  "ja": "折り畳む",
+  "ex": {
+   "en": "Fold up the chair and put it away.",
+   "ja": "椅子を折りたたんでしまってください。",
+   "mark": [
+    "Fold up"
+   ]
+  },
+  "core": "広がった物を折り重ねて、小さく（up）まとめる。",
+  "other": []
+ },
+ {
+  "src": "M0197",
+  "id": "roll-up",
+  "cat": "phrasal",
+  "en": "roll up",
+  "ipa": "/ˌroʊl ˈʌp/",
+  "sense": "（くるくると）巻き上げる",
+  "ja": "巻き上げる",
+  "ex": {
+   "en": "He rolled up the rug and moved it.",
+   "ja": "彼は敷物を丸めて動かした。",
+   "mark": [
+    "rolled up"
+   ]
+  },
+  "core": "端から巻いて、細く丸く（up）まとめる。",
+  "other": [
+   "（袖を）まくる：roll up your sleeves"
+  ]
+ },
+ {
+  "src": "M0198",
+  "id": "tie-up",
+  "cat": "phrasal",
+  "en": "tie up",
+  "ipa": "/ˌtaɪ ˈʌp/",
+  "sense": "ひもなどで縛る",
+  "ja": "縛る",
+  "ex": {
+   "en": "She tied up the boxes with string.",
+   "ja": "彼女は箱をひもで縛った。",
+   "mark": [
+    "tied up"
+   ]
+  },
+  "core": "ひもでしっかりと（up）結んで固定する。",
+  "other": [
+   "（人が）手がふさがっている：I'm tied up today."
+  ]
+ },
+ {
+  "src": "M0199",
+  "id": "lock-up",
+  "cat": "phrasal",
+  "en": "lock up",
+  "ipa": "/ˌlɑːk ˈʌp/",
+  "sense": "（戸締まりして）施錠する",
+  "ja": "施錠する",
+  "ex": {
+   "en": "He locked up the store and went home.",
+   "ja": "彼は店の鍵を閉めて家に帰った。",
+   "mark": [
+    "locked up"
+   ]
+  },
+  "core": "戸や窓を全部しっかり（up）施錠する。",
+  "other": [
+   "（人を）閉じ込める：lock him up"
+  ]
+ },
+ {
+  "src": "M0200",
+  "id": "open-up",
+  "cat": "phrasal",
+  "en": "open up",
+  "ipa": "/ˌoʊpən ˈʌp/",
+  "sense": "（閉じた物を）開く",
+  "ja": "開く",
+  "ex": {
+   "en": "She opened up the box slowly.",
+   "ja": "彼女は箱をゆっくり開けた。",
+   "mark": [
+    "opened up"
+   ]
+  },
+  "core": "閉じていた物を、中が見えるように開ける（up）。",
+  "other": [
+   "（店を）開ける：open up the shop"
+  ]
+ },
+ {
+  "src": "M0201",
+  "id": "close-down",
+  "cat": "phrasal",
+  "en": "close down",
+  "ipa": "/ˌkloʊz ˈdaʊn/",
+  "sense": "（店などが）閉店する、閉鎖する",
+  "ja": "閉店する",
+  "ex": {
+   "en": "The shop closed down last month.",
+   "ja": "その店は先月閉店した。",
+   "mark": [
+    "closed down"
+   ]
+  },
+  "core": "営業していた店が、動きをすっかり止める（down）。",
+  "other": []
+ },
+ {
+  "src": "M0202",
+  "id": "shut-out",
+  "cat": "phrasal",
+  "en": "shut out",
+  "ipa": "/ˌʃʌt ˈaʊt/",
+  "sense": "（中に入れず）締め出す",
+  "ja": "締め出す",
+  "ex": {
+   "en": "The door slammed and shut him out.",
+   "ja": "ドアが閉まって、彼は外に締め出された。",
+   "mark": [
+    "shut him out"
+   ]
+  },
+  "core": "戸を閉めて、人や物を外（out）に置いたままにする。",
+  "other": [
+   "（光・音を）さえぎる：shut out the noise"
+  ]
+ },
+ {
+  "src": "M0203",
+  "id": "let-in",
+  "cat": "phrasal",
+  "en": "let in",
+  "ipa": "/ˌlɛt ˈɪn/",
+  "sense": "（中に）入れる",
+  "ja": "中に入れる",
+  "ex": {
+   "en": "I opened the door and let him in.",
+   "ja": "私はドアを開けて彼を中に入れた。",
+   "mark": [
+    "let him in"
+   ]
+  },
+  "core": "人が中（in）に入ることを許す。",
+  "other": []
+ },
+ {
+  "src": "M0204",
+  "id": "let-out",
+  "cat": "phrasal",
+  "en": "let out",
+  "ipa": "/ˌlɛt ˈaʊt/",
+  "sense": "（外へ）出す、逃がす",
+  "ja": "外へ出す",
+  "ex": {
+   "en": "She opened the gate and let the dog out.",
+   "ja": "彼女は門を開けて犬を外に出した。",
+   "mark": [
+    "let the dog out"
+   ]
+  },
+  "core": "中にいるものが外（out）へ出ることを許す。",
+  "other": [
+   "（声などを）出す：let out a sigh"
+  ]
+ },
+ {
+  "src": "M0205",
+  "id": "keep-out",
+  "cat": "phrasal",
+  "en": "keep out",
+  "ipa": "/ˌkiːp ˈaʊt/",
+  "sense": "中に入れない、立ち入らない",
+  "ja": "中に入れない",
+  "ex": {
+   "en": "The sign says, Keep out.",
+   "ja": "その看板には「立入禁止」と書いてある。",
+   "mark": [
+    "Keep out"
+   ]
+  },
+  "core": "人や物を外（out）にとどめておく。",
+  "other": [
+   "〜に入らない：keep out of the rain"
+  ]
+ },
+ {
+  "src": "M0206",
+  "id": "keep-away",
+  "cat": "phrasal",
+  "en": "keep away",
+  "ipa": "/ˌkiːp əˈweɪ/",
+  "sense": "近づかない",
+  "ja": "近づかない",
+  "ex": {
+   "en": "Keep away from the edge of the cliff.",
+   "ja": "がけの端には近づかないで。",
+   "mark": [
+    "Keep away"
+   ]
+  },
+  "core": "離れた所（away）に身を置き続ける。",
+  "other": [
+   "〜を近づけない：keep the kids away"
+  ]
+ },
+ {
+  "src": "M0207",
+  "id": "keep-off",
+  "cat": "phrasal",
+  "en": "keep off",
+  "ipa": "/ˌkiːp ˈɔːf/",
+  "sense": "（場所に）立ち入らない",
+  "ja": "立ち入らない",
+  "ex": {
+   "en": "Please keep off the grass.",
+   "ja": "芝生に入らないでください。",
+   "mark": [
+    "keep off"
+   ]
+  },
+  "core": "表面に乗らないで、離れて（off）いる。",
+  "other": [
+   "〜を避ける：keep off sweets"
+  ]
+ },
+ {
+  "src": "M0208",
+  "id": "step-back",
+  "cat": "phrasal",
+  "en": "step back",
+  "ipa": "/ˌstɛp ˈbæk/",
+  "sense": "一歩下がる",
+  "ja": "一歩下がる",
+  "ex": {
+   "en": "Please step back from the yellow line.",
+   "ja": "黄色い線から一歩下がってください。",
+   "mark": [
+    "step back"
+   ]
+  },
+  "core": "足を後ろ（back）に動かして、距離をとる。",
+  "other": [
+   "（冷静に）引いて考える：step back and think"
+  ]
+ },
+ {
+  "src": "M0209",
+  "id": "step-aside",
+  "cat": "phrasal",
+  "en": "step aside",
+  "ipa": "/ˌstɛp əˈsaɪd/",
+  "sense": "脇へよける",
+  "ja": "脇へよける",
+  "ex": {
+   "en": "He stepped aside to let her pass.",
+   "ja": "彼は彼女を通すために脇へよけた。",
+   "mark": [
+    "stepped aside"
+   ]
+  },
+  "core": "通り道から、横（aside）へ一歩動く。",
+  "other": [
+   "（地位を）譲る：step aside for a younger person"
+  ]
+ },
+ {
+  "src": "M0210",
+  "id": "step-down",
+  "cat": "phrasal",
+  "en": "step down",
+  "ipa": "/ˌstɛp ˈdaʊn/",
+  "sense": "（地位を）辞任する",
+  "ja": "辞任する",
+  "ex": {
+   "en": "The president will step down next month.",
+   "ja": "社長は来月辞任する予定だ。",
+   "mark": [
+    "step down"
+   ]
+  },
+  "core": "高い地位から下（down）へ降りる。",
+  "other": []
+ },
+ {
+  "src": "M0211",
+  "id": "step-in",
+  "cat": "phrasal",
+  "en": "step in",
+  "ipa": "/ˌstɛp ˈɪn/",
+  "sense": "（間に入って）介入する",
+  "ja": "介入する",
+  "ex": {
+   "en": "A teacher stepped in to stop the fight.",
+   "ja": "先生が間に入ってけんかを止めた。",
+   "mark": [
+    "stepped in"
+   ]
+  },
+  "core": "問題の中（in）へ一歩踏み込んで関わる。",
+  "other": []
+ },
+ {
+  "src": "M0212",
+  "id": "come-along",
+  "cat": "phrasal",
+  "en": "come along",
+  "ipa": "/ˌkʌm əˈlɔːŋ/",
+  "sense": "一緒に来る",
+  "ja": "一緒に来る",
+  "ex": {
+   "en": "Do you want to come along with us?",
+   "ja": "私たちと一緒に来ない？",
+   "mark": [
+    "come along"
+   ]
+  },
+  "core": "相手に沿って（along）、同じ方向へ付いてくる。",
+  "other": [
+   "（物事が）進む：The work is coming along well."
+  ]
+ },
+ {
+  "src": "M0213",
+  "id": "come-across",
+  "cat": "phrasal",
+  "en": "come across",
+  "ipa": "/ˌkʌm əˈkrɔːs/",
+  "sense": "偶然見つける、出くわす",
+  "ja": "偶然見つける",
+  "ex": {
+   "en": "I came across an old photo while cleaning.",
+   "ja": "掃除中に古い写真を偶然見つけた。",
+   "mark": [
+    "came across"
+   ]
+  },
+  "core": "歩いていて、ふと目の前（across）に現れたものに出会う。",
+  "other": [
+   "（印象を）与える：He comes across as shy."
+  ]
+ },
+ {
+  "src": "M0214",
+  "id": "come-up",
+  "cat": "phrasal",
+  "en": "come up",
+  "ipa": "/ˌkʌm ˈʌp/",
+  "sense": "（話題が）持ち上がる",
+  "ja": "話題に上る",
+  "ex": {
+   "en": "A new topic came up at the meeting.",
+   "ja": "会議で新しい話題が持ち上がった。",
+   "mark": [
+    "came up"
+   ]
+  },
+  "core": "話題が表面（up）に浮かび上がってくる。",
+  "other": [
+   "（人が）近づいてくる：He came up to me."
+  ]
+ },
+ {
+  "src": "M0215",
+  "id": "come-about",
+  "cat": "phrasal",
+  "en": "come about",
+  "ipa": "/ˌkʌm əˈbaʊt/",
+  "sense": "（物事が）起こる",
+  "ja": "起こる",
+  "ex": {
+   "en": "How did this problem come about?",
+   "ja": "この問題はどうして起こったのですか。",
+   "mark": [
+    "come about"
+   ]
+  },
+  "core": "物事が周りの状況から生まれてくる。",
+  "diff": "happen より、経緯を問う感じ。",
+  "other": []
+ },
+ {
+  "src": "M0216",
+  "id": "come-forward",
+  "cat": "phrasal",
+  "en": "come forward",
+  "ipa": "/ˌkʌm ˈfɔːrwɚd/",
+  "sense": "名乗り出る",
+  "ja": "名乗り出る",
+  "ex": {
+   "en": "No one came forward to help.",
+   "ja": "手を貸そうと名乗り出る人はいなかった。",
+   "mark": [
+    "came forward"
+   ]
+  },
+  "core": "集団から前（forward）へ出てくる。",
+  "other": []
+ },
+ {
+  "src": "M0217",
+  "id": "come-round",
+  "cat": "phrasal",
+  "en": "come round",
+  "ipa": "/ˌkʌm ˈraʊnd/",
+  "sense": "（英）意識を取り戻す",
+  "ja": "意識を取り戻す",
+  "ex": {
+   "en": "He came round a few minutes after the fall.",
+   "ja": "転んだ数分後、彼は意識を取り戻した。",
+   "mark": [
+    "came round"
+   ]
+  },
+  "core": "ぼんやりした状態から、元の状態へ回って（round）戻る。",
+  "diff": "米国では come to や come around を使う。",
+  "other": [
+   "（家に）立ち寄る：come round for tea"
+  ]
+ },
+ {
+  "src": "M0218",
+  "id": "come-through",
+  "cat": "phrasal",
+  "en": "come through",
+  "ipa": "/ˌkʌm ˈθruː/",
+  "sense": "（困難を）切り抜ける",
+  "ja": "切り抜ける",
+  "ex": {
+   "en": "She came through the hard times with a smile.",
+   "ja": "彼女は笑顔でつらい時期を切り抜けた。",
+   "mark": [
+    "came through"
+   ]
+  },
+  "core": "困難の中をくぐり抜けて、向こう側（through）へ出る。",
+  "other": [
+   "（約束を）果たす：He came through for us."
+  ]
+ },
+ {
+  "src": "M0219",
+  "id": "come-down",
+  "cat": "phrasal",
+  "en": "come down",
+  "ipa": "/ˌkʌm ˈdaʊn/",
+  "sense": "（値段などが）下がる",
+  "ja": "下がる",
+  "ex": {
+   "en": "Prices came down after the sale started.",
+   "ja": "セールが始まって価格が下がった。",
+   "mark": [
+    "came down"
+   ]
+  },
+  "core": "数値が下（down）へ動く。",
+  "other": [
+   "（上から）降りてくる：come down the stairs"
+  ]
+ },
+ {
+  "src": "M0220",
+  "id": "come-on",
+  "cat": "phrasal",
+  "en": "come on",
+  "ipa": "/ˌkʌm ˈɑːn/",
+  "sense": "（明かりなどが）つく",
+  "ja": "点灯する",
+  "ex": {
+   "en": "The street lights come on at dusk.",
+   "ja": "街灯は夕暮れにつく。",
+   "mark": [
+    "come on"
+   ]
+  },
+  "core": "止まっていた機器が動いている状態（on）になる。",
+  "other": [
+   "さあ、早く：Come on, let's go!"
+  ]
+ },
+ {
+  "src": "M0221",
+  "id": "come-together",
+  "cat": "phrasal",
+  "en": "come together",
+  "ipa": "/ˌkʌm təˈɡɛðɚ/",
+  "sense": "（人々が）集まる",
+  "ja": "集まる",
+  "ex": {
+   "en": "People came together in the square.",
+   "ja": "人々は広場に集まった。",
+   "mark": [
+    "came together"
+   ]
+  },
+  "core": "別々の場所から、一緒に（together）なる。",
+  "other": [
+   "（物事が）まとまる：The plan came together."
+  ]
+ },
+ {
+  "src": "M0222",
+  "id": "get-along",
+  "cat": "phrasal",
+  "en": "get along",
+  "ipa": "/ˌɡɛt əˈlɔːŋ/",
+  "sense": "仲良くやっていく",
+  "ja": "仲良くやる",
+  "ex": {
+   "en": "I get along well with my coworkers.",
+   "ja": "私は同僚とうまくやっている。",
+   "mark": [
+    "get along"
+   ]
+  },
+  "core": "相手と同じ方向に沿って（along）無理なく進む。",
+  "other": [
+   "（なんとか）やっていく：get along without a car"
+  ]
+ },
+ {
+  "src": "M0223",
+  "id": "get-together",
+  "cat": "phrasal",
+  "en": "get together",
+  "ipa": "/ˌɡɛt təˈɡɛðɚ/",
+  "sense": "（人が）集まる、会う",
+  "ja": "集まる",
+  "ex": {
+   "en": "Let's get together for dinner on Friday.",
+   "ja": "金曜日に夕食を食べに集まろう。",
+   "mark": [
+    "get together"
+   ]
+  },
+  "core": "人が一緒に（together）なる状態になる。",
+  "other": []
+ },
+ {
+  "src": "M0224",
+  "id": "get-by",
+  "cat": "phrasal",
+  "en": "get by",
+  "ipa": "/ˌɡɛt ˈbaɪ/",
+  "sense": "何とかやっていく",
+  "ja": "何とか暮らす",
+  "ex": {
+   "en": "They get by on a small income.",
+   "ja": "彼らは少ない収入で何とか暮らしている。",
+   "mark": [
+    "get by"
+   ]
+  },
+  "core": "ぎりぎりの条件のそばを（by）通り抜けていく。",
+  "other": [
+   "通り過ぎる：get by the crowd"
+  ]
+ },
+ {
+  "src": "M0225",
+  "id": "get-over",
+  "cat": "phrasal",
+  "en": "get over",
+  "ipa": "/ˌɡɛt ˈoʊvɚ/",
+  "sense": "（病気・ショックなどから）立ち直る",
+  "ja": "立ち直る",
+  "ex": {
+   "en": "It took her a week to get over the cold.",
+   "ja": "彼女は風邪が治るのに1週間かかった。",
+   "mark": [
+    "get over"
+   ]
+  },
+  "core": "障害を乗り越えて（over）向こう側へ行く。",
+  "other": []
+ },
+ {
+  "src": "M0226",
+  "id": "get-through",
+  "cat": "phrasal",
+  "en": "get through",
+  "ipa": "/ˌɡɛt ˈθruː/",
+  "sense": "（仕事などを）終える、切り抜ける",
+  "ja": "終える",
+  "ex": {
+   "en": "I need to get through this pile of work today.",
+   "ja": "今日はこの山積みの仕事を終わらせなければならない。",
+   "mark": [
+    "get through"
+   ]
+  },
+  "core": "最初から終わりまで通り抜ける（through）。",
+  "other": [
+   "（電話が）つながる：I couldn't get through."
+  ]
+ },
+ {
+  "src": "M0227",
+  "id": "get-ahead",
+  "cat": "phrasal",
+  "en": "get ahead",
+  "ipa": "/ˌɡɛt əˈhɛd/",
+  "sense": "（仕事などで）成功する、出世する",
+  "ja": "出世する",
+  "ex": {
+   "en": "She worked hard to get ahead in her career.",
+   "ja": "彼女は仕事で成功しようと懸命に働いた。",
+   "mark": [
+    "get ahead"
+   ]
+  },
+  "core": "他の人より前（ahead）に出る。",
+  "other": [
+   "（予定より）先に進む：get ahead of schedule"
+  ]
+ },
+ {
+  "src": "M0228",
+  "id": "get-away",
+  "cat": "phrasal",
+  "en": "get away",
+  "ipa": "/ˌɡɛt əˈweɪ/",
+  "sense": "逃げる、離れる",
+  "ja": "逃げる",
+  "ex": {
+   "en": "The thief got away before the police came.",
+   "ja": "警察が来る前に泥棒は逃げた。",
+   "mark": [
+    "got away"
+   ]
+  },
+  "core": "その場から離れた所（away）へ抜け出す。",
+  "other": [
+   "（休暇で）出かける：get away for a weekend"
+  ]
+ },
+ {
+  "src": "M0229",
+  "id": "get-across",
+  "cat": "phrasal",
+  "en": "get across",
+  "ipa": "/ˌɡɛt əˈkrɔːs/",
+  "sense": "（考えなどが）伝わる",
+  "ja": "伝わる",
+  "ex": {
+   "en": "I couldn't get my point across to him.",
+   "ja": "私は自分の言いたいことを彼に伝えられなかった。",
+   "mark": [
+    "get my point across"
+   ]
+  },
+  "core": "考えを相手のところまで、向こう側（across）へ渡す。",
+  "other": [
+   "（道などを）渡る：get across the river"
+  ]
+ },
+ {
+  "src": "M0230",
+  "id": "get-down",
+  "cat": "phrasal",
+  "en": "get down",
+  "ipa": "/ˌɡɛt ˈdaʊn/",
+  "sense": "（高い所から）降りる",
+  "ja": "降りる",
+  "ex": {
+   "en": "The cat can't get down from the tree.",
+   "ja": "猫は木から降りられない。",
+   "mark": [
+    "get down"
+   ]
+  },
+  "core": "高い所から下（down）の位置へ移る。",
+  "other": [
+   "〜を落ち込ませる：The rain gets me down."
+  ]
+ },
+ {
+  "src": "M0231",
+  "id": "get-up-to",
+  "cat": "phrasal",
+  "en": "get up to",
+  "ipa": "/ˌɡɛt ˈʌp tuː/",
+  "sense": "（英）何かをする、しでかす",
+  "ja": "何かをする",
+  "ex": {
+   "en": "What did you get up to last weekend?",
+   "ja": "先週末は何をしていたの？",
+   "mark": [
+    "get up to"
+   ]
+  },
+  "core": "ある状況の中で、何かの行動に及ぶ。",
+  "other": [
+   "（ある所に）達する：get up to page ten"
+  ]
+ },
+ {
+  "src": "M0232",
+  "id": "get-around",
+  "cat": "phrasal",
+  "en": "get around",
+  "ipa": "/ˌɡɛt əˈraʊnd/",
+  "sense": "あちこち移動する",
+  "ja": "あちこち移動する",
+  "ex": {
+   "en": "It is easy to get around the city by bike.",
+   "ja": "その街は自転車であちこち移動しやすい。",
+   "mark": [
+    "get around"
+   ]
+  },
+  "core": "いろいろな場所を回って（around）動く。",
+  "other": [
+   "（うわさが）広まる：The news got around."
+  ]
+ },
+ {
+  "src": "M0233",
+  "id": "get-at",
+  "cat": "phrasal",
+  "en": "get at",
+  "ipa": "/ˌɡɛt ˈæt/",
+  "sense": "言おうとする、ほのめかす",
+  "ja": "言おうとする",
+  "ex": {
+   "en": "What are you getting at?",
+   "ja": "何が言いたいの？",
+   "mark": [
+    "getting at"
+   ]
+  },
+  "core": "言葉の先にある、ある点（at）に手を伸ばす。",
+  "other": [
+   "（物に）手が届く：get at the top shelf"
+  ]
+ },
+ {
+  "src": "M0234",
+  "id": "get-into",
+  "cat": "phrasal",
+  "en": "get into",
+  "ipa": "/ˌɡɛt ˈɪntuː/",
+  "sense": "夢中になる、はまる",
+  "ja": "夢中になる",
+  "ex": {
+   "en": "He got into jazz when he was fifteen.",
+   "ja": "彼は15歳のときジャズにはまった。",
+   "mark": [
+    "got into"
+   ]
+  },
+  "core": "ある世界の中（into）へ入り込む。",
+  "other": [
+   "（車などに）乗り込む：get into the car"
+  ]
+ },
+ {
+  "src": "M0235",
+  "id": "get-on-with",
+  "cat": "phrasal",
+  "en": "get on with",
+  "ipa": "/ˌɡɛt ˈɑːn wɪð/",
+  "sense": "（中断せず）取りかかる、進める",
+  "ja": "進める",
+  "ex": {
+   "en": "Let's stop talking and get on with the work.",
+   "ja": "おしゃべりをやめて仕事に取りかかろう。",
+   "mark": [
+    "get on with"
+   ]
+  },
+  "core": "止まっていたことに戻り、先へ進む（on）。",
+  "other": [
+   "（英）〜と仲良くやる：get on with my neighbor"
+  ]
+ },
+ {
+  "src": "M0236",
+  "id": "get-away-with",
+  "cat": "phrasal",
+  "en": "get away with",
+  "ipa": "/ˌɡɛt əˈweɪ wɪð/",
+  "sense": "（悪事を）罰を受けずに済ませる",
+  "ja": "罰を受けずに済む",
+  "ex": {
+   "en": "He got away with breaking the rule.",
+   "ja": "彼は規則を破ったのにおとがめなしで済んだ。",
+   "mark": [
+    "got away with"
+   ]
+  },
+  "core": "悪いことをしても、罰を受けずにその場から離れる（away）。",
+  "other": []
+ },
+ {
+  "src": "M0237",
+  "id": "get-rid-of",
+  "cat": "phrasal",
+  "en": "get rid of",
+  "ipa": "/ˌɡɛt ˈrɪd əv/",
+  "sense": "処分する、取り除く",
+  "ja": "処分する",
+  "ex": {
+   "en": "We need to get rid of this old sofa.",
+   "ja": "この古いソファを処分しなければならない。",
+   "mark": [
+    "get rid of"
+   ]
+  },
+  "core": "いらない物を自分から離して、なくす。",
+  "other": []
+ },
+ {
+  "src": "M0239",
+  "id": "give-in",
+  "cat": "phrasal",
+  "en": "give in",
+  "ipa": "/ˌɡɪv ˈɪn/",
+  "sense": "（反対をやめて）折れる、屈する",
+  "ja": "折れる",
+  "ex": {
+   "en": "He finally gave in and let us go.",
+   "ja": "彼はついに折れて、私たちを行かせてくれた。",
+   "mark": [
+    "gave in"
+   ]
+  },
+  "core": "抵抗する力をゆるめて、相手の側へ（in）譲る。",
+  "other": [
+   "（書類を）提出する：give in the homework"
+  ]
+ },
+ {
+  "src": "M0240",
+  "id": "give-out",
+  "cat": "phrasal",
+  "en": "give out",
+  "ipa": "/ˌɡɪv ˈaʊt/",
+  "sense": "（人々に）配る",
+  "ja": "配る",
+  "ex": {
+   "en": "They gave out leaflets at the entrance.",
+   "ja": "彼らは入口でちらしを配っていた。",
+   "mark": [
+    "gave out"
+   ]
+  },
+  "core": "手持ちの物を外（out）へ配り出す。",
+  "other": [
+   "（物が）尽きる：Our supplies gave out."
+  ]
+ },
+ {
+  "src": "M0241",
+  "id": "give-away",
+  "cat": "phrasal",
+  "en": "give away",
+  "ipa": "/ˌɡɪv əˈweɪ/",
+  "sense": "無料で譲る、あげる",
+  "ja": "無料で譲る",
+  "ex": {
+   "en": "I gave away my old clothes to a neighbor.",
+   "ja": "私は古い服を近所の人にあげた。",
+   "mark": [
+    "gave away"
+   ]
+  },
+  "core": "自分の手元から離して（away）、人にあげる。",
+  "other": [
+   "（秘密を）うっかり漏らす：give away the secret"
+  ]
+ },
+ {
+  "src": "M0242",
+  "id": "give-off",
+  "cat": "phrasal",
+  "en": "give off",
+  "ipa": "/ˌɡɪv ˈɔːf/",
+  "sense": "（におい・熱などを）放つ",
+  "ja": "放つ",
+  "ex": {
+   "en": "The flowers give off a sweet smell.",
+   "ja": "その花は甘い香りを放っている。",
+   "mark": [
+    "give off"
+   ]
+  },
+  "core": "自分の中から外へ離して（off）出す。",
+  "other": []
+ },
+ {
+  "src": "M0243",
+  "id": "give-way",
+  "cat": "phrasal",
+  "en": "give way",
+  "ipa": "/ˌɡɪv ˈweɪ/",
+  "sense": "（重みで）崩れる、壊れる",
+  "ja": "崩れる",
+  "ex": {
+   "en": "The old bridge gave way under the weight.",
+   "ja": "古い橋が重みに耐えきれず崩れた。",
+   "mark": [
+    "gave way"
+   ]
+  },
+  "core": "支える力がなくなり、道を開けるように壊れる。",
+  "other": [
+   "（相手に）道を譲る：give way to traffic"
+  ]
+ },
+ {
+  "src": "M0244",
+  "id": "give-up-on",
+  "cat": "phrasal",
+  "en": "give up on",
+  "ipa": "/ˌɡɪv ˈʌp ɑːn/",
+  "sense": "（〜を）見限る、あきらめる",
+  "ja": "見限る",
+  "ex": {
+   "en": "Don't give up on your dream yet.",
+   "ja": "まだ夢をあきらめないで。",
+   "mark": [
+    "give up on"
+   ]
+  },
+  "core": "期待をやめて、その対象から手を引く。",
+  "other": []
+ },
+ {
+  "src": "M0245",
+  "id": "take-over",
+  "cat": "phrasal",
+  "en": "take over",
+  "ipa": "/ˌteɪk ˈoʊvɚ/",
+  "sense": "（仕事などを）引き継ぐ",
+  "ja": "引き継ぐ",
+  "ex": {
+   "en": "She will take over my job next month.",
+   "ja": "来月、彼女が私の仕事を引き継ぐ。",
+   "mark": [
+    "take over"
+   ]
+  },
+  "core": "他の人が持っていた物を受け取って、向こう側（over）から自分の手に移す。",
+  "other": [
+   "（会社などを）買収する：take over a company"
+  ]
+ },
+ {
+  "src": "M0246",
+  "id": "take-up",
+  "cat": "phrasal",
+  "en": "take up",
+  "ipa": "/ˌteɪk ˈʌp/",
+  "sense": "（趣味などを）始める",
+  "ja": "始める",
+  "ex": {
+   "en": "He took up the guitar last spring.",
+   "ja": "彼は去年の春にギターを始めた。",
+   "mark": [
+    "took up"
+   ]
+  },
+  "core": "新しいものを手に取って（up）始める。",
+  "other": [
+   "（場所・時間を）取る：take up space"
+  ]
+ },
+ {
+  "src": "M0247",
+  "id": "take-on",
+  "cat": "phrasal",
+  "en": "take on",
+  "ipa": "/ˌteɪk ˈɑːn/",
+  "sense": "（仕事などを）引き受ける",
+  "ja": "引き受ける",
+  "ex": {
+   "en": "She took on a new project at work.",
+   "ja": "彼女は仕事で新しいプロジェクトを引き受けた。",
+   "mark": [
+    "took on"
+   ]
+  },
+  "core": "新しい役目を自分の側に取り込む（on）。",
+  "other": [
+   "（相手と）対戦する：take on the champion"
+  ]
+ },
+ {
+  "src": "M0248",
+  "id": "take-in",
+  "cat": "phrasal",
+  "en": "take in",
+  "ipa": "/ˌteɪk ˈɪn/",
+  "sense": "（内容を）理解する、取り込む",
+  "ja": "理解する",
+  "ex": {
+   "en": "It was hard to take in so much information.",
+   "ja": "これほど多くの情報を理解するのは難しかった。",
+   "mark": [
+    "take in"
+   ]
+  },
+  "core": "外にある物を自分の中（in）に取り入れる。",
+  "other": [
+   "（人を）泊める：take in a stray cat"
+  ]
+ },
+ {
+  "src": "M0249",
+  "id": "take-after",
+  "cat": "phrasal",
+  "en": "take after",
+  "ipa": "/ˌteɪk ˈæftɚ/",
+  "sense": "（親などに）似ている",
+  "ja": "似ている",
+  "ex": {
+   "en": "She takes after her mother.",
+   "ja": "彼女は母親に似ている。",
+   "mark": [
+    "takes after"
+   ]
+  },
+  "core": "親のあと（after）に続くように、同じ性質を受け継ぐ。",
+  "other": []
+ },
+ {
+  "src": "M0250",
+  "id": "take-to",
+  "cat": "phrasal",
+  "en": "take to",
+  "ipa": "/ˌteɪk ˈtuː/",
+  "sense": "（人・物を）好きになる",
+  "ja": "好きになる",
+  "ex": {
+   "en": "The children took to the puppy right away.",
+   "ja": "子どもたちはすぐに子犬を好きになった。",
+   "mark": [
+    "took to"
+   ]
+  },
+  "core": "その人や物に向かって（to）気持ちが傾く。",
+  "other": [
+   "（習慣として）始める：take to jogging"
+  ]
+ },
+ {
+  "src": "M0251",
+  "id": "take-along",
+  "cat": "phrasal",
+  "en": "take along",
+  "ipa": "/ˌteɪk əˈlɔːŋ/",
+  "sense": "（一緒に）連れていく、持っていく",
+  "ja": "連れていく",
+  "ex": {
+   "en": "We took our kids along on the trip.",
+   "ja": "私たちは旅行に子どもたちも連れていった。",
+   "mark": [
+    "took our kids along"
+   ]
+  },
+  "core": "一緒に（along）連れて移動する。",
+  "other": []
+ },
+ {
+  "src": "M0252",
+  "id": "take-away-from",
+  "cat": "phrasal",
+  "en": "take away from",
+  "ipa": "/ˌteɪk əˈweɪ frʌm/",
+  "sense": "（価値などを）損なう",
+  "ja": "損なう",
+  "ex": {
+   "en": "One small scratch doesn't take away from its beauty.",
+   "ja": "小さな傷ひとつで、その美しさは損なわれない。",
+   "mark": [
+    "take away from"
+   ]
+  },
+  "core": "価値の一部を取り去って、減らす。",
+  "other": []
+ },
+ {
+  "src": "M0253",
+  "id": "take-out-on",
+  "cat": "phrasal",
+  "en": "take out on",
+  "ipa": "/ˌteɪk ˈaʊt ɑːn/",
+  "sense": "（人に）八つ当たりする",
+  "ja": "八つ当たりする",
+  "ex": {
+   "en": "Don't take it out on me.",
+   "ja": "私に八つ当たりしないで。",
+   "mark": [
+    "take it out on"
+   ]
+  },
+  "core": "たまった怒りを外（out）へ出し、関係のない人（on）にぶつける。",
+  "other": []
+ }
+]

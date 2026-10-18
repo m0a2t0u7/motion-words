@@ -1,0 +1,1876 @@
+[
+ {
+  "src": "M1699",
+  "id": "grade",
+  "cat": "word",
+  "en": "grade",
+  "ipa": "/ɡreɪd/",
+  "sense": "（学校の）成績、評価",
+  "ja": "成績",
+  "ex": {
+   "en": "She got a good grade on the math test.",
+   "ja": "彼女は数学のテストでよい成績をとった。",
+   "mark": [
+    "grade"
+   ]
+  },
+  "core": "努力の結果を、段階（階級）で表したもの。",
+  "other": [
+   "（学年）年生：He is in the fifth grade."
+  ]
+ },
+ {
+  "src": "M1700",
+  "id": "mark",
+  "cat": "word",
+  "en": "mark",
+  "ipa": "/mɑːrk/",
+  "sense": "（試験などの）点数、評点",
+  "ja": "評点",
+  "ex": {
+   "en": "I got a high mark in English this term.",
+   "ja": "今学期、英語でよい点数をとった。",
+   "mark": [
+    "mark"
+   ]
+  },
+  "core": "答案につけられた印が、そのまま点数を表す。",
+  "diff": "grade は成績の段階。mark は個々の採点の点数。（英）で特によく使う。",
+  "other": [
+   "しるし、跡：a mark on the wall"
+  ]
+ },
+ {
+  "src": "M1701",
+  "id": "certificate",
+  "cat": "word",
+  "en": "certificate",
+  "ipa": "/sərˈtɪfɪkət/",
+  "sense": "（資格などの）証明書",
+  "ja": "証明書",
+  "ex": {
+   "en": "She received a certificate after the course.",
+   "ja": "彼女は講座のあとで修了証をもらった。",
+   "mark": [
+    "certificate"
+   ]
+  },
+  "core": "ある事実が確かだと、紙で証明するもの。",
+  "other": []
+ },
+ {
+  "src": "M1702",
+  "id": "degree",
+  "cat": "word",
+  "en": "degree",
+  "ipa": "/dɪˈɡriː/",
+  "sense": "（大学の）学位",
+  "ja": "学位",
+  "ex": {
+   "en": "He has a degree in history.",
+   "ja": "彼は歴史学の学位を持っている。",
+   "mark": [
+    "degree"
+   ]
+  },
+  "core": "学びの段階（階段の一段）をのぼった証。",
+  "diff": "diploma は卒業証書の紙。degree は学位そのもの。",
+  "other": [
+   "程度、度：a high degree of skill",
+   "（温度・角度の）度：20 degrees"
+  ]
+ },
+ {
+  "src": "M1703",
+  "id": "book",
+  "cat": "word",
+  "en": "book",
+  "ipa": "/bʊk/",
+  "sense": "本、書籍",
+  "ja": "本",
+  "ex": {
+   "en": "I read a book on the train every day.",
+   "ja": "私は毎日電車で本を読む。",
+   "mark": [
+    "book"
+   ]
+  },
+  "core": "文字が綴じられてひとまとまりになったもの。",
+  "other": [
+   "予約する：book a table"
+  ]
+ },
+ {
+  "src": "M1704",
+  "id": "textbook",
+  "cat": "word",
+  "en": "textbook",
+  "ipa": "/ˈtɛkstbʊk/",
+  "sense": "教科書",
+  "ja": "教科書",
+  "ex": {
+   "en": "Please open your textbook to page ten.",
+   "ja": "教科書の10ページを開いてください。",
+   "mark": [
+    "textbook"
+   ]
+  },
+  "core": "授業で使う本（text + book）。",
+  "other": []
+ },
+ {
+  "src": "M1705",
+  "id": "dictionary",
+  "cat": "word",
+  "en": "dictionary",
+  "ipa": "/ˈdɪkʃəˌnɛri/",
+  "sense": "辞書",
+  "ja": "辞書",
+  "ex": {
+   "en": "I looked up the word in a dictionary.",
+   "ja": "私はその単語を辞書で調べた。",
+   "mark": [
+    "dictionary"
+   ]
+  },
+  "core": "言葉を集めて、意味を引けるようにした本。",
+  "other": []
+ },
+ {
+  "src": "M1706",
+  "id": "magazine",
+  "cat": "word",
+  "en": "magazine",
+  "ipa": "/ˈmæɡəˌziːn/",
+  "sense": "雑誌",
+  "ja": "雑誌",
+  "ex": {
+   "en": "She buys a fashion magazine every month.",
+   "ja": "彼女は毎月ファッション雑誌を買う。",
+   "mark": [
+    "magazine"
+   ]
+  },
+  "core": "さまざまな記事や写真をまとめて、定期的に出す刊行物。",
+  "other": []
+ },
+ {
+  "src": "M1707",
+  "id": "newspaper",
+  "cat": "word",
+  "en": "newspaper",
+  "ipa": "/ˈnuːzˌpeɪpər/",
+  "sense": "新聞",
+  "ja": "新聞",
+  "ex": {
+   "en": "My father reads the newspaper after breakfast.",
+   "ja": "父は朝食のあとに新聞を読む。",
+   "mark": [
+    "newspaper"
+   ]
+  },
+  "core": "ニュース（news）を紙（paper）に載せたもの。",
+  "other": []
+ },
+ {
+  "src": "M1708",
+  "id": "article",
+  "cat": "word",
+  "en": "article",
+  "ipa": "/ˈɑːrtɪkəl/",
+  "sense": "（新聞・雑誌の）記事",
+  "ja": "記事",
+  "ex": {
+   "en": "I read an interesting article about space.",
+   "ja": "私は宇宙についてのおもしろい記事を読んだ。",
+   "mark": [
+    "article"
+   ]
+  },
+  "core": "新聞や雑誌の中の、ひとまとまりの文章。",
+  "other": [
+   "（品詞の）冠詞：the は定冠詞",
+   "（物）品、一品：an article of clothing"
+  ]
+ },
+ {
+  "src": "M1709",
+  "id": "chapter",
+  "cat": "word",
+  "en": "chapter",
+  "ipa": "/ˈtʃæptər/",
+  "sense": "（本の）章",
+  "ja": "章",
+  "ex": {
+   "en": "The story begins in the first chapter.",
+   "ja": "物語は第1章から始まる。",
+   "mark": [
+    "chapter"
+   ]
+  },
+  "core": "本をいくつかに区切った、ひとまとまり。",
+  "other": []
+ },
+ {
+  "src": "M1710",
+  "id": "paragraph",
+  "cat": "word",
+  "en": "paragraph",
+  "ipa": "/ˈpærəˌɡræf/",
+  "sense": "（文章の）段落",
+  "ja": "段落",
+  "ex": {
+   "en": "Each paragraph should have one main idea.",
+   "ja": "各段落には中心となる考えを一つ置くべきだ。",
+   "mark": [
+    "paragraph"
+   ]
+  },
+  "core": "同じ話題でまとめた文のかたまり。改行して区切る。",
+  "other": []
+ },
+ {
+  "src": "M1711",
+  "id": "sentence",
+  "cat": "word",
+  "en": "sentence",
+  "ipa": "/ˈsɛntəns/",
+  "sense": "文",
+  "ja": "文",
+  "ex": {
+   "en": "Please write a sentence with this word.",
+   "ja": "この単語を使って文を書いてください。",
+   "mark": [
+    "sentence"
+   ]
+  },
+  "core": "主語と述語を備え、言いたいことを完結させた言葉のまとまり。",
+  "other": [
+   "判決、刑：a life sentence"
+  ]
+ },
+ {
+  "src": "M1712",
+  "id": "word",
+  "cat": "word",
+  "en": "word",
+  "ipa": "/wɝːd/",
+  "sense": "単語、語",
+  "ja": "単語",
+  "ex": {
+   "en": "I don't know this word. Can you explain it?",
+   "ja": "この単語がわからない。説明してくれる？",
+   "mark": [
+    "word"
+   ]
+  },
+  "core": "意味を持つ最小の言葉のかたまり。",
+  "other": [
+   "約束：keep my word"
+  ]
+ },
+ {
+  "src": "M1713",
+  "id": "phrase",
+  "cat": "word",
+  "en": "phrase",
+  "ipa": "/freɪz/",
+  "sense": "語句、フレーズ",
+  "ja": "語句",
+  "ex": {
+   "en": "This phrase is often used in business.",
+   "ja": "この語句はビジネスでよく使われる。",
+   "mark": [
+    "phrase"
+   ]
+  },
+  "core": "いくつかの語が集まって一つの意味を作るまとまり。",
+  "other": []
+ },
+ {
+  "src": "M1714",
+  "id": "language",
+  "cat": "word",
+  "en": "language",
+  "ipa": "/ˈlæŋɡwɪdʒ/",
+  "sense": "言語、言葉",
+  "ja": "言語",
+  "ex": {
+   "en": "She can speak three languages.",
+   "ja": "彼女は3か国語を話せる。",
+   "mark": [
+    "language"
+   ]
+  },
+  "core": "人が考えや気持ちを伝えるための言葉の体系。",
+  "other": []
+ },
+ {
+  "src": "M1715",
+  "id": "grammar",
+  "cat": "word",
+  "en": "grammar",
+  "ipa": "/ˈɡræmər/",
+  "sense": "文法",
+  "ja": "文法",
+  "ex": {
+   "en": "English grammar is easy once you learn the rules.",
+   "ja": "英語の文法は、規則を覚えればやさしい。",
+   "mark": [
+    "grammar"
+   ]
+  },
+  "core": "言葉を正しく組み立てるための決まり。",
+  "other": []
+ },
+ {
+  "src": "M1719",
+  "id": "excellent",
+  "cat": "word",
+  "en": "excellent",
+  "ipa": "/ˈɛksələnt/",
+  "sense": "非常に優れた",
+  "ja": "非常に優れた",
+  "ex": {
+   "en": "The food at this restaurant is excellent.",
+   "ja": "このレストランの料理は素晴らしい。",
+   "mark": [
+    "excellent"
+   ]
+  },
+  "core": "ほかより大きく抜け出て、とても優れている。",
+  "diff": "good より強く、最高に近い評価。",
+  "other": []
+ },
+ {
+  "src": "M1720",
+  "id": "terrible",
+  "cat": "word",
+  "en": "terrible",
+  "ipa": "/ˈtɛrəbəl/",
+  "sense": "ひどい、最悪の",
+  "ja": "ひどい",
+  "ex": {
+   "en": "The weather was terrible all week.",
+   "ja": "一週間ずっと天気がひどかった。",
+   "mark": [
+    "terrible"
+   ]
+  },
+  "core": "もともとは「恐ろしい」。そこから、とても悪い状態を表す。",
+  "other": []
+ },
+ {
+  "src": "M1721",
+  "id": "wonderful",
+  "cat": "word",
+  "en": "wonderful",
+  "ipa": "/ˈwʌndərfəl/",
+  "sense": "すてきな、すばらしい",
+  "ja": "すてきな",
+  "ex": {
+   "en": "We had a wonderful time at the beach.",
+   "ja": "私たちは海辺ですばらしい時間を過ごした。",
+   "mark": [
+    "wonderful"
+   ]
+  },
+  "core": "思わず「わあ（wonder）」と感動するほどよい。",
+  "other": []
+ },
+ {
+  "src": "M1722",
+  "id": "perfect",
+  "cat": "word",
+  "en": "perfect",
+  "ipa": "/ˈpɝːfɪkt/",
+  "sense": "完璧な、申し分ない",
+  "ja": "完璧な",
+  "ex": {
+   "en": "This is the perfect place for a picnic.",
+   "ja": "ここはピクニックにぴったりの場所だ。",
+   "mark": [
+    "perfect"
+   ]
+  },
+  "core": "足りないところも余りもなく、欠点がない。",
+  "other": []
+ },
+ {
+  "src": "M1726",
+  "id": "pretty",
+  "cat": "word",
+  "en": "pretty",
+  "ipa": "/ˈprɪti/",
+  "sense": "かわいらしい、きれいな",
+  "ja": "かわいらしい",
+  "ex": {
+   "en": "She wore a pretty dress to the party.",
+   "ja": "彼女はパーティーにかわいいドレスを着ていった。",
+   "mark": [
+    "pretty"
+   ]
+  },
+  "core": "見た目が愛らしく、心地よい。",
+  "diff": "beautiful ほど強くなく、親しみのある美しさ。",
+  "other": [
+   "かなり（副詞）：It's pretty cold today."
+  ]
+ },
+ {
+  "src": "M1727",
+  "id": "ugly",
+  "cat": "word",
+  "en": "ugly",
+  "ipa": "/ˈʌɡli/",
+  "sense": "醜い、見苦しい",
+  "ja": "醜い",
+  "ex": {
+   "en": "I don't like this ugly old building.",
+   "ja": "私はこの古くて醜い建物が好きではない。",
+   "mark": [
+    "ugly"
+   ]
+  },
+  "core": "見て不快になるほど、美しくない。",
+  "other": []
+ },
+ {
+  "src": "M1731",
+  "id": "tiny",
+  "cat": "word",
+  "en": "tiny",
+  "ipa": "/ˈtaɪni/",
+  "sense": "ごく小さい",
+  "ja": "ごく小さい",
+  "ex": {
+   "en": "A tiny bird sat on the branch.",
+   "ja": "小さな鳥が枝にとまっていた。",
+   "mark": [
+    "tiny"
+   ]
+  },
+  "core": "small よりもさらに小さく、ほんの少し。",
+  "other": []
+ },
+ {
+  "src": "M1732",
+  "id": "huge",
+  "cat": "word",
+  "en": "huge",
+  "ipa": "/hjuːdʒ/",
+  "sense": "巨大な、莫大な",
+  "ja": "巨大な",
+  "ex": {
+   "en": "They live in a huge house near the lake.",
+   "ja": "彼らは湖の近くの巨大な家に住んでいる。",
+   "mark": [
+    "huge"
+   ]
+  },
+  "core": "big をはるかに超えた、並外れた大きさ。",
+  "other": []
+ },
+ {
+  "src": "M1736",
+  "id": "wide",
+  "cat": "word",
+  "en": "wide",
+  "ipa": "/waɪd/",
+  "sense": "幅が広い",
+  "ja": "幅が広い",
+  "ex": {
+   "en": "The river is wide at this point.",
+   "ja": "川はこのあたりで幅が広くなっている。",
+   "mark": [
+    "wide"
+   ]
+  },
+  "core": "端から端までの距離が大きい。",
+  "diff": "broad は広がりのある印象。wide は幅の数値を言うときによく使う。",
+  "other": []
+ },
+ {
+  "src": "M1737",
+  "id": "narrow",
+  "cat": "word",
+  "en": "narrow",
+  "ipa": "/ˈnæroʊ/",
+  "sense": "幅が狭い",
+  "ja": "幅が狭い",
+  "ex": {
+   "en": "The road to the village is very narrow.",
+   "ja": "その村へ続く道はとても狭い。",
+   "mark": [
+    "narrow"
+   ]
+  },
+  "core": "端から端までの距離が小さい。",
+  "other": []
+ },
+ {
+  "src": "M1738",
+  "id": "thick",
+  "cat": "word",
+  "en": "thick",
+  "ipa": "/θɪk/",
+  "sense": "厚い、太い",
+  "ja": "厚い",
+  "ex": {
+   "en": "He cut a thick slice of bread.",
+   "ja": "彼は厚切りのパンを切った。",
+   "mark": [
+    "thick"
+   ]
+  },
+  "core": "表と裏の間の距離が大きい。",
+  "other": [
+   "（液体が）濃い：thick soup"
+  ]
+ },
+ {
+  "src": "M1739",
+  "id": "thin",
+  "cat": "word",
+  "en": "thin",
+  "ipa": "/θɪn/",
+  "sense": "薄い、細い",
+  "ja": "薄い",
+  "ex": {
+   "en": "The wall is so thin that I can hear the neighbors.",
+   "ja": "壁が薄くて、隣人の声が聞こえる。",
+   "mark": [
+    "thin"
+   ]
+  },
+  "core": "表と裏の間の距離が小さい。",
+  "other": [
+   "やせた：a thin man"
+  ]
+ },
+ {
+  "src": "M1740",
+  "id": "deep",
+  "cat": "word",
+  "en": "deep",
+  "ipa": "/diːp/",
+  "sense": "深い",
+  "ja": "深い",
+  "ex": {
+   "en": "The lake is very deep in the middle.",
+   "ja": "その湖は真ん中がとても深い。",
+   "mark": [
+    "deep"
+   ]
+  },
+  "core": "上から底までの距離が大きい。",
+  "other": []
+ },
+ {
+  "src": "M1741",
+  "id": "shallow",
+  "cat": "word",
+  "en": "shallow",
+  "ipa": "/ˈʃæloʊ/",
+  "sense": "浅い",
+  "ja": "浅い",
+  "ex": {
+   "en": "Children can play safely in the shallow water.",
+   "ja": "子どもたちは浅い水の中で安全に遊べる。",
+   "mark": [
+    "shallow"
+   ]
+  },
+  "core": "上から底までの距離が小さい。",
+  "other": [
+   "（考えなどが）浅い：a shallow idea"
+  ]
+ },
+ {
+  "src": "M1749",
+  "id": "smooth",
+  "cat": "word",
+  "en": "smooth",
+  "ipa": "/smuːð/",
+  "sense": "滑らかな、すべすべした",
+  "ja": "滑らかな",
+  "ex": {
+   "en": "The baby's skin is soft and smooth.",
+   "ja": "赤ちゃんの肌は柔らかくてすべすべだ。",
+   "mark": [
+    "smooth"
+   ]
+  },
+  "core": "表面に引っかかりやでこぼこがない。",
+  "other": [
+   "（進行が）順調な：a smooth trip"
+  ]
+ },
+ {
+  "src": "M1750",
+  "id": "rough",
+  "cat": "word",
+  "en": "rough",
+  "ipa": "/rʌf/",
+  "sense": "ざらざらした、粗い",
+  "ja": "ざらざらした",
+  "ex": {
+   "en": "The wall felt rough under my hand.",
+   "ja": "壁は手にざらざらと感じた。",
+   "mark": [
+    "rough"
+   ]
+  },
+  "core": "表面にでこぼこがあり、引っかかる。",
+  "other": [
+   "おおよその：a rough idea"
+  ]
+ },
+ {
+  "src": "M1751",
+  "id": "sharp",
+  "cat": "word",
+  "en": "sharp",
+  "ipa": "/ʃɑːrp/",
+  "sense": "鋭い、よく切れる",
+  "ja": "鋭い",
+  "ex": {
+   "en": "Be careful. That knife is very sharp.",
+   "ja": "気をつけて。そのナイフはとても鋭いよ。",
+   "mark": [
+    "sharp"
+   ]
+  },
+  "core": "先や刃が細く尖っていて、よく切れる。",
+  "other": []
+ },
+ {
+  "src": "M1752",
+  "id": "dull",
+  "cat": "word",
+  "en": "dull",
+  "ipa": "/dʌl/",
+  "sense": "切れ味が鈍い",
+  "ja": "切れ味が鈍い",
+  "ex": {
+   "en": "This knife is too dull to cut tomatoes.",
+   "ja": "このナイフは切れ味が悪くてトマトが切れない。",
+   "mark": [
+    "dull"
+   ]
+  },
+  "core": "先や刃が丸くなって、鋭さがない。",
+  "other": [
+   "退屈な：a dull movie"
+  ]
+ },
+ {
+  "src": "M1753",
+  "id": "flat",
+  "cat": "word",
+  "en": "flat",
+  "ipa": "/flæt/",
+  "sense": "平らな",
+  "ja": "平らな",
+  "ex": {
+   "en": "The table has a flat surface.",
+   "ja": "そのテーブルは表面が平らだ。",
+   "mark": [
+    "flat"
+   ]
+  },
+  "core": "でこぼこも傾きもなく、水平に広がっている。",
+  "other": [
+   "（タイヤが）パンクした：a flat tire"
+  ]
+ },
+ {
+  "src": "M1754",
+  "id": "round",
+  "cat": "word",
+  "en": "round",
+  "ipa": "/raʊnd/",
+  "sense": "丸い",
+  "ja": "丸い",
+  "ex": {
+   "en": "The baby has big round eyes.",
+   "ja": "その赤ちゃんは大きな丸い目をしている。",
+   "mark": [
+    "round"
+   ]
+  },
+  "core": "角がなく、円や球のかたちをしている。",
+  "other": []
+ },
+ {
+  "src": "M1755",
+  "id": "straight",
+  "cat": "word",
+  "en": "straight",
+  "ipa": "/streɪt/",
+  "sense": "まっすぐな",
+  "ja": "まっすぐな",
+  "ex": {
+   "en": "Draw a straight line with a ruler.",
+   "ja": "定規でまっすぐな線を引いてください。",
+   "mark": [
+    "straight"
+   ]
+  },
+  "core": "曲がりも折れもなく、一方向に伸びている。",
+  "other": []
+ },
+ {
+  "src": "M1756",
+  "id": "curved",
+  "cat": "word",
+  "en": "curved",
+  "ipa": "/kɝːvd/",
+  "sense": "曲がった、湾曲した",
+  "ja": "曲がった",
+  "ex": {
+   "en": "The road follows a curved line along the coast.",
+   "ja": "その道は海岸に沿って曲線を描いている。",
+   "mark": [
+    "curved"
+   ]
+  },
+  "core": "直線ではなく、なめらかに曲がっている。",
+  "other": []
+ },
+ {
+  "src": "M1757",
+  "id": "hollow",
+  "cat": "word",
+  "en": "hollow",
+  "ipa": "/ˈhɑːloʊ/",
+  "sense": "中が空洞の",
+  "ja": "中が空洞の",
+  "ex": {
+   "en": "The tree trunk was hollow inside.",
+   "ja": "その木の幹は中が空洞だった。",
+   "mark": [
+    "hollow"
+   ]
+  },
+  "core": "外側はあるが、中身が空っぽ。",
+  "other": []
+ },
+ {
+  "src": "M1758",
+  "id": "solid",
+  "cat": "word",
+  "en": "solid",
+  "ipa": "/ˈsɑːləd/",
+  "sense": "固体の、中身の詰まった",
+  "ja": "固体の",
+  "ex": {
+   "en": "Ice is water in a solid form.",
+   "ja": "氷は水が固体になったものだ。",
+   "mark": [
+    "solid"
+   ]
+  },
+  "core": "中身が詰まって、形が崩れない。",
+  "diff": "hollow は中が空っぽ。solid は中身が詰まっている。",
+  "other": [
+   "頑丈な：a solid wall",
+   "確かな：solid evidence"
+  ]
+ },
+ {
+  "src": "M1759",
+  "id": "liquid",
+  "cat": "word",
+  "en": "liquid",
+  "ipa": "/ˈlɪkwɪd/",
+  "sense": "液体の",
+  "ja": "液体の",
+  "ex": {
+   "en": "Water is a liquid substance.",
+   "ja": "水は液体の物質だ。",
+   "mark": [
+    "liquid"
+   ]
+  },
+  "core": "決まった形がなく、流れる状態。",
+  "other": []
+ },
+ {
+  "src": "M1762",
+  "id": "chilly",
+  "cat": "word",
+  "en": "chilly",
+  "ipa": "/ˈtʃɪli/",
+  "sense": "肌寒い",
+  "ja": "肌寒い",
+  "ex": {
+   "en": "It gets chilly in the evening in October.",
+   "ja": "10月は夕方になると肌寒くなる。",
+   "mark": [
+    "chilly"
+   ]
+  },
+  "core": "cold ほどではないが、ひやりとして少し寒い。",
+  "diff": "cool より寒く、cold より弱い。",
+  "other": []
+ },
+ {
+  "src": "M1763",
+  "id": "freezing",
+  "cat": "word",
+  "en": "freezing",
+  "ipa": "/ˈfriːzɪŋ/",
+  "sense": "凍えるほど寒い",
+  "ja": "凍えるほど寒い",
+  "ex": {
+   "en": "It's freezing outside. Wear a warm coat.",
+   "ja": "外は凍えるほど寒いよ。暖かいコートを着て。",
+   "mark": [
+    "freezing"
+   ]
+  },
+  "core": "水が凍る（freeze）ほどの寒さ。",
+  "other": []
+ },
+ {
+  "src": "M1764",
+  "id": "wet",
+  "cat": "word",
+  "en": "wet",
+  "ipa": "/wɛt/",
+  "sense": "ぬれた、湿った",
+  "ja": "ぬれた",
+  "ex": {
+   "en": "My shoes got wet in the rain.",
+   "ja": "雨で靴がぬれた。",
+   "mark": [
+    "wet"
+   ]
+  },
+  "core": "水分が表面や中に付いている。",
+  "other": []
+ },
+ {
+  "src": "M1765",
+  "id": "damp",
+  "cat": "word",
+  "en": "damp",
+  "ipa": "/dæmp/",
+  "sense": "湿った、しめった",
+  "ja": "湿った",
+  "ex": {
+   "en": "The basement is cold and damp.",
+   "ja": "地下室は寒くて湿っている。",
+   "mark": [
+    "damp"
+   ]
+  },
+  "core": "wet ほどではないが、じっとりと水気がある。",
+  "diff": "wet はぬれている。damp は少し湿っている。",
+  "other": []
+ },
+ {
+  "src": "M1766",
+  "id": "humid",
+  "cat": "word",
+  "en": "humid",
+  "ipa": "/ˈhjuːmɪd/",
+  "sense": "湿度が高い、蒸し暑い",
+  "ja": "蒸し暑い",
+  "ex": {
+   "en": "Summer in Japan is hot and humid.",
+   "ja": "日本の夏は暑くて蒸し暑い。",
+   "mark": [
+    "humid"
+   ]
+  },
+  "core": "空気の中に水分が多く含まれている。",
+  "other": []
+ },
+ {
+  "src": "M1767",
+  "id": "fresh",
+  "cat": "word",
+  "en": "fresh",
+  "ipa": "/frɛʃ/",
+  "sense": "新鮮な、取れたての",
+  "ja": "新鮮な",
+  "ex": {
+   "en": "We bought fresh fish at the market.",
+   "ja": "私たちは市場で新鮮な魚を買った。",
+   "mark": [
+    "fresh"
+   ]
+  },
+  "core": "できたて、とれたてで、傷んでいない。",
+  "other": [
+   "新しい：a fresh start"
+  ]
+ },
+ {
+  "src": "M1768",
+  "id": "stale",
+  "cat": "word",
+  "en": "stale",
+  "ipa": "/steɪl/",
+  "sense": "（食べ物が）古くなった",
+  "ja": "古くなった",
+  "ex": {
+   "en": "This bread is stale. Let's throw it away.",
+   "ja": "このパンは古くなっている。捨てよう。",
+   "mark": [
+    "stale"
+   ]
+  },
+  "core": "時間がたって新鮮さを失い、味が落ちた。",
+  "other": []
+ },
+ {
+  "src": "M1769",
+  "id": "raw",
+  "cat": "word",
+  "en": "raw",
+  "ipa": "/rɔː/",
+  "sense": "生の、加熱していない",
+  "ja": "生の",
+  "ex": {
+   "en": "Some people eat raw fish with soy sauce.",
+   "ja": "生魚をしょうゆで食べる人もいる。",
+   "mark": [
+    "raw"
+   ]
+  },
+  "core": "火を通すなどの手を加えていない、そのままの状態。",
+  "other": []
+ },
+ {
+  "src": "M1770",
+  "id": "ripe",
+  "cat": "word",
+  "en": "ripe",
+  "ipa": "/raɪp/",
+  "sense": "（果物が）熟した",
+  "ja": "熟した",
+  "ex": {
+   "en": "These peaches are ripe and sweet.",
+   "ja": "この桃は熟していて甘い。",
+   "mark": [
+    "ripe"
+   ]
+  },
+  "core": "果物が十分に育ち、食べごろになっている。",
+  "other": []
+ },
+ {
+  "src": "M1771",
+  "id": "sweet",
+  "cat": "word",
+  "en": "sweet",
+  "ipa": "/swiːt/",
+  "sense": "甘い",
+  "ja": "甘い",
+  "ex": {
+   "en": "This cake is too sweet for me.",
+   "ja": "このケーキは私には甘すぎる。",
+   "mark": [
+    "sweet"
+   ]
+  },
+  "core": "砂糖のような味がする。",
+  "other": [
+   "優しい：a sweet girl"
+  ]
+ },
+ {
+  "src": "M1772",
+  "id": "sour",
+  "cat": "word",
+  "en": "sour",
+  "ipa": "/saʊr/",
+  "sense": "酸っぱい",
+  "ja": "酸っぱい",
+  "ex": {
+   "en": "The lemon was very sour.",
+   "ja": "そのレモンはとても酸っぱかった。",
+   "mark": [
+    "sour"
+   ]
+  },
+  "core": "レモンやお酢のような味がする。",
+  "other": [
+   "（牛乳などが）傷んだ：sour milk"
+  ]
+ },
+ {
+  "src": "M1773",
+  "id": "bitter",
+  "cat": "word",
+  "en": "bitter",
+  "ipa": "/ˈbɪtər/",
+  "sense": "苦い",
+  "ja": "苦い",
+  "ex": {
+   "en": "Black coffee tastes bitter to me.",
+   "ja": "ブラックコーヒーは私には苦く感じる。",
+   "mark": [
+    "bitter"
+   ]
+  },
+  "core": "コーヒーや薬のような、舌に残る苦い味。",
+  "other": [
+   "つらい：a bitter memory"
+  ]
+ },
+ {
+  "src": "M1774",
+  "id": "salty",
+  "cat": "word",
+  "en": "salty",
+  "ipa": "/ˈsɔːlti/",
+  "sense": "塩辛い、塩気のある",
+  "ja": "塩辛い",
+  "ex": {
+   "en": "This soup is too salty.",
+   "ja": "このスープは塩辛すぎる。",
+   "mark": [
+    "salty"
+   ]
+  },
+  "core": "塩（salt）の味が強い。",
+  "other": []
+ },
+ {
+  "src": "M1775",
+  "id": "spicy",
+  "cat": "word",
+  "en": "spicy",
+  "ipa": "/ˈspaɪsi/",
+  "sense": "香辛料のきいた、辛い",
+  "ja": "香辛料のきいた",
+  "ex": {
+   "en": "I love spicy curry with lots of pepper.",
+   "ja": "私は唐辛子たっぷりの辛いカレーが大好きだ。",
+   "mark": [
+    "spicy"
+   ]
+  },
+  "core": "香辛料（spice）がきいて、ぴりっとする。",
+  "other": []
+ },
+ {
+  "src": "M1776",
+  "id": "delicious",
+  "cat": "word",
+  "en": "delicious",
+  "ipa": "/dɪˈlɪʃəs/",
+  "sense": "とてもおいしい",
+  "ja": "おいしい",
+  "ex": {
+   "en": "The soup was absolutely delicious.",
+   "ja": "そのスープは本当においしかった。",
+   "mark": [
+    "delicious"
+   ]
+  },
+  "core": "味や香りがとてもよく、食べて楽しい。",
+  "diff": "tasty より強く、特においしいとき。",
+  "other": []
+ },
+ {
+  "src": "M1777",
+  "id": "tasty",
+  "cat": "word",
+  "en": "tasty",
+  "ipa": "/ˈteɪsti/",
+  "sense": "おいしい、風味のよい",
+  "ja": "おいしい",
+  "ex": {
+   "en": "These cookies are really tasty.",
+   "ja": "このクッキーはとてもおいしい。",
+   "mark": [
+    "tasty"
+   ]
+  },
+  "core": "味（taste）がよい。",
+  "diff": "delicious ほど強くなく、気軽に使える。",
+  "other": []
+ },
+ {
+  "src": "M1778",
+  "id": "bland",
+  "cat": "word",
+  "en": "bland",
+  "ipa": "/blænd/",
+  "sense": "味の薄い、味気ない",
+  "ja": "味の薄い",
+  "ex": {
+   "en": "The soup was bland, so I added salt.",
+   "ja": "スープは味が薄かったので、塩を足した。",
+   "mark": [
+    "bland"
+   ]
+  },
+  "core": "刺激や特徴がなく、味がはっきりしない。",
+  "other": [
+   "（人・話などが）面白みのない：a bland speech"
+  ]
+ },
+ {
+  "src": "M1782",
+  "id": "modern",
+  "cat": "word",
+  "en": "modern",
+  "ipa": "/ˈmɑːdərn/",
+  "sense": "現代的な、近代の",
+  "ja": "現代的な",
+  "ex": {
+   "en": "The hotel has a modern design.",
+   "ja": "そのホテルは現代的なデザインだ。",
+   "mark": [
+    "modern"
+   ]
+  },
+  "core": "今の時代に合った、新しい様式の。",
+  "other": []
+ },
+ {
+  "src": "M1783",
+  "id": "ancient",
+  "cat": "word",
+  "en": "ancient",
+  "ipa": "/ˈeɪnʃənt/",
+  "sense": "古代の",
+  "ja": "古代の",
+  "ex": {
+   "en": "They visited the ancient ruins of Rome.",
+   "ja": "彼らはローマの古代遺跡を訪れた。",
+   "mark": [
+    "ancient"
+   ]
+  },
+  "core": "はるか昔、遠い過去の時代の。",
+  "diff": "old は単に古いこと。ancient は大昔のこと。",
+  "other": []
+ },
+ {
+  "src": "M1784",
+  "id": "recent",
+  "cat": "word",
+  "en": "recent",
+  "ipa": "/ˈriːsənt/",
+  "sense": "最近の",
+  "ja": "最近の",
+  "ex": {
+   "en": "There have been many accidents in recent years.",
+   "ja": "近年、多くの事故が起きている。",
+   "mark": [
+    "recent"
+   ]
+  },
+  "core": "今から見て、ほんの少し前の。",
+  "other": []
+ },
+ {
+  "src": "M1790",
+  "id": "rapid",
+  "cat": "word",
+  "en": "rapid",
+  "ipa": "/ˈræpɪd/",
+  "sense": "急速な",
+  "ja": "急速な",
+  "ex": {
+   "en": "The city has seen rapid growth.",
+   "ja": "その都市は急速な成長を見せてきた。",
+   "mark": [
+    "rapid"
+   ]
+  },
+  "core": "変化や動きの速度がとても速い。",
+  "diff": "fast は動く人や物に使う。rapid は変化や成長に使うことが多い。",
+  "other": []
+ },
+ {
+  "src": "M1791",
+  "id": "sudden",
+  "cat": "word",
+  "en": "sudden",
+  "ipa": "/ˈsʌdn/",
+  "sense": "突然の",
+  "ja": "突然の",
+  "ex": {
+   "en": "A sudden noise made me jump.",
+   "ja": "突然の物音に私は飛び上がった。",
+   "mark": [
+    "sudden"
+   ]
+  },
+  "core": "予告も前触れもなく、いきなり起こる。",
+  "other": []
+ },
+ {
+  "src": "M1792",
+  "id": "gradual",
+  "cat": "word",
+  "en": "gradual",
+  "ipa": "/ˈɡrædʒuəl/",
+  "sense": "徐々の、緩やかな",
+  "ja": "徐々の",
+  "ex": {
+   "en": "There was a gradual change in the weather.",
+   "ja": "天気が少しずつ変わっていった。",
+   "mark": [
+    "gradual"
+   ]
+  },
+  "core": "一段ずつ、少しずつ進む。",
+  "other": []
+ },
+ {
+  "src": "M1793",
+  "id": "steady",
+  "cat": "word",
+  "en": "steady",
+  "ipa": "/ˈstɛdi/",
+  "sense": "安定した、着実な",
+  "ja": "安定した",
+  "ex": {
+   "en": "He walked at a steady pace.",
+   "ja": "彼は一定の速さで歩いた。",
+   "mark": [
+    "steady"
+   ]
+  },
+  "core": "揺れや変化が少なく、一定に保たれている。",
+  "other": []
+ },
+ {
+  "src": "M1797",
+  "id": "upset",
+  "cat": "word",
+  "en": "upset",
+  "ipa": "/ʌpˈsɛt/",
+  "sense": "動揺した、取り乱した",
+  "ja": "動揺した",
+  "ex": {
+   "en": "She was upset when she heard the news.",
+   "ja": "彼女はその知らせを聞いて動揺した。",
+   "mark": [
+    "upset"
+   ]
+  },
+  "core": "気持ちがひっくり返され、落ち着きを失っている。",
+  "other": [
+   "（胃が）むかむかする：an upset stomach"
+  ]
+ },
+ {
+  "src": "M1803",
+  "id": "confused",
+  "cat": "word",
+  "en": "confused",
+  "ipa": "/kənˈfjuːzd/",
+  "sense": "混乱した、困惑した",
+  "ja": "混乱した",
+  "ex": {
+   "en": "I was confused by the long instructions.",
+   "ja": "長い説明に私は混乱した。",
+   "mark": [
+    "confused"
+   ]
+  },
+  "core": "いろいろなものが混ざって、どれがどれかわからない。",
+  "other": []
+ },
+ {
+  "src": "M1805",
+  "id": "anxious",
+  "cat": "word",
+  "en": "anxious",
+  "ipa": "/ˈæŋkʃəs/",
+  "sense": "不安な、心配な",
+  "ja": "不安な",
+  "ex": {
+   "en": "He felt anxious before the job interview.",
+   "ja": "彼は就職の面接の前で不安だった。",
+   "mark": [
+    "anxious"
+   ]
+  },
+  "core": "これから起こることを思って、心が落ち着かない。",
+  "other": []
+ },
+ {
+  "src": "M1809",
+  "id": "brave",
+  "cat": "word",
+  "en": "brave",
+  "ipa": "/breɪv/",
+  "sense": "勇敢な",
+  "ja": "勇敢な",
+  "ex": {
+   "en": "The brave firefighter saved the child.",
+   "ja": "勇敢な消防士がその子を救った。",
+   "mark": [
+    "brave"
+   ]
+  },
+  "core": "恐れを感じても、立ち向かう強さがある。",
+  "other": []
+ },
+ {
+  "src": "M1810",
+  "id": "confident",
+  "cat": "word",
+  "en": "confident",
+  "ipa": "/ˈkɑːnfədənt/",
+  "sense": "自信のある",
+  "ja": "自信のある",
+  "ex": {
+   "en": "She felt confident before the speech.",
+   "ja": "彼女はスピーチの前に自信を持っていた。",
+   "mark": [
+    "confident"
+   ]
+  },
+  "core": "自分の力を信じて、不安がない。",
+  "other": []
+ },
+ {
+  "src": "M1811",
+  "id": "proud",
+  "cat": "word",
+  "en": "proud",
+  "ipa": "/praʊd/",
+  "sense": "誇りに思う、誇らしい",
+  "ja": "誇らしい",
+  "ex": {
+   "en": "I'm proud of you for working so hard.",
+   "ja": "そんなに頑張ったあなたを誇りに思う。",
+   "mark": [
+    "proud"
+   ]
+  },
+  "core": "自分や身近な人の成果を、胸を張ってうれしく思う。",
+  "other": []
+ },
+ {
+  "src": "M1812",
+  "id": "shy",
+  "cat": "word",
+  "en": "shy",
+  "ipa": "/ʃaɪ/",
+  "sense": "内気な、恥ずかしがりの",
+  "ja": "内気な",
+  "ex": {
+   "en": "The shy boy hid behind his mother.",
+   "ja": "その内気な男の子は母親の後ろに隠れた。",
+   "mark": [
+    "shy"
+   ]
+  },
+  "core": "人前で緊張して、話したり前に出たりしにくい。",
+  "other": []
+ },
+ {
+  "src": "M1813",
+  "id": "lonely",
+  "cat": "word",
+  "en": "lonely",
+  "ipa": "/ˈloʊnli/",
+  "sense": "孤独な、さびしい",
+  "ja": "孤独な",
+  "ex": {
+   "en": "She felt lonely in the new city.",
+   "ja": "彼女は新しい街でさびしさを感じた。",
+   "mark": [
+    "lonely"
+   ]
+  },
+  "core": "人とのつながりがなく、心がさびしい。",
+  "diff": "alone はひとりでいる状態。lonely はさびしい気持ち。",
+  "other": []
+ },
+ {
+  "src": "M1814",
+  "id": "comfortable",
+  "cat": "word",
+  "en": "comfortable",
+  "ipa": "/ˈkʌmftərbəl/",
+  "sense": "快適な、心地よい",
+  "ja": "快適な",
+  "ex": {
+   "en": "This sofa is very comfortable.",
+   "ja": "このソファはとても座り心地がいい。",
+   "mark": [
+    "comfortable"
+   ]
+  },
+  "core": "体にも気持ちにも負担がなく、楽。",
+  "other": []
+ },
+ {
+  "src": "M1815",
+  "id": "uncomfortable",
+  "cat": "word",
+  "en": "uncomfortable",
+  "ipa": "/ʌnˈkʌmftərbəl/",
+  "sense": "居心地の悪い、落ち着かない",
+  "ja": "居心地の悪い",
+  "ex": {
+   "en": "I felt uncomfortable in the crowded room.",
+   "ja": "混雑した部屋で私は居心地が悪かった。",
+   "mark": [
+    "uncomfortable"
+   ]
+  },
+  "core": "体や気持ちに負担があり、楽でない。",
+  "other": []
+ },
+ {
+  "src": "M1816",
+  "id": "relaxed",
+  "cat": "word",
+  "en": "relaxed",
+  "ipa": "/rɪˈlækst/",
+  "sense": "くつろいだ、リラックスした",
+  "ja": "くつろいだ",
+  "ex": {
+   "en": "He looked relaxed on the sofa.",
+   "ja": "彼はソファでくつろいで見えた。",
+   "mark": [
+    "relaxed"
+   ]
+  },
+  "core": "緊張がほどけ、力が抜けている。",
+  "other": []
+ },
+ {
+  "src": "M1826",
+  "id": "ill",
+  "cat": "word",
+  "en": "ill",
+  "ipa": "/ɪl/",
+  "sense": "病気の、具合が悪い",
+  "ja": "病気の",
+  "ex": {
+   "en": "He stayed home because he was ill.",
+   "ja": "彼は病気だったので家にいた。",
+   "mark": [
+    "ill"
+   ]
+  },
+  "core": "体の調子が悪い状態。",
+  "diff": "sick は（米）で日常的に使う。ill は少し改まった言い方。",
+  "other": []
+ },
+ {
+  "src": "M1833",
+  "id": "absent",
+  "cat": "word",
+  "en": "absent",
+  "ipa": "/ˈæbsənt/",
+  "sense": "欠席の、不在の",
+  "ja": "欠席の",
+  "ex": {
+   "en": "Three students were absent from class today.",
+   "ja": "今日は3人の生徒がクラスを欠席した。",
+   "mark": [
+    "absent"
+   ]
+  },
+  "core": "いるはずの場所に、いない。",
+  "other": []
+ },
+ {
+  "src": "M1834",
+  "id": "present",
+  "cat": "word",
+  "en": "present",
+  "ipa": "/ˈprɛzənt/",
+  "sense": "出席している、その場にいる",
+  "ja": "出席している",
+  "ex": {
+   "en": "All the members were present at the meeting.",
+   "ja": "会員は全員その会議に出席していた。",
+   "mark": [
+    "present"
+   ]
+  },
+  "core": "その場所に、いる。",
+  "diff": "absent は欠席。present は出席。",
+  "other": [
+   "現在の：the present time",
+   "贈り物：a birthday present"
+  ]
+ },
+ {
+  "src": "M1835",
+  "id": "alive",
+  "cat": "word",
+  "en": "alive",
+  "ipa": "/əˈlaɪv/",
+  "sense": "生きている",
+  "ja": "生きている",
+  "ex": {
+   "en": "The fish is still alive.",
+   "ja": "その魚はまだ生きている。",
+   "mark": [
+    "alive"
+   ]
+  },
+  "core": "命がある状態にある。",
+  "other": []
+ },
+ {
+  "src": "M1836",
+  "id": "dead",
+  "cat": "word",
+  "en": "dead",
+  "ipa": "/dɛd/",
+  "sense": "死んだ、枯れた",
+  "ja": "死んだ",
+  "ex": {
+   "en": "The flowers in the vase are dead.",
+   "ja": "花瓶の花は枯れている。",
+   "mark": [
+    "dead"
+   ]
+  },
+  "core": "命がなくなっている。",
+  "other": [
+   "（電池が）切れた：a dead battery"
+  ]
+ },
+ {
+  "src": "M1837",
+  "id": "active",
+  "cat": "word",
+  "en": "active",
+  "ipa": "/ˈæktɪv/",
+  "sense": "活動的な、活発な",
+  "ja": "活動的な",
+  "ex": {
+   "en": "My grandmother is very active for her age.",
+   "ja": "祖母は年齢のわりにとても活動的だ。",
+   "mark": [
+    "active"
+   ]
+  },
+  "core": "よく動き、行動している。",
+  "other": []
+ },
+ {
+  "src": "M1838",
+  "id": "lazy",
+  "cat": "word",
+  "en": "lazy",
+  "ipa": "/ˈleɪzi/",
+  "sense": "怠けた、無精な",
+  "ja": "怠けた",
+  "ex": {
+   "en": "I felt lazy and stayed in bed all morning.",
+   "ja": "怠けた気分で、午前中ずっと寝ていた。",
+   "mark": [
+    "lazy"
+   ]
+  },
+  "core": "動くのをいやがり、努力しない。",
+  "other": []
+ },
+ {
+  "src": "M1839",
+  "id": "friendly",
+  "cat": "word",
+  "en": "friendly",
+  "ipa": "/ˈfrɛndli/",
+  "sense": "親しみやすい、友好的な",
+  "ja": "親しみやすい",
+  "ex": {
+   "en": "The staff at the hotel were very friendly.",
+   "ja": "ホテルの従業員はとても親しみやすかった。",
+   "mark": [
+    "friendly"
+   ]
+  },
+  "core": "友だち（friend）のように、感じがよい。",
+  "other": []
+ },
+ {
+  "src": "M1841",
+  "id": "polite",
+  "cat": "word",
+  "en": "polite",
+  "ipa": "/pəˈlaɪt/",
+  "sense": "礼儀正しい、丁寧な",
+  "ja": "礼儀正しい",
+  "ex": {
+   "en": "He is always polite to older people.",
+   "ja": "彼は年上の人にいつも礼儀正しい。",
+   "mark": [
+    "polite"
+   ]
+  },
+  "core": "相手への気づかいがあり、ふるまいが丁寧。",
+  "other": []
+ },
+ {
+  "src": "M1842",
+  "id": "rude",
+  "cat": "word",
+  "en": "rude",
+  "ipa": "/ruːd/",
+  "sense": "無礼な、失礼な",
+  "ja": "無礼な",
+  "ex": {
+   "en": "It's rude to talk with your mouth full.",
+   "ja": "口にものを入れて話すのは失礼だ。",
+   "mark": [
+    "rude"
+   ]
+  },
+  "core": "相手への敬意がなく、礼儀に反する。",
+  "other": []
+ },
+ {
+  "src": "M1843",
+  "id": "honest",
+  "cat": "word",
+  "en": "honest",
+  "ipa": "/ˈɑːnɪst/",
+  "sense": "正直な",
+  "ja": "正直な",
+  "ex": {
+   "en": "Please be honest with me about the problem.",
+   "ja": "その問題について、正直に話してください。",
+   "mark": [
+    "honest"
+   ]
+  },
+  "core": "うそやごまかしがない。",
+  "other": []
+ },
+ {
+  "src": "M1844",
+  "id": "fair",
+  "cat": "word",
+  "en": "fair",
+  "ipa": "/fɛr/",
+  "sense": "公平な、公正な",
+  "ja": "公平な",
+  "ex": {
+   "en": "The teacher gave everyone a fair chance.",
+   "ja": "先生は全員に公平な機会を与えた。",
+   "mark": [
+    "fair"
+   ]
+  },
+  "core": "だれか一人をひいきせず、釣り合いが取れている。",
+  "other": [
+   "（髪・肌が）色白の：fair skin"
+  ]
+ },
+ {
+  "src": "M1846",
+  "id": "careless",
+  "cat": "word",
+  "en": "careless",
+  "ipa": "/ˈkɛrləs/",
+  "sense": "不注意な",
+  "ja": "不注意な",
+  "ex": {
+   "en": "A careless mistake cost him the game.",
+   "ja": "不注意なミスで彼は試合に負けた。",
+   "mark": [
+    "careless"
+   ]
+  },
+  "core": "注意（care）を払っていない。",
+  "other": []
+ },
+ {
+  "src": "M1849",
+  "id": "clever",
+  "cat": "word",
+  "en": "clever",
+  "ipa": "/ˈklɛvər/",
+  "sense": "賢い、頭の切れる",
+  "ja": "賢い",
+  "ex": {
+   "en": "She is a clever girl who learns quickly.",
+   "ja": "彼女は飲み込みの早い賢い女の子だ。",
+   "mark": [
+    "clever"
+   ]
+  },
+  "core": "頭の回転が速く、うまい方法を思いつく。",
+  "diff": "wise は経験に基づく賢さ。clever は頭の回転の速さ。",
+  "other": []
+ },
+ {
+  "src": "M1851",
+  "id": "wise",
+  "cat": "word",
+  "en": "wise",
+  "ipa": "/waɪz/",
+  "sense": "賢明な、分別のある",
+  "ja": "賢明な",
+  "ex": {
+   "en": "It was wise of you to save some money.",
+   "ja": "お金を少し貯めておいたのは賢明だった。",
+   "mark": [
+    "wise"
+   ]
+  },
+  "core": "経験や知識をもとに、よい判断ができる。",
+  "diff": "clever は頭の回転の速さ。wise は判断の確かさ。",
+  "other": []
+ },
+ {
+  "src": "M1852",
+  "id": "foolish",
+  "cat": "word",
+  "en": "foolish",
+  "ipa": "/ˈfuːlɪʃ/",
+  "sense": "愚かな、ばかげた",
+  "ja": "愚かな",
+  "ex": {
+   "en": "It would be foolish to ignore the warning.",
+   "ja": "警告を無視するのは愚かだろう。",
+   "mark": [
+    "foolish"
+   ]
+  },
+  "core": "よく考えず、判断が間違っている。",
+  "other": []
+ },
+ {
+  "src": "M1853",
+  "id": "curious",
+  "cat": "word",
+  "en": "curious",
+  "ipa": "/ˈkjʊriəs/",
+  "sense": "好奇心の強い",
+  "ja": "好奇心の強い",
+  "ex": {
+   "en": "Children are curious about everything.",
+   "ja": "子どもは何にでも好奇心を持つ。",
+   "mark": [
+    "curious"
+   ]
+  },
+  "core": "知りたい、確かめたいという気持ちが強い。",
+  "other": [
+   "変な：a curious smell"
+  ]
+ },
+ {
+  "src": "M1854",
+  "id": "creative",
+  "cat": "word",
+  "en": "creative",
+  "ipa": "/kriˈeɪtɪv/",
+  "sense": "創造力のある、独創的な",
+  "ja": "創造力のある",
+  "ex": {
+   "en": "She is very creative and loves to paint.",
+   "ja": "彼女はとても創造力があり、絵を描くのが好きだ。",
+   "mark": [
+    "creative"
+   ]
+  },
+  "core": "新しいものを作り出す（create）力がある。",
+  "other": []
+ },
+ {
+  "src": "M1855",
+  "id": "generous",
+  "cat": "word",
+  "en": "generous",
+  "ipa": "/ˈdʒɛnərəs/",
+  "sense": "気前の良い、寛大な",
+  "ja": "気前の良い",
+  "ex": {
+   "en": "He is generous with his time and money.",
+   "ja": "彼は時間もお金も惜しまない気前のいい人だ。",
+   "mark": [
+    "generous"
+   ]
+  },
+  "core": "自分のものを、惜しまず人に分け与える。",
+  "other": []
+ },
+ {
+  "src": "M1856",
+  "id": "selfish",
+  "cat": "word",
+  "en": "selfish",
+  "ipa": "/ˈsɛlfɪʃ/",
+  "sense": "自分勝手な、わがままな",
+  "ja": "自分勝手な",
+  "ex": {
+   "en": "It was selfish of him to take all the cake.",
+   "ja": "ケーキを全部取るなんて、彼は自分勝手だった。",
+   "mark": [
+    "selfish"
+   ]
+  },
+  "core": "自分（self）のことだけを考えている。",
+  "other": []
+ },
+ {
+  "src": "M1857",
+  "id": "strict",
+  "cat": "word",
+  "en": "strict",
+  "ipa": "/strɪkt/",
+  "sense": "厳しい、厳格な",
+  "ja": "厳しい",
+  "ex": {
+   "en": "Our teacher is strict about homework.",
+   "ja": "私たちの先生は宿題に厳しい。",
+   "mark": [
+    "strict"
+   ]
+  },
+  "core": "規則や基準を、ゆるめずに守らせる。",
+  "other": []
+ },
+ {
+  "src": "M1858",
+  "id": "gentle",
+  "cat": "word",
+  "en": "gentle",
+  "ipa": "/ˈdʒɛntl/",
+  "sense": "優しい、穏やかな",
+  "ja": "優しい",
+  "ex": {
+   "en": "The nurse spoke in a gentle voice.",
+   "ja": "看護師は穏やかな声で話した。",
+   "mark": [
+    "gentle"
+   ]
+  },
+  "core": "荒さがなく、やわらかく丁寧。",
+  "other": []
+ },
+ {
+  "src": "M1862",
+  "id": "silent",
+  "cat": "word",
+  "en": "silent",
+  "ipa": "/ˈsaɪlənt/",
+  "sense": "静かな、音を立てない",
+  "ja": "静かな",
+  "ex": {
+   "en": "The room was silent after the teacher spoke.",
+   "ja": "先生が話したあと、部屋は静まりかえった。",
+   "mark": [
+    "silent"
+   ]
+  },
+  "core": "音や声がまったくしない状態。",
+  "diff": "quiet は小さな音はある静かさ。silent は音がまったくない静けさ。",
+  "other": []
+ }
+]

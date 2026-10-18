@@ -1,0 +1,1895 @@
+[
+ {
+  "src": "M0254",
+  "id": "take-up-with",
+  "cat": "phrasal",
+  "en": "take up with",
+  "ipa": "/ˌteɪk ˈʌp wɪð/",
+  "sense": "（好ましくない相手と）付き合い始める",
+  "ja": "付き合い始める",
+  "ex": {
+   "en": "He took up with a bad crowd at school.",
+   "ja": "彼は学校で悪い仲間と付き合い始めた。",
+   "mark": [
+    "took up with"
+   ]
+  },
+  "core": "ある相手のそば（with）に身を寄せて、行動を共にし始める。",
+  "other": []
+ },
+ {
+  "src": "M0256",
+  "id": "put-out",
+  "cat": "phrasal",
+  "en": "put out",
+  "ipa": "/ˌpʊt ˈaʊt/",
+  "sense": "（火を）消す",
+  "ja": "消す",
+  "ex": {
+   "en": "The firefighters put out the fire quickly.",
+   "ja": "消防士たちはすぐに火を消した。",
+   "mark": [
+    "put out"
+   ]
+  },
+  "core": "燃えている火を外（out）へ追い出して消す。",
+  "other": [
+   "（手などを）差し出す：put out a hand"
+  ]
+ },
+ {
+  "src": "M0257",
+  "id": "put-aside",
+  "cat": "phrasal",
+  "en": "put aside",
+  "ipa": "/ˌpʊt əˈsaɪd/",
+  "sense": "（あとのために）取っておく",
+  "ja": "取っておく",
+  "ex": {
+   "en": "She puts aside some money every month.",
+   "ja": "彼女は毎月少しずつお金を取っておく。",
+   "mark": [
+    "puts aside"
+   ]
+  },
+  "core": "今使わない分を、脇（aside）に置いておく。",
+  "other": [
+   "（作業などを）脇に置く：put aside the book"
+  ]
+ },
+ {
+  "src": "M0258",
+  "id": "put-forward",
+  "cat": "phrasal",
+  "en": "put forward",
+  "ipa": "/ˌpʊt ˈfɔːrwɚd/",
+  "sense": "（案を）提案する",
+  "ja": "提案する",
+  "ex": {
+   "en": "He put forward a new idea at the meeting.",
+   "ja": "彼は会議で新しい案を出した。",
+   "mark": [
+    "put forward"
+   ]
+  },
+  "core": "考えを前（forward）に出して、皆に見せる。",
+  "other": []
+ },
+ {
+  "src": "M0259",
+  "id": "put-through",
+  "cat": "phrasal",
+  "en": "put through",
+  "ipa": "/ˌpʊt ˈθruː/",
+  "sense": "（電話を）つなぐ",
+  "ja": "電話をつなぐ",
+  "ex": {
+   "en": "Could you put me through to the manager?",
+   "ja": "部長に電話をつないでいただけますか。",
+   "mark": [
+    "put me through"
+   ]
+  },
+  "core": "電話の線を通して（through）相手へつなぐ。",
+  "other": []
+ },
+ {
+  "src": "M0260",
+  "id": "put-up-with",
+  "cat": "phrasal",
+  "en": "put up with",
+  "ipa": "/ˌpʊt ˈʌp wɪð/",
+  "sense": "我慢する",
+  "ja": "我慢する",
+  "ex": {
+   "en": "I can't put up with this noise any longer.",
+   "ja": "この騒音にはもう我慢できない。",
+   "mark": [
+    "put up with"
+   ]
+  },
+  "core": "嫌なことを受け止めて、そのまま持ちこたえる。",
+  "other": []
+ },
+ {
+  "src": "M0261",
+  "id": "put-in",
+  "cat": "phrasal",
+  "en": "put in",
+  "ipa": "/ˌpʊt ˈɪn/",
+  "sense": "（時間・努力を）費やす",
+  "ja": "費やす",
+  "ex": {
+   "en": "She put in many hours of practice.",
+   "ja": "彼女は何時間も練習に費やした。",
+   "mark": [
+    "put in"
+   ]
+  },
+  "core": "時間や労力を、物事の中（in）に注ぎ入れる。",
+  "other": [
+   "〜を取り付ける：put in a new window"
+  ]
+ },
+ {
+  "src": "M0262",
+  "id": "put-into",
+  "cat": "phrasal",
+  "en": "put into",
+  "ipa": "/ˌpʊt ˈɪntuː/",
+  "sense": "（努力などを）注ぎ込む",
+  "ja": "注ぎ込む",
+  "ex": {
+   "en": "He put all his energy into the project.",
+   "ja": "彼はその計画に全力を注ぎ込んだ。",
+   "mark": [
+    "put all his energy into"
+   ]
+  },
+  "core": "力やお金を、物事の中（into）に入れる。",
+  "other": []
+ },
+ {
+  "src": "M0263",
+  "id": "put-down-to",
+  "cat": "phrasal",
+  "en": "put down to",
+  "ipa": "/ˌpʊt ˈdaʊn tuː/",
+  "sense": "（英）〜のせいだと考える",
+  "ja": "原因だと考える",
+  "ex": {
+   "en": "I put his lateness down to the heavy traffic.",
+   "ja": "私は彼の遅刻を交通渋滞のせいだと考えた。",
+   "mark": [
+    "put his lateness down to"
+   ]
+  },
+  "core": "原因の欄に書きつけて（down）、その原因へ（to）結びつける。",
+  "diff": "米国では attribute to や chalk up to を使うことが多い。",
+  "other": []
+ },
+ {
+  "src": "M0265",
+  "id": "bring-in",
+  "cat": "phrasal",
+  "en": "bring in",
+  "ipa": "/ˌbrɪŋ ˈɪn/",
+  "sense": "（制度などを）導入する",
+  "ja": "導入する",
+  "ex": {
+   "en": "The company brought in a new system last year.",
+   "ja": "その会社は去年、新しい制度を導入した。",
+   "mark": [
+    "brought in"
+   ]
+  },
+  "core": "外にあるものを、中（in）へ持ち込む。",
+  "other": [
+   "（お金を）稼ぐ：bring in money"
+  ]
+ },
+ {
+  "src": "M0266",
+  "id": "bring-about",
+  "cat": "phrasal",
+  "en": "bring about",
+  "ipa": "/ˌbrɪŋ əˈbaʊt/",
+  "sense": "（結果・変化を）もたらす",
+  "ja": "もたらす",
+  "ex": {
+   "en": "The new method brought about great changes.",
+   "ja": "新しい方法は大きな変化をもたらした。",
+   "mark": [
+    "brought about"
+   ]
+  },
+  "core": "ある結果を、起こす（about）状態まで持っていく。",
+  "other": []
+ },
+ {
+  "src": "M0267",
+  "id": "bring-along",
+  "cat": "phrasal",
+  "en": "bring along",
+  "ipa": "/ˌbrɪŋ əˈlɔːŋ/",
+  "sense": "（一緒に）持ってくる",
+  "ja": "持ってくる",
+  "ex": {
+   "en": "Please bring along your ID card.",
+   "ja": "身分証明書を持ってきてください。",
+   "mark": [
+    "bring along"
+   ]
+  },
+  "core": "物を、一緒に（along）持って来る。",
+  "other": [
+   "（人を）連れてくる：bring a friend along"
+  ]
+ },
+ {
+  "src": "M0268",
+  "id": "bring-down",
+  "cat": "phrasal",
+  "en": "bring down",
+  "ipa": "/ˌbrɪŋ ˈdaʊn/",
+  "sense": "（価格などを）引き下げる",
+  "ja": "引き下げる",
+  "ex": {
+   "en": "The store brought down its prices.",
+   "ja": "その店は値段を下げた。",
+   "mark": [
+    "brought down"
+   ]
+  },
+  "core": "数値などを下（down）へ持ってくる。",
+  "other": [
+   "（政府などを）倒す：bring down the government"
+  ]
+ },
+ {
+  "src": "M0269",
+  "id": "bring-together",
+  "cat": "phrasal",
+  "en": "bring together",
+  "ipa": "/ˌbrɪŋ təˈɡɛðɚ/",
+  "sense": "（人や物を）集める、結びつける",
+  "ja": "集める",
+  "ex": {
+   "en": "The festival brings people together.",
+   "ja": "そのお祭りは人々を結びつける。",
+   "mark": [
+    "brings people together"
+   ]
+  },
+  "core": "別々のものを持ち寄り、一緒に（together）する。",
+  "other": []
+ },
+ {
+  "src": "M0270",
+  "id": "bring-forward",
+  "cat": "phrasal",
+  "en": "bring forward",
+  "ipa": "/ˌbrɪŋ ˈfɔːrwɚd/",
+  "sense": "（日程を）早める",
+  "ja": "日程を早める",
+  "ex": {
+   "en": "We brought the meeting forward to Monday.",
+   "ja": "私たちは会議を月曜日に早めた。",
+   "mark": [
+    "brought the meeting forward"
+   ]
+  },
+  "core": "予定を前（forward）の日へ動かす。",
+  "other": [
+   "（案を）提出する：bring forward a plan"
+  ]
+ },
+ {
+  "src": "M0271",
+  "id": "bring-on",
+  "cat": "phrasal",
+  "en": "bring on",
+  "ipa": "/ˌbrɪŋ ˈɑːn/",
+  "sense": "（病気・痛みなどを）引き起こす",
+  "ja": "引き起こす",
+  "ex": {
+   "en": "Too much exercise can bring on pain.",
+   "ja": "運動のしすぎは痛みを引き起こすことがある。",
+   "mark": [
+    "bring on"
+   ]
+  },
+  "core": "ある状態を、持ってきて始まらせる（on）。",
+  "other": []
+ },
+ {
+  "src": "M0272",
+  "id": "bring-round",
+  "cat": "phrasal",
+  "en": "bring round",
+  "ipa": "/ˌbrɪŋ ˈraʊnd/",
+  "sense": "（英）説得して賛成させる",
+  "ja": "説得して賛成させる",
+  "ex": {
+   "en": "She brought him round to her point of view.",
+   "ja": "彼女は彼を説得して自分の考えに賛成させた。",
+   "mark": [
+    "brought him round"
+   ]
+  },
+  "core": "相手の考えを、こちらの向きに回して（round）変える。",
+  "diff": "米国では bring around を使う。",
+  "other": [
+   "（意識を）回復させる：bring her round"
+  ]
+ },
+ {
+  "src": "M0273",
+  "id": "bring-out-in",
+  "cat": "phrasal",
+  "en": "bring out in",
+  "ipa": "/ˌbrɪŋ ˈaʊt ɪn/",
+  "sense": "（英）（発疹などを）出させる",
+  "ja": "発疹を出させる",
+  "ex": {
+   "en": "Strawberries bring me out in a rash.",
+   "ja": "いちごを食べると私は発疹が出る。",
+   "mark": [
+    "bring me out in"
+   ]
+  },
+  "core": "体の中のものを外（out）の肌（in）に出させる。",
+  "diff": "米国では give someone a rash や break out in a rash を使う。",
+  "other": []
+ },
+ {
+  "src": "M0275",
+  "id": "look-at",
+  "cat": "phrasal",
+  "en": "look at",
+  "ipa": "/ˈlʊk æt/",
+  "sense": "（ある方向を意識して）見る",
+  "ja": "見る",
+  "ex": {
+   "en": "She looked at the painting on the wall.",
+   "ja": "彼女は壁の絵を見た。",
+   "mark": [
+    "looked at"
+   ]
+  },
+  "core": "視線をある一点（at）に向ける。",
+  "diff": "see は見えること。look at は意識して目を向けること。",
+  "other": [
+   "〜を検討する：look at the data"
+  ]
+ },
+ {
+  "src": "M0276",
+  "id": "look-after",
+  "cat": "phrasal",
+  "en": "look after",
+  "ipa": "/ˈlʊk ˌæftɚ/",
+  "sense": "世話をする",
+  "ja": "世話をする",
+  "ex": {
+   "en": "She looks after the puppy every day.",
+   "ja": "彼女は毎日子犬の世話をしている。",
+   "mark": [
+    "looks after"
+   ]
+  },
+  "core": "あとから（after）目で追って、面倒を見る。",
+  "other": []
+ },
+ {
+  "src": "M0278",
+  "id": "look-over",
+  "cat": "phrasal",
+  "en": "look over",
+  "ipa": "/ˌlʊk ˈoʊvɚ/",
+  "sense": "ざっと目を通して確認する",
+  "ja": "ざっと確認する",
+  "ex": {
+   "en": "Please look over the report before sending it.",
+   "ja": "送る前に報告書にざっと目を通してください。",
+   "mark": [
+    "look over"
+   ]
+  },
+  "core": "全体の上（over）を見渡して確かめる。",
+  "other": []
+ },
+ {
+  "src": "M0279",
+  "id": "look-out",
+  "cat": "phrasal",
+  "en": "look out",
+  "ipa": "/ˌlʊk ˈaʊt/",
+  "sense": "気をつける、注意する",
+  "ja": "気をつける",
+  "ex": {
+   "en": "Look out! A car is coming.",
+   "ja": "危ない！車が来るよ。",
+   "mark": [
+    "Look out"
+   ]
+  },
+  "core": "外（out）に注意を向けて、危険を見逃さない。",
+  "other": [
+   "（窓から）外を見る：look out the window"
+  ]
+ },
+ {
+  "src": "M0280",
+  "id": "look-ahead",
+  "cat": "phrasal",
+  "en": "look ahead",
+  "ipa": "/ˌlʊk əˈhɛd/",
+  "sense": "先を見据える",
+  "ja": "先を見据える",
+  "ex": {
+   "en": "We need to look ahead and plan for the future.",
+   "ja": "私たちは先を見据えて将来の計画を立てる必要がある。",
+   "mark": [
+    "look ahead"
+   ]
+  },
+  "core": "視線を前方（ahead）の先へ向ける。",
+  "other": []
+ },
+ {
+  "src": "M0281",
+  "id": "look-on",
+  "cat": "phrasal",
+  "en": "look on",
+  "ipa": "/ˌlʊk ˈɑːn/",
+  "sense": "（かかわらず）傍観する、見守る",
+  "ja": "傍観する",
+  "ex": {
+   "en": "The crowd looked on as the workers fixed the road.",
+   "ja": "作業員が道を直す間、群衆は見守っていた。",
+   "mark": [
+    "looked on"
+   ]
+  },
+  "core": "そばで目を向け続ける（on）が、加わらない。",
+  "other": []
+ },
+ {
+  "src": "M0282",
+  "id": "look-to",
+  "cat": "phrasal",
+  "en": "look to",
+  "ipa": "/ˈlʊk tuː/",
+  "sense": "（人に）頼る、期待する",
+  "ja": "頼りにする",
+  "ex": {
+   "en": "Many people look to him for advice.",
+   "ja": "多くの人が助言を求めて彼を頼りにしている。",
+   "mark": [
+    "look to"
+   ]
+  },
+  "core": "助けや答えを求めて、その人へ（to）視線を向ける。",
+  "other": []
+ },
+ {
+  "src": "M0283",
+  "id": "look-forward-to",
+  "cat": "phrasal",
+  "en": "look forward to",
+  "ipa": "/ˌlʊk ˈfɔːrwɚd tuː/",
+  "sense": "〜を楽しみにして待つ",
+  "ja": "楽しみにする",
+  "ex": {
+   "en": "I'm looking forward to the trip next week.",
+   "ja": "来週の旅行を楽しみにしている。",
+   "mark": [
+    "looking forward to"
+   ]
+  },
+  "core": "これから先（forward）にあることへ、気持ちを向けて待つ。",
+  "diff": "to のあとは名詞か -ing の形。",
+  "other": []
+ },
+ {
+  "src": "M0284",
+  "id": "look-up-to",
+  "cat": "phrasal",
+  "en": "look up to",
+  "ipa": "/ˌlʊk ˈʌp tuː/",
+  "sense": "尊敬する",
+  "ja": "尊敬する",
+  "ex": {
+   "en": "The young players look up to him.",
+   "ja": "若い選手たちは彼を尊敬している。",
+   "mark": [
+    "look up to"
+   ]
+  },
+  "core": "相手を、自分より上（up）にいる人として見上げる。",
+  "diff": "look down on の反対の意味。",
+  "other": []
+ },
+ {
+  "src": "M0285",
+  "id": "look-down-on",
+  "cat": "phrasal",
+  "en": "look down on",
+  "ipa": "/ˌlʊk ˈdaʊn ɑːn/",
+  "sense": "見下す",
+  "ja": "見下す",
+  "ex": {
+   "en": "She never looks down on other people.",
+   "ja": "彼女は決して他人を見下さない。",
+   "mark": [
+    "looks down on"
+   ]
+  },
+  "core": "相手を自分より下（down）にいる人として見る。",
+  "diff": "look up to の反対の意味。",
+  "other": []
+ },
+ {
+  "src": "M0286",
+  "id": "look-back-on",
+  "cat": "phrasal",
+  "en": "look back on",
+  "ipa": "/ˌlʊk ˈbæk ɑːn/",
+  "sense": "（過去を）振り返る",
+  "ja": "振り返る",
+  "ex": {
+   "en": "I often look back on my school days.",
+   "ja": "私はよく学生時代を振り返る。",
+   "mark": [
+    "look back on"
+   ]
+  },
+  "core": "心の目を過去（back）に向けて見返す。",
+  "other": []
+ },
+ {
+  "src": "M0287",
+  "id": "look-out-for",
+  "cat": "phrasal",
+  "en": "look out for",
+  "ipa": "/ˌlʊk ˈaʊt fɔːr/",
+  "sense": "注意して探す、気を配る",
+  "ja": "注意して探す",
+  "ex": {
+   "en": "Look out for me at the station.",
+   "ja": "駅で私を探していて。",
+   "mark": [
+    "Look out for"
+   ]
+  },
+  "core": "外（out）に目を配って、目当てのものを見逃さないようにする。",
+  "other": [
+   "（人の）面倒を見る：look out for each other"
+  ]
+ },
+ {
+  "src": "M0288",
+  "id": "watch-out",
+  "cat": "phrasal",
+  "en": "watch out",
+  "ipa": "/ˌwɑːtʃ ˈaʊt/",
+  "sense": "気をつける",
+  "ja": "気をつける",
+  "ex": {
+   "en": "Watch out! There is a hole in the road.",
+   "ja": "気をつけて！道に穴があるよ。",
+   "mark": [
+    "Watch out"
+   ]
+  },
+  "core": "危険がないか、外（out）をよく見て注意する。",
+  "other": []
+ },
+ {
+  "src": "M0289",
+  "id": "watch-over",
+  "cat": "phrasal",
+  "en": "watch over",
+  "ipa": "/ˌwɑːtʃ ˈoʊvɚ/",
+  "sense": "見守る、番をする",
+  "ja": "見守る",
+  "ex": {
+   "en": "She watched over the sleeping baby.",
+   "ja": "彼女は眠っている赤ちゃんを見守った。",
+   "mark": [
+    "watched over"
+   ]
+  },
+  "core": "人や物の上（over）から目を離さず、安全を守る。",
+  "other": []
+ },
+ {
+  "src": "M0290",
+  "id": "watch-out-for",
+  "cat": "phrasal",
+  "en": "watch out for",
+  "ipa": "/ˌwɑːtʃ ˈaʊt fɔːr/",
+  "sense": "〜に注意する",
+  "ja": "注意する",
+  "ex": {
+   "en": "Watch out for ice on the road.",
+   "ja": "道路の凍結に注意してください。",
+   "mark": [
+    "Watch out for"
+   ]
+  },
+  "core": "危険の元になるものを、見逃さないようによく見る。",
+  "other": []
+ },
+ {
+  "src": "M0291",
+  "id": "watch-for",
+  "cat": "phrasal",
+  "en": "watch for",
+  "ipa": "/ˈwɑːtʃ fɔːr/",
+  "sense": "〜が現れるのを待ち構える",
+  "ja": "待ち構えて見る",
+  "ex": {
+   "en": "He watched for the delivery truck from the window.",
+   "ja": "彼は窓から配達のトラックが来るのを待ち構えた。",
+   "mark": [
+    "watched for"
+   ]
+  },
+  "core": "目当てのものが来るのを、じっと見て待つ。",
+  "other": []
+ },
+ {
+  "src": "M0292",
+  "id": "listen-to",
+  "cat": "phrasal",
+  "en": "listen to",
+  "ipa": "/ˈlɪsn tuː/",
+  "sense": "〜に耳を傾ける",
+  "ja": "耳を傾ける",
+  "ex": {
+   "en": "Please listen to what she says.",
+   "ja": "彼女の言うことに耳を傾けてください。",
+   "mark": [
+    "listen to"
+   ]
+  },
+  "core": "耳を、その音や声へ（to）向ける。",
+  "diff": "hear は聞こえること。listen to は意識して聞くこと。",
+  "other": []
+ },
+ {
+  "src": "M0293",
+  "id": "listen-for",
+  "cat": "phrasal",
+  "en": "listen for",
+  "ipa": "/ˈlɪsn fɔːr/",
+  "sense": "（音が）聞こえるのを待つ",
+  "ja": "耳を澄ます",
+  "ex": {
+   "en": "I listened for the doorbell all afternoon.",
+   "ja": "私は午後ずっと玄関のチャイムに耳を澄ませていた。",
+   "mark": [
+    "listened for"
+   ]
+  },
+  "core": "目当ての音が聞こえないか、注意して待つ。",
+  "other": []
+ },
+ {
+  "src": "M0294",
+  "id": "listen-in",
+  "cat": "phrasal",
+  "en": "listen in",
+  "ipa": "/ˌlɪsn ˈɪn/",
+  "sense": "（こっそり）盗み聞きする",
+  "ja": "盗み聞きする",
+  "ex": {
+   "en": "She was listening in on our talk.",
+   "ja": "彼女は私たちの会話を盗み聞きしていた。",
+   "mark": [
+    "listening in"
+   ]
+  },
+  "core": "他人の会話の中（in）に耳を入れる。",
+  "other": [
+   "（放送を）聞く：listen in to the radio"
+  ]
+ },
+ {
+  "src": "M0295",
+  "id": "speak-up",
+  "cat": "phrasal",
+  "en": "speak up",
+  "ipa": "/ˌspiːk ˈʌp/",
+  "sense": "もっと大きな声で話す",
+  "ja": "大きな声で話す",
+  "ex": {
+   "en": "Could you speak up a little, please?",
+   "ja": "もう少し大きな声で話してもらえますか。",
+   "mark": [
+    "speak up"
+   ]
+  },
+  "core": "声の大きさを上（up）げる。",
+  "other": [
+   "（遠慮せず）意見を言う：speak up in class"
+  ]
+ },
+ {
+  "src": "M0296",
+  "id": "speak-out",
+  "cat": "phrasal",
+  "en": "speak out",
+  "ipa": "/ˌspiːk ˈaʊt/",
+  "sense": "（公然と）意見を述べる",
+  "ja": "意見を述べる",
+  "ex": {
+   "en": "He spoke out against the new rule.",
+   "ja": "彼は新しい規則に公然と反対した。",
+   "mark": [
+    "spoke out"
+   ]
+  },
+  "core": "考えを外（out）へ出して、皆に聞こえるように言う。",
+  "other": []
+ },
+ {
+  "src": "M0297",
+  "id": "speak-to",
+  "cat": "phrasal",
+  "en": "speak to",
+  "ipa": "/ˈspiːk tuː/",
+  "sense": "〜に話しかける",
+  "ja": "話しかける",
+  "ex": {
+   "en": "I'll speak to my boss about it.",
+   "ja": "その件について上司に話してみます。",
+   "mark": [
+    "speak to"
+   ]
+  },
+  "core": "相手に向かって（to）話しかける。",
+  "other": []
+ },
+ {
+  "src": "M0298",
+  "id": "talk-over",
+  "cat": "phrasal",
+  "en": "talk over",
+  "ipa": "/ˌtɔːk ˈoʊvɚ/",
+  "sense": "（じっくり）話し合う",
+  "ja": "話し合う",
+  "ex": {
+   "en": "Let's talk over the plan tonight.",
+   "ja": "今夜その計画についてじっくり話し合おう。",
+   "mark": [
+    "talk over"
+   ]
+  },
+  "core": "問題を全体にわたって（over）言葉で検討する。",
+  "other": []
+ },
+ {
+  "src": "M0299",
+  "id": "talk-through",
+  "cat": "phrasal",
+  "en": "talk through",
+  "ipa": "/ˌtɔːk ˈθruː/",
+  "sense": "（順を追って）説明する",
+  "ja": "順を追って説明する",
+  "ex": {
+   "en": "Can you talk me through the steps?",
+   "ja": "手順を順番に説明してもらえますか。",
+   "mark": [
+    "talk me through"
+   ]
+  },
+  "core": "始めから終わりまで（through）、話しながら確認する。",
+  "other": []
+ },
+ {
+  "src": "M0300",
+  "id": "talk-into",
+  "cat": "phrasal",
+  "en": "talk into",
+  "ipa": "/ˈtɔːk ˌɪntuː/",
+  "sense": "説得して〜させる",
+  "ja": "説得してさせる",
+  "ex": {
+   "en": "My friend talked me into joining the club.",
+   "ja": "友人に説得されて、私はそのクラブに入った。",
+   "mark": [
+    "talked me into"
+   ]
+  },
+  "core": "言葉で相手を、ある行動の中（into）に引き入れる。",
+  "diff": "talk out of の反対の意味。",
+  "other": []
+ },
+ {
+  "src": "M0301",
+  "id": "talk-out-of",
+  "cat": "phrasal",
+  "en": "talk out of",
+  "ipa": "/ˈtɔːk ˌaʊt əv/",
+  "sense": "説得して〜をやめさせる",
+  "ja": "説得してやめさせる",
+  "ex": {
+   "en": "We talked him out of the dangerous climb.",
+   "ja": "私たちは彼を説得して、危険な登山をやめさせた。",
+   "mark": [
+    "talked him out of"
+   ]
+  },
+  "core": "言葉で相手を、ある行動の外（out）へ出す。",
+  "diff": "talk into の反対の意味。",
+  "other": []
+ },
+ {
+  "src": "M0302",
+  "id": "talk-back",
+  "cat": "phrasal",
+  "en": "talk back",
+  "ipa": "/ˌtɔːk ˈbæk/",
+  "sense": "口答えする",
+  "ja": "口答えする",
+  "ex": {
+   "en": "Don't talk back to your teacher.",
+   "ja": "先生に口答えしてはいけません。",
+   "mark": [
+    "talk back"
+   ]
+  },
+  "core": "言われたことに、言葉を言い返す（back）。",
+  "other": []
+ },
+ {
+  "src": "M0303",
+  "id": "call-back",
+  "cat": "phrasal",
+  "en": "call back",
+  "ipa": "/ˌkɔːl ˈbæk/",
+  "sense": "電話をかけ直す",
+  "ja": "電話をかけ直す",
+  "ex": {
+   "en": "I'll call you back in ten minutes.",
+   "ja": "10分後にかけ直します。",
+   "mark": [
+    "call you back"
+   ]
+  },
+  "core": "かかってきた電話に、こちらからも（back）かける。",
+  "other": [
+   "（人を）呼び戻す：call him back"
+  ]
+ },
+ {
+  "src": "M0304",
+  "id": "call-off",
+  "cat": "phrasal",
+  "en": "call off",
+  "ipa": "/ˌkɔːl ˈɔːf/",
+  "sense": "（予定を）中止する",
+  "ja": "中止する",
+  "ex": {
+   "en": "They called off the game because of rain.",
+   "ja": "雨のため、彼らは試合を中止した。",
+   "mark": [
+    "called off"
+   ]
+  },
+  "core": "予定されていたことを、取りやめる（off）と告げる。",
+  "other": []
+ },
+ {
+  "src": "M0305",
+  "id": "call-out",
+  "cat": "phrasal",
+  "en": "call out",
+  "ipa": "/ˌkɔːl ˈaʊt/",
+  "sense": "大声で呼ぶ",
+  "ja": "大声で呼ぶ",
+  "ex": {
+   "en": "He called out her name across the field.",
+   "ja": "彼は野原の向こうから彼女の名前を大声で呼んだ。",
+   "mark": [
+    "called out"
+   ]
+  },
+  "core": "声を外（out）へ大きく出して呼ぶ。",
+  "other": [
+   "（人を）出動させる：call out the fire brigade"
+  ]
+ },
+ {
+  "src": "M0306",
+  "id": "call-in",
+  "cat": "phrasal",
+  "en": "call in",
+  "ipa": "/ˌkɔːl ˈɪn/",
+  "sense": "（専門家などを）呼ぶ",
+  "ja": "呼び寄せる",
+  "ex": {
+   "en": "We called in an expert to fix the problem.",
+   "ja": "私たちは問題を直すために専門家を呼んだ。",
+   "mark": [
+    "called in"
+   ]
+  },
+  "core": "外にいる人を、呼んで中（in）へ来させる。",
+  "other": [
+   "（職場に）電話連絡する：call in sick"
+  ]
+ },
+ {
+  "src": "M0307",
+  "id": "call-on",
+  "cat": "phrasal",
+  "en": "call on",
+  "ipa": "/ˌkɔːl ˈɑːn/",
+  "sense": "（人を）訪問する",
+  "ja": "訪問する",
+  "ex": {
+   "en": "I called on my aunt on the way home.",
+   "ja": "帰りに叔母を訪ねた。",
+   "mark": [
+    "called on"
+   ]
+  },
+  "core": "相手のところへ立ち寄って訪ねる。",
+  "other": [
+   "（人に）頼む：call on him to speak"
+  ]
+ },
+ {
+  "src": "M0308",
+  "id": "call-for",
+  "cat": "phrasal",
+  "en": "call for",
+  "ipa": "/ˈkɔːl fɔːr/",
+  "sense": "〜を必要とする",
+  "ja": "必要とする",
+  "ex": {
+   "en": "This problem calls for a special solution.",
+   "ja": "この問題には特別な解決策が必要だ。",
+   "mark": [
+    "calls for"
+   ]
+  },
+  "core": "その状況が、あるものを求めて呼び寄せる。",
+  "other": [
+   "（公に）要求する：call for a change"
+  ]
+ },
+ {
+  "src": "M0309",
+  "id": "call-up",
+  "cat": "phrasal",
+  "en": "call up",
+  "ipa": "/ˌkɔːl ˈʌp/",
+  "sense": "電話をかける",
+  "ja": "電話をかける",
+  "ex": {
+   "en": "I called up my friend to ask about the test.",
+   "ja": "私はテストのことを聞くために友人に電話した。",
+   "mark": [
+    "called up"
+   ]
+  },
+  "core": "相手を呼んで、つながる（up）。",
+  "other": [
+   "（兵などを）召集する：call up soldiers"
+  ]
+ },
+ {
+  "src": "M0310",
+  "id": "hang-on",
+  "cat": "phrasal",
+  "en": "hang on",
+  "ipa": "/ˌhæŋ ˈɑːn/",
+  "sense": "（少し）待つ",
+  "ja": "待つ",
+  "ex": {
+   "en": "Hang on a second. I'll check the schedule.",
+   "ja": "ちょっと待って。予定を確認するから。",
+   "mark": [
+    "Hang on"
+   ]
+  },
+  "core": "電話などを切らずに、つかまって（on）待つ。",
+  "other": [
+   "しっかりつかまる：Hang on tight!"
+  ]
+ },
+ {
+  "src": "M0311",
+  "id": "ring-back",
+  "cat": "phrasal",
+  "en": "ring back",
+  "ipa": "/ˌrɪŋ ˈbæk/",
+  "sense": "（英）電話をかけ直す",
+  "ja": "電話をかけ直す",
+  "ex": {
+   "en": "I'll ring you back after the meeting.",
+   "ja": "会議のあとでかけ直します。",
+   "mark": [
+    "ring you back"
+   ]
+  },
+  "core": "かかってきた電話に、こちらからも鳴らし返す（back）。",
+  "diff": "米国では call back を使う。",
+  "other": []
+ },
+ {
+  "src": "M0312",
+  "id": "ring-up",
+  "cat": "phrasal",
+  "en": "ring up",
+  "ipa": "/ˌrɪŋ ˈʌp/",
+  "sense": "（英）電話をかける",
+  "ja": "電話をかける",
+  "ex": {
+   "en": "She rang up her friend to say hello.",
+   "ja": "彼女は友人に電話をかけてあいさつした。",
+   "mark": [
+    "rang up"
+   ]
+  },
+  "core": "電話を鳴らして、相手につなぐ（up）。",
+  "diff": "米国では call up や call を使う。",
+  "other": [
+   "（レジで）打ち込む：ring up the items"
+  ]
+ },
+ {
+  "src": "M0313",
+  "id": "find-out",
+  "cat": "phrasal",
+  "en": "find out",
+  "ipa": "/ˌfaɪnd ˈaʊt/",
+  "sense": "（調べて）知る、突き止める",
+  "ja": "知る",
+  "ex": {
+   "en": "I'll find out what time the store opens.",
+   "ja": "その店が何時に開くか調べてみる。",
+   "mark": [
+    "find out"
+   ]
+  },
+  "core": "隠れていた事実を、探して外（out）に見つけ出す。",
+  "diff": "know は知っていること。find out は調べて知ること。",
+  "other": []
+ },
+ {
+  "src": "M0316",
+  "id": "think-over",
+  "cat": "phrasal",
+  "en": "think over",
+  "ipa": "/ˌθɪŋk ˈoʊvɚ/",
+  "sense": "よく考える、熟考する",
+  "ja": "よく考える",
+  "ex": {
+   "en": "Let me think it over before I decide.",
+   "ja": "決める前に、よく考えさせてください。",
+   "mark": [
+    "think it over"
+   ]
+  },
+  "core": "問題の全体にわたって（over）じっくり考える。",
+  "other": []
+ },
+ {
+  "src": "M0317",
+  "id": "think-through",
+  "cat": "phrasal",
+  "en": "think through",
+  "ipa": "/ˌθɪŋk ˈθruː/",
+  "sense": "（結果まで）よく考え抜く",
+  "ja": "考え抜く",
+  "ex": {
+   "en": "You should think through the plan carefully.",
+   "ja": "その計画を最後までよく考え抜くべきだ。",
+   "mark": [
+    "think through"
+   ]
+  },
+  "core": "始めから終わりまで（through）順に考える。",
+  "other": []
+ },
+ {
+  "src": "M0318",
+  "id": "think-up",
+  "cat": "phrasal",
+  "en": "think up",
+  "ipa": "/ˌθɪŋk ˈʌp/",
+  "sense": "考え出す",
+  "ja": "考え出す",
+  "ex": {
+   "en": "She thought up a clever way to save time.",
+   "ja": "彼女は時間を節約するうまい方法を考え出した。",
+   "mark": [
+    "thought up"
+   ]
+  },
+  "core": "頭の中から新しいものを、浮かび上がらせる（up）。",
+  "other": []
+ },
+ {
+  "src": "M0319",
+  "id": "think-back",
+  "cat": "phrasal",
+  "en": "think back",
+  "ipa": "/ˌθɪŋk ˈbæk/",
+  "sense": "（過去を）思い返す",
+  "ja": "思い返す",
+  "ex": {
+   "en": "When I think back, I was too shy.",
+   "ja": "思い返すと、私は恥ずかしがりすぎていた。",
+   "mark": [
+    "think back"
+   ]
+  },
+  "core": "考えを過去（back）へ戻す。",
+  "other": []
+ },
+ {
+  "src": "M0320",
+  "id": "think-ahead",
+  "cat": "phrasal",
+  "en": "think ahead",
+  "ipa": "/ˌθɪŋk əˈhɛd/",
+  "sense": "先のことを考える",
+  "ja": "先を考える",
+  "ex": {
+   "en": "You should think ahead before you leave.",
+   "ja": "出かける前に先のことを考えておくべきだ。",
+   "mark": [
+    "think ahead"
+   ]
+  },
+  "core": "考えを前方（ahead）の将来へ向ける。",
+  "other": []
+ },
+ {
+  "src": "M0321",
+  "id": "work-on",
+  "cat": "phrasal",
+  "en": "work on",
+  "ipa": "/ˈwɝːk ɑːn/",
+  "sense": "取り組む、手をかける",
+  "ja": "取り組む",
+  "ex": {
+   "en": "He is working on a model airplane.",
+   "ja": "彼は模型飛行機を作っているところだ。",
+   "mark": [
+    "working on"
+   ]
+  },
+  "core": "ひとつの物事に向かって（on）作業を続ける。",
+  "other": [
+   "（人に）働きかけて説得する：work on him"
+  ]
+ },
+ {
+  "src": "M0322",
+  "id": "work-through",
+  "cat": "phrasal",
+  "en": "work through",
+  "ipa": "/ˌwɝːk ˈθruː/",
+  "sense": "（順に取り組んで）解決する",
+  "ja": "順に取り組む",
+  "ex": {
+   "en": "She worked through the problems one by one.",
+   "ja": "彼女は問題をひとつずつ順に解いていった。",
+   "mark": [
+    "worked through"
+   ]
+  },
+  "core": "問題の中を、端から端まで（through）進んでいく。",
+  "other": []
+ },
+ {
+  "src": "M0323",
+  "id": "work-towards",
+  "cat": "phrasal",
+  "en": "work towards",
+  "ipa": "/ˈwɝːk təˌwɔːrdz/",
+  "sense": "〜を目指して努力する",
+  "ja": "目標に向かって努力する",
+  "ex": {
+   "en": "We are working towards our goal step by step.",
+   "ja": "私たちは一歩ずつ目標に向かって努力している。",
+   "mark": [
+    "working towards"
+   ]
+  },
+  "core": "目標のほうへ（towards）、少しずつ努力して近づく。",
+  "diff": "米国では toward がふつう。",
+  "other": []
+ },
+ {
+  "src": "M0324",
+  "id": "work-around",
+  "cat": "phrasal",
+  "en": "work around",
+  "ipa": "/ˌwɝːk əˈraʊnd/",
+  "sense": "（問題を）回避して対処する",
+  "ja": "回避して対処する",
+  "ex": {
+   "en": "We worked around the problem by using another road.",
+   "ja": "私たちは別の道を使って問題を回避した。",
+   "mark": [
+    "worked around"
+   ]
+  },
+  "core": "障害を直接なおさず、周り（around）から対処する。",
+  "other": []
+ },
+ {
+  "src": "M0325",
+  "id": "come-up-with",
+  "cat": "phrasal",
+  "en": "come up with",
+  "ipa": "/ˌkʌm ˈʌp wɪð/",
+  "sense": "（案などを）思いつく",
+  "ja": "思いつく",
+  "ex": {
+   "en": "She came up with a great idea.",
+   "ja": "彼女はすばらしい案を思いついた。",
+   "mark": [
+    "came up with"
+   ]
+  },
+  "core": "考えが頭の中から上（up）に浮かんで、手元（with）に来る。",
+  "other": []
+ },
+ {
+  "src": "M0326",
+  "id": "figure-on",
+  "cat": "phrasal",
+  "en": "figure on",
+  "ipa": "/ˈfɪɡyɚ ɑːn/",
+  "sense": "（米）見込む、当てにする",
+  "ja": "見込む",
+  "ex": {
+   "en": "I figure on finishing the work by noon.",
+   "ja": "正午までには仕事が終わると見込んでいる。",
+   "mark": [
+    "figure on"
+   ]
+  },
+  "core": "頭の中で数えて、その予想に基づいて（on）計画する。",
+  "diff": "くだけた言い方。",
+  "other": []
+ },
+ {
+  "src": "M0327",
+  "id": "rule-out",
+  "cat": "phrasal",
+  "en": "rule out",
+  "ipa": "/ˌruːl ˈaʊt/",
+  "sense": "除外する、可能性を消す",
+  "ja": "除外する",
+  "ex": {
+   "en": "The doctor ruled out a serious illness.",
+   "ja": "医師は重い病気の可能性を除外した。",
+   "mark": [
+    "ruled out"
+   ]
+  },
+  "core": "線を引いて、可能性の外（out）に置く。",
+  "other": []
+ },
+ {
+  "src": "M0328",
+  "id": "point-out",
+  "cat": "phrasal",
+  "en": "point out",
+  "ipa": "/ˌpɔɪnt ˈaʊt/",
+  "sense": "指摘する",
+  "ja": "指摘する",
+  "ex": {
+   "en": "She pointed out a mistake in the report.",
+   "ja": "彼女は報告書の誤りを指摘した。",
+   "mark": [
+    "pointed out"
+   ]
+  },
+  "core": "指で示して、見えるように外（out）に出す。",
+  "other": []
+ },
+ {
+  "src": "M0329",
+  "id": "point-to",
+  "cat": "phrasal",
+  "en": "point to",
+  "ipa": "/ˈpɔɪnt tuː/",
+  "sense": "〜を示す、指し示す",
+  "ja": "示す",
+  "ex": {
+   "en": "All the evidence points to one answer.",
+   "ja": "すべての証拠がひとつの答えを示している。",
+   "mark": [
+    "points to"
+   ]
+  },
+  "core": "ある方向へ（to）向けて指し示す。",
+  "other": [
+   "（指で）指す：point to the map"
+  ]
+ },
+ {
+  "src": "M0330",
+  "id": "sum-up",
+  "cat": "phrasal",
+  "en": "sum up",
+  "ipa": "/ˌsʌm ˈʌp/",
+  "sense": "要約する",
+  "ja": "要約する",
+  "ex": {
+   "en": "Let me sum up the main points.",
+   "ja": "要点をまとめさせてください。",
+   "mark": [
+    "sum up"
+   ]
+  },
+  "core": "全体を足して、ひとつの合計（sum）にまとめる。",
+  "other": []
+ },
+ {
+  "src": "M0331",
+  "id": "add-up",
+  "cat": "phrasal",
+  "en": "add up",
+  "ipa": "/ˌæd ˈʌp/",
+  "sense": "合計する、足し合わせる",
+  "ja": "合計する",
+  "ex": {
+   "en": "He added up the cost of the food.",
+   "ja": "彼は食べ物の代金を合計した。",
+   "mark": [
+    "added up"
+   ]
+  },
+  "core": "数を足していって、合計に至る（up）。",
+  "other": [
+   "（話の）つじつまが合う：The story doesn't add up."
+  ]
+ },
+ {
+  "src": "M0332",
+  "id": "add-to",
+  "cat": "phrasal",
+  "en": "add to",
+  "ipa": "/ˈæd tuː/",
+  "sense": "〜を増やす、付け加える",
+  "ja": "増やす",
+  "ex": {
+   "en": "The rain added to our problems.",
+   "ja": "雨で私たちの問題がさらに増えた。",
+   "mark": [
+    "added to"
+   ]
+  },
+  "core": "すでにあるものに（to）、さらに加える。",
+  "other": []
+ },
+ {
+  "src": "M0333",
+  "id": "count-on",
+  "cat": "phrasal",
+  "en": "count on",
+  "ipa": "/ˈkaʊnt ɑːn/",
+  "sense": "頼りにする、当てにする",
+  "ja": "頼りにする",
+  "ex": {
+   "en": "You can count on me.",
+   "ja": "私に任せて。",
+   "mark": [
+    "count on"
+   ]
+  },
+  "core": "その人を計算に入れて（on）、基盤にする。",
+  "other": []
+ },
+ {
+  "src": "M0334",
+  "id": "count-in",
+  "cat": "phrasal",
+  "en": "count in",
+  "ipa": "/ˌkaʊnt ˈɪn/",
+  "sense": "仲間に入れる",
+  "ja": "仲間に入れる",
+  "ex": {
+   "en": "If you go to the beach, count me in.",
+   "ja": "ビーチへ行くなら、私も入れて。",
+   "mark": [
+    "count me in"
+   ]
+  },
+  "core": "人数の中（in）に数える。",
+  "diff": "count out の反対の意味。",
+  "other": []
+ },
+ {
+  "src": "M0335",
+  "id": "count-out",
+  "cat": "phrasal",
+  "en": "count out",
+  "ipa": "/ˌkaʊnt ˈaʊt/",
+  "sense": "（数えて）取り出す",
+  "ja": "数えて取り出す",
+  "ex": {
+   "en": "He counted out five coins for the machine.",
+   "ja": "彼は機械のために硬貨を5枚数えて取り出した。",
+   "mark": [
+    "counted out"
+   ]
+  },
+  "core": "数えながら、外（out）へ出していく。",
+  "other": [
+   "（人を）除外する：Count me out."
+  ]
+ },
+ {
+  "src": "M0336",
+  "id": "leave-out",
+  "cat": "phrasal",
+  "en": "leave out",
+  "ipa": "/ˌliːv ˈaʊt/",
+  "sense": "省く、除く",
+  "ja": "省く",
+  "ex": {
+   "en": "Don't leave out any important details.",
+   "ja": "重要な点を省かないでください。",
+   "mark": [
+    "leave out"
+   ]
+  },
+  "core": "外（out）に置いたままにして、入れない。",
+  "other": []
+ },
+ {
+  "src": "M0337",
+  "id": "leave-behind",
+  "cat": "phrasal",
+  "en": "leave behind",
+  "ipa": "/ˌliːv bɪˈhaɪnd/",
+  "sense": "置き忘れる、置いていく",
+  "ja": "置き忘れる",
+  "ex": {
+   "en": "I left my bag behind on the train.",
+   "ja": "私は電車にかばんを置き忘れた。",
+   "mark": [
+    "left my bag behind"
+   ]
+  },
+  "core": "物を、自分の後ろ（behind）にそのまま残す。",
+  "other": [
+   "（人を）置き去りにする：leave the others behind"
+  ]
+ },
+ {
+  "src": "M0338",
+  "id": "leave-off",
+  "cat": "phrasal",
+  "en": "leave off",
+  "ipa": "/ˌliːv ˈɔːf/",
+  "sense": "やめる、中断する",
+  "ja": "やめる",
+  "ex": {
+   "en": "Let's start again where we left off.",
+   "ja": "中断したところから、再開しよう。",
+   "mark": [
+    "left off"
+   ]
+  },
+  "core": "続けていたことから手を離す（off）。",
+  "other": []
+ },
+ {
+  "src": "M0339",
+  "id": "leave-alone",
+  "cat": "phrasal",
+  "en": "leave alone",
+  "ipa": "/ˌliːv əˈloʊn/",
+  "sense": "そっとしておく",
+  "ja": "そっとしておく",
+  "ex": {
+   "en": "Leave him alone. He is tired.",
+   "ja": "彼をそっとしておいて。疲れているから。",
+   "mark": [
+    "Leave him alone"
+   ]
+  },
+  "core": "人に関わらず、ひとり（alone）の状態のままにする。",
+  "other": []
+ },
+ {
+  "src": "M0340",
+  "id": "hold-back",
+  "cat": "phrasal",
+  "en": "hold back",
+  "ipa": "/ˌhoʊld ˈbæk/",
+  "sense": "抑える、こらえる",
+  "ja": "こらえる",
+  "ex": {
+   "en": "She held back her tears at the farewell.",
+   "ja": "彼女は別れのとき、涙をこらえた。",
+   "mark": [
+    "held back"
+   ]
+  },
+  "core": "出てくるものを、後ろ（back）に押さえておく。",
+  "other": [
+   "（情報を）隠す：hold back the truth"
+  ]
+ },
+ {
+  "src": "M0341",
+  "id": "hold-off",
+  "cat": "phrasal",
+  "en": "hold off",
+  "ipa": "/ˌhoʊld ˈɔːf/",
+  "sense": "延期する、待つ",
+  "ja": "延期する",
+  "ex": {
+   "en": "Let's hold off the decision for a week.",
+   "ja": "決定を1週間待とう。",
+   "mark": [
+    "hold off"
+   ]
+  },
+  "core": "動きを手で止めて、離れた状態（off）にしておく。",
+  "other": [
+   "（雨などが）降らずにいる：The rain held off."
+  ]
+ },
+ {
+  "src": "M0342",
+  "id": "hold-out",
+  "cat": "phrasal",
+  "en": "hold out",
+  "ipa": "/ˌhoʊld ˈaʊt/",
+  "sense": "持ちこたえる",
+  "ja": "持ちこたえる",
+  "ex": {
+   "en": "They held out until help arrived.",
+   "ja": "彼らは助けが来るまで持ちこたえた。",
+   "mark": [
+    "held out"
+   ]
+  },
+  "core": "最後まで（out）、状態を保ち続ける。",
+  "other": [
+   "（手などを）差し出す：hold out a hand"
+  ]
+ },
+ {
+  "src": "M0343",
+  "id": "hold-onto",
+  "cat": "phrasal",
+  "en": "hold onto",
+  "ipa": "/ˈhoʊld ˌɑːntuː/",
+  "sense": "手放さずに持っている",
+  "ja": "手放さずに持つ",
+  "ex": {
+   "en": "Hold onto the rope with both hands.",
+   "ja": "両手でロープをしっかりつかんでいて。",
+   "mark": [
+    "Hold onto"
+   ]
+  },
+  "core": "手に持った物に（onto）、しっかり付いたままにする。",
+  "other": [
+   "〜を取っておく：hold onto old photos"
+  ]
+ },
+ {
+  "src": "M0344",
+  "id": "keep-on",
+  "cat": "phrasal",
+  "en": "keep on",
+  "ipa": "/ˌkiːp ˈɑːn/",
+  "sense": "〜し続ける",
+  "ja": "し続ける",
+  "ex": {
+   "en": "He kept on walking in the rain.",
+   "ja": "彼は雨の中を歩き続けた。",
+   "mark": [
+    "kept on"
+   ]
+  },
+  "core": "動作を止めずに、そのまま続ける（on）。",
+  "other": []
+ },
+ {
+  "src": "M0345",
+  "id": "keep-at",
+  "cat": "phrasal",
+  "en": "keep at",
+  "ipa": "/ˈkiːp æt/",
+  "sense": "根気よく続ける",
+  "ja": "根気よく続ける",
+  "ex": {
+   "en": "Keep at it, and you'll get better.",
+   "ja": "根気よく続ければ上達するよ。",
+   "mark": [
+    "Keep at it"
+   ]
+  },
+  "core": "目の前の物事（at）に取り組みつづける。",
+  "other": []
+ },
+ {
+  "src": "M0346",
+  "id": "keep-from",
+  "cat": "phrasal",
+  "en": "keep from",
+  "ipa": "/ˈkiːp frʌm/",
+  "sense": "〜しないようにこらえる",
+  "ja": "こらえる",
+  "ex": {
+   "en": "I couldn't keep from laughing.",
+   "ja": "私は笑いをこらえられなかった。",
+   "mark": [
+    "keep from"
+   ]
+  },
+  "core": "ある行動から（from）自分を遠ざけておく。",
+  "other": [
+   "〜を妨げる：keep him from leaving"
+  ]
+ },
+ {
+  "src": "M0347",
+  "id": "keep-to",
+  "cat": "phrasal",
+  "en": "keep to",
+  "ipa": "/ˈkiːp tuː/",
+  "sense": "（決まりなどを）守る",
+  "ja": "守る",
+  "ex": {
+   "en": "Please keep to the marked path.",
+   "ja": "印のついた道から外れないでください。",
+   "mark": [
+    "keep to"
+   ]
+  },
+  "core": "決められたもの（to）から離れずにいる。",
+  "other": []
+ },
+ {
+  "src": "M0348",
+  "id": "keep-back",
+  "cat": "phrasal",
+  "en": "keep back",
+  "ipa": "/ˌkiːp ˈbæk/",
+  "sense": "近づかずにいる、後ろにいる",
+  "ja": "近づかずにいる",
+  "ex": {
+   "en": "Keep back from the fence, please.",
+   "ja": "柵から離れていてください。",
+   "mark": [
+    "Keep back"
+   ]
+  },
+  "core": "後ろ（back）の位置にとどまる。",
+  "other": [
+   "〜を取っておく：keep back some money"
+  ]
+ },
+ {
+  "src": "M0349",
+  "id": "keep-up-with",
+  "cat": "phrasal",
+  "en": "keep up with",
+  "ipa": "/ˌkiːp ˈʌp wɪð/",
+  "sense": "遅れずについていく",
+  "ja": "遅れずについていく",
+  "ex": {
+   "en": "It's hard to keep up with the news.",
+   "ja": "ニュースについていくのは大変だ。",
+   "mark": [
+    "keep up with"
+   ]
+  },
+  "core": "相手と同じ水準を保ち（keep up）、離されない。",
+  "diff": "catch up with は離れた差を縮めること。",
+  "other": []
+ },
+ {
+  "src": "M0350",
+  "id": "cut-off",
+  "cat": "phrasal",
+  "en": "cut off",
+  "ipa": "/ˌkʌt ˈɔːf/",
+  "sense": "（供給などを）止める、遮断する",
+  "ja": "遮断する",
+  "ex": {
+   "en": "They cut off the water for the repair work.",
+   "ja": "修理のために水道が止められた。",
+   "mark": [
+    "cut off"
+   ]
+  },
+  "core": "つながりを切って、離す（off）。",
+  "other": [
+   "（話を）さえぎる：cut him off"
+  ]
+ },
+ {
+  "src": "M0351",
+  "id": "cut-out",
+  "cat": "phrasal",
+  "en": "cut out",
+  "ipa": "/ˌkʌt ˈaʊt/",
+  "sense": "切り抜く",
+  "ja": "切り抜く",
+  "ex": {
+   "en": "She cut out a star from the paper.",
+   "ja": "彼女は紙から星の形を切り抜いた。",
+   "mark": [
+    "cut out"
+   ]
+  },
+  "core": "全体から一部を切って、外（out）に取り出す。",
+  "other": [
+   "（食べ物などを）やめる：cut out sugar"
+  ]
+ },
+ {
+  "src": "M0352",
+  "id": "cut-back",
+  "cat": "phrasal",
+  "en": "cut back",
+  "ipa": "/ˌkʌt ˈbæk/",
+  "sense": "（量・費用を）減らす",
+  "ja": "減らす",
+  "ex": {
+   "en": "The company cut back its spending this year.",
+   "ja": "その会社は今年、支出を減らした。",
+   "mark": [
+    "cut back"
+   ]
+  },
+  "core": "量を切って、元の水準まで戻す（back）。",
+  "other": []
+ },
+ {
+  "src": "M0354",
+  "id": "cut-across",
+  "cat": "phrasal",
+  "en": "cut across",
+  "ipa": "/ˌkʌt əˈkrɔːs/",
+  "sense": "横切る、近道する",
+  "ja": "横切る",
+  "ex": {
+   "en": "We cut across the park to save time.",
+   "ja": "私たちは時間を節約するために公園を突っ切った。",
+   "mark": [
+    "cut across"
+   ]
+  },
+  "core": "道の決まった形を無視して、斜めに横切る（across）。",
+  "other": []
+ },
+ {
+  "src": "M0355",
+  "id": "cut-through",
+  "cat": "phrasal",
+  "en": "cut through",
+  "ipa": "/ˌkʌt ˈθruː/",
+  "sense": "通り抜ける",
+  "ja": "通り抜ける",
+  "ex": {
+   "en": "He cut through the alley to get home.",
+   "ja": "彼は家へ帰る近道に路地を通り抜けた。",
+   "mark": [
+    "cut through"
+   ]
+  },
+  "core": "ふさがった所を切るように、向こうまで（through）通る。",
+  "other": []
+ },
+ {
+  "src": "M0356",
+  "id": "cut-in",
+  "cat": "phrasal",
+  "en": "cut in",
+  "ipa": "/ˌkʌt ˈɪn/",
+  "sense": "割り込む",
+  "ja": "割り込む",
+  "ex": {
+   "en": "He cut in while they were talking.",
+   "ja": "二人が話している最中に、彼は口をはさんだ。",
+   "mark": [
+    "cut in"
+   ]
+  },
+  "core": "流れを切って、その中（in）に入り込む。",
+  "other": [
+   "（列や車線に）割り込む：cut in line"
+  ]
+ },
+ {
+  "src": "M0357",
+  "id": "cut-into",
+  "cat": "phrasal",
+  "en": "cut into",
+  "ipa": "/ˈkʌt ˌɪntuː/",
+  "sense": "（時間などに）食い込む",
+  "ja": "食い込む",
+  "ex": {
+   "en": "The extra work cut into my free time.",
+   "ja": "追加の仕事が私の自由時間に食い込んだ。",
+   "mark": [
+    "cut into"
+   ]
+  },
+  "core": "刃が入るように、ほかの物の中（into）を削っていく。",
+  "other": [
+   "（ナイフで）切り込む：cut into the cake"
+  ]
+ },
+ {
+  "src": "M0359",
+  "id": "run-across",
+  "cat": "phrasal",
+  "en": "run across",
+  "ipa": "/ˌrʌn əˈkrɔːs/",
+  "sense": "偶然見つける、出くわす",
+  "ja": "偶然見つける",
+  "ex": {
+   "en": "I ran across an old photo in the box.",
+   "ja": "箱の中で古い写真を偶然見つけた。",
+   "mark": [
+    "ran across"
+   ]
+  },
+  "core": "走っている途中で、ふと目の前（across）に出会う。",
+  "other": [
+   "（道を）走って渡る：run across the street"
+  ]
+ },
+ {
+  "src": "M0360",
+  "id": "run-over",
+  "cat": "phrasal",
+  "en": "run over",
+  "ipa": "/ˌrʌn ˈoʊvɚ/",
+  "sense": "（車で）ひく",
+  "ja": "車でひく",
+  "ex": {
+   "en": "A truck ran over a can in the road.",
+   "ja": "トラックが道路の空き缶をひいた。",
+   "mark": [
+    "ran over"
+   ]
+  },
+  "core": "車が物の上（over）を走って通る。",
+  "other": [
+   "（あふれて）こぼれる：The water ran over."
+  ]
+ },
+ {
+  "src": "M0361",
+  "id": "run-through",
+  "cat": "phrasal",
+  "en": "run through",
+  "ipa": "/ˌrʌn ˈθruː/",
+  "sense": "一通り練習する",
+  "ja": "一通り練習する",
+  "ex": {
+   "en": "Let's run through the presentation once more.",
+   "ja": "発表をもう一度、通しでやってみよう。",
+   "mark": [
+    "run through"
+   ]
+  },
+  "core": "始めから終わりまで（through）、一気に通してやる。",
+  "other": []
+ }
+]

@@ -1,0 +1,1898 @@
+[
+ {
+  "src": "M1297",
+  "id": "stomach",
+  "cat": "word",
+  "en": "stomach",
+  "ipa": "/ˈstʌmək/",
+  "sense": "胃、おなか",
+  "ja": "胃",
+  "ex": {
+   "en": "My stomach hurts after eating too much cake.",
+   "ja": "ケーキを食べすぎて胃が痛い。",
+   "mark": [
+    "stomach"
+   ]
+  },
+  "core": "食べ物を受け止めて消化する、体の中の袋。",
+  "diff": "「おなか」の意味でも日常的に使う。",
+  "other": [
+   "（おなか）腹：lie on your stomach"
+  ]
+ },
+ {
+  "src": "M1298",
+  "id": "blood",
+  "cat": "word",
+  "en": "blood",
+  "ipa": "/blʌd/",
+  "sense": "血液",
+  "ja": "血液",
+  "ex": {
+   "en": "The nurse took a small sample of my blood.",
+   "ja": "看護師は私の血液を少し採取した。",
+   "mark": [
+    "blood"
+   ]
+  },
+  "core": "体の中をめぐって酸素や栄養を運ぶ赤い液体。",
+  "other": [
+   "（血縁）血筋：They are related by blood."
+  ]
+ },
+ {
+  "src": "M1299",
+  "id": "health",
+  "cat": "word",
+  "en": "health",
+  "ipa": "/hɛlθ/",
+  "sense": "健康（な状態）",
+  "ja": "健康",
+  "ex": {
+   "en": "Eating well and sleeping enough are good for your health.",
+   "ja": "きちんと食べて十分に眠ることは、健康によい。",
+   "mark": [
+    "health"
+   ]
+  },
+  "core": "体や心がうまく働いている状態。",
+  "diff": "healthy は形容詞。health は名詞。",
+  "other": []
+ },
+ {
+  "src": "M1300",
+  "id": "illness",
+  "cat": "word",
+  "en": "illness",
+  "ipa": "/ˈɪlnəs/",
+  "sense": "（一般的な）病気",
+  "ja": "病気",
+  "ex": {
+   "en": "She missed school because of a long illness.",
+   "ja": "彼女は長い病気で学校を休んだ。",
+   "mark": [
+    "illness"
+   ]
+  },
+  "core": "体の調子が悪くなっている状態。",
+  "diff": "disease は特定の病名がつく疾患。illness は具合が悪い状態全般。",
+  "other": []
+ },
+ {
+  "src": "M1301",
+  "id": "disease",
+  "cat": "word",
+  "en": "disease",
+  "ipa": "/dɪˈziːz/",
+  "sense": "（病名のつく）疾患",
+  "ja": "疾患",
+  "ex": {
+   "en": "Heart disease is a serious problem for many people.",
+   "ja": "心臓病は多くの人にとって深刻な問題だ。",
+   "mark": [
+    "disease"
+   ]
+  },
+  "core": "原因や名前がはっきりした、体の病的な状態。",
+  "diff": "illness は具合の悪さ全般。disease は病名のつく病気。",
+  "other": []
+ },
+ {
+  "src": "M1302",
+  "id": "symptom",
+  "cat": "word",
+  "en": "symptom",
+  "ipa": "/ˈsɪmptəm/",
+  "sense": "（病気の）症状",
+  "ja": "症状",
+  "ex": {
+   "en": "A cough is a common symptom of a cold.",
+   "ja": "せきは風邪によくある症状だ。",
+   "mark": [
+    "symptom"
+   ]
+  },
+  "core": "病気があることを示す、体に出たしるし。",
+  "other": []
+ },
+ {
+  "src": "M1303",
+  "id": "pain",
+  "cat": "word",
+  "en": "pain",
+  "ipa": "/peɪn/",
+  "sense": "（体の）痛み",
+  "ja": "痛み",
+  "ex": {
+   "en": "I felt a sharp pain in my knee.",
+   "ja": "ひざに鋭い痛みを感じた。",
+   "mark": [
+    "pain"
+   ]
+  },
+  "core": "体が出す「どこか悪い」という不快な信号。",
+  "other": [
+   "（苦痛）心の痛み：the pain of losing a friend"
+  ]
+ },
+ {
+  "src": "M1304",
+  "id": "fever",
+  "cat": "word",
+  "en": "fever",
+  "ipa": "/ˈfiːvər/",
+  "sense": "発熱、熱",
+  "ja": "発熱",
+  "ex": {
+   "en": "The child stayed home from school because he had a high fever.",
+   "ja": "その子は高い熱があったので学校を休んだ。",
+   "mark": [
+    "fever"
+   ]
+  },
+  "core": "体温が普段より上がった状態。",
+  "diff": "have a fever は「熱がある」。",
+  "other": []
+ },
+ {
+  "src": "M1305",
+  "id": "headache",
+  "cat": "word",
+  "en": "headache",
+  "ipa": "/ˈhɛdeɪk/",
+  "sense": "頭痛",
+  "ja": "頭痛",
+  "ex": {
+   "en": "I have a headache, so I'm going to lie down.",
+   "ja": "頭が痛いので、横になるつもりだ。",
+   "mark": [
+    "headache"
+   ]
+  },
+  "core": "頭（head）の痛み（ache）。",
+  "other": [
+   "（悩みの種）頭の痛い問題：This job is a headache."
+  ]
+ },
+ {
+  "src": "M1307",
+  "id": "flu",
+  "cat": "word",
+  "en": "flu",
+  "ipa": "/fluː/",
+  "sense": "インフルエンザ",
+  "ja": "インフルエンザ",
+  "ex": {
+   "en": "Half of my class is out with the flu.",
+   "ja": "クラスの半分がインフルエンザで休んでいる。",
+   "mark": [
+    "flu"
+   ]
+  },
+  "core": "influenza を縮めた言い方。ウイルスで急に熱が出る病気。",
+  "diff": "cold は軽い風邪。flu は高熱など症状が重い。",
+  "other": []
+ },
+ {
+  "src": "M1308",
+  "id": "allergy",
+  "cat": "word",
+  "en": "allergy",
+  "ipa": "/ˈælərdʒi/",
+  "sense": "アレルギー",
+  "ja": "アレルギー",
+  "ex": {
+   "en": "My brother has an allergy to eggs, so he can't eat cake.",
+   "ja": "弟は卵アレルギーなので、ケーキが食べられない。",
+   "mark": [
+    "allergy"
+   ]
+  },
+  "core": "特定の物に体が過剰に反応する状態。",
+  "other": []
+ },
+ {
+  "src": "M1309",
+  "id": "injury",
+  "cat": "word",
+  "en": "injury",
+  "ipa": "/ˈɪndʒəri/",
+  "sense": "（事故などによる）けが",
+  "ja": "けが",
+  "ex": {
+   "en": "The player missed the game because of an injury.",
+   "ja": "その選手はけがで試合を休んだ。",
+   "mark": [
+    "injury"
+   ]
+  },
+  "core": "事故や衝撃で体が傷つくこと。",
+  "diff": "wound は刃物や銃などによる傷。injury は広くけが全般。",
+  "other": []
+ },
+ {
+  "src": "M1310",
+  "id": "wound",
+  "cat": "word",
+  "en": "wound",
+  "ipa": "/wuːnd/",
+  "sense": "（刃物・銃などによる）傷",
+  "ja": "傷",
+  "ex": {
+   "en": "The doctor cleaned the wound on his arm.",
+   "ja": "医者は彼の腕の傷を消毒した。",
+   "mark": [
+    "wound"
+   ]
+  },
+  "core": "皮膚が切れたり破れたりしてできた傷。",
+  "diff": "injury はけが全般。wound は皮膚が裂けた傷。",
+  "other": [
+   "（心の）傷：an emotional wound"
+  ]
+ },
+ {
+  "src": "M1311",
+  "id": "bruise",
+  "cat": "word",
+  "en": "bruise",
+  "ipa": "/bruːz/",
+  "sense": "あざ、打撲",
+  "ja": "あざ",
+  "ex": {
+   "en": "I got a big bruise on my leg.",
+   "ja": "脚に大きなあざができた。",
+   "mark": [
+    "bruise"
+   ]
+  },
+  "core": "ぶつけて、皮膚の下が青黒く変わった跡。",
+  "other": []
+ },
+ {
+  "src": "M1312",
+  "id": "infection",
+  "cat": "word",
+  "en": "infection",
+  "ipa": "/ɪnˈfɛkʃən/",
+  "sense": "感染（症）",
+  "ja": "感染",
+  "ex": {
+   "en": "The cut got an infection, so he took medicine.",
+   "ja": "傷が感染したので、彼は薬を飲んだ。",
+   "mark": [
+    "infection"
+   ]
+  },
+  "core": "細菌やウイルスが体に入り込んで広がること。",
+  "other": []
+ },
+ {
+  "src": "M1313",
+  "id": "medicine",
+  "cat": "word",
+  "en": "medicine",
+  "ipa": "/ˈmɛdəsən/",
+  "sense": "薬",
+  "ja": "薬",
+  "ex": {
+   "en": "The doctor told me to take this medicine after every meal.",
+   "ja": "医者は私に、毎食後にこの薬を飲むよう言った。",
+   "mark": [
+    "medicine"
+   ]
+  },
+  "core": "病気やけがを治すために体に入れる物。",
+  "other": [
+   "（医学）医学：study medicine"
+  ]
+ },
+ {
+  "src": "M1314",
+  "id": "pill",
+  "cat": "word",
+  "en": "pill",
+  "ipa": "/pɪl/",
+  "sense": "錠剤",
+  "ja": "錠剤",
+  "ex": {
+   "en": "She takes a vitamin pill with a glass of water every morning.",
+   "ja": "彼女は毎朝、水と一緒にビタミン剤を飲む。",
+   "mark": [
+    "pill"
+   ]
+  },
+  "core": "小さく丸めて飲みやすくした薬。",
+  "diff": "tablet は平たく固めた錠剤。pill は丸い粒の薬を指すことが多い。",
+  "other": []
+ },
+ {
+  "src": "M1315",
+  "id": "tablet",
+  "cat": "word",
+  "en": "tablet",
+  "ipa": "/ˈtæblət/",
+  "sense": "タブレット端末",
+  "ja": "タブレット端末",
+  "ex": {
+   "en": "I read the news on my tablet in bed.",
+   "ja": "私はベッドでタブレットでニュースを読む。",
+   "mark": [
+    "tablet"
+   ]
+  },
+  "core": "平らな板のような形の物。画面を指で操作する端末。",
+  "other": [
+   "（薬）錠剤：take two tablets"
+  ]
+ },
+ {
+  "src": "M1316",
+  "id": "prescription",
+  "cat": "word",
+  "en": "prescription",
+  "ipa": "/prɪˈskrɪpʃən/",
+  "sense": "処方箋",
+  "ja": "処方箋",
+  "ex": {
+   "en": "The doctor wrote me a prescription for the cough.",
+   "ja": "医者はせきの処方箋を書いてくれた。",
+   "mark": [
+    "prescription"
+   ]
+  },
+  "core": "医者があらかじめ書いて指示する、薬の指示書。",
+  "other": []
+ },
+ {
+  "src": "M1317",
+  "id": "bandage",
+  "cat": "word",
+  "en": "bandage",
+  "ipa": "/ˈbændɪdʒ/",
+  "sense": "包帯",
+  "ja": "包帯",
+  "ex": {
+   "en": "The nurse put a bandage on his hand.",
+   "ja": "看護師は彼の手に包帯を巻いた。",
+   "mark": [
+    "bandage"
+   ]
+  },
+  "core": "傷を覆って守る、細長い布。",
+  "other": []
+ },
+ {
+  "src": "M1318",
+  "id": "mask",
+  "cat": "word",
+  "en": "mask",
+  "ipa": "/mæsk/",
+  "sense": "（顔をおおう）マスク",
+  "ja": "マスク",
+  "ex": {
+   "en": "Please wear a mask when you visit your friend in the hospital.",
+   "ja": "病院の友人を見舞うときはマスクをつけてください。",
+   "mark": [
+    "mask"
+   ]
+  },
+  "core": "顔の一部をおおって守る物。",
+  "other": [
+   "（仮面）顔につける面：a Halloween mask"
+  ]
+ },
+ {
+  "src": "M1319",
+  "id": "hospital",
+  "cat": "word",
+  "en": "hospital",
+  "ipa": "/ˈhɑːspɪtl/",
+  "sense": "病院",
+  "ja": "病院",
+  "ex": {
+   "en": "My mother works at a hospital as a nurse.",
+   "ja": "母は病院で看護師として働いている。",
+   "mark": [
+    "hospital"
+   ]
+  },
+  "core": "入院や手術ができる大きな医療施設。",
+  "diff": "clinic は通院で診てもらう小さな診療所。",
+  "other": []
+ },
+ {
+  "src": "M1320",
+  "id": "clinic",
+  "cat": "word",
+  "en": "clinic",
+  "ipa": "/ˈklɪnɪk/",
+  "sense": "診療所、クリニック",
+  "ja": "診療所",
+  "ex": {
+   "en": "I went to a clinic near my house.",
+   "ja": "私は家の近くの診療所に行った。",
+   "mark": [
+    "clinic"
+   ]
+  },
+  "core": "通院して診てもらう、小さめの医療施設。",
+  "diff": "hospital は入院設備のある大きな病院。",
+  "other": []
+ },
+ {
+  "src": "M1321",
+  "id": "pharmacy",
+  "cat": "word",
+  "en": "pharmacy",
+  "ipa": "/ˈfɑːrməsi/",
+  "sense": "薬局",
+  "ja": "薬局",
+  "ex": {
+   "en": "You can buy cold medicine at the pharmacy.",
+   "ja": "薬局で風邪薬が買えます。",
+   "mark": [
+    "pharmacy"
+   ]
+  },
+  "core": "薬を調合して売る店。",
+  "other": []
+ },
+ {
+  "src": "M1322",
+  "id": "ambulance",
+  "cat": "word",
+  "en": "ambulance",
+  "ipa": "/ˈæmbjələns/",
+  "sense": "救急車",
+  "ja": "救急車",
+  "ex": {
+   "en": "An ambulance arrived at the scene of the accident within five minutes.",
+   "ja": "救急車は5分以内に事故現場へ到着した。",
+   "mark": [
+    "ambulance"
+   ]
+  },
+  "core": "病人やけが人を病院へ運ぶ車。",
+  "other": []
+ },
+ {
+  "src": "M1323",
+  "id": "emergency",
+  "cat": "word",
+  "en": "emergency",
+  "ipa": "/ɪˈmɜːrdʒənsi/",
+  "sense": "緊急事態",
+  "ja": "緊急事態",
+  "ex": {
+   "en": "Call 911 right away if you are in an emergency situation.",
+   "ja": "緊急事態のときは、すぐに911に電話してください。",
+   "mark": [
+    "emergency"
+   ]
+  },
+  "core": "すぐに対応しないといけない、突然の危ない状況。",
+  "other": [
+   "（緊急の）緊急の：an emergency exit"
+  ]
+ },
+ {
+  "src": "M1324",
+  "id": "appointment",
+  "cat": "word",
+  "en": "appointment",
+  "ipa": "/əˈpɔɪntmənt/",
+  "sense": "（医者などの）診察予約",
+  "ja": "予約",
+  "ex": {
+   "en": "I have a dentist appointment at three, so I must leave early.",
+   "ja": "3時に歯医者の予約があるので、早く出なければならない。",
+   "mark": [
+    "appointment"
+   ]
+  },
+  "core": "会う日時を前もって決めた約束。",
+  "diff": "reservation はホテルや席の予約。appointment は人に会う予約。",
+  "other": []
+ },
+ {
+  "src": "M1325",
+  "id": "treatment",
+  "cat": "word",
+  "en": "treatment",
+  "ipa": "/ˈtriːtmənt/",
+  "sense": "治療",
+  "ja": "治療",
+  "ex": {
+   "en": "The treatment for the injury took two months.",
+   "ja": "そのけがの治療には2か月かかった。",
+   "mark": [
+    "treatment"
+   ]
+  },
+  "core": "病気やけがを治すために行う手当て。",
+  "other": [
+   "（扱い）接し方：unfair treatment"
+  ]
+ },
+ {
+  "src": "M1326",
+  "id": "surgery",
+  "cat": "word",
+  "en": "surgery",
+  "ipa": "/ˈsɜːrdʒəri/",
+  "sense": "手術",
+  "ja": "手術",
+  "ex": {
+   "en": "He had surgery on his knee last year.",
+   "ja": "彼は去年ひざの手術を受けた。",
+   "mark": [
+    "surgery"
+   ]
+  },
+  "core": "体を切って治す医療。",
+  "other": []
+ },
+ {
+  "src": "M1327",
+  "id": "checkup",
+  "cat": "word",
+  "en": "checkup",
+  "ipa": "/ˈtʃɛkʌp/",
+  "sense": "健康診断、定期検診",
+  "ja": "健康診断",
+  "ex": {
+   "en": "I go to the dentist for a checkup every year.",
+   "ja": "私は毎年、歯医者で定期検診を受ける。",
+   "mark": [
+    "checkup"
+   ]
+  },
+  "core": "悪いところがないか、全体を点検すること。",
+  "other": []
+ },
+ {
+  "src": "M1328",
+  "id": "recovery",
+  "cat": "word",
+  "en": "recovery",
+  "ipa": "/rɪˈkʌvəri/",
+  "sense": "（病気などからの）回復",
+  "ja": "回復",
+  "ex": {
+   "en": "We all wish you a quick and full recovery from the surgery.",
+   "ja": "手術からの早く完全な回復を、みんなで祈っています。",
+   "mark": [
+    "recovery"
+   ]
+  },
+  "core": "悪い状態から元の状態へ戻ること。",
+  "other": [
+   "（景気の）回復：economic recovery"
+  ]
+ },
+ {
+  "src": "M1329",
+  "id": "diet",
+  "cat": "word",
+  "en": "diet",
+  "ipa": "/ˈdaɪət/",
+  "sense": "食生活、食事",
+  "ja": "食生活",
+  "ex": {
+   "en": "A healthy diet includes plenty of vegetables, fruit, and fish.",
+   "ja": "健康的な食生活には、野菜、果物、魚がたっぷり含まれる。",
+   "mark": [
+    "diet"
+   ]
+  },
+  "core": "ふだん食べる物の組み合わせ。",
+  "diff": "日本語の「ダイエット」と違い、減量の意味は be on a diet のように使う。",
+  "other": [
+   "（減量）食事制限：be on a diet"
+  ]
+ },
+ {
+  "src": "M1330",
+  "id": "vitamin",
+  "cat": "word",
+  "en": "vitamin",
+  "ipa": "/ˈvaɪtəmɪn/",
+  "sense": "ビタミン",
+  "ja": "ビタミン",
+  "ex": {
+   "en": "Oranges are full of vitamin C, which helps prevent colds.",
+   "ja": "オレンジはビタミンCが豊富で、風邪の予防に役立つ。",
+   "mark": [
+    "vitamin"
+   ]
+  },
+  "core": "体の調子を保つために少量だけ必要な栄養素。",
+  "diff": "発音は「ヴィタミン」ではなく /ˈvaɪ/ で始まる（米）。",
+  "other": []
+ },
+ {
+  "src": "M1331",
+  "id": "protein",
+  "cat": "word",
+  "en": "protein",
+  "ipa": "/ˈproʊtiːn/",
+  "sense": "タンパク質",
+  "ja": "タンパク質",
+  "ex": {
+   "en": "Eggs and fish are good sources of protein.",
+   "ja": "卵や魚はタンパク質のよい供給源だ。",
+   "mark": [
+    "protein"
+   ]
+  },
+  "core": "筋肉などの体をつくる、基本的な栄養素。",
+  "other": []
+ },
+ {
+  "src": "M1332",
+  "id": "energy",
+  "cat": "word",
+  "en": "energy",
+  "ipa": "/ˈɛnərdʒi/",
+  "sense": "（体の）活力、元気",
+  "ja": "元気、活力",
+  "ex": {
+   "en": "I have no energy after a long day.",
+   "ja": "長い一日のあとは元気が出ない。",
+   "mark": [
+    "energy"
+   ]
+  },
+  "core": "体や物を動かす力の元。",
+  "other": [
+   "（資源）エネルギー：solar energy"
+  ]
+ },
+ {
+  "src": "M1333",
+  "id": "stress",
+  "cat": "word",
+  "en": "stress",
+  "ipa": "/strɛs/",
+  "sense": "（精神的な）ストレス",
+  "ja": "ストレス",
+  "ex": {
+   "en": "Too much work causes a lot of stress.",
+   "ja": "仕事が多すぎると大きなストレスになる。",
+   "mark": [
+    "stress"
+   ]
+  },
+  "core": "心や体にかかる、押さえつけられるような負担。",
+  "other": [
+   "（強勢）語の強く言う部分：the stress of a word"
+  ]
+ },
+ {
+  "src": "M1334",
+  "id": "habit",
+  "cat": "word",
+  "en": "habit",
+  "ipa": "/ˈhæbɪt/",
+  "sense": "習慣、癖",
+  "ja": "習慣",
+  "ex": {
+   "en": "Brushing your teeth after every meal is a very good habit.",
+   "ja": "毎食後に歯をみがくのは、とてもよい習慣だ。",
+   "mark": [
+    "habit"
+   ]
+  },
+  "core": "くり返すうちに、考えなくても行うようになったこと。",
+  "diff": "routine は決まった手順の日課。habit は身についた癖や習慣。",
+  "other": []
+ },
+ {
+  "src": "M1335",
+  "id": "routine",
+  "cat": "word",
+  "en": "routine",
+  "ipa": "/ruːˈtiːn/",
+  "sense": "日課、お決まりの手順",
+  "ja": "日課",
+  "ex": {
+   "en": "My morning routine takes about thirty minutes from start to finish.",
+   "ja": "私の朝の日課は、最初から最後まで約30分かかる。",
+   "mark": [
+    "routine"
+   ]
+  },
+  "core": "毎日同じ順番でくり返す決まった流れ。",
+  "diff": "habit は身についた癖。routine は決まった手順の流れ。",
+  "other": []
+ },
+ {
+  "src": "M1336",
+  "id": "fitness",
+  "cat": "word",
+  "en": "fitness",
+  "ipa": "/ˈfɪtnəs/",
+  "sense": "体力、健康な体",
+  "ja": "体力",
+  "ex": {
+   "en": "Swimming is a great way to improve your fitness.",
+   "ja": "水泳は体力をつけるのによい方法だ。",
+   "mark": [
+    "fitness"
+   ]
+  },
+  "core": "体が運動や活動に十分に合っている（fit）状態。",
+  "other": []
+ },
+ {
+  "src": "M1337",
+  "id": "posture",
+  "cat": "word",
+  "en": "posture",
+  "ipa": "/ˈpɑːstʃər/",
+  "sense": "姿勢",
+  "ja": "姿勢",
+  "ex": {
+   "en": "Good posture while sitting at your desk helps prevent back pain.",
+   "ja": "机に向かうときのよい姿勢は、腰痛の予防に役立つ。",
+   "mark": [
+    "posture"
+   ]
+  },
+  "core": "立ったり座ったりするときの体の構え。",
+  "other": []
+ },
+ {
+  "src": "M1338",
+  "id": "breath",
+  "cat": "word",
+  "en": "breath",
+  "ipa": "/brɛθ/",
+  "sense": "息",
+  "ja": "息",
+  "ex": {
+   "en": "Take a deep breath and count slowly to ten before you answer.",
+   "ja": "深く息を吸って、答える前にゆっくり10まで数えなさい。",
+   "mark": [
+    "breath"
+   ]
+  },
+  "core": "口や鼻から出入りする空気。",
+  "diff": "breathe（息をする）は動詞で、発音は /briːð/。",
+  "other": [
+   "息切れ：out of breath"
+  ]
+ },
+ {
+  "src": "M1339",
+  "id": "clothes",
+  "cat": "word",
+  "en": "clothes",
+  "ipa": "/kloʊðz/",
+  "sense": "衣服",
+  "ja": "衣服",
+  "ex": {
+   "en": "I need to buy some new clothes for winter.",
+   "ja": "冬用の新しい服を買わないといけない。",
+   "mark": [
+    "clothes"
+   ]
+  },
+  "core": "体に着るもの全般。いつも複数形。",
+  "diff": "cloth は布、clothes は衣服。",
+  "other": []
+ },
+ {
+  "src": "M1340",
+  "id": "shirt",
+  "cat": "word",
+  "en": "shirt",
+  "ipa": "/ʃɜːrt/",
+  "sense": "シャツ",
+  "ja": "シャツ",
+  "ex": {
+   "en": "He wore a white shirt to the party.",
+   "ja": "彼はパーティーに白いシャツを着ていった。",
+   "mark": [
+    "shirt"
+   ]
+  },
+  "core": "上半身に着る、えりや袖のある服。",
+  "other": []
+ },
+ {
+  "src": "M1341",
+  "id": "blouse",
+  "cat": "word",
+  "en": "blouse",
+  "ipa": "/blaʊs/",
+  "sense": "ブラウス",
+  "ja": "ブラウス",
+  "ex": {
+   "en": "She wore a pink blouse and a black skirt.",
+   "ja": "彼女はピンクのブラウスと黒いスカートを着ていた。",
+   "mark": [
+    "blouse"
+   ]
+  },
+  "core": "女性が着る、ゆったりしたシャツ風の上着。",
+  "other": []
+ },
+ {
+  "src": "M1342",
+  "id": "sweater",
+  "cat": "word",
+  "en": "sweater",
+  "ipa": "/ˈswɛtər/",
+  "sense": "セーター",
+  "ja": "セーター",
+  "ex": {
+   "en": "Put on a sweater before you go out, because it's cold.",
+   "ja": "寒いから、出かける前にセーターを着なさい。",
+   "mark": [
+    "sweater"
+   ]
+  },
+  "core": "毛糸などで編んだ、あたたかい上着。",
+  "other": []
+ },
+ {
+  "src": "M1343",
+  "id": "jacket",
+  "cat": "word",
+  "en": "jacket",
+  "ipa": "/ˈdʒækɪt/",
+  "sense": "上着、ジャケット",
+  "ja": "上着",
+  "ex": {
+   "en": "He left his jacket on the train and had to go back.",
+   "ja": "彼は電車に上着を忘れて、取りに戻らなければならなかった。",
+   "mark": [
+    "jacket"
+   ]
+  },
+  "core": "丈が短めで、シャツなどの上に着る上着。",
+  "diff": "coat は丈が長く、厚手の外套。",
+  "other": []
+ },
+ {
+  "src": "M1344",
+  "id": "coat",
+  "cat": "word",
+  "en": "coat",
+  "ipa": "/koʊt/",
+  "sense": "コート、外套",
+  "ja": "コート",
+  "ex": {
+   "en": "I need a warm coat for the winter.",
+   "ja": "冬用のあたたかいコートが必要だ。",
+   "mark": [
+    "coat"
+   ]
+  },
+  "core": "寒さを防ぐために一番上に着る、丈の長い服。",
+  "diff": "jacket は丈が短い上着。",
+  "other": []
+ },
+ {
+  "src": "M1345",
+  "id": "suit",
+  "cat": "word",
+  "en": "suit",
+  "ipa": "/suːt/",
+  "sense": "スーツ",
+  "ja": "スーツ",
+  "ex": {
+   "en": "My father always wears a dark suit and a tie to work.",
+   "ja": "父は仕事にいつも、濃い色のスーツとネクタイを身につけていく。",
+   "mark": [
+    "suit"
+   ]
+  },
+  "core": "同じ布でそろえた上着とズボン（またはスカート）。",
+  "other": [
+   "（訴え）訴訟：file a suit"
+  ]
+ },
+ {
+  "src": "M1346",
+  "id": "uniform",
+  "cat": "word",
+  "en": "uniform",
+  "ipa": "/ˈjuːnəfɔːrm/",
+  "sense": "制服",
+  "ja": "制服",
+  "ex": {
+   "en": "Students at my school have to wear a uniform every day.",
+   "ja": "私の学校の生徒は、毎日制服を着なければならない。",
+   "mark": [
+    "uniform"
+   ]
+  },
+  "core": "同じ形（form）にそろえた服。",
+  "other": []
+ },
+ {
+  "src": "M1347",
+  "id": "skirt",
+  "cat": "word",
+  "en": "skirt",
+  "ipa": "/skɜːrt/",
+  "sense": "スカート",
+  "ja": "スカート",
+  "ex": {
+   "en": "She bought a long skirt for the party.",
+   "ja": "彼女はパーティー用に長いスカートを買った。",
+   "mark": [
+    "skirt"
+   ]
+  },
+  "core": "腰から下をおおう、筒状の服。",
+  "other": []
+ },
+ {
+  "src": "M1348",
+  "id": "trousers",
+  "cat": "word",
+  "en": "trousers",
+  "ipa": "/ˈtraʊzərz/",
+  "sense": "ズボン",
+  "ja": "ズボン",
+  "ex": {
+   "en": "These trousers are a little too long, so I'll shorten them.",
+   "ja": "このズボンは少し長すぎるので、丈を詰めるつもりだ。",
+   "mark": [
+    "trousers"
+   ]
+  },
+  "core": "両脚を通す長い服。いつも複数形。",
+  "diff": "（米）では pants が普通。trousers はやや改まった言い方。",
+  "other": []
+ },
+ {
+  "src": "M1349",
+  "id": "jeans",
+  "cat": "word",
+  "en": "jeans",
+  "ipa": "/dʒiːnz/",
+  "sense": "ジーンズ",
+  "ja": "ジーンズ",
+  "ex": {
+   "en": "I usually wear jeans and a T-shirt on the weekend.",
+   "ja": "私は週末はたいていジーンズとTシャツを着ている。",
+   "mark": [
+    "jeans"
+   ]
+  },
+  "core": "丈夫な綿布で作った、カジュアルなズボン。いつも複数形。",
+  "other": []
+ },
+ {
+  "src": "M1350",
+  "id": "shorts",
+  "cat": "word",
+  "en": "shorts",
+  "ipa": "/ʃɔːrts/",
+  "sense": "半ズボン",
+  "ja": "半ズボン",
+  "ex": {
+   "en": "He wore shorts and a T-shirt because it was so hot.",
+   "ja": "とても暑かったので、彼は半ズボンとTシャツを着ていた。",
+   "mark": [
+    "shorts"
+   ]
+  },
+  "core": "ひざより上の丈の短いズボン（short）。いつも複数形。",
+  "other": []
+ },
+ {
+  "src": "M1351",
+  "id": "sock",
+  "cat": "word",
+  "en": "sock",
+  "ipa": "/sɑːk/",
+  "sense": "靴下",
+  "ja": "靴下",
+  "ex": {
+   "en": "I can't find my other sock anywhere in the house.",
+   "ja": "もう片方の靴下が、家のどこにも見つからない。",
+   "mark": [
+    "sock"
+   ]
+  },
+  "core": "足を包んで、靴の中で守る布。ふつう2つで1組。",
+  "other": [],
+  "diff": "socks と複数形で使うことが多い。"
+ },
+ {
+  "src": "M1352",
+  "id": "shoe",
+  "cat": "word",
+  "en": "shoe",
+  "ipa": "/ʃuː/",
+  "sense": "靴",
+  "ja": "靴",
+  "ex": {
+   "en": "These shoes are too small for me, so I can't walk well.",
+   "ja": "この靴は私には小さすぎて、うまく歩けない。",
+   "mark": [
+    "shoe"
+   ]
+  },
+  "core": "足を守るために履く物。ふつう左右で1組。",
+  "other": [],
+  "diff": "shoes と複数形で使うことが多い。"
+ },
+ {
+  "src": "M1353",
+  "id": "boot",
+  "cat": "word",
+  "en": "boot",
+  "ipa": "/buːt/",
+  "sense": "ブーツ",
+  "ja": "ブーツ",
+  "ex": {
+   "en": "He put on his boots and went out in the snow.",
+   "ja": "彼はブーツをはいて雪の中へ出ていった。",
+   "mark": [
+    "boot"
+   ]
+  },
+  "core": "足首より上まで包む、丈夫な靴。",
+  "other": []
+ },
+ {
+  "src": "M1354",
+  "id": "sandal",
+  "cat": "word",
+  "en": "sandal",
+  "ipa": "/ˈsændl/",
+  "sense": "サンダル",
+  "ja": "サンダル",
+  "ex": {
+   "en": "I like to wear sandals when I walk along the beach.",
+   "ja": "私は海辺を歩くときはサンダルをはくのが好きだ。",
+   "mark": [
+    "sandal"
+   ]
+  },
+  "core": "ひもや帯で足に留める、開いた靴。",
+  "other": []
+ },
+ {
+  "src": "M1355",
+  "id": "slipper",
+  "cat": "word",
+  "en": "slipper",
+  "ipa": "/ˈslɪpər/",
+  "sense": "スリッパ",
+  "ja": "スリッパ",
+  "ex": {
+   "en": "Put on your slippers. The floor is cold.",
+   "ja": "スリッパをはきなさい。床が冷たいよ。",
+   "mark": [
+    "slipper"
+   ]
+  },
+  "core": "家の中で履く、軽くて脱ぎやすいはき物。",
+  "other": []
+ },
+ {
+  "src": "M1356",
+  "id": "hat",
+  "cat": "word",
+  "en": "hat",
+  "ipa": "/hæt/",
+  "sense": "（ふちのある）帽子",
+  "ja": "帽子",
+  "ex": {
+   "en": "She wore a big hat to the beach.",
+   "ja": "彼女は海辺に大きな帽子をかぶっていった。",
+   "mark": [
+    "hat"
+   ]
+  },
+  "core": "頭にのせる物。ふち（つば）のある物が多い。",
+  "diff": "cap はつば付きの帽子。",
+  "other": []
+ },
+ {
+  "src": "M1357",
+  "id": "cap",
+  "cat": "word",
+  "en": "cap",
+  "ipa": "/kæp/",
+  "sense": "つば付きの帽子",
+  "ja": "つば付き帽子",
+  "ex": {
+   "en": "He always wears a baseball cap when he goes out to play.",
+   "ja": "彼は遊びに出かけるとき、いつも野球帽をかぶっている。",
+   "mark": [
+    "cap"
+   ]
+  },
+  "core": "前にだけつばがある、頭にぴったりの帽子。",
+  "other": [
+   "（ふた）ふた：put the cap on the bottle"
+  ]
+ },
+ {
+  "src": "M1358",
+  "id": "scarf",
+  "cat": "word",
+  "en": "scarf",
+  "ipa": "/skɑːrf/",
+  "sense": "マフラー、スカーフ",
+  "ja": "マフラー",
+  "ex": {
+   "en": "She wrapped a warm scarf around her neck before leaving home.",
+   "ja": "彼女は家を出る前に、あたたかいマフラーを首に巻いた。",
+   "mark": [
+    "scarf"
+   ]
+  },
+  "core": "首に巻く長い布。",
+  "other": []
+ },
+ {
+  "src": "M1359",
+  "id": "glove",
+  "cat": "word",
+  "en": "glove",
+  "ipa": "/ɡlʌv/",
+  "sense": "手袋",
+  "ja": "手袋",
+  "ex": {
+   "en": "I lost one glove on the way home.",
+   "ja": "帰り道で手袋を片方なくした。",
+   "mark": [
+    "glove"
+   ]
+  },
+  "core": "指を一本ずつ包む手の覆い。",
+  "other": [
+   "gloves と複数形で使うことが多い。"
+  ]
+ },
+ {
+  "src": "M1360",
+  "id": "belt",
+  "cat": "word",
+  "en": "belt",
+  "ipa": "/bɛlt/",
+  "sense": "ベルト",
+  "ja": "ベルト",
+  "ex": {
+   "en": "He tightened his belt by one notch after the big meal.",
+   "ja": "彼は大きな食事のあと、ベルトを一つ分ゆるめた。",
+   "mark": [
+    "belt"
+   ]
+  },
+  "core": "腰に巻いて、ズボンなどを留める帯。",
+  "other": [
+   "（シートベルト）安全のためのベルト：a seat belt"
+  ]
+ },
+ {
+  "src": "M1361",
+  "id": "tie",
+  "cat": "word",
+  "en": "tie",
+  "ipa": "/taɪ/",
+  "sense": "ネクタイ",
+  "ja": "ネクタイ",
+  "ex": {
+   "en": "He wore a blue tie to the meeting.",
+   "ja": "彼は会議に青いネクタイをしていった。",
+   "mark": [
+    "tie"
+   ]
+  },
+  "core": "首にむすぶ（tie）細長い布。",
+  "other": [
+   "（結ぶ）ひもを結ぶ：tie a knot"
+  ]
+ },
+ {
+  "src": "M1362",
+  "id": "pocket",
+  "cat": "word",
+  "en": "pocket",
+  "ipa": "/ˈpɑːkɪt/",
+  "sense": "ポケット",
+  "ja": "ポケット",
+  "ex": {
+   "en": "I put the key in my pocket so I wouldn't lose it.",
+   "ja": "なくさないように、私はカギをポケットに入れた。",
+   "mark": [
+    "pocket"
+   ]
+  },
+  "core": "服についた、小物を入れる小さな袋。",
+  "other": []
+ },
+ {
+  "src": "M1363",
+  "id": "button",
+  "cat": "word",
+  "en": "button",
+  "ipa": "/ˈbʌtn/",
+  "sense": "（服の）ボタン",
+  "ja": "ボタン",
+  "ex": {
+   "en": "A button came off my shirt while I was running for the bus.",
+   "ja": "バスに向かって走っているときに、シャツのボタンが取れた。",
+   "mark": [
+    "button"
+   ]
+  },
+  "core": "服の合わせ目を留める、小さな丸い物。",
+  "other": [
+   "（押しボタン）押して使う部分：press the button"
+  ]
+ },
+ {
+  "src": "M1364",
+  "id": "zipper",
+  "cat": "word",
+  "en": "zipper",
+  "ipa": "/ˈzɪpər/",
+  "sense": "ファスナー",
+  "ja": "ファスナー",
+  "ex": {
+   "en": "The zipper on my bag is stuck, and I can't open it.",
+   "ja": "かばんのファスナーが引っかかって、開けられない。",
+   "mark": [
+    "zipper"
+   ]
+  },
+  "core": "2つの列がかみ合って開け閉めできる留め具。",
+  "diff": "（米）では zipper、（英）では zip と言う。",
+  "other": []
+ },
+ {
+  "src": "M1365",
+  "id": "sleeve",
+  "cat": "word",
+  "en": "sleeve",
+  "ipa": "/sliːv/",
+  "sense": "袖",
+  "ja": "袖",
+  "ex": {
+   "en": "He rolled up his sleeves and started working.",
+   "ja": "彼は袖をまくって働き始めた。",
+   "mark": [
+    "sleeve"
+   ]
+  },
+  "core": "腕を通す、服の筒状の部分。",
+  "other": []
+ },
+ {
+  "src": "M1366",
+  "id": "collar",
+  "cat": "word",
+  "en": "collar",
+  "ipa": "/ˈkɑːlər/",
+  "sense": "襟",
+  "ja": "襟",
+  "ex": {
+   "en": "The collar of his white shirt was dirty after the long day.",
+   "ja": "長い一日のあと、彼の白いシャツの襟は汚れていた。",
+   "mark": [
+    "collar"
+   ]
+  },
+  "core": "首のまわりを囲む、服の部分。",
+  "other": [
+   "（犬の首輪）首輪：a dog collar"
+  ]
+ },
+ {
+  "src": "M1367",
+  "id": "cotton",
+  "cat": "word",
+  "en": "cotton",
+  "ipa": "/ˈkɑːtn/",
+  "sense": "綿、綿布",
+  "ja": "綿",
+  "ex": {
+   "en": "This shirt is made of soft cotton, so it feels comfortable.",
+   "ja": "このシャツはやわらかい綿でできているので、着心地がいい。",
+   "mark": [
+    "cotton"
+   ]
+  },
+  "core": "綿の実から取った、やわらかい繊維。",
+  "other": []
+ },
+ {
+  "src": "M1368",
+  "id": "leather",
+  "cat": "word",
+  "en": "leather",
+  "ipa": "/ˈlɛðər/",
+  "sense": "革",
+  "ja": "革",
+  "ex": {
+   "en": "He bought a leather bag for his mother in Italy.",
+   "ja": "彼はイタリアで、母のために革のかばんを買った。",
+   "mark": [
+    "leather"
+   ]
+  },
+  "core": "動物の皮をなめして作った、丈夫な素材。",
+  "other": []
+ },
+ {
+  "src": "M1369",
+  "id": "size",
+  "cat": "word",
+  "en": "size",
+  "ipa": "/saɪz/",
+  "sense": "サイズ、大きさ",
+  "ja": "サイズ",
+  "ex": {
+   "en": "Do you have this shirt in a larger size?",
+   "ja": "このシャツのもっと大きいサイズはありますか。",
+   "mark": [
+    "size"
+   ]
+  },
+  "core": "物の大きさの度合い。服では号数や寸法を指す。",
+  "other": []
+ },
+ {
+  "src": "M1370",
+  "id": "style",
+  "cat": "word",
+  "en": "style",
+  "ipa": "/staɪl/",
+  "sense": "やり方、様式、型",
+  "ja": "様式",
+  "ex": {
+   "en": "I really like her style of writing and her sense of humor.",
+   "ja": "私は彼女の文章の書き方とユーモアのセンスがとても好きだ。",
+   "mark": [
+    "style"
+   ]
+  },
+  "core": "物事の特徴的な形や、やり方。",
+  "other": [
+   "（服装）髪型や服の型：a new hair style"
+  ]
+ },
+ {
+  "src": "M1371",
+  "id": "fashion",
+  "cat": "word",
+  "en": "fashion",
+  "ipa": "/ˈfæʃən/",
+  "sense": "（服装の）流行",
+  "ja": "流行の服装",
+  "ex": {
+   "en": "Short skirts are in fashion this year among young people.",
+   "ja": "今年は若い人たちのあいだで、短いスカートが流行している。",
+   "mark": [
+    "fashion"
+   ]
+  },
+  "core": "ある時期に多くの人が選ぶ、服などの型。",
+  "other": [
+   "（業界）ファッション関連：the fashion industry"
+  ]
+ },
+ {
+  "src": "M1372",
+  "id": "bag",
+  "cat": "word",
+  "en": "bag",
+  "ipa": "/bæɡ/",
+  "sense": "かばん、袋",
+  "ja": "かばん",
+  "ex": {
+   "en": "She carried a heavy bag to school every single day.",
+   "ja": "彼女は毎日、重いかばんを持って学校へ通った。",
+   "mark": [
+    "bag"
+   ]
+  },
+  "core": "物を入れて持ち運ぶ、やわらかい入れ物。",
+  "other": []
+ },
+ {
+  "src": "M1373",
+  "id": "backpack",
+  "cat": "word",
+  "en": "backpack",
+  "ipa": "/ˈbækpæk/",
+  "sense": "リュックサック",
+  "ja": "リュックサック",
+  "ex": {
+   "en": "He put his lunch and a water bottle in his backpack.",
+   "ja": "彼は昼食と水筒をリュックサックに入れた。",
+   "mark": [
+    "backpack"
+   ]
+  },
+  "core": "背中（back）に背負う袋。",
+  "other": []
+ },
+ {
+  "src": "M1374",
+  "id": "suitcase",
+  "cat": "word",
+  "en": "suitcase",
+  "ipa": "/ˈsuːtkeɪs/",
+  "sense": "スーツケース",
+  "ja": "スーツケース",
+  "ex": {
+   "en": "I packed my suitcase the night before the long trip.",
+   "ja": "長い旅行の前の晩に、私はスーツケースに荷造りした。",
+   "mark": [
+    "suitcase"
+   ]
+  },
+  "core": "旅行用の服などを入れる、四角くて固い入れ物。",
+  "other": []
+ },
+ {
+  "src": "M1375",
+  "id": "luggage",
+  "cat": "word",
+  "en": "luggage",
+  "ipa": "/ˈlʌɡɪdʒ/",
+  "sense": "（旅行用の）手荷物、荷物",
+  "ja": "荷物",
+  "ex": {
+   "en": "Please keep your luggage with you at all times in the station.",
+   "ja": "駅では、荷物をいつも手元に置いておいてください。",
+   "mark": [
+    "luggage"
+   ]
+  },
+  "core": "旅行で運ぶかばんなどをまとめた呼び方。数えられない名詞。",
+  "diff": "baggage は主に（英）や航空関係で使う。",
+  "other": [
+   "数え方：a piece of luggage"
+  ]
+ },
+ {
+  "src": "M1376",
+  "id": "wallet",
+  "cat": "word",
+  "en": "wallet",
+  "ipa": "/ˈwɑːlɪt/",
+  "sense": "財布",
+  "ja": "財布",
+  "ex": {
+   "en": "I left my wallet at home, so I couldn't pay for lunch.",
+   "ja": "財布を家に忘れたので、昼食の代金を払えなかった。",
+   "mark": [
+    "wallet"
+   ]
+  },
+  "core": "お札やカードを入れる、折りたたみ式の入れ物。",
+  "diff": "purse は小銭入れ、または（米）女性用のハンドバッグ。",
+  "other": []
+ },
+ {
+  "src": "M1377",
+  "id": "purse",
+  "cat": "word",
+  "en": "purse",
+  "ipa": "/pɜːrs/",
+  "sense": "（米）女性用のハンドバッグ",
+  "ja": "ハンドバッグ",
+  "ex": {
+   "en": "She took her phone and some tissues out of her purse.",
+   "ja": "彼女はハンドバッグから携帯電話とティッシュを取り出した。",
+   "mark": [
+    "purse"
+   ]
+  },
+  "core": "小物を入れて持ち歩く、小さめのバッグ。",
+  "diff": "（英）では小銭入れの意味が中心。",
+  "other": [
+   "（英）小銭入れ：a coin purse"
+  ]
+ },
+ {
+  "src": "M1378",
+  "id": "umbrella",
+  "cat": "word",
+  "en": "umbrella",
+  "ipa": "/ʌmˈbrɛlə/",
+  "sense": "傘",
+  "ja": "傘",
+  "ex": {
+   "en": "Take an umbrella with you, because it might rain this afternoon.",
+   "ja": "今日の午後は雨が降るかもしれないから、傘を持っていきなさい。",
+   "mark": [
+    "umbrella"
+   ]
+  },
+  "core": "雨や日ざしを防ぐために頭の上に広げる物。",
+  "other": []
+ },
+ {
+  "src": "M1379",
+  "id": "sunglasses",
+  "cat": "word",
+  "en": "sunglasses",
+  "ipa": "/ˈsʌnɡlæsɪz/",
+  "sense": "サングラス",
+  "ja": "サングラス",
+  "ex": {
+   "en": "He wore sunglasses because the sun was bright.",
+   "ja": "日ざしが強かったので彼はサングラスをかけていた。",
+   "mark": [
+    "sunglasses"
+   ]
+  },
+  "core": "強い日ざし（sun）から目を守るめがね。いつも複数形。",
+  "other": []
+ },
+ {
+  "src": "M1380",
+  "id": "ring",
+  "cat": "word",
+  "en": "ring",
+  "ipa": "/rɪŋ/",
+  "sense": "指輪",
+  "ja": "指輪",
+  "ex": {
+   "en": "She wears a gold ring on her finger.",
+   "ja": "彼女は指に金の指輪をはめている。",
+   "mark": [
+    "ring"
+   ]
+  },
+  "core": "指にはめる、輪の形の飾り。",
+  "other": [
+   "（鳴る）電話などが鳴る：The phone rang."
+  ]
+ },
+ {
+  "src": "M1381",
+  "id": "necklace",
+  "cat": "word",
+  "en": "necklace",
+  "ipa": "/ˈnɛkləs/",
+  "sense": "ネックレス",
+  "ja": "ネックレス",
+  "ex": {
+   "en": "He gave her a silver necklace for her birthday.",
+   "ja": "彼は誕生日に彼女へ銀のネックレスを贈った。",
+   "mark": [
+    "necklace"
+   ]
+  },
+  "core": "首（neck）のまわりにつける飾り。",
+  "other": []
+ },
+ {
+  "src": "M1382",
+  "id": "clock",
+  "cat": "word",
+  "en": "clock",
+  "ipa": "/klɑːk/",
+  "sense": "（置き・掛け）時計",
+  "ja": "時計",
+  "ex": {
+   "en": "The clock on the wall says ten, so we should leave soon.",
+   "ja": "壁の時計は10時を指しているから、そろそろ出よう。",
+   "mark": [
+    "clock"
+   ]
+  },
+  "core": "部屋に置いたり掛けたりする時計。",
+  "diff": "watch は腕につける時計。",
+  "other": []
+ },
+ {
+  "src": "M1383",
+  "id": "alarm",
+  "cat": "word",
+  "en": "alarm",
+  "ipa": "/əˈlɑːrm/",
+  "sense": "警報（器）、目覚まし",
+  "ja": "警報",
+  "ex": {
+   "en": "The fire alarm went off in the middle of our math test.",
+   "ja": "数学のテストの最中に、火災警報が鳴り出した。",
+   "mark": [
+    "alarm"
+   ]
+  },
+  "core": "危険や時間を音で知らせるしくみ。",
+  "other": [
+   "（目覚まし）目覚まし時計の音：set an alarm for six"
+  ]
+ },
+ {
+  "src": "M1384",
+  "id": "phone",
+  "cat": "word",
+  "en": "phone",
+  "ipa": "/foʊn/",
+  "sense": "電話、携帯電話",
+  "ja": "電話",
+  "ex": {
+   "en": "My phone is out of battery, so I can't call you now.",
+   "ja": "電話の電池が切れたので、今は電話をかけられない。",
+   "mark": [
+    "phone"
+   ]
+  },
+  "core": "遠くの人と話すための機器。telephone の短縮形。",
+  "other": [
+   "（電話をかける）電話する：I'll phone you later."
+  ]
+ },
+ {
+  "src": "M1385",
+  "id": "camera",
+  "cat": "word",
+  "en": "camera",
+  "ipa": "/ˈkæmərə/",
+  "sense": "カメラ",
+  "ja": "カメラ",
+  "ex": {
+   "en": "He took a picture with his new camera.",
+   "ja": "彼は新しいカメラで写真を撮った。",
+   "mark": [
+    "camera"
+   ]
+  },
+  "core": "光をとらえて写真や映像を記録する機械。",
+  "other": []
+ },
+ {
+  "src": "M1386",
+  "id": "battery",
+  "cat": "word",
+  "en": "battery",
+  "ipa": "/ˈbætəri/",
+  "sense": "電池、バッテリー",
+  "ja": "電池",
+  "ex": {
+   "en": "The battery in this clock is dead, so it has stopped.",
+   "ja": "この時計の電池が切れたので、止まってしまった。",
+   "mark": [
+    "battery"
+   ]
+  },
+  "core": "電気をためて、機器に送る部品。",
+  "other": []
+ },
+ {
+  "src": "M1387",
+  "id": "charger",
+  "cat": "word",
+  "en": "charger",
+  "ipa": "/ˈtʃɑːrdʒər/",
+  "sense": "充電器",
+  "ja": "充電器",
+  "ex": {
+   "en": "Can I borrow your phone charger? Mine is at home.",
+   "ja": "あなたの携帯の充電器を借りてもいい？私のは家にあるの。",
+   "mark": [
+    "charger"
+   ]
+  },
+  "core": "電池に電気を入れる（charge）機器。",
+  "other": []
+ },
+ {
+  "src": "M1388",
+  "id": "headphones",
+  "cat": "word",
+  "en": "headphones",
+  "ipa": "/ˈhɛdfoʊnz/",
+  "sense": "ヘッドホン",
+  "ja": "ヘッドホン",
+  "ex": {
+   "en": "He listens to music on his headphones on the train.",
+   "ja": "彼は電車の中でヘッドホンで音楽を聞く。",
+   "mark": [
+    "headphones"
+   ]
+  },
+  "core": "頭（head）にかけて耳に音を届ける機器。いつも複数形。",
+  "other": []
+ },
+ {
+  "src": "M1389",
+  "id": "notebook",
+  "cat": "word",
+  "en": "notebook",
+  "ipa": "/ˈnoʊtbʊk/",
+  "sense": "ノート、帳面",
+  "ja": "ノート",
+  "ex": {
+   "en": "I wrote the new words in my notebook after class.",
+   "ja": "私は授業のあと、新しい単語をノートに書いた。",
+   "mark": [
+    "notebook"
+   ]
+  },
+  "core": "メモや勉強の内容を書き留める、とじた紙の束。",
+  "other": [
+   "（ノートパソコン）a notebook computer"
+  ]
+ },
+ {
+  "src": "M1390",
+  "id": "pen",
+  "cat": "word",
+  "en": "pen",
+  "ipa": "/pɛn/",
+  "sense": "ペン",
+  "ja": "ペン",
+  "ex": {
+   "en": "Can I borrow your pen for a minute?",
+   "ja": "ちょっとペンを貸してもらえますか。",
+   "mark": [
+    "pen"
+   ]
+  },
+  "core": "インクで字を書く筆記具。",
+  "other": []
+ },
+ {
+  "src": "M1391",
+  "id": "pencil",
+  "cat": "word",
+  "en": "pencil",
+  "ipa": "/ˈpɛnsl/",
+  "sense": "鉛筆",
+  "ja": "鉛筆",
+  "ex": {
+   "en": "Please write your answer in pencil so that you can erase it.",
+   "ja": "消せるように、答えは鉛筆で書いてください。",
+   "mark": [
+    "pencil"
+   ]
+  },
+  "core": "黒い芯で書く、消せる筆記具。",
+  "other": []
+ },
+ {
+  "src": "M1392",
+  "id": "eraser",
+  "cat": "word",
+  "en": "eraser",
+  "ipa": "/ɪˈreɪsər/",
+  "sense": "消しゴム",
+  "ja": "消しゴム",
+  "ex": {
+   "en": "I need an eraser to fix the mistake in my answer.",
+   "ja": "答えの間違いを直すために、消しゴムが必要だ。",
+   "mark": [
+    "eraser"
+   ]
+  },
+  "core": "書いた字をこすって消す（erase）道具。",
+  "diff": "（英）では rubber と言うことが多い。",
+  "other": []
+ },
+ {
+  "src": "M1393",
+  "id": "ruler",
+  "cat": "word",
+  "en": "ruler",
+  "ipa": "/ˈruːlər/",
+  "sense": "定規",
+  "ja": "定規",
+  "ex": {
+   "en": "Use a ruler to draw a straight line.",
+   "ja": "まっすぐな線を引くには定規を使いなさい。",
+   "mark": [
+    "ruler"
+   ]
+  },
+  "core": "長さを測り、線を引くための細長い道具。",
+  "other": [
+   "（支配者）君主：the ruler of a country"
+  ]
+ },
+ {
+  "src": "M1394",
+  "id": "scissors",
+  "cat": "word",
+  "en": "scissors",
+  "ipa": "/ˈsɪzərz/",
+  "sense": "はさみ",
+  "ja": "はさみ",
+  "ex": {
+   "en": "Can you pass me the scissors so I can cut this paper?",
+   "ja": "この紙を切りたいから、はさみを取ってもらえますか。",
+   "mark": [
+    "scissors"
+   ]
+  },
+  "core": "2枚の刃で紙や布を切る道具。いつも複数形。",
+  "other": [
+   "数え方：a pair of scissors"
+  ]
+ },
+ {
+  "src": "M1395",
+  "id": "glue",
+  "cat": "word",
+  "en": "glue",
+  "ipa": "/ɡluː/",
+  "sense": "接着剤、のり",
+  "ja": "接着剤",
+  "ex": {
+   "en": "I used glue to fix the broken cup.",
+   "ja": "私は接着剤で割れたカップを直した。",
+   "mark": [
+    "glue"
+   ]
+  },
+  "core": "物と物をくっつけるねばねばした液体。",
+  "other": []
+ },
+ {
+  "src": "M1396",
+  "id": "tape",
+  "cat": "word",
+  "en": "tape",
+  "ipa": "/teɪp/",
+  "sense": "粘着テープ",
+  "ja": "粘着テープ",
+  "ex": {
+   "en": "Use tape to hold the poster on the wall.",
+   "ja": "ポスターを壁に貼るのにテープを使って。",
+   "mark": [
+    "tape"
+   ]
+  },
+  "core": "片面がくっつく、細長い帯。",
+  "other": [
+   "（録音）録音テープ：a tape of the music"
+  ]
+ },
+ {
+  "src": "M1397",
+  "id": "envelope",
+  "cat": "word",
+  "en": "envelope",
+  "ipa": "/ˈɛnvəloʊp/",
+  "sense": "封筒",
+  "ja": "封筒",
+  "ex": {
+   "en": "She put the letter in an envelope and wrote his address on it.",
+   "ja": "彼女は手紙を封筒に入れて、彼の住所を書いた。",
+   "mark": [
+    "envelope"
+   ]
+  },
+  "core": "手紙や書類を包んで送るための紙の袋。",
+  "other": []
+ }
+]
