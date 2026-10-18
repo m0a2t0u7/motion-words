@@ -11,7 +11,8 @@ const CATS = [
   { id: 'daily', label: '日常単語' },
   { id: 'idiom', label: 'イディオム' },
   { id: 'toeic', label: 'TOEIC語彙' },
-  { id: 'word', label: '単語' }
+  { id: 'word', label: '単語' },
+  { id: 'phrase', label: '会話表現' }
 ];
 const REQUIRED = ['id', 'en', 'ipa', 'sense', 'ja', 'ex', 'core'];
 const errors = [];
