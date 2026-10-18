@@ -16,15 +16,15 @@ export function create(k) {
   [[-10, -2], [0, -2], [10, -2]].forEach(([x, y]) => el('circle', { cx: x, cy: y, r: 4, fill: '#fff' }, card));
   el('rect', { x: -14, y: 5, width: 28, height: 6, rx: 3, fill: '#fff' }, card);
   const arrow = el('path', { d: 'M 0 0 L -100 0 M -92 -8 L -102 0 L -92 8', stroke: pal.mintDark, 'stroke-width': 3, fill: 'none', 'stroke-linecap': 'round', opacity: 0 });
-  const b = k.buddy({ x: 330, y: FY, scale: 1, facing: -1 });
+  const b = k.buddy({ x: 330, y: FY, scale: 1.3, facing: -1 });
   const thuX = X0 + 3 * CW + CW / 2, monX = X0 + CW / 2;
   return {
     update(t) {
       const grab = easeOut(seg(t, 0.5, 1.0)), mv = easeInOut(seg(t, 1.2, 2.6)), rel = easeInOut(seg(t, 2.8, 3.2));
-      const cx = lerp(thuX, monX, mv), cy = 117 - hump(mv) * 10;
-      b.pose({ x: lerp(330, 190, mv), walk: mv > 0 && mv < 1 ? t * 9 : 0, facing: -1, armR: lerp(10, 160, grab) * (1 - rel) + 10 * rel, lean: 6 * grab * (1 - rel), look: 0.6, mood: t > 2.8 ? 'grin' : 'smile' });
-      if (grab > 0 && rel < 1) b.pose({ armR: lerp(10, reach(b, 1, 'R', cx, cy + 6), grab * (1 - rel)) });
-      const h = hp(b, 1);
+      const cx = lerp(thuX, monX, mv), cy = 117 - hump(mv) * 10, grab0 = 0;
+      b.pose({ x: cx + 58 + 20 * (1 - grab), walk: mv > 0 && mv < 1 ? t * 9 : 0, facing: -1, armR: lerp(10, 160, grab) * (1 - rel) + 10 * rel, lean: 6 * grab * (1 - rel), look: 0.6, mood: t > 2.8 ? 'grin' : 'smile' });
+      if (grab > 0 && rel < 1) b.pose({ armR: lerp(10, reach(b, 1.3, 'R', cx, cy + 10), grab * (1 - rel)) });
+      const h = hp(b, 1.3);
       tf(card, t < 1.0 ? lerp(thuX, thuX, 0) : cx, t < 1.0 ? 117 : cy, -6 * hump(mv));
       mark.setAttribute('opacity', mv > 0.2 ? 1 : 0);
       tf(arrow, thuX - 8, 186); arrow.setAttribute('opacity', hump(seg(t, 1.2, 3.0)));

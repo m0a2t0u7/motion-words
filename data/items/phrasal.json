@@ -4001,7 +4001,8 @@
     },
     "core": "順番を待つ列（queue）をつくる。",
     "diff": "（英）で多く使う。米国では line up がふつう。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0194",
@@ -4020,7 +4021,8 @@
     "core": "折りたたんだ物を、外（out）へ広く伸ばす。",
     "other": [
       "（人が）散らばる：spread out in the park"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0195",
@@ -4039,7 +4041,8 @@
     "core": "物を見えるように外（out）へ並べて置く。",
     "other": [
       "（計画などを）詳しく示す：lay out a plan"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0196",
@@ -4056,7 +4059,8 @@
       ]
     },
     "core": "広がった物を折り重ねて、小さく（up）まとめる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0197",
@@ -4075,7 +4079,8 @@
     "core": "端から巻いて、細く丸く（up）まとめる。",
     "other": [
       "（袖を）まくる：roll up your sleeves"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0198",
@@ -4094,7 +4099,8 @@
     "core": "ひもでしっかりと（up）結んで固定する。",
     "other": [
       "（人が）手がふさがっている：I'm tied up today."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0199",
@@ -4113,7 +4119,8 @@
     "core": "戸や窓を全部しっかり（up）施錠する。",
     "other": [
       "（人を）閉じ込める：lock him up"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0200",
@@ -4132,7 +4139,8 @@
     "core": "閉じていた物を、中が見えるように開ける（up）。",
     "other": [
       "（店を）開ける：open up the shop"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0201",
@@ -4149,7 +4157,8 @@
       ]
     },
     "core": "営業していた店が、動きをすっかり止める（down）。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0202",
@@ -4168,7 +4177,8 @@
     "core": "戸を閉めて、人や物を外（out）に置いたままにする。",
     "other": [
       "（光・音を）さえぎる：shut out the noise"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0203",
@@ -4185,7 +4195,8 @@
       ]
     },
     "core": "人が中（in）に入ることを許す。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0204",
@@ -4204,7 +4215,8 @@
     "core": "中にいるものが外（out）へ出ることを許す。",
     "other": [
       "（声などを）出す：let out a sigh"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0205",
@@ -4223,7 +4235,8 @@
     "core": "人や物を外（out）にとどめておく。",
     "other": [
       "〜に入らない：keep out of the rain"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0206",
@@ -4242,7 +4255,8 @@
     "core": "離れた所（away）に身を置き続ける。",
     "other": [
       "〜を近づけない：keep the kids away"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0207",
@@ -4261,7 +4275,8 @@
     "core": "表面に乗らないで、離れて（off）いる。",
     "other": [
       "〜を避ける：keep off sweets"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0208",
@@ -4280,7 +4295,8 @@
     "core": "足を後ろ（back）に動かして、距離をとる。",
     "other": [
       "（冷静に）引いて考える：step back and think"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0209",
@@ -4299,7 +4315,8 @@
     "core": "通り道から、横（aside）へ一歩動く。",
     "other": [
       "（地位を）譲る：step aside for a younger person"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0210",
@@ -4316,7 +4333,8 @@
       ]
     },
     "core": "高い地位から下（down）へ降りる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0211",
@@ -4333,7 +4351,8 @@
       ]
     },
     "core": "問題の中（in）へ一歩踏み込んで関わる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0212",
@@ -4352,7 +4371,8 @@
     "core": "相手に沿って（along）、同じ方向へ付いてくる。",
     "other": [
       "（物事が）進む：The work is coming along well."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0213",
@@ -4371,7 +4391,8 @@
     "core": "歩いていて、ふと目の前（across）に現れたものに出会う。",
     "other": [
       "（印象を）与える：He comes across as shy."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0214",
@@ -4390,7 +4411,8 @@
     "core": "話題が表面（up）に浮かび上がってくる。",
     "other": [
       "（人が）近づいてくる：He came up to me."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0215",
@@ -4408,7 +4430,8 @@
     },
     "core": "物事が周りの状況から生まれてくる。",
     "diff": "happen より、経緯を問う感じ。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0216",
@@ -4425,7 +4448,8 @@
       ]
     },
     "core": "集団から前（forward）へ出てくる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0217",
@@ -4445,7 +4469,8 @@
     "diff": "米国では come to や come around を使う。",
     "other": [
       "（家に）立ち寄る：come round for tea"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0218",
@@ -4464,7 +4489,8 @@
     "core": "困難の中をくぐり抜けて、向こう側（through）へ出る。",
     "other": [
       "（約束を）果たす：He came through for us."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0219",
@@ -4483,7 +4509,8 @@
     "core": "数値が下（down）へ動く。",
     "other": [
       "（上から）降りてくる：come down the stairs"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0220",
@@ -4502,7 +4529,8 @@
     "core": "止まっていた機器が動いている状態（on）になる。",
     "other": [
       "さあ、早く：Come on, let's go!"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0221",
@@ -4521,7 +4549,8 @@
     "core": "別々の場所から、一緒に（together）なる。",
     "other": [
       "（物事が）まとまる：The plan came together."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0222",
@@ -4540,7 +4569,8 @@
     "core": "相手と同じ方向に沿って（along）無理なく進む。",
     "other": [
       "（なんとか）やっていく：get along without a car"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0223",
@@ -4557,7 +4587,8 @@
       ]
     },
     "core": "人が一緒に（together）なる状態になる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0224",
@@ -4576,7 +4607,8 @@
     "core": "ぎりぎりの条件のそばを（by）通り抜けていく。",
     "other": [
       "通り過ぎる：get by the crowd"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0225",
@@ -4593,7 +4625,8 @@
       ]
     },
     "core": "障害を乗り越えて（over）向こう側へ行く。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0226",
@@ -4612,7 +4645,8 @@
     "core": "最初から終わりまで通り抜ける（through）。",
     "other": [
       "（電話が）つながる：I couldn't get through."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0227",
@@ -4631,7 +4665,8 @@
     "core": "他の人より前（ahead）に出る。",
     "other": [
       "（予定より）先に進む：get ahead of schedule"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0228",
@@ -4650,7 +4685,8 @@
     "core": "その場から離れた所（away）へ抜け出す。",
     "other": [
       "（休暇で）出かける：get away for a weekend"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0229",
@@ -4669,7 +4705,8 @@
     "core": "考えを相手のところまで、向こう側（across）へ渡す。",
     "other": [
       "（道などを）渡る：get across the river"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0230",
@@ -4688,7 +4725,8 @@
     "core": "高い所から下（down）の位置へ移る。",
     "other": [
       "〜を落ち込ませる：The rain gets me down."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0231",
@@ -4707,7 +4745,8 @@
     "core": "ある状況の中で、何かの行動に及ぶ。",
     "other": [
       "（ある所に）達する：get up to page ten"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0232",
@@ -4726,7 +4765,8 @@
     "core": "いろいろな場所を回って（around）動く。",
     "other": [
       "（うわさが）広まる：The news got around."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0233",
@@ -4745,7 +4785,8 @@
     "core": "言葉の先にある、ある点（at）に手を伸ばす。",
     "other": [
       "（物に）手が届く：get at the top shelf"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0234",
@@ -4764,7 +4805,8 @@
     "core": "ある世界の中（into）へ入り込む。",
     "other": [
       "（車などに）乗り込む：get into the car"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0235",
@@ -4783,7 +4825,8 @@
     "core": "止まっていたことに戻り、先へ進む（on）。",
     "other": [
       "（英）〜と仲良くやる：get on with my neighbor"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0236",
@@ -4800,7 +4843,8 @@
       ]
     },
     "core": "悪いことをしても、罰を受けずにその場から離れる（away）。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0237",
@@ -4817,7 +4861,8 @@
       ]
     },
     "core": "いらない物を自分から離して、なくす。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0239",
@@ -4836,7 +4881,8 @@
     "core": "抵抗する力をゆるめて、相手の側へ（in）譲る。",
     "other": [
       "（書類を）提出する：give in the homework"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0240",
@@ -4855,7 +4901,8 @@
     "core": "手持ちの物を外（out）へ配り出す。",
     "other": [
       "（物が）尽きる：Our supplies gave out."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0241",
@@ -4874,7 +4921,8 @@
     "core": "自分の手元から離して（away）、人にあげる。",
     "other": [
       "（秘密を）うっかり漏らす：give away the secret"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0242",
@@ -4891,7 +4939,8 @@
       ]
     },
     "core": "自分の中から外へ離して（off）出す。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0243",
@@ -4910,7 +4959,8 @@
     "core": "支える力がなくなり、道を開けるように壊れる。",
     "other": [
       "（相手に）道を譲る：give way to traffic"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0244",
@@ -4927,7 +4977,8 @@
       ]
     },
     "core": "期待をやめて、その対象から手を引く。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0245",
@@ -4946,7 +4997,8 @@
     "core": "他の人が持っていた物を受け取って、向こう側（over）から自分の手に移す。",
     "other": [
       "（会社などを）買収する：take over a company"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0246",
@@ -4965,7 +5017,8 @@
     "core": "新しいものを手に取って（up）始める。",
     "other": [
       "（場所・時間を）取る：take up space"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0247",
@@ -4984,7 +5037,8 @@
     "core": "新しい役目を自分の側に取り込む（on）。",
     "other": [
       "（相手と）対戦する：take on the champion"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0248",
@@ -5003,7 +5057,8 @@
     "core": "外にある物を自分の中（in）に取り入れる。",
     "other": [
       "（人を）泊める：take in a stray cat"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0249",
@@ -5020,7 +5075,8 @@
       ]
     },
     "core": "親のあと（after）に続くように、同じ性質を受け継ぐ。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0250",
@@ -5039,7 +5095,8 @@
     "core": "その人や物に向かって（to）気持ちが傾く。",
     "other": [
       "（習慣として）始める：take to jogging"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0251",
@@ -5056,7 +5113,8 @@
       ]
     },
     "core": "一緒に（along）連れて移動する。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0252",
@@ -5073,7 +5131,8 @@
       ]
     },
     "core": "価値の一部を取り去って、減らす。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0253",
@@ -5090,7 +5149,8 @@
       ]
     },
     "core": "たまった怒りを外（out）へ出し、関係のない人（on）にぶつける。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0254",
@@ -5107,7 +5167,8 @@
       ]
     },
     "core": "ある相手のそば（with）に身を寄せて、行動を共にし始める。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0256",
@@ -5126,7 +5187,8 @@
     "core": "燃えている火を外（out）へ追い出して消す。",
     "other": [
       "（手などを）差し出す：put out a hand"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0257",
@@ -5145,7 +5207,8 @@
     "core": "今使わない分を、脇（aside）に置いておく。",
     "other": [
       "（作業などを）脇に置く：put aside the book"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0258",
@@ -5162,7 +5225,8 @@
       ]
     },
     "core": "考えを前（forward）に出して、皆に見せる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0259",
@@ -5179,7 +5243,8 @@
       ]
     },
     "core": "電話の線を通して（through）相手へつなぐ。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0260",
@@ -5196,7 +5261,8 @@
       ]
     },
     "core": "嫌なことを受け止めて、そのまま持ちこたえる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0261",
@@ -5215,7 +5281,8 @@
     "core": "時間や労力を、物事の中（in）に注ぎ入れる。",
     "other": [
       "〜を取り付ける：put in a new window"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0262",
@@ -5232,7 +5299,8 @@
       ]
     },
     "core": "力やお金を、物事の中（into）に入れる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0263",
@@ -5250,7 +5318,8 @@
     },
     "core": "原因の欄に書きつけて（down）、その原因へ（to）結びつける。",
     "diff": "米国では attribute to や chalk up to を使うことが多い。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0265",
@@ -5269,7 +5338,8 @@
     "core": "外にあるものを、中（in）へ持ち込む。",
     "other": [
       "（お金を）稼ぐ：bring in money"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0266",
@@ -5286,7 +5356,8 @@
       ]
     },
     "core": "ある結果を、起こす（about）状態まで持っていく。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0267",
@@ -5305,7 +5376,8 @@
     "core": "物を、一緒に（along）持って来る。",
     "other": [
       "（人を）連れてくる：bring a friend along"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0268",
@@ -5324,7 +5396,8 @@
     "core": "数値などを下（down）へ持ってくる。",
     "other": [
       "（政府などを）倒す：bring down the government"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0269",
@@ -5341,7 +5414,8 @@
       ]
     },
     "core": "別々のものを持ち寄り、一緒に（together）する。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0270",
@@ -5360,7 +5434,8 @@
     "core": "予定を前（forward）の日へ動かす。",
     "other": [
       "（案を）提出する：bring forward a plan"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0271",
@@ -5377,7 +5452,8 @@
       ]
     },
     "core": "ある状態を、持ってきて始まらせる（on）。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0272",
@@ -5397,7 +5473,8 @@
     "diff": "米国では bring around を使う。",
     "other": [
       "（意識を）回復させる：bring her round"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0273",
@@ -5415,7 +5492,8 @@
     },
     "core": "体の中のものを外（out）の肌（in）に出させる。",
     "diff": "米国では give someone a rash や break out in a rash を使う。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0275",
@@ -5435,7 +5513,8 @@
     "diff": "see は見えること。look at は意識して目を向けること。",
     "other": [
       "〜を検討する：look at the data"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0276",
@@ -5452,7 +5531,8 @@
       ]
     },
     "core": "あとから（after）目で追って、面倒を見る。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0278",
@@ -6221,7 +6301,8 @@
       ]
     },
     "core": "考えを前方（ahead）の将来へ向ける。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0321",
@@ -6240,7 +6321,8 @@
     "core": "ひとつの物事に向かって（on）作業を続ける。",
     "other": [
       "（人に）働きかけて説得する：work on him"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0322",
@@ -6257,7 +6339,8 @@
       ]
     },
     "core": "問題の中を、端から端まで（through）進んでいく。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0323",
@@ -6275,7 +6358,8 @@
     },
     "core": "目標のほうへ（towards）、少しずつ努力して近づく。",
     "diff": "米国では toward がふつう。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0324",
@@ -6292,7 +6376,8 @@
       ]
     },
     "core": "障害を直接なおさず、周り（around）から対処する。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0325",
@@ -6309,7 +6394,8 @@
       ]
     },
     "core": "考えが頭の中から上（up）に浮かんで、手元（with）に来る。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0326",
@@ -6327,7 +6413,8 @@
     },
     "core": "頭の中で数えて、その予想に基づいて（on）計画する。",
     "diff": "くだけた言い方。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0327",
@@ -6344,7 +6431,8 @@
       ]
     },
     "core": "線を引いて、可能性の外（out）に置く。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0328",
@@ -6361,7 +6449,8 @@
       ]
     },
     "core": "指で示して、見えるように外（out）に出す。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0329",
@@ -6380,7 +6469,8 @@
     "core": "ある方向へ（to）向けて指し示す。",
     "other": [
       "（指で）指す：point to the map"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0330",
@@ -6397,7 +6487,8 @@
       ]
     },
     "core": "全体を足して、ひとつの合計（sum）にまとめる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0331",
@@ -6416,7 +6507,8 @@
     "core": "数を足していって、合計に至る（up）。",
     "other": [
       "（話の）つじつまが合う：The story doesn't add up."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0332",
@@ -6433,7 +6525,8 @@
       ]
     },
     "core": "すでにあるものに（to）、さらに加える。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0333",
@@ -6450,7 +6543,8 @@
       ]
     },
     "core": "その人を計算に入れて（on）、基盤にする。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0334",
@@ -6468,7 +6562,8 @@
     },
     "core": "人数の中（in）に数える。",
     "diff": "count out の反対の意味。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0335",
@@ -6487,7 +6582,8 @@
     "core": "数えながら、外（out）へ出していく。",
     "other": [
       "（人を）除外する：Count me out."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0336",
@@ -6504,7 +6600,8 @@
       ]
     },
     "core": "外（out）に置いたままにして、入れない。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0337",
@@ -6523,7 +6620,8 @@
     "core": "物を、自分の後ろ（behind）にそのまま残す。",
     "other": [
       "（人を）置き去りにする：leave the others behind"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0338",
@@ -6540,7 +6638,8 @@
       ]
     },
     "core": "続けていたことから手を離す（off）。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0339",
@@ -6557,7 +6656,8 @@
       ]
     },
     "core": "人に関わらず、ひとり（alone）の状態のままにする。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0340",
@@ -6576,7 +6676,8 @@
     "core": "出てくるものを、後ろ（back）に押さえておく。",
     "other": [
       "（情報を）隠す：hold back the truth"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0341",
@@ -6595,7 +6696,8 @@
     "core": "動きを手で止めて、離れた状態（off）にしておく。",
     "other": [
       "（雨などが）降らずにいる：The rain held off."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0342",
@@ -6614,7 +6716,8 @@
     "core": "最後まで（out）、状態を保ち続ける。",
     "other": [
       "（手などを）差し出す：hold out a hand"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0343",
@@ -6633,7 +6736,8 @@
     "core": "手に持った物に（onto）、しっかり付いたままにする。",
     "other": [
       "〜を取っておく：hold onto old photos"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0344",
@@ -6650,7 +6754,8 @@
       ]
     },
     "core": "動作を止めずに、そのまま続ける（on）。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0345",
@@ -6667,7 +6772,8 @@
       ]
     },
     "core": "目の前の物事（at）に取り組みつづける。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0346",
@@ -6686,7 +6792,8 @@
     "core": "ある行動から（from）自分を遠ざけておく。",
     "other": [
       "〜を妨げる：keep him from leaving"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0347",
@@ -6703,7 +6810,8 @@
       ]
     },
     "core": "決められたもの（to）から離れずにいる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0348",
@@ -6722,7 +6830,8 @@
     "core": "後ろ（back）の位置にとどまる。",
     "other": [
       "〜を取っておく：keep back some money"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0349",
@@ -6740,7 +6849,8 @@
     },
     "core": "相手と同じ水準を保ち（keep up）、離されない。",
     "diff": "catch up with は離れた差を縮めること。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0350",
@@ -6759,7 +6869,8 @@
     "core": "つながりを切って、離す（off）。",
     "other": [
       "（話を）さえぎる：cut him off"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0351",
@@ -6778,7 +6889,8 @@
     "core": "全体から一部を切って、外（out）に取り出す。",
     "other": [
       "（食べ物などを）やめる：cut out sugar"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0352",
@@ -6795,7 +6907,8 @@
       ]
     },
     "core": "量を切って、元の水準まで戻す（back）。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0354",
@@ -6812,7 +6925,8 @@
       ]
     },
     "core": "道の決まった形を無視して、斜めに横切る（across）。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0355",
@@ -6829,7 +6943,8 @@
       ]
     },
     "core": "ふさがった所を切るように、向こうまで（through）通る。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0356",
@@ -6848,7 +6963,8 @@
     "core": "流れを切って、その中（in）に入り込む。",
     "other": [
       "（列や車線に）割り込む：cut in line"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0357",
@@ -6867,7 +6983,8 @@
     "core": "刃が入るように、ほかの物の中（into）を削っていく。",
     "other": [
       "（ナイフで）切り込む：cut into the cake"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0359",
@@ -6886,7 +7003,8 @@
     "core": "走っている途中で、ふと目の前（across）に出会う。",
     "other": [
       "（道を）走って渡る：run across the street"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0360",
@@ -6905,7 +7023,8 @@
     "core": "車が物の上（over）を走って通る。",
     "other": [
       "（あふれて）こぼれる：The water ran over."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0361",
@@ -6922,7 +7041,8 @@
       ]
     },
     "core": "始めから終わりまで（through）、一気に通してやる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0362",
@@ -6941,7 +7061,8 @@
     "core": "逃げるものの後ろ（after）を走ってついていく。",
     "other": [
       "（夢・目標を）追い求める：run after success"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0363",
@@ -6960,7 +7081,8 @@
     "core": "あちこち円を描くように（around）走る。",
     "other": [
       "（用事で）忙しく動き回る：run around all day"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0364",
@@ -6979,7 +7101,8 @@
     "core": "その場から離れる（off）ように走って消える。",
     "other": [
       "（コピーを）刷る：run off ten copies"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0365",
@@ -6998,7 +7121,8 @@
     "core": "止まるはずのところで止まらず、そのまま先へ（on）進み続ける。",
     "other": [
       "（燃料・電池で）動く：run on batteries"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0367",
@@ -7015,7 +7139,8 @@
       ]
     },
     "core": "進んでいく途中で、壁のようなものに突き当たる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0368",
@@ -7035,7 +7160,8 @@
     "other": [
       "（話・言い訳を）でっち上げる：make up a story",
       "〜を構成する：make up the team"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0369",
@@ -7052,7 +7178,8 @@
       ]
     },
     "core": "足りない分を満たして（up）、何かの代わりとする。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0370",
@@ -7069,7 +7196,8 @@
       ]
     },
     "core": "ぼんやりしたものの中から、形をはっきり取り出す。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0371",
@@ -7088,7 +7216,8 @@
     "core": "トンネルを最初から最後まで通り抜ける（through）。",
     "other": [
       "（書類などを）よく調べる：go through the files"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0372",
@@ -7106,7 +7235,8 @@
     },
     "core": "全体の上（over）をなぞるように見ていく。",
     "diff": "go through は細かく調べる感じ、go over はざっと見直す感じ。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0373",
@@ -7125,7 +7255,8 @@
     "core": "止まっていたものが前（ahead）へ動き出す。",
     "other": [
       "（先に）行く：You go ahead."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0374",
@@ -7144,7 +7275,8 @@
     "core": "止まらずに、そのまま先へ（on）進む。",
     "other": [
       "（出来事が）起こる：What's going on?"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0375",
@@ -7161,7 +7293,8 @@
       ]
     },
     "core": "あるはずのものを持たない（without）まま進む。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0376",
@@ -7180,7 +7313,8 @@
     "core": "二つのものが一緒に（with）並んで、しっくりくる。",
     "other": [
       "（案を）選ぶ：I'll go with the blue one."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0377",
@@ -7199,7 +7333,8 @@
     "core": "向きを変えて外（out）に出てきた姿が、最後の結果になる。",
     "other": [
       "（電気を）消す：turn out the lights"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0378",
@@ -7216,7 +7351,8 @@
       ]
     },
     "core": "向きを変えて、別の形の中（into）へ入っていく。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0379",
@@ -7236,7 +7372,8 @@
     "core": "来た人の向きを変えて、遠く（away）へ戻す。",
     "other": [
       "顔をそむける：She turned away."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0380",
@@ -7255,7 +7392,8 @@
     "core": "上下をくるりと回して（over）反対側を見せる。",
     "other": [
       "（責任・物を）引き渡す：turn over the keys"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0381",
@@ -7272,7 +7410,8 @@
       ]
     },
     "core": "向きを変えて、来た方向（back）へ戻る。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0382",
@@ -7291,7 +7430,8 @@
     "core": "困ったとき、相手の方へ（to）体を向ける。",
     "other": [
       "（ページを）開く：turn to page 10"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0383",
@@ -7308,7 +7448,8 @@
       ]
     },
     "core": "見えなかった人が、目の前に浮かび上がる（up）。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0384",
@@ -7325,7 +7466,8 @@
       ]
     },
     "core": "周りから目立つように、ぐいと見せつける。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0385",
@@ -7343,7 +7485,8 @@
       ]
     },
     "core": "あちこち（around）を順に見せて回る。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0387",
@@ -7360,7 +7503,8 @@
       ]
     },
     "core": "進んでいたものを後ろ（back）に置き直す。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0388",
@@ -7377,7 +7521,8 @@
       ]
     },
     "core": "何かが中（in）に入り込み、そのまま落ち着いて続く。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0389",
@@ -7397,7 +7542,8 @@
     "core": "受け取ったお金を、元の人へ戻す（back）。",
     "other": [
       "仕返しする：pay him back for the trick"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0390",
@@ -7416,7 +7562,8 @@
     "core": "払い続けて、借金をすっかり消す（off）。",
     "other": [
       "（努力が）実を結ぶ：Hard work pays off."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0391",
@@ -7435,7 +7582,8 @@
     "core": "手に入れるもののために（for）お金を出す。",
     "other": [
       "（失敗の）報いを受ける：pay for a mistake"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0392",
@@ -7455,7 +7603,8 @@
     "core": "車から人をぽんと落とす（drop）ように降ろして離れる。",
     "other": [
       "うとうとする：drop off to sleep"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0394",
@@ -7472,7 +7621,8 @@
       ]
     },
     "core": "列や集団の外（out）へぽろりと抜け落ちる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0395",
@@ -7489,7 +7639,8 @@
       ]
     },
     "core": "相手が大丈夫か、ときどきのぞいて確かめる。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0396",
@@ -7509,7 +7660,8 @@
     "diff": "look into も同じ意味でよく使う。",
     "other": [
       "（ホテルに）チェックインする：check into a hotel"
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0397",
@@ -7526,7 +7678,8 @@
       ]
     },
     "core": "済んだものに印を付けて、リストから外す（off）。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0398",
@@ -7543,7 +7696,8 @@
       ]
     },
     "core": "予定とは違っても、最後にたどり着いた先。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   },
   {
     "src": "M0399",
@@ -7562,7 +7716,8 @@
     "core": "問題と向き合って（with）手を打つ。",
     "other": [
       "（話題を）扱う：The book deals with history."
-    ]
+    ],
+    "motion": "2d"
   },
   {
     "src": "M0400",
@@ -7579,6 +7734,7 @@
       ]
     },
     "core": "決めたものにぴったりくっついて（stick）離れない。",
-    "other": []
+    "other": [],
+    "motion": "2d"
   }
 ]
