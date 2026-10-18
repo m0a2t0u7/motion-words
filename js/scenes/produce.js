@@ -36,7 +36,7 @@ export function create(k) {
   el('rect', { x: -30, y: 0, width: 60, height: 30, rx: 3, fill: pal.wood, stroke: pal.woodDark, 'stroke-width': 2 }, crate);
   const pile = [[-14, 2], [0, 0], [14, 3], [-6, -10], [8, -11]].map(([x, y]) => { const q = g({}, crate); tf(q, x, y); gear(k, q, 8, pal.blueDark); return q; });
   el('rect', { x: -30, y: 8, width: 60, height: 22, rx: 3, fill: pal.wood, stroke: pal.woodDark, 'stroke-width': 2 }, crate);
-  const w = k.buddy({ x: 70, y: FY, scale: 0.95, color: pal.mint });
+  const w = k.buddy({ x: 44, y: FY, scale: 0.95, color: pal.mint });
   const btn = el('circle', { cx: 94, cy: 178, r: 6, fill: pal.red, stroke: '#fff', 'stroke-width': 2 });
   el('rect', { x: 90, y: 184, width: 8, height: 40, fill: '#8EA0B6' });
   const CY = 190, PX = 190;

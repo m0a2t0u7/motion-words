@@ -41,7 +41,7 @@ export function create(k) {
   }
   const jarFront = g({});
   el('rect', { x: JX - 18, y: 150, width: 36, height: 52, rx: 8, fill: 'none', stroke: '#9CC3DC', 'stroke-width': 3 }, jarFront);
-  el('rect', { x: JX - 21, y: 144, width: 42, height: 8, rx: 4, fill: pal.woodDark }, jarFront);
+  el('rect', { x: JX - 21, y: 146, width: 42, height: 6, rx: 3, fill: 'none', stroke: '#9CC3DC', 'stroke-width': 3 }, jarFront);
   el('rect', { x: JX - 12, y: 156, width: 4, height: 30, rx: 2, fill: '#fff', opacity: 0.6 }, jarFront);
   k.shadow(JX, 202, 22, 4);
   const hand = el('circle', { r: 0.1 });

@@ -8,7 +8,7 @@ export function create(k) {
   const { el, g, tf, pal } = k;
   const FY = k.backdrop({ floorY: 238, mood: 'indoor' });
   el('rect', { x: 36, y: 50, width: 90, height: 70, rx: 6, fill: '#DDEFFA', stroke: '#fff', 'stroke-width': 5 });
-  const b = k.buddy({ x: 130, y: FY });
+  const b = k.buddy({ x: 200, y: FY });
   // 携帯（体の右前に大きく見せる）
   const PX = 250, PY = 70, PW = 100, PH = 170;
   const ph = g({}); tf(ph, PX, PY);
@@ -53,7 +53,7 @@ export function create(k) {
       up.setAttribute('opacity', t < 1.3 ? 0 : 1 - home);
       icons.forEach((ic, i) => ic.nw.setAttribute('opacity', home > 0 ? seg(t, 4.1 + i * 0.05, 4.4 + i * 0.05) : 0));
       // 手でタップ
-      const tx = PX + 50, ty = PY + 99;
+      const tx = PX + 16, ty = PY + 99;
       b.pose({ armR: lerp(8, reach(b, 1, 'R', tx, ty), easeOut(seg(t, 0.4, 1.0))) * (1 - seg(t, 1.5, 1.9)) + 8 * seg(t, 1.5, 1.9) + 6 * Math.sin(seg(t, 1.0, 1.3) * Math.PI), lean: 4 * (1 - seg(t, 1.5, 1.9)), look: 0.7, mood: t > 3.6 ? 'grin' : 'smile', squash: 1 });
       const rr = seg(t, 1.0, 1.5); k.set(tap, { cx: tx, cy: ty, r: 6 + 16 * rr, opacity: rr > 0 && rr < 1 ? 1 - rr : 0 });
     }

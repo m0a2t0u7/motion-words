@@ -36,7 +36,7 @@ export function create(k) {
   el('rect', { x: 90, y: 204, width: 230, height: 5, fill: pal.woodDark });
   const back = [[150, pal.yellow, pal.yellowDark], [250, pal.violet, '#8467DB']].map(([x, c, d]) => k.buddy({ x, y: 206, scale: 0.72, color: c, dark: d }));
   const front = [[120, pal.blue, pal.blueDark, 0.9], [200, pal.coral, pal.coralDark, 1.0], [280, pal.mint, pal.mintDark, 0.9]].map(([x, c, d, s]) => k.buddy({ x, y: FY, scale: s, color: c, dark: d }));
-  const teacher = k.buddy({ x: 40, y: FY, scale: 0.9, color: '#F4A261', dark: '#D9823F' });
+  const teacher = k.buddy({ x: 34, y: FY, scale: 0.9, color: '#F4A261', dark: '#D9823F' });
   const baton = el('line', { stroke: pal.ink, 'stroke-width': 2.6, 'stroke-linecap': 'round' });
   const notes = [...Array(7)].map((_, i) => {
     const n = g({});
@@ -55,7 +55,7 @@ export function create(k) {
       const raise = easeOut(seg(t, 0.4, 1.0));
       const arm = t < 1.2 ? lerp(8, 150, raise) : 110 + 38 * Math.sin(beat);
       teacher.pose({ armR: arm, armL: 8, look: 0.7, mood: 'smile', lean: 2 * Math.sin(beat) * sing, squash: 1 + 0.01 * Math.sin(t * 3) });
-      const tip = hp(teacher, 0.9, 'R', 54);
+      const tip = hp(teacher, 0.9, 'R', 44);
       const hnd = hp(teacher, 0.9, 'R', 28);
       baton.setAttribute('x1', hnd.x); baton.setAttribute('y1', hnd.y); baton.setAttribute('x2', tip.x); baton.setAttribute('y2', tip.y);
       all.forEach((b, i) => {
