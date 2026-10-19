@@ -37,7 +37,6 @@ export function create(k) {
   el('path', { d: 'M 40 64 h 40 M 40 84 h 70 M 40 100 h 30', stroke: '#fff', 'stroke-width': 3, opacity: 0.55, 'stroke-linecap': 'round' });
   el('circle', { cx: 330, cy: 60, r: 20, fill: '#fff', stroke: pal.ink, 'stroke-width': 3 });
   el('path', { d: 'M 330 60 L 330 47 M 330 60 L 340 64', stroke: pal.ink, 'stroke-width': 2.6, 'stroke-linecap': 'round' });
-  const b = k.buddy({ x: 168, y: FY, scale: S, facing: 1 });
   const top = desk(k, 120, 230, FY);
   // 机の上に立てかけた答案（ボード）
   const SX = 204, SY = 110, SW = 76, SH = 80;
@@ -51,6 +50,8 @@ export function create(k) {
     return tick(k, SX + SW - 14, y, 0.7, pal.red);
   });
   el('line', { x1: SX + 6, y1: SY + SH - 8, x2: SX + SW - 6, y2: SY + SH - 8, stroke: pal.line, 'stroke-width': 1.5 });
+  // 腕が答案の手前に来るよう、バディは答案の後に描く
+  const b = k.buddy({ x: 168, y: FY, scale: S, facing: 1 });
   const pen = pencil(k);
   const ink = g({});
   return {

@@ -41,7 +41,8 @@ export function create(k) {
       const yay = easeOut(seg(t, 3.5, 3.8));
       P(me, { look: t < 3.5 ? 0.3 : 0.9, blink: blinkAt(t), armL: lerp(40, 30, yay), armR: lerp(40, 150, yay), lean: 4, mood: t > 3.5 ? 'grin' : mouth, lift: 10 * hump(seg(t, 3.5, 3.95)) });
       const L = hp(me, S, 'L');
-      tf(book, (L.x + me.state.x + 22 * S) / 2 + 6, L.y - 8, -6 * yay, 0.95, 0.95);
+      // 本の左端を左手でつかむ（宙に浮かせない）
+      tf(book, L.x + 21, L.y - 2, -6 * yay, 0.95, 0.95);
     }
   };
 }
