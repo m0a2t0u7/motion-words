@@ -2,7 +2,7 @@
 import { seg, lerp, easeInOut, easeOut, hump } from '../ease.js';
 import { win } from './run-after.js';
 import { waves } from './look-over.js';
-import { held } from './dig.js';
+import { hp } from './dig.js';
 import { icon } from './in-common.js';
 
 export const meta = { duration: 4.2, beats: [[0, '本を読む'], [1.4, '鳥が鳴く'], [2.6, '聞こえる']] };
@@ -42,9 +42,9 @@ export function create(k) {
   return {
     update(t) {
       const turn = easeInOut(seg(t, 1.7, 2.3)), ear = easeOut(seg(t, 2.3, 2.8));
-      b.pose({ x: 122, y: FY - 34, armL: 8, armR: lerp(lerp(62, 40, turn), 160, ear), lean: lerp(10, -6, turn), look: lerp(0.2, 1, turn), mood: t > 2.6 ? 'grin' : 'smile', blink: t > 3.0 ? 0 : hump(seg(t, 0.8, 1.0)) });
+      b.pose({ x: 122, y: FY - 34, armL: 8, armR: lerp(lerp(62, 40, turn), 142, ear), lean: lerp(10, -6, turn), look: lerp(0.2, 1, turn), mood: t > 2.6 ? 'grin' : 'smile', blink: t > 3.0 ? 0 : hump(seg(t, 0.8, 1.0)) });
       // 本：はじめは手に、耳に手を当てたら膝の上へ
-      if (ear < 0.05) held(k, b, S, book, 'R', 180 - 90, 30);
+      if (ear < 0.05) { const h = hp(b, S, 'R', 30); tf(book, h.x + 6, h.y - 6, -12, 0.95); }
       else tf(book, 150, FY - 52, -6, 0.9);
       const sing = (i) => Math.max(0, Math.sin((t - 1.2 - i * 0.35) * 9)) * (t > 1.2 ? 1 : 0);
       birds.forEach((x, i) => { const s = sing(i); tf(x.beak, 12, -14, -18 * s, 1, 1); x.beak.setAttribute('transform', `rotate(${(-14 * s).toFixed(1)} 12 -14)`); tf(x.b, 0, -2 * s); });

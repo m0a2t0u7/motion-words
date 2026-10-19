@@ -24,7 +24,7 @@ export function create(k) {
   const L = lying(k, { scale: S });
   so.front();
   const zz = [0, 1].map(() => k.text(0, 0, 'z', { 'font-size': 15, fill: pal.sub }));
-  const bx = (t) => lerp(118, 172, easeInOut(seg(t, 0.5, 1.4)));
+  const bx = (t) => lerp(118, 160, easeInOut(seg(t, 0.5, 1.4)));
   return {
     update(t) {
       const lp = easeInOut(seg(t, 1.6, 2.6));
@@ -33,7 +33,7 @@ export function create(k) {
       // 立つ位置（足元＝床）→ ソファの座面に横たわる
       const x = lerp(g.x, 262, lp), y = lerp(FY - 12 * S, FY - 34 - 28 * S, lp) - 14 * hump(lp);
       L.set(x, y, -90 * lp);
-      L.b.pose({ x: 0, y: 12, walk: lp > 0 ? 0 : g.walk, lean: 0, armL: lerp(g.armL, 20, lp), armR: lerp(g.armR, 150 * easeOut(seg(t, 2.8, 3.4)), lp),
+      L.b.pose({ x: 0, y: 12, walk: lp > 0 ? 0 : g.walk, lean: 0, armL: lerp(g.armL, 20, lp), armR: lerp(g.armR, 30 + 40 * easeOut(seg(t, 2.8, 3.4)), lp),
         squash: 1 - 0.05 * land, look: lp > 0.5 ? -0.3 : 0.5, mood: t > 2.8 ? 'grin' : 'smile', blink: easeInOut(seg(t, 3.3, 3.8)) * 0.85 });
       zz.forEach((z, i) => { const q = seg(t, 3.5 + i * 0.25, 4.2); z.setAttribute('opacity', q > 0 ? 0.8 * Math.sin(q * Math.PI * 0.9) + 0.1 : 0); tf(z, 196 + i * 12, FY - 112 - q * 18 - i * 10); });
     }

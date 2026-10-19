@@ -1,7 +1,6 @@
 // review：テスト前に、自分のノートをページを戻しながら見直す（例文 I reviewed my notes before the test.）
 import { seg, lerp, easeInOut, easeOut, hump, clamp } from '../ease.js';
 import { hp } from './dig.js';
-import { desk } from './get-on-with.js';
 import { P, blinkAt } from './run-after.js';
 import { calendar } from './so-far-so-good.js';
 
@@ -34,29 +33,29 @@ export function create(k) {
   cal.set('12');
   el('circle', { cx: 80, cy: 82, r: 17, fill: 'none', stroke: pal.red, 'stroke-width': 3 });
   k.text(80, 118, 'TEST', { 'font-size': 13, fill: pal.red });
+  // 本棚
+  el('rect', { x: 300, y: 130, width: 80, height: 106, fill: pal.wood });
+  [150, 186].forEach((y, r) => [0, 1, 2, 3].forEach((i) => el('rect', { x: 306 + i * 17, y: y - 26 + (i % 2) * 4, width: 13, height: 26 - (i % 2) * 4, rx: 2, fill: [pal.blue, pal.coral, pal.yellow, pal.violet][(i + r) % 4] })));
+  el('rect', { x: 300, y: 150, width: 80, height: 5, fill: pal.woodDark }); el('rect', { x: 300, y: 186, width: 80, height: 5, fill: pal.woodDark });
+  k.shadow(340, FY + 1, 44, 4);
   const b = k.buddy({ x: 196, y: FY, scale: S });
-  desk(k, 110, 180, FY);
-  // 机の上：教科書と鉛筆立て
-  el('rect', { x: 128, y: 180, width: 34, height: 10, rx: 2, fill: pal.violet });
-  el('rect', { x: 262, y: 168, width: 14, height: 22, rx: 3, fill: pal.coral });
-  el('line', { x1: 266, y1: 168, x2: 264, y2: 156, stroke: pal.yellowDark, 'stroke-width': 3 });
   const nb = notebook(k);
   return {
     update(t) {
-      const up = easeOut(seg(t, 0.1, 0.7)), close = easeInOut(seg(t, 3.4, 3.9));
+      const up = easeOut(seg(t, 0.1, 0.7)), close = 0, done = easeInOut(seg(t, 3.4, 3.9));
       // 2回ページを戻して読み返す
       const f1 = easeInOut(seg(t, 1.1, 1.5)), f2 = easeInOut(seg(t, 2.2, 2.6));
       const read = Math.sin(t * 5) * (t > 0.7 && t < 3.4 ? 1 : 0);
-      P(b, { armL: lerp(10, 58, up) * (1 - close) + 10 * close, armR: lerp(10, 58, up) * (1 - close) + 10 * close, lean: 6 * (1 - close),
-        look: 0.15 + 0.25 * read, blink: blinkAt(t), mood: t > 3.5 ? 'grin' : 'smile' });
+      P(b, { armL: lerp(10, 34, up) * (1 - close) + 10 * close, armR: lerp(10, 34, up) * (1 - close) + 10 * close, lean: 6 * (1 - close),
+        look: lerp(0.15 + 0.25 * read, -0.9, done), blink: blinkAt(t), mood: t > 3.5 ? 'grin' : 'smile' });
       const L = hp(b, S, 'L'), R = hp(b, S, 'R');
-      const cx = (L.x + R.x) / 2, cy = (L.y + R.y) / 2 + 4;
+      const cx = (L.x + R.x) / 2, cy = Math.max((L.y + R.y) / 2 + 12, 206) - 3 * done;
       // 閉じたノートは机に置く
       const x = lerp(cx, 168, close), y = lerp(cy, 192, close);
-      tf(nb.g, x, y, 0, lerp(0.95, 0.5, close), lerp(0.95, 0.25, close));
+      tf(nb.g, x, y, 0, 0.98, 0.9);
       const fp = t < 1.8 ? f1 : f2;
       nb.flip(1 - fp);
-      b.body.children[3].setAttribute('transform', `translate(${(1.5 * read).toFixed(2)} ${(4 * (1 - close) * up).toFixed(2)})`);
+      b.body.children[3].setAttribute('transform', `translate(${(1.5 * read * (1 - done) - 5 * done).toFixed(2)} ${(4 * (1 - done) * up).toFixed(2)})`);
     }
   };
 }
