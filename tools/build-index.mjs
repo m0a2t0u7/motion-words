@@ -44,7 +44,10 @@ for (const cat of CATS) {
     if (it.motion && !['2d', '3d', 'tpl'].includes(it.motion)) errors.push(`${it.id}: motion は "2d" / "3d" / "tpl"`);
     if (it.motion === 'tpl' && !it.tpl?.t) errors.push(`${it.id}: tpl.t がない`);
     if (it.motion && it.motion !== 'tpl' && !existsSync(join(root, 'js/scenes', `${it.id}.js`))) errors.push(`${it.id}: js/scenes/${it.id}.js がない`);
-    items.push({ id: it.id, en: it.en, ja: it.ja, cat: cat.id, motion: it.motion || null, ...(it.tpl ? { tpl: it.tpl } : {}), word: !/\s/.test(it.en.trim()) });
+    const ZT = ['time', 'freq', 'sure', 'degree', 'mind', 'tell', 'judge', 'compare'];
+    if (it.zu && !ZT.includes(it.zu.t)) errors.push(`${it.id}: zu.t は ${ZT.join(' / ')}`);
+    if (it.zu && it.motion) errors.push(`${it.id}: motion と zu を両方付けない`);
+    items.push({ id: it.id, en: it.en, ja: it.ja, cat: cat.id, motion: it.motion || null, ...(it.tpl ? { tpl: it.tpl } : {}), ...(it.zu ? { zu: it.zu } : {}), word: !/\s/.test(it.en.trim()) });
   }
 }
 
@@ -62,6 +65,7 @@ const stats = {
   motionOwn: count((i) => i.motion && i.motion !== 'tpl'),
   motionTpl: count((i) => i.motion === 'tpl'),
   motion3d: count((i) => i.motion === '3d'),
+  zukai: count((i) => !i.motion && i.zu),
   byCat: Object.fromEntries(CATS.map((c) => [c.id, count((i) => i.cat === c.id)]))
 };
 const out = { version: new Date().toISOString().slice(0, 10), cats: CATS, stats, items };

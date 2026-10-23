@@ -228,7 +228,7 @@ function renderStats() {
     <div class="stat"><b>${s.words}</b><span>単語</span></div>
     <div class="stat"><b>${s.expressions}</b><span>表現</span></div>
     <div class="stat"><b>${learnedCount()}</b><span>覚えた</span></div>
-    <div class="stats-note">収録はいま使える項目の実数です。表現＝句動詞・イディオム。モーション付き${s.motion}：専用${s.motionOwn ?? s.motion}（うち3D ${s.motion3d}）・型${s.motionTpl || 0}。モーションなし${s.total - s.motion}。一覧の印：3D＝立体の専用モーション、動き＝2Dのモーション、準備中＝モーションはまだ（音声と例文で学べます）。</div>`;
+    <div class="stats-note">収録はいま使える項目の実数です。表現＝句動詞・イディオム。モーション付き${s.motion}：専用${s.motionOwn ?? s.motion}（うち3D ${s.motion3d}）・型${s.motionTpl || 0}。図解付き${s.zukai || 0}。どちらもなし${s.total - s.motion - (s.zukai || 0)}。一覧の印：3D＝立体の専用モーション、動き＝2Dのモーション、図解＝意味を図で見せる（モーションとは別に数える）、準備中＝モーションも図解もまだ（音声と例文で学べます）。</div>`;
 }
 function renderChips() {
   const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()], ['motion', 'モーション付き', index.stats.motion]];
@@ -259,7 +259,7 @@ function renderList() {
       return `<li class="row${current && current.id === i.id ? ' current' : ''}">
         <button class="row-main" type="button" data-open="${i.id}"><span class="row-en">${esc(i.en)}</span><span class="row-ja">${esc(i.ja)}</span></button>
         ${settings.learned.includes(i.id) ? '<span class="row-learned">✓覚えた</span>' : ''}
-        ${i.motion === '3d' ? '<span class="row-kind">3D</span>' : i.motion ? '<span class="row-kind">動き</span>' : '<span class="row-kind none">準備中</span>'}
+        ${i.motion === '3d' ? '<span class="row-kind">3D</span>' : i.motion ? '<span class="row-kind">動き</span>' : i.zu ? '<span class="row-kind">図解</span>' : '<span class="row-kind none">準備中</span>'}
         <button class="star" type="button" data-star="${i.id}" aria-pressed="${on}" aria-label="${on ? 'マイリストから外す' : 'マイリストに追加'}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.6l-5.1 2.7 1-5.7-4.1-4 5.7-.8z"/></svg></button>
       </li>`;
     })

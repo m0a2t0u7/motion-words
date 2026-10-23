@@ -1,0 +1,428 @@
+[
+ {
+  "id": "wage",
+  "file": "word.json",
+  "ja": "賃金",
+  "ex": "The minimum wage went up this year."
+ },
+ {
+  "id": "bonus",
+  "file": "word.json",
+  "ja": "ボーナス",
+  "ex": "We got a bonus at the end of the year."
+ },
+ {
+  "id": "benefit",
+  "file": "word.json",
+  "ja": "福利厚生",
+  "ex": "The job has good benefits."
+ },
+ {
+  "id": "promotion",
+  "file": "word.json",
+  "ja": "昇進",
+  "ex": "She got a promotion to manager last month."
+ },
+ {
+  "id": "experience",
+  "file": "word.json",
+  "ja": "経験",
+  "ex": "Do you have any experience in sales?"
+ },
+ {
+  "id": "skill",
+  "file": "word.json",
+  "ja": "技能",
+  "ex": "Good communication is an important skill."
+ },
+ {
+  "id": "applicant",
+  "file": "word.json",
+  "ja": "応募者",
+  "ex": "Each applicant must fill out this form."
+ },
+ {
+  "id": "agreement",
+  "file": "word.json",
+  "ja": "合意",
+  "ex": "The two companies reached an agreement."
+ },
+ {
+  "id": "policy",
+  "file": "word.json",
+  "ja": "方針",
+  "ex": "Our store has a no-return policy on sale items."
+ },
+ {
+  "id": "procedure",
+  "file": "word.json",
+  "ja": "手順",
+  "ex": "Follow the safety procedure before using the machine."
+ },
+ {
+  "id": "rule",
+  "file": "word.json",
+  "ja": "規則",
+  "ex": "You have to follow the rules."
+ },
+ {
+  "id": "regulation",
+  "file": "word.json",
+  "ja": "規制",
+  "ex": "New regulations limit smoking in restaurants."
+ },
+ {
+  "id": "standard",
+  "file": "word.json",
+  "ja": "基準",
+  "ex": "This product meets safety standards."
+ },
+ {
+  "id": "quality",
+  "file": "word.json",
+  "ja": "品質",
+  "ex": "These shoes are good quality."
+ },
+ {
+  "id": "quantity",
+  "file": "word.json",
+  "ja": "数量",
+  "ex": "We ordered a large quantity of paper."
+ },
+ {
+  "id": "service",
+  "file": "word.json",
+  "ja": "サービス",
+  "ex": "The food was good, but the service was slow."
+ },
+ {
+  "id": "brand",
+  "file": "word.json",
+  "ja": "ブランド",
+  "ex": "Which brand of coffee do you like?"
+ },
+ {
+  "id": "model",
+  "file": "word.json",
+  "ja": "型",
+  "ex": "This is the newest model of the phone."
+ },
+ {
+  "id": "stock",
+  "file": "word.json",
+  "ja": "在庫",
+  "ex": "That size is out of stock right now."
+ },
+ {
+  "id": "supplier",
+  "file": "word.json",
+  "ja": "仕入れ先",
+  "ex": "We buy our paper from a local supplier."
+ },
+ {
+  "id": "manufacturer",
+  "file": "word.json",
+  "ja": "メーカー",
+  "ex": "Contact the manufacturer if the product breaks."
+ },
+ {
+  "id": "consumer",
+  "file": "word.json",
+  "ja": "消費者",
+  "ex": "Consumers want lower prices."
+ },
+ {
+  "id": "campaign",
+  "file": "word.json",
+  "ja": "キャンペーン",
+  "ex": "The company started a new ad campaign."
+ },
+ {
+  "id": "sales",
+  "file": "word.json",
+  "ja": "売上",
+  "ex": "Sales went up 10 percent this year."
+ },
+ {
+  "id": "revenue",
+  "file": "word.json",
+  "ja": "収益",
+  "ex": "The company's revenue grew last year."
+ },
+ {
+  "id": "profit",
+  "file": "word.json",
+  "ja": "利益",
+  "ex": "The shop made a small profit this month."
+ },
+ {
+  "id": "loss",
+  "file": "word.json",
+  "ja": "損失",
+  "ex": "The company had a big loss last year."
+ },
+ {
+  "id": "expense",
+  "file": "word.json",
+  "ja": "費用",
+  "ex": "Food is our biggest expense each month."
+ },
+ {
+  "id": "information",
+  "file": "word.json",
+  "ja": "情報",
+  "ex": "You can find more information on our website."
+ },
+ {
+  "id": "news",
+  "file": "word.json",
+  "ja": "知らせ",
+  "ex": "I have some good news for you."
+ },
+ {
+  "id": "text",
+  "file": "word.json",
+  "ja": "メッセージ",
+  "ex": "Send me a text when you get home."
+ },
+ {
+  "id": "document",
+  "file": "word.json",
+  "ja": "書類",
+  "ex": "Please sign this document."
+ },
+ {
+  "id": "file",
+  "file": "word.json",
+  "ja": "ファイル",
+  "ex": "I saved the file on my desktop."
+ },
+ {
+  "id": "record",
+  "file": "word.json",
+  "ja": "記録",
+  "ex": "Keep a record of what you spend."
+ },
+ {
+  "id": "data",
+  "file": "word.json",
+  "ja": "データ",
+  "ex": "We collected data from 500 users."
+ },
+ {
+  "id": "database",
+  "file": "word.json",
+  "ja": "データベース",
+  "ex": "All customer names are stored in the database."
+ },
+ {
+  "id": "system",
+  "file": "word.json",
+  "ja": "仕組み",
+  "ex": "The school has a new system for lunch orders."
+ },
+ {
+  "id": "network",
+  "file": "word.json",
+  "ja": "ネットワーク",
+  "ex": "My laptop can't connect to the network."
+ },
+ {
+  "id": "internet",
+  "file": "word.json",
+  "ja": "インターネット",
+  "ex": "I looked it up on the internet."
+ },
+ {
+  "id": "page",
+  "file": "word.json",
+  "ja": "ページ",
+  "ex": "Open your books to page 20."
+ },
+ {
+  "id": "cursor",
+  "file": "word.json",
+  "ja": "カーソル",
+  "ex": "Move the cursor to the top of the page."
+ },
+ {
+  "id": "software",
+  "file": "word.json",
+  "ja": "ソフトウェア",
+  "ex": "You need to update the software."
+ },
+ {
+  "id": "hardware",
+  "file": "word.json",
+  "ja": "ハードウェア",
+  "ex": "The problem is with the hardware, not the software."
+ },
+ {
+  "id": "application",
+  "file": "word.json",
+  "ja": "申請",
+  "ex": "I sent my application for the job."
+ },
+ {
+  "id": "account",
+  "file": "word.json",
+  "ja": "アカウント",
+  "ex": "I created a new account on the site."
+ },
+ {
+  "id": "username",
+  "file": "word.json",
+  "ja": "ユーザー名",
+  "ex": "Enter your username and password."
+ },
+ {
+  "id": "link",
+  "file": "word.json",
+  "ja": "リンク",
+  "ex": "Click the link to watch the video."
+ },
+ {
+  "id": "browser",
+  "file": "word.json",
+  "ja": "ブラウザー",
+  "ex": "Open the page in a different browser."
+ },
+ {
+  "id": "device",
+  "file": "word.json",
+  "ja": "機器",
+  "ex": "Please turn off all electronic devices."
+ },
+ {
+  "id": "technology",
+  "file": "word.json",
+  "ja": "技術",
+  "ex": "New technology changes how we work."
+ },
+ {
+  "id": "research",
+  "file": "word.json",
+  "ja": "研究",
+  "ex": "She does research on brain health."
+ },
+ {
+  "id": "evidence",
+  "file": "word.json",
+  "ja": "証拠",
+  "ex": "There is no evidence that he took the money."
+ },
+ {
+  "id": "fact",
+  "file": "word.json",
+  "ja": "事実",
+  "ex": "It's a fact that the earth goes around the sun."
+ },
+ {
+  "id": "theory",
+  "file": "word.json",
+  "ja": "理論",
+  "ex": "Scientists tested the theory many times."
+ },
+ {
+  "id": "method",
+  "file": "word.json",
+  "ja": "方法",
+  "ex": "This is a simple method for learning words."
+ },
+ {
+  "id": "process",
+  "file": "word.json",
+  "ja": "過程",
+  "ex": "Learning a language is a slow process."
+ },
+ {
+  "id": "result",
+  "file": "word.json",
+  "ja": "結果",
+  "ex": "The test results will come next week."
+ },
+ {
+  "id": "reason",
+  "file": "word.json",
+  "ja": "理由",
+  "ex": "What's the reason for the delay?"
+ },
+ {
+  "id": "purpose",
+  "file": "word.json",
+  "ja": "目的",
+  "ex": "What is the purpose of your visit?"
+ },
+ {
+  "id": "goal",
+  "file": "word.json",
+  "ja": "目標",
+  "ex": "My goal is to run a marathon."
+ },
+ {
+  "id": "problem",
+  "file": "word.json",
+  "ja": "問題",
+  "ex": "We have a problem with the printer."
+ },
+ {
+  "id": "solution",
+  "file": "word.json",
+  "ja": "解決策",
+  "ex": "We need to find a solution quickly."
+ },
+ {
+  "id": "idea",
+  "file": "word.json",
+  "ja": "考え",
+  "ex": "That's a great idea!"
+ },
+ {
+  "id": "opinion",
+  "file": "word.json",
+  "ja": "意見",
+  "ex": "In my opinion, the movie was too long."
+ },
+ {
+  "id": "knowledge",
+  "file": "word.json",
+  "ja": "知識",
+  "ex": "He has a lot of knowledge about cars."
+ },
+ {
+  "id": "memory",
+  "file": "word.json",
+  "ja": "記憶",
+  "ex": "I have a bad memory for names."
+ },
+ {
+  "id": "attention",
+  "file": "word.json",
+  "ja": "注意",
+  "ex": "Please pay attention to the teacher."
+ },
+ {
+  "id": "education",
+  "file": "word.json",
+  "ja": "教育",
+  "ex": "Education is important for every child."
+ },
+ {
+  "id": "college",
+  "file": "word.json",
+  "ja": "大学",
+  "ex": "My sister is in her second year of college."
+ },
+ {
+  "id": "course",
+  "file": "word.json",
+  "ja": "講座",
+  "ex": "I'm taking an online English course."
+ },
+ {
+  "id": "subject",
+  "file": "word.json",
+  "ja": "科目",
+  "ex": "What's your favorite subject?"
+ }
+]

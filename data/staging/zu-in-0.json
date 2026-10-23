@@ -1,0 +1,428 @@
+[
+ {
+  "id": "know",
+  "file": "word.json",
+  "ja": "知っている",
+  "ex": "I know her name."
+ },
+ {
+  "id": "understand",
+  "file": "word.json",
+  "ja": "理解する",
+  "ex": "I don't understand this question."
+ },
+ {
+  "id": "learn",
+  "file": "word.json",
+  "ja": "学ぶ",
+  "ex": "I learn English every day."
+ },
+ {
+  "id": "study",
+  "file": "word.json",
+  "ja": "勉強する",
+  "ex": "I study English for an hour every day."
+ },
+ {
+  "id": "teach",
+  "file": "word.json",
+  "ja": "教える",
+  "ex": "My aunt teaches math at a high school."
+ },
+ {
+  "id": "remember",
+  "file": "word.json",
+  "ja": "覚えている",
+  "ex": "I remember my first day at school."
+ },
+ {
+  "id": "forget",
+  "file": "word.json",
+  "ja": "忘れる",
+  "ex": "I forgot my umbrella at the station."
+ },
+ {
+  "id": "recall",
+  "file": "word.json",
+  "ja": "思い出す",
+  "ex": "I can't recall his name right now."
+ },
+ {
+  "id": "imagine",
+  "file": "word.json",
+  "ja": "想像する",
+  "ex": "Imagine a world without cars."
+ },
+ {
+  "id": "believe",
+  "file": "word.json",
+  "ja": "信じる",
+  "ex": "I believe you."
+ },
+ {
+  "id": "doubt",
+  "file": "word.json",
+  "ja": "疑う",
+  "ex": "I doubt that he will come today."
+ },
+ {
+  "id": "wonder",
+  "file": "word.json",
+  "ja": "〜だろうかと思う",
+  "ex": "I wonder who will win the game."
+ },
+ {
+  "id": "guess",
+  "file": "word.json",
+  "ja": "推測する",
+  "ex": "Can you guess my age?"
+ },
+ {
+  "id": "expect",
+  "file": "word.json",
+  "ja": "予想する",
+  "ex": "I expect it will rain tomorrow."
+ },
+ {
+  "id": "predict",
+  "file": "word.json",
+  "ja": "予測する",
+  "ex": "Nobody can predict the weather perfectly."
+ },
+ {
+  "id": "realize",
+  "file": "word.json",
+  "ja": "気づく",
+  "ex": "I realized I had left my keys at home."
+ },
+ {
+  "id": "consider",
+  "file": "word.json",
+  "ja": "よく考える",
+  "ex": "Please consider my offer carefully."
+ },
+ {
+  "id": "compare",
+  "file": "word.json",
+  "ja": "比較する",
+  "ex": "Let's compare the two prices."
+ },
+ {
+  "id": "analyze",
+  "file": "word.json",
+  "ja": "分析する",
+  "ex": "The team analyzed the sales data."
+ },
+ {
+  "id": "solve",
+  "file": "word.json",
+  "ja": "解決する",
+  "ex": "We solved the problem together."
+ },
+ {
+  "id": "explain",
+  "file": "word.json",
+  "ja": "説明する",
+  "ex": "Can you explain how this machine works?"
+ },
+ {
+  "id": "describe",
+  "file": "word.json",
+  "ja": "描写する",
+  "ex": "Can you describe the man you saw?"
+ },
+ {
+  "id": "define",
+  "file": "word.json",
+  "ja": "定義する",
+  "ex": "This dictionary defines each word clearly."
+ },
+ {
+  "id": "mean",
+  "file": "word.json",
+  "ja": "意味する",
+  "ex": "What does this word mean?"
+ },
+ {
+  "id": "refer",
+  "file": "word.json",
+  "ja": "言及する",
+  "ex": "He referred to the report in his speech."
+ },
+ {
+  "id": "mention",
+  "file": "word.json",
+  "ja": "話に出す",
+  "ex": "She mentioned your name at the meeting."
+ },
+ {
+  "id": "tell",
+  "file": "word.json",
+  "ja": "伝える",
+  "ex": "Please tell me the truth."
+ },
+ {
+  "id": "respond",
+  "file": "word.json",
+  "ja": "応じる",
+  "ex": "He didn't respond to my message."
+ },
+ {
+  "id": "question",
+  "file": "word.json",
+  "ja": "疑問視する",
+  "ex": "Many people questioned the decision."
+ },
+ {
+  "id": "discuss",
+  "file": "word.json",
+  "ja": "話し合う",
+  "ex": "We discussed the plan for the trip."
+ },
+ {
+  "id": "debate",
+  "file": "word.json",
+  "ja": "討論する",
+  "ex": "Students debated the new school rule."
+ },
+ {
+  "id": "reject",
+  "file": "word.json",
+  "ja": "却下する",
+  "ex": "The committee rejected my plan."
+ },
+ {
+  "id": "admit",
+  "file": "word.json",
+  "ja": "認める",
+  "ex": "He admitted that he made a mistake."
+ },
+ {
+  "id": "deny",
+  "file": "word.json",
+  "ja": "否定する",
+  "ex": "She denied breaking the window."
+ },
+ {
+  "id": "suggest",
+  "file": "word.json",
+  "ja": "提案する",
+  "ex": "I suggest we take a short break."
+ },
+ {
+  "id": "recommend",
+  "file": "word.json",
+  "ja": "勧める",
+  "ex": "Can you recommend a good restaurant?"
+ },
+ {
+  "id": "advise",
+  "file": "word.json",
+  "ja": "助言する",
+  "ex": "The doctor advised him to rest."
+ },
+ {
+  "id": "inform",
+  "file": "word.json",
+  "ja": "知らせる",
+  "ex": "Please inform us of any changes."
+ },
+ {
+  "id": "announce",
+  "file": "word.json",
+  "ja": "発表する",
+  "ex": "The school announced a new schedule."
+ },
+ {
+  "id": "report",
+  "file": "word.json",
+  "ja": "報告する",
+  "ex": "He reported the accident to the police."
+ },
+ {
+  "id": "blame",
+  "file": "word.json",
+  "ja": "責める",
+  "ex": "Don't blame yourself for the mistake."
+ },
+ {
+  "id": "forgive",
+  "file": "word.json",
+  "ja": "許す",
+  "ex": "Please forgive me for my mistake."
+ },
+ {
+  "id": "persuade",
+  "file": "word.json",
+  "ja": "説得する",
+  "ex": "I persuaded him to join the team."
+ },
+ {
+  "id": "convince",
+  "file": "word.json",
+  "ja": "納得させる",
+  "ex": "Her story convinced me that she was right."
+ },
+ {
+  "id": "encourage",
+  "file": "word.json",
+  "ja": "励ます",
+  "ex": "My parents encouraged me to try again."
+ },
+ {
+  "id": "support",
+  "file": "word.json",
+  "ja": "支える",
+  "ex": "My family supports my dream."
+ },
+ {
+  "id": "trust",
+  "file": "word.json",
+  "ja": "信頼する",
+  "ex": "I trust my best friend."
+ },
+ {
+  "id": "respect",
+  "file": "word.json",
+  "ja": "尊重する",
+  "ex": "I respect your opinion."
+ },
+ {
+  "id": "admire",
+  "file": "word.json",
+  "ja": "感心する",
+  "ex": "I admire her courage."
+ },
+ {
+  "id": "appreciate",
+  "file": "word.json",
+  "ja": "ありがたく思う",
+  "ex": "I really appreciate your help."
+ },
+ {
+  "id": "celebrate",
+  "file": "word.json",
+  "ja": "祝う",
+  "ex": "We celebrated her birthday at home."
+ },
+ {
+  "id": "congratulate",
+  "file": "word.json",
+  "ja": "祝福する",
+  "ex": "I congratulated him on his new job."
+ },
+ {
+  "id": "communicate",
+  "file": "word.json",
+  "ja": "意思を伝え合う",
+  "ex": "We communicate by email every day."
+ },
+ {
+  "id": "translate",
+  "file": "word.json",
+  "ja": "翻訳する",
+  "ex": "Can you translate this sentence into Japanese?"
+ },
+ {
+  "id": "interpret",
+  "file": "word.json",
+  "ja": "通訳する",
+  "ex": "She interpreted for the guests at the event."
+ },
+ {
+  "id": "pronounce",
+  "file": "word.json",
+  "ja": "発音する",
+  "ex": "How do you pronounce this word?"
+ },
+ {
+  "id": "spell",
+  "file": "word.json",
+  "ja": "つづる",
+  "ex": "How do you spell your name?"
+ },
+ {
+  "id": "survive",
+  "file": "word.json",
+  "ja": "生き延びる",
+  "ex": "Only two people survived the accident."
+ },
+ {
+  "id": "good",
+  "file": "word.json",
+  "ja": "良い",
+  "ex": "This is a good book."
+ },
+ {
+  "id": "bad",
+  "file": "word.json",
+  "ja": "悪い",
+  "ex": "I had a bad day."
+ },
+ {
+  "id": "great",
+  "file": "word.json",
+  "ja": "すばらしい",
+  "ex": "That's a great idea!"
+ },
+ {
+  "id": "fine",
+  "file": "word.json",
+  "ja": "元気な",
+  "ex": "I'm fine, thank you."
+ },
+ {
+  "id": "nice",
+  "file": "word.json",
+  "ja": "感じの良い",
+  "ex": "She is a very nice person."
+ },
+ {
+  "id": "beautiful",
+  "file": "word.json",
+  "ja": "美しい",
+  "ex": "The view from here is beautiful."
+ },
+ {
+  "id": "important",
+  "file": "word.json",
+  "ja": "重要な",
+  "ex": "This is an important meeting."
+ },
+ {
+  "id": "necessary",
+  "file": "word.json",
+  "ja": "必要な",
+  "ex": "Water is necessary for life."
+ },
+ {
+  "id": "useful",
+  "file": "word.json",
+  "ja": "役に立つ",
+  "ex": "This app is very useful."
+ },
+ {
+  "id": "possible",
+  "file": "word.json",
+  "ja": "可能な",
+  "ex": "Is it possible to finish today?"
+ },
+ {
+  "id": "impossible",
+  "file": "word.json",
+  "ja": "不可能な",
+  "ex": "It's impossible to finish by noon."
+ },
+ {
+  "id": "sure",
+  "file": "word.json",
+  "ja": "確信している",
+  "ex": "I'm sure he will come."
+ },
+ {
+  "id": "clear",
+  "file": "word.json",
+  "ja": "明確な",
+  "ex": "The instructions are clear."
+ }
+]

@@ -1,0 +1,428 @@
+[
+ {
+  "id": "rare",
+  "file": "word.json",
+  "ja": "まれな",
+  "ex": "It is rare to see snow in this city."
+ },
+ {
+  "id": "usual",
+  "file": "word.json",
+  "ja": "通常の",
+  "ex": "I took my usual seat near the window."
+ },
+ {
+  "id": "unusual",
+  "file": "word.json",
+  "ja": "珍しい",
+  "ex": "It's unusual for him to be late."
+ },
+ {
+  "id": "normal",
+  "file": "word.json",
+  "ja": "正常な",
+  "ex": "Your temperature is normal, so you can go to school."
+ },
+ {
+  "id": "ordinary",
+  "file": "word.json",
+  "ja": "普通の",
+  "ex": "It was just an ordinary day at school."
+ },
+ {
+  "id": "unique",
+  "file": "word.json",
+  "ja": "独特の",
+  "ex": "Each snowflake has a unique shape."
+ },
+ {
+  "id": "popular",
+  "file": "word.json",
+  "ja": "人気のある",
+  "ex": "This song is popular with young people."
+ },
+ {
+  "id": "famous",
+  "file": "word.json",
+  "ja": "有名な",
+  "ex": "Kyoto is famous for its old temples."
+ },
+ {
+  "id": "familiar",
+  "file": "word.json",
+  "ja": "見慣れた",
+  "ex": "Her face looked familiar to me."
+ },
+ {
+  "id": "strange",
+  "file": "word.json",
+  "ja": "奇妙な",
+  "ex": "I heard a strange noise in the kitchen."
+ },
+ {
+  "id": "foreign",
+  "file": "word.json",
+  "ja": "外国の",
+  "ex": "She is learning a foreign language."
+ },
+ {
+  "id": "international",
+  "file": "word.json",
+  "ja": "国際的な",
+  "ex": "He works for an international company."
+ },
+ {
+  "id": "domestic",
+  "file": "word.json",
+  "ja": "国内の",
+  "ex": "I took a domestic flight to Osaka."
+ },
+ {
+  "id": "personal",
+  "file": "word.json",
+  "ja": "個人的な",
+  "ex": "Please don't ask me personal questions."
+ },
+ {
+  "id": "professional",
+  "file": "word.json",
+  "ja": "職業上の",
+  "ex": "She asked a professional photographer for help."
+ },
+ {
+  "id": "formal",
+  "file": "word.json",
+  "ja": "正式な",
+  "ex": "He wore a formal suit to the ceremony."
+ },
+ {
+  "id": "informal",
+  "file": "word.json",
+  "ja": "くだけた",
+  "ex": "It was an informal meeting among friends."
+ },
+ {
+  "id": "legal",
+  "file": "word.json",
+  "ja": "合法の",
+  "ex": "It is legal to drive at the age of eighteen."
+ },
+ {
+  "id": "illegal",
+  "file": "word.json",
+  "ja": "違法の",
+  "ex": "Parking here is illegal, so please use the garage."
+ },
+ {
+  "id": "official",
+  "file": "word.json",
+  "ja": "公式の",
+  "ex": "The official website has all the details."
+ },
+ {
+  "id": "financial",
+  "file": "word.json",
+  "ja": "金銭上の",
+  "ex": "The company is having financial problems."
+ },
+ {
+  "id": "economic",
+  "file": "word.json",
+  "ja": "経済の",
+  "ex": "The country faces serious economic problems."
+ },
+ {
+  "id": "commercial",
+  "file": "word.json",
+  "ja": "商業の",
+  "ex": "The street is full of commercial buildings."
+ },
+ {
+  "id": "industrial",
+  "file": "word.json",
+  "ja": "産業の",
+  "ex": "This is an industrial area with many factories."
+ },
+ {
+  "id": "technical",
+  "file": "word.json",
+  "ja": "技術的な",
+  "ex": "We had a technical problem during the show."
+ },
+ {
+  "id": "digital",
+  "file": "word.json",
+  "ja": "デジタルの",
+  "ex": "I bought a new digital camera."
+ },
+ {
+  "id": "manual",
+  "file": "word.json",
+  "ja": "手動の",
+  "ex": "This is a manual car, not an automatic."
+ },
+ {
+  "id": "automatic",
+  "file": "word.json",
+  "ja": "自動の",
+  "ex": "The store has automatic doors."
+ },
+ {
+  "id": "efficient",
+  "file": "word.json",
+  "ja": "効率的な",
+  "ex": "This machine is more efficient than the old one."
+ },
+ {
+  "id": "effective",
+  "file": "word.json",
+  "ja": "効果的な",
+  "ex": "This medicine is effective against headaches."
+ },
+ {
+  "id": "productive",
+  "file": "word.json",
+  "ja": "生産性の高い",
+  "ex": "We had a productive meeting this morning."
+ },
+ {
+  "id": "reliable",
+  "file": "word.json",
+  "ja": "信頼できる",
+  "ex": "He is a reliable worker who never misses a day."
+ },
+ {
+  "id": "responsible",
+  "file": "word.json",
+  "ja": "責任のある",
+  "ex": "The driver was responsible for the accident."
+ },
+ {
+  "id": "reasonable",
+  "file": "word.json",
+  "ja": "妥当な",
+  "ex": "That sounds like a reasonable plan."
+ },
+ {
+  "id": "suitable",
+  "file": "word.json",
+  "ja": "適した",
+  "ex": "This room is suitable for a small meeting."
+ },
+ {
+  "id": "appropriate",
+  "file": "word.json",
+  "ja": "適切な",
+  "ex": "Jeans are not appropriate for a wedding."
+ },
+ {
+  "id": "convenient",
+  "file": "word.json",
+  "ja": "便利な",
+  "ex": "The station is convenient for shopping."
+ },
+ {
+  "id": "flexible",
+  "file": "word.json",
+  "ja": "柔軟な",
+  "ex": "My boss is flexible about work hours."
+ },
+ {
+  "id": "recently",
+  "file": "word.json",
+  "ja": "最近",
+  "ex": "I recently moved to a new apartment."
+ },
+ {
+  "id": "currently",
+  "file": "word.json",
+  "ja": "現在",
+  "ex": "She is currently working in Osaka."
+ },
+ {
+  "id": "previously",
+  "file": "word.json",
+  "ja": "以前に",
+  "ex": "He previously worked at a bank."
+ },
+ {
+  "id": "finally",
+  "file": "word.json",
+  "ja": "ついに",
+  "ex": "After a long wait, the bus finally came."
+ },
+ {
+  "id": "eventually",
+  "file": "word.json",
+  "ja": "最終的には",
+  "ex": "He eventually found his lost keys."
+ },
+ {
+  "id": "immediately",
+  "file": "word.json",
+  "ja": "すぐに",
+  "ex": "Please call me immediately if you need help."
+ },
+ {
+  "id": "suddenly",
+  "file": "word.json",
+  "ja": "突然",
+  "ex": "The lights suddenly went out."
+ },
+ {
+  "id": "gradually",
+  "file": "word.json",
+  "ja": "徐々に",
+  "ex": "The weather gradually got warmer."
+ },
+ {
+  "id": "rarely",
+  "file": "word.json",
+  "ja": "めったに〜ない",
+  "ex": "I rarely eat fast food."
+ },
+ {
+  "id": "once",
+  "file": "word.json",
+  "ja": "一度",
+  "ex": "I have been to Hokkaido only once."
+ },
+ {
+  "id": "twice",
+  "file": "word.json",
+  "ja": "二度",
+  "ex": "I go to the gym twice a week."
+ },
+ {
+  "id": "daily",
+  "file": "word.json",
+  "ja": "毎日",
+  "ex": "I write in my diary daily."
+ },
+ {
+  "id": "weekly",
+  "file": "word.json",
+  "ja": "毎週",
+  "ex": "The class meets weekly on Mondays."
+ },
+ {
+  "id": "monthly",
+  "file": "word.json",
+  "ja": "毎月",
+  "ex": "The magazine is published monthly."
+ },
+ {
+  "id": "annually",
+  "file": "word.json",
+  "ja": "毎年",
+  "ex": "The festival is held annually in July."
+ },
+ {
+  "id": "apart",
+  "file": "word.json",
+  "ja": "離れて",
+  "ex": "The two houses stand ten meters apart."
+ },
+ {
+  "id": "nearly",
+  "file": "word.json",
+  "ja": "ほぼ",
+  "ex": "It's nearly midnight. Let's go home."
+ },
+ {
+  "id": "quite",
+  "file": "word.json",
+  "ja": "かなり",
+  "ex": "The movie was quite long."
+ },
+ {
+  "id": "rather",
+  "file": "word.json",
+  "ja": "かなり",
+  "ex": "It was rather cold this morning."
+ },
+ {
+  "id": "even",
+  "file": "word.json",
+  "ja": "〜さえ",
+  "ex": "Even a child can use this app."
+ },
+ {
+  "id": "especially",
+  "file": "word.json",
+  "ja": "特に",
+  "ex": "I love fruit, especially strawberries."
+ },
+ {
+  "id": "particularly",
+  "file": "word.json",
+  "ja": "とりわけ",
+  "ex": "The soup is particularly good in winter."
+ },
+ {
+  "id": "perhaps",
+  "file": "word.json",
+  "ja": "もしかすると",
+  "ex": "Perhaps he missed the train."
+ },
+ {
+  "id": "certainly",
+  "file": "word.json",
+  "ja": "確かに",
+  "ex": "Certainly, I'll bring it right away."
+ },
+ {
+  "id": "actually",
+  "file": "word.json",
+  "ja": "実は",
+  "ex": "Actually, I've never been to Kyoto."
+ },
+ {
+  "id": "simply",
+  "file": "word.json",
+  "ja": "単に",
+  "ex": "He simply forgot to call you."
+ },
+ {
+  "id": "exactly",
+  "file": "word.json",
+  "ja": "正確に",
+  "ex": "The train leaves at exactly nine o'clock."
+ },
+ {
+  "id": "completely",
+  "file": "word.json",
+  "ja": "完全に",
+  "ex": "I completely forgot about the meeting."
+ },
+ {
+  "id": "lung",
+  "file": "word.json",
+  "ja": "肺",
+  "ex": "Smoking is bad for your lungs."
+ },
+ {
+  "id": "project",
+  "file": "word.json",
+  "ja": "プロジェクト",
+  "ex": "We finished the project on time."
+ },
+ {
+  "id": "seminar",
+  "file": "word.json",
+  "ja": "セミナー",
+  "ex": "I went to a seminar on marketing."
+ },
+ {
+  "id": "agenda",
+  "file": "word.json",
+  "ja": "議題",
+  "ex": "What's on the agenda today?"
+ },
+ {
+  "id": "shift",
+  "file": "word.json",
+  "ja": "シフト",
+  "ex": "I work the night shift this week."
+ }
+]

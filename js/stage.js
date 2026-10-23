@@ -9,6 +9,8 @@ let kit3dMod = null;
 const loadKit3d = () => (kit3dMod ||= import('./kit3d.js'));
 let tplMod = null;
 const loadTpl = () => (tplMod ||= import('./tpl.js'));
+let zuMod = null;
+const loadZu = () => (zuMod ||= import('./zukai.js'));
 let kit2dMod = null;
 const loadKit2d = () => (kit2dMod ||= import('./kit2d.js'));
 
@@ -83,7 +85,8 @@ export class Stage {
 
   async load(item) {
     const seq = ++this.loadSeq;
-    const kind = item.motion;
+    const isZu = !item.motion && !!item.zu;
+    const kind = item.motion || (isZu ? 'zu' : null);
     if (!kind) {
       this._teardown();
       this._placeholder('この表現のモーションは準備中です');
@@ -92,7 +95,7 @@ export class Stage {
     this.onLoading(true);
     try {
       const isTpl = kind === 'tpl';
-      const [mod, kitMod] = await Promise.all([isTpl ? loadTpl() : loadScene(item.id), kind === '3d' ? loadKit3d() : loadKit2d()]);
+      const [mod, kitMod] = await Promise.all([isZu ? loadZu() : isTpl ? loadTpl() : loadScene(item.id), kind === '3d' ? loadKit3d() : loadKit2d()]);
       if (seq !== this.loadSeq) return false; // 読み込み中に別の項目へ移った
       this._teardown();
       let k;
@@ -108,14 +111,14 @@ export class Stage {
         this.svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
         this.svg.setAttribute('class', 'stage-svg');
         this.svg.setAttribute('role', 'img');
-        this.svg.setAttribute('aria-label', `${item.en} のモーション`);
+        this.svg.setAttribute('aria-label', `${item.en} の${isZu ? '図解' : 'モーション'}`);
         this.layer.appendChild(this.svg);
         k = kitMod.createKit2D(this.svg);
         if (this.canvas) this.canvas.style.display = 'none';
       }
-      const inst = isTpl ? mod.create(k, item.tpl || {}) : mod.create(k);
-      const meta = isTpl ? mod.metaFor(item.tpl || {}) : mod.meta;
-      this.current = { id: item.id, kind: isTpl ? '2d' : kind, meta, inst, k };
+      const inst = isZu ? mod.create(k, item.zu, item) : isTpl ? mod.create(k, item.tpl || {}) : mod.create(k);
+      const meta = isZu ? mod.metaFor(item.zu) : isTpl ? mod.metaFor(item.tpl || {}) : mod.meta;
+      this.current = { id: item.id, kind: isTpl || isZu ? '2d' : kind, meta, inst, k };
       if (kind === '3d') this._resize();
       this.restart(this.mode);
       return true;

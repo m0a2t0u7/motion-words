@@ -1,0 +1,428 @@
+[
+ {
+  "id": "simple",
+  "file": "word.json",
+  "ja": "単純な",
+  "ex": "The rule is simple."
+ },
+ {
+  "id": "easy",
+  "file": "word.json",
+  "ja": "簡単な",
+  "ex": "The test was easy."
+ },
+ {
+  "id": "difficult",
+  "file": "word.json",
+  "ja": "難しい",
+  "ex": "This question is difficult."
+ },
+ {
+  "id": "basic",
+  "file": "word.json",
+  "ja": "基本的な",
+  "ex": "Learn the basic rules first."
+ },
+ {
+  "id": "correct",
+  "file": "word.json",
+  "ja": "正しい",
+  "ex": "Your answer is correct."
+ },
+ {
+  "id": "wrong",
+  "file": "word.json",
+  "ja": "間違った",
+  "ex": "I took the wrong bus."
+ },
+ {
+  "id": "different",
+  "file": "word.json",
+  "ja": "異なる",
+  "ex": "My opinion is different from yours."
+ },
+ {
+  "id": "common",
+  "file": "word.json",
+  "ja": "よくある",
+  "ex": "Colds are common in winter."
+ },
+ {
+  "id": "special",
+  "file": "word.json",
+  "ja": "特別な",
+  "ex": "Today is a special day for us."
+ },
+ {
+  "id": "local",
+  "file": "word.json",
+  "ja": "地元の",
+  "ex": "I like to eat local food."
+ },
+ {
+  "id": "public",
+  "file": "word.json",
+  "ja": "公共の",
+  "ex": "You can use the public library."
+ },
+ {
+  "id": "private",
+  "file": "word.json",
+  "ja": "私的な",
+  "ex": "This is a private matter."
+ },
+ {
+  "id": "then",
+  "file": "word.json",
+  "ja": "その時",
+  "ex": "I was in Tokyo then."
+ },
+ {
+  "id": "today",
+  "file": "word.json",
+  "ja": "今日",
+  "ex": "It's sunny today."
+ },
+ {
+  "id": "yesterday",
+  "file": "word.json",
+  "ja": "昨日",
+  "ex": "I met her yesterday."
+ },
+ {
+  "id": "tonight",
+  "file": "word.json",
+  "ja": "今夜",
+  "ex": "We're having pizza tonight."
+ },
+ {
+  "id": "yet",
+  "file": "word.json",
+  "ja": "まだ",
+  "ex": "I haven't finished lunch yet."
+ },
+ {
+  "id": "still",
+  "file": "word.json",
+  "ja": "まだ",
+  "ex": "It's still raining."
+ },
+ {
+  "id": "just",
+  "file": "word.json",
+  "ja": "たった今",
+  "ex": "I just got home."
+ },
+ {
+  "id": "usually",
+  "file": "word.json",
+  "ja": "たいてい",
+  "ex": "I usually walk to school."
+ },
+ {
+  "id": "sometimes",
+  "file": "word.json",
+  "ja": "時々",
+  "ex": "Sometimes I go to the park."
+ },
+ {
+  "id": "here",
+  "file": "word.json",
+  "ja": "ここに",
+  "ex": "Come here, please."
+ },
+ {
+  "id": "there",
+  "file": "word.json",
+  "ja": "そこに",
+  "ex": "My bag is over there."
+ },
+ {
+  "id": "away",
+  "file": "word.json",
+  "ja": "離れて",
+  "ex": "He lives far away from here."
+ },
+ {
+  "id": "almost",
+  "file": "word.json",
+  "ja": "ほとんど",
+  "ex": "I'm almost ready."
+ },
+ {
+  "id": "very",
+  "file": "word.json",
+  "ja": "とても",
+  "ex": "The soup is very hot."
+ },
+ {
+  "id": "too",
+  "file": "word.json",
+  "ja": "〜すぎる",
+  "ex": "This bag is too heavy."
+ },
+ {
+  "id": "enough",
+  "file": "word.json",
+  "ja": "十分に",
+  "ex": "Is this big enough?"
+ },
+ {
+  "id": "only",
+  "file": "word.json",
+  "ja": "〜だけ",
+  "ex": "I only have one ticket."
+ },
+ {
+  "id": "also",
+  "file": "word.json",
+  "ja": "〜もまた",
+  "ex": "She also speaks French."
+ },
+ {
+  "id": "probably",
+  "file": "word.json",
+  "ja": "おそらく",
+  "ex": "It will probably rain tomorrow."
+ },
+ {
+  "id": "maybe",
+  "file": "word.json",
+  "ja": "多分",
+  "ex": "Maybe he is at home."
+ },
+ {
+  "id": "really",
+  "file": "word.json",
+  "ja": "本当に",
+  "ex": "I really like this song."
+ },
+ {
+  "id": "grade",
+  "file": "word.json",
+  "ja": "成績",
+  "ex": "She got a good grade on the math test."
+ },
+ {
+  "id": "mark",
+  "file": "word.json",
+  "ja": "評点",
+  "ex": "I got a high mark in English this term."
+ },
+ {
+  "id": "certificate",
+  "file": "word.json",
+  "ja": "証明書",
+  "ex": "She received a certificate after the course."
+ },
+ {
+  "id": "degree",
+  "file": "word.json",
+  "ja": "学位",
+  "ex": "He has a degree in history."
+ },
+ {
+  "id": "article",
+  "file": "word.json",
+  "ja": "記事",
+  "ex": "I read an interesting article about space."
+ },
+ {
+  "id": "chapter",
+  "file": "word.json",
+  "ja": "章",
+  "ex": "The story begins in the first chapter."
+ },
+ {
+  "id": "paragraph",
+  "file": "word.json",
+  "ja": "段落",
+  "ex": "Each paragraph should have one main idea."
+ },
+ {
+  "id": "word",
+  "file": "word.json",
+  "ja": "単語",
+  "ex": "I don't know this word. Can you explain it?"
+ },
+ {
+  "id": "phrase",
+  "file": "word.json",
+  "ja": "語句",
+  "ex": "This phrase is often used in business."
+ },
+ {
+  "id": "language",
+  "file": "word.json",
+  "ja": "言語",
+  "ex": "She can speak three languages."
+ },
+ {
+  "id": "grammar",
+  "file": "word.json",
+  "ja": "文法",
+  "ex": "English grammar is easy once you learn the rules."
+ },
+ {
+  "id": "excellent",
+  "file": "word.json",
+  "ja": "非常に優れた",
+  "ex": "The food at this restaurant is excellent."
+ },
+ {
+  "id": "terrible",
+  "file": "word.json",
+  "ja": "ひどい",
+  "ex": "The weather was terrible all week."
+ },
+ {
+  "id": "wonderful",
+  "file": "word.json",
+  "ja": "すてきな",
+  "ex": "We had a wonderful time at the beach."
+ },
+ {
+  "id": "perfect",
+  "file": "word.json",
+  "ja": "完璧な",
+  "ex": "This is the perfect place for a picnic."
+ },
+ {
+  "id": "pretty",
+  "file": "word.json",
+  "ja": "かわいらしい",
+  "ex": "She wore a pretty dress to the party."
+ },
+ {
+  "id": "ugly",
+  "file": "word.json",
+  "ja": "醜い",
+  "ex": "I don't like this ugly old building."
+ },
+ {
+  "id": "tasty",
+  "file": "word.json",
+  "ja": "おいしい",
+  "ex": "These cookies are really tasty."
+ },
+ {
+  "id": "bland",
+  "file": "word.json",
+  "ja": "味の薄い",
+  "ex": "The soup was bland, so I added salt."
+ },
+ {
+  "id": "modern",
+  "file": "word.json",
+  "ja": "現代的な",
+  "ex": "The hotel has a modern design."
+ },
+ {
+  "id": "ancient",
+  "file": "word.json",
+  "ja": "古代の",
+  "ex": "They visited the ancient ruins of Rome."
+ },
+ {
+  "id": "recent",
+  "file": "word.json",
+  "ja": "最近の",
+  "ex": "There have been many accidents in recent years."
+ },
+ {
+  "id": "rapid",
+  "file": "word.json",
+  "ja": "急速な",
+  "ex": "The city has seen rapid growth."
+ },
+ {
+  "id": "sudden",
+  "file": "word.json",
+  "ja": "突然の",
+  "ex": "A sudden noise made me jump."
+ },
+ {
+  "id": "gradual",
+  "file": "word.json",
+  "ja": "徐々の",
+  "ex": "There was a gradual change in the weather."
+ },
+ {
+  "id": "steady",
+  "file": "word.json",
+  "ja": "安定した",
+  "ex": "He walked at a steady pace."
+ },
+ {
+  "id": "dead",
+  "file": "word.json",
+  "ja": "死んだ",
+  "ex": "The flowers in the vase are dead."
+ },
+ {
+  "id": "essential",
+  "file": "word.json",
+  "ja": "不可欠な",
+  "ex": "Water is essential for all living things."
+ },
+ {
+  "id": "useless",
+  "file": "word.json",
+  "ja": "役に立たない",
+  "ex": "This old map is useless without a legend."
+ },
+ {
+  "id": "helpful",
+  "file": "word.json",
+  "ja": "助けになる",
+  "ex": "The guide gave us some helpful advice."
+ },
+ {
+  "id": "likely",
+  "file": "word.json",
+  "ja": "ありそうな",
+  "ex": "It is likely to rain this afternoon."
+ },
+ {
+  "id": "unlikely",
+  "file": "word.json",
+  "ja": "ありそうもない",
+  "ex": "It is unlikely that he will come."
+ },
+ {
+  "id": "certain",
+  "file": "word.json",
+  "ja": "確かな",
+  "ex": "I'm certain that I locked the door."
+ },
+ {
+  "id": "obvious",
+  "file": "word.json",
+  "ja": "明らかな",
+  "ex": "It was obvious that she was tired."
+ },
+ {
+  "id": "complex",
+  "file": "word.json",
+  "ja": "複雑な",
+  "ex": "The rules of this game are too complex."
+ },
+ {
+  "id": "advanced",
+  "file": "word.json",
+  "ja": "高度な",
+  "ex": "She is taking an advanced English course."
+ },
+ {
+  "id": "accurate",
+  "file": "word.json",
+  "ja": "正確な",
+  "ex": "The report was accurate and clear."
+ },
+ {
+  "id": "exact",
+  "file": "word.json",
+  "ja": "正確な",
+  "ex": "What is the exact time now?"
+ }
+]
