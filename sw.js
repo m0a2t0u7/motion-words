@@ -1,7 +1,7 @@
 // オフラインでも使えるようにするキャッシュ。
 // 初回に「画面・全データ・全モーション・3D部品」をまとめて保存するので、電波が切れても連続再生が止まらない。
 // 版（VERSION）を上げると古いキャッシュは消える。教材を追加したら必ず上げる。
-const VERSION = 'v46-2026-10-24';
+const VERSION = 'v47-2026-10-24';
 const SHELL = [
   './',
   'index.html',
@@ -25,7 +25,7 @@ const SHELL = [
   'manifest.webmanifest',
   'fonts/nunito-latin-800-normal.woff2',
   'fonts/nunito-latin-700-normal.woff2',
-  'icons/icon-192.png'
+  'icons/icon-192-mame.png'
 ];
 
 async function precache() {
