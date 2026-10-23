@@ -1,0 +1,360 @@
+{
+ "know": {
+  "t": "mind",
+  "act": "firm",
+  "e": "💡"
+ },
+ "understand": {
+  "t": "mind",
+  "act": "get",
+  "e": "💡"
+ },
+ "learn": {
+  "t": "mind",
+  "act": "get",
+  "e": "📘"
+ },
+ "study": {
+  "t": "mind",
+  "act": "get",
+  "e": "📚"
+ },
+ "teach": {
+  "t": "tell",
+  "act": "teach",
+  "e": "🔢"
+ },
+ "remember": {
+  "t": "mind",
+  "act": "back",
+  "e": "🎒"
+ },
+ "forget": {
+  "t": "mind",
+  "act": "lose",
+  "e": "☂️"
+ },
+ "recall": {
+  "t": "mind",
+  "act": "back",
+  "e": "🔤"
+ },
+ "imagine": {
+  "t": "mind",
+  "act": "dream",
+  "e": "🚗"
+ },
+ "believe": {
+  "t": "mind",
+  "act": "firm",
+  "e": "❤️"
+ },
+ "doubt": {
+  "t": "mind",
+  "act": "doubt",
+  "e": "❓"
+ },
+ "wonder": {
+  "t": "mind",
+  "act": "dream",
+  "e": "🏆"
+ },
+ "guess": {
+  "t": "sure",
+  "v": 0.5
+ },
+ "expect": {
+  "t": "sure",
+  "v": 0.8
+ },
+ "predict": {
+  "t": "sure",
+  "v": 0.6
+ },
+ "realize": {
+  "t": "mind",
+  "act": "get",
+  "e": "🔑"
+ },
+ "consider": {
+  "t": "mind",
+  "act": "pick",
+  "e": "📝"
+ },
+ "compare": {
+  "t": "compare",
+  "rel": "diff",
+  "e": "💰",
+  "e2": "💴"
+ },
+ "analyze": {
+  "t": "compare",
+  "rel": "many",
+  "e": "📈",
+  "e2": "📊"
+ },
+ "solve": {
+  "t": "judge",
+  "act": "ok",
+  "e": "🧩"
+ },
+ "explain": {
+  "t": "tell",
+  "act": "teach",
+  "e": "⚙️"
+ },
+ "describe": {
+  "t": "tell",
+  "act": "say",
+  "e": "🖼️"
+ },
+ "define": {
+  "t": "tell",
+  "act": "say",
+  "e": "📖"
+ },
+ "mean": {
+  "t": "tell",
+  "act": "say",
+  "e": "💬"
+ },
+ "refer": {
+  "t": "tell",
+  "act": "say",
+  "e": "📄"
+ },
+ "mention": {
+  "t": "tell",
+  "act": "say",
+  "e": "🔖"
+ },
+ "tell": {
+  "t": "tell",
+  "act": "say",
+  "e": "💬"
+ },
+ "respond": {
+  "t": "tell",
+  "act": "no",
+  "e": "✉️"
+ },
+ "question": {
+  "t": "mind",
+  "act": "doubt",
+  "e": "⚖️"
+ },
+ "discuss": {
+  "t": "tell",
+  "act": "ask",
+  "e": "🗺️"
+ },
+ "debate": {
+  "t": "tell",
+  "act": "loud",
+  "e": "📜"
+ },
+ "reject": {
+  "t": "judge",
+  "act": "ng",
+  "e": "📋"
+ },
+ "admit": {
+  "t": "tell",
+  "act": "yes",
+  "e": "❌"
+ },
+ "deny": {
+  "t": "tell",
+  "act": "no",
+  "e": "🪟"
+ },
+ "suggest": {
+  "t": "tell",
+  "act": "offer",
+  "e": "☕"
+ },
+ "recommend": {
+  "t": "tell",
+  "act": "offer",
+  "e": "🍽️"
+ },
+ "advise": {
+  "t": "tell",
+  "act": "offer",
+  "e": "💊"
+ },
+ "inform": {
+  "t": "tell",
+  "act": "say",
+  "e": "📢"
+ },
+ "announce": {
+  "t": "tell",
+  "act": "loud",
+  "e": "📅"
+ },
+ "report": {
+  "t": "tell",
+  "act": "say",
+  "e": "🚨"
+ },
+ "blame": {
+  "t": "judge",
+  "act": "bad",
+  "e": "💥"
+ },
+ "forgive": {
+  "t": "tell",
+  "act": "yes",
+  "e": "🕊️"
+ },
+ "persuade": {
+  "t": "tell",
+  "act": "yes",
+  "e": "⚽"
+ },
+ "convince": {
+  "t": "mind",
+  "act": "firm",
+  "e": "📖"
+ },
+ "encourage": {
+  "t": "tell",
+  "act": "cheer",
+  "e": "🔁"
+ },
+ "support": {
+  "t": "tell",
+  "act": "cheer",
+  "e": "🌠"
+ },
+ "trust": {
+  "t": "mind",
+  "act": "firm",
+  "e": "🔐"
+ },
+ "respect": {
+  "t": "judge",
+  "act": "star",
+  "e": "💭",
+  "v": 5
+ },
+ "admire": {
+  "t": "judge",
+  "act": "star",
+  "e": "🦁",
+  "v": 5
+ },
+ "appreciate": {
+  "t": "tell",
+  "act": "yes",
+  "e": "🎁"
+ },
+ "celebrate": {
+  "t": "judge",
+  "act": "star",
+  "e": "🎂",
+  "v": 5
+ },
+ "congratulate": {
+  "t": "tell",
+  "act": "cheer",
+  "e": "🎉"
+ },
+ "communicate": {
+  "t": "tell",
+  "act": "say",
+  "e": "📧"
+ },
+ "translate": {
+  "t": "tell",
+  "act": "say",
+  "e": "🔤"
+ },
+ "interpret": {
+  "t": "tell",
+  "act": "say",
+  "e": "🎤"
+ },
+ "pronounce": {
+  "t": "tell",
+  "act": "say",
+  "e": "🔊"
+ },
+ "spell": {
+  "t": "tell",
+  "act": "say",
+  "e": "🔠"
+ },
+ "survive": {
+  "t": "judge",
+  "act": "ok",
+  "e": "🛟"
+ },
+ "good": {
+  "t": "judge",
+  "act": "good",
+  "e": "📕"
+ },
+ "bad": {
+  "t": "judge",
+  "act": "bad",
+  "e": "☁️"
+ },
+ "great": {
+  "t": "judge",
+  "act": "star",
+  "e": "💡",
+  "v": 5
+ },
+ "fine": {
+  "t": "judge",
+  "act": "ok",
+  "e": "☀️"
+ },
+ "nice": {
+  "t": "judge",
+  "act": "good",
+  "e": "🌼"
+ },
+ "beautiful": {
+  "t": "judge",
+  "act": "star",
+  "e": "🌄",
+  "v": 5
+ },
+ "important": {
+  "t": "judge",
+  "act": "key",
+  "e": "📅"
+ },
+ "necessary": {
+  "t": "judge",
+  "act": "key",
+  "e": "💧"
+ },
+ "useful": {
+  "t": "judge",
+  "act": "good",
+  "e": "📱"
+ },
+ "possible": {
+  "t": "judge",
+  "act": "ok",
+  "e": "⏰"
+ },
+ "impossible": {
+  "t": "judge",
+  "act": "ng",
+  "e": "⏰"
+ },
+ "sure": {
+  "t": "sure",
+  "v": 0.9
+ },
+ "clear": {
+  "t": "judge",
+  "act": "ok",
+  "e": "📋"
+ }
+}
