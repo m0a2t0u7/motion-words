@@ -1,3 +1,12 @@
+// Node.js 2026-10-21 security release minimums; fail before running QA on an unpatched runtime.
+(() => {
+  const [major, minor, patch] = process.versions.node.split('.').map(Number);
+  const minimum = {22: [23, 4], 24: [22, 1], 26: [12, 1]}[major];
+  if (!minimum || minor < minimum[0] || (minor === minimum[0] && patch < minimum[1])) {
+    throw new Error('Use patched Node.js 22.23.4, 24.22.1, or 26.12.1 (or newer in those release lines). Current: ' + process.versions.node);
+  }
+})();
+
 // 語彙データの検証と一覧（data/index.json）の生成。
 // 使い方：node tools/build-index.mjs
 // 項目を追加・修正したら必ず実行する。収録数はここで数えた実数だけを表示に使う。
@@ -58,3 +67,4 @@ const stats = {
 const out = { version: new Date().toISOString().slice(0, 10), cats: CATS, stats, items };
 writeFileSync(join(root, 'data/index.json'), JSON.stringify(out) + '\n');
 console.log('OK', JSON.stringify(stats));
+
