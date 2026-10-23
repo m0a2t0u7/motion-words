@@ -1,0 +1,10 @@
+hot
+warm
+wet
+freezing
+chilly
+tiny
+huge
+wide
+narrow
+deep

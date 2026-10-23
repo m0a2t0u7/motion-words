@@ -1,0 +1,10 @@
+shallow
+thick
+thin
+round
+straight
+curved
+sharp
+smooth
+rough
+flat

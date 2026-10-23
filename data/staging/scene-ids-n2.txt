@@ -1,0 +1,10 @@
+sweet
+sour
+bitter
+salty
+spicy
+ripe
+raw
+fresh
+delicious
+liquid

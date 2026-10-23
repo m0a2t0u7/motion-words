@@ -1,0 +1,10 @@
+book
+dictionary
+newspaper
+letter
+keyboard
+printer
+laptop
+folder
+homework
+exam
