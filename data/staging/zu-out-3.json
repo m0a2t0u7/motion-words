@@ -1,0 +1,360 @@
+{
+ "wage": {
+  "t": "degree",
+  "v": 0.8
+ },
+ "bonus": {
+  "t": "tell",
+  "act": "offer",
+  "e": "💰"
+ },
+ "benefit": {
+  "t": "judge",
+  "act": "good",
+  "e": "🎁"
+ },
+ "promotion": {
+  "t": "degree",
+  "v": 1.2
+ },
+ "experience": {
+  "t": "mind",
+  "act": "get",
+  "e": "📚"
+ },
+ "skill": {
+  "t": "judge",
+  "act": "star",
+  "e": "🔧",
+  "v": 4
+ },
+ "applicant": {
+  "t": "tell",
+  "act": "offer",
+  "e": "📄"
+ },
+ "agreement": {
+  "t": "compare",
+  "rel": "same",
+  "e": "📝",
+  "e2": "📝"
+ },
+ "policy": {
+  "t": "judge",
+  "act": "ng",
+  "e": "📋"
+ },
+ "procedure": {
+  "t": "judge",
+  "act": "ok",
+  "e": "📋"
+ },
+ "rule": {
+  "t": "judge",
+  "act": "ok",
+  "e": "📏"
+ },
+ "regulation": {
+  "t": "judge",
+  "act": "ng",
+  "e": "🚬"
+ },
+ "standard": {
+  "t": "judge",
+  "act": "ok",
+  "e": "📏"
+ },
+ "quality": {
+  "t": "judge",
+  "act": "star",
+  "e": "👟",
+  "v": 4
+ },
+ "quantity": {
+  "t": "degree",
+  "v": 1.3
+ },
+ "service": {
+  "t": "judge",
+  "act": "bad",
+  "e": "⏱️"
+ },
+ "brand": {
+  "t": "mind",
+  "act": "pick",
+  "e": "☕"
+ },
+ "model": {
+  "t": "compare",
+  "rel": "diff",
+  "e": "📱",
+  "e2": "📱"
+ },
+ "stock": {
+  "t": "degree",
+  "v": 0
+ },
+ "supplier": {
+  "t": "tell",
+  "act": "offer",
+  "e": "📦"
+ },
+ "manufacturer": {
+  "t": "tell",
+  "act": "ask",
+  "e": "🏭"
+ },
+ "consumer": {
+  "t": "tell",
+  "act": "ask",
+  "e": "🏷️"
+ },
+ "campaign": {
+  "t": "tell",
+  "act": "loud",
+  "e": "📢"
+ },
+ "sales": {
+  "t": "degree",
+  "v": 1.1
+ },
+ "revenue": {
+  "t": "degree",
+  "v": 1.2
+ },
+ "profit": {
+  "t": "degree",
+  "v": 0.3
+ },
+ "loss": {
+  "t": "judge",
+  "act": "bad",
+  "e": "📉"
+ },
+ "expense": {
+  "t": "degree",
+  "v": 1.3
+ },
+ "information": {
+  "t": "tell",
+  "act": "teach",
+  "e": "ℹ️"
+ },
+ "news": {
+  "t": "tell",
+  "act": "say",
+  "e": "📰"
+ },
+ "text": {
+  "t": "tell",
+  "act": "say",
+  "e": "💬"
+ },
+ "document": {
+  "t": "judge",
+  "act": "ok",
+  "e": "📄"
+ },
+ "file": {
+  "t": "judge",
+  "act": "ok",
+  "e": "📁"
+ },
+ "record": {
+  "t": "mind",
+  "act": "back",
+  "e": "📓"
+ },
+ "data": {
+  "t": "compare",
+  "rel": "many",
+  "e": "📊",
+  "e2": "📊"
+ },
+ "database": {
+  "t": "mind",
+  "act": "get",
+  "e": "🗄️"
+ },
+ "system": {
+  "t": "judge",
+  "act": "ok",
+  "e": "⚙️"
+ },
+ "network": {
+  "t": "judge",
+  "act": "ng",
+  "e": "📶"
+ },
+ "internet": {
+  "t": "tell",
+  "act": "ask",
+  "e": "🌐"
+ },
+ "page": {
+  "t": "compare",
+  "rel": "one",
+  "e": "📖",
+  "e2": "📖"
+ },
+ "cursor": "skip",
+ "software": {
+  "t": "judge",
+  "act": "ok",
+  "e": "💿"
+ },
+ "hardware": {
+  "t": "judge",
+  "act": "bad",
+  "e": "🔧"
+ },
+ "application": {
+  "t": "tell",
+  "act": "offer",
+  "e": "📨"
+ },
+ "account": {
+  "t": "judge",
+  "act": "key",
+  "e": "🔑"
+ },
+ "username": {
+  "t": "judge",
+  "act": "key",
+  "e": "🏷️"
+ },
+ "link": {
+  "t": "judge",
+  "act": "key",
+  "e": "🔗"
+ },
+ "browser": {
+  "t": "compare",
+  "rel": "diff",
+  "e": "🌐",
+  "e2": "🧭"
+ },
+ "device": {
+  "t": "judge",
+  "act": "ng",
+  "e": "📱"
+ },
+ "technology": {
+  "t": "judge",
+  "act": "star",
+  "e": "💡",
+  "v": 5
+ },
+ "research": {
+  "t": "mind",
+  "act": "pick",
+  "e": "🔬"
+ },
+ "evidence": {
+  "t": "mind",
+  "act": "doubt",
+  "e": "🔍"
+ },
+ "fact": {
+  "t": "mind",
+  "act": "firm",
+  "e": "🌍"
+ },
+ "theory": {
+  "t": "mind",
+  "act": "doubt",
+  "e": "🧪"
+ },
+ "method": {
+  "t": "judge",
+  "act": "ok",
+  "e": "🧰"
+ },
+ "process": {
+  "t": "time",
+  "span": [
+   -0.3,
+   0.8
+  ],
+  "v": 0.8
+ },
+ "result": {
+  "t": "time",
+  "v": 0.6
+ },
+ "reason": {
+  "t": "mind",
+  "act": "doubt",
+  "e": "❓"
+ },
+ "purpose": {
+  "t": "mind",
+  "act": "pick",
+  "e": "🎯"
+ },
+ "goal": {
+  "t": "mind",
+  "act": "dream",
+  "e": "🏁"
+ },
+ "problem": {
+  "t": "judge",
+  "act": "bad",
+  "e": "🖨️"
+ },
+ "solution": {
+  "t": "judge",
+  "act": "good",
+  "e": "💡"
+ },
+ "idea": {
+  "t": "mind",
+  "act": "get",
+  "e": "💡"
+ },
+ "opinion": {
+  "t": "mind",
+  "act": "firm",
+  "e": "💭"
+ },
+ "knowledge": {
+  "t": "degree",
+  "v": 1.3
+ },
+ "memory": {
+  "t": "degree",
+  "v": 0.2
+ },
+ "attention": {
+  "t": "mind",
+  "act": "firm",
+  "e": "🎯"
+ },
+ "education": {
+  "t": "judge",
+  "act": "star",
+  "e": "🎓",
+  "v": 5
+ },
+ "college": {
+  "t": "time",
+  "span": [
+   -0.6,
+   0.1
+  ],
+  "v": 0.1
+ },
+ "course": {
+  "t": "time",
+  "span": [
+   0,
+   0.8
+  ],
+  "v": 0.8
+ },
+ "subject": {
+  "t": "mind",
+  "act": "pick",
+  "e": "📚"
+ }
+}

@@ -107,11 +107,11 @@ export function create(k, p, item = {}) {
     up = (t) => {
       const q = easeInOut(seg(t, 0.6, 2.6)), lv = Math.min(v, 1.38) * q;
       const h = Math.min(lv * 0.72, 1) * (H - 8);
-      k.set(fill, { y: y0 - 4 - h, height: h, fill: lv > 1 ? C.red : lv >= 0.97 ? C.green : C.blue });
+      k.set(fill, { y: y0 - 4 - h, height: h, fill: lv > 1.12 ? C.red : lv >= 0.97 ? C.green : C.blue });
       const oh = lv > 1.38 ? 0 : 0;
       k.set(over, { height: oh });
       const done = t > 2.6;
-      P({ x: 290, facing: -1, look: -0.7, armR: 30 + 60 * (done ? 1 : 0), mood: done ? (v > 1.05 ? 'sad' : v >= 0.97 ? 'grin' : v < 0.5 ? 'flat' : 'smile') : 'open', blink: blink(t) });
+      P({ x: 290, facing: -1, look: -0.7, armR: 30 + 60 * (done ? 1 : 0), mood: done ? (v > 1.12 ? 'sad' : v >= 0.97 ? 'grin' : v < 0.5 ? 'flat' : 'smile') : 'open', blink: blink(t) });
     };
   } else if (p.t === 'mind') {
     const bub = g({});
@@ -146,7 +146,7 @@ export function create(k, p, item = {}) {
     if (act === 'loud') you.pose({ x: 1000, y: FY });
     const bub = g({});
     el('rect', { x: -38, y: -28, width: 76, height: 56, rx: 18, fill: '#fff', stroke: '#D7DEE6', 'stroke-width': 2 }, bub);
-    const ICON = { no: '❌', ask: '❓', offer: p.e || '💡', cheer: p.e || '💪', yes: '⭕' };
+    const ICON = { no: '❌', ask: '❓', offer: p.e || '💡', cheer: '⭐', yes: '⭕' };
     emo(ICON[act] || p.e || '💬', 30, bub);
     const lines = act === 'teach' ? [0, 1, 2].map((i) => el('rect', { x: 0, y: 0, width: 0, height: 6, rx: 3, fill: '#B8C4D1' })) : [];
     const hearts = act === 'cheer' ? [0, 1, 2].map(() => emo('✨', 18)) : [];

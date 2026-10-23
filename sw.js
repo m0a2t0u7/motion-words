@@ -1,7 +1,7 @@
 // オフラインでも使えるようにするキャッシュ。
 // 初回に「画面・全データ・全モーション・3D部品」をまとめて保存するので、電波が切れても連続再生が止まらない。
 // 版（VERSION）を上げると古いキャッシュは消える。教材を追加したら必ず上げる。
-const VERSION = 'v39-2026-10-24';
+const VERSION = 'v40-2026-10-24';
 const SHELL = [
   './',
   'index.html',
@@ -16,6 +16,7 @@ const SHELL = [
   'js/ease.js',
   'js/kit2d.js',
   'js/tpl.js',
+  'js/zukai.js',
   'js/kit3d.js',
   'vendor/three.js',
   'data/index.json',
