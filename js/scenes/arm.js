@@ -14,7 +14,7 @@ export function create(k) {
   const b = k.buddy({ x: 60, y: FY, scale: S });
   // ギプス（右腕に重ねる）と三角巾
   const cast = el('rect', { x: -7, y: 4, width: 14, height: 26, rx: 6, fill: '#fff', stroke: '#D5DCE5', 'stroke-width': 1.5 }, b.armR.a);
-  const sling = el('path', { d: 'M -22 -66 L 26 -20 L 26 -8 L -10 -40 Z', fill: pal.blue, opacity: 0.9 }, b.body);
+  const sling = el('path', { d: 'M -26 -30 L 24 -8 L 24 4 L -26 -18 Z', fill: pal.blue, opacity: 0.9 }, b.body);
   const ball = g({}); el('circle', { r: 10, fill: '#fff', stroke: pal.ink, 'stroke-width': 1.5 }, ball); el('path', { d: 'M 0 -4 l 4 3 l -1.5 5 h -5 l -1.5 -5 Z', fill: pal.ink }, ball);
   const flash = el('rect', { x: 0, y: 0, width: 400, height: 300, fill: '#fff', opacity: 0 });
   const xf = (t) => lerp(60, 180, easeInOut(seg(t, 0, 1.1)));

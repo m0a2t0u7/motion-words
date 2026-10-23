@@ -2,6 +2,7 @@
 import { seg, lerp, easeInOut, easeOut, clamp, hump } from '../ease.js';
 import { fall } from './nature.js';
 import { dog } from './run-after.js';
+import { P, blinkAt } from './body.js';
 
 export const meta = { duration: 4.4, beats: [[0, 'ゴロゴロ…'], [1.4, '犬がにげる'], [2.8, '隠れた']] };
 
@@ -23,6 +24,7 @@ export function create(k) {
   const TX = 300;
   el('rect', { x: TX - 60, y: FY - 76, width: 8, height: 76, fill: pal.woodDark });
   el('rect', { x: TX + 52, y: FY - 76, width: 8, height: 76, fill: pal.woodDark });
+  const me = k.buddy({ x: 70, y: FY, scale: 0.85 });
   const d = dog(k);
   el('path', { d: `M ${TX - 72} ${FY - 82} H ${TX + 72} L ${TX + 70} ${FY - 22} Q ${TX + 52} ${FY - 14} ${TX + 36} ${FY - 22} Q ${TX + 18} ${FY - 14} ${TX} ${FY - 22} Q ${TX - 18} ${FY - 14} ${TX - 36} ${FY - 22} Q ${TX - 52} ${FY - 14} ${TX - 70} ${FY - 22} Z`, fill: '#F2A0A0' });
   el('path', { d: `M ${TX - 72} ${FY - 82} H ${TX + 72}`, stroke: '#E07F7F', 'stroke-width': 4 });
@@ -40,6 +42,8 @@ export function create(k) {
       const jump = hump(seg(t, T + 0.1, T + 0.45));
       const run = seg(t, 1.35, 2.5), x = xf(t), m = run > 0 && run < 1 ? 1 : 0;
       const shake = t > 2.5 ? Math.sin(t * 60) * 1.2 : 0;
+      const st = hump(seg(t, T + 0.05, T + 0.6));
+      P(me, { x: 70, lift: 14 * st, armL: 150 * st + 10, armR: 150 * st + 10, mood: t > 3.0 ? 'smile' : st > 0.1 || (t > T && t < 2.8) ? 'open' : 'flat', blink: blinkAt(t), look: t > 1.6 ? 1 : 0.3 });
       d.set(x + shake, FY - 22 * jump, (x - 150) * 0.12, 1, m);
     }
   };

@@ -1,6 +1,7 @@
 // port：港に止まった船。空が昼→夜→昼→夜と2回めぐり、カレンダーが1日目→2日目になっても船は港にいる（例文 The ship stayed in port for two days.）
 import { seg, lerp, hump, clamp } from '../ease.js';
 import { calendar } from './vehicle.js';
+import { P, blinkAt } from './body.js';
 
 export const meta = { duration: 4.4, beats: [[0, '港に入る'], [1.6, '1日目'], [3.2, '2日目もいる']] };
 
@@ -17,6 +18,7 @@ export function create(k) {
   el('path', { d: 'M 330 180 L 330 60 L 270 60 M 330 80 L 300 60', stroke: pal.yellowDark, 'stroke-width': 6, fill: 'none' });
   el('line', { x1: 280, y1: 60, x2: 280, y2: 110, stroke: pal.ink, 'stroke-width': 2 });
   el('rect', { x: 236, y: WY - 30, width: 6, height: 20, fill: pal.ink }); el('path', { d: 'M 239 172 Q 220 182 214 190', stroke: pal.ink, 'stroke-width': 2, fill: 'none' });
+  const me = k.buddy({ x: 360, y: WY - 20, scale: 0.6 });
   const ship = g({});
   el('path', { d: 'M -120 -20 L 110 -20 L 96 18 L -110 18 Z', fill: pal.blueDark }, ship);
   el('rect', { x: -120, y: -20, width: 230, height: 6, fill: '#fff' }, ship);
@@ -40,6 +42,7 @@ export function create(k) {
       wins.forEach((w) => k.set(w, { fill: nf > 0.4 ? '#FFE08A' : '#9FC4E6' }));
       const x = lerp(-140, 150, 1 - Math.pow(1 - seg(t, 0, 0.6), 3));
       k.tf(ship, x, WY + 2 + Math.sin(t * 2.5) * 1.5);
+      P(me, { x: 360, armR: t > 0.7 ? 150 + 25 * Math.sin(t * 8) : 10, armL: 10, mood: 'smile', blink: blinkAt(t), look: -1 });
       cal.set(t < 1.7 ? '1' : '2', seg(t, 1.7, 2.0));
       dark.parentNode.appendChild(sun); dark.parentNode.appendChild(moon); dark.parentNode.appendChild(cal.g);
     }

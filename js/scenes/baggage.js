@@ -23,7 +23,7 @@ export function create(k) {
   const bang = mark(k, 'bang');
   return {
     update(t) {
-      bags.forEach((b, i) => { const x = 250 + ((t * 30 + i * 46) % 184); k.tf(b, x, 184 - 66 * 0.6, 90, 0.6); b.setAttribute('opacity', x < 400 ? 1 : 0); });
+      bags.forEach((b, i) => { const x = 250 + ((t * 30 + i * 46) % 184); k.tf(b, x, 184 - 66 * 0.6 + 28, 90, 0.6); b.setAttribute('opacity', x < 400 ? 1 : 0); });
       const lookA = t < 1.8 ? Math.sin(t * 3.4) : 0;
       const found = seg(t, 2.6, 3.0);
       P(me, { x: 120 + 30 * easeInOut(seg(t, 3.0, 4.0)), walk: seg(t, 3.0, 4.0) * 7, facing: t < 1.8 ? (lookA > 0 ? 1 : -1) : 1, look: t < 1.8 ? 0.6 : 0.4, mood: t > 2.6 ? 'grin' : 'flat', blink: blinkAt(t), armR: t > 1.8 && t < 2.6 ? 150 : 8 + 40 * found });

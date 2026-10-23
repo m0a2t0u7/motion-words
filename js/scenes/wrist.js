@@ -8,9 +8,9 @@ export const meta = { duration: 4.2, beats: [[0, 'うで時計'], [1.0, '手首�
 export function create(k) {
   const { el, g, tf, pal } = k, S = 1.35, FY = 240;
   streetBg(k, FY);
-  const b = k.buddy({ x: 140, y: FY, scale: S, facing: 1, color: pal.coral, dark: pal.coralDark });
+  const b = k.buddy({ x: 140, y: FY, scale: S, facing: 1 });
   b.armR.a.setAttribute('display', 'none');
-  const arm = limb(k, pal.coral, pal.coralDark, S);
+  const arm = limb(k, pal.mint, pal.mintDark, S);
   const watch = g({});
   el('rect', { x: -8, y: -4, width: 16, height: 8, rx: 2, fill: pal.ink }, watch);
   el('circle', { r: 6, fill: '#fff', stroke: pal.yellowDark, 'stroke-width': 2 }, watch);
@@ -20,7 +20,7 @@ export function create(k) {
   el('rect', { x: -12, y: -60, width: 24, height: 30, fill: pal.ink }, L.inner); el('rect', { x: -12, y: 30, width: 24, height: 30, fill: pal.ink }, L.inner);
   for (let i = 0; i < 12; i++) { const a = i * Math.PI / 6; el('line', { x1: 24 * Math.sin(a), y1: -24 * Math.cos(a), x2: 27 * Math.sin(a), y2: -27 * Math.cos(a), stroke: pal.sub, 'stroke-width': 2 }, L.inner); }
   const hh = el('line', { x1: 0, y1: 0, x2: 0, y2: -14, stroke: pal.ink, 'stroke-width': 3.5, 'stroke-linecap': 'round' }, L.inner);
-  const mh = el('line', { x1: 0, y1: 0, x2: 0, y2: -22, stroke: pal.coralDark, 'stroke-width': 2.4, 'stroke-linecap': 'round' }, L.inner);
+  const mh = el('line', { x1: 0, y1: 0, x2: 0, y2: -22, stroke: pal.red, 'stroke-width': 2.4, 'stroke-linecap': 'round' }, L.inner);
   return {
     update(t) {
       const up = easeInOut(seg(t, 0.8, 1.4));
