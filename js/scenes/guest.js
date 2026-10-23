@@ -12,8 +12,8 @@ export function create(k) {
   el('circle', { cx: 92, cy: 64, r: 10, fill: '#FFE7A0' });
   // 玄関ドア（右）。開くと外にお客さん
   el('rect', { x: 300, y: 80, width: 80, height: 156, fill: '#2E3B57' });
-  const g1 = k.buddy({ x: 322, y: FY, scale: 0.95, facing: -1, ...C(k, 'coral') });
-  const g2 = k.buddy({ x: 358, y: FY, scale: 1.0, facing: -1, ...C(k, 'blue') });
+  const g1 = k.buddy({ x: 326, y: FY, scale: 0.9, facing: -1, ...C(k, 'coral') });
+  const g2 = k.buddy({ x: 356, y: FY, scale: 0.95, facing: -1, ...C(k, 'blue') });
   const door = el('rect', { x: 300, y: 80, width: 80, height: 156, fill: '#B07548' });
   el('rect', { x: 296, y: 76, width: 88, height: 6, fill: '#8B5E3C' });
   const ring = [0, 1, 2].map(() => el('path', { d: 'M 0 -10 Q 7 0 0 10', stroke: pal.yellowDark, 'stroke-width': 3, fill: 'none', 'stroke-linecap': 'round' }));
@@ -22,7 +22,7 @@ export function create(k) {
   const spots = [70, 120, 170, 220];
   const pls = spots.map(() => plateP(k, undefined, 18));
   const A = arms(k, b, 1.1);
-  const xb = keys([[0, 60], [1.2, 190], [2.2, 190], [2.9, 270]]);
+  const xb = keys([[0, 60], [1.2, 190], [2.2, 190], [2.9, 236]]);
   return {
     update(t) {
       const g = gait(xb, t, 60);
@@ -35,6 +35,7 @@ export function create(k) {
       ring.forEach((r, i) => { const u = seg(t, 1.6, 2.4); k.tf(r, 300 - 8 - i * 9 * u, 130, 0, -1); r.setAttribute('opacity', (u > 0 && u < 1 ? 1 - u * 0.6 : 0).toFixed(2)); });
       // ドアを開ける（幅が縮む）
       k.set(door, { width: Math.max(4, 80 * (1 - op)) });
+      g1.g.setAttribute('opacity', op > 0.15 ? 1 : 0); g2.g.setAttribute('opacity', op > 0.15 ? 1 : 0);
       const wave = Math.sin(t * 10) * 14;
       P(g1, { facing: -1, look: 0.4, blink: blinkAt(t, 1), mood: 'grin', armR: op > 0.8 ? 150 + wave : 10 });
       P(g2, { facing: -1, look: 0.4, blink: blinkAt(t, 1.4), mood: 'grin', armR: op > 0.8 ? 140 - wave : 10 });

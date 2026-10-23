@@ -40,7 +40,7 @@ export function create(k) {
       k.set(door, { x: 216 + 64 * op, width: 70 - 0 }); k.tf(lat, 216 + 64 * op, 136);
       const out = easeInOut(seg(t, 1.7, 2.3));
       P(uncle, { x: lerp(251, 236, out), facing: -1, look: 0.5, blink: blinkAt(t), mood: t > 2.2 ? 'grin' : 'smile', lean: 4 * out });
-      A.vis(op > 0.6);
+      A.vis(op > 0.6); uncle.g.setAttribute('opacity', op > 0.1 ? 1 : 0);
       const wave = t > 2.3 ? Math.sin(t * 10) * 14 : 0;
       A.ang('R', t > 2.2 ? 140 + wave : 10); A.ang('L', 12);
       const g = gait(xf, t, -40);

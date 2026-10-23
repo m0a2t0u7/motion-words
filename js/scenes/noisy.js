@@ -34,7 +34,7 @@ export function create(k) {
       // まめ：はじめは本を読む → 耳をふさいで顔をしかめる
       const cover = easeInOut(seg(t, 1.8, 2.3));
       P(b, { look: 0.3 - 0.3 * cover, blink: cover > 0.5 ? 0.85 : blinkAt(t), mood: cover > 0.5 ? 'sad' : 'flat', squash: 1 - 0.06 * cover + 0.02 * cover * Math.sin(t * 20), lean: -4 * cover });
-      b.pose({ armR: lerp(30, 158, cover), armL: lerp(30, 158, cover) });
+      b.pose({ armR: lerp(30, 177, cover), armL: lerp(30, 177, cover) });
     }
   };
 }

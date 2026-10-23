@@ -32,7 +32,7 @@ export function create(k) {
       const shake = t > 1.5 && t < 2.1 ? Math.sin((t - 1.5) * 26) : 0;
       const r = run(xk, t, 220, 1);
       P(kid, { x: r.x, walk: r.walk, armL: r.armL, armR: t > 1.5 && t < 2.1 ? 120 : r.armR, lean: r.lean - 6 * seg(t, 1.2, 1.5) * (t < 2), lift: r.lift, facing: t > 2.0 ? -1 : 1, look: t > 2.0 ? 0.6 : 0.6 + shake * 0.4, blink: blinkAt(t), mood: t > 1.3 && t < 3.2 ? 'flat' : 'smile' });
-      k.tf(no, 252, 150, 0, t > 1.5 && t < 2.3 ? 1 : 0.001);
+      k.tf(no, 196, 148, 0, t > 1.5 && t < 2.3 ? 1 : 0.001);
       // お母さん：両手を広げて迎える
       const op = easeOut(seg(t, 2.6, 3.1));
       P(mom, { look: 0.6, blink: blinkAt(t, 1), mood: t > 3.1 ? 'grin' : 'smile', armR: 10 + 80 * op, armL: 10 + 30 * op, lean: 6 * op });

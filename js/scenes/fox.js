@@ -4,7 +4,7 @@ import { P, blinkAt, walkTo } from './run-after.js';
 import { scene, treeG, mark } from './nature.js';
 import { beast } from './animal.js';
 
-export const meta = { duration: 4.4, beats: [[0, 'しげみ'], [1.4, 'ガサッ'], [2.6, 'キツネがかくれている']] };
+export const meta = { duration: 4.4, beats: [[0, 'しげみ'], [1.4, 'ガサッ'], [2.6, 'かくれている']] };
 
 export function create(k) {
   const { el, g, tf, pal } = k;

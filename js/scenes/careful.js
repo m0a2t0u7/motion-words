@@ -1,6 +1,7 @@
 // careful：包丁を持つまめに「気をつけて！」と声がかかる。まめは指を丸めて人参を押さえ、ゆっくり慎重に切る（例文 Be careful with that knife.）
 import { seg, lerp, easeInOut, easeOut, hump, clamp } from '../ease.js';
 import { CO, hp, reach, P, blinkAt, wear, deskFront, sc } from './member.js';
+import { frontL } from './dig.js';
 import { kitchenBg } from './weigh.js';
 import { cue, talk } from './in-common.js';
 
@@ -11,6 +12,7 @@ export function create(k) {
   kitchenBg(k, FY);
   const mom = k.buddy({ x: 330, y: FY, scale: 0.95, facing: -1, ...CO(k) }); wear(k, mom, 'apron', '#fff');
   const b = k.buddy({ x: 130, y: FY, scale: S, facing: 1 }); wear(k, b, 'apron', '#F7B6C8');
+  const fl = frontL(b, S);
   const TOP = FY - 40;
   deskFront(k, 100, 160, TOP, FY);
   // まな板と人参
@@ -18,8 +20,6 @@ export function create(k) {
   const car = el('rect', { y: TOP - 14, height: 9, rx: 4, fill: '#F2994A' });
   el('path', { d: `M 232 ${TOP - 10} l 10 -6 M 232 ${TOP - 10} l 10 2`, stroke: pal.green, 'stroke-width': 3, 'stroke-linecap': 'round' });
   const slices = [0, 1, 2].map(() => el('ellipse', { rx: 2.5, ry: 4.5, fill: '#F2994A', stroke: '#E07B2A', 'stroke-width': 1 }));
-  // 左手（丸めた指）で押さえる：手前に描く
-  const fist = el('circle', { r: 7, fill: pal.mint, stroke: pal.mintDark, 'stroke-width': 2.5 });
   // 包丁（原点＝握り、刃は右へ）
   const knife = g({});
   el('rect', { x: -12, y: -3, width: 14, height: 6, rx: 3, fill: pal.woodDark }, knife);
@@ -43,7 +43,9 @@ export function create(k) {
       const left = 214 - cuts * 12 + 0;
       k.set(car, { x: 168, width: Math.max(10, left - 168) });
       slices.forEach((s, i) => tf(s, 222 + i * 7, TOP - 10, 0, i < cuts ? 1 : 0.001));
-      tf(fist, lerp(172, 176, seg(t, 1.6, 1.8)), TOP - 14, 0, S);
+      // 左手（手前の腕）で人参を押さえる
+      fl.set(0); const o = fl.pos(0), tx = lerp(150, 178, easeInOut(seg(t, 1.2, 1.7))), ty = lerp(TOP + 10, TOP - 16, easeInOut(seg(t, 1.2, 1.7)));
+      fl.set((Math.atan2((tx - o.x) / S, (ty - o.y) / S) * 180) / Math.PI - b.state.lean);
     }
   };
 }

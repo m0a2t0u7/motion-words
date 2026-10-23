@@ -25,7 +25,7 @@ export function create(k) {
     update(t) {
       const op = easeInOut(seg(t, 1.3, 1.8));
       k.set(door, { width: Math.max(4, 84 * (1 - op)) });
-      H.vis(op > 0.6);
+      H.vis(op > 0.6); host.g.setAttribute('opacity', op > 0.1 ? 1 : 0);
       const step = easeInOut(seg(t, 1.8, 2.2)), spread = easeOut(seg(t, 2.2, 2.6));
       P(host, { x: lerp(292, 278, step), facing: -1, look: 0.5, blink: blinkAt(t), mood: t > 2.2 ? 'grin' : 'smile', lean: -4 * spread });
       H.ang('R', lerp(10, 120, spread) + 10 * Math.sin(t * 6) * spread); H.ang('L', lerp(10, 120, spread));

@@ -23,12 +23,12 @@ export function create(k) {
   const num = k.text(61, 48, '0', { 'font-size': 20, fill: '#9BE1C8' });
   const clicker = k.g({}); el('rect', { x: -7, y: -8, width: 14, height: 16, rx: 4, fill: '#AEB8C6' }, clicker); el('circle', { cx: 0, cy: -9, r: 3, fill: pal.red }, clicker);
   const A = arms(k, st, 1.1);
-  const n = 7, vs = [...Array(n)].map((_, i) => ({ b: k.buddy({ x: 70, y: FY, scale: 0.8 + (i % 3) * 0.12, ...C(k, i % 2 ? 'blue' : 'coral') }), xf: keys([[0.2 + i * 0.5, 70], [2.6 + i * 0.5, 450]]), t0: 0.2 + i * 0.5 }));
+  const n = 7, vs = [...Array(n)].map((_, i) => ({ b: k.buddy({ x: 70, y: FY, scale: 0.8 + (i % 3) * 0.12, ...C(k, i % 2 ? 'blue' : 'coral') }), xf: keys([[0.2 + i * 0.5, -40], [3.0 + i * 0.5, 450]]), t0: 0.2 + i * 0.5 }));
   return {
     update(t) {
       let cnt = 0;
       vs.forEach(({ b, xf, t0 }, i) => {
-        const g = gait(xf, t, 70);
+        const g = gait(xf, t, -40);
         // 絵の前で少しゆっくり（見上げる）
         P(b, { x: g.x, walk: g.walk, armL: g.armL, armR: g.armR, lean: g.lean, look: 0.3, blink: blinkAt(t, i * 0.3), mood: 'smile' });
         b.g.setAttribute('opacity', t > t0 ? 1 : 0);
