@@ -1,0 +1,23 @@
+{
+ "actually": "scene",
+ "applicant": "scene",
+ "automatic": "scene",
+ "digital": "scene",
+ "expense": "scene",
+ "formal": "scene",
+ "legal": "scene",
+ "method": "scene",
+ "opinion": "scene",
+ "policy": "scene",
+ "professional": "scene",
+ "public": "scene",
+ "reasonable": {
+  "t": "judge",
+  "act": "ok",
+  "e": "📋"
+ },
+ "revenue": "scene",
+ "shift": "scene",
+ "sudden": "scene",
+ "technical": "scene"
+}
