@@ -27,6 +27,7 @@ const REQUIRED = ['id', 'en', 'ipa', 'sense', 'ja', 'ex', 'core'];
 const errors = [];
 const ids = new Set();
 const items = [];
+const exRows = [];
 
 for (const cat of CATS) {
   const file = join(root, 'data/items', `${cat.id}.json`);
@@ -47,6 +48,7 @@ for (const cat of CATS) {
     const ZT = ['time', 'freq', 'sure', 'degree', 'mind', 'tell', 'judge', 'compare'];
     if (it.zu && !ZT.includes(it.zu.t)) errors.push(`${it.id}: zu.t は ${ZT.join(' / ')}`);
     if (it.zu && it.motion) errors.push(`${it.id}: motion と zu を両方付けない`);
+    exRows.push([it.id, it.ex?.en || '', it.ex?.ja || '']);
     items.push({ id: it.id, en: it.en, ja: it.ja, cat: cat.id, motion: it.motion || null, ...(it.tpl ? { tpl: it.tpl } : {}), ...(it.zu ? { zu: it.zu } : {}), word: !/\s/.test(it.en.trim()) });
   }
 }
@@ -70,5 +72,6 @@ const stats = {
 };
 const out = { version: new Date().toISOString().slice(0, 10), cats: CATS, stats, items };
 writeFileSync(join(root, 'data/index.json'), JSON.stringify(out) + '\n');
+writeFileSync(join(root, 'data/search.json'), JSON.stringify(exRows) + '\n');
 console.log('OK', JSON.stringify(stats));
 

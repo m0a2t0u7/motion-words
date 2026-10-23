@@ -62,8 +62,27 @@ export function prefetch(id) {
   if (meta) loadShard(meta.cat).catch(() => {});
 }
 
+// 例文の検索用データ（id・英語の例文・日本語訳）。最初に検索したときだけ読む。
+let exMap = null, exLoading = null;
+export function loadSearchData() {
+  if (exMap) return Promise.resolve(exMap);
+  exLoading ||= fetch('data/search.json')
+    .then((r) => (r.ok ? r.json() : []))
+    .then((rows) => (exMap = new Map(rows.map(([id, en, ja]) => [id, { en: en.toLowerCase(), ja }]))))
+    .catch(() => { exLoading = null; return null; });
+  return exLoading;
+}
+export const searchReady = () => !!exMap;
+// 並び順：英語が前方一致 → 英語・意味の一部一致 → 例文だけ一致
 export function search(q) {
-  const s = q.trim().toLowerCase();
+  const raw = q.trim(), s = raw.toLowerCase();
   if (!s) return index.items;
-  return index.items.filter((it) => it.en.toLowerCase().includes(s) || it.ja.includes(q.trim()));
+  const a = [], b = [], c = [];
+  for (const it of index.items) {
+    const en = it.en.toLowerCase();
+    if (en.startsWith(s)) a.push(it);
+    else if (en.includes(s) || it.ja.includes(raw)) b.push(it);
+    else if (exMap) { const x = exMap.get(it.id); if (x && (x.en.includes(s) || x.ja.includes(raw))) c.push(it); }
+  }
+  return a.concat(b, c);
 }

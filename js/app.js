@@ -1,4 +1,4 @@
-import { loadIndex, getItem, prefetch, search } from './data.js';
+import { loadIndex, getItem, prefetch, search, loadSearchData, searchReady } from './data.js';
 import { Stage } from './stage.js';
 import { Speech } from './speech.js';
 import { Player } from './player.js';
@@ -73,6 +73,7 @@ const shuffle = (a) => {
 };
 function idsOf(r) {
   if (r === 'motion') return index.items.filter((i) => i.motion).map((i) => i.id);
+  if (r === 'zukai') return index.items.filter((i) => !i.motion && i.zu).map((i) => i.id);
   if (r === 'mylist') return settings.mylist.filter((id) => index.byId.has(id));
   if (r === 'unlearned') return index.items.filter((i) => !settings.learned.includes(i.id)).map((i) => i.id);
   if (r === 'all') return index.items.map((i) => i.id);
@@ -84,6 +85,7 @@ function rangeName(r = settings.range) {
   if (r === 'mylist') return 'マイリスト';
   if (r === 'unlearned') return 'まだ覚えていない';
   if (r === 'motion') return 'モーション付き';
+  if (r === 'zukai') return '図解付き';
   return index.catLabel[r] || r;
 }
 function applyRange(startId) {
@@ -231,7 +233,7 @@ function renderStats() {
     <div class="stats-note">収録はいま使える項目の実数です。表現＝句動詞・イディオム。モーション付き${s.motion}：専用${s.motionOwn ?? s.motion}（うち3D ${s.motion3d}）・型${s.motionTpl || 0}。図解付き${s.zukai || 0}。どちらもなし${s.total - s.motion - (s.zukai || 0)}。一覧の印：3D＝立体の専用モーション、動き＝2Dのモーション、図解＝意味を図で見せる（モーションとは別に数える）、準備中＝モーションも図解もまだ（音声と例文で学べます）。</div>`;
 }
 function renderChips() {
-  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()], ['motion', 'モーション付き', index.stats.motion]];
+  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()], ['motion', 'モーション付き', index.stats.motion], ['zukai', '図解付き', index.stats.zukai || 0]];
   $('listChips').innerHTML = opts
     .map(([v, l, n]) => `<button class="chip" role="tab" type="button" data-v="${v}" aria-selected="${v === listFilter}">${l}<small>${n}</small></button>`)
     .join('');
@@ -242,6 +244,7 @@ function listItems() {
   if (listFilter === 'mylist') items = items.filter((i) => settings.mylist.includes(i.id));
   else if (listFilter === 'unlearned') items = items.filter((i) => !settings.learned.includes(i.id));
   else if (listFilter === 'motion') items = items.filter((i) => i.motion);
+  else if (listFilter === 'zukai') items = items.filter((i) => !i.motion && i.zu);
   else if (listFilter !== 'all') items = items.filter((i) => i.cat === listFilter);
   return items;
 }
@@ -424,7 +427,7 @@ function pressSeg(seg, v) {
   seg.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.v === String(v))));
 }
 function renderSheet() {
-  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()], ['motion', 'モーション付き', index.stats.motion]];
+  const opts = [['all', 'すべて', index.items.length], ...index.cats.map((c) => [c.id, c.label, index.stats.byCat[c.id] || 0]), ['mylist', 'マイリスト', settings.mylist.length], ['unlearned', 'まだ覚えていない', index.items.length - learnedCount()], ['motion', 'モーション付き', index.stats.motion], ['zukai', '図解付き', index.stats.zukai || 0]];
   $('rangeSeg').innerHTML = opts.map(([v, l, n]) => `<button type="button" data-v="${v}" ${n ? '' : 'disabled'}>${l}<small>${n}</small></button>`).join('');
   pressSeg($('rangeSeg'), settings.range);
   pressSeg($('modeSeg'), settings.mode);
@@ -649,6 +652,13 @@ function bind() {
   $('searchInput').addEventListener('input', () => {
     clearTimeout(searchT);
     searchT = setTimeout(renderList, 120);
+    if (!searchReady() && $('searchInput').value.trim()) loadSearchData().then(() => renderList());
+  });
+  $('searchBtn').addEventListener('click', async () => {
+    await setView('list');
+    window.scrollTo(0, 0);
+    $('searchInput').focus();
+    loadSearchData();
   });
   $('listChips').addEventListener('click', (e) => {
     const b = e.target.closest('.chip');
