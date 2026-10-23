@@ -38,4 +38,4 @@
 ## 図解（2026-10-24 追加）
 - 絵1枚で意味が出ない語は `js/zukai.js` の8つの型（time / freq / sure / degree / mind / tell / judge / compare）で見せる。データに `"zu": {"t": 型, ...}` を付ける（motion とは併用しない）
 - 図解付きはモーション付きと別に数える（stats.zukai、一覧の印は「図解」）
-- 割り当てなかった12語は `data/staging/zu-skipped.txt`。型に合わない名詞や、意味がずれる語（economic など）、不適切な語（lung、survive、dead）
+- 割り当てなかった12語は `data/staging/zu-skipped.txt`。意味が絵にも図解にもならない9語と、子ども向けに不適切な3語（lung、survive、regulation）
