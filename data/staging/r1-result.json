@@ -1,0 +1,8 @@
+{
+ "agenda": "scene", "appropriate": "scene", "browser": "scene", "domestic": "scene",
+ "fact": {"t": "sure", "v": 1},
+ "grammar": "scene", "manual": "scene",
+ "normal": {"t": "judge", "act": "ok", "e": "🌡️"},
+ "ordinary": "skip", "private": "skip", "profit": "scene", "purpose": "scene",
+ "regulation": "skip", "rule": "scene", "simply": "skip", "suitable": "scene", "technology": "scene"
+}
