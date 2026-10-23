@@ -1,0 +1,19 @@
+{
+ "analyze": "scene",
+ "attention": "scene",
+ "consumer": "scene",
+ "efficient": "scene",
+ "flexible": "scene",
+ "knowledge": "scene",
+ "memory": "scene",
+ "only": "scene",
+ "phrase": "skip",
+ "process": "scene",
+ "promotion": "scene",
+ "reason": "skip",
+ "result": "scene",
+ "service": "scene",
+ "subject": "scene",
+ "system": "scene",
+ "wage": "scene"
+}
