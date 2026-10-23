@@ -1,0 +1,10 @@
+language
+cursor
+device
+hardware
+software
+internet
+network
+link
+username
+account

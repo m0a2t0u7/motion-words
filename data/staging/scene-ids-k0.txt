@@ -1,0 +1,10 @@
+file
+document
+page
+chapter
+paragraph
+certificate
+degree
+grade
+mark
+word
