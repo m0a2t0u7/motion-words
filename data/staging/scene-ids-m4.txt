@@ -1,0 +1,10 @@
+school
+university
+class
+lesson
+test
+textbook
+magazine
+experiment
+science
+sentence

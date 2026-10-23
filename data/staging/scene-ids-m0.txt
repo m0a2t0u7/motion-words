@@ -1,0 +1,10 @@
+large
+short
+long
+low
+strong
+weak
+hard
+soft
+old
+young

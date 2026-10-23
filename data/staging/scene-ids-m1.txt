@@ -1,0 +1,10 @@
+new
+early
+late
+quick
+hollow
+solid
+stale
+damp
+humid
+dull
