@@ -1,4 +1,3 @@
-dead
 lung
 official
 ordinary
