@@ -8274,10 +8274,10 @@
     "sense": "（危機を乗り越えて）生き延びる",
     "ja": "生き延びる",
     "ex": {
-      "en": "Only two people survived the accident.",
-      "ja": "その事故で助かったのは2人だけだった。",
+      "en": "Cactuses can survive with very little water.",
+      "ja": "サボテンはほんの少しの水でも生きのびられる。",
       "mark": [
-        "survived"
+        "survive"
       ]
     },
     "core": "死や危機に遭っても生き残る。",
@@ -22111,8 +22111,8 @@
     "sense": "肺",
     "ja": "肺",
     "ex": {
-      "en": "Smoking is bad for your lungs.",
-      "ja": "喫煙は肺に悪い。",
+      "en": "We breathe air into our lungs.",
+      "ja": "私たちは空気を肺に吸いこむ。",
       "mark": [
         "lungs"
       ]
@@ -26111,8 +26111,8 @@
     "sense": "（法律などによる）規制・規則",
     "ja": "規制",
     "ex": {
-      "en": "New regulations limit smoking in restaurants.",
-      "ja": "新しい規制で飲食店での喫煙が制限された。",
+      "en": "Pool regulations say no running.",
+      "ja": "プールの規則で、走るのは禁止されている。",
       "mark": [
         "regulations"
       ]
