@@ -17,7 +17,7 @@ export function create(k) {
   const cam = g({});
   el('rect', { x: -22, y: -14, width: 44, height: 28, rx: 6, fill: pal.ink }, cam);
   el('circle', { cx: 0, cy: 2, r: 10, fill: '#2B3A55', stroke: '#9FB4CC', 'stroke-width': 3 }, cam);
-  const sp = say(k, 52, 40, -1); const ic = g({}, sp.g); k.text(0, 0, '🙏', { 'font-size': 22, 'font-family': EF, 'text-anchor': 'middle', 'dominant-baseline': 'central' }, ic);
+  const sp = say(k, 52, 40, -1); const ic = g({}, sp.g); k.text(0, 0, '📷', { 'font-size': 22, 'font-family': EF, 'text-anchor': 'middle', 'dominant-baseline': 'central' }, ic);
   const fl = el('circle', { cx: 130, cy: 150, r: 80, fill: '#fff', opacity: 0 });
   const ph = g({}); k.el('rect', { x: -22, y: -28, width: 44, height: 56, rx: 3, fill: '#fff', stroke: pal.line, 'stroke-width': 3 }, ph);
   el('rect', { x: -17, y: -23, width: 34, height: 38, fill: '#DDEFFA' }, ph); el('circle', { cx: 6, cy: -11, r: 5, fill: pal.yellow }, ph); el('path', { d: 'M -17 15 L -4 0 L 6 10 L 17 -2 L 17 15 Z', fill: '#7FD3A0' }, ph);

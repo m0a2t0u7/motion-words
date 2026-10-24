@@ -13,7 +13,7 @@ export function create(k) {
   const tx = (s, sz = 14, fill) => k.text(0, 0, s, { 'font-size': sz, 'font-weight': 700, fill: fill || pal.ink, 'text-anchor': 'middle', 'dominant-baseline': 'central' });
   el('rect', { x: 60, y: 180, width: 110, height: 8, rx: 3, fill: pal.wood }); el('rect', { x: 110, y: 188, width: 10, height: FY - 188, fill: pal.woodDark });
   const fd = em('🍜', 36); tf(fd, 115, 162);
-  const th = em('👍', 26), ck = g({});
+  const th = em('⭐', 26), ck = g({});
   el('circle', { r: 22, fill: '#fff', stroke: pal.ink, 'stroke-width': 3 }, ck); const ha = el('line', { x1: 0, y1: 0, x2: 0, y2: -15, stroke: pal.red, 'stroke-width': 3, 'stroke-linecap': 'round' }, ck);
   const hb = g({}, ck); el('line', { x1: 0, y1: 0, x2: 0, y2: -10, stroke: pal.ink, 'stroke-width': 3, 'stroke-linecap': 'round' }, hb);
   const b = k.buddy({ x: 60, y: FY, scale: S });
